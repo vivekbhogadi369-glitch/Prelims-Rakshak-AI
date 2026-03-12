@@ -34,13 +34,19 @@ If PYQs are not available say:
 "No PYQs came from this subtopic so far."
 """
 
-    response = client.responses.create(
-        model="gpt-5-mini",
-        input=prompt
-    )
+    try:
+        response = client.responses.create(
+            model="gpt-5-mini",
+            input=prompt
+        )
+        answer = response.output_text
+    except Exception as e:
+        # Show error details in answer for debugging
+        import traceback
+        answer = "Error: " + str(e) + "\n\n" + traceback.format_exc()
 
     return jsonify({
-        "answer": response.output_text
+        "answer": answer
     })
 
 if __name__ == "__main__":
