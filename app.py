@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
 
@@ -8,18 +8,40 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 @app.route("/")
 def home():
-    return "Prelims Rakshak AI is Live 🚀"
+    return render_template("index.html")
 
 @app.route("/ask", methods=["POST"])
 def ask():
+
     data = request.get_json()
     user_message = data.get("message", "")
 
+    prompt = f"""
+You are Prelims Rakshak AI created by Vivek Sir for UPSC aspirants.
+
+Student question:
+{user_message}
+
+Answer strictly in this format:
+
+A. UPSC PRELIMS PYQs (Past 15 years)
+
+B. QUICK REVISION NOTES (500 words with timeline, mindmap and map pointers)
+
+C. PRACTICE MCQs (10 UPSC standard MCQs with elimination explanation and trap zones)
+
+If PYQs are not available say:
+"No PYQs came from this subtopic so far."
+"""
+
     response = client.responses.create(
         model="gpt-5-mini",
-        input=f"You are Prelims Rakshak AI. Reply briefly. User: {user_message}"
+        input=prompt
     )
 
     return jsonify({
         "answer": response.output_text
     })
+
+if __name__ == "__main__":
+    app.run()
