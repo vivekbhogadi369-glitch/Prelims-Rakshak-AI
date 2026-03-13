@@ -13,12 +13,50 @@ def home():
 @app.route("/ask", methods=["POST"])
 def ask():
     try:
-        data = request.get_json()
-        user_message = data.get("message", "")
+        data = request.get_json(silent=True) or {}
+        user_message = data.get("message", "").strip()
+
+        if not user_message:
+            return jsonify({"answer": "Please enter topic, subject."})
+
+        prompt = f"""
+You are Prelims Rakshak AI created by Vivek Sir for UPSC aspirants.
+
+Student query:
+{user_message}
+
+Answer strictly in the following structure:
+
+A. UPSC PRELIMS PYQs (Past 15 years)
+- List all relevant PYQs from the past 15 years related to the topic.
+- If none exist, write exactly:
+No PYQs came from this subtopic so far.
+
+B. QUICK REVISION NOTES (Minimum 500 words)
+Include:
+- Key concepts
+- Timeline if applicable
+- Map/location references if relevant
+- Mindmap-style bullet structure
+
+C. PRACTICE MCQs
+Generate 10 UPSC standard MCQs.
+
+For each MCQ include:
+- Correct answer
+- Elimination logic
+- Why other options are wrong
+- Trap zone where aspirants usually get confused
+
+Rules:
+- Default language: English
+- Do not ask the student to paste anything
+- Keep the output clean, exam-oriented, and structured
+"""
 
         response = client.responses.create(
             model="gpt-4.1-mini",
-            input=user_message
+            input=prompt
         )
 
         answer = response.output[0].content[0].text
@@ -26,7 +64,7 @@ def ask():
         return jsonify({"answer": answer})
 
     except Exception as e:
-        return jsonify({"answer": str(e)})
+        return jsonify({"answer": f"Error: {str(e)}"})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
