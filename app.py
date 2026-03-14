@@ -5,12 +5,13 @@ import os
 app = Flask(__name__)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
+
 
 @app.route("/")
 def home():
     return render_template("index.html")
+
 
 @app.route("/ask", methods=["POST"])
 def ask():
@@ -33,8 +34,8 @@ Use the uploaded documents as the PRIMARY source.
 
 General Rules:
 - Prefer NCERT explanations whenever available.
-- Use the additional textbook to enrich explanation and presentation.
-- Only use general model knowledge if documents lack information.
+- Use the additional textbook to enrich explanations.
+- Use general model knowledge only if the documents do not contain enough information.
 - Do NOT include references.
 - Do NOT include citations.
 - Do NOT include source names.
@@ -53,59 +54,62 @@ Answer strictly in this structure only:
 A. UPSC PRELIMS PYQs (Past 15 years)
 
 - List relevant PYQs if available.
-- If exact PYQs are not available, include PYQs from closely related subtopics.
+- If exact PYQs are not available, include closely related PYQs.
 - For every PYQ mention the year like:
 2019 - UPSC Prelims
 - Then write the question and answer.
 - If none exist, write exactly:
 No PYQs came from this subtopic so far.
 
-B. QUICK REVISION NOTES (minimum 700 words)
+B. QUICK REVISION NOTES (UPSC Coaching Style - Minimum 700 words)
 
-Make this section look like a polished UPSC coaching handout, not like generic AI output.
+Make this section look like UPSC classroom revision notes.
 
-Required format for Quick Revision Notes:
-1. Topic Title in clean revision style
-2. Brief Introduction (2-3 lines only)
-3. Core headings with concise bullet points
-4. Sub-points where required
-5. Important concepts
-6. Important factual points
-7. One mini table wherever useful
-8. One timeline / chronology block wherever relevant
-9. One map / site / location block wherever relevant
-10. One mini flowchart / hierarchy / mindmap in text format
-11. UPSC Trap Zone
-12. One-line Revision Takeaway
+Structure STRICTLY like this:
 
-Strict formatting rules for Quick Revision Notes:
-- Do NOT use ugly labels such as:
-  "Map/Location Pointers"
-  "Diagram / Hierarchy in Text Form"
-  "Mini Mindmap Summary"
-- Instead use polished coaching-note headings such as:
-  "Important Sites"
-  "Administrative Structure"
-  "Chronology"
-  "Exam Focus"
-  "Quick Revision Flow"
-  "UPSC Trap Zone"
-- Avoid long paragraphs.
-- Prefer crisp bullets and short blocks.
-- Make headings short, natural, and classroom-style.
-- Tables must look clean and useful.
-- Flowcharts should look neat in plain text.
-- The whole section must feel like Vajiram/Drishti style revision notes.
-- Keep the tone academic, exam-focused, and attractive.
+1. Topic Title
+
+2. Brief Introduction (2-3 lines)
+
+3. Core Concepts
+- Use short crisp bullet points
+- Avoid long paragraphs
+
+4. Key Facts Table
+- Compulsory: include one small table wherever possible
+
+5. Chronology Block
+- Give a short timeline wherever relevant
+
+6. Structural Flow / Administrative Diagram
+- Give one neat text flowchart or hierarchy wherever possible
+
+7. Important Sites / Geographic References
+- Mention important locations, sites, capitals, rivers, regions wherever relevant
+
+8. UPSC Trap Zone
+- Mention common exam confusions clearly
+
+9. One-Line Revision Takeaway
+
+Formatting Rules:
+- Prefer bullet points
+- Avoid long paragraphs
+- Use clean headings
+- Use one small table
+- Use one flowchart in plain text
+- Make it look like coaching revision sheets, not generic AI notes
+- Do NOT divide the notes into two separate explanatory parts
+- Write it as one continuous structured revision sheet
 
 C. PRACTICE MCQs
 
 Generate exactly 10 UPSC standard MCQs.
 
 Pattern:
-- 5 Statement based
-- 3 Match the following
-- 2 Factual
+- 5 Statement based questions
+- 3 Match the following questions
+- 2 Factual questions
 
 Difficulty:
 - 3 Easy
@@ -147,6 +151,7 @@ For EACH MCQ include:
 
     except Exception as e:
         return jsonify({"answer": f"Error: {str(e)}"})
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
