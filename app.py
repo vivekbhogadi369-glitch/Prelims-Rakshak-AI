@@ -61,7 +61,7 @@ A. UPSC PRELIMS PYQs (Past 15 years)
 - If none exist, write exactly:
 No PYQs came from this subtopic so far.
 
-B. QUICK REVISION NOTES (minimum 500 words)
+B. QUICK REVISION NOTES (minimum 700 words)
 
 Structure the notes like a UPSC coaching handout and quick revision sheet.
 
@@ -78,6 +78,16 @@ Format:
 10. Mini diagram or mindmap in text format
 11. UPSC trap areas
 12. One-line revision takeaway
+
+VERY IMPORTANT FOR QUICK REVISION NOTES:
+- Make the notes visually rich even in plain text.
+- Compulsorily include at least ONE mini table wherever possible.
+- Compulsorily include at least ONE map pointer section wherever relevant.
+- Compulsorily include at least ONE text diagram / flowchart / hierarchy / mindmap wherever possible.
+- If the NCERT contains locations, sites, sequence, classification, layout, administration, or chronology, convert them into table / diagram / map-pointer format.
+- Do NOT say "map not available" or "diagram not available".
+- Instead, recreate them in text form for revision use.
+- Make it look attractive, organized, and revision-friendly.
 
 Rules for notes:
 - Avoid long paragraphs.
