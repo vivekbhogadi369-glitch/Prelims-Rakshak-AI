@@ -63,23 +63,30 @@ No PYQs came from this subtopic so far.
 
 B. QUICK REVISION NOTES (minimum 500 words)
 
-Structure the notes like UPSC coaching classroom notes.
+Structure the notes like a UPSC coaching handout and quick revision sheet.
 
 Format:
 1. Title
-2. 2–3 line introduction
-3. Main headings with bullet points
+2. 2-3 line introduction
+3. Key headings with crisp bullet points
 4. Sub-points under headings
 5. Important concepts
 6. Important factual points
-7. Timeline / chronology
-8. UPSC trap areas
-9. Mini mindmap summary
+7. Mini table wherever useful
+8. Timeline / chronology
+9. Map / site / location pointers wherever relevant
+10. Mini diagram or mindmap in text format
+11. UPSC trap areas
+12. One-line revision takeaway
 
 Rules for notes:
 - Avoid long paragraphs.
 - Prefer crisp bullet points like coaching institute notes.
 - Make the notes look like quick revision material, not textbook prose.
+- Use short headings and subheadings.
+- Use simple tables where comparison or classification is useful.
+- Use text diagrams / flow style wherever useful.
+- Make it visually organized and revision-friendly.
 
 C. PRACTICE MCQs
 
