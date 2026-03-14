@@ -63,12 +63,23 @@ No PYQs came from this subtopic so far.
 
 B. QUICK REVISION NOTES (minimum 500 words)
 
-Notes must include:
-- Clear concept explanation
-- Timeline / chronology
-- Key exam keywords
-- UPSC trap areas
-- Mini mindmap structure
+Structure the notes like UPSC coaching classroom notes.
+
+Format:
+1. Title
+2. 2–3 line introduction
+3. Main headings with bullet points
+4. Sub-points under headings
+5. Important concepts
+6. Important factual points
+7. Timeline / chronology
+8. UPSC trap areas
+9. Mini mindmap summary
+
+Rules for notes:
+- Avoid long paragraphs.
+- Prefer crisp bullet points like coaching institute notes.
+- Make the notes look like quick revision material, not textbook prose.
 
 C. PRACTICE MCQs
 
