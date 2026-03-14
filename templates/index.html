@@ -46,15 +46,35 @@
             color: white;
         }
         #answer {
-            white-space: pre-wrap;
             margin-top: 20px;
             line-height: 1.6;
             font-size: 16px;
         }
-        #answer h3 {
+        .section {
+            background: #ffffff;
+            border: 1px solid #d9e2ec;
+            border-radius: 10px;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        .section summary {
+            cursor: pointer;
+            padding: 14px;
+            font-weight: bold;
             color: #1d3557;
-            margin-top: 18px;
-            margin-bottom: 8px;
+            background: #eef4fb;
+            outline: none;
+        }
+        .section-content {
+            padding: 14px;
+            white-space: pre-wrap;
+        }
+        .plain-answer {
+            white-space: pre-wrap;
+            background: #ffffff;
+            border: 1px solid #d9e2ec;
+            border-radius: 10px;
+            padding: 14px;
         }
     </style>
 </head>
@@ -79,6 +99,48 @@
     </div>
 
     <script>
+        function escapeHtml(text) {
+            return text
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;");
+        }
+
+        function buildSections(answer) {
+            const pyqHeading = "A. UPSC PRELIMS PYQs";
+            const notesHeading = "B. QUICK REVISION NOTES";
+            const mcqHeading = "C. PRACTICE MCQs";
+
+            const aIndex = answer.indexOf(pyqHeading);
+            const bIndex = answer.indexOf(notesHeading);
+            const cIndex = answer.indexOf(mcqHeading);
+
+            if (aIndex === -1 || bIndex === -1 || cIndex === -1) {
+                return `<div class="plain-answer">${escapeHtml(answer)}</div>`;
+            }
+
+            const pyqText = answer.substring(aIndex + pyqHeading.length, bIndex).trim();
+            const notesText = answer.substring(bIndex + notesHeading.length, cIndex).trim();
+            const mcqText = answer.substring(cIndex + mcqHeading.length).trim();
+
+            return `
+                <details class="section" open>
+                    <summary>▼ PYQs</summary>
+                    <div class="section-content">${escapeHtml(pyqText)}</div>
+                </details>
+
+                <details class="section">
+                    <summary>▼ Quick Revision Notes</summary>
+                    <div class="section-content">${escapeHtml(notesText)}</div>
+                </details>
+
+                <details class="section">
+                    <summary>▼ Practice MCQs</summary>
+                    <div class="section-content">${escapeHtml(mcqText)}</div>
+                </details>
+            `;
+        }
+
         async function askAI() {
             const question = document.getElementById("question").value;
             const answerBox = document.getElementById("answer");
@@ -88,20 +150,20 @@
             askButton.disabled = true;
             askButton.innerText = "Please wait...";
 
-            const response = await fetch("https://prelims-rakshak-ai-production.up.railway.app/ask", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ message: question })
-            });
+            try {
+                const response = await fetch("https://prelims-rakshak-ai-production.up.railway.app/ask", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ message: question })
+                });
 
-            const data = await response.json();
-
-            answerBox.innerHTML = data.answer
-                .replace("A. UPSC PRELIMS PYQs", "<h3>A. UPSC PRELIMS PYQs</h3>")
-                .replace("B. QUICK REVISION NOTES", "<h3>B. QUICK REVISION NOTES</h3>")
-                .replace("C. PRACTICE MCQs", "<h3>C. PRACTICE MCQs</h3>");
+                const data = await response.json();
+                answerBox.innerHTML = buildSections(data.answer || "No answer received.");
+            } catch (error) {
+                answerBox.innerHTML = `<div class="plain-answer">Error: ${escapeHtml(error.toString())}</div>`;
+            }
 
             askButton.disabled = false;
             askButton.innerText = "Ask";
