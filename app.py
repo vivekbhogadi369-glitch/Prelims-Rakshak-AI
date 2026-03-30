@@ -31,6 +31,28 @@ def normalize_topic(text):
     return text
 
 
+ALIASES = {
+    "alexander": "alexander the great",
+    "alexander the great": "alexander the great",
+    "alexander invasion": "alexander the great",
+
+    "sangam era": "sangam age",
+    "sangam period": "sangam age",
+    "sangam age": "sangam age",
+
+    "mauryan age": "mauryan empire",
+    "mauryan period": "mauryan empire",
+    "mauryan era": "mauryan empire",
+    "age of mauryans": "mauryan empire",
+    "mauryan empire": "mauryan empire"
+}
+
+
+def canonical_topic(text):
+    normalized = normalize_topic(text)
+    return ALIASES.get(normalized, normalized)
+
+
 def save_cache():
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(topic_cache, f, ensure_ascii=False, indent=2)
@@ -50,7 +72,7 @@ def ask():
         if not user_message:
             return jsonify({"answer": "Please enter topic, subject."})
 
-        cache_key = normalize_topic(user_message)
+        cache_key = canonical_topic(user_message)
 
         if cache_key in topic_cache:
             return jsonify({"answer": topic_cache[cache_key]})
