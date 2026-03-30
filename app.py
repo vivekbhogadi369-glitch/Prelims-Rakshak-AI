@@ -21,7 +21,14 @@ else:
 
 
 def normalize_topic(text):
-    return " ".join(text.lower().strip().split())
+    text = text.lower().strip()
+    text = text.replace("subject:", "").strip()
+    text = text.replace("topic:", "").strip()
+    text = text.replace("indian history", "").strip()
+    text = text.replace("history", "").strip()
+    text = " ".join(text.split())
+    text = text.strip(", ").strip()
+    return text
 
 
 def save_cache():
