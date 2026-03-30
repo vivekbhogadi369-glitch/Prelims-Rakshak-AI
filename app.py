@@ -39,7 +39,11 @@ GLOBAL RULES:
 - Do NOT use tables
 - Do NOT use markdown tables
 - Do NOT use raw symbols like | for formatting
-- Keep the entire answer simple, clean, mobile-friendly, and easy to read
+- Do NOT use emojis
+- Do NOT use words like Easy, Moderate, Tough inside question titles
+- Do NOT write labels like "Question 1:", "Question 2:", "MCQ 1:", "Statement Based", "Match the Following", "Factual Type"
+- Do NOT write commentary outside the required format
+- Keep the answer simple, clean, mobile-friendly, and easy to read
 - Make the answer look like classroom coaching notes, not AI output
 - End the full answer with exactly this sentence:
 All the best for your preparation.
@@ -62,17 +66,18 @@ Rules:
 - Generate your own fresh short analysis
 - Keep PYQ format simple and readable
 
-For every PYQ use this exact format:
+For every PYQ use this exact format only:
 
 2019 - UPSC Prelims
 Question:
+[full question with options if available]
 Correct Answer:
+[answer only]
 PYQ INSIGHT:
 - Concept Tested:
 - Why UPSC asked this:
 - Elimination Hint:
 - One-line Takeaway:
-
 PYQ TAG:
 - Topic Frequency:
 - Last Asked Year:
@@ -109,7 +114,7 @@ Rules:
 - Do NOT use raw symbols like | or -> or /
 - Do NOT make it look technical
 - Make it easy enough for a beginner student to revise quickly on mobile
-- Include only these headings whenever relevant:
+- Include only these headings whenever relevant, and write each heading exactly as given below:
 
 Introduction
 Background
@@ -120,7 +125,7 @@ UPSC Trap Zone
 Revision Takeaway
 
 Formatting style for Important Sites:
-Use this simple format only:
+Use this exact style only:
 
 Harappa
 - Location:
@@ -163,19 +168,39 @@ Difficulty:
 
 Strict format for every MCQ:
 Question:
+[full question only]
 Options:
+[a full set of options]
 Correct Answer:
+[answer only]
 Elimination Logic:
+[2 to 4 short lines only]
 Why other options are wrong:
+[2 to 4 short lines only]
 Trap Zone:
+[1 to 2 short lines only]
 
-Rules:
+Very important MCQ rules:
+- Do NOT write any title before a question
+- Do NOT write "Question 1", "Question 2", "MCQ 1", "Easy", "Moderate", "Tough"
+- Start every MCQ directly with the label "Question:"
+- Do NOT split one MCQ into multiple cards or sections
+- Keep each MCQ self-contained
 - Do NOT repeat PYQs directly unless absolutely necessary
 - Keep MCQs linked to the same concept family as the user query
 - Make them UPSC-style, not school-style
 - Keep wording simple and clean
 - Avoid very long option blocks
 - Avoid decorative formatting
+
+Before sending the final answer, silently check:
+- Did you use only A, B, C sections?
+- Did you avoid tables and raw symbols?
+- Did every MCQ begin directly with "Question:"?
+- Did you avoid labels like "Question 2 (Moderate)"?
+- Did you avoid any extra commentary?
+
+If any rule is broken, rewrite the answer before sending.
 """
 
         response = client.responses.create(
