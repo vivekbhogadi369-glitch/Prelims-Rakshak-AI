@@ -1,11 +1,32 @@
 from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
+import json
 
 app = Flask(__name__)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
+
+CACHE_FILE = "topic_cache.json"
+
+if os.path.exists(CACHE_FILE):
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            topic_cache = json.load(f)
+    except Exception:
+        topic_cache = {}
+else:
+    topic_cache = {}
+
+
+def normalize_topic(text):
+    return " ".join(text.lower().strip().split())
+
+
+def save_cache():
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(topic_cache, f, ensure_ascii=False, indent=2)
 
 
 @app.route("/")
@@ -21,6 +42,11 @@ def ask():
 
         if not user_message:
             return jsonify({"answer": "Please enter topic, subject."})
+
+        cache_key = normalize_topic(user_message)
+
+        if cache_key in topic_cache:
+            return jsonify({"answer": topic_cache[cache_key]})
 
         prompt = f"""
 You are Prelims Rakshak AI created by Vivek Sir for UPSC aspirants.
@@ -226,6 +252,9 @@ If any rule is broken, rewrite the answer before sending.
                         break
                 if answer != "Error: No answer generated.":
                     break
+
+        topic_cache[cache_key] = answer
+        save_cache()
 
         return jsonify({"answer": answer})
 
