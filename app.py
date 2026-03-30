@@ -36,6 +36,11 @@ GLOBAL RULES:
 - Do NOT print divider lines
 - Do NOT print separator lines like --- or ____ or ===
 - Do NOT add any extra section beyond A, B and C
+- Do NOT use tables
+- Do NOT use markdown tables
+- Do NOT use raw symbols like | for formatting
+- Keep the entire answer simple, clean, mobile-friendly, and easy to read
+- Make the answer look like classroom coaching notes, not AI output
 - End the full answer with exactly this sentence:
 All the best for your preparation.
 
@@ -55,6 +60,7 @@ Rules:
 - Do NOT copy explanation text from the PDF
 - Extract only the question, options and answer from the uploaded PYQ PDFs
 - Generate your own fresh short analysis
+- Keep PYQ format simple and readable
 
 For every PYQ use this exact format:
 
@@ -62,19 +68,16 @@ For every PYQ use this exact format:
 Question:
 Correct Answer:
 PYQ INSIGHT:
+- Concept Tested:
+- Why UPSC asked this:
+- Elimination Hint:
+- One-line Takeaway:
+
 PYQ TAG:
-
-Under PYQ INSIGHT, include only:
-- Concept Tested
-- Why UPSC asked this
-- Elimination Hint
-- One-line Takeaway
-
-Under PYQ TAG, include only:
-- Topic Frequency
-- Last Asked Year
-- Nature
-- Difficulty
+- Topic Frequency:
+- Last Asked Year:
+- Nature:
+- Difficulty:
 
 For Topic Frequency use only:
 High / Medium / Low
@@ -100,8 +103,14 @@ Rules:
 - Minimum around 700 words
 - Prefer short, crisp bullet points
 - Avoid long dull paragraphs
-- Use clean headings only
-- Include:
+- Use only simple headings and bullets
+- Do NOT use tables
+- Do NOT use box drawings
+- Do NOT use raw symbols like | or -> or /
+- Do NOT make it look technical
+- Make it easy enough for a beginner student to revise quickly on mobile
+- Include only these headings whenever relevant:
+
 Introduction
 Background
 Core Features
@@ -109,14 +118,34 @@ Important Sites
 Chronology
 UPSC Trap Zone
 Revision Takeaway
-- Include one small table wherever useful
-- Include one short chronology block wherever relevant
-- Include one plain-text flowchart or hierarchy wherever useful
+
+Formatting style for Important Sites:
+Use this simple format only:
+
+Harappa
+- Location:
+- Importance:
+
+Mohenjo-Daro
+- Location:
+- Importance:
+
+Formatting style for Chronology:
+Use simple bullet points only, for example:
+- 1921 - Harappa discovered
+- 1922 - Mohenjo-Daro discovered
+- 2600 BCE to 1900 BCE - Mature phase
+
+Formatting style for Revision Takeaway:
+Use 4 to 6 very short bullets only
+
+Other rules:
 - Mention important sites, rivers, capitals, regions, or geographic references wherever relevant
 - Include one UPSC Trap Zone
 - Include one one-line revision takeaway
-- Make it look like polished coaching notes, not AI output
-- Keep it visually organized and revision-friendly
+- Keep the tone crisp, factual, exam-oriented, and revision-friendly
+- No clutter
+- No decorative formatting
 
 C. PRACTICE MCQs
 
@@ -144,6 +173,9 @@ Rules:
 - Do NOT repeat PYQs directly unless absolutely necessary
 - Keep MCQs linked to the same concept family as the user query
 - Make them UPSC-style, not school-style
+- Keep wording simple and clean
+- Avoid very long option blocks
+- Avoid decorative formatting
 """
 
         response = client.responses.create(
