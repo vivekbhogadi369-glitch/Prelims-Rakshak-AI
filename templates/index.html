@@ -93,8 +93,7 @@
             padding: 14px;
         }
 
-        /* PYQ styling */
-        .pyq-card {
+        .pyq-card, .mcq-card {
             background: #ffffff;
             border: 1px solid #d9e2ec;
             border-radius: 12px;
@@ -102,227 +101,137 @@
             margin-top: 16px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-        .pyq-year {
+
+        .pyq-year, .topic {
             display: block;
             font-weight: 900;
-            font-size: 19px;
             color: #1d3557;
             margin-bottom: 10px;
-            text-decoration: underline;
-        }
-        .pyq-heading-question {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #1d3557;
-            margin-top: 12px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-        }
-        .pyq-heading-answer {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #0b6e4f;
-            margin-top: 12px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-        }
-        .pyq-answer-value {
-            display: inline-block;
-            margin-top: 4px;
-            padding: 8px 12px;
-            border-radius: 8px;
-            background: #e8f7ee;
-            color: #065f46;
-            font-weight: 700;
-            border: 1px solid #b7e4c7;
-        }
-        .pyq-heading-insight {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #7c3aed;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-        }
-        .pyq-heading-tag {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #c1121f;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-        }
-        .pyq-insight-box {
-            background: #f3e8ff;
-            border-left: 5px solid #7c3aed;
-            padding: 10px 12px;
-            border-radius: 8px;
-            margin-top: 6px;
-        }
-        .pyq-tag-box {
-            background: #fff5f5;
-            border-left: 5px solid #c1121f;
-            padding: 10px 12px;
-            border-radius: 8px;
-            margin-top: 6px;
         }
 
-        /* Notes styling */
+        .pyq-year {
+            font-size: 19px;
+            text-decoration: underline;
+        }
+
         .topic {
-            display: block;
             font-size: 22px;
-            font-weight: 900;
-            color: #1d3557;
-            margin-bottom: 12px;
             line-height: 1.5;
         }
-        .heading {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #1d3557;
-            margin-top: 18px;
-            margin-bottom: 8px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .trap {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #c1121f;
-            margin-top: 18px;
-            margin-bottom: 8px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .takeaway {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #7c3aed;
-            margin-top: 18px;
-            margin-bottom: 8px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .note-block {
-            background: #f8fbff;
-            border-left: 5px solid #1d3557;
-            padding: 12px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-        }
-        .note-block-trap {
-            background: #fff5f5;
-            border-left: 5px solid #c1121f;
-            padding: 12px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-        }
-        .note-block-takeaway {
-            background: #f3e8ff;
-            border-left: 5px solid #7c3aed;
-            padding: 12px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-        }
 
-        /* MCQ styling */
-        .mcq-heading-question {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #1d3557;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-        .mcq-heading-options {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #7c3aed;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-        .mcq-heading-answer {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #1d3557;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-        .mcq-heading-logic {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #0b6e4f;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-        .mcq-heading-trap {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            color: #c1121f;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
+        .pyq-heading-question,
+        .pyq-heading-answer,
+        .pyq-heading-insight,
+        .pyq-heading-tag,
+        .heading,
+        .trap,
+        .takeaway,
+        .mcq-heading-question,
+        .mcq-heading-options,
+        .mcq-heading-answer,
+        .mcq-heading-logic,
+        .mcq-heading-trap,
         .mcq-heading-wrong {
             display: block;
             font-weight: 900;
             font-size: 18px;
-            color: #9c6644;
             margin-top: 14px;
             margin-bottom: 6px;
             text-decoration: underline;
             text-transform: uppercase;
             letter-spacing: 0.4px;
         }
-        .mcq-card {
-            background: #ffffff;
-            border: 1px solid #d9e2ec;
-            border-radius: 12px;
-            padding: 16px;
-            margin-top: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+        .pyq-heading-question, .pyq-heading-answer, .heading,
+        .mcq-heading-question, .mcq-heading-answer {
+            color: #1d3557;
         }
+
+        .pyq-heading-insight, .takeaway {
+            color: #7c3aed;
+        }
+
+        .pyq-heading-tag, .trap, .mcq-heading-trap {
+            color: #c1121f;
+        }
+
+        .mcq-heading-options {
+            color: #7c3aed;
+        }
+
+        .mcq-heading-logic {
+            color: #0b6e4f;
+        }
+
+        .mcq-heading-wrong {
+            color: #9c6644;
+        }
+
+        .pyq-answer-value,
         .mcq-answer-value {
             display: inline-block;
             margin-top: 4px;
             padding: 8px 12px;
             border-radius: 8px;
+            font-weight: 700;
+        }
+
+        .pyq-answer-value {
+            background: #e8f7ee;
+            color: #065f46;
+            border: 1px solid #b7e4c7;
+        }
+
+        .mcq-answer-value {
             background: #d1fae5;
             color: #065f46;
-            font-weight: 700;
             border: 1px solid #a7f3d0;
+        }
+
+        .pyq-insight-box,
+        .pyq-tag-box,
+        .note-block,
+        .note-block-trap,
+        .note-block-takeaway {
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+        }
+
+        .pyq-insight-box {
+            background: #f3e8ff;
+            border-left: 5px solid #7c3aed;
+        }
+
+        .pyq-tag-box {
+            background: #fff5f5;
+            border-left: 5px solid #c1121f;
+        }
+
+        .note-block {
+            background: #f8fbff;
+            border-left: 5px solid #1d3557;
+        }
+
+        .note-block-trap {
+            background: #fff5f5;
+            border-left: 5px solid #c1121f;
+        }
+
+        .note-block-takeaway {
+            background: #f3e8ff;
+            border-left: 5px solid #7c3aed;
+        }
+
+        .mcq-option {
+            margin: 6px 0 0 10px;
+            font-weight: 600;
+        }
+
+        .muted-line {
+            color: #555;
+            font-style: italic;
         }
     </style>
 </head>
@@ -352,17 +261,30 @@ Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MC
 
 <script>
 function escapeHtml(text) {
-    return text
+    return String(text)
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;");
 }
 
 function cleanMarkdownLine(line) {
-    let s = line.trim();
+    let s = (line || "").trim();
     s = s.replace(/^#{1,6}\s*/, "");
     s = s.replace(/\*\*/g, "");
     return s.trim();
+}
+
+function isIgnoreLine(line) {
+    return (
+        /^question\s*\d+/i.test(line) ||
+        /^mcq\s*\d+/i.test(line) ||
+        /^\(?easy\)?$/i.test(line) ||
+        /^\(?moderate\)?$/i.test(line) ||
+        /^\(?tough\)?$/i.test(line) ||
+        /statement based/i.test(line) ||
+        /match the following/i.test(line) ||
+        /factual but tricky/i.test(line)
+    );
 }
 
 function formatPyqText(text) {
@@ -372,16 +294,20 @@ function formatPyqText(text) {
     let inInsight = false;
     let inTag = false;
 
+    function closeBoxes() {
+        if (inInsight) {
+            current.push(`</div>`);
+            inInsight = false;
+        }
+        if (inTag) {
+            current.push(`</div>`);
+            inTag = false;
+        }
+    }
+
     function pushCard() {
         if (current.length > 0) {
-            if (inInsight) {
-                current.push(`</div>`);
-                inInsight = false;
-            }
-            if (inTag) {
-                current.push(`</div>`);
-                inTag = false;
-            }
+            closeBoxes();
             cards.push(`<div class="pyq-card">${current.join("\n")}</div>`);
             current = [];
         }
@@ -389,7 +315,7 @@ function formatPyqText(text) {
 
     for (let i = 0; i < rawLines.length; i++) {
         let line = cleanMarkdownLine(rawLines[i]);
-        if (!line) continue;
+        if (!line || isIgnoreLine(line)) continue;
 
         line = line.replace(/Past 15 years/gi, "Past 10 Years");
 
@@ -399,63 +325,43 @@ function formatPyqText(text) {
             continue;
         }
 
-        if (/^Question:$/i.test(line) || /^QUESTION:$/i.test(line)) {
-            if (inInsight) {
-                current.push(`</div>`);
-                inInsight = false;
-            }
-            if (inTag) {
-                current.push(`</div>`);
-                inTag = false;
-            }
-            current.push(`<span class="pyq-heading-question">QUESTION</span>`);
+        if (/^Question:$/i.test(line)) {
+            closeBoxes();
+            current.push(`<span class="pyq-heading-question">Question</span>`);
+            continue;
+        }
+
+        if (/^Question:\s+/i.test(line)) {
+            closeBoxes();
+            current.push(`<span class="pyq-heading-question">Question</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^Question:\s+/i, ""))}</div>`);
             continue;
         }
 
         if (/^(Correct Answer:|Answer:)$/i.test(line)) {
-            if (inInsight) {
-                current.push(`</div>`);
-                inInsight = false;
-            }
-            if (inTag) {
-                current.push(`</div>`);
-                inTag = false;
-            }
-            current.push(`<span class="pyq-heading-answer">CORRECT ANSWER</span>`);
+            closeBoxes();
+            current.push(`<span class="pyq-heading-answer">Correct Answer</span>`);
             continue;
         }
 
         if (/^(Correct Answer:|Answer:)\s+/i.test(line)) {
-            if (inInsight) {
-                current.push(`</div>`);
-                inInsight = false;
-            }
-            if (inTag) {
-                current.push(`</div>`);
-                inTag = false;
-            }
-            current.push(`<span class="pyq-heading-answer">CORRECT ANSWER</span>`);
+            closeBoxes();
+            current.push(`<span class="pyq-heading-answer">Correct Answer</span>`);
             current.push(`<div class="pyq-answer-value">${escapeHtml(line.replace(/^(Correct Answer:|Answer:)\s+/i, ""))}</div>`);
             continue;
         }
 
         if (/^PYQ INSIGHT:?$/i.test(line)) {
-            if (inTag) {
-                current.push(`</div>`);
-                inTag = false;
-            }
-            current.push(`<span class="pyq-heading-insight">PYQ INSIGHT</span>`);
+            closeBoxes();
+            current.push(`<span class="pyq-heading-insight">PYQ Insight</span>`);
             current.push(`<div class="pyq-insight-box">`);
             inInsight = true;
             continue;
         }
 
         if (/^PYQ TAG:?$/i.test(line)) {
-            if (inInsight) {
-                current.push(`</div>`);
-                inInsight = false;
-            }
-            current.push(`<span class="pyq-heading-tag">PYQ TAG</span>`);
+            closeBoxes();
+            current.push(`<span class="pyq-heading-tag">PYQ Tag</span>`);
             current.push(`<div class="pyq-tag-box">`);
             inTag = true;
             continue;
@@ -467,7 +373,7 @@ function formatPyqText(text) {
             continue;
         }
 
-        current.push(escapeHtml(line));
+        current.push(`<div>${escapeHtml(line)}</div>`);
     }
 
     pushCard();
@@ -477,54 +383,77 @@ function formatPyqText(text) {
 function formatNotesText(text) {
     const rawLines = text.replace(/\r/g, "").split("\n");
     const out = [];
-    let firstNonEmptyHandled = false;
-    let blockOpen = false;
-
-    function openBlock(cls) {
-        out.push(`<div class="${cls}">`);
-        blockOpen = true;
-    }
+    let blockClass = "";
 
     function closeBlock() {
-        if (blockOpen) {
+        if (blockClass) {
             out.push(`</div>`);
-            blockOpen = false;
+            blockClass = "";
         }
     }
+
+    function openBlock(cls) {
+        closeBlock();
+        out.push(`<div class="${cls}">`);
+        blockClass = cls;
+    }
+
+    let firstLineDone = false;
 
     for (let i = 0; i < rawLines.length; i++) {
         let line = cleanMarkdownLine(rawLines[i]);
-        if (!line) continue;
+        if (!line || isIgnoreLine(line)) continue;
 
-        if (!firstNonEmptyHandled) {
+        if (!firstLineDone) {
             out.push(`<span class="topic">${escapeHtml(line)}</span>`);
             openBlock("note-block");
-            firstNonEmptyHandled = true;
+            firstLineDone = true;
             continue;
         }
 
-        if (/^UPSC Trap Zone\s*⚠?$/i.test(line)) {
-            closeBlock();
-            out.push(`<span class="trap">UPSC TRAP ZONE</span>`);
-            openBlock("note-block-trap");
-            continue;
-        }
-
-        if (/^(Revision Takeaway|One-Line Revision Takeaway)$/i.test(line)) {
-            closeBlock();
-            out.push(`<span class="takeaway">REVISION TAKEAWAY</span>`);
-            openBlock("note-block-takeaway");
-            continue;
-        }
-
-        if (/^(Introduction|Background|Core Concepts|Core Features|Urban Layout|Administrative Structure|Political Structure|Economic Features|Important Sites|Chronology)$/i.test(line)) {
-            closeBlock();
-            out.push(`<span class="heading">${escapeHtml(line.toUpperCase())}</span>`);
+        if (/^Introduction$/i.test(line)) {
             openBlock("note-block");
+            out.push(`<span class="heading">INTRODUCTION</span>`);
             continue;
         }
 
-        out.push(escapeHtml(line));
+        if (/^Background$/i.test(line)) {
+            openBlock("note-block");
+            out.push(`<span class="heading">BACKGROUND</span>`);
+            continue;
+        }
+
+        if (/^Core Features$/i.test(line)) {
+            openBlock("note-block");
+            out.push(`<span class="heading">CORE FEATURES</span>`);
+            continue;
+        }
+
+        if (/^Important Sites$/i.test(line)) {
+            openBlock("note-block");
+            out.push(`<span class="heading">IMPORTANT SITES</span>`);
+            continue;
+        }
+
+        if (/^Chronology$/i.test(line)) {
+            openBlock("note-block");
+            out.push(`<span class="heading">CHRONOLOGY</span>`);
+            continue;
+        }
+
+        if (/^UPSC Trap Zone$/i.test(line)) {
+            openBlock("note-block-trap");
+            out.push(`<span class="trap">TRAP ZONE</span>`);
+            continue;
+        }
+
+        if (/^Revision Takeaway$/i.test(line) || /^One-Line Revision Takeaway$/i.test(line)) {
+            openBlock("note-block-takeaway");
+            out.push(`<span class="takeaway">REVISION TAKEAWAY</span>`);
+            continue;
+        }
+
+        out.push(`<div>${escapeHtml(line)}</div>`);
     }
 
     closeBlock();
@@ -535,67 +464,98 @@ function formatMcqText(text) {
     const rawLines = text.replace(/\r/g, "").split("\n");
     let cards = [];
     let current = [];
+    let hasContent = false;
 
     function pushCard() {
-        if (current.length > 0) {
+        if (current.length > 0 && hasContent) {
             cards.push(`<div class="mcq-card">${current.join("\n")}</div>`);
-            current = [];
         }
+        current = [];
+        hasContent = false;
     }
 
     for (let i = 0; i < rawLines.length; i++) {
-        let line = rawLines[i].replace(/\*\*/g, "").trim();
-        if (!line) continue;
+        let line = cleanMarkdownLine(rawLines[i]);
+        if (!line || isIgnoreLine(line)) continue;
 
-        if (/^\d+\.\s+[A-Z]/.test(line)) {
+        if (/^Question:$/i.test(line)) {
             pushCard();
-            current.push(`<b>${escapeHtml(line)}</b>`);
+            current.push(`<span class="mcq-heading-question">Question</span>`);
+            hasContent = true;
             continue;
         }
 
-        if (/^(\d+\.\s*)?(Q:|Question:)/i.test(line)) {
-            current.push(`<span class="mcq-heading-question">QUESTION</span>`);
-            line = line.replace(/^(\d+\.\s*)?(Q:|Question:)/i, "").trim();
-            if (line) current.push(escapeHtml(line));
+        if (/^Question:\s+/i.test(line)) {
+            pushCard();
+            current.push(`<span class="mcq-heading-question">Question</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^Question:\s+/i, ""))}</div>`);
+            hasContent = true;
             continue;
         }
 
-        if (/^Options:/i.test(line)) {
-            current.push(`<span class="mcq-heading-options">OPTIONS</span>`);
+        if (/^Options:$/i.test(line)) {
+            current.push(`<span class="mcq-heading-options">Options</span>`);
             continue;
         }
 
-        if (/^\(?[A-Da-d]\)?[\.\)]\s*/.test(line)) {
-            current.push(`<div style="margin-left:10px;"><b>${escapeHtml(line)}</b></div>`);
+        if (/^Options:\s+/i.test(line)) {
+            current.push(`<span class="mcq-heading-options">Options</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^Options:\s+/i, ""))}</div>`);
             continue;
         }
 
-        if (/^(Correct Answer:|Answer:)/i.test(line)) {
-            current.push(`<span class="mcq-heading-answer">CORRECT ANSWER</span>`);
-            const answerValue = line.replace(/^(Correct Answer:|Answer:)/i, "").trim();
-            current.push(`<div class="mcq-answer-value">${escapeHtml(answerValue)}</div>`);
+        if (/^\(?[A-Da-d1-4]\)?[.)]\s*/.test(line)) {
+            current.push(`<div class="mcq-option">${escapeHtml(line)}</div>`);
+            hasContent = true;
             continue;
         }
 
-        if (/^Elimination Logic:/i.test(line)) {
-            current.push(`<span class="mcq-heading-logic">ELIMINATION LOGIC</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Elimination Logic:/i, "").trim())}</div>`);
+        if (/^(Correct Answer:|Answer:)$/i.test(line)) {
+            current.push(`<span class="mcq-heading-answer">Correct Answer</span>`);
             continue;
         }
 
-        if (/^(Why others are wrong|Why other options are wrong):/i.test(line)) {
-            current.push(`<span class="mcq-heading-wrong">WHY OTHER OPTIONS ARE WRONG</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^(Why others are wrong|Why other options are wrong):/i, "").trim())}</div>`);
+        if (/^(Correct Answer:|Answer:)\s+/i.test(line)) {
+            current.push(`<span class="mcq-heading-answer">Correct Answer</span>`);
+            current.push(`<div class="mcq-answer-value">${escapeHtml(line.replace(/^(Correct Answer:|Answer:)\s+/i, ""))}</div>`);
             continue;
         }
 
-        if (/^Trap Zone:/i.test(line)) {
-            current.push(`<span class="mcq-heading-trap">TRAP ZONE</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Trap Zone:/i, "").trim())}</div>`);
+        if (/^Elimination Logic:$/i.test(line)) {
+            current.push(`<span class="mcq-heading-logic">Elimination Logic</span>`);
             continue;
         }
 
-        current.push(escapeHtml(line));
+        if (/^Elimination Logic:\s+/i.test(line)) {
+            current.push(`<span class="mcq-heading-logic">Elimination Logic</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^Elimination Logic:\s+/i, ""))}</div>`);
+            continue;
+        }
+
+        if (/^(Why others are wrong|Why other options are wrong):$/i.test(line)) {
+            current.push(`<span class="mcq-heading-wrong">Why Other Options Are Wrong</span>`);
+            continue;
+        }
+
+        if (/^(Why others are wrong|Why other options are wrong):\s+/i.test(line)) {
+            current.push(`<span class="mcq-heading-wrong">Why Other Options Are Wrong</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^(Why others are wrong|Why other options are wrong):\s+/i, ""))}</div>`);
+            continue;
+        }
+
+        if (/^Trap Zone:$/i.test(line)) {
+            current.push(`<span class="mcq-heading-trap">Trap Zone</span>`);
+            continue;
+        }
+
+        if (/^Trap Zone:\s+/i.test(line)) {
+            current.push(`<span class="mcq-heading-trap">Trap Zone</span>`);
+            current.push(`<div>${escapeHtml(line.replace(/^Trap Zone:\s+/i, ""))}</div>`);
+            continue;
+        }
+
+        current.push(`<div>${escapeHtml(line)}</div>`);
+        hasContent = true;
     }
 
     pushCard();
