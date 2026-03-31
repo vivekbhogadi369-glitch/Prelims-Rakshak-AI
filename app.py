@@ -282,8 +282,15 @@ If any rule is broken, rewrite the answer before sending.
                 if answer != "Error: No answer generated.":
                     break
 
-        topic_cache[cache_key] = answer
-        save_cache()
+        # Save only if answer looks complete and valid
+        if (
+            "A. UPSC PRELIMS PYQs" in answer and
+            "B. QUICK REVISION NOTES" in answer and
+            "C. PRACTICE MCQs" in answer and
+            len(answer) > 1000
+        ):
+            topic_cache[cache_key] = answer
+            save_cache()
 
         return jsonify({"answer": answer})
 
