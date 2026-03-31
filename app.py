@@ -120,6 +120,9 @@ Rules:
 - Extract only the question, options and answer from the uploaded PYQ PDFs
 - Generate your own fresh short analysis
 - Keep PYQ format simple and readable
+- Do NOT skip any PYQ if present in the uploaded document
+- If more than one PYQ exists in the same year, list each question separately and repeat the year for each question
+- Do NOT merge multiple PYQs from the same year into one entry
 
 For every PYQ use this exact format only:
 
