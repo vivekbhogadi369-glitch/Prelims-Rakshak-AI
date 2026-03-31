@@ -103,8 +103,8 @@ GLOBAL RULES:
 - End the full answer with exactly this sentence:
 All the best for your preparation.
 
-Student query:
-{user_message}
+Topic:
+{cache_key}
 
 Answer strictly in this structure only:
 
@@ -154,7 +154,7 @@ No PYQs came from this subtopic so far.
 B. QUICK REVISION NOTES
 
 At the beginning of this section, write exactly:
-Here are your quick revision notes on {user_message} for your exam.
+Here are your quick revision notes on {cache_key} for your exam.
 
 At the end of this section, write exactly:
 Best wishes for your preparation.
@@ -191,10 +191,7 @@ Mohenjo-Daro
 - Importance:
 
 Formatting style for Chronology:
-Use simple bullet points only, for example:
-- 1921 - Harappa discovered
-- 1922 - Mohenjo-Daro discovered
-- 2600 BCE to 1900 BCE - Mature phase
+Use simple bullet points only
 
 Formatting style for Revision Takeaway:
 Use 4 to 6 very short bullets only
@@ -282,12 +279,13 @@ If any rule is broken, rewrite the answer before sending.
                 if answer != "Error: No answer generated.":
                     break
 
-        # Save only if answer looks complete and valid
         if (
             "A. UPSC PRELIMS PYQs" in answer and
             "B. QUICK REVISION NOTES" in answer and
             "C. PRACTICE MCQs" in answer and
-            len(answer) > 1000
+            "Question:" in answer and
+            "Correct Answer:" in answer and
+            len(answer.split()) > 400
         ):
             topic_cache[cache_key] = answer
             save_cache()
