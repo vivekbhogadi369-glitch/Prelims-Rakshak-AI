@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
 import json
+import re
 
 app = Flask(__name__)
 
@@ -58,6 +59,50 @@ def save_cache():
         json.dump(topic_cache, f, ensure_ascii=False, indent=2)
 
 
+# ===== LOAD PYQ TXT =====
+def load_pyq_text():
+    try:
+        with open("ancient_pyqs.txt", "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception:
+        return ""
+
+
+PYQ_TEXT = load_pyq_text()
+
+
+def get_pyqs_from_txt(topic):
+    if not PYQ_TEXT.strip():
+        return "No PYQs came from this subtopic so far."
+
+    topic = canonical_topic(topic)
+    topic_norm = normalize_topic(topic)
+
+    pattern = re.compile(r"\[(.*?)\](.*?)(?=\n\s*\[.*?\]|\Z)", re.DOTALL)
+    matches = pattern.findall(PYQ_TEXT)
+
+    exact_block = None
+    partial_block = None
+
+    for raw_title, raw_content in matches:
+        title_norm = normalize_topic(raw_title)
+
+        if title_norm == topic_norm:
+            exact_block = raw_content.strip()
+            break
+
+        if topic_norm in title_norm or title_norm in topic_norm:
+            partial_block = raw_content.strip()
+
+    selected = exact_block or partial_block
+
+    if not selected:
+        return "No PYQs came from this subtopic so far."
+
+    return selected
+# ========================
+
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -111,47 +156,9 @@ Answer strictly in this structure only:
 A. UPSC PRELIMS PYQs (Past 10 Years)
 
 Rules:
-- Search uploaded PYQ PDFs first
-- Use exact topic match first
-- If exact PYQs are limited, include closely related PYQs from the same chapter/topic family
-- Do NOT invent PYQs
-- Do NOT invent years
-- Do NOT copy explanation text from the PDF
-- Extract only the question, options and answer from the uploaded PYQ PDFs
-- Generate your own fresh short analysis
-- Keep PYQ format simple and readable
-- Do NOT skip any PYQ if present in the uploaded document
-- If more than one PYQ exists in the same year, list each question separately and repeat the year for each question
-- Do NOT merge multiple PYQs from the same year into one entry
-
-For every PYQ use this exact format only:
-
-2019 - UPSC Prelims
-Question:
-[full question with options if available]
-Correct Answer:
-[answer only]
-PYQ INSIGHT:
-- Concept Tested:
-- Why UPSC asked this:
-- Elimination Hint:
-- One-line Takeaway:
-PYQ TAG:
-- Topic Frequency:
-- Last Asked Year:
-- Nature:
-- Difficulty:
-
-For Topic Frequency use only:
-High / Medium / Low
-
-For Nature use only:
-Factual / Conceptual / Analytical
-
-For Difficulty use only:
-Easy / Moderate / Tough
-
-If no exact or closely related PYQs are found, write exactly:
+- This section will be replaced separately by the system
+- Still keep the section heading in the answer
+- If no PYQs are found, write exactly:
 No PYQs came from this subtopic so far.
 
 B. QUICK REVISION NOTES
@@ -281,6 +288,21 @@ If any rule is broken, rewrite the answer before sending.
                         break
                 if answer != "Error: No answer generated.":
                     break
+
+        # ===== REPLACE PYQ SECTION FROM TXT =====
+        pyq_content = get_pyqs_from_txt(cache_key)
+
+        a_heading = "A. UPSC PRELIMS PYQs (Past 10 Years)"
+        b_heading = "B. QUICK REVISION NOTES"
+
+        if a_heading in answer and b_heading in answer:
+            before_b, after_b = answer.split(b_heading, 1)
+            answer = (
+                f"{a_heading}\n\n"
+                f"{pyq_content.strip()}\n\n"
+                f"{b_heading}{after_b}"
+            )
+        # =======================================
 
         if (
             "A. UPSC PRELIMS PYQs" in answer and
