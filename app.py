@@ -10,36 +10,27 @@ VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
 
 
 def normalize_topic(text):
-    text = text.lower().strip()
-    text = text.replace("subject:", "").strip()
-    text = text.replace("topic:", "").strip()
-    text = text.replace("indian history", "").strip()
-    text = text.replace("history", "").strip()
+    text = (text or "").lower().strip()
+
+    # remove only leading labels / trailing subject tags safely
+    text = re.sub(r"^subject\s*:\s*", "", text)
+    text = re.sub(r"^topic\s*:\s*", "", text)
+    text = re.sub(r",?\s*indian history\s*$", "", text)
+    text = re.sub(r",?\s*history\s*$", "", text)
+
+    # normalize separators and punctuation
+    text = text.replace("&", " and ")
+    text = re.sub(r"[-_/,:;(){}\[\]]", " ", text)
+    text = re.sub(r"[^\w\s]", " ", text)
+
+    # collapse spaces
     text = " ".join(text.split())
-    text = text.strip(", ").strip()
-    return text
 
-
-ALIASES = {
-    "alexander": "alexander the great",
-    "alexander the great": "alexander the great",
-    "alexander invasion": "alexander the great",
-
-    "sangam era": "sangam age",
-    "sangam period": "sangam age",
-    "sangam age": "sangam age",
-
-    "mauryan age": "mauryan empire",
-    "mauryan period": "mauryan empire",
-    "mauryan era": "mauryan empire",
-    "age of mauryans": "mauryan empire",
-    "mauryan empire": "mauryan empire"
-}
+    return text.strip()
 
 
 def canonical_topic(text):
-    normalized = normalize_topic(text)
-    return ALIASES.get(normalized, normalized)
+    return normalize_topic(text)
 
 
 # ===== LOAD PYQ TXT =====
@@ -59,28 +50,61 @@ def get_pyqs_from_txt(topic):
         return "No PYQs came from this subtopic so far."
 
     topic_norm = normalize_topic(topic)
+    if not topic_norm:
+        return "No PYQs came from this subtopic so far."
+
     text = PYQ_TEXT.replace("\r\n", "\n").replace("\r", "\n")
 
+    # Reads blocks like:
+    # [Heading]
+    # content...
+    # until next [Heading]
     pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
     matches = pattern.findall(text)
 
-    exact_match = None
-    partial_match = None
+    if not matches:
+        return "No PYQs came from this subtopic so far."
+
+    def similarity(a, b):
+        a_words = set(a.split())
+        b_words = set(b.split())
+
+        if not a_words or not b_words:
+            return 0.0
+
+        # exact match
+        if a == b:
+            return 1.0
+
+        # containment
+        if a in b or b in a:
+            return 0.9
+
+        # overlap score
+        common = a_words.intersection(b_words)
+        overlap = (2 * len(common)) / (len(a_words) + len(b_words))
+
+        return overlap
+
+    best_score = 0.0
+    best_content = None
 
     for raw_title, raw_content in matches:
         title_norm = normalize_topic(raw_title)
+        content = raw_content.strip()
 
-        if title_norm == topic_norm:
-            exact_match = raw_content.strip()
-            break
+        if not title_norm or not content:
+            continue
 
-        if topic_norm in title_norm or title_norm in topic_norm:
-            partial_match = raw_content.strip()
+        score = similarity(topic_norm, title_norm)
 
-    selected = exact_match or partial_match
+        if score > best_score:
+            best_score = score
+            best_content = content
 
-    if selected and selected.strip():
-        return selected
+    # strict enough to avoid wrong topic pickup, but flexible enough for age/era/period style headings
+    if best_content and best_score >= 0.5:
+        return best_content
 
     return "No PYQs came from this subtopic so far."
 # ========================
