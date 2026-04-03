@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
 import re
+from difflib import SequenceMatcher
 
 app = Flask(__name__)
 
@@ -20,16 +21,34 @@ def normalize_topic(text):
     text = re.sub(r",?\s*indian history\s*$", "", text)
     text = re.sub(r",?\s*history\s*$", "", text)
 
-    # normalize punctuation
+    # normalize common history-equivalent words
+    text = text.replace("civilisation", "civilization")
+    text = text.replace("centre", "center")
+    text = text.replace("centres", "centers")
+
+    # normalize separators/punctuation
     text = text.replace("&", " and ")
     text = re.sub(r"[\[\]\(\)\{\}]", " ", text)
     text = re.sub(r"[-_/,:;]", " ", text)
     text = re.sub(r"[^\w\s]", " ", text)
 
+    # normalize common interchangeable exam words
+    text = re.sub(r"\bera\b", "age", text)
+    text = re.sub(r"\bperiod\b", "age", text)
+
     # collapse spaces
     text = " ".join(text.split())
 
-    return text.strip()
+    # very light singularization for common plural endings
+    words = []
+    for w in text.split():
+        if len(w) > 4 and w.endswith("ies"):
+            w = w[:-3] + "y"
+        elif len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        words.append(w)
+
+    return " ".join(words).strip()
 
 
 def canonical_topic(text):
@@ -48,6 +67,37 @@ def load_pyq_text():
 PYQ_TEXT = load_pyq_text()
 
 
+def score_topic_match(topic_norm, title_norm):
+    if not topic_norm or not title_norm:
+        return 0.0
+
+    # 1. exact match
+    if topic_norm == title_norm:
+        return 1000.0
+
+    # 2. one contains the other
+    if topic_norm in title_norm or title_norm in topic_norm:
+        return 900.0
+
+    topic_words = set(topic_norm.split())
+    title_words = set(title_norm.split())
+
+    if not topic_words or not title_words:
+        return 0.0
+
+    common = topic_words.intersection(title_words)
+
+    # 3. word overlap
+    overlap_count = len(common)
+    overlap_ratio = overlap_count / max(len(topic_words), len(title_words))
+
+    # 4. fuzzy similarity
+    fuzzy = SequenceMatcher(None, topic_norm, title_norm).ratio()
+
+    # combined score
+    return (overlap_count * 100.0) + (overlap_ratio * 100.0) + (fuzzy * 10.0)
+
+
 def get_pyqs_from_txt(topic):
     if not PYQ_TEXT.strip():
         return "No PYQs came from this subtopic so far."
@@ -61,17 +111,16 @@ def get_pyqs_from_txt(topic):
     # block format:
     # [Heading]
     # content...
-    # [Next Heading]
+    # until next [Heading]
     pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
     matches = pattern.findall(text)
 
     if not matches:
         return "No PYQs came from this subtopic so far."
 
-    topic_words = set(topic_norm.split())
-
-    best_score = -1
+    best_score = -1.0
     best_content = None
+    best_title = ""
 
     for raw_title, raw_content in matches:
         title_norm = normalize_topic(raw_title)
@@ -80,29 +129,41 @@ def get_pyqs_from_txt(topic):
         if not title_norm or not content:
             continue
 
-        # exact match
-        if title_norm == topic_norm:
-            return content
-
-        # full containment
-        if topic_norm in title_norm or title_norm in topic_norm:
-            score = 100
-        else:
-            title_words = set(title_norm.split())
-            common = topic_words.intersection(title_words)
-            score = len(common)
+        score = score_topic_match(topic_norm, title_norm)
 
         if score > best_score:
             best_score = score
             best_content = content
+            best_title = title_norm
 
-    # safe fallback:
-    # - if single-word topic, 1 common word is enough
-    # - if multi-word topic, require at least 2 common words
-    if best_content:
-        if len(topic_words) == 1 and best_score >= 1:
+    if not best_content:
+        return "No PYQs came from this subtopic so far."
+
+    # safety checks so wrong topics are not picked
+    topic_words = set(topic_norm.split())
+    best_title_words = set(best_title.split())
+    common_words = topic_words.intersection(best_title_words)
+
+    # accept if:
+    # exact/containment score already hit, or
+    # at least 2 common words, or
+    # single-word topic with strong fuzzy similarity
+    if best_score >= 900:
+        return best_content
+
+    if len(common_words) >= 2:
+        return best_content
+
+    if len(topic_words) == 1:
+        fuzzy = SequenceMatcher(None, topic_norm, best_title).ratio()
+        if fuzzy >= 0.72:
             return best_content
-        if len(topic_words) >= 2 and best_score >= 2:
+
+    # extra fallback:
+    # for two-word topics, accept one strong matching keyword + decent fuzzy similarity
+    if len(topic_words) == 2:
+        fuzzy = SequenceMatcher(None, topic_norm, best_title).ratio()
+        if len(common_words) >= 1 and fuzzy >= 0.68:
             return best_content
 
     return "No PYQs came from this subtopic so far."
