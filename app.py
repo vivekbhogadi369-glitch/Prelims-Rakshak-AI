@@ -58,31 +58,31 @@ def get_pyqs_from_txt(topic):
     if not PYQ_TEXT.strip():
         return "No PYQs came from this subtopic so far."
 
-    topic = canonical_topic(topic)
     topic_norm = normalize_topic(topic)
+    text = PYQ_TEXT.replace("\r\n", "\n").replace("\r", "\n")
 
-    pattern = re.compile(r"\[(.*?)\](.*?)(?=\n\s*\[.*?\]|\Z)", re.DOTALL)
-    matches = pattern.findall(PYQ_TEXT)
+    pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
+    matches = pattern.findall(text)
 
-    exact_block = None
-    partial_block = None
+    exact_match = None
+    partial_match = None
 
     for raw_title, raw_content in matches:
         title_norm = normalize_topic(raw_title)
 
         if title_norm == topic_norm:
-            exact_block = raw_content.strip()
+            exact_match = raw_content.strip()
             break
 
         if topic_norm in title_norm or title_norm in topic_norm:
-            partial_block = raw_content.strip()
+            partial_match = raw_content.strip()
 
-    selected = exact_block or partial_block
+    selected = exact_match or partial_match
 
-    if not selected:
-        return "No PYQs came from this subtopic so far."
+    if selected and selected.strip():
+        return selected
 
-    return selected
+    return "No PYQs came from this subtopic so far."
 # ========================
 
 
@@ -284,6 +284,14 @@ If any rule is broken, rewrite the answer before sending.
                 f"{pyq_content.strip()}\n\n"
                 f"{b_heading}{after_b}"
             )
+
+        # Force exact headings for frontend formatter
+        answer = answer.replace("A. UPSC PRElims PYQs (Past 10 Years)", "A. UPSC PRELIMS PYQs (Past 10 Years)")
+        answer = answer.replace("A. UPSC PRElims PYQs", "A. UPSC PRELIMS PYQs")
+        answer = answer.replace("A. UPSC PRELims PYQs", "A. UPSC PRELIMS PYQs")
+        answer = answer.replace("A. UPSC Prelims PYQs", "A. UPSC PRELIMS PYQs")
+        answer = answer.replace("B. Quick Revision Notes", "B. QUICK REVISION NOTES")
+        answer = answer.replace("C. Practice MCQs", "C. PRACTICE MCQs")
         # =======================================
 
         return jsonify({"answer": answer})
