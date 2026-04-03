@@ -12,15 +12,18 @@ VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
 def normalize_topic(text):
     text = (text or "").lower().strip()
 
-    # remove only leading labels / trailing subject tags safely
+    # remove only leading labels
     text = re.sub(r"^subject\s*:\s*", "", text)
     text = re.sub(r"^topic\s*:\s*", "", text)
+
+    # remove subject tags only at the end
     text = re.sub(r",?\s*indian history\s*$", "", text)
     text = re.sub(r",?\s*history\s*$", "", text)
 
-    # normalize separators and punctuation
+    # normalize punctuation
     text = text.replace("&", " and ")
-    text = re.sub(r"[-_/,:;(){}\[\]]", " ", text)
+    text = re.sub(r"[\[\]\(\)\{\}]", " ", text)
+    text = re.sub(r"[-_/,:;]", " ", text)
     text = re.sub(r"[^\w\s]", " ", text)
 
     # collapse spaces
@@ -55,38 +58,19 @@ def get_pyqs_from_txt(topic):
 
     text = PYQ_TEXT.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Reads blocks like:
+    # block format:
     # [Heading]
     # content...
-    # until next [Heading]
+    # [Next Heading]
     pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
     matches = pattern.findall(text)
 
     if not matches:
         return "No PYQs came from this subtopic so far."
 
-    def similarity(a, b):
-        a_words = set(a.split())
-        b_words = set(b.split())
+    topic_words = set(topic_norm.split())
 
-        if not a_words or not b_words:
-            return 0.0
-
-        # exact match
-        if a == b:
-            return 1.0
-
-        # containment
-        if a in b or b in a:
-            return 0.9
-
-        # overlap score
-        common = a_words.intersection(b_words)
-        overlap = (2 * len(common)) / (len(a_words) + len(b_words))
-
-        return overlap
-
-    best_score = 0.0
+    best_score = -1
     best_content = None
 
     for raw_title, raw_content in matches:
@@ -96,15 +80,30 @@ def get_pyqs_from_txt(topic):
         if not title_norm or not content:
             continue
 
-        score = similarity(topic_norm, title_norm)
+        # exact match
+        if title_norm == topic_norm:
+            return content
+
+        # full containment
+        if topic_norm in title_norm or title_norm in topic_norm:
+            score = 100
+        else:
+            title_words = set(title_norm.split())
+            common = topic_words.intersection(title_words)
+            score = len(common)
 
         if score > best_score:
             best_score = score
             best_content = content
 
-    # strict enough to avoid wrong topic pickup, but flexible enough for age/era/period style headings
-    if best_content and best_score >= 0.5:
-        return best_content
+    # safe fallback:
+    # - if single-word topic, 1 common word is enough
+    # - if multi-word topic, require at least 2 common words
+    if best_content:
+        if len(topic_words) == 1 and best_score >= 1:
+            return best_content
+        if len(topic_words) >= 2 and best_score >= 2:
+            return best_content
 
     return "No PYQs came from this subtopic so far."
 # ========================
@@ -302,7 +301,7 @@ If any rule is broken, rewrite the answer before sending.
         b_heading = "B. QUICK REVISION NOTES"
 
         if a_heading in answer and b_heading in answer:
-            before_b, after_b = answer.split(b_heading, 1)
+            _, after_b = answer.split(b_heading, 1)
             answer = (
                 f"{a_heading}\n\n"
                 f"{pyq_content.strip()}\n\n"
