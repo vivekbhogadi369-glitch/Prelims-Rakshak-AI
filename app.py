@@ -1,24 +1,12 @@
 from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
-import json
 import re
 
 app = Flask(__name__)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
-
-CACHE_FILE = "topic_cache.json"
-
-if os.path.exists(CACHE_FILE):
-    try:
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            topic_cache = json.load(f)
-    except Exception:
-        topic_cache = {}
-else:
-    topic_cache = {}
 
 
 def normalize_topic(text):
@@ -52,11 +40,6 @@ ALIASES = {
 def canonical_topic(text):
     normalized = normalize_topic(text)
     return ALIASES.get(normalized, normalized)
-
-
-def save_cache():
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(topic_cache, f, ensure_ascii=False, indent=2)
 
 
 # ===== LOAD PYQ TXT =====
@@ -117,10 +100,7 @@ def ask():
         if not user_message:
             return jsonify({"answer": "Please enter topic, subject."})
 
-        cache_key = canonical_topic(user_message)
-
-        if cache_key in topic_cache:
-            return jsonify({"answer": topic_cache[cache_key]})
+        topic_key = canonical_topic(user_message)
 
         prompt = f"""
 You are Prelims Rakshak AI created by Vivek Sir for UPSC aspirants.
@@ -149,7 +129,7 @@ GLOBAL RULES:
 All the best for your preparation.
 
 Topic:
-{cache_key}
+{topic_key}
 
 Answer strictly in this structure only:
 
@@ -164,7 +144,7 @@ No PYQs came from this subtopic so far.
 B. QUICK REVISION NOTES
 
 At the beginning of this section, write exactly:
-Here are your quick revision notes on {cache_key} for your exam.
+Here are your quick revision notes on {topic_key} for your exam.
 
 At the end of this section, write exactly:
 Best wishes for your preparation.
@@ -213,6 +193,7 @@ Other rules:
 - Keep the tone crisp, factual, exam-oriented, and revision-friendly
 - No clutter
 - No decorative formatting
+- Cover complete syllabus scope of the topic, not partial content
 
 C. PRACTICE MCQs
 
@@ -250,6 +231,7 @@ Very important MCQ rules:
 - Keep each MCQ self-contained
 - Do NOT repeat PYQs directly unless absolutely necessary
 - Keep MCQs linked to the same concept family as the user query
+- Each MCQ must test a different sub-concept from the topic
 - Make them UPSC-style, not school-style
 - Keep wording simple and clean
 - Avoid very long option blocks
@@ -290,7 +272,7 @@ If any rule is broken, rewrite the answer before sending.
                     break
 
         # ===== REPLACE PYQ SECTION FROM TXT =====
-        pyq_content = get_pyqs_from_txt(cache_key)
+        pyq_content = get_pyqs_from_txt(topic_key)
 
         a_heading = "A. UPSC PRELIMS PYQs (Past 10 Years)"
         b_heading = "B. QUICK REVISION NOTES"
@@ -303,17 +285,6 @@ If any rule is broken, rewrite the answer before sending.
                 f"{b_heading}{after_b}"
             )
         # =======================================
-
-        if (
-            "A. UPSC PRELIMS PYQs" in answer and
-            "B. QUICK REVISION NOTES" in answer and
-            "C. PRACTICE MCQs" in answer and
-            "Question:" in answer and
-            "Correct Answer:" in answer and
-            len(answer.split()) > 400
-        ):
-            topic_cache[cache_key] = answer
-            save_cache()
 
         return jsonify({"answer": answer})
 
