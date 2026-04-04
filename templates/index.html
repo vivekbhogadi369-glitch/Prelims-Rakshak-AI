@@ -291,6 +291,25 @@
             font-size: 14px;
         }
 
+        .browse-nav {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .nav-button {
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            flex: unset;
+        }
+
         .question-browser-card {
             background: #ffffff;
             border: 1px solid #d9e2ec;
@@ -358,6 +377,10 @@ Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MC
         <div class="browse-panel">
             <div class="pyq-browser-title">Browse PYQs</div>
             <div class="selected-path" id="selectedPath">Choose a subject to begin.</div>
+            <div class="browse-nav">
+                <button type="button" id="backToSubjectsBtn" class="nav-button hidden" onclick="backToSubjects()">← Back to Subjects</button>
+                <button type="button" id="backToTopicsBtn" class="nav-button hidden" onclick="backToTopics()">← Back to Topics</button>
+            </div>
         </div>
 
         <div id="subjectPanel" class="browse-panel">
@@ -729,6 +752,8 @@ function resetAI() {
     document.getElementById("topicPanel").classList.add("hidden");
     document.getElementById("questionPanel").classList.add("hidden");
     document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
+    document.getElementById("backToSubjectsBtn").classList.add("hidden");
+    document.getElementById("backToTopicsBtn").classList.add("hidden");
     currentSubject = "";
     currentTopic = "";
 }
@@ -779,6 +804,47 @@ function buildQuestionCards(questions) {
     return html;
 }
 
+function showSubjectView() {
+    document.getElementById("subjectPanel").classList.remove("hidden");
+    document.getElementById("topicPanel").classList.add("hidden");
+    document.getElementById("questionPanel").classList.add("hidden");
+    document.getElementById("backToSubjectsBtn").classList.add("hidden");
+    document.getElementById("backToTopicsBtn").classList.add("hidden");
+    document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
+}
+
+function showTopicView() {
+    document.getElementById("subjectPanel").classList.remove("hidden");
+    document.getElementById("topicPanel").classList.remove("hidden");
+    document.getElementById("questionPanel").classList.add("hidden");
+    document.getElementById("backToSubjectsBtn").classList.remove("hidden");
+    document.getElementById("backToTopicsBtn").classList.add("hidden");
+    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}`;
+}
+
+function showQuestionView() {
+    document.getElementById("subjectPanel").classList.remove("hidden");
+    document.getElementById("topicPanel").classList.remove("hidden");
+    document.getElementById("questionPanel").classList.remove("hidden");
+    document.getElementById("backToSubjectsBtn").classList.remove("hidden");
+    document.getElementById("backToTopicsBtn").classList.remove("hidden");
+    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}  |  Topic: ${currentTopic}`;
+}
+
+function backToSubjects() {
+    currentSubject = "";
+    currentTopic = "";
+    document.getElementById("topics").innerHTML = "";
+    document.getElementById("questions").innerHTML = "";
+    showSubjectView();
+}
+
+function backToTopics() {
+    currentTopic = "";
+    document.getElementById("questions").innerHTML = "";
+    showTopicView();
+}
+
 async function togglePyqBrowser() {
     const browser = document.getElementById("pyqBrowser");
     const isHidden = browser.classList.contains("hidden");
@@ -790,10 +856,13 @@ async function togglePyqBrowser() {
 
     browser.classList.remove("hidden");
     document.getElementById("selectedPath").innerText = "Loading subjects...";
-    document.getElementById("topicPanel").classList.add("hidden");
-    document.getElementById("questionPanel").classList.add("hidden");
     document.getElementById("topics").innerHTML = "";
     document.getElementById("questions").innerHTML = "";
+    currentSubject = "";
+    currentTopic = "";
+
+    showSubjectView();
+    document.getElementById("subjects").innerHTML = "Loading subjects...";
 
     try {
         const res = await fetch(`${BASE_URL}/pyq-subjects`);
@@ -810,10 +879,7 @@ async function loadTopics(encodedSubject) {
     currentSubject = decodeURIComponent(encodedSubject);
     currentTopic = "";
 
-    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}`;
-    document.getElementById("questionPanel").classList.add("hidden");
-    document.getElementById("questions").innerHTML = "";
-    document.getElementById("topicPanel").classList.remove("hidden");
+    showTopicView();
     document.getElementById("topics").innerHTML = "Loading topics...";
 
     try {
@@ -829,8 +895,7 @@ async function loadQuestions(encodedSubject, encodedTopic) {
     currentSubject = decodeURIComponent(encodedSubject);
     currentTopic = decodeURIComponent(encodedTopic);
 
-    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}  |  Topic: ${currentTopic}`;
-    document.getElementById("questionPanel").classList.remove("hidden");
+    showQuestionView();
     document.getElementById("questions").innerHTML = "Loading PYQs...";
 
     try {
