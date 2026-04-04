@@ -369,6 +369,47 @@
             color: #1f2937;
         }
 
+        .question-browser-option-btn {
+            width: 100%;
+            text-align: left;
+            margin: 12px 0 0 0;
+            padding: 12px 14px;
+            background: #f8fbff;
+            color: #1f2937;
+            border: 1px solid #dbe4ee;
+            border-radius: 12px;
+            font-weight: 600;
+            line-height: 1.65;
+            cursor: pointer;
+        }
+
+        .question-browser-option-btn:hover {
+            background: #eef4fb;
+        }
+
+        .question-browser-option-btn.selected {
+            background: #dbeafe;
+            border: 1px solid #93c5fd;
+            color: #1e3a8a;
+        }
+
+        .question-browser-option-btn.correct {
+            background: #dcfce7;
+            border: 1px solid #86efac;
+            color: #166534;
+        }
+
+        .question-browser-option-btn.wrong {
+            background: #fee2e2;
+            border: 1px solid #fca5a5;
+            color: #991b1b;
+        }
+
+        .question-browser-option-btn:disabled {
+            opacity: 1;
+            cursor: default;
+        }
+
         .question-browser-answer-wrap {
             margin-top: 4px;
         }
@@ -403,6 +444,29 @@
             line-height: 1.7;
             color: #7c2d12;
             font-size: 15px;
+        }
+
+        .question-browser-result-box {
+            margin-top: 16px;
+            padding: 14px 15px;
+            border-radius: 12px;
+            font-weight: 700;
+            line-height: 1.7;
+            border: 1px solid #dbe4ee;
+            background: #f8fbff;
+            color: #1f2937;
+        }
+
+        .question-browser-result-box.correct {
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            color: #065f46;
+        }
+
+        .question-browser-result-box.wrong {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
         }
 
         .frequency-badge {
@@ -471,6 +535,12 @@
             }
 
             .question-browser-option {
+                font-size: 16px;
+                line-height: 1.6;
+                padding: 11px 12px;
+            }
+
+            .question-browser-option-btn {
                 font-size: 16px;
                 line-height: 1.6;
                 padding: 11px 12px;
@@ -929,6 +999,22 @@ function getFrequencyClass(freq) {
     return "frequency-low";
 }
 
+function normalizeOptionLabel(text) {
+    const s = String(text || "").trim();
+    const match = s.match(/^\(?([A-Da-d1-4])\)?[.)]?/);
+    if (!match) return s.toUpperCase();
+    const raw = match[1].toUpperCase();
+    if (raw === "1") return "A";
+    if (raw === "2") return "B";
+    if (raw === "3") return "C";
+    if (raw === "4") return "D";
+    return raw;
+}
+
+function getCorrectOptionLabel(correctAnswer) {
+    return normalizeOptionLabel(correctAnswer);
+}
+
 function buildQuestionCards(questions) {
     if (!questions || questions.length === 0) {
         return `<div class="plain-answer">No PYQs found for this topic.</div>`;
@@ -938,61 +1024,129 @@ function buildQuestionCards(questions) {
     questions.forEach((q, index) => {
         const explanationId = `explanation-${index}`;
         const logicId = `logic-${index}`;
+        const resultId = `result-${index}`;
+        const detailWrapId = `detail-wrap-${index}`;
+        const correctLabel = getCorrectOptionLabel(q.correct_answer || "");
 
         html += `
             <div class="question-browser-card">
                 <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
 
-                ${q.theme_frequency ? `
-                    <div style="margin-bottom: 14px;">
-                        <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
-                    </div>
-                ` : ""}
-
                 <span class="question-browser-heading">Question</span>
                 <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
 
-                <span class="question-browser-heading">Options</span>
-                <div class="question-browser-options">
-                    ${(q.options || []).map(opt => `<div class="question-browser-option">${escapeHtml(opt)}</div>`).join("")}
+                <span class="question-browser-heading">Choose Your Answer</span>
+                <div class="question-browser-options" id="options-wrap-${index}">
+                    ${(q.options || []).map((opt, optIndex) => {
+                        const optionLabel = normalizeOptionLabel(opt);
+                        return `
+                            <button
+                                type="button"
+                                class="question-browser-option-btn"
+                                id="option-${index}-${optIndex}"
+                                data-option-label="${escapeHtml(optionLabel)}"
+                                onclick="selectPyqOption(${index}, '${escapeHtml(optionLabel)}', '${escapeHtml(correctLabel)}', '${resultId}', '${detailWrapId}')"
+                            >
+                                ${escapeHtml(opt)}
+                            </button>
+                        `;
+                    }).join("")}
                 </div>
 
-                <span class="question-browser-heading">Correct Answer</span>
-                <div class="question-browser-answer-wrap">
-                    <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
-                </div>
+                <div id="${resultId}" class="hidden"></div>
 
-                <div class="question-browser-toggle-row">
+                <div id="${detailWrapId}" class="hidden">
+                    <div class="question-browser-answer-wrap" style="margin-top: 16px;">
+                        <span class="question-browser-heading">Correct Answer</span>
+                        <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
+                    </div>
+
+                    ${q.theme_frequency ? `
+                        <div style="margin-top: 16px;">
+                            <span class="question-browser-heading">Theme Frequency</span>
+                            <div>
+                                <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
+                            </div>
+                        </div>
+                    ` : ""}
+
+                    <div class="question-browser-toggle-row">
+                        ${q.explanation ? `
+                            <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
+                                Show Explanation
+                            </button>
+                        ` : ""}
+
+                        ${q.elimination_logic ? `
+                            <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
+                                Show Elimination Logic
+                            </button>
+                        ` : ""}
+                    </div>
+
                     ${q.explanation ? `
-                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
-                            Show Explanation
-                        </button>
+                        <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
+                            <span class="question-browser-heading">Explanation</span>
+                            <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
+                        </div>
                     ` : ""}
 
                     ${q.elimination_logic ? `
-                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
-                            Show Elimination Logic
-                        </button>
+                        <div id="${logicId}" class="hidden" style="margin-top: 14px;">
+                            <span class="question-browser-heading">Elimination Logic</span>
+                            <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
+                        </div>
                     ` : ""}
                 </div>
-
-                ${q.explanation ? `
-                    <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
-                        <span class="question-browser-heading">Explanation</span>
-                        <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
-                    </div>
-                ` : ""}
-
-                ${q.elimination_logic ? `
-                    <div id="${logicId}" class="hidden" style="margin-top: 14px;">
-                        <span class="question-browser-heading">Elimination Logic</span>
-                        <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
-                    </div>
-                ` : ""}
             </div>
         `;
     });
     return html;
+}
+
+function selectPyqOption(questionIndex, selectedLabel, correctLabel, resultId, detailWrapId) {
+    const buttons = document.querySelectorAll(`[id^="option-${questionIndex}-"]`);
+    let resultClass = "wrong";
+    let resultHtml = `
+        <div class="question-browser-result-box wrong">
+            Your Answer: ${escapeHtml(selectedLabel)}<br>
+            Correct Answer: ${escapeHtml(correctLabel)}
+        </div>
+    `;
+
+    buttons.forEach(btn => {
+        btn.disabled = true;
+        const btnLabel = btn.getAttribute("data-option-label");
+
+        if (btnLabel === correctLabel) {
+            btn.classList.add("correct");
+        }
+
+        if (btnLabel === selectedLabel && selectedLabel !== correctLabel) {
+            btn.classList.add("wrong");
+        }
+
+        if (btnLabel === selectedLabel && selectedLabel === correctLabel) {
+            btn.classList.add("correct");
+        }
+    });
+
+    if (selectedLabel === correctLabel) {
+        resultClass = "correct";
+        resultHtml = `
+            <div class="question-browser-result-box correct">
+                Correct ✅<br>
+                Your Answer: ${escapeHtml(selectedLabel)}
+            </div>
+        `;
+    }
+
+    const resultBox = document.getElementById(resultId);
+    resultBox.classList.remove("hidden");
+    resultBox.innerHTML = resultHtml;
+
+    const detailWrap = document.getElementById(detailWrapId);
+    detailWrap.classList.remove("hidden");
 }
 
 function toggleAnswerSection(sectionId, button, label) {
