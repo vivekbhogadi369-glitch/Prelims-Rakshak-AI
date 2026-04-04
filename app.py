@@ -93,10 +93,6 @@ PYQ_TEXT = load_pyq_text()
 def extract_pyq_blocks(text):
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
-    # Standard expected format:
-    # [Heading]
-    # content...
-    # [Next Heading]
     pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
     matches = pattern.findall(text)
 
@@ -114,11 +110,9 @@ def score_topic_match(topic_norm, title_norm):
     if not topic_norm or not title_norm:
         return -1
 
-    # 1. exact match
     if topic_norm == title_norm:
         return 1000
 
-    # 2. containment match
     if topic_norm in title_norm or title_norm in topic_norm:
         return 900
 
@@ -127,13 +121,11 @@ def score_topic_match(topic_norm, title_norm):
 
     common = topic_words.intersection(title_words)
 
-    # 3. strong word overlap
     if topic_words and title_words:
         overlap_score = len(common) * 100
     else:
         overlap_score = 0
 
-    # 4. fuzzy backup
     fuzzy_score = int(SequenceMatcher(None, topic_norm, title_norm).ratio() * 100)
 
     return overlap_score + fuzzy_score
@@ -173,7 +165,6 @@ def get_pyqs_from_txt(topic):
     common_words = topic_words.intersection(best_title_words)
     fuzzy_ratio = SequenceMatcher(None, topic_norm, best_title).ratio()
 
-    # Safe acceptance rules
     if best_score >= 900:
         return best_content
 
@@ -194,7 +185,6 @@ def force_exact_headings(answer):
     if not answer:
         return answer
 
-    # normalize known heading variations
     replacements = {
         "A. UPSC PRElims PYQs (Past 10 Years)": "A. UPSC PRELIMS PYQs (Past 10 Years)",
         "A. UPSC PRElims PYQs": "A. UPSC PRELIMS PYQs (Past 10 Years)",
@@ -209,7 +199,6 @@ def force_exact_headings(answer):
     for old, new in replacements.items():
         answer = answer.replace(old, new)
 
-    # regex safety
     answer = re.sub(
         r"(?im)^a\.\s*upsc\s*prelims\s*pyqs(?:\s*\(past\s*10\s*years\))?\s*$",
         "A. UPSC PRELIMS PYQs (Past 10 Years)",
@@ -232,6 +221,36 @@ def force_exact_headings(answer):
 @app.route("/")
 def home():
     return render_template("index.html")
+
+
+@app.route("/pyq-subjects", methods=["GET"])
+def pyq_subjects():
+    try:
+        subjects = get_pyq_subjects()
+        return jsonify({"subjects": subjects})
+    except Exception as e:
+        return jsonify({"subjects": [], "error": str(e)}), 500
+
+
+@app.route("/pyq-topics", methods=["GET"])
+def pyq_topics():
+    try:
+        subject = request.args.get("subject", "").strip()
+        topics = get_pyq_topics(subject)
+        return jsonify({"topics": topics})
+    except Exception as e:
+        return jsonify({"topics": [], "error": str(e)}), 500
+
+
+@app.route("/pyq-questions", methods=["GET"])
+def pyq_questions():
+    try:
+        subject = request.args.get("subject", "").strip()
+        topic = request.args.get("topic", "").strip()
+        questions = get_pyqs_by_subject_topic(subject, topic)
+        return jsonify({"questions": questions})
+    except Exception as e:
+        return jsonify({"questions": [], "error": str(e)}), 500
 
 
 @app.route("/ask", methods=["POST"])
