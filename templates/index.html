@@ -751,6 +751,7 @@ function resetAI() {
     document.getElementById("questions").innerHTML = "";
     document.getElementById("topicPanel").classList.add("hidden");
     document.getElementById("questionPanel").classList.add("hidden");
+    document.getElementById("subjectPanel").classList.remove("hidden");
     document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
     document.getElementById("backToSubjectsBtn").classList.add("hidden");
     document.getElementById("backToTopicsBtn").classList.add("hidden");
@@ -814,7 +815,7 @@ function showSubjectView() {
 }
 
 function showTopicView() {
-    document.getElementById("subjectPanel").classList.remove("hidden");
+    document.getElementById("subjectPanel").classList.add("hidden");
     document.getElementById("topicPanel").classList.remove("hidden");
     document.getElementById("questionPanel").classList.add("hidden");
     document.getElementById("backToSubjectsBtn").classList.remove("hidden");
@@ -823,12 +824,12 @@ function showTopicView() {
 }
 
 function showQuestionView() {
-    document.getElementById("subjectPanel").classList.remove("hidden");
-    document.getElementById("topicPanel").classList.remove("hidden");
+    document.getElementById("subjectPanel").classList.add("hidden");
+    document.getElementById("topicPanel").classList.add("hidden");
     document.getElementById("questionPanel").classList.remove("hidden");
     document.getElementById("backToSubjectsBtn").classList.remove("hidden");
     document.getElementById("backToTopicsBtn").classList.remove("hidden");
-    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}  |  Topic: ${currentTopic}`;
+    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject} | Topic: ${currentTopic}`;
 }
 
 function backToSubjects() {
