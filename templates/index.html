@@ -469,6 +469,50 @@
             color: #991b1b;
         }
 
+        .question-browser-nav-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+
+        .question-browser-counter {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1d3557;
+            background: #eef4fb;
+            border: 1px solid #d7e4f3;
+            border-radius: 999px;
+            padding: 8px 12px;
+        }
+
+        .question-browser-nav-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .question-browser-nav-btn {
+            background: #1d3557;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            flex: unset;
+        }
+
+        .question-browser-nav-btn:disabled {
+            background: #cbd5e1;
+            color: #64748b;
+            cursor: not-allowed;
+        }
+
         .frequency-badge {
             display: inline-block;
             padding: 8px 12px;
@@ -551,6 +595,19 @@
                 max-width: 100%;
                 word-break: break-word;
             }
+
+            .question-browser-nav-wrap {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .question-browser-nav-buttons {
+                width: 100%;
+            }
+
+            .question-browser-nav-btn {
+                flex: 1;
+            }
         }
     </style>
 </head>
@@ -609,6 +666,8 @@ Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MC
 const BASE_URL = window.location.origin;
 let currentSubject = "";
 let currentTopic = "";
+let currentQuestions = [];
+let currentQuestionIndex = 0;
 
 function escapeHtml(text) {
     return String(text ?? "")
@@ -969,6 +1028,8 @@ function resetAI() {
     document.getElementById("backToTopicsBtn").classList.add("hidden");
     currentSubject = "";
     currentTopic = "";
+    currentQuestions = [];
+    currentQuestionIndex = 0;
 }
 
 function copyAnswer() {
@@ -1015,98 +1076,116 @@ function getCorrectOptionLabel(correctAnswer) {
     return normalizeOptionLabel(correctAnswer);
 }
 
-function buildQuestionCards(questions) {
-    if (!questions || questions.length === 0) {
-        return `<div class="plain-answer">No PYQs found for this topic.</div>`;
-    }
+function buildSingleQuestionCard(q, index, totalCount) {
+    const explanationId = `explanation-${index}`;
+    const logicId = `logic-${index}`;
+    const resultId = `result-${index}`;
+    const detailWrapId = `detail-wrap-${index}`;
+    const correctLabel = getCorrectOptionLabel(q.correct_answer || "");
 
-    let html = "";
-    questions.forEach((q, index) => {
-        const explanationId = `explanation-${index}`;
-        const logicId = `logic-${index}`;
-        const resultId = `result-${index}`;
-        const detailWrapId = `detail-wrap-${index}`;
-        const correctLabel = getCorrectOptionLabel(q.correct_answer || "");
+    return `
+        <div class="question-browser-nav-wrap">
+            <div class="question-browser-counter">Question ${index + 1} of ${totalCount}</div>
+            <div class="question-browser-nav-buttons">
+                <button type="button" class="question-browser-nav-btn" onclick="changeQuestion(-1)" ${index === 0 ? "disabled" : ""}>← Previous</button>
+                <button type="button" class="question-browser-nav-btn" onclick="changeQuestion(1)" ${index === totalCount - 1 ? "disabled" : ""}>Next →</button>
+            </div>
+        </div>
 
-        html += `
-            <div class="question-browser-card">
-                <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
+        <div class="question-browser-card">
+            <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
 
-                <span class="question-browser-heading">Question</span>
-                <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
+            <span class="question-browser-heading">Question</span>
+            <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
 
-                <span class="question-browser-heading">Choose Your Answer</span>
-                <div class="question-browser-options" id="options-wrap-${index}">
-                    ${(q.options || []).map((opt, optIndex) => {
-                        const optionLabel = normalizeOptionLabel(opt);
-                        return `
-                            <button
-                                type="button"
-                                class="question-browser-option-btn"
-                                id="option-${index}-${optIndex}"
-                                data-option-label="${escapeHtml(optionLabel)}"
-                                onclick="selectPyqOption(${index}, '${escapeHtml(optionLabel)}', '${escapeHtml(correctLabel)}', '${resultId}', '${detailWrapId}')"
-                            >
-                                ${escapeHtml(opt)}
-                            </button>
-                        `;
-                    }).join("")}
+            <span class="question-browser-heading">Choose Your Answer</span>
+            <div class="question-browser-options" id="options-wrap-${index}">
+                ${(q.options || []).map((opt, optIndex) => {
+                    const optionLabel = normalizeOptionLabel(opt);
+                    return `
+                        <button
+                            type="button"
+                            class="question-browser-option-btn"
+                            id="option-${index}-${optIndex}"
+                            data-option-label="${escapeHtml(optionLabel)}"
+                            onclick="selectPyqOption(${index}, '${escapeHtml(optionLabel)}', '${escapeHtml(correctLabel)}', '${resultId}', '${detailWrapId}')"
+                        >
+                            ${escapeHtml(opt)}
+                        </button>
+                    `;
+                }).join("")}
+            </div>
+
+            <div id="${resultId}" class="hidden"></div>
+
+            <div id="${detailWrapId}" class="hidden">
+                <div class="question-browser-answer-wrap" style="margin-top: 16px;">
+                    <span class="question-browser-heading">Correct Answer</span>
+                    <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
                 </div>
 
-                <div id="${resultId}" class="hidden"></div>
-
-                <div id="${detailWrapId}" class="hidden">
-                    <div class="question-browser-answer-wrap" style="margin-top: 16px;">
-                        <span class="question-browser-heading">Correct Answer</span>
-                        <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
-                    </div>
-
-                    ${q.theme_frequency ? `
-                        <div style="margin-top: 16px;">
-                            <span class="question-browser-heading">Theme Frequency</span>
-                            <div>
-                                <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
-                            </div>
+                ${q.theme_frequency ? `
+                    <div style="margin-top: 16px;">
+                        <span class="question-browser-heading">Theme Frequency</span>
+                        <div>
+                            <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
                         </div>
-                    ` : ""}
-
-                    <div class="question-browser-toggle-row">
-                        ${q.explanation ? `
-                            <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
-                                Show Explanation
-                            </button>
-                        ` : ""}
-
-                        ${q.elimination_logic ? `
-                            <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
-                                Show Elimination Logic
-                            </button>
-                        ` : ""}
                     </div>
+                ` : ""}
 
+                <div class="question-browser-toggle-row">
                     ${q.explanation ? `
-                        <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
-                            <span class="question-browser-heading">Explanation</span>
-                            <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
-                        </div>
+                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
+                            Show Explanation
+                        </button>
                     ` : ""}
 
                     ${q.elimination_logic ? `
-                        <div id="${logicId}" class="hidden" style="margin-top: 14px;">
-                            <span class="question-browser-heading">Elimination Logic</span>
-                            <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
-                        </div>
+                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
+                            Show Elimination Logic
+                        </button>
                     ` : ""}
                 </div>
+
+                ${q.explanation ? `
+                    <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
+                        <span class="question-browser-heading">Explanation</span>
+                        <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
+                    </div>
+                ` : ""}
+
+                ${q.elimination_logic ? `
+                    <div id="${logicId}" class="hidden" style="margin-top: 14px;">
+                        <span class="question-browser-heading">Elimination Logic</span>
+                        <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
+                    </div>
+                ` : ""}
             </div>
-        `;
-    });
-    return html;
+        </div>
+    `;
+}
+
+function renderCurrentQuestion() {
+    const questionsBox = document.getElementById("questions");
+
+    if (!currentQuestions || currentQuestions.length === 0) {
+        questionsBox.innerHTML = `<div class="plain-answer">No PYQs found for this topic.</div>`;
+        return;
+    }
+
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    questionsBox.innerHTML = buildSingleQuestionCard(currentQuestion, currentQuestionIndex, currentQuestions.length);
+}
+
+function changeQuestion(step) {
+    const newIndex = currentQuestionIndex + step;
+    if (newIndex < 0 || newIndex >= currentQuestions.length) return;
+    currentQuestionIndex = newIndex;
+    renderCurrentQuestion();
 }
 
 function selectPyqOption(questionIndex, selectedLabel, correctLabel, resultId, detailWrapId) {
     const buttons = document.querySelectorAll(`[id^="option-${questionIndex}-"]`);
-    let resultClass = "wrong";
     let resultHtml = `
         <div class="question-browser-result-box wrong">
             Your Answer: ${escapeHtml(selectedLabel)}<br>
@@ -1132,7 +1211,6 @@ function selectPyqOption(questionIndex, selectedLabel, correctLabel, resultId, d
     });
 
     if (selectedLabel === correctLabel) {
-        resultClass = "correct";
         resultHtml = `
             <div class="question-browser-result-box correct">
                 Correct ✅<br>
@@ -1191,6 +1269,8 @@ function showQuestionView() {
 function backToSubjects() {
     currentSubject = "";
     currentTopic = "";
+    currentQuestions = [];
+    currentQuestionIndex = 0;
     document.getElementById("topics").innerHTML = "";
     document.getElementById("questions").innerHTML = "";
     showSubjectView();
@@ -1198,6 +1278,8 @@ function backToSubjects() {
 
 function backToTopics() {
     currentTopic = "";
+    currentQuestions = [];
+    currentQuestionIndex = 0;
     document.getElementById("questions").innerHTML = "";
     showTopicView();
 }
@@ -1217,6 +1299,8 @@ async function togglePyqBrowser() {
     document.getElementById("questions").innerHTML = "";
     currentSubject = "";
     currentTopic = "";
+    currentQuestions = [];
+    currentQuestionIndex = 0;
 
     showSubjectView();
     document.getElementById("subjects").innerHTML = "Loading subjects...";
@@ -1236,6 +1320,8 @@ async function togglePyqBrowser() {
 async function loadTopics(encodedSubject) {
     currentSubject = decodeURIComponent(encodedSubject);
     currentTopic = "";
+    currentQuestions = [];
+    currentQuestionIndex = 0;
 
     showTopicView();
     document.getElementById("topics").innerHTML = "Loading topics...";
@@ -1253,6 +1339,8 @@ async function loadTopics(encodedSubject) {
 async function loadQuestions(encodedSubject, encodedTopic) {
     currentSubject = decodeURIComponent(encodedSubject);
     currentTopic = decodeURIComponent(encodedTopic);
+    currentQuestions = [];
+    currentQuestionIndex = 0;
 
     showQuestionView();
     document.getElementById("questions").innerHTML = "Loading PYQs...";
@@ -1260,7 +1348,9 @@ async function loadQuestions(encodedSubject, encodedTopic) {
     try {
         const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(currentSubject)}&topic=${encodeURIComponent(currentTopic)}`);
         const data = await res.json();
-        document.getElementById("questions").innerHTML = buildQuestionCards(data.questions || []);
+        currentQuestions = data.questions || [];
+        currentQuestionIndex = 0;
+        renderCurrentQuestion();
     } catch (error) {
         document.getElementById("questions").innerHTML = `<div class="plain-answer">Error loading PYQs.</div>`;
         console.error(error);
