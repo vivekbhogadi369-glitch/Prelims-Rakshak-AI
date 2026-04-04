@@ -346,10 +346,11 @@
 
         .question-browser-question {
             font-size: 19px;
-            line-height: 1.75;
+            line-height: 1.9;
             color: #111827;
             font-weight: 500;
             margin-top: 2px;
+            white-space: pre-line;
         }
 
         .question-browser-options {
@@ -473,6 +474,13 @@ function escapeHtml(text) {
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;");
+}
+
+function formatQuestionText(text) {
+    let s = String(text ?? "");
+    s = s.replace(/\r/g, "");
+    s = s.replace(/\s(?=\d+\.\s)/g, "\n");
+    return escapeHtml(s);
 }
 
 function cleanMarkdownLine(line) {
@@ -855,7 +863,7 @@ function buildQuestionCards(questions) {
                 <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
 
                 <span class="question-browser-heading">Question</span>
-                <div class="question-browser-question">${escapeHtml(q.question || "")}</div>
+                <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
 
                 <span class="question-browser-heading">Options</span>
                 <div class="question-browser-options">
