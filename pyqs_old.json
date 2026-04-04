@@ -1,1 +1,581 @@
+{
+  "Ancient History": {
+    "Indus Valley Civilization": [
+      {
+        "year": 2013,
+        "question": "Which of the following characterizes the people of Indus civilization?\n1. They possessed great palaces and temples.\n2. They worshipped both male and female deities.\n3. They employed horse-drawn chariots in warfare.",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 only",
+          "c) 1, 2, and 3",
+          "d) None is correct"
+        ],
+        "correct_answer": "b) 2 only"
+      },
+      {
+        "year": 2019,
+        "question": "Which one of the following is not a Harappan site?",
+        "options": [
+          "a) Chanhudaro",
+          "b) Kot Diji",
+          "c) Sohgaura",
+          "d) Desalpur"
+        ],
+        "correct_answer": "c) Sohgaura"
+      },
+      {
+        "year": 2021,
+        "question": "Which one of the following ancient towns is well-known for its elaborate system of water harvesting and management by building a series of dams and channelizing water into connected reservoirs?",
+        "options": [
+          "a) Dholavira",
+          "b) Kalibangan",
+          "c) Rakhigarhi",
+          "d) Ropar"
+        ],
+        "correct_answer": "a) Dholavira"
+      },
+      {
+        "year": 2025,
+        "question": "The famous female figurine known as ‘Dancing Girl’, found at Mohenjo-daro, is made of:",
+        "options": [
+          "a) Carnelian",
+          "b) Clay",
+          "c) Bronze",
+          "d) Gold"
+        ],
+        "correct_answer": "c) Bronze"
+      }
+    ],
+    "Vedic Period": [
+      {
+        "year": 2017,
+        "question": "With reference to the difference between the culture of Rigvedic Aryans and Indus Valley people, which of the following statements is/are correct?\n1. Rigvedic Aryans used the coat of mail and helmet in warfare whereas the people of Indus Valley Civilization did not leave any evidence of using them.\n2. Rigvedic Aryans knew gold, silver, and copper whereas Indus Valley people knew only copper and iron.\n3. Rigvedic Aryans had domesticated the horse whereas there is no evidence of Indus Valley people having been aware of this animal.",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only"
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following statements:\n1. There are no parables in Upanishads.\n2. Upanishads were composed earlier than the Puranas.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only"
+      }
+    ],
+    "Buddhism": [
+      {
+        "year": 2013,
+        "question": "Consider the following historical places:\n1. Ajanta Caves\n2. Lepakshi Temple\n3. Sanchi Stupa\nWhich of the above places is/are also known for mural paintings?",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 1, 2 and 3",
+          "d) None"
+        ],
+        "correct_answer": "b) 1 and 2 only"
+      },
+      {
+        "year": 2013,
+        "question": "Some Buddhist rock-cut caves are called Chaityas, while the others are called Viharas. What is the difference between the two?",
+        "options": [
+          "a) Vihara is a place of worship, while Chaitya is the dwelling place of the monks",
+          "b) Chaitya is a place of worship, while Vihara is the dwelling place of the monks",
+          "c) Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it",
+          "d) There is no material difference between the two"
+        ],
+        "correct_answer": "b) Chaitya is a place of worship, while Vihara is the dwelling place of the monks"
+      },
+      {
+        "year": 2013,
+        "question": "Which one of the following describes best the concept of Nirvana in Buddhism?",
+        "options": [
+          "a) The extinction of the flame of desire",
+          "b) The complete annihilation of self",
+          "c) A state of Bliss and rest",
+          "d) A mental stage beyond all comprehension"
+        ],
+        "correct_answer": "a) The extinction of the flame of desire"
+      },
+      {
+        "year": 2014,
+        "question": "With reference to Buddhist history, tradition and culture in India, consider the following pairs:\nFamous Shrine – Location\n1. Tabo monastery and temple complex – Spiti Valley\n2. Lhotsava Lhakhang – Zanskar Valley\n3. Alchi Temple Complex – Ladakh\nWhich of the above pairs given is/are correctly matched?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only"
+      },
+      {
+        "year": 2016,
+        "question": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism\n2. Bodhisattva is a compassionate one on his way to enlightenment\n3. Bodhisattva delays achieving his own salvation to help all sentient beings on their path to it.",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 2 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only"
+      },
+      {
+        "year": 2017,
+        "question": "The painting of Bodhisattva Padmapani is one of the most famous and oft-illustrated paintings at:",
+        "options": [
+          "a) Ajanta",
+          "b) Badami",
+          "c) Bagh",
+          "d) Ellora"
+        ],
+        "correct_answer": "a) Ajanta"
+      },
+      {
+        "year": 2017,
+        "question": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were the sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.\nOptions:",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only"
+      },
+      {
+        "year": 2018,
+        "question": "With reference to the Indian History, who among the following is a future Buddha, yet to come to save the world?",
+        "options": [
+          "a) Avalokiteshvara",
+          "b) Lokesvara",
+          "c) Maitreya",
+          "d) Padmapani"
+        ],
+        "correct_answer": "c) Maitreya"
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following:\n1. Deification of the Buddha\n2. Treading the path of Bodhisattvas\n3. Image worship and rituals\nWhich of the above is/are the feature/features of Mahayana Buddhism?",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka — Renunciant and Wanderer\n2. Shramana — Priest with a high status\n3. Upasaka — Lay follower of Buddhism\nWhich of the pairs given above are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 1 and 3 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 1 and 3 only"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the cultural history of India, which one of the following is the correct description of the term ‘paramitas’?",
+        "options": [
+          "a) The earliest Dharmashastra texts written in aphoristic (sutra) style",
+          "b) Philosophical schools that did not accept the authority of Vedas",
+          "c) Perfections whose attainment led to the Bodhisattva path",
+          "d) Powerful merchant guilds of early medieval South India"
+        ],
+        "correct_answer": "c) Perfections whose attainment led to the Bodhisattva path"
+      },
+      {
+        "year": 2021,
+        "question": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Mahayana Buddhism\n2. Lokottaravadin sect was an offshoot of Mahasanghika sect of Buddhism\n3. The deification of Buddha by Mahasanghikas fostered Mahayana Buddhism",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only"
+      },
+      {
+        "year": 2023,
+        "question": "With reference to ancient India, consider the following statements:\n1. The concept of Stupa is Buddhist in origin.\n2. Stupa was generally a repository of relics.\n3. Stupa was a votive and commemorative structure in Buddhist tradition.\nHow many of the statements given above are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "b) Only two"
+      },
+      {
+        "year": 2024,
+        "question": "Sanghabhuti, an Indian Buddhist monk, who travelled to China at the end of the fourth century AD, was the author of a commentary on:",
+        "options": [
+          "a) Prajnaparamita Sutra",
+          "b) Visuddhimagga",
+          "c) Sarvastivada Vinaya",
+          "d) Lalitavistara"
+        ],
+        "correct_answer": "c) Sarvastivada Vinaya"
+      },
+      {
+        "year": 2024,
+        "question": "With reference to ancient India, Gautama Buddha was generally known by which of the following epithets?\n1. Nayaputta\n2. Shakyamuni\n3. Tathagata",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1, 2 and 3",
+          "d) None of the above are epithets of Gautama Buddha"
+        ],
+        "correct_answer": "b) 2 and 3 only"
+      }
+    ],
+    "Jainism": [
+      {
+        "year": 2013,
+        "question": "Which of the following statements is/are applicable to Jain doctrine?\n1. The surest way of annihilating Karma is to practice penance\n2. Every object, even the smallest particle has a soul\n3. Karma is the bane of the soul and must be ended",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3"
+      },
+      {
+        "year": 2018,
+        "question": "With reference to the religious practices in India, the “Sthanakvasi” sect belongs to:",
+        "options": [
+          "a) Buddhism",
+          "b) Jainism",
+          "c) Vaishnavism",
+          "d) Shaivism"
+        ],
+        "correct_answer": "b) Jainism"
+      },
+      {
+        "year": 2022,
+        "question": "With reference to Indian history, consider the following texts:\n1. Nettipakarana\n2. Parishishtaparvan\n3. Avadanashataka\n4. Trishashtilakshana Mahapurana\nWhich of the above are Jaina texts?",
+        "options": [
+          "a) 1, 2 and 3",
+          "b) 2 and 4 only",
+          "c) 1, 3 and 4",
+          "d) 2, 3 and 4"
+        ],
+        "correct_answer": "b) 2 and 4 only"
+      },
+      {
+        "year": 2023,
+        "question": "“Souls are not only the property of animal and plant life, but also of rocks, running water and many other natural objects not looked on as living by other religious sects.” The above statement reflects one of the core beliefs of which one of the following religious sects of ancient India?",
+        "options": [
+          "a) Buddhism",
+          "b) Jainism",
+          "c) Shaivism",
+          "d) Vaishnavism"
+        ],
+        "correct_answer": "b) Jainism"
+      }
+    ],
+    "Mahajanapadas": [
+      {
+        "year": 2014,
+        "question": "Which of the following Kingdoms were associated with the life of the Buddha?\n1. Avanti\n2. Gandhara\n3. Kosala\n4. Magadha",
+        "options": [
+          "a) 1, 2 and 3",
+          "b) 2 and 4",
+          "c) 3 and 4 only",
+          "d) 1, 3 and 4"
+        ],
+        "correct_answer": "c) 3 and 4 only"
+      },
+      {
+        "year": 2025,
+        "question": "With reference to ancient India (600–322 BC), consider the following pairs:\nTerritorial region – River flowing in the region\nI. Asmaka: Godavari\nII. Kamboja: Vipas\nIII. Avanti: Mahanadi\nIV. Kosala: Sarayu",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) Only three",
+          "d) All the four"
+        ],
+        "correct_answer": "b) Only two"
+      }
+    ],
+    "Mauryan Era": [
+      {
+        "year": 2013,
+        "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The caves at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya.\n3. At Ellora, caves were made for different faiths.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only"
+      },
+      {
+        "year": 2015,
+        "question": "With reference to art and archaeological history of India, which one among the following was made earliest?",
+        "options": [
+          "a) Lingaraja Temple at Bhubaneswar",
+          "b) Rock-cut Elephant at Dhauli",
+          "c) Rock-cut Monuments at Mahabalipuram",
+          "d) Varaha Image at Udayagiri"
+        ],
+        "correct_answer": "b) Rock-cut Elephant at Dhauli"
+      },
+      {
+        "year": 2016,
+        "question": "Who of the following had first deciphered the edicts of Emperor Ashoka?",
+        "options": [
+          "a) Georg Buhler",
+          "b) James Prinsep",
+          "c) Max Muller",
+          "d) William Jones"
+        ],
+        "correct_answer": "b) James Prinsep"
+      },
+      {
+        "year": 2019,
+        "question": "In which of the following relief sculpture inscriptions is ‘Ranyo Ashoka’ (King Ashoka) mentioned along with the stone portrait of Ashoka?",
+        "options": [
+          "a) Kanganahalli",
+          "b) Sanchi",
+          "c) Shahbazgarhi",
+          "d) Sohgaura"
+        ],
+        "correct_answer": "a) Kanganahalli"
+      },
+      {
+        "year": 2020,
+        "question": "Who among the following rulers advised his subjects through this inscription?\n“Whosoever praises his religious sect or blames other sects out of excessive devotion to his own sect, with the view of glorifying his own sect, he rather injures his own sect very severely.”",
+        "options": [
+          "a) Ashoka",
+          "b) Samudragupta",
+          "c) Harshavardhana",
+          "d) Krishanadeva Raya"
+        ],
+        "correct_answer": "a) Ashoka"
+      },
+      {
+        "year": 2022,
+        "question": "According to Kautilya’s Arthashastra, which of the following are correct?\n1. A person could be a slave as a result of a judicial punishment.\n2. If a female slave bore her master a son, she was legally free.\n3. If a son born to a female slave was fathered by her master, the son was entitled to the legal status of the master’s son.",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only"
+      },
+      {
+        "year": 2022,
+        "question": "Consider the following pairs:\nSite of Ashoka’s major rock edicts – Location\n1. Dhauli – Odisha\n2. Erragudi – Andhra Pradesh\n3. Jaugada – Madhya Pradesh\n4. Kalsi – Karnataka\nHow many pairs given above are correctly matched?",
+        "options": [
+          "a) Only one pair",
+          "b) Only two pairs",
+          "c) Only three pairs",
+          "d) All four pairs"
+        ],
+        "correct_answer": "b) Only two pairs"
+      },
+      {
+        "year": 2025,
+        "question": "Ashokan inscriptions suggest that the ‘Pradeshika’, ‘Rajuka’ and ‘Yukta’ were important officers at the:",
+        "options": [
+          "a) village-level administration",
+          "b) district-level administration",
+          "c) provincial administration",
+          "d) level of the central administration"
+        ],
+        "correct_answer": "b) district-level administration"
+      }
+    ],
+    "Shungas": [
+      {
+        "year": 2016,
+        "question": "Which one of the following books of ancient India has the love story of the son of the founder of Sunga dynasty?",
+        "options": [
+          "a) Swapnavasavadatta",
+          "b) Malavikagnimitra",
+          "c) Meghadoota",
+          "d) Ratnavali"
+        ],
+        "correct_answer": "b) Malavikagnimitra"
+      }
+    ],
+    "Satavahanas": [
+      {
+        "year": 2023,
+        "question": "In which one of the following regions was Dhanyakataka, which flourished as a prominent Buddhist center under the Mahasanghikas, located?",
+        "options": [
+          "a) Andhra",
+          "b) Gandhara",
+          "c) Kalinga",
+          "d) Magadha"
+        ],
+        "correct_answer": "a) Andhra"
+      }
+    ],
+    "Sangam Age": [
+      {
+        "year": 2016,
+        "question": "In the context of the history of India, consider the following pairs:\nTerm – Description\n1. Eripatti – Land, revenue from which was set apart for the maintenance of the village tank\n2. Taniyurs – Villages donated to a single Brahmin or a group of Brahmins\n3. Ghatikas – Colleges generally attached to the temples\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+          "a) 1 and 2",
+          "b) 3 only",
+          "c) 2 and 3",
+          "d) 1 and 3"
+        ],
+        "correct_answer": "d) 1 and 3"
+      },
+      {
+        "year": 2022,
+        "question": "Which one of the following statements about Sangam literature in ancient South India is correct?",
+        "options": [
+          "a) Sangam poems are devoid of any reference to material culture",
+          "b) The social classification of Varna was known to Sangam poets",
+          "c) Sangam poems have no references to warrior ethic",
+          "d) Sangam literature refers to magical forces as irrational"
+        ],
+        "correct_answer": "b) The social classification of Varna was known to Sangam poets"
+      },
+      {
+        "year": 2023,
+        "question": "Which one of the following explains the practice of ‘Vattakirutal’ as mentioned in the Sangam poems?",
+        "options": [
+          "a) Kings employing women bodyguards",
+          "b) Learned persons assembling in royal courts to discuss religious and philosophical matters",
+          "c) Young girls keeping watch over agricultural fields and driving away birds and animals",
+          "d) A king defeated in a battle committing ritual suicide by starving himself to death"
+        ],
+        "correct_answer": "d) A king defeated in a battle committing ritual suicide by starving himself to death"
+      }
+    ],
+    "Gupta Era": [
+      {
+        "year": 2019,
+        "question": "With reference to forced labour (Vishti) in India during the Gupta period, which one of the following statements is correct?",
+        "options": [
+          "a) It was considered a source of income for the State, a sort of tax paid by the people.",
+          "b) It was totally absent in the Madhya Pradesh and Kathiawar regions of the Gupta Empire.",
+          "c) The forced labourer was entitled to weekly wages.",
+          "d) The eldest son of the labourer was sent as the forced labourer."
+        ],
+        "correct_answer": "a) It was considered a source of income for the State, a sort of tax paid by the people."
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the period of Gupta dynasty in ancient India, the towns Ghantasala, Kadura and Chaul were known as:",
+        "options": [
+          "a) Ports handling foreign trade",
+          "b) Capitals of powerful kingdoms",
+          "c) Places of exquisite stone art and architecture",
+          "d) Important of Buddhist pilgrimage centres"
+        ],
+        "correct_answer": "a) Ports handling foreign trade"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the history of India, the terms ‘kulyavapa’ and ‘dronavapa’ denote:",
+        "options": [
+          "a) Measurement of land",
+          "b) Coins of different monetary value",
+          "c) Classification of urban land",
+          "d) Religious rituals"
+        ],
+        "correct_answer": "a) Measurement of land"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the scholars/litterateurs of ancient India, consider the following statements:\n1. Panini is associated with Pushyamitra\n2. Amarasimha is associated with Harshavardhana\n3. Kalidasa is associated with Chandra Gupta-II",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only"
+      },
+      {
+        "year": 2025,
+        "question": "Fa-hien (Faxian), the Chinese pilgrim, travelled to India during the reign of:",
+        "options": [
+          "a) Samudragupta",
+          "b) Chandragupta II",
+          "c) Kumaragupta I",
+          "d) Skandagupta"
+        ],
+        "correct_answer": "b) Chandragupta II"
+      }
+    ],
+    "Harsha Era": [
+      {
+        "year": 2013,
+        "question": "The Chinese traveller Yuan Chwang (Hiuen Tsang) who visited India recorded the general conditions and culture of India at that time. In this context, which of the following statements is/are correct?\n1. The roads and river-routes were completely immune from robbery.\n2. As regards punishment for offences, ordeals by fire, water and poison were the instruments for determining the innocence or guilt of a person.\n3. The tradesmen had to pay duties at ferries and barrier stations.",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only"
+      },
+      {
+        "year": 2020,
+        "question": "Which of the following phrases defines the nature of the ‘Hundi’ generally referred to in the sources of the post-Harsha period?",
+        "options": [
+          "a) An advisory issued by the king to his subordinates",
+          "b) A diary to be maintained for daily accounts",
+          "c) A bill of exchange",
+          "d) An order from the feudal lord to his subordinates"
+        ],
+        "correct_answer": "c) A bill of exchange"
+      },
+      {
+        "year": 2021,
+        "question": "From the decline of Guptas until the rise of Harshavardhana in the early seventh century, which of the following kingdoms were holding power in Northern India?\n1. The Guptas of Magadha\n2. The Paramaras of Malwa\n3. The Pushyabhutis of Thanesar\n4. The Maukharis of Kanauj\n5. The Yadavas of Devagiri\n6. The Maitrakas of Valabhi",
+        "options": [
+          "a) 1, 2 and 5",
+          "b) 1, 3, 4 and 6",
+          "c) 2, 3 and 4",
+          "d) 5 and 6"
+        ],
+        "correct_answer": "b) 1, 3, 4 and 6"
+      }
+    ],
+    "Badami Chalukyas": [
+      {
+        "year": 2013,
+        "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The caves at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya.\n3. At Ellora, caves were made for different faiths.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only"
+      }
+    ],
+    "Pallavas": [
+      {
+        "year": 2025,
+        "question": "Who among the following rulers in ancient India had assumed the titles ‘Mattavilasa’, ‘Vichitrachitta’ and ‘Gunabhara’?",
+        "options": [
+          "a) Mahendravarman I",
+          "b) Simhavishnu",
+          "c) Narasimhavarman I",
+          "d) Simhavarman"
+        ],
+        "correct_answer": "a) Mahendravarman I"
+      }
+    ]
+  }
+}
 
