@@ -310,7 +310,6 @@
             flex: unset;
         }
 
-        /* IMPROVED PYQ QUESTION BROWSER STYLING */
         .question-browser-card {
             background: #ffffff;
             border: 1px solid #dbe4ee;
@@ -373,16 +372,6 @@
             margin-top: 4px;
         }
 
-        .question-browser-answer-label {
-            display: inline-block;
-            font-size: 13px;
-            font-weight: 800;
-            color: #0b6e4f;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            margin-bottom: 8px;
-        }
-
         .question-browser-answer-box {
             display: inline-block;
             background: #e8f7ee;
@@ -417,7 +406,6 @@
 
             .question-browser-answer-box {
                 font-size: 16px;
-                width: auto;
                 max-width: 100%;
                 word-break: break-word;
             }
@@ -476,12 +464,12 @@ Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MC
 </div>
 
 <script>
-const BASE_URL = "https://prelims-rakshak-ai-production.up.railway.app";
+const BASE_URL = window.location.origin;
 let currentSubject = "";
 let currentTopic = "";
 
 function escapeHtml(text) {
-    return String(text)
+    return String(text ?? "")
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;");
@@ -498,9 +486,9 @@ function isIgnoreLine(line) {
     return (
         /^question\s*\d+/i.test(line) ||
         /^mcq\s*\d+/i.test(line) ||
-        /^?easy?$/i.test(line) ||
-        /^?moderate?$/i.test(line) ||
-        /^?tough?$/i.test(line) ||
+        /^\(?easy\)?$/i.test(line) ||
+        /^\(?moderate\)?$/i.test(line) ||
+        /^\(?tough\)?$/i.test(line) ||
         /statement based/i.test(line) ||
         /match the following/i.test(line) ||
         /factual but tricky/i.test(line)
@@ -724,7 +712,7 @@ function formatMcqText(text) {
             continue;
         }
 
-        if (/^?[A-Da-d1-4]?[.)]\s*/.test(line)) {
+        if (/^\(?[A-Da-d1-4]\)?[.)]\s*/.test(line)) {
             current.push(`<div class="mcq-option">${escapeHtml(line)}</div>`);
             hasContent = true;
             continue;
@@ -952,6 +940,7 @@ async function togglePyqBrowser() {
     } catch (error) {
         document.getElementById("subjects").innerHTML = `<div class="plain-answer">Error loading subjects.</div>`;
         document.getElementById("selectedPath").innerText = "Could not load subjects.";
+        console.error(error);
     }
 }
 
@@ -968,6 +957,7 @@ async function loadTopics(encodedSubject) {
         document.getElementById("topics").innerHTML = buildTopicButtons(data.topics || []);
     } catch (error) {
         document.getElementById("topics").innerHTML = `<div class="plain-answer">Error loading topics.</div>`;
+        console.error(error);
     }
 }
 
@@ -984,6 +974,7 @@ async function loadQuestions(encodedSubject, encodedTopic) {
         document.getElementById("questions").innerHTML = buildQuestionCards(data.questions || []);
     } catch (error) {
         document.getElementById("questions").innerHTML = `<div class="plain-answer">Error loading PYQs.</div>`;
+        console.error(error);
     }
 }
 
@@ -1007,13 +998,13 @@ async function askAI() {
         answerBox.innerHTML = buildSections(data.answer || "No answer received.");
     } catch (error) {
         answerBox.innerHTML = `<div class="plain-answer">Error: ${escapeHtml(error.toString())}</div>`;
+        console.error(error);
     }
 
     askButton.disabled = false;
     askButton.innerText = "Ask";
 }
+</script>
 
-if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-        navigator.serviceWorker.register("/static/service-worker.js")
-            .then(() =>
+</body>
+</html>
