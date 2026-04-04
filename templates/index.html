@@ -433,6 +433,29 @@
             border: 1px solid #bae6fd;
         }
 
+        .question-browser-toggle-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+        }
+
+        .question-browser-toggle-btn {
+            background: #2563eb;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            flex: unset;
+        }
+
+        .question-browser-toggle-btn:hover {
+            background: #1d4ed8;
+        }
+
         .hidden {
             display: none;
         }
@@ -912,10 +935,19 @@ function buildQuestionCards(questions) {
     }
 
     let html = "";
-    questions.forEach(q => {
+    questions.forEach((q, index) => {
+        const explanationId = `explanation-${index}`;
+        const logicId = `logic-${index}`;
+
         html += `
             <div class="question-browser-card">
                 <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
+
+                ${q.theme_frequency ? `
+                    <div style="margin-bottom: 14px;">
+                        <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
+                    </div>
+                ` : ""}
 
                 <span class="question-browser-heading">Question</span>
                 <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
@@ -930,26 +962,49 @@ function buildQuestionCards(questions) {
                     <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
                 </div>
 
+                <div class="question-browser-toggle-row">
+                    ${q.explanation ? `
+                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
+                            Show Explanation
+                        </button>
+                    ` : ""}
+
+                    ${q.elimination_logic ? `
+                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
+                            Show Elimination Logic
+                        </button>
+                    ` : ""}
+                </div>
+
                 ${q.explanation ? `
-                    <span class="question-browser-heading">Explanation</span>
-                    <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
+                    <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
+                        <span class="question-browser-heading">Explanation</span>
+                        <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
+                    </div>
                 ` : ""}
 
                 ${q.elimination_logic ? `
-                    <span class="question-browser-heading">Elimination Logic</span>
-                    <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
-                ` : ""}
-
-                ${q.theme_frequency ? `
-                    <span class="question-browser-heading">Theme Frequency</span>
-                    <div>
-                        <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
+                    <div id="${logicId}" class="hidden" style="margin-top: 14px;">
+                        <span class="question-browser-heading">Elimination Logic</span>
+                        <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
                     </div>
                 ` : ""}
             </div>
         `;
     });
     return html;
+}
+
+function toggleAnswerSection(sectionId, button, label) {
+    const section = document.getElementById(sectionId);
+
+    if (section.classList.contains("hidden")) {
+        section.classList.remove("hidden");
+        button.innerText = `Hide ${label}`;
+    } else {
+        section.classList.add("hidden");
+        button.innerText = `Show ${label}`;
+    }
 }
 
 function showSubjectView() {
