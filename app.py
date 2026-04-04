@@ -10,49 +10,43 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
 
 
+def clean_display_topic(text):
+    text = (text or "").strip()
+    text = re.sub(r"^\s*subject\s*:\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"^\s*topic\s*:\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 def normalize_topic(text):
     text = (text or "").lower().strip()
 
-    # remove only leading labels
-    text = re.sub(r"^subject\s*:\s*", "", text)
-    text = re.sub(r"^topic\s*:\s*", "", text)
+    text = re.sub(r"^\s*subject\s*:\s*", "", text)
+    text = re.sub(r"^\s*topic\s*:\s*", "", text)
 
-    # remove subject tags only at the end
+    # remove trailing subject markers only
     text = re.sub(r",?\s*indian history\s*$", "", text)
     text = re.sub(r",?\s*history\s*$", "", text)
 
-    # normalize common history-equivalent words
+    # normalize common variants
     text = text.replace("civilisation", "civilization")
     text = text.replace("centre", "center")
     text = text.replace("centres", "centers")
 
-    # normalize separators/punctuation
+    # common exam synonym normalization
+    text = re.sub(r"\bera\b", "age", text)
+    text = re.sub(r"\bperiod\b", "age", text)
+
+    # punctuation normalization
     text = text.replace("&", " and ")
     text = re.sub(r"[\[\]\(\)\{\}]", " ", text)
     text = re.sub(r"[-_/,:;]", " ", text)
     text = re.sub(r"[^\w\s]", " ", text)
 
-    # normalize common interchangeable exam words
-    text = re.sub(r"\bera\b", "age", text)
-    text = re.sub(r"\bperiod\b", "age", text)
-
     # collapse spaces
     text = " ".join(text.split())
 
-    # very light singularization for common plural endings
-    words = []
-    for w in text.split():
-        if len(w) > 4 and w.endswith("ies"):
-            w = w[:-3] + "y"
-        elif len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
-            w = w[:-1]
-        words.append(w)
-
-    return " ".join(words).strip()
-
-
-def canonical_topic(text):
-    return normalize_topic(text)
+    return text.strip()
 
 
 # ===== LOAD PYQ TXT =====
@@ -67,35 +61,53 @@ def load_pyq_text():
 PYQ_TEXT = load_pyq_text()
 
 
+def extract_pyq_blocks(text):
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+
+    # Standard expected format:
+    # [Heading]
+    # content...
+    # [Next Heading]
+    pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
+    matches = pattern.findall(text)
+
+    blocks = []
+    for raw_title, raw_content in matches:
+        title = raw_title.strip()
+        content = raw_content.strip()
+        if title and content:
+            blocks.append((title, content))
+
+    return blocks
+
+
 def score_topic_match(topic_norm, title_norm):
     if not topic_norm or not title_norm:
-        return 0.0
+        return -1
 
     # 1. exact match
     if topic_norm == title_norm:
-        return 1000.0
+        return 1000
 
-    # 2. one contains the other
+    # 2. containment match
     if topic_norm in title_norm or title_norm in topic_norm:
-        return 900.0
+        return 900
 
     topic_words = set(topic_norm.split())
     title_words = set(title_norm.split())
 
-    if not topic_words or not title_words:
-        return 0.0
-
     common = topic_words.intersection(title_words)
 
-    # 3. word overlap
-    overlap_count = len(common)
-    overlap_ratio = overlap_count / max(len(topic_words), len(title_words))
+    # 3. strong word overlap
+    if topic_words and title_words:
+        overlap_score = len(common) * 100
+    else:
+        overlap_score = 0
 
-    # 4. fuzzy similarity
-    fuzzy = SequenceMatcher(None, topic_norm, title_norm).ratio()
+    # 4. fuzzy backup
+    fuzzy_score = int(SequenceMatcher(None, topic_norm, title_norm).ratio() * 100)
 
-    # combined score
-    return (overlap_count * 100.0) + (overlap_ratio * 100.0) + (fuzzy * 10.0)
+    return overlap_score + fuzzy_score
 
 
 def get_pyqs_from_txt(topic):
@@ -106,68 +118,86 @@ def get_pyqs_from_txt(topic):
     if not topic_norm:
         return "No PYQs came from this subtopic so far."
 
-    text = PYQ_TEXT.replace("\r\n", "\n").replace("\r", "\n")
-
-    # block format:
-    # [Heading]
-    # content...
-    # until next [Heading]
-    pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
-    matches = pattern.findall(text)
-
-    if not matches:
+    blocks = extract_pyq_blocks(PYQ_TEXT)
+    if not blocks:
         return "No PYQs came from this subtopic so far."
 
-    best_score = -1.0
-    best_content = None
     best_title = ""
+    best_content = None
+    best_score = -1
 
-    for raw_title, raw_content in matches:
+    topic_words = set(topic_norm.split())
+
+    for raw_title, raw_content in blocks:
         title_norm = normalize_topic(raw_title)
-        content = raw_content.strip()
-
-        if not title_norm or not content:
-            continue
-
         score = score_topic_match(topic_norm, title_norm)
 
         if score > best_score:
             best_score = score
-            best_content = content
             best_title = title_norm
+            best_content = raw_content
 
     if not best_content:
         return "No PYQs came from this subtopic so far."
 
-    # safety checks so wrong topics are not picked
-    topic_words = set(topic_norm.split())
     best_title_words = set(best_title.split())
     common_words = topic_words.intersection(best_title_words)
+    fuzzy_ratio = SequenceMatcher(None, topic_norm, best_title).ratio()
 
-    # accept if:
-    # exact/containment score already hit, or
-    # at least 2 common words, or
-    # single-word topic with strong fuzzy similarity
+    # Safe acceptance rules
     if best_score >= 900:
         return best_content
 
     if len(common_words) >= 2:
         return best_content
 
-    if len(topic_words) == 1:
-        fuzzy = SequenceMatcher(None, topic_norm, best_title).ratio()
-        if fuzzy >= 0.72:
-            return best_content
+    if len(topic_words) == 1 and fuzzy_ratio >= 0.78:
+        return best_content
 
-    # extra fallback:
-    # for two-word topics, accept one strong matching keyword + decent fuzzy similarity
-    if len(topic_words) == 2:
-        fuzzy = SequenceMatcher(None, topic_norm, best_title).ratio()
-        if len(common_words) >= 1 and fuzzy >= 0.68:
-            return best_content
+    if len(topic_words) == 2 and len(common_words) >= 1 and fuzzy_ratio >= 0.72:
+        return best_content
 
     return "No PYQs came from this subtopic so far."
 # ========================
+
+
+def force_exact_headings(answer):
+    if not answer:
+        return answer
+
+    # normalize known heading variations
+    replacements = {
+        "A. UPSC PRElims PYQs (Past 10 Years)": "A. UPSC PRELIMS PYQs (Past 10 Years)",
+        "A. UPSC PRElims PYQs": "A. UPSC PRELIMS PYQs (Past 10 Years)",
+        "A. UPSC PRELims PYQs": "A. UPSC PRELIMS PYQs (Past 10 Years)",
+        "A. UPSC Prelims PYQs": "A. UPSC PRELIMS PYQs (Past 10 Years)",
+        "B. Quick Revision Notes": "B. QUICK REVISION NOTES",
+        "B. Quick revision notes": "B. QUICK REVISION NOTES",
+        "C. Practice MCQs": "C. PRACTICE MCQs",
+        "C. Practice Mcqs": "C. PRACTICE MCQs",
+    }
+
+    for old, new in replacements.items():
+        answer = answer.replace(old, new)
+
+    # regex safety
+    answer = re.sub(
+        r"(?im)^a\.\s*upsc\s*prelims\s*pyqs(?:\s*\(past\s*10\s*years\))?\s*$",
+        "A. UPSC PRELIMS PYQs (Past 10 Years)",
+        answer,
+    )
+    answer = re.sub(
+        r"(?im)^b\.\s*quick\s*revision\s*notes\s*$",
+        "B. QUICK REVISION NOTES",
+        answer,
+    )
+    answer = re.sub(
+        r"(?im)^c\.\s*practice\s*mcqs\s*$",
+        "C. PRACTICE MCQs",
+        answer,
+    )
+
+    return answer
 
 
 @app.route("/")
@@ -184,7 +214,8 @@ def ask():
         if not user_message:
             return jsonify({"answer": "Please enter topic, subject."})
 
-        topic_key = canonical_topic(user_message)
+        display_topic = clean_display_topic(user_message)
+        pyq_lookup_topic = normalize_topic(user_message)
 
         prompt = f"""
 You are Prelims Rakshak AI created by Vivek Sir for UPSC aspirants.
@@ -213,7 +244,7 @@ GLOBAL RULES:
 All the best for your preparation.
 
 Topic:
-{topic_key}
+{display_topic}
 
 Answer strictly in this structure only:
 
@@ -228,7 +259,7 @@ No PYQs came from this subtopic so far.
 B. QUICK REVISION NOTES
 
 At the beginning of this section, write exactly:
-Here are your quick revision notes on {topic_key} for your exam.
+Here are your quick revision notes on {display_topic} for your exam.
 
 At the end of this section, write exactly:
 Best wishes for your preparation.
@@ -355,8 +386,10 @@ If any rule is broken, rewrite the answer before sending.
                 if answer != "Error: No answer generated.":
                     break
 
+        answer = force_exact_headings(answer)
+
         # ===== REPLACE PYQ SECTION FROM TXT =====
-        pyq_content = get_pyqs_from_txt(topic_key)
+        pyq_content = get_pyqs_from_txt(pyq_lookup_topic)
 
         a_heading = "A. UPSC PRELIMS PYQs (Past 10 Years)"
         b_heading = "B. QUICK REVISION NOTES"
@@ -369,13 +402,7 @@ If any rule is broken, rewrite the answer before sending.
                 f"{b_heading}{after_b}"
             )
 
-        # Force exact headings for frontend formatter
-        answer = answer.replace("A. UPSC PRElims PYQs (Past 10 Years)", "A. UPSC PRELIMS PYQs (Past 10 Years)")
-        answer = answer.replace("A. UPSC PRElims PYQs", "A. UPSC PRELIMS PYQs")
-        answer = answer.replace("A. UPSC PRELims PYQs", "A. UPSC PRELIMS PYQs")
-        answer = answer.replace("A. UPSC Prelims PYQs", "A. UPSC PRELIMS PYQs")
-        answer = answer.replace("B. Quick Revision Notes", "B. QUICK REVISION NOTES")
-        answer = answer.replace("C. Practice MCQs", "C. PRACTICE MCQs")
+        answer = force_exact_headings(answer)
         # =======================================
 
         return jsonify({"answer": answer})
