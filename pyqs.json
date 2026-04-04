@@ -10,7 +10,10 @@
           "c) 1, 2, and 3",
           "d) None is correct"
         ],
-        "correct_answer": "b) 2 only"
+        "correct_answer": "b) 2 only",
+        "explanation": "Harappan civilization does not provide clear evidence of grand palaces and temples in the Mesopotamian or Egyptian sense. Archaeology does suggest worship of both male and female figures, including mother goddess-type figurines and proto-Shiva interpretations. There is no firm evidence that horse-drawn chariots were used in warfare by the Harappans.",
+        "elimination_logic": "Statement 1 is doubtful because Harappan sites are known more for urban planning than monumental palaces or temples. Statement 3 is the easiest elimination because horse and chariot evidence is not established in a clear military sense. Once 1 and 3 go out, only statement 2 remains.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2019,
@@ -21,7 +24,10 @@
           "c) Sohgaura",
           "d) Desalpur"
         ],
-        "correct_answer": "c) Sohgaura"
+        "correct_answer": "c) Sohgaura",
+        "explanation": "Chanhudaro, Kot Diji, and Desalpur are associated with the Harappan cultural zone. Sohgaura is known for the Sohgaura copper plate and is not a Harappan site.",
+        "elimination_logic": "Chanhudaro is a standard Harappan site and usually should not be touched. Kot Diji is also linked to early/Harappan cultural context. Desalpur belongs to the Harappan world in Gujarat. Sohgaura stands out because it is remembered for inscription-related significance, not Harappan settlement.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2021,
@@ -32,7 +38,10 @@
           "c) Rakhigarhi",
           "d) Ropar"
         ],
-        "correct_answer": "a) Dholavira"
+        "correct_answer": "a) Dholavira",
+        "explanation": "Dholavira is famous for its highly sophisticated water management system, including reservoirs, channels, and conservation structures. This is one of the most distinctive features of the site.",
+        "elimination_logic": "Dholavira is a flagship site for water management in Harappan civilization. Kalibangan is more commonly remembered for ploughed field evidence and fire altars. Rakhigarhi is important as a major Harappan site, but not specifically for this feature. Ropar is not known for this signature system.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2025,
@@ -43,7 +52,10 @@
           "c) Bronze",
           "d) Gold"
         ],
-        "correct_answer": "c) Bronze"
+        "correct_answer": "c) Bronze",
+        "explanation": "The Dancing Girl of Mohenjo-daro is a bronze figurine made by the lost-wax technique. It is among the most iconic examples of Harappan metal craftsmanship.",
+        "elimination_logic": "Carnelian is associated more with beads, not this figurine. Clay is tempting because terracotta figurines are common, but Dancing Girl is specifically bronze. Gold is too extravagant and not the known answer here. Bronze fits both archaeological recall and art-history memory.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Vedic Period": [
@@ -56,7 +68,10 @@
           "c) 1 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "c) 1 and 3 only"
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Rigvedic Aryans are associated with horses and chariot-linked culture in literary memory. Harappan evidence for horse remains controversial and not firmly established in the standard UPSC sense. Statement 2 is wrong because Indus people knew copper and bronze, not iron.",
+        "elimination_logic": "Statement 2 is clearly wrong because iron was not known to the Harappans in the mature phase. Once 2 is eliminated, options b and d go out. Statements 1 and 3 remain the most acceptable in UPSC framing. Hence option c.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2024,
@@ -67,7 +82,10 @@
           "c) Both 1 and 2",
           "d) Neither 1 nor 2"
         ],
-        "correct_answer": "b) 2 only"
+        "correct_answer": "b) 2 only",
+        "explanation": "Upanishads do contain dialogues, analogies, and parable-like teaching devices. So statement 1 is incorrect. Statement 2 is correct because the principal Upanishads belong to a much earlier intellectual layer than the Puranas.",
+        "elimination_logic": "Statement 1 is too absolute because 'no parables' is usually a red-flag phrase in UPSC. Statement 2 fits the general chronology of Indian sacred literature. So only 2 survives.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Buddhism": [
@@ -80,7 +98,10 @@
           "c) 1, 2 and 3",
           "d) None"
         ],
-        "correct_answer": "b) 1 and 2 only"
+        "correct_answer": "b) 1 and 2 only",
+        "explanation": "Ajanta is world-famous for mural paintings. Lepakshi temple is also known for its mural tradition. Sanchi is more famous for stupas, gateways, and sculpture rather than mural paintings.",
+        "elimination_logic": "Ajanta is definitely correct, so options without 1 are out. Sanchi is the trap because students overextend Buddhist-art knowledge to murals. Lepakshi is a non-Buddhist but mural-rich site. Hence 1 and 2 only.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2013,
@@ -91,7 +112,10 @@
           "c) Chaitya is the stupa at the far end of the cave, while Vihara is the hall axial to it",
           "d) There is no material difference between the two"
         ],
-        "correct_answer": "b) Chaitya is a place of worship, while Vihara is the dwelling place of the monks"
+        "correct_answer": "b) Chaitya is a place of worship, while Vihara is the dwelling place of the monks",
+        "explanation": "Chaitya refers to a prayer or worship hall, often with a stupa. Vihara is a monastery or dwelling place for monks.",
+        "elimination_logic": "UPSC often tests inversion traps; options a and b are exact opposites. Standard Buddhist architecture tells us Chaitya = worship hall, Vihara = residence. So b is the direct conceptual answer.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2013,
@@ -102,7 +126,10 @@
           "c) A state of Bliss and rest",
           "d) A mental stage beyond all comprehension"
         ],
-        "correct_answer": "a) The extinction of the flame of desire"
+        "correct_answer": "a) The extinction of the flame of desire",
+        "explanation": "Nirvana in Buddhism fundamentally refers to extinguishing craving, desire, and the cycle of suffering rooted in them. It is not simply annihilation of self in crude terms.",
+        "elimination_logic": "Buddhism avoids an eternal self doctrine, so 'annihilation of self' is a misleading oversimplification. 'Bliss' and 'beyond comprehension' are too vague and philosophical. The most doctrinally precise expression is extinction of desire.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2014,
@@ -113,7 +140,10 @@
           "c) 1 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "c) 1 and 3 only"
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Tabo monastery is in Spiti Valley and Alchi is in Ladakh. The second pair is incorrect in UPSC’s location framing.",
+        "elimination_logic": "Pairs 1 and 3 are standard and more securely known. Once pair 2 is doubtful, options containing all three are eliminated. This leaves 1 and 3 only.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2016,
@@ -124,7 +154,10 @@
           "c) 2 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "b) 2 and 3 only"
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "The Bodhisattva ideal is central to Mahayana Buddhism, not Hinayana/Theravada in the usual UPSC framework. Statements 2 and 3 accurately reflect the Bodhisattva concept.",
+        "elimination_logic": "Statement 1 is the key elimination because Bodhisattva is linked to Mahayana. Once 1 goes out, a and d are eliminated. 2 and 3 are both conceptually correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2017,
@@ -135,18 +168,24 @@
           "c) Bagh",
           "d) Ellora"
         ],
-        "correct_answer": "a) Ajanta"
+        "correct_answer": "a) Ajanta",
+        "explanation": "The Bodhisattva Padmapani image is one of the most celebrated murals of Ajanta.",
+        "elimination_logic": "Ajanta is the best-known Buddhist mural complex in India. Padmapani is directly associated with Ajanta in standard art-history recall. Other sites may have paintings/sculpture, but this specific image is Ajanta.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2017,
-        "question": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were the sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.\nOptions:",
+        "question": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were the sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.",
         "options": [
           "a) 1 only",
           "b) 2 only",
           "c) Both 1 and 2",
           "d) Neither 1 nor 2"
         ],
-        "correct_answer": "b) 2 only"
+        "correct_answer": "b) 2 only",
+        "explanation": "Sautrantika and Sammitiya are Buddhist sectarian traditions, not Jain sects. The second statement correctly reflects the Sarvastivada doctrinal position in simplified UPSC terms.",
+        "elimination_logic": "Statement 1 is wrong because the named schools are not Jain. Statement 2 is doctrinally linked to Sarvastivada. Therefore only 2 is correct.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2018,
@@ -157,7 +196,10 @@
           "c) Maitreya",
           "d) Padmapani"
         ],
-        "correct_answer": "c) Maitreya"
+        "correct_answer": "c) Maitreya",
+        "explanation": "Maitreya is regarded in Buddhist tradition as the future Buddha. Avalokiteshvara and Padmapani are associated with Bodhisattva imagery.",
+        "elimination_logic": "Maitreya is a direct factual recall point in Buddhism. Avalokiteshvara and Padmapani are Bodhisattva-linked names, creating the trap. Future Buddha specifically means Maitreya.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2019,
@@ -168,18 +210,24 @@
           "c) 2 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "d) 1, 2 and 3"
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Mahayana Buddhism is associated with exalted Buddha imagery, Bodhisattva ideal, and greater ritualistic and devotional developments, including image worship.",
+        "elimination_logic": "Bodhisattva path strongly points toward Mahayana. Deification and image worship also align with Mahayana expansion. Since all three fit, the inclusive option is correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2020,
-        "question": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka — Renunciant and Wanderer\n2. Shramana — Priest with a high status\n3. Upasaka — Lay follower of Buddhism\nWhich of the pairs given above are correct?",
+        "question": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka — Renunciant and Wanderer\n2. Shramana — Priest with a high status\n3. Upasaka — Lay follower of Buddhism",
         "options": [
           "a) 1 and 2 only",
           "b) 1 and 3 only",
           "c) 2 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "b) 1 and 3 only"
+        "correct_answer": "b) 1 and 3 only",
+        "explanation": "Parivrajaka means wandering renunciant. Upasaka means lay follower in Buddhism. Shramana does not mean priest with a high status; it refers to renunciatory traditions outside the orthodox Vedic ritual framework.",
+        "elimination_logic": "Statement 2 is the trap because it wrongly Vedicizes the term Shramana. Statements 1 and 3 are standard cultural-history meanings. Therefore b is correct.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -190,7 +238,10 @@
           "c) Perfections whose attainment led to the Bodhisattva path",
           "d) Powerful merchant guilds of early medieval South India"
         ],
-        "correct_answer": "c) Perfections whose attainment led to the Bodhisattva path"
+        "correct_answer": "c) Perfections whose attainment led to the Bodhisattva path",
+        "explanation": "Paramitas in Buddhist thought refer to perfections or virtues cultivated on the path of the Bodhisattva.",
+        "elimination_logic": "a relates to Dharmashastra literature, not Buddhism. b refers to nastika or heterodox schools broadly, not paramitas. d is clearly from economic history. c is the only doctrinally correct answer.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2021,
@@ -201,7 +252,10 @@
           "c) 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "b) 2 and 3 only"
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Sthaviravadins are not Mahayana in the standard UPSC framing. Lokottaravadin was linked to Mahasanghika, and Mahasanghika tendencies contributed to developments later associated with Mahayana.",
+        "elimination_logic": "Statement 1 is the key elimination. Statements 2 and 3 fit the accepted doctrinal evolution. So b is correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2023,
@@ -212,7 +266,10 @@
           "c) All three",
           "d) None"
         ],
-        "correct_answer": "b) Only two"
+        "correct_answer": "b) Only two",
+        "explanation": "Stupas became central to Buddhism, were repositories of relics, and also served commemorative and votive purposes. However, the mound concept is older than Buddhism, so statement 1 is not fully correct in strict historical terms.",
+        "elimination_logic": "Statement 1 is the tricky one because stupa-like funerary mounds predate Buddhism. Statements 2 and 3 are acceptable in Buddhist context. Therefore only two are correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2024,
@@ -223,7 +280,10 @@
           "c) Sarvastivada Vinaya",
           "d) Lalitavistara"
         ],
-        "correct_answer": "c) Sarvastivada Vinaya"
+        "correct_answer": "c) Sarvastivada Vinaya",
+        "explanation": "Sanghabhuti is associated with a commentary on the Sarvastivada Vinaya in the Buddhist textual tradition.",
+        "elimination_logic": "This is a direct textual association question. The correct match is Sarvastivada Vinaya; the others are distractors from broader Buddhist literature.",
+        "theme_frequency": "LOW"
       },
       {
         "year": 2024,
@@ -234,7 +294,80 @@
           "c) 1, 2 and 3",
           "d) None of the above are epithets of Gautama Buddha"
         ],
-        "correct_answer": "b) 2 and 3 only"
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Shakyamuni and Tathagata are standard epithets of the Buddha. Nayaputta is associated with Mahavira, not Gautama Buddha.",
+        "elimination_logic": "Nayaputta is the key elimination because it belongs to Jain tradition. Once 1 goes out, 2 and 3 remain as correct Buddhist epithets.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2021,
+        "question": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Mahayana Buddhism\n2. Lokottaravadin sect was an offshoot of Mahasanghika sect of Buddhism\n3. The deification of Buddha by Mahasanghikas fostered Mahayana Buddhism",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Sthaviravadins are not Mahayana in the standard UPSC framing. Lokottaravadin was linked to Mahasanghika, and Mahasanghika tendencies contributed to developments later associated with Mahayana.",
+        "elimination_logic": "Statement 1 is the key elimination. Statements 2 and 3 fit the accepted doctrinal evolution. So b is correct.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2018,
+        "question": "With reference to the Indian History, who among the following is a future Buddha, yet to come to save the world?",
+        "options": [
+          "a) Avalokiteshvara",
+          "b) Lokesvara",
+          "c) Maitreya",
+          "d) Padmapani"
+        ],
+        "correct_answer": "c) Maitreya",
+        "explanation": "Maitreya is regarded in Buddhist tradition as the future Buddha. Avalokiteshvara and Padmapani are associated with Bodhisattva imagery.",
+        "elimination_logic": "Maitreya is a direct factual recall point in Buddhism. Avalokiteshvara and Padmapani are Bodhisattva-linked names, creating the trap. Future Buddha specifically means Maitreya.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following:\n1) Deification of the Buddha\n2) Treading the path of Bodhisattvas\n3) Image worship and rituals\nWhich of the above is/are the feature/ features of Mahayana Buddhism?",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Mahayana Buddhism is associated with exalted Buddha imagery, Bodhisattva ideal, and greater ritualistic and devotional developments, including image worship.",
+        "elimination_logic": "Bodhisattva path strongly points toward Mahayana. Deification and image worship also align with Mahayana expansion. Since all three fit, the inclusive option is correct.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2021,
+        "question": "With reference to the cultural history of India, which one of the following is the correct description of the term ‘paramitas’?",
+        "options": [
+          "a) The earliest Dharmashastra texts written in aphoristic (sutra) style",
+          "b) Philosophical schools that did not accept the authority of Vedas",
+          "c) Perfections whose attainment led to the Bodhisattva path",
+          "d) Powerful merchant guilds of early medieval South India"
+        ],
+        "correct_answer": "c) Perfections whose attainment led to the Bodhisattva path",
+        "explanation": "Paramitas in Buddhist thought refer to perfections or virtues cultivated on the path of the Bodhisattva.",
+        "elimination_logic": "a relates to Dharmashastra literature, not Buddhism. b refers to nastika or heterodox schools broadly, not paramitas. d is clearly from economic history. c is the only doctrinally correct answer.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka — Renunciant and Wanderer\n2. Shramana — Priest with a high status\n3. Upasaka — Lay follower of Buddhism",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 1 and 3 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 1 and 3 only",
+        "explanation": "Parivrajaka means wandering renunciant. Upasaka means lay follower in Buddhism. Shramana does not mean priest with a high status; it refers to renunciatory traditions outside the orthodox Vedic ritual framework.",
+        "elimination_logic": "Statement 2 is the trap because it wrongly Vedicizes the term Shramana. Statements 1 and 3 are standard cultural-history meanings. Therefore b is correct.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Jainism": [
@@ -247,7 +380,10 @@
           "c) 1 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "d) 1, 2 and 3"
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Jainism places great emphasis on karma as a material burden binding the soul. Penance, austerity, and strict ethical conduct are central to burning off accumulated karma. Jain metaphysics also recognizes soul in a very wide range of entities, far beyond the ordinary living categories recognized in many other traditions.",
+        "elimination_logic": "Jain doctrine is known for extreme asceticism, so statement 1 strongly fits. Statement 2 reflects the expansive Jain view of life and soul. Statement 3 is doctrinally central because liberation requires ending karmic bondage. Since all three fit Jain teaching, the inclusive option is correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2018,
@@ -258,7 +394,10 @@
           "c) Vaishnavism",
           "d) Shaivism"
         ],
-        "correct_answer": "b) Jainism"
+        "correct_answer": "b) Jainism",
+        "explanation": "Sthanakvasi is a sect within Jainism, especially known in the Shvetambara tradition and associated with non-idolatrous practices.",
+        "elimination_logic": "Sthanakvasi is a sect-name that should be linked with Jain religious history. It is neither a Buddhist school nor a Vaishnava/Shaiva sampradaya. So Jainism is the direct factual answer.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2022,
@@ -269,18 +408,24 @@
           "c) 1, 3 and 4",
           "d) 2, 3 and 4"
         ],
-        "correct_answer": "b) 2 and 4 only"
+        "correct_answer": "b) 2 and 4 only",
+        "explanation": "Parishishtaparvan and Trishashtilakshana Mahapurana are Jaina texts. Nettipakarana and Avadanashataka are associated with Buddhist textual traditions.",
+        "elimination_logic": "The key is to identify Buddhist-looking names and remove them. Nettipakarana and Avadanashataka belong outside the Jaina canon. That leaves 2 and 4 only. So option b is correct.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2023,
-        "question": "“Souls are not only the property of animal and plant life, but also of rocks, running water and many other natural objects not looked on as living by other religious sects.” The above statement reflects one of the core beliefs of which one of the following religious sects of ancient India?",
+        "question": "“Souls are not only the property of animal and plant life, but also of rocks, running water and many other natural objects not looked on as living by other religious sects.”\nThe above statement reflects one of the core beliefs of which one of the following religious sects of ancient India?",
         "options": [
           "a) Buddhism",
           "b) Jainism",
           "c) Shaivism",
           "d) Vaishnavism"
         ],
-        "correct_answer": "b) Jainism"
+        "correct_answer": "b) Jainism",
+        "explanation": "This reflects the Jain doctrine of jiva in a very expansive sense. Jain thought attributes life-principle or soul even to entities like earth, water, fire, air, and vegetation in different forms.",
+        "elimination_logic": "This is a direct doctrinal clue pointing toward Jain metaphysics. Buddhism does not frame soul in this manner. Shaivism and Vaishnavism are not known for this specific ontological view. Hence Jainism.",
+        "theme_frequency": "HIGH"
       }
     ],
     "Mahajanapadas": [
@@ -293,7 +438,10 @@
           "c) 3 and 4 only",
           "d) 1, 3 and 4"
         ],
-        "correct_answer": "c) 3 and 4 only"
+        "correct_answer": "c) 3 and 4 only",
+        "explanation": "Kosala and Magadha were directly central to the life and activity of the Buddha. Avanti and Gandhara were important kingdoms of the age but are not treated as directly associated in the way the question expects.",
+        "elimination_logic": "Buddha’s life is strongly connected with the middle Gangetic plain. Kosala and Magadha are the safest core choices. Avanti and Gandhara are broader mahajanapada distractions. Thus 3 and 4 only.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2025,
@@ -304,20 +452,26 @@
           "c) Only three",
           "d) All the four"
         ],
-        "correct_answer": "b) Only two"
+        "correct_answer": "b) Only two",
+        "explanation": "Asmaka is linked with the Godavari region, and Kosala with the Sarayu. The other two pairings are incorrect in UPSC’s expected historical geography.",
+        "elimination_logic": "Asmaka–Godavari is a strong geographic recall point. Kosala–Sarayu is also standard. Avanti is not associated with Mahanadi. That leaves only two correct pairs.",
+        "theme_frequency": "MEDIUM"
       }
     ],
-    "Mauryan Era": [
+    "Mouryan Era": [
       {
         "year": 2013,
-        "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The caves at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya.\n3. At Ellora, caves were made for different faiths.\nWhich of the statements given above is/are correct?",
+        "question": "With reference to the history of Indian rock-cut architecture, consider the following statements:\n1. The caves at Badami are the oldest surviving rock-cut caves in India.\n2. The Barabar rock-cut caves were originally made for Ajivikas by Emperor Chandragupta Maurya.\n3. At Ellora, caves were made for different faiths.",
         "options": [
           "a) 1 only",
           "b) 2 and 3 only",
           "c) 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "c) 3 only"
+        "correct_answer": "c) 3 only",
+        "explanation": "Ellora indeed contains caves associated with multiple faiths. Statement 1 is incorrect because Badami is not the oldest surviving rock-cut cave complex in India. Statement 2 is also incorrect in UPSC framing because the Barabar caves are associated with Ashoka and Dasharatha rather than Chandragupta Maurya.",
+        "elimination_logic": "Statement 3 is clearly correct. Statement 1 is too sweeping and historically unsafe. Statement 2 contains the dynastic trap: Barabar is Mauryan, but not Chandragupta in the way stated. Hence only 3 survives.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2015,
@@ -328,7 +482,10 @@
           "c) Rock-cut Monuments at Mahabalipuram",
           "d) Varaha Image at Udayagiri"
         ],
-        "correct_answer": "b) Rock-cut Elephant at Dhauli"
+        "correct_answer": "b) Rock-cut Elephant at Dhauli",
+        "explanation": "The Dhauli elephant is associated with the Mauryan-Ashokan horizon and is earlier than the other listed monuments, which belong to later historical periods.",
+        "elimination_logic": "Lingaraja is medieval. Mahabalipuram is Pallava-period. Udayagiri Varaha is Gupta-period. Mauryan Dhauli is earlier than all these.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2016,
@@ -339,18 +496,10 @@
           "c) Max Muller",
           "d) William Jones"
         ],
-        "correct_answer": "b) James Prinsep"
-      },
-      {
-        "year": 2019,
-        "question": "In which of the following relief sculpture inscriptions is ‘Ranyo Ashoka’ (King Ashoka) mentioned along with the stone portrait of Ashoka?",
-        "options": [
-          "a) Kanganahalli",
-          "b) Sanchi",
-          "c) Shahbazgarhi",
-          "d) Sohgaura"
-        ],
-        "correct_answer": "a) Kanganahalli"
+        "correct_answer": "b) James Prinsep",
+        "explanation": "James Prinsep is credited with deciphering the Brahmi script, which made Ashokan inscriptions intelligible.",
+        "elimination_logic": "Max Muller is associated more with Vedic and philological work. William Jones is known for Asiatic Society and comparative linguistics. James Prinsep is the direct inscription-decipherment answer. So b is the standard factual recall.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -361,7 +510,10 @@
           "c) Harshavardhana",
           "d) Krishanadeva Raya"
         ],
-        "correct_answer": "a) Ashoka"
+        "correct_answer": "a) Ashoka",
+        "explanation": "This reflects Ashoka’s dhamma policy, especially his emphasis on tolerance, restraint in sectarian pride, and respect for all religious traditions.",
+        "elimination_logic": "The language of moral governance and religious tolerance is strongly Ashokan. Samudragupta is better known for conquest and eulogistic inscriptions. Harsha and Krishnadevaraya do not fit this inscriptional idiom. So Ashoka is the only suitable choice.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2022,
@@ -372,7 +524,24 @@
           "c) 1 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "b) 2 and 3 only"
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "The Arthashastra contains detailed provisions on slavery and legal status. In UPSC framing, statements 2 and 3 are accepted, while statement 1 is not.",
+        "elimination_logic": "Statement 1 is the doubtful statement and should be treated with caution. Statements 2 and 3 are specific legal provisions and go together. So b is the best elimination choice.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2019,
+        "question": "In which of the following relief sculpture inscriptions is ‘Ranyo Ashoka’ (King Ashoka) mentioned along with the stone portrait of Ashoka?",
+        "options": [
+          "a) Kanganahalli",
+          "b) Sanchi",
+          "c) Shahbazgarhi",
+          "d) Sohgaura"
+        ],
+        "correct_answer": "a) Kanganahalli",
+        "explanation": "Kanganahalli is associated with the inscription mentioning 'Ranyo Ashoka' alongside the sculptural depiction.",
+        "elimination_logic": "Sanchi and Shahbazgarhi are tempting because both are prominent in Buddhist-Ashokan memory. Sohgaura is known for a different inscriptional context. Kanganahalli is the specific and precise archaeological match.",
+        "theme_frequency": "LOW"
       },
       {
         "year": 2022,
@@ -383,7 +552,10 @@
           "c) Only three pairs",
           "d) All four pairs"
         ],
-        "correct_answer": "b) Only two pairs"
+        "correct_answer": "b) Only two pairs",
+        "explanation": "Dhauli is in Odisha and Erragudi is in Andhra Pradesh. Jaugada is not in Madhya Pradesh, and Kalsi is not in Karnataka.",
+        "elimination_logic": "1 and 2 are standard location matches. 3 and 4 are the deliberate traps. So exactly two are correct.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2025,
@@ -394,7 +566,10 @@
           "c) provincial administration",
           "d) level of the central administration"
         ],
-        "correct_answer": "b) district-level administration"
+        "correct_answer": "b) district-level administration",
+        "explanation": "These officers are associated with local/district-level administrative functioning in the Mauryan state, especially in the interpretation of Ashokan inscriptions.",
+        "elimination_logic": "Village-level is too low for such titled officers. Provincial and central levels are too high and more general. UPSC expects these as district-level administrative officers. Hence b.",
+        "theme_frequency": "HIGH"
       }
     ],
     "Shungas": [
@@ -407,7 +582,10 @@
           "c) Meghadoota",
           "d) Ratnavali"
         ],
-        "correct_answer": "b) Malavikagnimitra"
+        "correct_answer": "b) Malavikagnimitra",
+        "explanation": "Kalidasa’s Malavikagnimitra revolves around Agnimitra, son of Pushyamitra Sunga.",
+        "elimination_logic": "Meghadoota is lyrical poetry, not this dynastic narrative. Ratnavali is linked to Harsha. Swapnavasavadatta belongs to a different dramatic tradition. Malavikagnimitra directly matches Agnimitra.",
+        "theme_frequency": "LOW"
       }
     ],
     "Satavahanas": [
@@ -420,7 +598,10 @@
           "c) Kalinga",
           "d) Magadha"
         ],
-        "correct_answer": "a) Andhra"
+        "correct_answer": "a) Andhra",
+        "explanation": "Dhanyakataka is associated with the Andhra region and became an important Buddhist center.",
+        "elimination_logic": "Gandhara and Magadha are major Buddhist zones, making them attractive distractors. But Dhanyakataka specifically belongs to Andhra. So a is the correct regional identification.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Sangam Age": [
@@ -433,7 +614,10 @@
           "c) 2 and 3",
           "d) 1 and 3"
         ],
-        "correct_answer": "d) 1 and 3"
+        "correct_answer": "d) 1 and 3",
+        "explanation": "Eripatti and Ghatikas are correctly matched. The second pairing is incorrect in UPSC framing.",
+        "elimination_logic": "1 is a standard agrarian-administrative term and is reliable. 3 is also a familiar South Indian institutional term. Since 2 is the doubtful one, choose the option retaining 1 and 3 only.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2022,
@@ -444,7 +628,10 @@
           "c) Sangam poems have no references to warrior ethic",
           "d) Sangam literature refers to magical forces as irrational"
         ],
-        "correct_answer": "b) The social classification of Varna was known to Sangam poets"
+        "correct_answer": "b) The social classification of Varna was known to Sangam poets",
+        "explanation": "Sangam literature does refer to social hierarchy and broader cultural interactions, including awareness of varna categories. It is not devoid of material culture and certainly includes martial values and warrior ethics.",
+        "elimination_logic": "a is too absolute and therefore suspicious. c is clearly wrong because warrior ethic is central in Sangam poetry. d is also not the correct framing. So b is the only defensible answer.",
+        "theme_frequency": "HIGH"
       },
       {
         "year": 2023,
@@ -455,7 +642,10 @@
           "c) Young girls keeping watch over agricultural fields and driving away birds and animals",
           "d) A king defeated in a battle committing ritual suicide by starving himself to death"
         ],
-        "correct_answer": "d) A king defeated in a battle committing ritual suicide by starving himself to death"
+        "correct_answer": "d) A king defeated in a battle committing ritual suicide by starving himself to death",
+        "explanation": "Vattakirutal refers to a defeated king undertaking ritual starvation unto death, a distinctive Sangam-age cultural practice.",
+        "elimination_logic": "a, b, and c sound socially plausible but are not this specific term. UPSC often asks unusual regional-cultural practices directly. d is the exact meaning and should be remembered as a factual marker.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Gupta Era": [
@@ -468,7 +658,10 @@
           "c) The forced labourer was entitled to weekly wages.",
           "d) The eldest son of the labourer was sent as the forced labourer."
         ],
-        "correct_answer": "a) It was considered a source of income for the State, a sort of tax paid by the people."
+        "correct_answer": "a) It was considered a source of income for the State, a sort of tax paid by the people.",
+        "explanation": "Vishti refers to forced labor and is often understood as a burden or obligation that functioned like a tax in labor form.",
+        "elimination_logic": "b is too absolute and historically unsafe. c and d are artificial additions not supported by the standard understanding of vishti. a captures the accepted interpretation.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -479,7 +672,10 @@
           "c) Places of exquisite stone art and architecture",
           "d) Important of Buddhist pilgrimage centres"
         ],
-        "correct_answer": "a) Ports handling foreign trade"
+        "correct_answer": "a) Ports handling foreign trade",
+        "explanation": "These towns were known as trading ports linked to maritime and commercial activity during the Gupta age.",
+        "elimination_logic": "The names are better remembered from trade geography, not political capitals. They are not primarily celebrated as major pilgrimage or sculptural centers in this context. So port function is the correct answer.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -490,7 +686,10 @@
           "c) Classification of urban land",
           "d) Religious rituals"
         ],
-        "correct_answer": "a) Measurement of land"
+        "correct_answer": "a) Measurement of land",
+        "explanation": "Both terms are units connected with land measurement in ancient India.",
+        "elimination_logic": "These terms do not sound monetary or ritualistic in the usual UPSC context. UPSC often asks ancient administrative-economic vocabulary as land units. So land measurement is the correct category.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -501,7 +700,10 @@
           "c) 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "c) 3 only"
+        "correct_answer": "c) 3 only",
+        "explanation": "Kalidasa is associated with Chandragupta II in standard historical tradition. The other two associations are not accepted.",
+        "elimination_logic": "Panini belongs to a much earlier period and cannot be safely linked with Pushyamitra. Amarasimha is not correctly associated with Harsha in this framing. Only statement 3 remains valid.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2025,
@@ -512,7 +714,10 @@
           "c) Kumaragupta I",
           "d) Skandagupta"
         ],
-        "correct_answer": "b) Chandragupta II"
+        "correct_answer": "b) Chandragupta II",
+        "explanation": "Faxian visited India during the reign of Chandragupta II and left a valuable account of the Gupta period.",
+        "elimination_logic": "UPSC frequently tests Chinese travellers and dynastic association. Faxian is linked with Gupta India, specifically Chandragupta II. The other Gupta rulers are distractors within the same dynasty.",
+        "theme_frequency": "HIGH"
       }
     ],
     "Harsha Era": [
@@ -525,7 +730,24 @@
           "c) 1 and 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "b) 2 and 3 only"
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Xuanzang’s account reflects social and legal practices, including ordeals and duties levied at ferries and barriers. The claim that routes were completely immune from robbery is too absolute and incorrect.",
+        "elimination_logic": "Statement 1 should be rejected because absolute claims are often traps. Statements 2 and 3 are both historically acceptable in UPSC framing. Therefore b is correct.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2021,
+        "question": "From the decline of Guptas until the rise of Harshavardhana in the early seventh century, which of the following kingdoms were holding power in Northern India?\n1) The Guptas of Magadha\n2) The Paramaras of Malwa\n3) The Pushyabhutis of Thanesar\n4) The Maukharis of Kanauj\n5) The Yadavas of Devagiri\n6) The Maitrakas of Valabhi",
+        "options": [
+          "a) 1, 2 and 5",
+          "b) 1, 3, 4 and 6",
+          "c) 2, 3 and 4",
+          "d) 5 and 6"
+        ],
+        "correct_answer": "b) 1, 3, 4 and 6",
+        "explanation": "The relevant powers in this transitional period include the later Guptas of Magadha, Pushyabhutis, Maukharis, and Maitrakas. Paramaras and Yadavas belong to much later contexts.",
+        "elimination_logic": "Paramaras and Yadavas are easy eliminations if chronology is clear. Once 2 and 5 go out, only option b remains. This is a classic chronology-based elimination question.",
+        "theme_frequency": "MEDIUM"
       },
       {
         "year": 2020,
@@ -536,18 +758,10 @@
           "c) A bill of exchange",
           "d) An order from the feudal lord to his subordinates"
         ],
-        "correct_answer": "c) A bill of exchange"
-      },
-      {
-        "year": 2021,
-        "question": "From the decline of Guptas until the rise of Harshavardhana in the early seventh century, which of the following kingdoms were holding power in Northern India?\n1. The Guptas of Magadha\n2. The Paramaras of Malwa\n3. The Pushyabhutis of Thanesar\n4. The Maukharis of Kanauj\n5. The Yadavas of Devagiri\n6. The Maitrakas of Valabhi",
-        "options": [
-          "a) 1, 2 and 5",
-          "b) 1, 3, 4 and 6",
-          "c) 2, 3 and 4",
-          "d) 5 and 6"
-        ],
-        "correct_answer": "b) 1, 3, 4 and 6"
+        "correct_answer": "c) A bill of exchange",
+        "explanation": "Hundi refers to a financial instrument, broadly comparable to a bill of exchange in pre-modern Indian commerce.",
+        "elimination_logic": "The word belongs to commercial-financial history, not royal administration. a, b, and d are administrative distractions. c is the only economic meaning that fits.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Badami Chalukyas": [
@@ -560,7 +774,10 @@
           "c) 3 only",
           "d) 1, 2 and 3"
         ],
-        "correct_answer": "c) 3 only"
+        "correct_answer": "c) 3 only",
+        "explanation": "Ellora indeed represents multi-faith cave development. Statements 1 and 2 are incorrect for the same reasons explained earlier under Mauryan-era context.",
+        "elimination_logic": "Statement 3 is unquestionably correct. Statements 1 and 2 contain chronology/patronage traps. So c is the safest and correct answer.",
+        "theme_frequency": "MEDIUM"
       }
     ],
     "Pallavas": [
@@ -573,7 +790,10 @@
           "c) Narasimhavarman I",
           "d) Simhavarman"
         ],
-        "correct_answer": "a) Mahendravarman I"
+        "correct_answer": "a) Mahendravarman I",
+        "explanation": "Mahendravarman I of the Pallavas is known for these titles and also for his contribution to art, architecture, and Sanskrit/Tamil cultural history.",
+        "elimination_logic": "Pallava ruler-titles are a standard factual recall area. Mahendravarman I is especially associated with literary and artistic epithets. The other Pallava rulers are important, but these specific titles point to him.",
+        "theme_frequency": "MEDIUM"
       }
     ]
   }
