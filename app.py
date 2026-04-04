@@ -2,12 +2,41 @@ from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 import os
 import re
+import json
 from difflib import SequenceMatcher
 
 app = Flask(__name__)
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
+
+
+def load_pyqs_json():
+    try:
+        with open("pyqs.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+PYQS_DATA = load_pyqs_json()
+
+
+def get_pyq_subjects():
+    return list(PYQS_DATA.keys())
+
+
+def get_pyq_topics(subject):
+    if subject in PYQS_DATA and isinstance(PYQS_DATA[subject], dict):
+        return list(PYQS_DATA[subject].keys())
+    return []
+
+
+def get_pyqs_by_subject_topic(subject, topic):
+    if subject in PYQS_DATA:
+        if topic in PYQS_DATA[subject]:
+            return PYQS_DATA[subject][topic]
+    return []
 
 
 def clean_display_topic(text):
