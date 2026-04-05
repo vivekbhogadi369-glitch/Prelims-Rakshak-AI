@@ -682,19 +682,14 @@ Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MC
     <div id="notesBrowser" class="notes-browser hidden">
         <div class="browse-panel">
             <div class="notes-browser-title">Browse Notes</div>
-            <div class="selected-path" id="notesSelectedPath">Choose Notes to begin.</div>
+            <div class="selected-path" id="notesSelectedPath">Choose a subject to begin.</div>
             <div class="browse-nav">
-                <button type="button" id="backToNoteSubjectsBtn" class="nav-button hidden" onclick="backToNoteSubjects()">← Back to Notes</button>
-                <button type="button" id="backToNoteTopicsBtn" class="nav-button hidden" onclick="backToNoteTopics()">← Back to Subjects</button>
+                <button type="button" id="backToNoteSubjectsBtn" class="nav-button hidden" onclick="backToNoteSubjects()">← Back to Subjects</button>
+                <button type="button" id="backToNoteTopicsBtn" class="nav-button hidden" onclick="backToNoteTopics()">← Back to Topics</button>
             </div>
         </div>
 
-        <div id="notesRootPanel" class="browse-panel">
-            <div class="browse-label">Notes</div>
-            <div id="notesRoot" class="browse-grid"></div>
-        </div>
-
-        <div id="noteSubjectPanel" class="browse-panel hidden">
+        <div id="noteSubjectPanel" class="browse-panel">
             <div class="browse-label">Subjects</div>
             <div id="noteSubjects" class="browse-grid"></div>
         </div>
@@ -719,7 +714,7 @@ let currentQuestions = [];
 let currentQuestionIndex = 0;
 
 let notesData = null;
-let currentNoteRoot = "";
+let noteSubjectsMap = {};
 let currentNoteSubject = "";
 let currentNoteTopic = "";
 
@@ -851,7 +846,7 @@ function formatPyqText(text) {
 }
 
 function formatNotesText(text) {
-    const rawLines = text.replace(/\r/g, "").split("\n");
+    const rawLines = String(text || "").replace(/\r/g, "").split("\n");
     const out = [];
     let blockClass = "";
 
@@ -927,6 +922,11 @@ function formatNotesText(text) {
     }
 
     closeBlock();
+
+    if (out.length === 0) {
+        return `<div class="plain-answer">${escapeHtml(text)}</div>`;
+    }
+
     return out.join("\n");
 }
 
@@ -1070,7 +1070,6 @@ function buildSections(answer) {
 function resetAI() {
     document.getElementById("question").value = "";
     document.getElementById("answer").innerText = "Your answer will appear here.";
-
     document.getElementById("pyqBrowser").classList.add("hidden");
     document.getElementById("subjects").innerHTML = "";
     document.getElementById("topics").innerHTML = "";
@@ -1083,15 +1082,13 @@ function resetAI() {
     document.getElementById("backToTopicsBtn").classList.add("hidden");
 
     document.getElementById("notesBrowser").classList.add("hidden");
-    document.getElementById("notesRoot").innerHTML = "";
     document.getElementById("noteSubjects").innerHTML = "";
     document.getElementById("noteTopics").innerHTML = "";
     document.getElementById("fullNotes").innerHTML = "";
-    document.getElementById("notesRootPanel").classList.remove("hidden");
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
+    document.getElementById("noteSubjectPanel").classList.remove("hidden");
     document.getElementById("noteTopicPanel").classList.add("hidden");
     document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = "Choose Notes to begin.";
+    document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
     document.getElementById("backToNoteSubjectsBtn").classList.add("hidden");
     document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
 
@@ -1100,7 +1097,6 @@ function resetAI() {
     currentQuestions = [];
     currentQuestionIndex = 0;
 
-    currentNoteRoot = "";
     currentNoteSubject = "";
     currentNoteTopic = "";
 }
@@ -1433,58 +1429,50 @@ async function loadQuestions(encodedSubject, encodedTopic) {
     }
 }
 
-function showNotesRootView() {
-    document.getElementById("notesRootPanel").classList.remove("hidden");
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.add("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = "Choose Notes to begin.";
+function normalizeNotesData(data) {
+    if (!data || typeof data !== "object") return {};
+
+    if (data.Notes && typeof data.Notes === "object") {
+        return data.Notes;
+    }
+
+    return data;
 }
 
-function showNoteSubjectView() {
-    document.getElementById("notesRootPanel").classList.add("hidden");
-    document.getElementById("noteSubjectPanel").classList.remove("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = `Notes: ${currentNoteRoot}`;
-}
+async function fetchNotesData() {
+    if (notesData) return notesData;
 
-function showNoteTopicView() {
-    document.getElementById("notesRootPanel").classList.add("hidden");
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
-    document.getElementById("noteTopicPanel").classList.remove("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.remove("hidden");
-    document.getElementById("notesSelectedPath").innerText = `Notes: ${currentNoteRoot} | Subject: ${currentNoteSubject}`;
-}
+    const possiblePaths = [
+        "/data/history_notes.json",
+        "/static/data/history_notes.json",
+        "/static/history_notes.json",
+        "/history_notes.json"
+    ];
 
-function showFullNotesView() {
-    document.getElementById("notesRootPanel").classList.add("hidden");
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.remove("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.remove("hidden");
-    document.getElementById("notesSelectedPath").innerText = `Notes: ${currentNoteRoot} | Subject: ${currentNoteSubject} | Topic: ${currentNoteTopic}`;
-}
+    let loaded = null;
 
-function buildNotesRootButtons(roots) {
-    let html = "";
-    roots.forEach(root => {
-        html += `<button type="button" class="browse-chip" onclick="loadNoteSubjects('${encodeURIComponent(root)}')">${escapeHtml(root)}</button>`;
-    });
-    return html;
+    for (const path of possiblePaths) {
+        try {
+            const res = await fetch(path, { cache: "no-store" });
+            if (!res.ok) continue;
+            const data = await res.json();
+            loaded = normalizeNotesData(data);
+            if (loaded && Object.keys(loaded).length > 0) {
+                notesData = loaded;
+                return notesData;
+            }
+        } catch (error) {
+            console.error("Notes fetch failed for:", path, error);
+        }
+    }
+
+    throw new Error("Notes JSON not found in expected paths.");
 }
 
 function buildNoteSubjectButtons(subjects) {
     let html = "";
     subjects.forEach(subject => {
-        html += `<button type="button" class="browse-chip" onclick="loadNoteTopics('${encodeURIComponent(currentNoteRoot)}','${encodeURIComponent(subject)}')">${escapeHtml(subject)}</button>`;
+        html += `<button type="button" class="browse-chip" onclick="loadNoteTopics('${encodeURIComponent(subject)}')">${escapeHtml(subject)}</button>`;
     });
     return html;
 }
@@ -1492,16 +1480,36 @@ function buildNoteSubjectButtons(subjects) {
 function buildNoteTopicButtons(topics) {
     let html = "";
     topics.forEach(topic => {
-        html += `<button type="button" class="browse-chip" onclick="loadFullNotes('${encodeURIComponent(currentNoteRoot)}','${encodeURIComponent(currentNoteSubject)}','${encodeURIComponent(topic)}')">${escapeHtml(topic)}</button>`;
+        html += `<button type="button" class="browse-chip" onclick="loadFullNotes('${encodeURIComponent(topic)}')">${escapeHtml(topic)}</button>`;
     });
     return html;
 }
 
-async function fetchNotesData() {
-    if (notesData) return notesData;
-    const res = await fetch("/data/history_notes.json");
-    notesData = await res.json();
-    return notesData;
+function showNoteSubjectView() {
+    document.getElementById("noteSubjectPanel").classList.remove("hidden");
+    document.getElementById("noteTopicPanel").classList.add("hidden");
+    document.getElementById("fullNotesPanel").classList.add("hidden");
+    document.getElementById("backToNoteSubjectsBtn").classList.add("hidden");
+    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
+    document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
+}
+
+function showNoteTopicView() {
+    document.getElementById("noteSubjectPanel").classList.add("hidden");
+    document.getElementById("noteTopicPanel").classList.remove("hidden");
+    document.getElementById("fullNotesPanel").classList.add("hidden");
+    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
+    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
+    document.getElementById("notesSelectedPath").innerText = `Subject: ${currentNoteSubject}`;
+}
+
+function showFullNotesView() {
+    document.getElementById("noteSubjectPanel").classList.add("hidden");
+    document.getElementById("noteTopicPanel").classList.add("hidden");
+    document.getElementById("fullNotesPanel").classList.remove("hidden");
+    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
+    document.getElementById("backToNoteTopicsBtn").classList.remove("hidden");
+    document.getElementById("notesSelectedPath").innerText = `Subject: ${currentNoteSubject} | Topic: ${currentNoteTopic}`;
 }
 
 async function toggleNotesBrowser() {
@@ -1517,93 +1525,78 @@ async function toggleNotesBrowser() {
     }
 
     browser.classList.remove("hidden");
-    showNotesRootView();
-    document.getElementById("notesRoot").innerHTML = "Loading notes...";
-
-    currentNoteRoot = "";
     currentNoteSubject = "";
     currentNoteTopic = "";
+    noteSubjectsMap = {};
+    document.getElementById("noteSubjects").innerHTML = "Loading subjects...";
+    document.getElementById("noteTopics").innerHTML = "";
+    document.getElementById("fullNotes").innerHTML = "";
+    showNoteSubjectView();
 
     try {
         const data = await fetchNotesData();
-        const roots = Object.keys(data || {});
-        document.getElementById("notesRoot").innerHTML = buildNotesRootButtons(roots);
-        document.getElementById("notesSelectedPath").innerText = "Choose Notes to begin.";
+        noteSubjectsMap = data;
+        const subjects = Object.keys(noteSubjectsMap || {});
+        document.getElementById("noteSubjects").innerHTML = buildNoteSubjectButtons(subjects);
+        document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
     } catch (error) {
-        document.getElementById("notesRoot").innerHTML = `<div class="plain-answer">Error loading notes.</div>`;
+        document.getElementById("noteSubjects").innerHTML = `<div class="plain-answer">Error loading notes.</div>`;
         document.getElementById("notesSelectedPath").innerText = "Could not load notes.";
         console.error(error);
     }
 }
 
-async function loadNoteSubjects(encodedRoot) {
-    currentNoteRoot = decodeURIComponent(encodedRoot);
-    currentNoteSubject = "";
-    currentNoteTopic = "";
-
-    showNoteSubjectView();
-    document.getElementById("noteSubjects").innerHTML = "Loading subjects...";
-
-    try {
-        const data = await fetchNotesData();
-        const subjects = Object.keys(data[currentNoteRoot] || {});
-        document.getElementById("noteSubjects").innerHTML = buildNoteSubjectButtons(subjects);
-    } catch (error) {
-        document.getElementById("noteSubjects").innerHTML = `<div class="plain-answer">Error loading subjects.</div>`;
-        console.error(error);
-    }
-}
-
-async function loadNoteTopics(encodedRoot, encodedSubject) {
-    currentNoteRoot = decodeURIComponent(encodedRoot);
+function loadNoteTopics(encodedSubject) {
     currentNoteSubject = decodeURIComponent(encodedSubject);
     currentNoteTopic = "";
-
-    showNoteTopicView();
     document.getElementById("noteTopics").innerHTML = "Loading topics...";
+    showNoteTopicView();
 
-    try {
-        const data = await fetchNotesData();
-        const topics = Object.keys((data[currentNoteRoot] || {})[currentNoteSubject] || {});
-        document.getElementById("noteTopics").innerHTML = buildNoteTopicButtons(topics);
-    } catch (error) {
-        document.getElementById("noteTopics").innerHTML = `<div class="plain-answer">Error loading topics.</div>`;
-        console.error(error);
+    const topicsMap = noteSubjectsMap[currentNoteSubject] || {};
+    const topics = Object.keys(topicsMap);
+
+    if (topics.length === 0) {
+        document.getElementById("noteTopics").innerHTML = `<div class="plain-answer">No topics found.</div>`;
+        return;
     }
+
+    document.getElementById("noteTopics").innerHTML = buildNoteTopicButtons(topics);
 }
 
-async function loadFullNotes(encodedRoot, encodedSubject, encodedTopic) {
-    currentNoteRoot = decodeURIComponent(encodedRoot);
-    currentNoteSubject = decodeURIComponent(encodedSubject);
+function loadFullNotes(encodedTopic) {
     currentNoteTopic = decodeURIComponent(encodedTopic);
-
     showFullNotesView();
-    document.getElementById("fullNotes").innerHTML = "Loading full notes...";
 
-    try {
-        const data = await fetchNotesData();
-        const fullText = (((data[currentNoteRoot] || {})[currentNoteSubject] || {})[currentNoteTopic]) || "No notes found for this topic.";
-        document.getElementById("fullNotes").innerHTML = `<div class="notes-content-card">${escapeHtml(fullText)}</div>`;
-    } catch (error) {
-        document.getElementById("fullNotes").innerHTML = `<div class="plain-answer">Error loading full notes.</div>`;
-        console.error(error);
+    const topicValue = ((noteSubjectsMap[currentNoteSubject] || {})[currentNoteTopic]);
+
+    if (typeof topicValue === "string") {
+        document.getElementById("fullNotes").innerHTML = `<div class="notes-content-card">${formatNotesText(topicValue)}</div>`;
+        return;
     }
+
+    if (topicValue && typeof topicValue === "object") {
+        const joined = Object.entries(topicValue)
+            .map(([key, value]) => `${key}\n${value}`)
+            .join("\n\n");
+        document.getElementById("fullNotes").innerHTML = `<div class="notes-content-card">${formatNotesText(joined)}</div>`;
+        return;
+    }
+
+    document.getElementById("fullNotes").innerHTML = `<div class="plain-answer">No notes found for this topic.</div>`;
 }
 
 function backToNoteSubjects() {
     currentNoteSubject = "";
     currentNoteTopic = "";
-    document.getElementById("noteSubjects").innerHTML = "";
     document.getElementById("noteTopics").innerHTML = "";
     document.getElementById("fullNotes").innerHTML = "";
-    showNotesRootView();
+    showNoteSubjectView();
 }
 
 function backToNoteTopics() {
     currentNoteTopic = "";
-    document.getElementById("noteTopics").innerHTML = "";
     document.getElementById("fullNotes").innerHTML = "";
-    showNoteSubjectView();
+    showNoteTopicView();
 }
 
 async function askAI() {
