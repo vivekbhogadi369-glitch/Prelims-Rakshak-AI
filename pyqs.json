@@ -796,5 +796,193 @@
         "theme_frequency": "MEDIUM"
       }
     ]
+  },
+{
+  "Medieval History": {
+    "Early Medieval India": [
+      {
+        "year": 2014,
+        "question": "In Medieval India, the designations ‘Mahattara’ and ‘Pattakila’ were used for:",
+        "options": [
+          "a) Military officers",
+          "b) Village officers",
+          "c) Specialists in Vedic rituals",
+          "d) Chiefs of craft guilds"
+        ],
+        "correct_answer": "b) Village officers",
+        "explanation": "Mahattaras and Pattakilas were important local village functionaries in early medieval India. They were associated with village administration, especially in matters of land revenue and local governance.",
+        "elimination_logic": "Eliminate military (a) and ritual specialists (c) as these are not village-level administrative terms. Guild chiefs (d) relate to urban economy. Only village officers fits.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2015,
+        "question": "Consider the following pairs:\n1. Champaka — Central India\n2. Durgara — Jammu\n3. Kuluta — Malabar",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 only",
+          "c) 1 and 3 only",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Durgara corresponds to the Jammu region. Champaka is not correctly matched with Central India, and Kuluta refers to the Kullu region in Himachal Pradesh, not Malabar.",
+        "elimination_logic": "Kuluta clearly belongs to Himachal → eliminate options with 3. Champaka mismatch eliminates 1. Only 2 remains.",
+        "theme_frequency": "LOW"
+      },
+      {
+        "year": 2015,
+        "question": "With reference to Indian history, which of the following is/are the essential elementary elements of the feudal system?\n1. A very strong centralized political authority\n2. Administrative structure based on land\n3. Lord-vassal relationship",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Feudalism is characterized by decentralization, land-based administration, and lord-vassal relationships. Strong central authority is not a feature of feudalism.",
+        "elimination_logic": "Statement 1 is opposite of feudalism → eliminate all options containing 1. Left with 2 and 3.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2020,
+        "question": "With reference to the history of India, consider the following pairs:\n1. Aurang: In-charge of treasury\n2. Banian: Indian agent of East India Company\n3. Mirasidar: Revenue payer",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Banian was an Indian commercial agent of Europeans. Mirasidars were hereditary landholders responsible for revenue. Aurang does not refer to treasury officials.",
+        "elimination_logic": "Aurang incorrect → eliminate options with 1. Left with 2 and 3.",
+        "theme_frequency": "HIGH"
+      }
+    ],
+
+    "Cholas and South India": [
+      {
+        "year": 2016,
+        "question": "Banjaras during the medieval period were generally:",
+        "options": [
+          "a) Agriculturists",
+          "b) Warriors",
+          "c) Weavers",
+          "d) Traders"
+        ],
+        "correct_answer": "d) Traders",
+        "explanation": "Banjaras were nomadic trading communities involved in transporting goods across regions.",
+        "elimination_logic": "Banjaras are known for trade networks → eliminate others.",
+        "theme_frequency": "MEDIUM"
+      },
+      {
+        "year": 2016,
+        "question": "The term Araghatta refers to:",
+        "options": [
+          "a) Bonded labour",
+          "b) Land grants",
+          "c) Waterwheel",
+          "d) Wasteland"
+        ],
+        "correct_answer": "c) Waterwheel",
+        "explanation": "Araghatta was a mechanical irrigation device, typically a waterwheel used to lift water.",
+        "elimination_logic": "Irrigation context → eliminate labour/land terms.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2025,
+        "question": "The irrigation device ‘Araghatta’ was:",
+        "options": [
+          "a) Leather bag pulley",
+          "b) Wheel with pots",
+          "c) Large pot by bullocks",
+          "d) Bucket by hand"
+        ],
+        "correct_answer": "b) Wheel with pots",
+        "explanation": "Araghatta refers specifically to a Persian wheel-like system with pots attached to lift water.",
+        "elimination_logic": "Araghatta = mechanical wheel system → eliminate manual/simple devices.",
+        "theme_frequency": "HIGH"
+      }
+    ],
+
+    "Delhi Sultanate": [
+      {
+        "year": 2021,
+        "question": "Consider statements about Iltutmish, Muhammad bin Tughluq and Deva Raya II.",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2",
+          "c) 3 only",
+          "d) 2 and 3"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Chengiz Khan reached Indus during Iltutmish. Taimur invaded during later period, not Muhammad bin Tughluq. Vasco da Gama came during late 15th century, not Deva Raya II.",
+        "elimination_logic": "Historical timeline mismatch eliminates 2 and 3.",
+        "theme_frequency": "HIGH"
+      },
+      {
+        "year": 2022,
+        "question": "Mongol invasions in India statements:",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 1 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Major Mongol attack during Alauddin Khalji. First invasion was earlier, not during Jalaluddin. Tughluq did not lose territory significantly.",
+        "elimination_logic": "Statement 1 and 3 incorrect → only 2 remains.",
+        "theme_frequency": "HIGH"
+      }
+    ],
+
+    "Vijayanagara Empire": [
+      {
+        "year": 2015,
+        "question": "Founder who ruled as agent of deity south of Krishna river:",
+        "options": [
+          "a) Amoghavarsha",
+          "b) Ballala II",
+          "c) Harihara I",
+          "d) Prataparudra"
+        ],
+        "correct_answer": "c) Harihara I",
+        "explanation": "Harihara I, founder of Vijayanagara, ruled as representative of deity Virupaksha.",
+        "elimination_logic": "Only Vijayanagara founder fits.",
+        "theme_frequency": "HIGH"
+      }
+    ],
+
+    "Mughals": [
+      {
+        "year": 2014,
+        "question": "Ibadat Khana at Fatehpur Sikri was:",
+        "options": [
+          "a) Mosque",
+          "b) Private chamber",
+          "c) Debate hall",
+          "d) Noble gathering room"
+        ],
+        "correct_answer": "c) Debate hall",
+        "explanation": "Ibadat Khana was built by Akbar for inter-religious discussions.",
+        "elimination_logic": "Focus on religious debates → eliminate others.",
+        "theme_frequency": "HIGH"
+      }
+    ],
+
+    "Bhakti and Sufi": [
+      {
+        "year": 2013,
+        "question": "Which Bhakti saint was preaching during Babur’s invasion?",
+        "options": [
+          "a) 1 and 3",
+          "b) 2 only",
+          "c) 2 and 3",
+          "d) 1 and 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Guru Nanak was contemporary of Babur; others belong to different periods.",
+        "elimination_logic": "Timeline elimination → only Guru Nanak fits.",
+        "theme_frequency": "MEDIUM"
+      }
+    ]
   }
 }
