@@ -1432,11 +1432,17 @@ async function loadQuestions(encodedSubject, encodedTopic) {
 function normalizeNotesData(data) {
     if (!data || typeof data !== "object") return {};
 
+    // Already correct format
+    if (data["Indian History"]) {
+        return data;
+    }
+
+    // Wrapped format
     if (data.Notes && typeof data.Notes === "object") {
         return data.Notes;
     }
 
-    return data;
+    return {};
 }
 
 async function fetchNotesData() {
