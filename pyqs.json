@@ -796,6 +796,428 @@
         "theme_frequency": "MEDIUM"
       }
     ]
+  },
+"Medieval History": {"Early Medieval India": [
+  {
+    "year": 2014,
+    "question": "In Medieval India, the designations ‘Mahattara’ and ‘Pattakila’ were used for:",
+    "options": [
+      "a) Military officers",
+      "b) Village officers",
+      "c) Specialists in Vedic rituals",
+      "d) Chiefs of craft guilds"
+    ],
+    "correct_answer": "b) Village officers",
+    "explanation": "In early medieval India, terms like Mahattara and Pattakila were associated with village-level administration. They reflect the growing importance of local landed and administrative intermediaries in rural society.",
+    "elimination_logic": "These are not terms used for military command, Vedic ritual specialists, or guild chiefs. They are linked to local rural administration, so village officers is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following pairs:\n1. Champaka — Central India\n2. Durgara — Jammu\n3. Kuluta — Malabar\nWhich of the above pairs is/are correctly matched?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Durgara is correctly associated with Jammu. Kuluta refers to the Kullu region in Himachal, not Malabar. Champaka is not correctly matched with Central India in this context.",
+    "elimination_logic": "Kuluta is a standard UPSC trap because many confuse it with southern regions, but it belongs to the Himalayan zone. Since 3 is wrong, options containing 3 go out. Only 2 remains correct.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2015,
+    "question": "With reference to Indian history, which of the following is/are the essential elementary elements of the feudal system?\n1. A very strong centralized political authority and a very weak provincial or local political authority\n2. Emergence of administrative structure based on control and possession of land\n3. Creation of lord-vassal relationship between the feudal lord and his overlord\nSelect the correct answer using the code given below.",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 and 3 only",
+    "explanation": "Feudalism is marked by decentralization, land-based authority, and hierarchical lord-vassal relations. A very strong centralized authority is contrary to the basic feudal tendency toward fragmentation of power.",
+    "elimination_logic": "Statement 1 is the key trap. Feudalism weakens central authority rather than strengthening it. Once 1 is eliminated, only statements 2 and 3 remain.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2020,
+    "question": "With reference to the history of India, consider the following pairs:\n1. Aurang: In-charge of treasury of the State\n2. Banian: Indian agent of the East India Company\n3. Mirasidar: Designated revenue payer to the State\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 and 3 only",
+    "explanation": "Banian was an Indian broker, agent, or commercial intermediary attached to European trading companies including the East India Company. Mirasidar referred to a hereditary holder with revenue responsibilities in parts of South India. Aurang does not mean the in-charge of state treasury.",
+    "elimination_logic": "Pair 1 is incorrect, which removes all options containing 1. That leaves 2 and 3 only.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2016,
+    "question": "Banjaras during the medieval period of Indian history were generally:",
+    "options": [
+      "a) Agriculturists",
+      "b) Warriors",
+      "c) Weavers",
+      "d) Traders"
+    ],
+    "correct_answer": "d) Traders",
+    "explanation": "Banjaras were mobile trading and transport communities who carried grain, salt, and other goods across regions. They played an important role in overland trade networks.",
+    "elimination_logic": "Banjaras are historically known for transport and trade, not settled agriculture, weaving, or military identity.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2016,
+    "question": "With reference to the economic history of medieval India, the term Araghatta refers to:",
+    "options": [
+      "a) Bonded labour",
+      "b) Land grants made to military officers",
+      "c) Waterwheel used in the irrigation of land",
+      "d) Wasteland converted to cultivated land"
+    ],
+    "correct_answer": "c) Waterwheel used in the irrigation of land",
+    "explanation": "Araghatta was an irrigation device, essentially a waterwheel mechanism used to lift water for cultivation. It is frequently cited in medieval agrarian history.",
+    "elimination_logic": "The term belongs to irrigation technology, not labour relations, military grants, or land classification. Hence waterwheel is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2025,
+    "question": "The irrigation device called ‘Araghatta’ was:",
+    "options": [
+      "a) a water bag made of leather pulled over a pulley",
+      "b) a large wheel with earthen pots tied to the outer ends of its spokes",
+      "c) a larger earthen pot driven by bullocks",
+      "d) a large water bucket pulled up by rope directly by hand"
+    ],
+    "correct_answer": "b) a large wheel with earthen pots tied to the outer ends of its spokes",
+    "explanation": "Araghatta refers to a wheel-based irrigation device fitted with pots for lifting water. It is a more specific description of the waterwheel mentioned in earlier questions.",
+    "elimination_logic": "Options a, c, and d describe other possible lifting methods, but Araghatta is specifically the wheel-with-pots mechanism.",
+    "theme_frequency": "HIGH"
   }
+],
+
+"Delhi Sultanate": [
+  {
+    "year": 2021,
+    "question": "Consider the following statements:\n1. It was during the reign of Iltutmish that Chengiz Khan reached the Indus in pursuit of the fugitive Khwarezm prince.\n2. It was during the reign of Muhammad bin Tughluq that Taimur occupied Multan and crossed the Indus.\n3. It was during the reign of Deva Raya II of Vijayanagara Empire that Vasco da Gama reached the coast of Kerala.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 2",
+      "c) 3 only",
+      "d) 2 and 3"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Chengiz Khan did reach the Indus during Iltutmish’s reign while pursuing Jalal al-Din Mangbarni. Taimur’s invasion took place much later, during the reign of Nasir-ud-din Mahmud Tughluq, not Muhammad bin Tughluq. Vasco da Gama reached Calicut in 1498, not during Deva Raya II’s reign.",
+    "elimination_logic": "Statement 1 is standard chronology and is correct. Statement 2 is wrong on ruler chronology. Statement 3 is also wrong chronologically. Therefore only 1 is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "With reference to Indian history, consider the following statements:\n1. The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji.\n2. During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city.\n3. Muhammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 and 2",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Mongols had already appeared on the north-western frontier earlier than Jalal-ud-din Khalji, so statement 1 is incorrect. Alauddin Khalji did face a serious Mongol threat that reached Delhi, making statement 2 correct. Statement 3 is not accepted as correct in UPSC key framing here.",
+    "elimination_logic": "Statement 1 is the easiest elimination point. Once 1 is removed, options a and c go out. Among the remaining options, UPSC accepts only statement 2.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "With reference to Indian history, which of the following were known as “Kulah-Daran”?",
+    "options": [
+      "a) Arab merchants",
+      "b) Qalandars",
+      "c) Persian calligraphists",
+      "d) Sayyids"
+    ],
+    "correct_answer": "d) Sayyids",
+    "explanation": "Kulah-Daran referred to Sayyids, a respected social-religious category claiming descent from the Prophet. The term appears in medieval social-religious contexts.",
+    "elimination_logic": "This is a factual terminology question. It is not associated with merchants, wandering mystics in general, or calligraphists. The correct match is Sayyids.",
+    "theme_frequency": "LOW"
+  }
+],
+
+"Vijayanagar Empire & Bahmani Kingdom": [
+  {
+    "year": 2015,
+    "question": "Who of the following founded a new city on the south bank of a tributary to river Krishna and undertook to rule his new kingdom as the agent of a deity to whom all the land south of the river Krishna was supposed to belong?",
+    "options": [
+      "a) Amoghavarsha I",
+      "b) Ballala II",
+      "c) Harihara I",
+      "d) Prataparudra II"
+    ],
+    "correct_answer": "c) Harihara I",
+    "explanation": "Harihara I, one of the founders of Vijayanagara, is associated with the establishment of the new polity under a religious-political ideology centered on divine sovereignty.",
+    "elimination_logic": "The question points clearly to the Vijayanagara foundation tradition. Among the given rulers, Harihara I alone fits that context.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2016,
+    "question": "Regarding the taxation system of Krishna Deva, the ruler of Vijayanagar, consider the following statements:\n1. The tax rate on land was fixed depending on the quality of the land\n2. Private owners of workshops paid an ‘industries tax’\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "The Vijayanagara state under Krishnadevaraya had a developed revenue structure in which land assessment was linked to land quality, and taxes were also levied on crafts and industries.",
+    "elimination_logic": "Both agrarian and non-agrarian taxation were features of the Vijayanagara fiscal system. Hence both statements are correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2019,
+    "question": "Building Kalyaana Mandapas was a notable feature in the temple construction in the kingdom of:",
+    "options": [
+      "a) Chalukya",
+      "b) Chandela",
+      "c) Rashtrakuta",
+      "d) Vijayanagara"
+    ],
+    "correct_answer": "d) Vijayanagara",
+    "explanation": "Kalyana Mandapas are a major architectural feature associated especially with Vijayanagara temples, reflecting the expansion of temple complexes and ceremonial spaces.",
+    "elimination_logic": "This is a hallmark feature of Vijayanagara architecture. The other dynasties are important temple builders, but this specific feature is strongly associated with Vijayanagara.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2021,
+    "question": "According to Portuguese writer Nuniz, the women in Vijayanagara Empire were expert in which of the following areas?\n1. Wrestling\n2. Astrology\n3. Accounting\n4. Soothsaying\nSelect the correct answer using the code given below.",
+    "options": [
+      "a) 1, 2 and 3 only",
+      "b) 1, 3 and 4 only",
+      "c) 2 and 4 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "d) 1, 2, 3 and 4",
+    "explanation": "Nuniz’s account highlights the diverse roles and accomplishments of women in Vijayanagara society, including physical, intellectual, and specialized activities.",
+    "elimination_logic": "UPSC framed this as an all-inclusive descriptive account question. Since the source mentions all these fields, the correct answer is all four.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2022,
+    "question": "In medieval India, the term “Fanam” referred to?",
+    "options": [
+      "a) Clothing",
+      "b) Coins",
+      "c) Ornaments",
+      "d) Weapons"
+    ],
+    "correct_answer": "b) Coins",
+    "explanation": "Fanam was a small coin used in South India and often encountered in the context of Vijayanagara and related medieval southern polities.",
+    "elimination_logic": "Fanam is a numismatic term, not a category of dress, ornament, or weaponry.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2023,
+    "question": "Who among the following rulers of Vijayanagara Empire constructed a large dam across Tungabhadra River and a canal-cum-aqueduct several kilometers long from the river to the capital city?",
+    "options": [
+      "a) Devaraya I",
+      "b) Mallikarjuna",
+      "c) Vira Vijaya",
+      "d) Virupaksha"
+    ],
+    "correct_answer": "a) Devaraya I",
+    "explanation": "Devaraya I is associated with important irrigation and hydraulic works around the Vijayanagara capital, including works on the Tungabhadra.",
+    "elimination_logic": "This is a factual ruler-achievement match. The hydraulic project is linked with Devaraya I, not the other rulers listed.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2024,
+    "question": "Who of the following rulers of medieval India gave permission to the Portuguese to build a fort at Bhatkal?",
+    "options": [
+      "a) Krishnadevaraya",
+      "b) Narasimha Saluva",
+      "c) Muhammad Shah III",
+      "d) Yusuf Adil Shah"
+    ],
+    "correct_answer": "a) Krishnadevaraya",
+    "explanation": "Krishnadevaraya maintained diplomatic and commercial relations with the Portuguese, and the permission for fortification at Bhatkal is associated with his reign.",
+    "elimination_logic": "The question asks about Portuguese-Vijayanagara relations. Among the options, Krishnadevaraya best fits that historical context.",
+    "theme_frequency": "MEDIUM"
+  }
+],
+
+"Mughals": [
+  {
+    "year": 2014,
+    "question": "Ibadat Khana at Fatehpur Sikri was:",
+    "options": [
+      "a) The mosque for the use of Royal Family",
+      "b) Akbar’s private prayer chamber",
+      "c) The hall in which Akbar held discussions with scholars of various religions",
+      "d) The room in which the nobles belonging in different religions gathered to discuss religious affairs"
+    ],
+    "correct_answer": "c) The hall in which Akbar held discussions with scholars of various religions",
+    "explanation": "The Ibadat Khana was established by Akbar at Fatehpur Sikri as a debating hall where scholars and religious thinkers of different traditions engaged in discussion.",
+    "elimination_logic": "It was not simply a mosque or private prayer room. Its central purpose was inter-religious dialogue under Akbar’s supervision.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following:\nThe arrival of Babur into India led to the\n1. Introduction of gunpowder\n2. Introduction of the arch and dome in the region’s architecture\n3. Establishment of Timurid dynasty\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 3 only",
+    "explanation": "Babur established the Timurid-Mughal line in India. Gunpowder and the architectural features of arch and dome were already known in the subcontinent before Babur’s arrival.",
+    "elimination_logic": "Statements 1 and 2 are classic traps because they sound Mughal, but both predate Babur in India. Only statement 3 is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2021,
+    "question": "With reference to medieval India, which one of the following is the correct sequence in ascending order in terms of size?",
+    "options": [
+      "a) Paragana, Sarkar, Suba",
+      "b) Sarkar, Paragana, Suba",
+      "c) Suba, Sarkar, Paragana",
+      "d) Paragana, Suba, Sarkar"
+    ],
+    "correct_answer": "a) Paragana, Sarkar, Suba",
+    "explanation": "In the Mughal administrative structure, Pargana was a smaller unit, Sarkar was above it, and Suba was the provincial unit above Sarkar.",
+    "elimination_logic": "Remember the hierarchy from smaller to larger: Pargana → Sarkar → Suba.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "“Yogavasistha” was translated into Persian by Nizamuddin Panipati during the reign of:",
+    "options": [
+      "a) Akbar",
+      "b) Humayun",
+      "c) Shahjahan",
+      "d) Aurangzeb"
+    ],
+    "correct_answer": "a) Akbar",
+    "explanation": "Akbar’s reign saw major translation projects from Sanskrit into Persian as part of a broader policy of intellectual and cultural engagement.",
+    "elimination_logic": "Translation movements of this kind are strongly associated with Akbar’s court, making Akbar the best answer.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2018,
+    "question": "With reference to the cultural history of India, consider the following statements:\n1. White marble was used in making Buland Darwaza and Khankah at Fatehpur Sikri\n2. Red Sandstone and marble were used in making Bara Imambara and Rumi Darwaza in Lucknow\nWhich of the following statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Both statements are incorrect. Buland Darwaza is chiefly associated with red sandstone with marble inlay rather than being framed as white marble construction. Bara Imambara and Rumi Darwaza are not correctly described in the way statement 2 suggests.",
+    "elimination_logic": "Both statements contain material-description traps. UPSC’s key rejects both, so neither statement is correct.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2019,
+    "question": "With reference to Mughal India, what is/are the difference/differences between Jagirdar and Zamindar?\n1. Jagirdars were holders of land assignments in lieu of judicial and police duties, whereas Zamindars were holders of revenue rights without obligation to perform any duty other than revenue collection.\n2. Land assignments to Jagirdars were hereditary and revenue rights of Zamindars were not hereditary.\nSelect the correct answer using the code given below.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Both statements are incorrect. Jagirs were transferable revenue assignments rather than hereditary holdings, and Zamindars often had hereditary local rights and broader socio-political roles beyond a simplistic revenue-collector description.",
+    "elimination_logic": "Statement 2 is clearly wrong because jagirs were generally non-hereditary. Statement 1 is also oversimplified and inaccurate. Hence neither is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2019,
+    "question": "Who among the following Mughal Emperors shifted emphasis from illustrated manuscripts to album and individual portrait?",
+    "options": [
+      "a) Humayun",
+      "b) Akbar",
+      "c) Jahangir",
+      "d) Shah Jahan"
+    ],
+    "correct_answer": "c) Jahangir",
+    "explanation": "Jahangir had a refined artistic taste and is known for encouraging naturalistic portraiture and album paintings rather than the earlier emphasis on large illustrated manuscripts.",
+    "elimination_logic": "Akbar is more associated with large manuscript illustration projects. The shift toward albums and portraits is most strongly linked with Jahangir.",
+    "theme_frequency": "MEDIUM"
+  },
+  {
+    "year": 2019,
+    "question": "With reference to Mian Tansen, which one of the following statements is not correct?",
+    "options": [
+      "a) Tansen was the title given to him by Emperor Akbar",
+      "b) Tansen composed Dhrupads on Hindu gods and goddesses",
+      "c) Tansen composed songs for his patrons",
+      "d) Tansen invented many Ragas"
+    ],
+    "correct_answer": "a) Tansen was the title given to him by Emperor Akbar",
+    "explanation": "The statement that Tansen was a title given by Akbar is not accepted as correct in this UPSC framing. Tansen is remembered as one of the greatest musicians of Akbar’s court, and the other statements broadly fit the traditional account associated with him.",
+    "elimination_logic": "This is a factual trap question. UPSC identifies option a as the incorrect statement, while the others are accepted in the conventional narrative.",
+    "theme_frequency": "MEDIUM"
+  }
+],
+
+"Bhakti & Sufi Movements": [
+  {
+    "year": 2013,
+    "question": "Consider the following Bhakti saints:\n1. Dadu Dayal\n2. Guru Nanak\n3. Tyagaraja\nWho among the above was/were preaching when the Lodi dynasty fell and Babur took over?",
+    "options": [
+      "a) 1 and 3",
+      "b) 2 only",
+      "c) 2 and 3",
+      "d) 1 and 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Lodi dynasty fell in 1526. Guru Nanak was alive during Babur’s invasions. Dadu Dayal belongs to a later period, while Tyagaraja is much later in the modern era.",
+    "elimination_logic": "Use timeline elimination: Tyagaraja is clearly much later, and Dadu Dayal is also later than Babur’s takeover. Only Guru Nanak fits.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2016,
+    "question": "With reference to the cultural history of medieval India, consider the following statements:\n1. Siddhas (Sittars) of Tamil region were monotheistic and condemned idolatry.\n2. Lingayats of Kannada region questioned the theory of rebirth and rejected the caste hierarchy.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "The Siddha tradition in the Tamil region included strong criticism of ritualism and idol-centered orthodoxy. Lingayats, associated with Basavanna’s movement, rejected caste hierarchy and challenged key orthodox doctrines including rebirth in the conventional sense.",
+    "elimination_logic": "Both statements reflect anti-ritual and anti-orthodox strands of medieval devotional movements. Hence both are correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements:\n1. Saint Nimbarka was a contemporary of Akbar\n2. Saint Kabir was greatly influenced by Shaikh Ahmad Sirhindi\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Nimbarka belonged to a much earlier period than Akbar. Kabir also predates Shaikh Ahmad Sirhindi, so the question of Kabir being influenced by him does not arise.",
+    "elimination_logic": "Chronology breaks both statements. Once the time periods are remembered correctly, neither statement survives.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "The world’s second tallest statue in sitting pose of Ramanuja was inaugurated by the Prime Minister of India at Hyderabad recently. Which one of the following statements correctly represents the teachings of Ramanuja?",
+    "options": [
+      "a) The best means of salvation was devotion.",
+      "b) Vedas are eternal, self-existent and wholly authoritative.",
+      "c) Logical arguments were essential means for the highest bliss.",
+      "d) Salvation was to be obtained through meditation."
+    ],
+    "correct_answer": "a) The best means of salvation was devotion.",
+    "explanation": "Ramanuja, associated with Vishishtadvaita, emphasized bhakti as the principal path to salvation. His teachings gave devotional surrender a central place in spiritual life.",
+    "elimination_logic": "Ramanuja is most directly associated with devotional theism and bhakti. The other options either overstate scriptural formalism or shift the focus away from devotion.",
+    "theme_frequency": "HIGH"
+  }
+]
+
+}
 }
 
