@@ -1626,7 +1626,38 @@ async function askAI() {
 
     askButton.disabled = false;
     askButton.innerText = "Ask";
+
 }
+
+function buildNoteTopicButtons(topics) {
+    let html = "";
+
+    Object.keys(topics).forEach(topic => {
+        html += `<button class="browse-chip" onclick="showNotes('${topic}')">${topic}</button>`;
+    });
+
+    return html;
+}
+
+function selectSubject(subject) {
+    selectedSubject = subject;
+
+    const topics = notesData[subject];
+    const topicHTML = buildNoteTopicButtons(topics);
+
+    document.getElementById("topicsContainer").innerHTML = topicHTML;
+}
+
+function showNotes(topic) {
+    const content = notesData[selectedSubject][topic];
+
+    document.getElementById("answerBox").innerHTML = `
+        <h3>${topic}</h3>
+        <pre style="white-space: pre-wrap; font-family: inherit;">${content}</pre>
+    `;
+}
+
+</script>}
 </script>
 
 </body>
