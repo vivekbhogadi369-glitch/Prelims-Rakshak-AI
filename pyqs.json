@@ -986,3 +986,48 @@
     ]
   }
 }
+,
+"Delhi Sultanate": [
+  {
+    "year": 2021,
+    "question": "Consider the following statements:\n1) It was during the reign of Iltutmish that Chengiz Khan reached the Indus.\n2) It was during the reign of Muhammad bin Tughluq that Taimur invaded.\n3) It was during Deva Raya II that Vasco da Gama reached India.",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 2",
+      "c) 3 only",
+      "d) 2 and 3"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Chengiz Khan reached the Indus during Iltutmish’s reign. Taimur invaded much later (1398), not during Muhammad bin Tughluq. Vasco da Gama reached India in 1498, not during Deva Raya II.",
+    "elimination_logic": "Timeline mismatch eliminates statements 2 and 3. Only statement 1 is correct.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "With reference to Mongol invasions, consider the following:\n1. First invasion during Jalaluddin Khalji\n2. Mongols reached Delhi during Alauddin Khalji\n3. Muhammad bin Tughluq lost NW territory to Mongols",
+    "options": [
+      "a) 1 and 2",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Mongol attacks intensified during Alauddin Khalji and reached Delhi. First invasion was earlier than Jalaluddin. Tughluq did not lose major territory.",
+    "elimination_logic": "Statement 1 and 3 incorrect → only 2 remains.",
+    "theme_frequency": "HIGH"
+  },
+  {
+    "year": 2022,
+    "question": "With reference to Indian history, who were known as ‘Kulah-Daran’?",
+    "options": [
+      "a) Arab merchants",
+      "b) Qalandars",
+      "c) Persian calligraphists",
+      "d) Sayyids"
+    ],
+    "correct_answer": "d) Sayyids",
+    "explanation": "Kulah-Daran refers to Sayyids, considered descendants of Prophet Muhammad, recognized by distinctive headgear.",
+    "elimination_logic": "Religious lineage term → eliminate merchants/calligraphists.",
+    "theme_frequency": "LOW"
+  }
+]
