@@ -1430,35 +1430,33 @@ async function loadQuestions(encodedSubject, encodedTopic) {
 }
 
 function normalizeNotesData(data) {
-    if (!data || typeof data !== "object") return {};
+    if (!data || typeof data !== "object" || Array.isArray(data)) return {};
 
-    // Already correct format
-    if (data["Indian History"]) {
-        return data;
-    }
-
-    // Wrapped format
-    if (data.Notes && typeof data.Notes === "object") {
+    if (data.Notes && typeof data.Notes === "object" && !Array.isArray(data.Notes)) {
         return data.Notes;
     }
 
-    return {};
+    return data;
 }
 
 async function fetchNotesData() {
     if (notesData) return notesData;
 
     const possiblePaths = [
-    "/static/history_notes.json"
-];
-    let loaded = null;
+        "/static/history_notes.json",
+        "/static/notes.json",
+        "/history_notes.json",
+        "/notes.json"
+    ];
 
     for (const path of possiblePaths) {
         try {
             const res = await fetch(path, { cache: "no-store" });
             if (!res.ok) continue;
+
             const data = await res.json();
-            loaded = normalizeNotesData(data);
+            const loaded = normalizeNotesData(data);
+
             if (loaded && Object.keys(loaded).length > 0) {
                 notesData = loaded;
                 return notesData;
@@ -1537,8 +1535,15 @@ async function toggleNotesBrowser() {
 
     try {
         const data = await fetchNotesData();
-        noteSubjectsMap = data;
-        const subjects = Object.keys(noteSubjectsMap || {});
+        noteSubjectsMap = data || {};
+
+        const subjects = Object.keys(noteSubjectsMap);
+        if (subjects.length === 0) {
+            document.getElementById("noteSubjects").innerHTML = `<div class="plain-answer">No note subjects found.</div>`;
+            document.getElementById("notesSelectedPath").innerText = "No notes available.";
+            return;
+        }
+
         document.getElementById("noteSubjects").innerHTML = buildNoteSubjectButtons(subjects);
         document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
     } catch (error) {
@@ -1626,38 +1631,7 @@ async function askAI() {
 
     askButton.disabled = false;
     askButton.innerText = "Ask";
-
 }
-
-function buildNoteTopicButtons(topics) {
-    let html = "";
-
-    Object.keys(topics).forEach(topic => {
-        html += `<button class="browse-chip" onclick="showNotes('${topic}')">${topic}</button>`;
-    });
-
-    return html;
-}
-
-function selectSubject(subject) {
-    selectedSubject = subject;
-
-    const topics = notesData[subject];
-    const topicHTML = buildNoteTopicButtons(topics);
-
-    document.getElementById("topicsContainer").innerHTML = topicHTML;
-}
-
-function showNotes(topic) {
-    const content = notesData[selectedSubject][topic];
-
-    document.getElementById("answerBox").innerHTML = `
-        <h3>${topic}</h3>
-        <pre style="white-space: pre-wrap; font-family: inherit;">${content}</pre>
-    `;
-}
-
-
 </script>
 
 </body>
