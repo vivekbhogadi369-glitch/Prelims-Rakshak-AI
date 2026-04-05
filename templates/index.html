@@ -1449,12 +1449,8 @@ async function fetchNotesData() {
     if (notesData) return notesData;
 
     const possiblePaths = [
-        "/data/history_notes.json",
-        "/static/data/history_notes.json",
-        "/static/history_notes.json",
-        "/history_notes.json"
-    ];
-
+    "/static/history_notes.json"
+];
     let loaded = null;
 
     for (const path of possiblePaths) {
