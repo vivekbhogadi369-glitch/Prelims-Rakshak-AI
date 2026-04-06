@@ -3,6 +3,9 @@
 <head>
     <title>Prelims Rakshak AI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <meta name="theme-color" content="#1d3557">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -236,11 +239,6 @@
             font-weight: 600;
         }
 
-        .muted-line {
-            color: #555;
-            font-style: italic;
-        }
-
         .pyq-browser,
         .notes-browser {
             margin-top: 20px;
@@ -363,17 +361,6 @@
             padding-top: 2px;
         }
 
-        .question-browser-option {
-            margin: 12px 0 0 0;
-            padding: 12px 14px;
-            background: #f8fbff;
-            border: 1px solid #dbe4ee;
-            border-radius: 12px;
-            font-weight: 600;
-            line-height: 1.65;
-            color: #1f2937;
-        }
-
         .question-browser-option-btn {
             width: 100%;
             text-align: left;
@@ -390,12 +377,6 @@
 
         .question-browser-option-btn:hover {
             background: #eef4fb;
-        }
-
-        .question-browser-option-btn.selected {
-            background: #dbeafe;
-            border: 1px solid #93c5fd;
-            color: #1e3a8a;
         }
 
         .question-browser-option-btn.correct {
@@ -595,12 +576,6 @@
                 line-height: 1.7;
             }
 
-            .question-browser-option {
-                font-size: 16px;
-                line-height: 1.6;
-                padding: 11px 12px;
-            }
-
             .question-browser-option-btn {
                 font-size: 16px;
                 line-height: 1.6;
@@ -717,6 +692,16 @@ let notesData = null;
 let noteSubjectsMap = {};
 let currentNoteSubject = "";
 let currentNoteTopic = "";
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            registrations.forEach(function (registration) {
+                registration.unregister();
+            });
+        });
+    });
+}
 
 function escapeHtml(text) {
     return String(text ?? "")
@@ -1436,37 +1421,33 @@ function normalizeNotesData(data) {
         return data.Notes;
     }
 
+    if (data["Indian History"]) {
+        return data;
+    }
+
     return data;
 }
 
 async function fetchNotesData() {
     if (notesData) return notesData;
 
-    const possiblePaths = [
-        "/static/history_notes.json",
-        "/static/notes.json",
-        "/history_notes.json",
-        "/notes.json"
-    ];
+    const res = await fetch(`/static/history_notes.json?v=${Date.now()}`, {
+        cache: "no-store"
+    });
 
-    for (const path of possiblePaths) {
-        try {
-            const res = await fetch(path, { cache: "no-store" });
-            if (!res.ok) continue;
-
-            const data = await res.json();
-            const loaded = normalizeNotesData(data);
-
-            if (loaded && Object.keys(loaded).length > 0) {
-                notesData = loaded;
-                return notesData;
-            }
-        } catch (error) {
-            console.error("Notes fetch failed for:", path, error);
-        }
+    if (!res.ok) {
+        throw new Error("history_notes.json not found");
     }
 
-    throw new Error("Notes JSON not found in expected paths.");
+    const data = await res.json();
+    const loaded = normalizeNotesData(data);
+
+    if (!loaded || Object.keys(loaded).length === 0) {
+        throw new Error("Notes JSON is empty or invalid");
+    }
+
+    notesData = loaded;
+    return notesData;
 }
 
 function buildNoteSubjectButtons(subjects) {
