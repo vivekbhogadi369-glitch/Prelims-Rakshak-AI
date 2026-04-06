@@ -3,16 +3,7 @@
 <head>
     <title>Prelims Rakshak AI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta name="theme-color" content="#1d3557">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Prelims Rakshak AI">
-    <link rel="manifest" href="/static/manifest.json">
-    <link rel="apple-touch-icon" href="/static/icon-192.png">
-    <link rel="icon" href="/static/icon-192.png">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,36 +12,26 @@
             padding: 20px;
             background: #f5f7fb;
         }
+
         h1 {
             text-align: center;
             color: #1d3557;
         }
-        .intro {
-            text-align: center;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
+
         .box {
             background: white;
             padding: 15px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        textarea {
-            width: 100%;
-            height: 90px;
-            padding: 10px;
-            font-size: 16px;
-            border-radius: 10px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
+
         .button-row {
             display: flex;
             gap: 10px;
             margin-top: 10px;
             flex-wrap: wrap;
         }
+
         button {
             flex: 1;
             padding: 12px;
@@ -60,1569 +41,144 @@
             background: #1d3557;
             color: white;
         }
-        .secondary-button {
-            background: #6c757d;
-        }
-        .copy-button {
-            background: #2a9d8f;
-        }
-        .pyq-browse-button {
-            background: #7c3aed;
-        }
-        .notes-browse-button {
-            background: #c2410c;
-        }
-        #answer {
-            margin-top: 20px;
-            line-height: 1.7;
-            font-size: 16px;
-        }
-        .section {
+
+        .pyq-browse-button { background: #7c3aed; }
+        .notes-browse-button { background: #c2410c; }
+
+        .premium-response {
             background: #ffffff;
-            border: 1px solid #d9e2ec;
-            border-radius: 10px;
-            margin-top: 12px;
-            overflow: hidden;
-        }
-        .section summary {
-            cursor: pointer;
-            padding: 14px;
-            font-weight: bold;
-            color: #1d3557;
-            background: #eef4fb;
-        }
-        .section-content {
-            padding: 14px;
-            white-space: pre-wrap;
-        }
-        .plain-answer {
-            white-space: pre-wrap;
-            background: #ffffff;
-            border: 1px solid #d9e2ec;
-            border-radius: 10px;
-            padding: 14px;
-        }
-
-        .pyq-card, .mcq-card {
-            background: #ffffff;
-            border: 1px solid #d9e2ec;
-            border-radius: 12px;
-            padding: 16px;
-            margin-top: 16px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        .pyq-year, .topic {
-            display: block;
-            font-weight: 900;
-            color: #1d3557;
-            margin-bottom: 10px;
-        }
-
-        .pyq-year {
-            font-size: 19px;
-            text-decoration: underline;
-        }
-
-        .topic {
-            font-size: 22px;
-            line-height: 1.5;
-        }
-
-        .pyq-heading-question,
-        .pyq-heading-answer,
-        .pyq-heading-insight,
-        .pyq-heading-tag,
-        .heading,
-        .trap,
-        .takeaway,
-        .mcq-heading-question,
-        .mcq-heading-options,
-        .mcq-heading-answer,
-        .mcq-heading-logic,
-        .mcq-heading-trap,
-        .mcq-heading-wrong {
-            display: block;
-            font-weight: 900;
-            font-size: 18px;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            text-decoration: underline;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-
-        .pyq-heading-question, .pyq-heading-answer, .heading,
-        .mcq-heading-question, .mcq-heading-answer {
-            color: #1d3557;
-        }
-
-        .pyq-heading-insight, .takeaway {
-            color: #7c3aed;
-        }
-
-        .pyq-heading-tag, .trap, .mcq-heading-trap {
-            color: #c1121f;
-        }
-
-        .mcq-heading-options {
-            color: #7c3aed;
-        }
-
-        .mcq-heading-logic {
-            color: #0b6e4f;
-        }
-
-        .mcq-heading-wrong {
-            color: #9c6644;
-        }
-
-        .pyq-answer-value,
-        .mcq-answer-value {
-            display: inline-block;
-            margin-top: 4px;
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-weight: 700;
-        }
-
-        .pyq-answer-value {
-            background: #e8f7ee;
-            color: #065f46;
-            border: 1px solid #b7e4c7;
-        }
-
-        .mcq-answer-value {
-            background: #d1fae5;
-            color: #065f46;
-            border: 1px solid #a7f3d0;
-        }
-
-        .pyq-insight-box,
-        .pyq-tag-box,
-        .note-block,
-        .note-block-trap,
-        .note-block-takeaway {
-            padding: 12px;
-            border-radius: 8px;
-            margin-top: 6px;
-            margin-bottom: 12px;
-        }
-
-        .pyq-insight-box {
-            background: #f3e8ff;
-            border-left: 5px solid #7c3aed;
-        }
-
-        .pyq-tag-box {
-            background: #fff5f5;
-            border-left: 5px solid #c1121f;
-        }
-
-        .note-block {
-            background: #f8fbff;
-            border-left: 5px solid #1d3557;
-        }
-
-        .note-block-trap {
-            background: #fff5f5;
-            border-left: 5px solid #c1121f;
-        }
-
-        .note-block-takeaway {
-            background: #f3e8ff;
-            border-left: 5px solid #7c3aed;
-        }
-
-        .mcq-option {
-            margin: 6px 0 0 10px;
-            font-weight: 600;
-        }
-
-        .pyq-browser,
-        .notes-browser {
-            margin-top: 20px;
-        }
-
-        .pyq-browser-title,
-        .notes-browser-title {
-            font-size: 18px;
-            font-weight: 700;
-            color: #1d3557;
-            margin-bottom: 10px;
-        }
-
-        .browse-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .browse-chip {
-            background: #eef4fb;
-            color: #1d3557;
-            border: 1px solid #d9e2ec;
-            border-radius: 10px;
-            padding: 10px 14px;
-            cursor: pointer;
-            font-size: 15px;
-            font-weight: 700;
-        }
-
-        .browse-chip:hover {
-            background: #dfeaf7;
-        }
-
-        .browse-panel {
-            margin-top: 16px;
-            background: #ffffff;
-            border: 1px solid #d9e2ec;
-            border-radius: 12px;
-            padding: 14px;
-        }
-
-        .browse-label {
-            font-weight: 700;
-            color: #1d3557;
-            margin-bottom: 8px;
-        }
-
-        .selected-path {
-            margin-top: 8px;
-            color: #555;
-            font-size: 14px;
-        }
-
-        .browse-nav {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: 12px;
-        }
-
-        .nav-button {
-            background: #6c757d;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 14px;
-            font-size: 14px;
-            font-weight: 700;
-            cursor: pointer;
-            flex: unset;
-        }
-
-        .question-browser-card {
-            background: #ffffff;
-            border: 1px solid #dbe4ee;
-            border-radius: 16px;
-            padding: 20px 18px;
-            margin-top: 18px;
-            box-shadow: 0 4px 14px rgba(29,53,87,0.06);
-        }
-
-        .question-browser-year {
-            display: inline-block;
-            font-size: 20px;
-            font-weight: 800;
-            color: #1d3557;
-            background: #eef4fb;
-            border: 1px solid #d7e4f3;
-            border-radius: 999px;
-            padding: 6px 14px;
-            margin-bottom: 16px;
-            text-decoration: none;
-        }
-
-        .question-browser-heading {
-            display: block;
-            font-weight: 800;
-            font-size: 13px;
-            margin-top: 18px;
-            margin-bottom: 8px;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            color: #5b6b7a;
-        }
-
-        .question-browser-question {
-            font-size: 19px;
-            line-height: 1.9;
-            color: #111827;
-            font-weight: 500;
-            margin-top: 2px;
-            white-space: pre-line;
-        }
-
-        .question-browser-options {
-            margin-top: 2px;
-            padding-top: 2px;
-        }
-
-        .question-browser-option-btn {
-            width: 100%;
-            text-align: left;
-            margin: 12px 0 0 0;
-            padding: 12px 14px;
-            background: #f8fbff;
-            color: #1f2937;
-            border: 1px solid #dbe4ee;
-            border-radius: 12px;
-            font-weight: 600;
-            line-height: 1.65;
-            cursor: pointer;
-        }
-
-        .question-browser-option-btn:hover {
-            background: #eef4fb;
-        }
-
-        .question-browser-option-btn.correct {
-            background: #dcfce7;
-            border: 1px solid #86efac;
-            color: #166534;
-        }
-
-        .question-browser-option-btn.wrong {
-            background: #fee2e2;
-            border: 1px solid #fca5a5;
-            color: #991b1b;
-        }
-
-        .question-browser-option-btn:disabled {
-            opacity: 1;
-            cursor: default;
-        }
-
-        .question-browser-answer-wrap {
-            margin-top: 4px;
-        }
-
-        .question-browser-answer-box {
-            display: inline-block;
-            background: #e8f7ee;
-            color: #065f46;
-            border: 1px solid #b7e4c7;
-            border-radius: 12px;
-            padding: 12px 16px;
-            font-weight: 800;
-            line-height: 1.5;
-            font-size: 17px;
-        }
-
-        .question-browser-explanation-box {
-            background: #f8fbff;
-            border: 1px solid #dbe4ee;
-            border-radius: 12px;
-            padding: 14px 15px;
-            line-height: 1.7;
-            color: #1f2937;
-            font-size: 15px;
-        }
-
-        .question-browser-logic-box {
-            background: #fff7ed;
-            border: 1px solid #fed7aa;
-            border-radius: 12px;
-            padding: 14px 15px;
-            line-height: 1.7;
-            color: #7c2d12;
-            font-size: 15px;
-        }
-
-        .question-browser-result-box {
-            margin-top: 16px;
-            padding: 14px 15px;
-            border-radius: 12px;
-            font-weight: 700;
-            line-height: 1.7;
-            border: 1px solid #dbe4ee;
-            background: #f8fbff;
-            color: #1f2937;
-        }
-
-        .question-browser-result-box.correct {
-            background: #ecfdf5;
-            border: 1px solid #a7f3d0;
-            color: #065f46;
-        }
-
-        .question-browser-result-box.wrong {
-            background: #fef2f2;
-            border: 1px solid #fecaca;
-            color: #991b1b;
-        }
-
-        .question-browser-nav-wrap {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: 12px;
-            margin-bottom: 4px;
-        }
-
-        .question-browser-counter {
-            font-size: 14px;
-            font-weight: 700;
-            color: #1d3557;
-            background: #eef4fb;
-            border: 1px solid #d7e4f3;
-            border-radius: 999px;
-            padding: 8px 12px;
-        }
-
-        .question-browser-nav-buttons {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .question-browser-nav-btn {
-            background: #1d3557;
-            color: #ffffff;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 14px;
-            font-size: 14px;
-            font-weight: 700;
-            cursor: pointer;
-            flex: unset;
-        }
-
-        .question-browser-nav-btn:disabled {
-            background: #cbd5e1;
-            color: #64748b;
-            cursor: not-allowed;
-        }
-
-        .frequency-badge {
-            display: inline-block;
-            padding: 8px 12px;
-            border-radius: 999px;
-            font-size: 12px;
-            font-weight: 800;
-            letter-spacing: 0.4px;
-            text-transform: uppercase;
-        }
-
-        .frequency-high {
-            background: #fee2e2;
-            color: #991b1b;
-            border: 1px solid #fecaca;
-        }
-
-        .frequency-medium {
-            background: #fef3c7;
-            color: #92400e;
-            border: 1px solid #fde68a;
-        }
-
-        .frequency-low {
-            background: #e0f2fe;
-            color: #075985;
-            border: 1px solid #bae6fd;
-        }
-
-        .question-browser-toggle-row {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: 14px;
-        }
-
-        .question-browser-toggle-btn {
-            background: #2563eb;
-            color: #ffffff;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 14px;
-            font-size: 14px;
-            font-weight: 700;
-            cursor: pointer;
-            flex: unset;
-        }
-
-        .question-browser-toggle-btn:hover {
-            background: #1d4ed8;
-        }
-
-        .notes-content-card {
-            background: #ffffff;
-            border: 1px solid #dbe4ee;
-            border-radius: 16px;
             padding: 18px;
-            margin-top: 18px;
-            box-shadow: 0 4px 14px rgba(29,53,87,0.06);
-            white-space: pre-wrap;
-            line-height: 1.8;
-            color: #1f2937;
+            border-radius: 14px;
+            margin-top: 20px;
         }
 
-        .hidden {
-            display: none;
-        }
-
-        @media (max-width: 640px) {
-            .question-browser-card {
-                padding: 18px 14px;
-            }
-
-            .question-browser-question {
-                font-size: 17px;
-                line-height: 1.7;
-            }
-
-            .question-browser-option-btn {
-                font-size: 16px;
-                line-height: 1.6;
-                padding: 11px 12px;
-            }
-
-            .question-browser-answer-box {
-                font-size: 16px;
-                max-width: 100%;
-                word-break: break-word;
-            }
-
-            .question-browser-nav-wrap {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .question-browser-nav-buttons {
-                width: 100%;
-            }
-
-            .question-browser-nav-btn {
-                flex: 1;
-            }
-            .premium-response {
-    background: #ffffff;
-    padding: 18px;
-    border-radius: 14px;
-    line-height: 1.7;
-    font-size: 15px;
-    white-space: pre-wrap;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    margin-top: 20px;
-    border-left: 5px solid #1d3557;
-}
-        
+        .hidden { display: none; }
     </style>
 </head>
+
 <body>
 
 <h1>Prelims Rakshak AI</h1>
 
-<p class="intro">
-Hello 👋 <b>Prelims Rakshak AI is Live.</b><br>
-Ask any UPSC topic and instantly get PYQs, Quick Revision Notes, and Practice MCQs.
-</p>
-
 <div class="box">
-    <p><b>Ask in this format:</b> topic, subject</p>
-    <p><b>Example:</b> Indus Town Planning, Indian History</p>
 
-    <textarea id="question" placeholder="Example: Indus Town Planning, Indian History"></textarea>
+    <!-- ❌ REMOVED TEXTAREA -->
 
     <div class="button-row">
-        <button id="askButton" onclick="askAI()">Ask</button>
-        <button class="secondary-button" onclick="resetAI()">Reset</button>
-        <button class="copy-button" onclick="copyAnswer()">Copy</button>
+        <!-- ❌ REMOVED ASK BUTTON -->
+        <!-- ❌ REMOVED RESET BUTTON -->
+        <!-- ❌ REMOVED COPY BUTTON -->
+
+        <!-- ✅ KEPT ONLY THESE -->
         <button class="pyq-browse-button" onclick="togglePyqBrowser()">Browse PYQs</button>
         <button class="notes-browse-button" onclick="toggleNotesBrowser()">Browse Notes</button>
     </div>
 
-    <div id="answer" class="premium-response">Your answer will appear here.</div>
+    <div id="answer" class="premium-response"></div>
 
-    <div id="pyqBrowser" class="pyq-browser hidden">
-        <div class="browse-panel">
-            <div class="pyq-browser-title">Browse PYQs</div>
-            <div class="selected-path" id="selectedPath">Choose a subject to begin.</div>
-            <div class="browse-nav">
-                <button type="button" id="backToSubjectsBtn" class="nav-button hidden" onclick="backToSubjects()">← Back to Subjects</button>
-                <button type="button" id="backToTopicsBtn" class="nav-button hidden" onclick="backToTopics()">← Back to Topics</button>
-            </div>
-        </div>
-
-        <div id="subjectPanel" class="browse-panel">
-            <div class="browse-label">Subjects</div>
-            <div id="subjects" class="browse-grid"></div>
-        </div>
-
-        <div id="topicPanel" class="browse-panel hidden">
-            <div class="browse-label">Topics</div>
-            <div id="topics" class="browse-grid"></div>
-        </div>
-
-        <div id="questionPanel" class="browse-panel hidden">
-            <div class="browse-label">PYQs</div>
-            <div id="questions"></div>
-        </div>
+    <!-- ✅ PYQ BROWSER -->
+    <div id="pyqBrowser" class="hidden">
+        <div id="subjects"></div>
+        <div id="topics"></div>
+        <div id="questions"></div>
     </div>
 
-    <div id="notesBrowser" class="notes-browser hidden">
-        <div class="browse-panel">
-            <div class="notes-browser-title">Browse Notes</div>
-            <div class="selected-path" id="notesSelectedPath">Choose a subject to begin.</div>
-            <div class="browse-nav">
-                <button type="button" id="backToNoteSubjectsBtn" class="nav-button hidden" onclick="backToNoteSubjects()">← Back to Subjects</button>
-                <button type="button" id="backToNoteTopicsBtn" class="nav-button hidden" onclick="backToNoteTopics()">← Back to Topics</button>
-            </div>
-        </div>
-
-        <div id="noteSubjectPanel" class="browse-panel">
-            <div class="browse-label">Subjects</div>
-            <div id="noteSubjects" class="browse-grid"></div>
-        </div>
-
-        <div id="noteTopicPanel" class="browse-panel hidden">
-            <div class="browse-label">Topics</div>
-            <div id="noteTopics" class="browse-grid"></div>
-        </div>
-
-        <div id="fullNotesPanel" class="browse-panel hidden">
-            <div class="browse-label">Full Notes</div>
-            <div id="fullNotes"></div>
-        </div>
+    <!-- ✅ NOTES BROWSER -->
+    <div id="notesBrowser" class="hidden">
+        <div id="noteSubjects"></div>
+        <div id="noteTopics"></div>
+        <div id="fullNotes"></div>
     </div>
+
 </div>
 
 <script>
 const BASE_URL = window.location.origin;
-let currentSubject = "";
-let currentTopic = "";
-let currentQuestions = [];
-let currentQuestionIndex = 0;
 
-let notesData = null;
-let noteSubjectsMap = {};
-let currentNoteSubject = "";
-let currentNoteTopic = "";
-
-if ("serviceWorker" in navigator) {
-    window.addEventListener("load", function () {
-        navigator.serviceWorker.getRegistrations().then(function (registrations) {
-            registrations.forEach(function (registration) {
-                registration.unregister();
-            });
-        });
-    });
-}
-
-function escapeHtml(text) {
-    return String(text ?? "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-}
-
-function formatQuestionText(text) {
-    let s = String(text ?? "");
-    s = s.replace(/\r/g, "");
-    s = s.replace(/\s(?=\d+\.\s)/g, "\n");
-    return escapeHtml(s);
-}
-
-function cleanMarkdownLine(line) {
-    let s = (line || "").trim();
-    s = s.replace(/^#{1,6}\s*/, "");
-    s = s.replace(/\*\*/g, "");
-    return s.trim();
-}
-
-function isIgnoreLine(line) {
-    return (
-        /^question\s*\d+/i.test(line) ||
-        /^mcq\s*\d+/i.test(line) ||
-        /^\(?easy\)?$/i.test(line) ||
-        /^\(?moderate\)?$/i.test(line) ||
-        /^\(?tough\)?$/i.test(line) ||
-        /statement based/i.test(line) ||
-        /match the following/i.test(line) ||
-        /factual but tricky/i.test(line)
-    );
-}
-
-function formatPyqText(text) {
-    const rawLines = text.replace(/\r/g, "").split("\n");
-    let cards = [];
-    let current = [];
-    let inInsight = false;
-    let inTag = false;
-
-    function closeBoxes() {
-        if (inInsight) {
-            current.push(`</div>`);
-            inInsight = false;
-        }
-        if (inTag) {
-            current.push(`</div>`);
-            inTag = false;
-        }
-    }
-
-    function pushCard() {
-        if (current.length > 0) {
-            closeBoxes();
-            cards.push(`<div class="pyq-card">${current.join("\n")}</div>`);
-            current = [];
-        }
-    }
-
-    for (let i = 0; i < rawLines.length; i++) {
-        let line = cleanMarkdownLine(rawLines[i]);
-        if (!line || isIgnoreLine(line)) continue;
-
-        line = line.replace(/Past 15 years/gi, "Past 10 Years");
-
-        if (/^20\d{2}\s*-\s*UPSC Prelims$/i.test(line)) {
-            pushCard();
-            current.push(`<span class="pyq-year">${escapeHtml(line)}</span>`);
-            continue;
-        }
-
-        if (/^Question:$/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-question">Question</span>`);
-            continue;
-        }
-
-        if (/^Question:\s+/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-question">Question</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Question:\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^(Correct Answer:|Answer:)$/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-answer">Correct Answer</span>`);
-            continue;
-        }
-
-        if (/^(Correct Answer:|Answer:)\s+/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-answer">Correct Answer</span>`);
-            current.push(`<div class="pyq-answer-value">${escapeHtml(line.replace(/^(Correct Answer:|Answer:)\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^PYQ INSIGHT:?$/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-insight">PYQ Insight</span>`);
-            current.push(`<div class="pyq-insight-box">`);
-            inInsight = true;
-            continue;
-        }
-
-        if (/^PYQ TAG:?$/i.test(line)) {
-            closeBoxes();
-            current.push(`<span class="pyq-heading-tag">PYQ Tag</span>`);
-            current.push(`<div class="pyq-tag-box">`);
-            inTag = true;
-            continue;
-        }
-
-        if (/^No PYQs came from this subtopic so far\.$/i.test(line)) {
-            pushCard();
-            cards.push(`<div class="pyq-card">${escapeHtml(line)}</div>`);
-            continue;
-        }
-
-        current.push(`<div>${escapeHtml(line)}</div>`);
-    }
-
-    pushCard();
-    return cards.join("");
-}
-
-function formatNotesText(text) {
-    const rawLines = String(text || "").replace(/\r/g, "").split("\n");
-    const out = [];
-    let blockClass = "";
-
-    function closeBlock() {
-        if (blockClass) {
-            out.push(`</div>`);
-            blockClass = "";
-        }
-    }
-
-    function openBlock(cls) {
-        closeBlock();
-        out.push(`<div class="${cls}">`);
-        blockClass = cls;
-    }
-
-    let firstLineDone = false;
-
-    for (let i = 0; i < rawLines.length; i++) {
-        let line = cleanMarkdownLine(rawLines[i]);
-        if (!line || isIgnoreLine(line)) continue;
-
-        if (!firstLineDone) {
-            out.push(`<span class="topic">${escapeHtml(line)}</span>`);
-            openBlock("note-block");
-            firstLineDone = true;
-            continue;
-        }
-
-        if (/^Introduction$/i.test(line)) {
-            openBlock("note-block");
-            out.push(`<span class="heading">INTRODUCTION</span>`);
-            continue;
-        }
-
-        if (/^Background$/i.test(line)) {
-            openBlock("note-block");
-            out.push(`<span class="heading">BACKGROUND</span>`);
-            continue;
-        }
-
-        if (/^Core Features$/i.test(line)) {
-            openBlock("note-block");
-            out.push(`<span class="heading">CORE FEATURES</span>`);
-            continue;
-        }
-
-        if (/^Important Sites$/i.test(line)) {
-            openBlock("note-block");
-            out.push(`<span class="heading">IMPORTANT SITES</span>`);
-            continue;
-        }
-
-        if (/^Chronology$/i.test(line)) {
-            openBlock("note-block");
-            out.push(`<span class="heading">CHRONOLOGY</span>`);
-            continue;
-        }
-
-        if (/^UPSC Trap Zone$/i.test(line)) {
-            openBlock("note-block-trap");
-            out.push(`<span class="trap">TRAP ZONE</span>`);
-            continue;
-        }
-
-        if (/^Revision Takeaway$/i.test(line) || /^One-Line Revision Takeaway$/i.test(line)) {
-            openBlock("note-block-takeaway");
-            out.push(`<span class="takeaway">REVISION TAKEAWAY</span>`);
-            continue;
-        }
-
-        out.push(`<div>${escapeHtml(line)}</div>`);
-    }
-
-    closeBlock();
-
-    if (out.length === 0) {
-        return `<div class="plain-answer">${escapeHtml(text)}</div>`;
-    }
-
-    return out.join("\n");
-}
-
-function formatMcqText(text) {
-    const rawLines = text.replace(/\r/g, "").split("\n");
-    let cards = [];
-    let current = [];
-    let hasContent = false;
-
-    function pushCard() {
-        if (current.length > 0 && hasContent) {
-            cards.push(`<div class="mcq-card">${current.join("\n")}</div>`);
-        }
-        current = [];
-        hasContent = false;
-    }
-
-    for (let i = 0; i < rawLines.length; i++) {
-        let line = cleanMarkdownLine(rawLines[i]);
-        if (!line || isIgnoreLine(line)) continue;
-
-        if (/^Question:$/i.test(line)) {
-            pushCard();
-            current.push(`<span class="mcq-heading-question">Question</span>`);
-            hasContent = true;
-            continue;
-        }
-
-        if (/^Question:\s+/i.test(line)) {
-            pushCard();
-            current.push(`<span class="mcq-heading-question">Question</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Question:\s+/i, ""))}</div>`);
-            hasContent = true;
-            continue;
-        }
-
-        if (/^Options:$/i.test(line)) {
-            current.push(`<span class="mcq-heading-options">Options</span>`);
-            continue;
-        }
-
-        if (/^Options:\s+/i.test(line)) {
-            current.push(`<span class="mcq-heading-options">Options</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Options:\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^\(?[A-Da-d1-4]\)?[.)]\s*/.test(line)) {
-            current.push(`<div class="mcq-option">${escapeHtml(line)}</div>`);
-            hasContent = true;
-            continue;
-        }
-
-        if (/^(Correct Answer:|Answer:)$/i.test(line)) {
-            current.push(`<span class="mcq-heading-answer">Correct Answer</span>`);
-            continue;
-        }
-
-        if (/^(Correct Answer:|Answer:)\s+/i.test(line)) {
-            current.push(`<span class="mcq-heading-answer">Correct Answer</span>`);
-            current.push(`<div class="mcq-answer-value">${escapeHtml(line.replace(/^(Correct Answer:|Answer:)\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^Elimination Logic:$/i.test(line)) {
-            current.push(`<span class="mcq-heading-logic">Elimination Logic</span>`);
-            continue;
-        }
-
-        if (/^Elimination Logic:\s+/i.test(line)) {
-            current.push(`<span class="mcq-heading-logic">Elimination Logic</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Elimination Logic:\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^(Why others are wrong|Why other options are wrong):$/i.test(line)) {
-            current.push(`<span class="mcq-heading-wrong">Why Other Options Are Wrong</span>`);
-            continue;
-        }
-
-        if (/^(Why others are wrong|Why other options are wrong):\s+/i.test(line)) {
-            current.push(`<span class="mcq-heading-wrong">Why Other Options Are Wrong</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^(Why others are wrong|Why other options are wrong):\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        if (/^Trap Zone:$/i.test(line)) {
-            current.push(`<span class="mcq-heading-trap">Trap Zone</span>`);
-            continue;
-        }
-
-        if (/^Trap Zone:\s+/i.test(line)) {
-            current.push(`<span class="mcq-heading-trap">Trap Zone</span>`);
-            current.push(`<div>${escapeHtml(line.replace(/^Trap Zone:\s+/i, ""))}</div>`);
-            continue;
-        }
-
-        current.push(`<div>${escapeHtml(line)}</div>`);
-        hasContent = true;
-    }
-
-    pushCard();
-    return cards.join("");
-}
-
-function buildSections(answer) {
-    const pyqHeading = "A. UPSC PRELIMS PYQs";
-    const notesHeading = "B. QUICK REVISION NOTES";
-    const mcqHeading = "C. PRACTICE MCQs";
-
-    const aIndex = answer.indexOf(pyqHeading);
-    const bIndex = answer.indexOf(notesHeading);
-    const cIndex = answer.indexOf(mcqHeading);
-
-    if (aIndex === -1 || bIndex === -1 || cIndex === -1) {
-        return `<div class="plain-answer">${escapeHtml(answer)}</div>`;
-    }
-
-    const pyqText = answer.substring(aIndex + pyqHeading.length, bIndex).trim();
-    const notesText = answer.substring(bIndex + notesHeading.length, cIndex).trim();
-    const mcqText = answer.substring(cIndex + mcqHeading.length).trim();
-
-    return `
-<details class="section" open>
-<summary>▼ PYQs (Past 10 Years)</summary>
-<div class="section-content">${formatPyqText(pyqText)}</div>
-</details>
-
-<details class="section" open>
-<summary>▼ Quick Revision Notes</summary>
-<div class="section-content">${formatNotesText(notesText)}</div>
-</details>
-
-<details class="section">
-<summary>▼ Practice MCQs</summary>
-<div class="section-content">${formatMcqText(mcqText)}</div>
-</details>
-`;
-}
-
-function resetAI() {
-    document.getElementById("question").value = "";
-    document.getElementById("answer").innerText = "Your answer will appear here.";
-    document.getElementById("pyqBrowser").classList.add("hidden");
-    document.getElementById("subjects").innerHTML = "";
-    document.getElementById("topics").innerHTML = "";
-    document.getElementById("questions").innerHTML = "";
-    document.getElementById("topicPanel").classList.add("hidden");
-    document.getElementById("questionPanel").classList.add("hidden");
-    document.getElementById("subjectPanel").classList.remove("hidden");
-    document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
-    document.getElementById("backToSubjectsBtn").classList.add("hidden");
-    document.getElementById("backToTopicsBtn").classList.add("hidden");
-
-    document.getElementById("notesBrowser").classList.add("hidden");
-    document.getElementById("noteSubjects").innerHTML = "";
-    document.getElementById("noteTopics").innerHTML = "";
-    document.getElementById("fullNotes").innerHTML = "";
-    document.getElementById("noteSubjectPanel").classList.remove("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
-    document.getElementById("backToNoteSubjectsBtn").classList.add("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
-
-    currentSubject = "";
-    currentTopic = "";
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-
-    currentNoteSubject = "";
-    currentNoteTopic = "";
-}
-
-function copyAnswer() {
-    const text = document.getElementById("answer").innerText;
-    navigator.clipboard.writeText(text);
-}
-
-function buildSubjectButtons(subjects) {
-    let html = "";
-    subjects.forEach(subject => {
-        html += `<button type="button" class="browse-chip" onclick="loadTopics('${encodeURIComponent(subject)}')">${escapeHtml(subject)}</button>`;
-    });
-    return html;
-}
-
-function buildTopicButtons(topics) {
-    let html = "";
-    topics.forEach(topic => {
-        html += `<button type="button" class="browse-chip" onclick="loadQuestions('${encodeURIComponent(currentSubject)}','${encodeURIComponent(topic)}')">${escapeHtml(topic)}</button>`;
-    });
-    return html;
-}
-
-function getFrequencyClass(freq) {
-    const value = String(freq || "").toUpperCase();
-    if (value === "HIGH") return "frequency-high";
-    if (value === "MEDIUM") return "frequency-medium";
-    return "frequency-low";
-}
-
-function normalizeOptionLabel(text) {
-    const s = String(text || "").trim();
-    const match = s.match(/^\(?([A-Da-d1-4])\)?[.)]?/);
-    if (!match) return s.toUpperCase();
-    const raw = match[1].toUpperCase();
-    if (raw === "1") return "A";
-    if (raw === "2") return "B";
-    if (raw === "3") return "C";
-    if (raw === "4") return "D";
-    return raw;
-}
-
-function getCorrectOptionLabel(correctAnswer) {
-    return normalizeOptionLabel(correctAnswer);
-}
-
-function buildSingleQuestionCard(q, index, totalCount) {
-    const explanationId = `explanation-${index}`;
-    const logicId = `logic-${index}`;
-    const resultId = `result-${index}`;
-    const detailWrapId = `detail-wrap-${index}`;
-    const correctLabel = getCorrectOptionLabel(q.correct_answer || "");
-
-    return `
-        <div class="question-browser-nav-wrap">
-            <div class="question-browser-counter">Question ${index + 1} of ${totalCount}</div>
-            <div class="question-browser-nav-buttons">
-                <button type="button" class="question-browser-nav-btn" onclick="changeQuestion(-1)" ${index === 0 ? "disabled" : ""}>← Previous</button>
-                <button type="button" class="question-browser-nav-btn" onclick="changeQuestion(1)" ${index === totalCount - 1 ? "disabled" : ""}>Next →</button>
-            </div>
-        </div>
-
-        <div class="question-browser-card">
-            <span class="question-browser-year">${escapeHtml(q.year || "")}</span>
-
-            <span class="question-browser-heading">Question</span>
-            <div class="question-browser-question">${formatQuestionText(q.question || "")}</div>
-
-            <span class="question-browser-heading">Choose Your Answer</span>
-            <div class="question-browser-options" id="options-wrap-${index}">
-                ${(q.options || []).map((opt, optIndex) => {
-                    const optionLabel = normalizeOptionLabel(opt);
-                    return `
-                        <button
-                            type="button"
-                            class="question-browser-option-btn"
-                            id="option-${index}-${optIndex}"
-                            data-option-label="${escapeHtml(optionLabel)}"
-                            onclick="selectPyqOption(${index}, '${escapeHtml(optionLabel)}', '${escapeHtml(correctLabel)}', '${resultId}', '${detailWrapId}')"
-                        >
-                            ${escapeHtml(opt)}
-                        </button>
-                    `;
-                }).join("")}
-            </div>
-
-            <div id="${resultId}" class="hidden"></div>
-
-            <div id="${detailWrapId}" class="hidden">
-                <div class="question-browser-answer-wrap" style="margin-top: 16px;">
-                    <span class="question-browser-heading">Correct Answer</span>
-                    <div class="question-browser-answer-box">${escapeHtml(q.correct_answer || "")}</div>
-                </div>
-
-                ${q.theme_frequency ? `
-                    <div style="margin-top: 16px;">
-                        <span class="question-browser-heading">Theme Frequency</span>
-                        <div>
-                            <span class="frequency-badge ${getFrequencyClass(q.theme_frequency)}">${escapeHtml(q.theme_frequency)} Priority</span>
-                        </div>
-                    </div>
-                ` : ""}
-
-                <div class="question-browser-toggle-row">
-                    ${q.explanation ? `
-                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${explanationId}', this, 'Explanation')">
-                            Show Explanation
-                        </button>
-                    ` : ""}
-
-                    ${q.elimination_logic ? `
-                        <button type="button" class="question-browser-toggle-btn" onclick="toggleAnswerSection('${logicId}', this, 'Elimination Logic')">
-                            Show Elimination Logic
-                        </button>
-                    ` : ""}
-                </div>
-
-                ${q.explanation ? `
-                    <div id="${explanationId}" class="hidden" style="margin-top: 14px;">
-                        <span class="question-browser-heading">Explanation</span>
-                        <div class="question-browser-explanation-box">${escapeHtml(q.explanation)}</div>
-                    </div>
-                ` : ""}
-
-                ${q.elimination_logic ? `
-                    <div id="${logicId}" class="hidden" style="margin-top: 14px;">
-                        <span class="question-browser-heading">Elimination Logic</span>
-                        <div class="question-browser-logic-box">${escapeHtml(q.elimination_logic)}</div>
-                    </div>
-                ` : ""}
-            </div>
-        </div>
-    `;
-}
-
-function renderCurrentQuestion() {
-    const questionsBox = document.getElementById("questions");
-
-    if (!currentQuestions || currentQuestions.length === 0) {
-        questionsBox.innerHTML = `<div class="plain-answer">No PYQs found for this topic.</div>`;
-        return;
-    }
-
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    questionsBox.innerHTML = buildSingleQuestionCard(currentQuestion, currentQuestionIndex, currentQuestions.length);
-}
-
-function changeQuestion(step) {
-    const newIndex = currentQuestionIndex + step;
-    if (newIndex < 0 || newIndex >= currentQuestions.length) return;
-    currentQuestionIndex = newIndex;
-    renderCurrentQuestion();
-}
-
-function selectPyqOption(questionIndex, selectedLabel, correctLabel, resultId, detailWrapId) {
-    const buttons = document.querySelectorAll(`[id^="option-${questionIndex}-"]`);
-    let resultHtml = `
-        <div class="question-browser-result-box wrong">
-            Your Answer: ${escapeHtml(selectedLabel)}<br>
-            Correct Answer: ${escapeHtml(correctLabel)}
-        </div>
-    `;
-
-    buttons.forEach(btn => {
-        btn.disabled = true;
-        const btnLabel = btn.getAttribute("data-option-label");
-
-        if (btnLabel === correctLabel) {
-            btn.classList.add("correct");
-        }
-
-        if (btnLabel === selectedLabel && selectedLabel !== correctLabel) {
-            btn.classList.add("wrong");
-        }
-
-        if (btnLabel === selectedLabel && selectedLabel === correctLabel) {
-            btn.classList.add("correct");
-        }
-    });
-
-    if (selectedLabel === correctLabel) {
-        resultHtml = `
-            <div class="question-browser-result-box correct">
-                Correct ✅<br>
-                Your Answer: ${escapeHtml(selectedLabel)}
-            </div>
-        `;
-    }
-
-    const resultBox = document.getElementById(resultId);
-    resultBox.classList.remove("hidden");
-    resultBox.innerHTML = resultHtml;
-
-    const detailWrap = document.getElementById(detailWrapId);
-    detailWrap.classList.remove("hidden");
-}
-
-function toggleAnswerSection(sectionId, button, label) {
-    const section = document.getElementById(sectionId);
-
-    if (section.classList.contains("hidden")) {
-        section.classList.remove("hidden");
-        button.innerText = `Hide ${label}`;
-    } else {
-        section.classList.add("hidden");
-        button.innerText = `Show ${label}`;
-    }
-}
-
-function showSubjectView() {
-    document.getElementById("subjectPanel").classList.remove("hidden");
-    document.getElementById("topicPanel").classList.add("hidden");
-    document.getElementById("questionPanel").classList.add("hidden");
-    document.getElementById("backToSubjectsBtn").classList.add("hidden");
-    document.getElementById("backToTopicsBtn").classList.add("hidden");
-    document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
-}
-
-function showTopicView() {
-    document.getElementById("subjectPanel").classList.add("hidden");
-    document.getElementById("topicPanel").classList.remove("hidden");
-    document.getElementById("questionPanel").classList.add("hidden");
-    document.getElementById("backToSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToTopicsBtn").classList.add("hidden");
-    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject}`;
-}
-
-function showQuestionView() {
-    document.getElementById("subjectPanel").classList.add("hidden");
-    document.getElementById("topicPanel").classList.add("hidden");
-    document.getElementById("questionPanel").classList.remove("hidden");
-    document.getElementById("backToSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToTopicsBtn").classList.remove("hidden");
-    document.getElementById("selectedPath").innerText = `Subject: ${currentSubject} | Topic: ${currentTopic}`;
-}
-
-function backToSubjects() {
-    currentSubject = "";
-    currentTopic = "";
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-    document.getElementById("topics").innerHTML = "";
-    document.getElementById("questions").innerHTML = "";
-    showSubjectView();
-}
-
-function backToTopics() {
-    currentTopic = "";
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-    document.getElementById("questions").innerHTML = "";
-    showTopicView();
-}
+// ✅ REMOVE askAI(), resetAI(), copyAnswer()
+// (they are NOT needed anymore)
 
 async function togglePyqBrowser() {
-    const browser = document.getElementById("pyqBrowser");
-    const notesBrowser = document.getElementById("notesBrowser");
-    const isHidden = browser.classList.contains("hidden");
-
-    notesBrowser.classList.add("hidden");
-
-    if (!isHidden) {
-        browser.classList.add("hidden");
-        return;
-    }
-
-    browser.classList.remove("hidden");
-    document.getElementById("selectedPath").innerText = "Loading subjects...";
-    document.getElementById("topics").innerHTML = "";
-    document.getElementById("questions").innerHTML = "";
-    currentSubject = "";
-    currentTopic = "";
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-
-    showSubjectView();
-    document.getElementById("subjects").innerHTML = "Loading subjects...";
+    document.getElementById("notesBrowser").classList.add("hidden");
+    document.getElementById("pyqBrowser").classList.toggle("hidden");
 
     try {
         const res = await fetch(`${BASE_URL}/pyq-subjects`);
         const data = await res.json();
-        document.getElementById("subjects").innerHTML = buildSubjectButtons(data.subjects || []);
-        document.getElementById("selectedPath").innerText = "Choose a subject to begin.";
-    } catch (error) {
-        document.getElementById("subjects").innerHTML = `<div class="plain-answer">Error loading subjects.</div>`;
-        document.getElementById("selectedPath").innerText = "Could not load subjects.";
-        console.error(error);
-    }
-}
 
-async function loadTopics(encodedSubject) {
-    currentSubject = decodeURIComponent(encodedSubject);
-    currentTopic = "";
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-
-    showTopicView();
-    document.getElementById("topics").innerHTML = "Loading topics...";
-
-    try {
-        const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(currentSubject)}`);
-        const data = await res.json();
-        document.getElementById("topics").innerHTML = buildTopicButtons(data.topics || []);
-    } catch (error) {
-        document.getElementById("topics").innerHTML = `<div class="plain-answer">Error loading topics.</div>`;
-        console.error(error);
-    }
-}
-
-async function loadQuestions(encodedSubject, encodedTopic) {
-    currentSubject = decodeURIComponent(encodedSubject);
-    currentTopic = decodeURIComponent(encodedTopic);
-    currentQuestions = [];
-    currentQuestionIndex = 0;
-
-    showQuestionView();
-    document.getElementById("questions").innerHTML = "Loading PYQs...";
-
-    try {
-        const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(currentSubject)}&topic=${encodeURIComponent(currentTopic)}`);
-        const data = await res.json();
-        currentQuestions = data.questions || [];
-        currentQuestionIndex = 0;
-        renderCurrentQuestion();
-    } catch (error) {
-        document.getElementById("questions").innerHTML = `<div class="plain-answer">Error loading PYQs.</div>`;
-        console.error(error);
-    }
-}
-
-function normalizeNotesData(data) {
-    if (!data || typeof data !== "object" || Array.isArray(data)) return {};
-
-    if (data.Notes && typeof data.Notes === "object" && !Array.isArray(data.Notes)) {
-        return data.Notes;
-    }
-
-    if (data["Indian History"]) {
-        return data;
-    }
-
-    return data;
-}
-
-async function fetchNotesData() {
-    if (notesData) return notesData;
-
-    const res = await fetch(`/static/history_notes.json?v=${Date.now()}`, {
-        cache: "no-store"
-    });
-
-    if (!res.ok) {
-        throw new Error("history_notes.json not found");
-    }
-
-    const data = await res.json();
-    const loaded = normalizeNotesData(data);
-
-    if (!loaded || Object.keys(loaded).length === 0) {
-        throw new Error("Notes JSON is empty or invalid");
-    }
-
-    notesData = loaded;
-    return notesData;
-}
-
-function buildNoteSubjectButtons(subjects) {
-    let html = "";
-    subjects.forEach(subject => {
-        html += `<button type="button" class="browse-chip" onclick="loadNoteTopics('${encodeURIComponent(subject)}')">${escapeHtml(subject)}</button>`;
-    });
-    return html;
-}
-
-function buildNoteTopicButtons(topics) {
-    let html = "";
-    topics.forEach(topic => {
-        html += `<button type="button" class="browse-chip" onclick="loadFullNotes('${encodeURIComponent(topic)}')">${escapeHtml(topic)}</button>`;
-    });
-    return html;
-}
-
-function showNoteSubjectView() {
-    document.getElementById("noteSubjectPanel").classList.remove("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.add("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
-}
-
-function showNoteTopicView() {
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
-    document.getElementById("noteTopicPanel").classList.remove("hidden");
-    document.getElementById("fullNotesPanel").classList.add("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.add("hidden");
-    document.getElementById("notesSelectedPath").innerText = `Subject: ${currentNoteSubject}`;
-}
-
-function showFullNotesView() {
-    document.getElementById("noteSubjectPanel").classList.add("hidden");
-    document.getElementById("noteTopicPanel").classList.add("hidden");
-    document.getElementById("fullNotesPanel").classList.remove("hidden");
-    document.getElementById("backToNoteSubjectsBtn").classList.remove("hidden");
-    document.getElementById("backToNoteTopicsBtn").classList.remove("hidden");
-    document.getElementById("notesSelectedPath").innerText = `Subject: ${currentNoteSubject} | Topic: ${currentNoteTopic}`;
-}
-
-async function toggleNotesBrowser() {
-    const browser = document.getElementById("notesBrowser");
-    const pyqBrowser = document.getElementById("pyqBrowser");
-    const isHidden = browser.classList.contains("hidden");
-
-    pyqBrowser.classList.add("hidden");
-
-    if (!isHidden) {
-        browser.classList.add("hidden");
-        return;
-    }
-
-    browser.classList.remove("hidden");
-    currentNoteSubject = "";
-    currentNoteTopic = "";
-    noteSubjectsMap = {};
-    document.getElementById("noteSubjects").innerHTML = "Loading subjects...";
-    document.getElementById("noteTopics").innerHTML = "";
-    document.getElementById("fullNotes").innerHTML = "";
-    showNoteSubjectView();
-
-    try {
-        const data = await fetchNotesData();
-        noteSubjectsMap = data || {};
-
-        const subjects = Object.keys(noteSubjectsMap);
-        if (subjects.length === 0) {
-            document.getElementById("noteSubjects").innerHTML = `<div class="plain-answer">No note subjects found.</div>`;
-            document.getElementById("notesSelectedPath").innerText = "No notes available.";
-            return;
-        }
-
-        document.getElementById("noteSubjects").innerHTML = buildNoteSubjectButtons(subjects);
-        document.getElementById("notesSelectedPath").innerText = "Choose a subject to begin.";
-    } catch (error) {
-        document.getElementById("noteSubjects").innerHTML = `<div class="plain-answer">Error loading notes.</div>`;
-        document.getElementById("notesSelectedPath").innerText = "Could not load notes.";
-        console.error(error);
-    }
-}
-
-function loadNoteTopics(encodedSubject) {
-    currentNoteSubject = decodeURIComponent(encodedSubject);
-    currentNoteTopic = "";
-    document.getElementById("noteTopics").innerHTML = "Loading topics...";
-    showNoteTopicView();
-
-    const topicsMap = noteSubjectsMap[currentNoteSubject] || {};
-    const topics = Object.keys(topicsMap);
-
-    if (topics.length === 0) {
-        document.getElementById("noteTopics").innerHTML = `<div class="plain-answer">No topics found.</div>`;
-        return;
-    }
-
-    document.getElementById("noteTopics").innerHTML = buildNoteTopicButtons(topics);
-}
-
-function loadFullNotes(encodedTopic) {
-    currentNoteTopic = decodeURIComponent(encodedTopic);
-    showFullNotesView();
-
-    const topicValue = ((noteSubjectsMap[currentNoteSubject] || {})[currentNoteTopic]);
-
-    if (typeof topicValue === "string") {
-        document.getElementById("fullNotes").innerHTML = `<div class="notes-content-card">${formatNotesText(topicValue)}</div>`;
-        return;
-    }
-
-    if (topicValue && typeof topicValue === "object") {
-        const joined = Object.entries(topicValue)
-            .map(([key, value]) => `${key}\n${value}`)
-            .join("\n\n");
-        document.getElementById("fullNotes").innerHTML = `<div class="notes-content-card">${formatNotesText(joined)}</div>`;
-        return;
-    }
-
-    document.getElementById("fullNotes").innerHTML = `<div class="plain-answer">No notes found for this topic.</div>`;
-}
-
-function backToNoteSubjects() {
-    currentNoteSubject = "";
-    currentNoteTopic = "";
-    document.getElementById("noteTopics").innerHTML = "";
-    document.getElementById("fullNotes").innerHTML = "";
-    showNoteSubjectView();
-}
-
-function backToNoteTopics() {
-    currentNoteTopic = "";
-    document.getElementById("fullNotes").innerHTML = "";
-    showNoteTopicView();
-}
-
-async function askAI() {
-    const question = document.getElementById("question").value;
-    const answerBox = document.getElementById("answer");
-    const askButton = document.getElementById("askButton");
-
-    answerBox.innerText = "Loading...";
-    askButton.disabled = true;
-    askButton.innerText = "Please wait...";
-
-    try {
-        const response = await fetch(`${BASE_URL}/ask`, {
-            method: "POST",
-            headers: { "Content-Type":"application/json" },
-            body: JSON.stringify({message:question})
+        let html = "";
+        data.subjects.forEach(s => {
+            html += `<button onclick="loadTopics('${s}')">${s}</button>`;
         });
 
-        const data = await response.json();
-        answerBox.innerHTML = buildSections(data.answer || "No answer received.");
-    } catch (error) {
-        answerBox.innerHTML = `<div class="plain-answer">Error: ${escapeHtml(error.toString())}</div>`;
-        console.error(error);
-    }
+        document.getElementById("subjects").innerHTML = html;
 
-    askButton.disabled = false;
-    askButton.innerText = "Ask";
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+async function loadTopics(subject) {
+    const res = await fetch(`${BASE_URL}/pyq-topics?subject=${subject}`);
+    const data = await res.json();
+
+    let html = "";
+    data.topics.forEach(t => {
+        html += `<button onclick="loadQuestions('${subject}','${t}')">${t}</button>`;
+    });
+
+    document.getElementById("topics").innerHTML = html;
+}
+
+async function loadQuestions(subject, topic) {
+    const res = await fetch(`${BASE_URL}/pyq-questions?subject=${subject}&topic=${topic}`);
+    const data = await res.json();
+
+    let html = "";
+    data.questions.forEach(q => {
+        html += `<div style="margin-top:10px;">${q.question}</div>`;
+    });
+
+    document.getElementById("questions").innerHTML = html;
+}
+
+// NOTES
+
+async function toggleNotesBrowser() {
+    document.getElementById("pyqBrowser").classList.add("hidden");
+    document.getElementById("notesBrowser").classList.toggle("hidden");
+
+    try {
+        const res = await fetch(`/static/history_notes.json`);
+        const data = await res.json();
+
+        let html = "";
+        Object.keys(data).forEach(subject => {
+            html += `<button onclick="loadNoteTopics('${subject}')">${subject}</button>`;
+        });
+
+        window.notesData = data;
+        document.getElementById("noteSubjects").innerHTML = html;
+
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+function loadNoteTopics(subject) {
+    const topics = Object.keys(notesData[subject] || {});
+    let html = "";
+
+    topics.forEach(t => {
+        html += `<button onclick="loadFullNotes('${subject}','${t}')">${t}</button>`;
+    });
+
+    document.getElementById("noteTopics").innerHTML = html;
+}
+
+function loadFullNotes(subject, topic) {
+    const content = notesData[subject][topic] || "";
+    document.getElementById("fullNotes").innerText = content;
 }
 </script>
 
