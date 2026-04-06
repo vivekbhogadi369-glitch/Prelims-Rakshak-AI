@@ -40,6 +40,7 @@
             border-radius: 10px;
             background: #1d3557;
             color: white;
+            cursor: pointer;
         }
 
         .pyq-browse-button { background: #7c3aed; }
@@ -98,6 +99,13 @@ const BASE_URL = window.location.origin;
 // ✅ REMOVE askAI(), resetAI(), copyAnswer()
 // (they are NOT needed anymore)
 
+function safeString(str) {
+    return String(str)
+        .replace(/\\/g, "\\\\")
+        .replace(/'/g, "\\'")
+        .replace(/"/g, "&quot;");
+}
+
 async function togglePyqBrowser() {
     document.getElementById("notesBrowser").classList.add("hidden");
     document.getElementById("pyqBrowser").classList.toggle("hidden");
@@ -108,10 +116,12 @@ async function togglePyqBrowser() {
 
         let html = "";
         data.subjects.forEach(s => {
-            html += `<button onclick="loadTopics('${s}')">${s}</button>`;
+            html += `<button onclick="loadTopics('${safeString(s)}')">${s}</button>`;
         });
 
         document.getElementById("subjects").innerHTML = html;
+        document.getElementById("topics").innerHTML = "";
+        document.getElementById("questions").innerHTML = "";
 
     } catch (e) {
         console.error(e);
@@ -119,19 +129,20 @@ async function togglePyqBrowser() {
 }
 
 async function loadTopics(subject) {
-    const res = await fetch(`${BASE_URL}/pyq-topics?subject=${subject}`);
+    const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(subject)}`);
     const data = await res.json();
 
     let html = "";
     data.topics.forEach(t => {
-        html += `<button onclick="loadQuestions('${subject}','${t}')">${t}</button>`;
+        html += `<button onclick="loadQuestions('${safeString(subject)}','${safeString(t)}')">${t}</button>`;
     });
 
     document.getElementById("topics").innerHTML = html;
+    document.getElementById("questions").innerHTML = "";
 }
 
 async function loadQuestions(subject, topic) {
-    const res = await fetch(`${BASE_URL}/pyq-questions?subject=${subject}&topic=${topic}`);
+    const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
     const data = await res.json();
 
     let html = "";
@@ -154,11 +165,13 @@ async function toggleNotesBrowser() {
 
         let html = "";
         Object.keys(data).forEach(subject => {
-            html += `<button onclick="loadNoteTopics('${subject}')">${subject}</button>`;
+            html += `<button onclick="loadNoteTopics('${safeString(subject)}')">${subject}</button>`;
         });
 
         window.notesData = data;
         document.getElementById("noteSubjects").innerHTML = html;
+        document.getElementById("noteTopics").innerHTML = "";
+        document.getElementById("fullNotes").innerText = "";
 
     } catch (e) {
         console.error(e);
@@ -170,15 +183,28 @@ function loadNoteTopics(subject) {
     let html = "";
 
     topics.forEach(t => {
-        html += `<button onclick="loadFullNotes('${subject}','${t}')">${t}</button>`;
+        html += `<button onclick="loadFullNotes('${safeString(subject)}','${safeString(t)}')">${t}</button>`;
     });
 
     document.getElementById("noteTopics").innerHTML = html;
+    document.getElementById("fullNotes").innerText = "";
 }
 
 function loadFullNotes(subject, topic) {
-    const content = notesData[subject][topic] || "";
-    document.getElementById("fullNotes").innerText = content;
+    const content = notesData[subject][topic];
+    let finalText = "";
+
+    if (typeof content === "string") {
+        finalText = content;
+    } else if (content && typeof content === "object") {
+        for (const key in content) {
+            finalText += key + "\n" + content[key] + "\n\n";
+        }
+    } else {
+        finalText = "No notes found.";
+    }
+
+    document.getElementById("fullNotes").innerText = finalText;
 }
 </script>
 
