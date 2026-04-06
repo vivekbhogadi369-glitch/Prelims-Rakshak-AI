@@ -5,9 +5,11 @@ import re
 import json
 from difflib import SequenceMatcher
 
+# ✅ FIXED (static serving)
 app = Flask(__name__, static_folder="static")
 
 
+# ✅ FORCE STATIC ROUTE (important for Railway)
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return send_from_directory('static', filename)
@@ -196,9 +198,11 @@ def clean_notes_format(answer):
     if not answer:
         return answer
 
-    # remove long dashed separators
-    answer = re.sub(r"\n[-]{5,}\n", "\n\n", answer)
-    answer = re.sub(r"[-]{5,}", "", answer)
+    # remove all long dashed separators like ----- or ----------
+    answer = re.sub(r"[-]{3,}", "", answer)
+
+    # clean extra spaces around blank lines
+    answer = re.sub(r"[ \t]+\n", "\n", answer)
 
     # add better spacing before major headings
     headings = [
