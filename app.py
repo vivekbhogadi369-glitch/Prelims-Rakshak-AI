@@ -198,10 +198,10 @@ def clean_notes_format(answer):
     if not answer:
         return answer
 
-    # remove all long dashed separators like ----- or ----------
-    answer = re.sub(r"[-]{3,}", "", answer)
+    # remove dashed separator lines even if spaces exist around them
+    answer = re.sub(r"\n?\s*-{3,}\s*\n?", "\n", answer)
 
-    # clean extra spaces around blank lines
+    # clean spaces before line breaks
     answer = re.sub(r"[ \t]+\n", "\n", answer)
 
     # add better spacing before major headings
