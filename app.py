@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, render_template, send_from_directory
-from openai import OpenAI
 import os
 import re
 import json
@@ -13,10 +12,6 @@ app = Flask(__name__, static_folder="static")
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return send_from_directory('static', filename)
-
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-VECTOR_STORE_ID = os.getenv("VECTOR_STORE_ID")
 
 
 def load_pyqs_json():
@@ -159,82 +154,7 @@ def get_pyqs_from_txt(topic):
     if not best_content:
         return "No PYQs came from this subtopic so far."
 
-    best_title_words = set(best_title.split())
-    common_words = topic_words.intersection(best_title_words)
-    fuzzy_ratio = SequenceMatcher(None, topic_norm, best_title).ratio()
-
-    if best_score >= 900:
-        return best_content
-
-    if len(common_words) >= 2:
-        return best_content
-
-    if len(topic_words) == 1 and fuzzy_ratio >= 0.78:
-        return best_content
-
-    if len(topic_words) == 2 and len(common_words) >= 1 and fuzzy_ratio >= 0.72:
-        return best_content
-
-    return "No PYQs came from this subtopic so far."
-
-
-def force_exact_headings(answer):
-    if not answer:
-        return answer
-
-    replacements = {
-        "A. UPSC Prelims PYQs": "A. UPSC PRELIMS PYQs (Past 10 Years)",
-        "B. Quick Revision Notes": "B. QUICK REVISION NOTES",
-        "C. Practice MCQs": "C. PRACTICE MCQs",
-    }
-
-    for old, new in replacements.items():
-        answer = answer.replace(old, new)
-
-    return answer
-
-
-def clean_notes_format(answer):
-    if not answer:
-        return answer
-
-    # remove dashed separator lines even if spaces exist around them
-    answer = re.sub(r"\n?\s*-{3,}\s*\n?", "\n", answer)
-
-    # clean spaces before line breaks
-    answer = re.sub(r"[ \t]+\n", "\n", answer)
-
-    # add better spacing before major headings
-    headings = [
-        "INTRODUCTION",
-        "HISTORICAL BACKGROUND",
-        "IMPORTANT SITES AND THEIR FEATURES",
-        "URBAN PLANNING",
-        "ECONOMY",
-        "SOCIETY",
-        "RELIGION",
-        "SCRIPT",
-        "ART AND CULTURE",
-        "ADMINISTRATION",
-        "DECLINE OF CIVILIZATION",
-        "CAUSES FOR RISE",
-        "CAUSES FOR DECLINE",
-        "UPSC FOCUS AREAS",
-        "QUICK REVISION POINTS",
-        "CONCLUSION",
-    ]
-
-    for heading in headings:
-        answer = re.sub(
-            rf"\n\s*{re.escape(heading)}\s*\n",
-            f"\n\n{heading}\n\n",
-            answer
-        )
-
-    # remove too many blank lines
-    answer = re.sub(r"\n{3,}", "\n\n", answer)
-
-    return answer.strip()
+    return best_content
 
 
 @app.route("/")
@@ -244,72 +164,20 @@ def home():
 
 @app.route("/pyq-subjects", methods=["GET"])
 def pyq_subjects():
-    try:
-        return jsonify({"subjects": get_pyq_subjects()})
-    except Exception as e:
-        return jsonify({"subjects": [], "error": str(e)}), 500
+    return jsonify({"subjects": get_pyq_subjects()})
 
 
 @app.route("/pyq-topics", methods=["GET"])
 def pyq_topics():
-    try:
-        subject = request.args.get("subject", "").strip()
-        return jsonify({"topics": get_pyq_topics(subject)})
-    except Exception as e:
-        return jsonify({"topics": [], "error": str(e)}), 500
+    subject = request.args.get("subject", "").strip()
+    return jsonify({"topics": get_pyq_topics(subject)})
 
 
 @app.route("/pyq-questions", methods=["GET"])
 def pyq_questions():
-    try:
-        subject = request.args.get("subject", "").strip()
-        topic = request.args.get("topic", "").strip()
-        return jsonify({"questions": get_pyqs_by_subject_topic(subject, topic)})
-    except Exception as e:
-        return jsonify({"questions": [], "error": str(e)}), 500
-
-
-@app.route("/ask", methods=["POST"])
-def ask():
-    try:
-        data = request.get_json(silent=True) or {}
-        user_message = data.get("message", "").strip()
-
-        if not user_message:
-            return jsonify({"answer": "Please enter topic, subject."})
-
-        display_topic = clean_display_topic(user_message)
-        pyq_lookup_topic = normalize_topic(user_message)
-
-        response = client.responses.create(
-            model="gpt-4.1-mini",
-            input=f"Topic: {display_topic}",
-            tools=[{"type": "file_search", "vector_store_ids": [VECTOR_STORE_ID]}]
-        )
-
-        answer = "Error: No answer generated."
-
-        for item in response.output:
-            if getattr(item, "type", "") == "message":
-                for content in getattr(item, "content", []):
-                    if getattr(content, "type", "") in ["output_text", "text"]:
-                        answer = getattr(content, "text", answer)
-
-        answer = force_exact_headings(answer)
-
-        pyq_content = get_pyqs_from_txt(pyq_lookup_topic)
-
-        if "A. UPSC PRELIMS PYQs (Past 10 Years)" in answer:
-            parts = answer.split("B. QUICK REVISION NOTES")
-            if len(parts) == 2:
-                answer = f"A. UPSC PRELIMS PYQs (Past 10 Years)\n\n{pyq_content}\n\nB. QUICK REVISION NOTES{parts[1]}"
-
-        answer = clean_notes_format(answer)
-
-        return jsonify({"answer": answer})
-
-    except Exception as e:
-        return jsonify({"answer": f"Error: {str(e)}"})
+    subject = request.args.get("subject", "").strip()
+    topic = request.args.get("topic", "").strip()
+    return jsonify({"questions": get_pyqs_by_subject_topic(subject, topic)})
 
 
 if __name__ == "__main__":
