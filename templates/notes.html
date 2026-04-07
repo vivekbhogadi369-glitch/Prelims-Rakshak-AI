@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes - Prelims Rakshak AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: #f5f7fb;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d3557;
+        }
+
+        .top-bar {
+            margin-bottom: 15px;
+        }
+
+        .home-btn {
+            background: #475569;
+            color: white;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 10px 14px;
+            border: none;
+            border-radius: 10px;
+            background: #c2410c;
+            color: white;
+            cursor: pointer;
+        }
+
+        .selected {
+            background: #0f766e !important;
+        }
+
+        .hidden { display: none; }
+
+        .notes-box {
+            margin-top: 15px;
+            padding: 15px;
+            background: #fffaf5;
+            border-radius: 10px;
+            white-space: pre-wrap;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Notes</h1>
+
+<div class="top-bar">
+    <button class="home-btn" onclick="location.href='/'">← Home</button>
+</div>
+
+<div class="box">
+
+    <div id="subjects" class="button-group"></div>
+
+    <div id="topicsSection" class="hidden">
+        <button onclick="backToSubjects()">← Back</button>
+        <div id="topics" class="button-group"></div>
+    </div>
+
+    <div id="notesSection" class="hidden">
+        <button onclick="backToTopics()">← Back</button>
+        <div id="notesContent" class="notes-box"></div>
+    </div>
+
+</div>
+
+<script>
+let notesData = {};
+
+async function loadSubjects() {
+    const res = await fetch('/static/history_notes.json');
+    notesData = await res.json();
+
+    let html = "";
+    Object.keys(notesData).forEach(s => {
+        html += `<button onclick="loadTopics('${s}', this)">${s}</button>`;
+    });
+
+    document.getElementById("subjects").innerHTML = html;
+}
+
+function clearSelected(container) {
+    container.querySelectorAll("button").forEach(b => b.classList.remove("selected"));
+}
+
+function loadTopics(subject, btn) {
+    clearSelected(document.getElementById("subjects"));
+    btn.classList.add("selected");
+
+    let html = "";
+    Object.keys(notesData[subject]).forEach(t => {
+        html += `<button onclick="loadNotes('${subject}','${t}', this)">${t}</button>`;
+    });
+
+    document.getElementById("topics").innerHTML = html;
+    document.getElementById("topicsSection").classList.remove("hidden");
+    document.getElementById("notesSection").classList.add("hidden");
+}
+
+function loadNotes(subject, topic, btn) {
+    clearSelected(document.getElementById("topics"));
+    btn.classList.add("selected");
+
+    const content = notesData[subject][topic];
+
+    let text = "";
+
+    if (typeof content === "string") {
+        text = content;
+    } else if (typeof content === "object") {
+        for (let key in content) {
+            text += key + ":\n" + content[key] + "\n\n";
+        }
+    }
+
+    document.getElementById("notesContent").innerText = text;
+    document.getElementById("notesSection").classList.remove("hidden");
+}
+
+function backToSubjects() {
+    document.getElementById("topicsSection").classList.add("hidden");
+    document.getElementById("notesSection").classList.add("hidden");
+}
+
+function backToTopics() {
+    document.getElementById("notesSection").classList.add("hidden");
+}
+
+loadSubjects();
+</script>
+
+</body>
+</html>
