@@ -41,17 +41,18 @@
         .button-group {
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 15px;
+            gap: 10px;
+            margin-top: 10px;
         }
 
         button {
-            padding: 10px 14px;
+            padding: 9px 12px;
             border: none;
             border-radius: 10px;
             background: #c2410c;
             color: white;
             cursor: pointer;
+            font-size: 14px;
         }
 
         .selected {
@@ -61,12 +62,18 @@
         .hidden { display: none; }
 
         .notes-box {
-            margin-top: 15px;
-            padding: 15px;
+            margin-top: 10px;
+            padding: 12px;
             background: #fffaf5;
             border-radius: 10px;
             white-space: pre-wrap;
             line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .back-btn {
+            background: #475569;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -81,15 +88,18 @@
 
 <div class="box">
 
+    <!-- SUBJECTS -->
     <div id="subjects" class="button-group"></div>
 
+    <!-- TOPICS -->
     <div id="topicsSection" class="hidden">
-        <button onclick="backToSubjects()">← Back</button>
+        <button class="back-btn" onclick="backToSubjects()">← Back</button>
         <div id="topics" class="button-group"></div>
     </div>
 
+    <!-- NOTES -->
     <div id="notesSection" class="hidden">
-        <button onclick="backToTopics()">← Back</button>
+        <button class="back-btn" onclick="backToTopics()">← Back</button>
         <div id="notesContent" class="notes-box"></div>
     </div>
 
@@ -97,7 +107,9 @@
 
 <script>
 let notesData = {};
+let currentSubject = "";
 
+// Load subjects
 async function loadSubjects() {
     const res = await fetch('/static/history_notes.json');
     notesData = await res.json();
@@ -108,30 +120,41 @@ async function loadSubjects() {
     });
 
     document.getElementById("subjects").innerHTML = html;
+
+    // ensure clean state
+    document.getElementById("subjects").classList.remove("hidden");
+    document.getElementById("topicsSection").classList.add("hidden");
+    document.getElementById("notesSection").classList.add("hidden");
 }
 
+// Clear selection
 function clearSelected(container) {
     container.querySelectorAll("button").forEach(b => b.classList.remove("selected"));
 }
 
+// Load topics (ONLY topics visible)
 function loadTopics(subject, btn) {
+    currentSubject = subject;
+
     clearSelected(document.getElementById("subjects"));
     btn.classList.add("selected");
 
     let html = "";
     Object.keys(notesData[subject]).forEach(t => {
-        html += `<button onclick="loadNotes('${subject}','${t}', this)">${t}</button>`;
+        html += `<button onclick="loadNotes('${subject}','${t}')">${t}</button>`;
     });
 
     document.getElementById("topics").innerHTML = html;
+
+    // 🔥 FIX: hide subjects
+    document.getElementById("subjects").classList.add("hidden");
+
     document.getElementById("topicsSection").classList.remove("hidden");
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-function loadNotes(subject, topic, btn) {
-    clearSelected(document.getElementById("topics"));
-    btn.classList.add("selected");
-
+// Load notes (ONLY notes visible)
+function loadNotes(subject, topic) {
     const content = notesData[subject][topic];
 
     let text = "";
@@ -145,15 +168,23 @@ function loadNotes(subject, topic, btn) {
     }
 
     document.getElementById("notesContent").innerText = text;
+
+    // 🔥 FIX: hide topics also
+    document.getElementById("topicsSection").classList.add("hidden");
+
     document.getElementById("notesSection").classList.remove("hidden");
 }
 
+// Back to subjects
 function backToSubjects() {
+    document.getElementById("subjects").classList.remove("hidden");
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.add("hidden");
 }
 
+// Back to topics
 function backToTopics() {
+    document.getElementById("topicsSection").classList.remove("hidden");
     document.getElementById("notesSection").classList.add("hidden");
 }
 
