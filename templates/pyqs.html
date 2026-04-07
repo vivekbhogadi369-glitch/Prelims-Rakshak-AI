@@ -52,13 +52,34 @@
             background: #7c3aed;
             color: white;
             cursor: pointer;
+            white-space: normal;
+            word-break: break-word;
+            line-height: 1.35;
         }
 
         .selected {
             background: #0f766e !important;
         }
 
-        .hidden { display: none; }
+        .hidden {
+            display: none;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1d3557;
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+
+        .toolbar {
+            margin-bottom: 10px;
+        }
+
+        .back-btn {
+            background: #475569;
+        }
 
         .question-card {
             background: #ffffff;
@@ -125,15 +146,24 @@
 
 <div class="box">
 
-    <div id="subjects" class="button-group"></div>
+    <div id="subjectsSection">
+        <div class="section-title">Subjects</div>
+        <div id="subjects" class="button-group"></div>
+    </div>
 
     <div id="topicsSection" class="hidden">
-        <button onclick="backToSubjects()">← Back</button>
+        <div class="toolbar">
+            <button class="back-btn" onclick="backToSubjects()">← Back</button>
+        </div>
+        <div class="section-title">Topics</div>
         <div id="topics" class="button-group"></div>
     </div>
 
     <div id="questionsSection" class="hidden">
-        <button onclick="backToTopics()">← Back</button>
+        <div class="toolbar">
+            <button class="back-btn" onclick="backToTopics()">← Back</button>
+        </div>
+        <div class="section-title">Questions</div>
         <div id="questions"></div>
     </div>
 
@@ -143,113 +173,174 @@
 
 <script>
 const BASE_URL = window.location.origin;
+let currentSubject = "";
+
+function escapeHtml(text) {
+    return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function escapeJsString(text) {
+    return String(text ?? "").replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+}
 
 function setLoading(show) {
     document.getElementById("loading").classList.toggle("hidden", !show);
 }
 
 function clearSelected(container) {
+    if (!container) return;
     container.querySelectorAll("button").forEach(b => b.classList.remove("selected"));
 }
 
 async function loadSubjects() {
-    setLoading(true);
+    try {
+        setLoading(true);
 
-    const res = await fetch(`${BASE_URL}/pyq-subjects`);
-    const data = await res.json();
+        const res = await fetch(`${BASE_URL}/pyq-subjects`);
+        const data = await res.json();
 
-    let html = "";
-    data.subjects.forEach(s => {
-        html += `<button onclick="loadTopics('${s}', this)">${s}</button>`;
-    });
+        let html = "";
+        data.subjects.forEach(s => {
+            html += `<button onclick="loadTopics('${escapeJsString(s)}', this)">${escapeHtml(s)}</button>`;
+        });
 
-    document.getElementById("subjects").innerHTML = html;
+        document.getElementById("subjects").innerHTML = html;
+        document.getElementById("subjectsSection").classList.remove("hidden");
+        document.getElementById("topicsSection").classList.add("hidden");
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("topics").innerHTML = "";
+        document.getElementById("questions").innerHTML = "";
 
-    setLoading(false);
+    } finally {
+        setLoading(false);
+    }
 }
 
 async function loadTopics(subject, btn) {
-    setLoading(true);
+    try {
+        setLoading(true);
+        currentSubject = subject;
 
-    clearSelected(document.getElementById("subjects"));
-    btn.classList.add("selected");
+        clearSelected(document.getElementById("subjects"));
+        if (btn) btn.classList.add("selected");
 
-    const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(subject)}`);
-    const data = await res.json();
+        const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(subject)}`);
+        const data = await res.json();
 
-    let html = "";
-    data.topics.forEach(t => {
-        html += `<button onclick="loadQuestions('${subject}','${t}', this)">${t}</button>`;
-    });
+        let html = "";
+        data.topics.forEach(t => {
+            html += `<button onclick="loadQuestions('${escapeJsString(subject)}','${escapeJsString(t)}', this)">${escapeHtml(t)}</button>`;
+        });
 
-    document.getElementById("topics").innerHTML = html;
-    document.getElementById("topicsSection").classList.remove("hidden");
-    document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("topics").innerHTML = html;
 
-    setLoading(false);
+        document.getElementById("subjectsSection").classList.add("hidden");
+        document.getElementById("topicsSection").classList.remove("hidden");
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("questions").innerHTML = "";
+
+    } finally {
+        setLoading(false);
+    }
 }
 
 async function loadQuestions(subject, topic, btn) {
-    setLoading(true);
+    try {
+        setLoading(true);
 
-    clearSelected(document.getElementById("topics"));
-    btn.classList.add("selected");
+        clearSelected(document.getElementById("topics"));
+        if (btn) btn.classList.add("selected");
 
-    const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
-    const data = await res.json();
+        const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
+        const data = await res.json();
 
-    let html = "";
+        let html = "";
 
-    data.questions.forEach((q, i) => {
+        data.questions.forEach(q => {
+            let options = "";
+            if (Array.isArray(q.options)) {
+                q.options.forEach(o => {
+                    options += `<div class="option">${escapeHtml(o)}</div>`;
+                });
+            }
 
-        let options = "";
-        if (q.options) {
-            q.options.forEach(o => {
-                options += `<div class="option">${o}</div>`;
-            });
-        }
+            html += `
+            <div class="question-card">
+                <div class="meta">UPSC ${escapeHtml(q.year || "")}</div>
 
-        html += `
-        <div class="question-card">
-            <div class="meta">UPSC ${q.year || ""}</div>
+                <div class="q-title">${escapeHtml(q.question || "")}</div>
 
-            <div class="q-title">${q.question}</div>
+                ${options}
 
-            ${options}
+                <div class="answer">Answer: ${escapeHtml(q.correct_answer || "")}</div>
 
-            <div class="answer">Answer: ${q.correct_answer || ""}</div>
+                <div class="block">
+                    <span class="label">Explanation</span>
+                    ${escapeHtml(q.explanation || "")}
+                </div>
 
-            <div class="block">
-                <span class="label">Explanation</span>
-                ${q.explanation || ""}
+                <div class="block">
+                    <span class="label">Elimination Logic</span>
+                    ${escapeHtml(q.elimination_logic || "")}
+                </div>
+
+                <div class="block">
+                    <span class="label">Frequency</span>
+                    ${escapeHtml(q.frequency || "Standard")}
+                </div>
             </div>
+            `;
+        });
 
-            <div class="block">
-                <span class="label">Elimination Logic</span>
-                ${q.elimination_logic || ""}
-            </div>
+        document.getElementById("questions").innerHTML = html;
 
-            <div class="block">
-                <span class="label">Frequency</span>
-                ${q.frequency || "Standard"}
-            </div>
-        </div>
-        `;
-    });
+        document.getElementById("topicsSection").classList.add("hidden");
+        document.getElementById("questionsSection").classList.remove("hidden");
 
-    document.getElementById("questions").innerHTML = html;
-    document.getElementById("questionsSection").classList.remove("hidden");
-
-    setLoading(false);
+    } finally {
+        setLoading(false);
+    }
 }
 
 function backToSubjects() {
+    document.getElementById("subjectsSection").classList.remove("hidden");
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("questionsSection").classList.add("hidden");
+    document.getElementById("topics").innerHTML = "";
+    document.getElementById("questions").innerHTML = "";
 }
 
-function backToTopics() {
-    document.getElementById("questionsSection").classList.add("hidden");
+async function backToTopics() {
+    if (!currentSubject) {
+        backToSubjects();
+        return;
+    }
+
+    try {
+        setLoading(true);
+
+        const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(currentSubject)}`);
+        const data = await res.json();
+
+        let html = "";
+        data.topics.forEach(t => {
+            html += `<button onclick="loadQuestions('${escapeJsString(currentSubject)}','${escapeJsString(t)}', this)">${escapeHtml(t)}</button>`;
+        });
+
+        document.getElementById("topics").innerHTML = html;
+        document.getElementById("questions").innerHTML = "";
+
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("topicsSection").classList.remove("hidden");
+
+    } finally {
+        setLoading(false);
+    }
 }
 
 loadSubjects();
