@@ -92,6 +92,29 @@
             color: #1d3557;
         }
 
+        .sub-toolbar {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+            margin-bottom: 8px;
+        }
+
+        .back-button {
+            background: #475569;
+        }
+
+        .selected-button {
+            background: #0f766e !important;
+        }
+
+        .loading-text {
+            margin-top: 14px;
+            color: #475569;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
         #questions {
             margin-top: 18px;
         }
@@ -170,14 +193,22 @@
         <div id="subjects" class="button-group"></div>
 
         <div id="pyqTopicsSection" class="hidden">
+            <div class="sub-toolbar">
+                <button class="back-button" onclick="backToPyqSubjects()">← Back</button>
+            </div>
             <div class="section-label">Topics</div>
             <div id="topics" class="button-group"></div>
         </div>
 
         <div id="pyqQuestionsSection" class="hidden">
+            <div class="sub-toolbar">
+                <button class="back-button" onclick="backToPyqTopics()">← Back</button>
+            </div>
             <div class="section-label">Questions</div>
             <div id="questions"></div>
         </div>
+
+        <div id="pyqLoading" class="loading-text hidden">Loading...</div>
     </div>
 
     <div id="notesBrowser" class="hidden">
@@ -186,9 +217,21 @@
             <div id="noteSubjects" class="button-group"></div>
         </div>
 
-        <div id="noteTopics" class="button-group hidden"></div>
+        <div id="noteTopicsSection" class="hidden">
+            <div class="sub-toolbar">
+                <button class="back-button" onclick="backToNoteSubjects()">← Back</button>
+            </div>
+            <div id="noteTopics" class="button-group"></div>
+        </div>
 
-        <div id="fullNotes" class="hidden"></div>
+        <div id="noteDetailsSection" class="hidden">
+            <div class="sub-toolbar">
+                <button class="back-button" onclick="backToNoteTopics()">← Back</button>
+            </div>
+            <div id="fullNotes"></div>
+        </div>
+
+        <div id="notesLoading" class="loading-text hidden">Loading...</div>
     </div>
 
 </div>
@@ -196,10 +239,29 @@
 <script>
 const BASE_URL = window.location.origin;
 
+let currentPyqSubject = "";
+let currentNoteSubject = "";
+let currentSelectedTopicButton = null;
+
 function escapeForOnclick(str) {
     return String(str)
         .replace(/\\/g, "\\\\")
         .replace(/'/g, "\\'");
+}
+
+function clearSelectedButtons(containerId) {
+    const container = document.getElementById(containerId);
+    const buttons = container.querySelectorAll("button");
+    buttons.forEach(btn => btn.classList.remove("selected-button"));
+}
+
+function setLoading(id, show) {
+    const el = document.getElementById(id);
+    if (show) {
+        el.classList.remove("hidden");
+    } else {
+        el.classList.add("hidden");
+    }
 }
 
 async function togglePyqBrowser() {
@@ -207,12 +269,14 @@ async function togglePyqBrowser() {
     document.getElementById("pyqBrowser").classList.toggle("hidden");
 
     try {
+        setLoading("pyqLoading", true);
+
         const res = await fetch(`${BASE_URL}/pyq-subjects`);
         const data = await res.json();
 
         let html = "";
         data.subjects.forEach(s => {
-            html += `<button onclick="loadTopics('${escapeForOnclick(s)}')">${s}</button>`;
+            html += `<button onclick="loadTopics('${escapeForOnclick(s)}', this)">${s}</button>`;
         });
 
         document.getElementById("subjects").innerHTML = html;
@@ -220,38 +284,82 @@ async function togglePyqBrowser() {
         document.getElementById("questions").innerHTML = "";
         document.getElementById("pyqTopicsSection").classList.add("hidden");
         document.getElementById("pyqQuestionsSection").classList.add("hidden");
+        clearSelectedButtons("subjects");
 
     } catch (e) {
         console.error(e);
+    } finally {
+        setLoading("pyqLoading", false);
     }
 }
 
-async function loadTopics(subject) {
-    const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(subject)}`);
-    const data = await res.json();
+async function loadTopics(subject, btn) {
+    currentPyqSubject = subject;
 
-    let html = "";
-    data.topics.forEach(t => {
-        html += `<button onclick="loadQuestions('${escapeForOnclick(subject)}','${escapeForOnclick(t)}')">${t}</button>`;
-    });
+    try {
+        setLoading("pyqLoading", true);
 
-    document.getElementById("topics").innerHTML = html;
-    document.getElementById("questions").innerHTML = "";
-    document.getElementById("pyqTopicsSection").classList.remove("hidden");
-    document.getElementById("pyqQuestionsSection").classList.add("hidden");
+        clearSelectedButtons("subjects");
+        if (btn) btn.classList.add("selected-button");
+
+        const res = await fetch(`${BASE_URL}/pyq-topics?subject=${encodeURIComponent(subject)}`);
+        const data = await res.json();
+
+        let html = "";
+        data.topics.forEach(t => {
+            html += `<button onclick="loadQuestions('${escapeForOnclick(subject)}','${escapeForOnclick(t)}', this)">${t}</button>`;
+        });
+
+        document.getElementById("topics").innerHTML = html;
+        document.getElementById("questions").innerHTML = "";
+        document.getElementById("pyqTopicsSection").classList.remove("hidden");
+        document.getElementById("pyqQuestionsSection").classList.add("hidden");
+
+    } catch (e) {
+        console.error(e);
+    } finally {
+        setLoading("pyqLoading", false);
+    }
 }
 
-async function loadQuestions(subject, topic) {
-    const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
-    const data = await res.json();
+async function loadQuestions(subject, topic, btn) {
+    try {
+        setLoading("pyqLoading", true);
 
-    let html = "";
-    data.questions.forEach(q => {
-        html += `<div class="question-card">${q.question}</div>`;
-    });
+        clearSelectedButtons("topics");
+        if (btn) btn.classList.add("selected-button");
 
-    document.getElementById("questions").innerHTML = html;
-    document.getElementById("pyqQuestionsSection").classList.remove("hidden");
+        const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
+        const data = await res.json();
+
+        let html = "";
+        data.questions.forEach(q => {
+            html += `<div class="question-card">${q.question}</div>`;
+        });
+
+        document.getElementById("questions").innerHTML = html;
+        document.getElementById("pyqQuestionsSection").classList.remove("hidden");
+        document.getElementById("questions").scrollIntoView({ behavior: "smooth", block: "start" });
+
+    } catch (e) {
+        console.error(e);
+    } finally {
+        setLoading("pyqLoading", false);
+    }
+}
+
+function backToPyqSubjects() {
+    document.getElementById("pyqTopicsSection").classList.add("hidden");
+    document.getElementById("pyqQuestionsSection").classList.add("hidden");
+    document.getElementById("topics").innerHTML = "";
+    document.getElementById("questions").innerHTML = "";
+    clearSelectedButtons("subjects");
+}
+
+function backToPyqTopics() {
+    document.getElementById("pyqQuestionsSection").classList.add("hidden");
+    document.getElementById("questions").innerHTML = "";
+    clearSelectedButtons("topics");
 }
 
 async function toggleNotesBrowser() {
@@ -259,12 +367,14 @@ async function toggleNotesBrowser() {
     document.getElementById("notesBrowser").classList.toggle("hidden");
 
     try {
+        setLoading("notesLoading", true);
+
         const res = await fetch(`/static/history_notes.json`);
         const data = await res.json();
 
         let html = "";
         Object.keys(data).forEach(subject => {
-            html += `<button onclick="loadNoteTopics('${escapeForOnclick(subject)}')">${subject}</button>`;
+            html += `<button onclick="loadNoteTopics('${escapeForOnclick(subject)}', this)">${subject}</button>`;
         });
 
         window.notesData = data;
@@ -272,28 +382,54 @@ async function toggleNotesBrowser() {
         document.getElementById("noteSubjects").classList.remove("hidden");
         document.getElementById("noteSubjectsSection").classList.remove("hidden");
         document.getElementById("noteTopics").innerHTML = "";
-        document.getElementById("noteTopics").classList.add("hidden");
+        document.getElementById("noteTopicsSection").classList.add("hidden");
         document.getElementById("fullNotes").innerText = "";
-        document.getElementById("fullNotes").classList.add("hidden");
+        document.getElementById("noteDetailsSection").classList.add("hidden");
+        clearSelectedButtons("noteSubjects");
+        currentSelectedTopicButton = null;
 
     } catch (e) {
         console.error(e);
+    } finally {
+        setLoading("notesLoading", false);
     }
 }
 
-function loadNoteTopics(subject) {
+function loadNoteTopics(subject, btn) {
+    currentNoteSubject = subject;
     const topics = Object.keys(notesData[subject] || {});
     let html = "";
 
+    clearSelectedButtons("noteSubjects");
+    if (btn) btn.classList.add("selected-button");
+
     topics.forEach(t => {
-        html += `<button onclick="loadFullNotes('${escapeForOnclick(subject)}','${escapeForOnclick(t)}')">${t}</button>`;
+        html += `<button onclick="loadFullNotes('${escapeForOnclick(subject)}','${escapeForOnclick(t)}', this)">${t}</button>`;
     });
 
     document.getElementById("noteSubjectsSection").classList.add("hidden");
     document.getElementById("noteTopics").innerHTML = html;
-    document.getElementById("noteTopics").classList.remove("hidden");
+    document.getElementById("noteTopicsSection").classList.remove("hidden");
     document.getElementById("fullNotes").innerText = "";
-    document.getElementById("fullNotes").classList.add("hidden");
+    document.getElementById("noteDetailsSection").classList.add("hidden");
+    currentSelectedTopicButton = null;
+}
+
+function backToNoteSubjects() {
+    document.getElementById("noteSubjectsSection").classList.remove("hidden");
+    document.getElementById("noteTopicsSection").classList.add("hidden");
+    document.getElementById("noteDetailsSection").classList.add("hidden");
+    document.getElementById("noteTopics").innerHTML = "";
+    document.getElementById("fullNotes").innerText = "";
+    clearSelectedButtons("noteSubjects");
+    currentSelectedTopicButton = null;
+}
+
+function backToNoteTopics() {
+    document.getElementById("noteDetailsSection").classList.add("hidden");
+    document.getElementById("fullNotes").innerText = "";
+    clearSelectedButtons("noteTopics");
+    currentSelectedTopicButton = null;
 }
 
 function formatJsonContent(content) {
@@ -327,13 +463,18 @@ function formatJsonContent(content) {
     return finalText.trim();
 }
 
-function loadFullNotes(subject, topic) {
+function loadFullNotes(subject, topic, btn) {
     const content = notesData[subject][topic];
     const finalText = formatJsonContent(content);
     const notesBox = document.getElementById("fullNotes");
 
+    clearSelectedButtons("noteTopics");
+    if (btn) btn.classList.add("selected-button");
+    currentSelectedTopicButton = btn || null;
+
     notesBox.innerText = finalText;
-    notesBox.classList.remove("hidden");
+    document.getElementById("noteDetailsSection").classList.remove("hidden");
+    notesBox.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 </script>
 
