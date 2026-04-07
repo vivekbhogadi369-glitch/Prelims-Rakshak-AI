@@ -181,8 +181,10 @@
     </div>
 
     <div id="notesBrowser" class="hidden">
-        <div class="section-label">Subjects</div>
-        <div id="noteSubjects" class="button-group"></div>
+        <div id="noteSubjectsSection">
+            <div class="section-label">Subjects</div>
+            <div id="noteSubjects" class="button-group"></div>
+        </div>
 
         <div id="noteTopics" class="button-group hidden"></div>
 
@@ -267,6 +269,7 @@ async function toggleNotesBrowser() {
 
         window.notesData = data;
         document.getElementById("noteSubjects").innerHTML = html;
+        document.getElementById("noteSubjects").classList.remove("hidden");
         document.getElementById("noteTopics").innerHTML = "";
         document.getElementById("noteTopics").classList.add("hidden");
         document.getElementById("fullNotes").innerText = "";
@@ -301,7 +304,6 @@ function formatJsonContent(content) {
     } else if (content && typeof content === "object") {
         for (const key in content) {
             const value = content[key];
-
             finalText += key + ":\n";
 
             if (typeof value === "string") {
