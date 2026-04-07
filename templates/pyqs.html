@@ -393,6 +393,11 @@ function normalizeOption(text) {
     return String(text || "").trim().replace(/\s+/g, " ").toLowerCase();
 }
 
+function safeYearValue(year) {
+    const n = parseInt(String(year || "").trim(), 10);
+    return Number.isFinite(n) ? n : 999999;
+}
+
 function getExactQuestionKey(q) {
     const year = String(q?.year ?? "").trim();
     const question = String(q?.question ?? "").trim();
@@ -403,7 +408,7 @@ function getExactQuestionKey(q) {
     return `${year}###${question}###${options}###${answer}###${explanation}###${elimination}`;
 }
 
-function dedupeQuestionsExact(questions) {
+function cleanQuestionsStrict(questions) {
     const seen = new Set();
     const output = [];
 
@@ -413,6 +418,19 @@ function dedupeQuestionsExact(questions) {
             seen.add(key);
             output.push(q);
         }
+    });
+
+    output.sort((a, b) => {
+        const yearA = safeYearValue(a?.year);
+        const yearB = safeYearValue(b?.year);
+
+        if (yearA !== yearB) {
+            return yearA - yearB;
+        }
+
+        const qa = String(a?.question ?? "").toLowerCase();
+        const qb = String(b?.question ?? "").toLowerCase();
+        return qa.localeCompare(qb);
     });
 
     return output;
@@ -483,7 +501,7 @@ async function loadQuestions(subject, topic, btn) {
         const res = await fetch(`${BASE_URL}/pyq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
         const data = await res.json();
 
-        currentQuestions = dedupeQuestionsExact(Array.isArray(data.questions) ? data.questions : []);
+        currentQuestions = cleanQuestionsStrict(Array.isArray(data.questions) ? data.questions : []);
         currentQuestionIndex = 0;
         userSelections = {};
         visiblePanels = {
