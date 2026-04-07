@@ -270,6 +270,7 @@ async function toggleNotesBrowser() {
         window.notesData = data;
         document.getElementById("noteSubjects").innerHTML = html;
         document.getElementById("noteSubjects").classList.remove("hidden");
+        document.getElementById("noteSubjectsSection").classList.remove("hidden");
         document.getElementById("noteTopics").innerHTML = "";
         document.getElementById("noteTopics").classList.add("hidden");
         document.getElementById("fullNotes").innerText = "";
@@ -288,6 +289,7 @@ function loadNoteTopics(subject) {
         html += `<button onclick="loadFullNotes('${escapeForOnclick(subject)}','${escapeForOnclick(t)}')">${t}</button>`;
     });
 
+    document.getElementById("noteSubjectsSection").classList.add("hidden");
     document.getElementById("noteTopics").innerHTML = html;
     document.getElementById("noteTopics").classList.remove("hidden");
     document.getElementById("fullNotes").innerText = "";
