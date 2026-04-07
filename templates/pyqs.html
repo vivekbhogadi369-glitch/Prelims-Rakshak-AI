@@ -120,43 +120,46 @@
             background: #ffffff;
             border: 1px solid #e2e8f0;
             border-radius: 18px;
-            padding: 18px;
+            padding: 22px 18px;
             margin-top: 8px;
-            line-height: 1.75;
             box-shadow: 0 1px 8px rgba(0,0,0,0.04);
         }
 
         .question-text {
             font-family: Georgia, "Times New Roman", serif;
-            font-size: 19px;
+            font-size: 21px;
             font-weight: 700;
             color: #111827;
-            line-height: 1.75;
-            margin-bottom: 18px;
+            line-height: 1.95;
+            letter-spacing: 0.1px;
+            margin-bottom: 24px;
+            white-space: pre-wrap;
         }
 
         .options-list {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 14px;
             margin-top: 8px;
         }
 
         .option-btn {
             width: 100%;
             text-align: left;
-            background: #f8fafc;
+            background: #ffffff;
             color: #111827;
-            border: 1px solid #dbe3ee;
+            border: 1px solid #d7dee8;
             border-radius: 14px;
-            padding: 14px 16px;
-            font-size: 17px;
-            line-height: 1.6;
+            padding: 16px 16px;
+            font-size: 18px;
+            line-height: 1.8;
             font-family: Georgia, "Times New Roman", serif;
+            white-space: pre-wrap;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
         }
 
         .option-btn:hover {
-            background: #f1f5f9;
+            background: #f8fafc;
         }
 
         .option-btn.correct {
@@ -179,11 +182,12 @@
         }
 
         .answer-status {
-            margin-top: 14px;
-            padding: 12px 14px;
+            margin-top: 16px;
+            padding: 13px 15px;
             border-radius: 12px;
             font-weight: bold;
             font-size: 16px;
+            line-height: 1.6;
         }
 
         .answer-status.correct-msg {
@@ -202,7 +206,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 16px;
+            margin-top: 18px;
         }
 
         .detail-toggle-btn {
@@ -214,96 +218,60 @@
         }
 
         .detail-panel {
-            margin-top: 14px;
-            border-radius: 14px;
-            padding: 16px;
+            margin-top: 16px;
+            border-radius: 16px;
+            padding: 18px 16px;
             border: 1px solid #e5e7eb;
         }
 
         .detail-panel-title {
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 19px;
+            margin-bottom: 12px;
+            letter-spacing: 0.2px;
+        }
+
+        .detail-panel-body {
+            white-space: pre-wrap;
         }
 
         .detail-panel.explanation {
-            background: #fffaf0;
-            border-color: #fcd34d;
+            background: #fffdf7;
+            border-color: #ead8a6;
         }
 
         .detail-panel.explanation .detail-panel-title {
-            color: #92400e;
+            color: #7c4a03;
         }
 
         .detail-panel.explanation .detail-panel-body {
-            font-family: "Trebuchet MS", Arial, sans-serif;
-            font-size: 17px;
-            line-height: 1.75;
-            color: #3f3f46;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 18px;
+            line-height: 1.9;
+            color: #2f2f2f;
         }
 
         .detail-panel.elimination {
-            background: #f0f9ff;
-            border-color: #7dd3fc;
+            background: #f7fbff;
+            border-color: #bfdcf8;
         }
 
         .detail-panel.elimination .detail-panel-title {
-            color: #075985;
+            color: #0f3d75;
         }
 
         .detail-panel.elimination .detail-panel-body {
-            font-family: "Trebuchet MS", Arial, sans-serif;
-            font-size: 17px;
-            line-height: 1.75;
-            color: #1e3a8a;
-        }
-
-        .detail-panel.frequency {
-            background: #f8fafc;
-            border-color: #cbd5e1;
-        }
-
-        .detail-panel.frequency .detail-panel-title {
-            color: #334155;
-        }
-
-        .frequency-pill {
-            display: inline-block;
-            padding: 8px 14px;
-            border-radius: 999px;
-            font-weight: bold;
-            font-size: 15px;
-        }
-
-        .freq-high {
-            background: #dcfce7;
-            color: #166534;
-            border: 1px solid #86efac;
-        }
-
-        .freq-medium {
-            background: #fef3c7;
-            color: #92400e;
-            border: 1px solid #fcd34d;
-        }
-
-        .freq-low {
-            background: #fee2e2;
-            color: #991b1b;
-            border: 1px solid #fca5a5;
-        }
-
-        .freq-unknown {
-            background: #e5e7eb;
-            color: #374151;
-            border: 1px solid #cbd5e1;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 18px;
+            line-height: 1.9;
+            color: #22314a;
         }
 
         .nav-row {
             display: flex;
             justify-content: space-between;
             gap: 12px;
-            margin-top: 20px;
+            margin-top: 22px;
         }
 
         .nav-btn {
@@ -330,16 +298,19 @@
             }
 
             .question-text {
-                font-size: 18px;
+                font-size: 19px;
+                line-height: 1.9;
             }
 
             .option-btn {
-                font-size: 16px;
+                font-size: 17px;
+                line-height: 1.75;
             }
 
             .detail-panel.explanation .detail-panel-body,
             .detail-panel.elimination .detail-panel-body {
-                font-size: 16px;
+                font-size: 17px;
+                line-height: 1.85;
             }
         }
     </style>
@@ -390,8 +361,7 @@ let currentQuestionIndex = 0;
 let userSelections = {};
 let visiblePanels = {
     explanation: false,
-    elimination: false,
-    frequency: false
+    elimination: false
 };
 
 function escapeHtml(text) {
@@ -418,24 +388,6 @@ function clearSelected(container) {
 
 function normalizeOption(text) {
     return String(text || "").trim().replace(/\s+/g, " ").toLowerCase();
-}
-
-function getFrequencyValue(q) {
-    const raw = String(q.frequency || "").trim().toLowerCase();
-
-    if (raw === "high") return "High";
-    if (raw === "medium" || raw === "midium") return "Medium";
-    if (raw === "low") return "Low";
-
-    return "";
-}
-
-function getFrequencyClass(freq) {
-    const value = String(freq || "").toLowerCase();
-    if (value === "high") return "freq-high";
-    if (value === "medium") return "freq-medium";
-    if (value === "low") return "freq-low";
-    return "freq-unknown";
 }
 
 async function loadSubjects() {
@@ -508,8 +460,7 @@ async function loadQuestions(subject, topic, btn) {
         userSelections = {};
         visiblePanels = {
             explanation: false,
-            elimination: false,
-            frequency: false
+            elimination: false
         };
 
         document.getElementById("topicsSection").classList.add("hidden");
@@ -525,7 +476,6 @@ async function loadQuestions(subject, topic, btn) {
 function selectOption(optionText) {
     const current = currentQuestions[currentQuestionIndex];
     if (!current) return;
-
     if (userSelections[currentQuestionIndex]) return;
 
     userSelections[currentQuestionIndex] = optionText;
@@ -592,10 +542,6 @@ function renderCurrentQuestion() {
         }
     }
 
-    const frequencyValue = getFrequencyValue(q);
-    const frequencyText = frequencyValue || "Not available";
-    const frequencyClass = getFrequencyClass(frequencyValue);
-
     let explanationPanel = "";
     if (visiblePanels.explanation) {
         explanationPanel = `
@@ -612,18 +558,6 @@ function renderCurrentQuestion() {
             <div class="detail-panel elimination">
                 <div class="detail-panel-title">Elimination Logic</div>
                 <div class="detail-panel-body">${escapeHtml(q.elimination_logic || "Not available")}</div>
-            </div>
-        `;
-    }
-
-    let frequencyPanel = "";
-    if (visiblePanels.frequency) {
-        frequencyPanel = `
-            <div class="detail-panel frequency">
-                <div class="detail-panel-title">Frequency</div>
-                <div class="detail-panel-body">
-                    <span class="frequency-pill ${frequencyClass}">${escapeHtml(frequencyText)}</span>
-                </div>
             </div>
         `;
     }
@@ -650,14 +584,10 @@ function renderCurrentQuestion() {
                 <button class="detail-toggle-btn" onclick="togglePanel('elimination')">
                     Elimination Logic
                 </button>
-                <button class="detail-toggle-btn" onclick="togglePanel('frequency')">
-                    Frequency
-                </button>
             </div>
 
             ${explanationPanel}
             ${eliminationPanel}
-            ${frequencyPanel}
 
             <div class="nav-row">
                 <button class="nav-btn" onclick="prevQuestion()" ${currentQuestionIndex === 0 ? "disabled" : ""}>
@@ -676,8 +606,7 @@ function prevQuestion() {
         currentQuestionIndex--;
         visiblePanels = {
             explanation: false,
-            elimination: false,
-            frequency: false
+            elimination: false
         };
         renderCurrentQuestion();
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -689,8 +618,7 @@ function nextQuestion() {
         currentQuestionIndex++;
         visiblePanels = {
             explanation: false,
-            elimination: false,
-            frequency: false
+            elimination: false
         };
         renderCurrentQuestion();
         window.scrollTo({ top: 0, behavior: "smooth" });
