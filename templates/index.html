@@ -66,7 +66,9 @@
             margin-top: 20px;
         }
 
-        .hidden { display: none; }
+        .hidden {
+            display: none;
+        }
 
         .button-group {
             display: flex;
@@ -161,24 +163,30 @@
         <button class="notes-browse-button" onclick="toggleNotesBrowser()">Browse Notes</button>
     </div>
 
-    <div id="answer" class="premium-response"></div>
+    <div id="answer" class="premium-response hidden"></div>
 
     <div id="pyqBrowser" class="hidden">
         <div class="section-label">Subjects</div>
         <div id="subjects" class="button-group"></div>
 
-        <div class="section-label">Topics</div>
-        <div id="topics" class="button-group"></div>
+        <div id="pyqTopicsSection" class="hidden">
+            <div class="section-label">Topics</div>
+            <div id="topics" class="button-group"></div>
+        </div>
 
-        <div class="section-label">Questions</div>
-        <div id="questions"></div>
+        <div id="pyqQuestionsSection" class="hidden">
+            <div class="section-label">Questions</div>
+            <div id="questions"></div>
+        </div>
     </div>
 
     <div id="notesBrowser" class="hidden">
         <div class="section-label">Subjects</div>
         <div id="noteSubjects" class="button-group"></div>
-        <div id="noteTopics" class="button-group"></div>
-        <div id="fullNotes"></div>
+
+        <div id="noteTopics" class="button-group hidden"></div>
+
+        <div id="fullNotes" class="hidden"></div>
     </div>
 
 </div>
@@ -208,6 +216,8 @@ async function togglePyqBrowser() {
         document.getElementById("subjects").innerHTML = html;
         document.getElementById("topics").innerHTML = "";
         document.getElementById("questions").innerHTML = "";
+        document.getElementById("pyqTopicsSection").classList.add("hidden");
+        document.getElementById("pyqQuestionsSection").classList.add("hidden");
 
     } catch (e) {
         console.error(e);
@@ -225,6 +235,8 @@ async function loadTopics(subject) {
 
     document.getElementById("topics").innerHTML = html;
     document.getElementById("questions").innerHTML = "";
+    document.getElementById("pyqTopicsSection").classList.remove("hidden");
+    document.getElementById("pyqQuestionsSection").classList.add("hidden");
 }
 
 async function loadQuestions(subject, topic) {
@@ -237,6 +249,7 @@ async function loadQuestions(subject, topic) {
     });
 
     document.getElementById("questions").innerHTML = html;
+    document.getElementById("pyqQuestionsSection").classList.remove("hidden");
 }
 
 async function toggleNotesBrowser() {
@@ -255,7 +268,9 @@ async function toggleNotesBrowser() {
         window.notesData = data;
         document.getElementById("noteSubjects").innerHTML = html;
         document.getElementById("noteTopics").innerHTML = "";
+        document.getElementById("noteTopics").classList.add("hidden");
         document.getElementById("fullNotes").innerText = "";
+        document.getElementById("fullNotes").classList.add("hidden");
 
     } catch (e) {
         console.error(e);
@@ -271,7 +286,9 @@ function loadNoteTopics(subject) {
     });
 
     document.getElementById("noteTopics").innerHTML = html;
+    document.getElementById("noteTopics").classList.remove("hidden");
     document.getElementById("fullNotes").innerText = "";
+    document.getElementById("fullNotes").classList.add("hidden");
 }
 
 function formatJsonContent(content) {
@@ -309,7 +326,10 @@ function formatJsonContent(content) {
 function loadFullNotes(subject, topic) {
     const content = notesData[subject][topic];
     const finalText = formatJsonContent(content);
-    document.getElementById("fullNotes").innerText = finalText;
+    const notesBox = document.getElementById("fullNotes");
+
+    notesBox.innerText = finalText;
+    notesBox.classList.remove("hidden");
 }
 </script>
 
