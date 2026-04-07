@@ -27,20 +27,33 @@
 
         .button-row {
             display: flex;
-            gap: 10px;
+            gap: 12px;
             margin-top: 10px;
             flex-wrap: wrap;
         }
 
-        button {
+        .button-row > button {
             flex: 1;
-            padding: 12px;
+            min-width: 160px;
+            padding: 14px 16px;
             font-size: 16px;
             border: none;
-            border-radius: 10px;
+            border-radius: 12px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 10px 14px;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
             background: #1d3557;
             color: white;
             cursor: pointer;
+            white-space: normal;
+            word-break: break-word;
+            line-height: 1.35;
         }
 
         .pyq-browse-button { background: #7c3aed; }
@@ -54,6 +67,86 @@
         }
 
         .hidden { display: none; }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 18px;
+            margin-bottom: 10px;
+        }
+
+        .button-group button {
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .section-label {
+            margin-top: 20px;
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1d3557;
+        }
+
+        #questions {
+            margin-top: 18px;
+        }
+
+        .question-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 14px;
+            margin-top: 12px;
+            line-height: 1.55;
+        }
+
+        #fullNotes {
+            margin-top: 18px;
+            padding: 16px;
+            background: #fffaf5;
+            border: 1px solid #fed7aa;
+            border-radius: 12px;
+            white-space: pre-wrap;
+            line-height: 1.65;
+            font-size: 17px;
+            color: #222;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .box {
+                padding: 12px;
+            }
+
+            .button-row {
+                gap: 10px;
+            }
+
+            .button-row > button {
+                min-width: 140px;
+                font-size: 15px;
+            }
+
+            button {
+                font-size: 15px;
+                padding: 10px 12px;
+            }
+
+            .button-group {
+                gap: 10px;
+            }
+
+            #fullNotes {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+        }
     </style>
 </head>
 
@@ -63,31 +156,32 @@
 
 <div class="box">
 
-    <!-- ❌ REMOVED TEXTAREA -->
-
     <div class="button-row">
-        <!-- ❌ REMOVED ASK BUTTON -->
-        <!-- ❌ REMOVED RESET BUTTON -->
-        <!-- ❌ REMOVED COPY BUTTON -->
-
-        <!-- ✅ KEPT ONLY THESE -->
         <button class="pyq-browse-button" onclick="togglePyqBrowser()">Browse PYQs</button>
         <button class="notes-browse-button" onclick="toggleNotesBrowser()">Browse Notes</button>
     </div>
 
     <div id="answer" class="premium-response"></div>
 
-    <!-- ✅ PYQ BROWSER -->
     <div id="pyqBrowser" class="hidden">
-        <div id="subjects"></div>
-        <div id="topics"></div>
+        <div class="section-label">Subjects</div>
+        <div id="subjects" class="button-group"></div>
+
+        <div class="section-label">Topics</div>
+        <div id="topics" class="button-group"></div>
+
+        <div class="section-label">Questions</div>
         <div id="questions"></div>
     </div>
 
-    <!-- ✅ NOTES BROWSER -->
     <div id="notesBrowser" class="hidden">
-        <div id="noteSubjects"></div>
-        <div id="noteTopics"></div>
+        <div class="section-label">Subjects</div>
+        <div id="noteSubjects" class="button-group"></div>
+
+        <div class="section-label">Topics</div>
+        <div id="noteTopics" class="button-group"></div>
+
+        <div class="section-label">Complete Notes</div>
         <div id="fullNotes"></div>
     </div>
 
@@ -96,14 +190,10 @@
 <script>
 const BASE_URL = window.location.origin;
 
-// ✅ REMOVE askAI(), resetAI(), copyAnswer()
-// (they are NOT needed anymore)
-
-function safeString(str) {
+function escapeForOnclick(str) {
     return String(str)
         .replace(/\\/g, "\\\\")
-        .replace(/'/g, "\\'")
-        .replace(/"/g, "&quot;");
+        .replace(/'/g, "\\'");
 }
 
 async function togglePyqBrowser() {
@@ -116,7 +206,7 @@ async function togglePyqBrowser() {
 
         let html = "";
         data.subjects.forEach(s => {
-            html += `<button onclick="loadTopics('${safeString(s)}')">${s}</button>`;
+            html += `<button onclick="loadTopics('${escapeForOnclick(s)}')">${s}</button>`;
         });
 
         document.getElementById("subjects").innerHTML = html;
@@ -134,7 +224,7 @@ async function loadTopics(subject) {
 
     let html = "";
     data.topics.forEach(t => {
-        html += `<button onclick="loadQuestions('${safeString(subject)}','${safeString(t)}')">${t}</button>`;
+        html += `<button onclick="loadQuestions('${escapeForOnclick(subject)}','${escapeForOnclick(t)}')">${t}</button>`;
     });
 
     document.getElementById("topics").innerHTML = html;
@@ -147,13 +237,11 @@ async function loadQuestions(subject, topic) {
 
     let html = "";
     data.questions.forEach(q => {
-        html += `<div style="margin-top:10px;">${q.question}</div>`;
+        html += `<div class="question-card">${q.question}</div>`;
     });
 
     document.getElementById("questions").innerHTML = html;
 }
-
-// NOTES
 
 async function toggleNotesBrowser() {
     document.getElementById("pyqBrowser").classList.add("hidden");
@@ -165,7 +253,7 @@ async function toggleNotesBrowser() {
 
         let html = "";
         Object.keys(data).forEach(subject => {
-            html += `<button onclick="loadNoteTopics('${safeString(subject)}')">${subject}</button>`;
+            html += `<button onclick="loadNoteTopics('${escapeForOnclick(subject)}')">${subject}</button>`;
         });
 
         window.notesData = data;
@@ -183,27 +271,48 @@ function loadNoteTopics(subject) {
     let html = "";
 
     topics.forEach(t => {
-        html += `<button onclick="loadFullNotes('${safeString(subject)}','${safeString(t)}')">${t}</button>`;
+        html += `<button onclick="loadFullNotes('${escapeForOnclick(subject)}','${escapeForOnclick(t)}')">${t}</button>`;
     });
 
     document.getElementById("noteTopics").innerHTML = html;
     document.getElementById("fullNotes").innerText = "";
 }
 
-function loadFullNotes(subject, topic) {
-    const content = notesData[subject][topic];
+function formatJsonContent(content) {
     let finalText = "";
 
     if (typeof content === "string") {
         finalText = content;
+    } else if (Array.isArray(content)) {
+        finalText = content.join("\n\n");
     } else if (content && typeof content === "object") {
         for (const key in content) {
-            finalText += key + "\n" + content[key] + "\n\n";
+            const value = content[key];
+
+            finalText += key + ":\n";
+
+            if (typeof value === "string") {
+                finalText += value + "\n\n";
+            } else if (Array.isArray(value)) {
+                finalText += value.join("\n") + "\n\n";
+            } else if (value && typeof value === "object") {
+                for (const subKey in value) {
+                    finalText += subKey + ":\n" + value[subKey] + "\n\n";
+                }
+            } else {
+                finalText += String(value) + "\n\n";
+            }
         }
     } else {
         finalText = "No notes found.";
     }
 
+    return finalText.trim();
+}
+
+function loadFullNotes(subject, topic) {
+    const content = notesData[subject][topic];
+    const finalText = formatJsonContent(content);
     document.getElementById("fullNotes").innerText = finalText;
 }
 </script>
