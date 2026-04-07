@@ -162,6 +162,11 @@ def home():
     return render_template("index.html")
 
 
+@app.route("/pyqs")
+def pyqs_page():
+    return render_template("pyqs.html")
+
+
 @app.route("/pyq-subjects", methods=["GET"])
 def pyq_subjects():
     return jsonify({"subjects": get_pyq_subjects()})
