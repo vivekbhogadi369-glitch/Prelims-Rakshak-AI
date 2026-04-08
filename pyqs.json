@@ -1217,7 +1217,321 @@
     "theme_frequency": "HIGH"
   }
 ]
+},
+"Modern Indian History": {
+  "Policies of British": [
+  {
+    "year": 2013,
+    "question": "The Ilbert Bill Controversy was related to the__:",
+    "options": [
+      "a) Imposition of restrictions to carry certain arms by the Indians",
+      "b) Imposition of restrictions on newspapers and magazines published in Indian languages",
+      "c) Removal of disqualifications imposed on the Indian magistrates with regard to the trial of the Europeans",
+      "d) Removal of a duty on imported cotton cloth"
+    ],
+    "correct_answer": "c) Removal of disqualifications imposed on the Indian magistrates with regard to the trial of the Europeans",
+    "explanation": "The Ilbert Bill controversy of 1883 arose during the viceroyalty of Lord Ripon. The bill sought to remove racial discrimination in judicial administration by allowing senior Indian magistrates and sessions judges to try European British subjects in criminal cases. Violent opposition from Europeans in India led to modification of the bill.",
+    "elimination_logic": "Option (a) refers to the Arms Act issue, not Ilbert Bill. Option (b) is linked to restrictions like the Vernacular Press Act. Option (d) concerns tariff policy. The Ilbert Bill specifically dealt with judicial authority of Indian judges over Europeans, so option (c) is correct."
+  },
+  {
+    "year": 2014,
+    "question": "What was/were the object/objects of Queen Victoria’s Proclamation (1858)?\n1. To disclaim any intention to annex Indian States\n2. To place the Indian administration under the British Crown\n3. To regulate East India Company’s trade with India\nSelect the correct answer using the code given below.",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "Queen Victoria’s Proclamation of 1858 was issued after the Revolt of 1857. It ended Company rule and transferred administration to the British Crown. It also assured princely states that the British would not pursue indiscriminate annexation. It had nothing to do with regulating East India Company trade, since the Company’s political role itself had effectively ended.",
+    "elimination_logic": "Statement 1 is correct because the proclamation assured princes against annexation. Statement 2 is correct because power shifted from the Company to the Crown. Statement 3 is wrong because this was not a trade-regulation measure. Therefore only 1 and 2 are correct."
+  },
+  {
+    "year": 2015,
+    "question": "Who of the following was/were economic critic/critics of colonialism in India?\n1. Dadabhai Naoroji\n2. G. Subramania Iyer\n3. R. C. Dutt\nSelect the correct answer using the code given below.",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 2 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "Dadabhai Naoroji, R. C. Dutt and G. Subramania Iyer all criticized the economic impact of colonial rule. Naoroji developed the Drain Theory. R. C. Dutt wrote extensively on the economic history of British India and exposed exploitative land revenue and trade policies. G. Subramania Iyer also criticized colonial economic exploitation through public writings and nationalist journalism.",
+    "elimination_logic": "Dadabhai Naoroji is definitely correct. R. C. Dutt is also a major economic critic. G. Subramania Iyer too criticized colonial economic policies. Since all three fit the description, any option excluding one or more is incorrect."
+  },
+  {
+    "year": 2015,
+    "question": "The Government of India Act of 1919 clearly defined:",
+    "options": [
+      "a) The separation of power between the judiciary and the legislature",
+      "b) The jurisdiction of the central and provincial governments",
+      "c) The powers of the Secretary of State for India and the Viceroy",
+      "d) None of the above"
+    ],
+    "correct_answer": "b) The jurisdiction of the central and provincial governments",
+    "explanation": "The Government of India Act, 1919 introduced dyarchy in the provinces and made a clearer division of subjects between the Centre and the Provinces. It was an important step in defining the spheres of central and provincial administration.",
+    "elimination_logic": "Option (a) is wrong because the Act did not primarily establish separation between judiciary and legislature. Option (c) is too general and not the main defining feature asked here. Option (d) is incorrect because option (b) is specifically what the Act clarified."
+  },
+  {
+    "year": 2016,
+    "question": "The Montague-Chelmsford Proposals were related to:",
+    "options": [
+      "a) Social reforms",
+      "b) Educational reforms",
+      "c) Reforms in police administration",
+      "d) Constitutional reforms"
+    ],
+    "correct_answer": "d) Constitutional reforms",
+    "explanation": "The Montagu-Chelmsford Reforms led to the Government of India Act, 1919. They were constitutional reforms aimed at gradually increasing Indian participation in governance, especially through dyarchy in the provinces.",
+    "elimination_logic": "The proposals were not focused on society, education, or police administration as their core subject. Their central purpose was constitutional change in the structure of government. Hence option (d) is correct."
+  },
+  {
+    "year": 2017,
+    "question": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 3 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "c) 2 and 3 only",
+    "explanation": "The Ryotwari system was introduced in parts of Madras and Bombay Presidencies. It is associated mainly with Alexander Read and Thomas Munro. Lord Cornwallis is associated with the Permanent Settlement in Bengal, not Ryotwari.",
+    "elimination_logic": "Statement 1 is wrong because Cornwallis introduced Permanent Settlement, not Ryotwari. Statements 2 and 3 are correct because Alexander Read and Thomas Munro were the key architects of Ryotwari. Therefore option (c) is correct."
+  },
+  {
+    "year": 2017,
+    "question": "In the context of Indian history, the principle of ‘Dyarchy (diarchy)’ refers to:",
+    "options": [
+      "a) Division of the central legislature into two houses",
+      "b) Introduction of double government i.e., Central and State governments",
+      "c) Having two sets of rulers; one in London and another in Delhi",
+      "d) Division of the subjects delegated to the provinces into two categories"
+    ],
+    "correct_answer": "d) Division of the subjects delegated to the provinces into two categories",
+    "explanation": "Dyarchy under the Government of India Act, 1919 meant division of provincial subjects into Reserved and Transferred categories. Reserved subjects were administered by the Governor and his executive council, while transferred subjects were handled by ministers responsible to the legislative council.",
+    "elimination_logic": "Option (a) confuses dyarchy with bicameralism. Option (b) refers to federal division, not dyarchy. Option (c) is not a constitutional principle used in this context. Option (d) correctly captures the 1919 provincial division of subjects."
+  },
+  {
+    "year": 2017,
+    "question": "The object of the Butler Committee of 1927 was to?",
+    "options": [
+      "a) Define the jurisdiction of the Central and Provincial Governments",
+      "b) Define the powers of the Secretary of State for India",
+      "c) Impose censorship on national press",
+      "d) Improve the relationship between the Government of India and the Indian States"
+    ],
+    "correct_answer": "d) Improve the relationship between the Government of India and the Indian States",
+    "explanation": "The Butler Committee, also called the Indian States Committee, was appointed in 1927 to examine the relationship between the Indian princely states and the British Indian government. Its concern was not the central-provincial division, but centre-state relations involving princely states.",
+    "elimination_logic": "Options (a) and (b) relate to broader constitutional arrangements, not the specific committee’s purpose. Option (c) is unrelated. The Butler Committee specifically dealt with relations between the Government of India and princely states, making option (d) correct."
+  },
+  {
+    "year": 2018,
+    "question": "The staple commodities of export by the English East India Company from Bengal in the middle of the 18th century were",
+    "options": [
+      "a) Raw cotton, oil-seeds, and opium",
+      "b) Sugar, salt, zinc, and lead",
+      "c) Copper, silver, gold, spices, and tea",
+      "d) Cotton, silk, saltpetre, and opium"
+    ],
+    "correct_answer": "d) Cotton, silk, saltpetre, and opium",
+    "explanation": "In the mid-18th century, Bengal was an important source of textile goods, silk, saltpetre and opium for the English East India Company. These commodities were central to Company trade and export networks.",
+    "elimination_logic": "Option (a) is incomplete and does not reflect the staple export profile of Bengal. Option (b) includes items not known as the main export set. Option (c) includes precious metals and tea, which do not match Bengal’s mid-18th century staple Company exports. Option (d) correctly lists the key export items."
+  },
+  {
+    "year": 2018,
+    "question": "Which of the following statements do not apply to the system of Subsidiary Alliance introduced by Lord Wellesley?",
+    "options": [
+      "a) To maintain a large standing army at others expense",
+      "b) To keep India safe from Napoleonic danger",
+      "c) To secure a fixed income for the company",
+      "d) To establish British paramountcy over the Indian states"
+    ],
+    "correct_answer": "c) To secure a fixed income for the company",
+    "explanation": "The Subsidiary Alliance system of Lord Wellesley aimed at extending British control over Indian states, checking foreign influence, especially the French threat in the Napoleonic context, and maintaining British troops at the expense of allied rulers. It was a political-strategic device rather than a straightforward income-securing mechanism like land revenue settlement.",
+    "elimination_logic": "Options (a), (b) and (d) all fit the logic of Subsidiary Alliance. It helped maintain British troops at the expense of Indian rulers, counter foreign threats, and establish paramountcy. Option (c) is the odd one out because fixed income was not its essential objective."
+  },
+  {
+    "year": 2018,
+    "question": "Economically, one of the results of the British rule in India in the 19th century was the:",
+    "options": [
+      "a) Increase in the exports of Indian handicrafts",
+      "b) Growth in the number of Indian owned factories",
+      "c) Commercialization of Indian agriculture",
+      "d) Rapid increase in urban population"
+    ],
+    "correct_answer": "c) Commercialization of Indian agriculture",
+    "explanation": "British rule transformed agriculture increasingly toward commercial crops such as indigo, cotton, opium and jute for market needs and export demand. This process is known as commercialization of agriculture. At the same time, handicrafts suffered due to British manufactured imports.",
+    "elimination_logic": "Option (a) is wrong because Indian handicrafts generally declined. Option (b) is not the major hallmark of 19th-century British economic impact. Option (d) is too broad and not the core result emphasized in colonial economic history. Option (c) correctly identifies commercialization of agriculture."
+  },
+  {
+    "year": 2018,
+    "question": "With reference to educational institutions during British rule in India, consider the following pairs:\n1. Sanskrit College at Benaras – William Jones\n2. Calcutta Madarsa – Warren Hastings\n3. Fort William College – Arthur Wellesley\nWhich of the pairs given above is/are correct?",
+    "options": [
+      "a) 1 and 2",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Calcutta Madarsa was established in 1781 by Warren Hastings. Sanskrit College at Benaras was founded by Jonathan Duncan, not William Jones. Fort William College was established by Lord Wellesley, i.e. Richard Wellesley, not Arthur Wellesley.",
+    "elimination_logic": "Pair 1 is wrong because William Jones did not found Sanskrit College at Benaras. Pair 2 is correct. Pair 3 is wrong because it was founded by Lord Wellesley, not Arthur Wellesley. Hence only pair 2 is correct."
+  },
+  {
+    "year": 2018,
+    "question": "Which of the following led to the introduction of English Education in India?\n1. Charter Act of 1813\n2. General Committee of Public Instruction, 1823\n3. Orientalist and Anglicist Controversy\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "The Charter Act of 1813 opened the way for state involvement in education. The General Committee of Public Instruction became an institutional forum for educational policy. The Orientalist-Anglicist controversy shaped the debate, which culminated in support for English education, especially with Macaulay’s Minute and Bentinck’s decision.",
+    "elimination_logic": "All three developments contributed to the eventual introduction and expansion of English education. Any option excluding one of them is incomplete. Therefore option (d) is correct."
+  },
+  {
+    "year": 2018,
+    "question": "Regarding Wood’s Dispatch, which of the following statements are true:\n1. Grants-in-Aid system was introduced\n2. Establishment of universities was recommended\n3. English as a medium of instruction at all levels of education was recommended\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "Wood’s Dispatch of 1854 is called the Magna Carta of English education in India. It recommended the grants-in-aid system and the establishment of universities at Calcutta, Bombay and Madras. However, it did not recommend English as the medium at all levels; it supported vernacular languages at lower levels and English at higher levels.",
+    "elimination_logic": "Statement 1 is correct. Statement 2 is correct. Statement 3 is wrong because vernacular instruction was encouraged at primary levels. Therefore only 1 and 2 are true."
+  },
+  {
+    "year": 2018,
+    "question": "In the Federation established by The Government of India Act of 1935, the residuary powers were given to the:",
+    "options": [
+      "a) Federal Legislature",
+      "b) Governor General",
+      "c) Provincial Legislature",
+      "d) Provincial Governors"
+    ],
+    "correct_answer": "b) Governor General",
+    "explanation": "The Government of India Act, 1935 proposed an All-India Federation and divided legislative subjects into federal, provincial and concurrent lists. Residuary powers were vested in the Governor-General, reflecting continued British executive control.",
+    "elimination_logic": "Neither the federal legislature nor provincial bodies got residuary powers under the 1935 Act. These were retained by the Governor-General. Hence option (b) is correct."
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements about ‘the Charter Act of 1813’:\n1. It ended the trade monopoly of the East India Company in India except for trade in tea and trade with China.\n2. It asserted the sovereignty of the British Crown over the Indian territories held by the Company.\n3. The revenues of India were now controlled by the British Parliament\nWhich of the statements given above are correct?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "The Charter Act of 1813 ended the Company’s monopoly over Indian trade except tea and trade with China. It also clearly asserted the sovereignty of the British Crown over Company-held territories. However, statement 3 is incorrect as the Act did not mean that Indian revenues were now directly controlled by Parliament in the sense stated.",
+    "elimination_logic": "Statement 1 is standard Charter Act fact and is correct. Statement 2 is also correct. Statement 3 overstates parliamentary control and is incorrect. Therefore the right answer is 1 and 2 only."
+  },
+  {
+    "year": 2020,
+    "question": "Indigo cultivation in India declined by the beginning of the 20th century because of:",
+    "options": [
+      "a) Peasant resistance to the oppressive conduct of planters",
+      "b) Its unprofitability in the world market because of new inventions",
+      "c) National leaders’ opposition to the cultivation of indigo",
+      "d) Government control over the planters"
+    ],
+    "correct_answer": "b) Its unprofitability in the world market because of new inventions",
+    "explanation": "The decline of indigo cultivation by the early 20th century was mainly due to the invention and spread of synthetic dyes in Europe, which made natural indigo commercially less profitable. Though peasant resistance had earlier challenged indigo planters, the long-term decline was driven primarily by world market changes.",
+    "elimination_logic": "Option (a) is historically relevant to indigo resistance, but it does not best explain the overall decline by the beginning of the 20th century. Option (c) is too general and not the main cause. Option (d) is incorrect. Option (b) is correct because synthetic dyes undercut natural indigo in the market."
+  },
+  {
+    "year": 2020,
+    "question": "Which of the following statements correctly explains the impact of the Industrial Revolution on India during the first half of the nineteenth century?",
+    "options": [
+      "a) Indian handicrafts were ruined",
+      "b) Machines were introduced in the Indian textile industry in large numbers",
+      "c) Railway lines were laid in many parts of the country",
+      "d) Heavy duties were imposed on the imports of British manufactures"
+    ],
+    "correct_answer": "a) Indian handicrafts were ruined",
+    "explanation": "The Industrial Revolution in Britain led to the mass production of machine-made goods, especially textiles, which flooded Indian markets. This caused deindustrialization and severe decline of Indian handicrafts, particularly the traditional textile sector.",
+    "elimination_logic": "Option (b) is wrong because mechanization in India on a large scale came later and not as the main first-half impact. Option (c) is associated more with the mid-19th century onward. Option (d) is opposite of reality; British manufactures often enjoyed favorable treatment. Therefore option (a) is correct."
+  },
+  {
+    "year": 2020,
+    "question": "Wellesley established the Fort William College Calcutta because:",
+    "options": [
+      "a) He was asked by the Board of Directors at London to do so",
+      "b) He wanted to revive interest in oriental learning in India",
+      "c) He wanted to provide William Carey and his associates with employment",
+      "d) He wanted to train British civilians for administrative purpose in India"
+    ],
+    "correct_answer": "d) He wanted to train British civilians for administrative purpose in India",
+    "explanation": "Fort William College was established in 1800 by Lord Wellesley to train newly arrived British civil servants in Indian languages, laws and administrative practices so that they could govern more effectively.",
+    "elimination_logic": "The college was not founded mainly because London directed it, nor to promote oriental learning for its own sake, nor to provide employment to missionaries. Its practical administrative training function makes option (d) correct."
+  },
+  {
+    "year": 2021,
+    "question": "Consider the following statements:\n1. The Montagu-Chelmsford Reforms of 1919 recommended granting voting rights to all the women above the age of 21.\n2. The Government of India Act of 1935 gave women reserved seats in legislature.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Montagu-Chelmsford Reforms did not recommend universal adult franchise for women above 21. Franchise remained highly restricted by property, education and other qualifications. However, the Government of India Act, 1935 did provide reserved seats for women in legislatures.",
+    "elimination_logic": "Statement 1 is wrong because universal women’s suffrage was not introduced under the 1919 reforms. Statement 2 is correct because the 1935 Act provided representation through reserved seats. Therefore only statement 2 is correct."
+  },
+  {
+    "year": 2022,
+    "question": "In the Government of India Act 1919, the functions of Provincial Government were divided into “Reserved” and “Transferred” subjects. Which of the following were treated as “Reserved” subjects?\n1. Administration of Justice\n2. Local Self-Government\n3. Land Revenue\n4. Police\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1, 2 and 3",
+      "b) 2, 3 and 4",
+      "c) 1, 3 and 4",
+      "d) 1, 2 and 4"
+    ],
+    "correct_answer": "c) 1, 3 and 4",
+    "explanation": "Under dyarchy introduced by the Government of India Act, 1919, reserved subjects included key areas such as law and order, police, justice and land revenue. Local self-government was a transferred subject handled by Indian ministers.",
+    "elimination_logic": "Administration of justice, land revenue and police were retained under official control as reserved subjects. Local self-government belonged to transferred subjects. Hence 1, 3 and 4 are correct."
+  },
+  {
+    "year": 2023,
+    "question": "By which one of the following Acts was the Governor General of Bengal designated as the Governor General of India?",
+    "options": [
+      "a) The Regulating Act",
+      "b) The Pitt’s India Act",
+      "c) The Charter Act of 1793",
+      "d) The Charter Act of 1833"
+    ],
+    "correct_answer": "d) The Charter Act of 1833",
+    "explanation": "The Charter Act of 1833 was a major constitutional landmark. It made the Governor-General of Bengal the Governor-General of India, centralizing administration further. Lord William Bentinck became the first Governor-General of India under this Act.",
+    "elimination_logic": "The Regulating Act created the office of Governor-General of Bengal, not Governor-General of India. Pitt’s India Act also did not redesignate the office in this way. Charter Act of 1793 did not do so either. The correct Act is the Charter Act of 1833."
+  },
+  {
+    "year": 2024,
+    "question": "With reference to revenue collection by Cornwallis, consider the following statements:\n1. Under the Ryotwari Settlement of revenue collection, the peasants were exempted from revenue payment in case of bad harvest or natural calamities.\n2. Under the Permanent Settlement in Bengal, if the Zamindar failed to pay his revenues to the state, on or before the fixed date, he would be removed from his Zamindari.\nOptions:\na) 1 only\nb) 2 only\nc) Both 1 and 2\nd) Neither 1 nor 2",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Cornwallis is associated with the Permanent Settlement, not the Ryotwari Settlement. Under Permanent Settlement, zamindars had to pay the fixed land revenue punctually; failure could lead to loss of zamindari rights through sale or removal. Statement 1 is not correct in this context and also wrongly ties Cornwallis to Ryotwari.",
+    "elimination_logic": "Statement 1 is incorrect because Ryotwari was not Cornwallis’s settlement, and the blanket claim about exemption is not valid here. Statement 2 is correct because defaulting zamindars under Permanent Settlement could lose their estates. Hence only statement 2 is correct."
+  },
+  {
+    "year": 2024,
+    "question": "With reference to the Government of India Act, 1935, consider the following statements:\n1. It provided for the establishment of an All-India Federation based on the union of the British Indian Provinces and Princely States.\n2. Defence and Foreign Affairs were kept under the control of the federal legislature.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "The Government of India Act, 1935 proposed an All-India Federation consisting of British Indian provinces and princely states. However, defence and foreign affairs were not placed under responsible control of the federal legislature; they remained under the Governor-General’s special control.",
+    "elimination_logic": "Statement 1 is correct because federation was indeed proposed on that basis. Statement 2 is incorrect because defence and external affairs remained outside normal responsible legislative control. Therefore only statement 1 is correct."
+  }
+  ]
 
-}
-}
 
