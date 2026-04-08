@@ -162,6 +162,17 @@ function normalizeDisplayedText(text) {
         .replace(/\\n/g, "\n")
         .replace(/\r\n/g, "\n")
         .replace(/\r/g, "\n")
+
+        // remove box-number junk
+        .replace(/□\d+□/g, "")
+        .replace(/□\d+/g, "")
+        .replace(/\d+□/g, "")
+
+        // remove long separator lines
+        .replace(/^[ \t]*[-–—_]{3,}[ \t]*$/gm, "")
+
+        // reduce excessive blank lines
+        .replace(/\n{3,}/g, "\n\n")
         .trim();
 }
 
