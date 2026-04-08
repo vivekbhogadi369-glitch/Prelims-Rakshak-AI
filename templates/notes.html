@@ -56,37 +56,27 @@
             font-size: 14px;
         }
 
-        .hidden { display: none; }
+        .hidden {
+            display: none;
+        }
+
+        .back-btn {
+            background: #475569;
+            margin-bottom: 8px;
+        }
 
         .notes-box {
             margin-top: 12px;
             padding: 16px;
             background: #fffaf5;
             border-radius: 14px;
-            line-height: 1.7;
-            font-size: 15px;
+            line-height: 1.8;
+            font-size: 16px;
             color: #222;
             font-family: Georgia, "Times New Roman", serif;
-        }
-
-        .notes-box h2 {
-            font-size: 18px;
-            margin-top: 14px;
-            margin-bottom: 6px;
-            color: #7c2d12;
-        }
-
-        .notes-box h3 {
-            font-size: 16px;
-            margin-top: 10px;
-            margin-bottom: 4px;
-            color: inherit;
-            font-weight: bold;
-        }
-
-        .back-btn {
-            background: #475569;
-            margin-bottom: 8px;
+            white-space: pre-wrap;
+            word-break: normal;
+            overflow-wrap: break-word;
         }
     </style>
 </head>
@@ -123,71 +113,63 @@ async function loadSubjects() {
     notesData = await res.json();
 
     let html = "";
-    Object.keys(notesData).forEach(s => {
-        html += `<button onclick="loadTopics('${s}', this)">${s}</button>`;
+    Object.keys(notesData).forEach(subject => {
+        html += `<button onclick="loadTopics('${escapeQuotes(subject)}')">${subject}</button>`;
     });
 
     document.getElementById("subjects").innerHTML = html;
+    document.getElementById("subjects").classList.remove("hidden");
+    document.getElementById("topicsSection").classList.add("hidden");
+    document.getElementById("notesSection").classList.add("hidden");
 }
 
-function loadTopics(subject, btn) {
+function escapeQuotes(text) {
+    return String(text).replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+}
+
+function loadTopics(subject) {
+    const topics = Object.keys(notesData[subject] || {});
     let html = "";
-    Object.keys(notesData[subject]).forEach(t => {
-        html += `<button onclick="loadNotes('${subject}','${t}')">${t}</button>`;
+
+    topics.forEach(topic => {
+        html += `<button onclick="loadNotes('${escapeQuotes(subject)}','${escapeQuotes(topic)}')">${topic}</button>`;
     });
 
     document.getElementById("topics").innerHTML = html;
-
     document.getElementById("subjects").classList.add("hidden");
     document.getElementById("topicsSection").classList.remove("hidden");
+    document.getElementById("notesSection").classList.add("hidden");
 }
 
-// 🔥 FINAL STRONG CLEANER
-function cleanRaw(text) {
-    let t = text || "";
+function buildText(content) {
+    if (typeof content === "string") {
+        return content;
+    }
 
-    // remove all □ patterns
-    t = t.replace(/□\d+□/g, "");
-    t = t.replace(/\d+□/g, "");
-    t = t.replace(/□\d+/g, "");
+    if (content && typeof content === "object") {
+        let text = "";
+        for (const key in content) {
+            text += key + ":\n" + content[key] + "\n\n";
+        }
+        return text.trim();
+    }
 
-    // remove dash lines
-    t = t.replace(/[-–—]{3,}/g, "");
-
-    // remove stray special symbols ONLY (safe)
-    t = t.replace(/[^\w\s.,:;()\-•\n]/g, "");
-
-    // normalize spaces
-    t = t.replace(/\s{2,}/g, " ");
-    t = t.replace(/\n{3,}/g, "\n\n");
-
-    return t.trim();
+    return "";
 }
 
-function formatNotes(text) {
-
-    let formatted = text;
-
-    formatted = formatted.replace(/\n([A-Z][A-Z\s]{5,})\n/g, "\n<h2>$1</h2>\n");
-
-    formatted = formatted.replace(/•/g, "<br>• ");
-
-    formatted = formatted.replace(/\.\s+/g, ".<br><br>");
-
-    return formatted;
+function normalizeDisplayedText(text) {
+    return String(text || "")
+        .replace(/\\n/g, "\n")
+        .replace(/\r\n/g, "\n")
+        .replace(/\r/g, "\n")
+        .trim();
 }
 
 function loadNotes(subject, topic) {
-    const raw = notesData[subject][topic];
+    const content = notesData[subject][topic];
+    const text = normalizeDisplayedText(buildText(content));
 
-    let text = typeof raw === "string" ? raw : JSON.stringify(raw);
-
-    // 🔥 CLEAN FIRST → THEN FORMAT
-    text = cleanRaw(text);
-    text = formatNotes(text);
-
-    document.getElementById("notesContent").innerHTML = text;
-
+    document.getElementById("notesContent").textContent = text;
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.remove("hidden");
 }
