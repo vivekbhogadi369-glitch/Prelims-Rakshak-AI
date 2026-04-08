@@ -162,7 +162,7 @@ function loadTopics(subject, btn) {
 }
 
 
-// 🔥 CLEAN + PREMIUM FORMAT
+// NEXT LEVEL FORMAT
 function formatNotes(text) {
 
     let formatted = text;
@@ -172,10 +172,10 @@ function formatNotes(text) {
     formatted = formatted.replace(/-+/g, "");
     formatted = formatted.replace(/\bI\b/g, "");
 
-    // CLEAN SPACES
+    // CLEAN EXTRA SPACES
     formatted = formatted.replace(/\n\s*\n/g, "\n");
-    
-    // HEADINGS (only clean uppercase lines)
+
+    // MAIN HEADINGS
     formatted = formatted.replace(/\n([A-Z\s]{6,})\n/g, "\n<h2>$1</h2>\n");
 
     // SUBHEADINGS
@@ -184,8 +184,38 @@ function formatNotes(text) {
     // BULLETS
     formatted = formatted.replace(/•/g, "<br>• ");
 
-    // PARAGRAPH BREAK
+    // PARAGRAPH BREAKS
     formatted = formatted.replace(/\.\s/g, ".<br><br>");
+
+    // KEYWORD HIGHLIGHTING
+    const keywords = [
+        "BCE","CE","dynasty","culture","civilization","sites",
+        "features","causes","effects","important","evidence",
+        "tools","agriculture","religion","economy"
+    ];
+
+    keywords.forEach(word => {
+        const regex = new RegExp(`\\b(${word})\\b`, "gi");
+        formatted = formatted.replace(regex, "<b>$1</b>");
+    });
+
+    // PRELIMS FOCUS BOX
+    formatted += `
+    <div style="
+        margin-top:15px;
+        padding:12px;
+        background:#fff3cd;
+        border-left:5px solid #ff9800;
+        border-radius:8px;
+        font-size:14px;
+        line-height:1.6;
+    ">
+        ⚡ <b>Prelims Focus:</b><br>
+        • Remember chronology and key terms<br>
+        • Focus on factual traps such as dates, sites and terms<br>
+        • Statement-based questions are highly likely
+    </div>
+    `;
 
     return formatted;
 }
