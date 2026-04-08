@@ -85,7 +85,8 @@
             font-size: 16px;
             margin-top: 10px;
             margin-bottom: 4px;
-            color: #0f766e;
+            color: #222;
+            font-weight: bold;
         }
 
         .back-btn {
@@ -164,42 +165,23 @@ function loadTopics(subject, btn) {
 function formatNotes(text) {
     let formatted = text || "";
 
-    // remove brackets and dash separators
     formatted = formatted.replace(/\(\s*\)/g, "");
     formatted = formatted.replace(/^[\-\–—\s]+$/gm, "");
     formatted = formatted.replace(/[\-–—]{3,}/g, "");
-
-    // remove standalone numbering lines like 1. 2. 3.
     formatted = formatted.replace(/^\s*\d+\.\s*$/gm, "");
-
-    // remove stray section numbers inserted before new sections
     formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][A-Za-z\/\s]{2,}:)/g, " ");
     formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][a-z][A-Za-z\/\s]{2,})/g, " ");
-
-    // remove standalone "Features" / "Important Features" lines only
     formatted = formatted.replace(/^\s*Important\s+Features\s*:?\s*$/gmi, "");
     formatted = formatted.replace(/^\s*Features\s*:?\s*$/gmi, "");
-
-    // remove leftover lone colons/dots after deleting headings
     formatted = formatted.replace(/^\s*[:.]\s*$/gm, "");
-
-    // normalize blank lines
     formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
-    // convert clear uppercase headings to heading style
     formatted = formatted.replace(/\n([A-Z][A-Z\s]{5,})\n/g, "\n<h2>$1</h2>\n");
 
-    // keep Introduction and Conclusion untouched; do not recolor them
-    // only style other common subheadings if present
     formatted = formatted.replace(/\b(Causes|Effects|Significance|Important Points|Historical Background|Sources for the Study of Harsha|Nature of Administration|Provincial Administration|Samanta System|Position of Women|General Social Life|Discovery|Geographical Extent|Time Period)\b/g, "<h3>$1</h3>");
 
-    // bullet formatting
     formatted = formatted.replace(/•/g, "<br>• ");
-
-    // readable paragraph spacing
     formatted = formatted.replace(/\.\s+/g, ".<br><br>");
-
-    // clean excessive breaks created by replacements
     formatted = formatted.replace(/(<br>\s*){3,}/g, "<br><br>");
     formatted = formatted.trim();
 
