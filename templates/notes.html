@@ -16,51 +16,21 @@
         h1 {
             text-align: center;
             color: #1d3557;
-            margin-bottom: 18px;
-        }
-
-        .top-bar {
-            margin-bottom: 12px;
-        }
-
-        .home-btn {
-            background: #475569;
-            color: white;
-            padding: 9px 12px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
         }
 
         .box {
             background: white;
             padding: 14px;
             border-radius: 14px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-        }
-
-        .button-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
         }
 
         button {
             padding: 9px 12px;
-            border: none;
-            border-radius: 12px;
+            border-radius: 10px;
             background: #c2410c;
             color: white;
-            cursor: pointer;
-            font-size: 14px;
+            border: none;
         }
-
-        .selected {
-            background: #0f766e !important;
-        }
-
-        .hidden { display: none; }
 
         .notes-box {
             margin-top: 12px;
@@ -70,39 +40,7 @@
             line-height: 1.7;
             font-size: 15px;
             color: #222;
-            font-family: Georgia, "Times New Roman", serif;
-            box-shadow: inset 0 0 6px rgba(0,0,0,0.03);
-        }
-
-        .notes-box strong {
-            color: #1d3557;
-        }
-
-        .notes-box h2 {
-            font-size: 18px;
-            margin-top: 12px;
-            margin-bottom: 6px;
-            color: #7c2d12; /* brown */
-        }
-
-        .notes-box h3 {
-            font-size: 16px;
-            margin-top: 10px;
-            margin-bottom: 4px;
-            color: #7c2d12; /* FIXED: no more green */
-        }
-
-        .notes-box ul {
-            padding-left: 18px;
-        }
-
-        .notes-box li {
-            margin-bottom: 4px;
-        }
-
-        .back-btn {
-            background: #475569;
-            margin-bottom: 8px;
+            white-space: pre-wrap; /* 🔥 KEY FIX */
         }
     </style>
 </head>
@@ -111,29 +49,14 @@
 
 <h1>Notes</h1>
 
-<div class="top-bar">
-    <button class="home-btn" onclick="location.href='/'">← Home</button>
-</div>
-
 <div class="box">
-
-    <div id="subjects" class="button-group"></div>
-
-    <div id="topicsSection" class="hidden">
-        <button class="back-btn" onclick="backToSubjects()">← Back</button>
-        <div id="topics" class="button-group"></div>
-    </div>
-
-    <div id="notesSection" class="hidden">
-        <button class="back-btn" onclick="backToTopics()">← Back</button>
-        <div id="notesContent" class="notes-box"></div>
-    </div>
-
+    <div id="subjects"></div>
+    <div id="topics"></div>
+    <div id="notesContent" class="notes-box"></div>
 </div>
 
 <script>
 let notesData = {};
-let currentSubject = "";
 
 async function loadSubjects() {
     const res = await fetch('/static/history_notes.json');
@@ -141,66 +64,19 @@ async function loadSubjects() {
 
     let html = "";
     Object.keys(notesData).forEach(s => {
-        html += `<button onclick="loadTopics('${s}', this)">${s}</button>`;
+        html += `<button onclick="loadTopics('${s}')">${s}</button>`;
     });
 
     document.getElementById("subjects").innerHTML = html;
-
-    document.getElementById("subjects").classList.remove("hidden");
-    document.getElementById("topicsSection").classList.add("hidden");
-    document.getElementById("notesSection").classList.add("hidden");
 }
 
-function clearSelected(container) {
-    container.querySelectorAll("button").forEach(b => b.classList.remove("selected"));
-}
-
-function loadTopics(subject, btn) {
-    currentSubject = subject;
-
-    clearSelected(document.getElementById("subjects"));
-    btn.classList.add("selected");
-
+function loadTopics(subject) {
     let html = "";
     Object.keys(notesData[subject]).forEach(t => {
         html += `<button onclick="loadNotes('${subject}','${t}')">${t}</button>`;
     });
 
     document.getElementById("topics").innerHTML = html;
-
-    document.getElementById("subjects").classList.add("hidden");
-    document.getElementById("topicsSection").classList.remove("hidden");
-    document.getElementById("notesSection").classList.add("hidden");
-}
-
-/* ✅ FINAL FIX */
-function formatNotes(text) {
-
-    // Remove hidden junk
-    text = text.replace(/[\uE000-\uF8FF]/g, "");
-
-    // Remove long dashed lines
-    text = text.replace(/-+/g, "");
-
-    // Remove empty brackets
-    text = text.replace(/\(\s*\)/g, "");
-
-    // Remove boxed symbols
-    text = text.replace(/[□]/g, "");
-
-    // Remove isolated numbers
-    text = text.replace(/\b\d\b/g, "");
-
-    // Headings
-    text = text.replace(/([A-Z\s]{5,})/g, "<h2>$1</h2>");
-
-    // Subheadings (NO GREEN NOW)
-    text = text.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Historical Background)/gi, "<h3>$1</h3>");
-
-    // Bullet formatting
-    text = text.replace(/•/g, "<br>•");
-
-    return text;
 }
 
 function loadNotes(subject, topic) {
@@ -210,27 +86,16 @@ function loadNotes(subject, topic) {
 
     if (typeof content === "string") {
         text = content;
-    } else if (typeof content === "object") {
+    } else {
         for (let key in content) {
             text += key + ":\n" + content[key] + "\n\n";
         }
     }
 
-    document.getElementById("notesContent").innerHTML = formatNotes(text);
+    /* ✅ ONLY SAFE CLEANING */
+    text = text.replace(/[\uE000-\uF8FF]/g, ""); // remove hidden junk
 
-    document.getElementById("topicsSection").classList.add("hidden");
-    document.getElementById("notesSection").classList.remove("hidden");
-}
-
-function backToSubjects() {
-    document.getElementById("subjects").classList.remove("hidden");
-    document.getElementById("topicsSection").classList.add("hidden");
-    document.getElementById("notesSection").classList.add("hidden");
-}
-
-function backToTopics() {
-    document.getElementById("topicsSection").classList.remove("hidden");
-    document.getElementById("notesSection").classList.add("hidden");
+    document.getElementById("notesContent").innerText = text;
 }
 
 loadSubjects();
