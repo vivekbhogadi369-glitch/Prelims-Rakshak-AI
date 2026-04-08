@@ -60,7 +60,9 @@
             background: #0f766e !important;
         }
 
-        .hidden { display: none; }
+        .hidden {
+            display: none;
+        }
 
         .notes-box {
             margin-top: 12px;
@@ -161,10 +163,7 @@ function loadTopics(subject, btn) {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-
-// NEXT LEVEL FORMAT
 function formatNotes(text) {
-
     let formatted = text;
 
     // REMOVE JUNK
@@ -172,14 +171,17 @@ function formatNotes(text) {
     formatted = formatted.replace(/-+/g, "");
     formatted = formatted.replace(/\bI\b/g, "");
 
-    // CLEAN EXTRA SPACES
+    // CLEAN SPACES
     formatted = formatted.replace(/\n\s*\n/g, "\n");
 
-    // MAIN HEADINGS
+    // HEADINGS
     formatted = formatted.replace(/\n([A-Z\s]{6,})\n/g, "\n<h2>$1</h2>\n");
 
     // SUBHEADINGS
-    formatted = formatted.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points)/gi, "<h3>$1</h3>");
+    formatted = formatted.replace(
+        /(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points)/gi,
+        "<h3>$1</h3>"
+    );
 
     // BULLETS
     formatted = formatted.replace(/•/g, "<br>• ");
@@ -187,11 +189,11 @@ function formatNotes(text) {
     // PARAGRAPH BREAKS
     formatted = formatted.replace(/\.\s/g, ".<br><br>");
 
-    // KEYWORD HIGHLIGHTING
+    // KEYWORDS
     const keywords = [
-        "BCE","CE","dynasty","culture","civilization","sites",
-        "features","causes","effects","important","evidence",
-        "tools","agriculture","religion","economy"
+        "BCE", "CE", "dynasty", "culture", "civilization", "sites",
+        "features", "causes", "effects", "important", "evidence",
+        "tools", "agriculture", "religion", "economy"
     ];
 
     keywords.forEach(word => {
@@ -199,10 +201,26 @@ function formatNotes(text) {
         formatted = formatted.replace(regex, "<b>$1</b>");
     });
 
-    // PRELIMS FOCUS BOX
+    // PYQ ALERT
     formatted += `
     <div style="
-        margin-top:15px;
+        margin-top:12px;
+        padding:10px;
+        background:#e0f2fe;
+        border-left:5px solid #0284c7;
+        border-radius:8px;
+        font-size:14px;
+        line-height:1.6;
+    ">
+        🎯 <b>PYQ Alert:</b><br>
+        High probability topic for UPSC Prelims (statement-based questions expected)
+    </div>
+    `;
+
+    // PRELIMS FOCUS
+    formatted += `
+    <div style="
+        margin-top:12px;
         padding:12px;
         background:#fff3cd;
         border-left:5px solid #ff9800;
@@ -211,15 +229,14 @@ function formatNotes(text) {
         line-height:1.6;
     ">
         ⚡ <b>Prelims Focus:</b><br>
-        • Remember chronology and key terms<br>
-        • Focus on factual traps such as dates, sites and terms<br>
-        • Statement-based questions are highly likely
+        • Chronology + factual clarity<br>
+        • Sites & features are frequently asked<br>
+        • Avoid extreme statements in MCQs
     </div>
     `;
 
     return formatted;
 }
-
 
 function loadNotes(subject, topic) {
     const content = notesData[subject][topic];
