@@ -165,28 +165,26 @@ function loadTopics(subject, btn) {
 function formatNotes(text) {
     let formatted = text || "";
 
-    formatted = formatted.replace(/\(\s*\)/g, "");
-    formatted = formatted.replace(/^[\-\–—\s]+$/gm, "");
-    formatted = formatted.replace(/[\-–—]{3,}/g, "");
-    formatted = formatted.replace(/^\s*\d+\.\s*$/gm, "");
+    // REMOVE ALL WEIRD NUMBERING (FINAL FIX)
     formatted = formatted.replace(/□\d+□/g, "");
-    formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][A-Za-z\/\s]{2,}:)/g, " ");
-    formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][a-z][A-Za-z\/\s]{2,})/g, " ");
-    formatted = formatted.replace(/^\s*Important\s+Features\s*:?\s*$/gmi, "");
-    formatted = formatted.replace(/^\s*Features\s*:?\s*$/gmi, "");
-    formatted = formatted.replace(/^\s*[:.]\s*$/gm, "");
+    formatted = formatted.replace(/\d+\.\s*/g, "");
+
+    // CLEAN FORMATTING
     formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
+    // HEADINGS
     formatted = formatted.replace(/\n([A-Z][A-Z\s]{5,})\n/g, "\n<h2>$1</h2>\n");
 
-    formatted = formatted.replace(/\b(Causes|Effects|Significance|Important Points|Historical Background|Sources for the Study of Harsha|Nature of Administration|Provincial Administration|Samanta System|Position of Women|General Social Life|Discovery|Geographical Extent|Time Period)\b/g, "<h3>$1</h3>");
+    // SUBHEADINGS (NO COLOR CHANGE)
+    formatted = formatted.replace(/\b(Causes|Effects|Significance|Historical Background|Nature of Administration|Provincial Administration|Samanta System|Position of Women|Time Period)\b/g, "<h3>$1</h3>");
 
+    // BULLETS
     formatted = formatted.replace(/•/g, "<br>• ");
-    formatted = formatted.replace(/\.\s+/g, ".<br><br>");
-    formatted = formatted.replace(/(<br>\s*){3,}/g, "<br><br>");
-    formatted = formatted.trim();
 
-    return formatted;
+    // SPACING
+    formatted = formatted.replace(/\.\s+/g, ".<br><br>");
+
+    return formatted.trim();
 }
 
 function loadNotes(subject, topic) {
