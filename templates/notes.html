@@ -82,14 +82,14 @@
             font-size: 18px;
             margin-top: 12px;
             margin-bottom: 6px;
-            color: #7c2d12;
+            color: #7c2d12; /* brown */
         }
 
         .notes-box h3 {
             font-size: 16px;
             margin-top: 10px;
             margin-bottom: 4px;
-            color: #0f766e;
+            color: #7c2d12; /* FIXED: no more green */
         }
 
         .notes-box ul {
@@ -173,25 +173,31 @@ function loadTopics(subject, btn) {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-/* 🔥 FINAL CLEAN FIX (ONLY CHANGE) */
+/* ✅ FINAL FIX */
 function formatNotes(text) {
 
-    // Remove hidden unicode junk (PDF artifacts)
+    // Remove hidden junk
     text = text.replace(/[\uE000-\uF8FF]/g, "");
+
+    // Remove long dashed lines
+    text = text.replace(/-+/g, "");
+
+    // Remove empty brackets
+    text = text.replace(/\(\s*\)/g, "");
 
     // Remove boxed symbols
     text = text.replace(/[□]/g, "");
 
-    // Remove isolated numbers like 3 4 5 (but keep real numbers inside words)
+    // Remove isolated numbers
     text = text.replace(/\b\d\b/g, "");
 
     // Headings
     text = text.replace(/([A-Z\s]{5,})/g, "<h2>$1</h2>");
 
-    // Subheadings
-    text = text.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points)/gi, "<h3>$1</h3>");
+    // Subheadings (NO GREEN NOW)
+    text = text.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Historical Background)/gi, "<h3>$1</h3>");
 
-    // Bullet points
+    // Bullet formatting
     text = text.replace(/•/g, "<br>•");
 
     return text;
