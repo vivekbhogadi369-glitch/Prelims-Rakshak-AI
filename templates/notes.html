@@ -170,6 +170,7 @@ function formatNotes(text) {
     formatted = formatted.replace(/\(.*?\)/g, "");
     formatted = formatted.replace(/-+/g, "");
     formatted = formatted.replace(/\bI\b/g, "");
+    formatted = formatted.replace(/\d+/g, "");
 
     // CLEAN SPACES
     formatted = formatted.replace(/\n\s*\n/g, "\n");
@@ -183,11 +184,14 @@ function formatNotes(text) {
         "<h3>$1</h3>"
     );
 
+    // REMOVE EXTRA COLON AFTER SUBHEADINGS
+    formatted = formatted.replace(/<h3>(.*?)<\/h3>\s*:/g, "<h3>$1</h3>");
+
     // BULLETS
     formatted = formatted.replace(/•/g, "<br>• ");
 
-    // PARAGRAPH BREAKS
-    formatted = formatted.replace(/\.\s/g, ".<br><br>");
+    // PARAGRAPH BREAKS (but do not break numbering like 1. 2. 3.)
+    formatted = formatted.replace(/(?<!\d)\.\s/g, ".<br><br>");
 
     // KEYWORDS
     const keywords = [
