@@ -161,8 +161,6 @@ function loadTopics(subject, btn) {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-
-// 🔥 CLEAN + PREMIUM FORMAT
 function formatNotes(text) {
 
     let formatted = text;
@@ -174,12 +172,24 @@ function formatNotes(text) {
 
     // CLEAN SPACES
     formatted = formatted.replace(/\n\s*\n/g, "\n");
-    
-    // HEADINGS (only clean uppercase lines)
+
+    // HEADINGS
     formatted = formatted.replace(/\n([A-Z\s]{6,})\n/g, "\n<h2>$1</h2>\n");
 
     // SUBHEADINGS
-    formatted = formatted.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points)/gi, "<h3>$1</h3>");
+    formatted = formatted.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Background)/gi, "<h3>$1</h3>");
+
+    // KEYWORD HIGHLIGHT
+    const keywords = [
+        "Achaemenid", "Alexander", "Indus", "Maurya", "Gupta",
+        "Buddhism", "Jainism", "Harappa", "Ashoka", "Megasthenes",
+        "Satrapy", "Persian", "Greek", "Hellenistic", "Taxila"
+    ];
+
+    keywords.forEach(word => {
+        let regex = new RegExp(`\\b(${word})\\b`, "gi");
+        formatted = formatted.replace(regex, `<span style="color:#b91c1c;font-weight:600;">$1</span>`);
+    });
 
     // BULLETS
     formatted = formatted.replace(/•/g, "<br>• ");
@@ -187,9 +197,25 @@ function formatNotes(text) {
     // PARAGRAPH BREAK
     formatted = formatted.replace(/\.\s/g, ".<br><br>");
 
+    // EXAM FOCUS BOX
+    formatted += `
+    <div style="
+        margin-top:20px;
+        padding:12px;
+        background:#ecfeff;
+        border-left:5px solid #0891b2;
+        border-radius:10px;
+        font-size:14px;
+    ">
+        <b>Exam Focus:</b><br>
+        • Focus on <b>PYQ patterns</b> from this topic<br>
+        • Revise <b>chronology + key terms</b><br>
+        • Watch for <b>statement-based traps</b><br>
+    </div>
+    `;
+
     return formatted;
 }
-
 
 function loadNotes(subject, topic) {
     const content = notesData[subject][topic];
