@@ -85,7 +85,7 @@
             font-size: 16px;
             margin-top: 10px;
             margin-bottom: 4px;
-            color: #222;
+            color: inherit;
             font-weight: bold;
         }
 
@@ -169,6 +169,7 @@ function formatNotes(text) {
     formatted = formatted.replace(/^[\-\–—\s]+$/gm, "");
     formatted = formatted.replace(/[\-–—]{3,}/g, "");
     formatted = formatted.replace(/^\s*\d+\.\s*$/gm, "");
+    formatted = formatted.replace(/□\d+□/g, "");
     formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][A-Za-z\/\s]{2,}:)/g, " ");
     formatted = formatted.replace(/\s+\d+\.\s*(?=[A-Z][a-z][A-Za-z\/\s]{2,})/g, " ");
     formatted = formatted.replace(/^\s*Important\s+Features\s*:?\s*$/gmi, "");
