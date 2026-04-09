@@ -2106,11 +2106,116 @@
     "explanation": "Shah Nawaz Khan, Prem Kumar Sehgal and Gurbaksh Singh Dhillon were officers of the Indian National Army (INA) led by Subhas Chandra Bose. They became widely known due to the Red Fort Trials (INA Trials) of 1945–46, where they were tried by the British for waging war against the Crown. These trials generated massive nationalist sympathy across India and significantly weakened British legitimacy.",
     "elimination_logic": "Option (a) is incorrect as these individuals belong to a later phase, not Swadeshi (early 1900s). Option (b) is incorrect because they were not part of the Interim Government. Option (c) is incorrect as they were not members of the Constituent Assembly’s Drafting Committee. Their identification is directly linked to INA and Red Fort Trials → option (d)."
   }
-  ]
+  ],
+  
+"MISCELLANEOUS": [
+  {
+    "year": 2015,
+    "question": "Consider the following statements:\n1. The first woman President of the Indian National Congress was Sarojini Naidu.\n2. The first Muslim President of the Indian National Congress was Badruddin Tyabji\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Badruddin Tyabji became the first Muslim President of the Indian National Congress in 1887 (Madras Session). However, the first woman President was Annie Besant in 1917, not Sarojini Naidu. Sarojini Naidu became the first Indian woman President in 1925 (Kanpur Session), which often creates confusion in UPSC questions.",
+    "elimination_logic": "Statement 1 is incorrect because Annie Besant (not Sarojini Naidu) was the first woman INC President. Statement 2 is correct as Badruddin Tyabji was the first Muslim President. Hence eliminate options containing 1 → correct answer (b)."
+  },
+  {
+    "year": 2016,
+    "question": "What was the main reason for the split in the Indian National Congress at Surat in 1907?",
+    "options": [
+      "a) Introduction of communalism by Lord Minto",
+      "b) Extremists’ lack of faith in moderates",
+      "c) Foundation of Muslim League",
+      "d) Aurobindo Ghosh not elected President"
+    ],
+    "correct_answer": "b) Extremists’ lack of faith in the capacity of the moderates to negotiate with the British Government",
+    "explanation": "The Surat Split (1907) was primarily due to ideological differences between Moderates and Extremists. Extremists led by Tilak believed in aggressive methods like boycott and swadeshi, whereas Moderates preferred constitutional methods. The immediate cause was disagreement over leadership and methods, but the core reason was loss of faith of Extremists in Moderate politics.",
+    "elimination_logic": "Option (a) relates to later communal developments, not the cause of split. Option (c) is unrelated chronologically (Muslim League was founded in 1906). Option (d) is a superficial factor, not the main structural reason. The core ideological divide → option (b)."
+  },
+  {
+    "year": 2017,
+    "question": "Consider the following pairs:\n1. Radhakanta Deb — First President of the British Indian Association\n2. Gazulu Lakshminarasu Chetty — Founder of the Madras Mahajana Sabha\n3. Surendranath Banerjee — Founder of the Indian Association\nWhich of the above pairs is/are correctly matched?",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 3 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 1 and 3 only",
+    "explanation": "Radhakanta Deb was associated with the British Indian Association and served as its first President. Surendranath Banerjee founded the Indian Association (1876), which later played a role in early nationalism. However, Gazulu Lakshminarasu Chetty was not the founder of Madras Mahajana Sabha; it was founded by M. Viraraghavachari, G. Subramania Iyer and others.",
+    "elimination_logic": "Pair 1 is correct. Pair 3 is correct. Pair 2 is incorrect due to wrong founder attribution. Hence eliminate options containing 2 → correct answer (b)."
+  },
+  {
+    "year": 2018,
+    "question": "Which among the following events happened earliest?",
+    "options": [
+      "a) Swami Dayanand established Arya Samaj",
+      "b) Dinabandhu Mitra wrote Neeldarpan",
+      "c) Bankim Chandra wrote Anandmath",
+      "d) Satyendranath Tagore succeeded in ICS"
+    ],
+    "correct_answer": "d) Satyendranath Tagore became the first Indian to succeed in the Indian Civil Services",
+    "explanation": "Satyendranath Tagore became the first Indian to qualify for the ICS in 1863. Dinabandhu Mitra’s Neeldarpan was published in 1860 but gained prominence slightly later; Arya Samaj was founded in 1875; Anandmath was written in 1882. Thus, ICS success (1863) is the earliest clearly dated major event.",
+    "elimination_logic": "Arya Samaj (1875) and Anandmath (1882) are clearly later → eliminate (a) and (c). Between (b) and (d), ICS success (1863) is earlier than Neeldarpan’s major impact period → correct answer (d)."
+  },
+  {
+    "year": 2018,
+    "question": "He wrote biographies of Mazzini, Garibaldi, Shivaji and Shrikrishna; stayed in America for some time; and was elected to the Central Assembly. He was:",
+    "options": [
+      "a) Aurobindo Ghosh",
+      "b) Bipin Chandra Pal",
+      "c) Lala Lajpat Rai",
+      "d) Motilal Nehru"
+    ],
+    "correct_answer": "c) Lala Lajpat Rai",
+    "explanation": "Lala Lajpat Rai, a prominent extremist leader, wrote biographies of European revolutionaries like Mazzini and Garibaldi to inspire Indian nationalism. He stayed in the USA during World War I and later became a member of the Central Legislative Assembly. His intellectual and political contributions link him with both international revolutionary thought and Indian nationalism.",
+    "elimination_logic": "Aurobindo (a) was more philosophical and revolutionary in Bengal. Bipin Chandra Pal (b) was a nationalist leader but not known for these biographies. Motilal Nehru (d) was a constitutional politician. Only Lala Lajpat Rai fits all clues → (c)."
+  },
+  {
+    "year": 2019,
+    "question": "With reference to Indian National Movement, consider the following pairs:\n1. Sir Tej Bahadur Sapru – All India Liberal Federation\n2. K.C. Neogy – Member, Constituent Assembly\n3. P.C. Joshi – General Secretary, Communist Party of India\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      "a) 1 only",
+      "b) 1 and 2 only",
+      "c) 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "Tej Bahadur Sapru was a leading liberal associated with the All India Liberal Federation. K.C. Neogy was indeed a member of the Constituent Assembly. P.C. Joshi served as the General Secretary of the Communist Party of India during a crucial phase. All three pairs are correctly matched.",
+    "elimination_logic": "All three associations are factually correct. No mismatch present → correct answer (d)."
+  },
+  {
+    "year": 2021,
+    "question": "With reference to Indian history, which of the following statements is/are correct?\n1) The Nizamat of Arcot emerged out of Hyderabad State\n2) The Mysore Kingdom emerged out of Vijayanagara Empire\n3) Rohilkhand Kingdom was formed out of territories occupied by Ahmad Shah Durrani",
+    "options": [
+      "a) 1 and 2",
+      "b) 2 only",
+      "c) 2 and 3",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Mysore Kingdom did emerge from the decline of the Vijayanagara Empire. However, the Nizamat of Arcot did not emerge from Hyderabad but was a Mughal subah. Rohilkhand was formed by Afghan Rohilla chiefs, not directly by Ahmad Shah Durrani.",
+    "elimination_logic": "Statement 1 is incorrect (wrong origin). Statement 3 is incorrect (wrong attribution). Only statement 2 is correct → answer (b)."
+  },
+  {
+    "year": 2021,
+    "question": "Who among the following is associated with ‘Songs from Prison’?",
+    "options": [
+      "a) Bal Gangadhar Tilak",
+      "b) Jawaharlal Nehru",
+      "c) Mohandas Karamchand Gandhi",
+      "d) Sarojini Naidu"
+    ],
+    "correct_answer": "c) Mohandas Karamchand Gandhi",
+    "explanation": "‘Songs from Prison’ is associated with Mahatma Gandhi, reflecting his engagement with spiritual and philosophical literature during imprisonment. UPSC often tests such cultural-intellectual associations of national leaders.",
+    "elimination_logic": "Tilak is known for ‘Gita Rahasya’, Nehru for ‘Discovery of India’, Sarojini Naidu for poetry. Only Gandhi is linked to this work → (c)."
+  }
+]
 }
 }
-
-
      
     
 
