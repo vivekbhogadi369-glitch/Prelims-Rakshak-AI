@@ -1786,6 +1786,34 @@
     "explanation": "7th August is celebrated as National Handloom Day to commemorate the launch of the Swadeshi Movement in 1905, which promoted indigenous industries including handloom weaving.",
     "elimination_logic": "Both statements are correct and directly linked. The Swadeshi Movement’s emphasis on indigenous goods explains why the same day is commemorated as Handloom Day. Hence option (a) is correct."
   }
+  ],
+  "REVOLUTIONARY_NATIONALISM": [
+  {
+    "year": 2014,
+    "question": "The Ghadr (Ghadar) was a:",
+    "options": [
+      "a) Revolutionary association of Indians with headquarters at San Francisco",
+      "b) Nationalist organization operating from Singapore",
+      "c) Militant organisation with headquarters at Berlin",
+      "d) Communist movement for India’s freedom with head-quarters at Tashkent"
+    ],
+    "correct_answer": "a) Revolutionary association of Indians with headquarters at San Francisco",
+    "explanation": "The Ghadar Party was a revolutionary organization founded in 1913 by Indian expatriates, mainly in the USA and Canada. Its headquarters was at San Francisco. It aimed at overthrowing British rule in India through armed revolution and published the ‘Ghadar’ newspaper to mobilize Indians abroad.",
+    "elimination_logic": "Option (b) is incorrect as Singapore was not its base. Option (c) refers to revolutionary activities in Germany during WWI (Berlin Committee), not Ghadar. Option (d) relates to communist activities linked with Tashkent. Only option (a) correctly identifies Ghadar."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following freedom fighters:\n1. Barindra Kumar Ghosh\n2. Jogesh Chandra Chatterjee\n3. Rash Behari Bose\nWho of the above was/were actively associated with the Ghadar Party?",
+    "options": [
+      "a) 1 and 2",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 3 only"
+    ],
+    "correct_answer": "d) 3 only",
+    "explanation": "Rash Behari Bose played a key role in the Ghadar Movement and revolutionary activities abroad, especially in coordinating plans for armed uprising during World War I. Barindra Kumar Ghosh was associated with revolutionary activities in Bengal (Anushilan Samiti), and Jogesh Chandra Chatterjee was linked with Hindustan Republican Association, not Ghadar.",
+    "elimination_logic": "Statement 1 is incorrect as Barindra Ghosh belonged to Bengal revolutionary groups. Statement 2 is incorrect as Jogesh Chandra Chatterjee was part of HRA. Statement 3 is correct as Rash Behari Bose was linked with Ghadar. Hence only 3 is correct."
+  }
   ]
 }
 }
