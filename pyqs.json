@@ -1638,8 +1638,76 @@
     "explanation": "Raja Ram Mohan Roy combined deep engagement with Indian philosophical traditions, especially the Upanishadic heritage, with a strong commitment to rationality, modern education, social reform and equality. He was both rooted in Indian thought and open to modern scientific and liberal ideas.",
     "elimination_logic": "Statement I is correct because he respected Eastern philosophical systems. Statement II is also correct because he advocated rationalism, human dignity and social reform including women’s upliftment. Therefore both statements are correct."
   }
-    ]
-    }
+    ],
+    
+"PEASANT_TRIBAL_AND_LABOUR_MOVEMENTS": [
+  {
+    "year": 2013,
+    "question": "The demand for the Tebhaga Peasant Movement in Bengal was for___?",
+    "options": [
+      "a) The reduction of the share of the landlords from one-half of the crop to one-third",
+      "b) The grant of ownership of land to peasants as they were the actual cultivators of the land",
+      "c) The uprooting of Zamindari system and the end of serfdom",
+      "d) Writing off all peasant debts"
+    ],
+    "correct_answer": "a) The reduction of the share of the landlords from one-half of the crop to one-third",
+    "explanation": "The Tebhaga Movement (1946–47) in Bengal was led by sharecroppers (bargadars) demanding that they should retain two-thirds (tebhaga) of the produce instead of giving half to the jotedars. It was a peasant movement against exploitative sharecropping arrangements under the zamindari system.",
+    "elimination_logic": "Option (a) directly reflects the demand of reducing landlord share to one-third. Option (b) relates to ownership rights, which was not the immediate Tebhaga demand. Options (c) and (d) are broader agrarian or economic demands but not specific to Tebhaga."
+  },
+  {
+    "year": 2017,
+    "question": "Consider the following statements:\n1. The Factories Act, 1881 was passed with a view to fix the wages of industrial workers and to allow the workers to form trade unions.\n2. N.M. Lokhande was a pioneer in organising the labour movement in British India.\nWhich of the above statements is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Factories Act of 1881 was the first step toward regulating working conditions in factories, especially regarding working hours of women and children. It did not deal with wage fixation or formation of trade unions. N.M. Lokhande is regarded as a pioneer of the labour movement in India and played a key role in organizing workers.",
+    "elimination_logic": "Statement 1 is incorrect because the Act did not address wages or trade unions. Statement 2 is correct as Lokhande is known as an early labour leader. Hence only statement 2 is correct."
+  },
+  {
+    "year": 2017,
+    "question": "The Trade Disputes Act of 1929 provided for:",
+    "options": [
+      "a) The participation of workers in the management of industries",
+      "b) Arbitrary powers to the management to quell industrial disputes",
+      "c) An intervention by the British Court in the event of a trade dispute",
+      "d) A system of tribunals and a ban on strikes"
+    ],
+    "correct_answer": "d) A system of tribunals and a ban on strikes",
+    "explanation": "The Trade Disputes Act, 1929 aimed to control labour unrest by introducing tribunals for dispute resolution and imposing restrictions on strikes, especially in public utility services. It was a restrictive measure against the growing labour movement.",
+    "elimination_logic": "Option (a) is unrelated to the Act. Option (b) is vague and not the legal mechanism. Option (c) is not the core feature. Option (d) correctly identifies tribunals and strike restrictions."
+  },
+  {
+    "year": 2018,
+    "question": "After the Santhal rising subsided, what were the measures taken by the colonial Government?\n1. The territories called ‘Santhal Paraganas’ were created\n2. It became illegal for a Santhal to transfer land to a Non Santhal\nSelect the correct answer using a code given below:",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "After the Santhal rebellion (1855–56), the British created the Santhal Parganas as a separate administrative unit to control and manage tribal areas. They also introduced legal provisions restricting land transfer from Santhals to non-Santhals to protect tribal land rights.",
+    "elimination_logic": "Statement 1 is correct as Santhal Parganas were created. Statement 2 is also correct as land transfer restrictions were imposed. Hence both statements are correct."
+  },
+  {
+    "year": 2018,
+    "question": "Who among the following were the founders of the “Hind Mazdoor Sabha” established in 1948?",
+    "options": [
+      "a) B. Krishna Pillai, E.M.S. Namboodiripad and K.C George",
+      "b) Jayaprakash Narayan, Deen Dayal Upadhyay and M.N Roy",
+      "c) C.P Ramaswamy Iyer, K. Kamaraj and Veeresalingam Pantulu",
+      "d) Ashok Mehta, T.S Ramanujan and G.G Mehta"
+    ],
+    "correct_answer": "d) Ashok Mehta, T.S Ramanujan and G.G Mehta",
+    "explanation": "The Hind Mazdoor Sabha (HMS), founded in 1948, was one of the major trade union organizations in India. It was established by socialist leaders including Ashok Mehta, T.S. Ramanujam and G.G. Mehta as an alternative to communist and Congress-affiliated unions.",
+    "elimination_logic": "Options (a), (b), and (c) list leaders associated with other political or regional movements. Only option (d) correctly identifies the founders of Hind Mazdoor Sabha."
+  }
+]
+}
 }
 
      
