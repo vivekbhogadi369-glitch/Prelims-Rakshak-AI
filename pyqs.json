@@ -1706,7 +1706,87 @@
     "explanation": "The Hind Mazdoor Sabha (HMS), founded in 1948, was one of the major trade union organizations in India. It was established by socialist leaders including Ashok Mehta, T.S. Ramanujam and G.G. Mehta as an alternative to communist and Congress-affiliated unions.",
     "elimination_logic": "Options (a), (b), and (c) list leaders associated with other political or regional movements. Only option (d) correctly identifies the founders of Hind Mazdoor Sabha."
   }
-]
+],
+  "SWADESHI_MOVEMENT": [
+  {
+    "year": 2014,
+    "question": "The Partition of Bengal made by Lord Curzon in 1905 lasted until:",
+    "options": [
+      "a) The First World War when Indian troops were needed by the British and the partition was ended.",
+      "b) King George V abrogated Curzon’s Act at the Royal Durbar in Delhi in 1911",
+      "c) Gandhiji launched his Civil Disobedience Movement.",
+      "d) The Partition of India in 1947 when East Bengal became East Pakistan."
+    ],
+    "correct_answer": "b) King George V abrogated Curzon’s Act at the Royal Durbar in Delhi in 1911",
+    "explanation": "The Partition of Bengal (1905), carried out by Lord Curzon, triggered widespread protests and the Swadeshi Movement. It was annulled in 1911 during the Delhi Durbar by King George V as a response to sustained nationalist opposition.",
+    "elimination_logic": "Option (a) is incorrect as World War I did not lead to the annulment. Option (c) is unrelated chronologically (1930). Option (d) refers to a much later event. Only option (b) correctly identifies the annulment in 1911."
+  },
+  {
+    "year": 2015,
+    "question": "Which one of the following movements has contributed to a split in the Indian National Congress resulting in emergence of ‘moderates’ and ‘extremists?",
+    "options": [
+      "a) Swadeshi Movement",
+      "b) Quit India Movement",
+      "c) Non-Cooperation Movement",
+      "d) Civil Disobedience Movement"
+    ],
+    "correct_answer": "a) Swadeshi Movement",
+    "explanation": "The Swadeshi Movement (1905–08) intensified ideological differences within the Indian National Congress between Moderates and Extremists, culminating in the Surat Split of 1907.",
+    "elimination_logic": "Quit India (1942), Non-Cooperation (1920s), and Civil Disobedience (1930s) occurred much later and did not cause the initial split. The split is historically linked to the Swadeshi phase, making option (a) correct."
+  },
+  {
+    "year": 2016,
+    "question": "The ‘Swadeshi’ and ‘Boycott’ were adopted as methods of struggle for the first time during the:",
+    "options": [
+      "a) Agitation against the Partition of Bengal",
+      "b) Home Rule Movement",
+      "c) Non-Cooperation Movement",
+      "d) Visit of the Simon Commission to India"
+    ],
+    "correct_answer": "a) Agitation against the Partition of Bengal",
+    "explanation": "The Swadeshi and Boycott movements were first systematically used as political tools during the anti-partition agitation of Bengal in 1905. They encouraged use of indigenous goods and rejection of British products.",
+    "elimination_logic": "Home Rule (1916), Non-Cooperation (1920), and Simon Commission protests (1928) came later. The earliest adoption was during the anti-partition agitation, so option (a) is correct."
+  },
+  {
+    "year": 2019,
+    "question": "With reference to Swadeshi Movement, consider the following statements:\n1. It contributed to the revival of the indigenous artisan crafts and industries.\n2. The National Council of Education was established as a part of Swadeshi Movement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "The Swadeshi Movement promoted indigenous industries and revival of traditional crafts. It also led to the establishment of the National Council of Education in Bengal to promote national education free from colonial control.",
+    "elimination_logic": "Statement 1 is correct as Swadeshi encouraged local industries. Statement 2 is also correct as national education initiatives emerged during this movement. Hence both statements are correct."
+  },
+  {
+    "year": 2020,
+    "question": "With reference to the book ‘Desher Katha’ written by Sakharam Ganesh Deuskar during the freedom struggle, consider the following statements:\n1. It warned against the Colonial State’s hypnotic conquest of the mind\n2. It inspired the performance of swadeshi street plays and folk songs\n3. The use of ‘desh’ by Deuskar was in the specific context of the region of Bengal\nWhich of the statements given above are correct?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "‘Desher Katha’ exposed the exploitative nature of British rule and warned Indians about mental colonization. It also inspired cultural expressions like swadeshi songs and plays. However, ‘desh’ was used in a broader national sense, not limited to Bengal.",
+    "elimination_logic": "Statement 1 is correct as the book critiqued colonial domination. Statement 2 is correct due to its cultural influence. Statement 3 is incorrect as ‘desh’ referred to the nation, not just Bengal."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements:\nStatement-I: 7th August is declared as the National Handloom Day.\nStatement-II: It was in 1905 that the Swadeshi Movement was launched on the same day.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+      "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+      "c) Statement-I is correct Statement-II is incorrect",
+      "d) Statement-I is incorrect but Statement-II is correct"
+    ],
+    "correct_answer": "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+    "explanation": "7th August is celebrated as National Handloom Day to commemorate the launch of the Swadeshi Movement in 1905, which promoted indigenous industries including handloom weaving.",
+    "elimination_logic": "Both statements are correct and directly linked. The Swadeshi Movement’s emphasis on indigenous goods explains why the same day is commemorated as Handloom Day. Hence option (a) is correct."
+  }
+  ]
 }
 }
 
