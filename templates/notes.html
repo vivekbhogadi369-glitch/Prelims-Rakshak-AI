@@ -88,6 +88,15 @@
             color: #0f766e;
         }
 
+        .notes-box p {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .notes-box .bullet {
+            margin-bottom: 6px;
+        }
+
         .back-btn {
             background: #475569;
             margin-bottom: 8px;
@@ -161,35 +170,30 @@ function loadTopics(subject, btn) {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-
-// CLEAN + PREMIUM FORMAT
 function formatNotes(text) {
+    let formatted = text || "";
 
-    let formatted = text;
+    formatted = formatted.replace(/\r/g, "");
+    formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
-    // REMOVE JUNK
-    formatted = formatted.replace(/\(.*?\)/g, "");
-    formatted = formatted.replace(/-+/g, "");
-    formatted = formatted.replace(/\bI\b/g, "");
+    const blocks = formatted.split("\n").map(line => line.trim()).filter(line => line !== "");
 
-    // CLEAN SPACES
-    formatted = formatted.replace(/\n\s*\n/g, "\n");
-    
-    // HEADINGS (only clean uppercase lines)
-    formatted = formatted.replace(/\n([A-Z\s]{6,})\n/g, "\n<h2>$1</h2>\n");
+    let html = "";
 
-    // SUBHEADINGS
-    formatted = formatted.replace(/(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points)/gi, "<h3>$1</h3>");
+    for (let line of blocks) {
+        if (/^[A-Z\s]{6,}$/.test(line)) {
+            html += `<h2>${line}</h2>`;
+        } else if (/^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Important Sites|Regional Pattern|PYQ Trap)$/i.test(line)) {
+            html += `<h3>${line}</h3>`;
+        } else if (line.startsWith("•")) {
+            html += `<div class="bullet">${line}</div>`;
+        } else {
+            html += `<p>${line}</p>`;
+        }
+    }
 
-    // BULLETS
-    formatted = formatted.replace(/•/g, "<br>• ");
-
-    // PARAGRAPH BREAK
-    formatted = formatted.replace(/\.\s/g, ".<br><br>");
-
-    return formatted;
+    return html;
 }
-
 
 function loadNotes(subject, topic) {
     const content = notesData[subject][topic];
@@ -200,7 +204,7 @@ function loadNotes(subject, topic) {
         text = content;
     } else if (typeof content === "object") {
         for (let key in content) {
-            text += key + ":\n" + content[key] + "\n\n";
+            text += key + "\n" + content[key] + "\n\n";
         }
     }
 
