@@ -56,11 +56,33 @@
             border-radius: 12px;
             color: white;
             cursor: pointer;
+            transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+            font-weight: 500;
         }
 
-        .pyq { background: #7c3aed; }
-        .notes { background: #c2410c; }
-        .mcq { background: #1d3557; }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 18px rgba(0,0,0,0.16);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+            opacity: 0.96;
+        }
+
+        .pyq {
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+        }
+
+        .notes {
+            background: linear-gradient(135deg, #ea580c, #c2410c);
+        }
+
+        .mcq {
+            background: linear-gradient(135deg, #284879, #1d3557);
+        }
 
         .footer {
             text-align: center;
@@ -73,6 +95,10 @@
             .btn {
                 font-size: 15px;
                 padding: 13px;
+            }
+
+            .highlight {
+                font-size: 16px;
             }
         }
     </style>
