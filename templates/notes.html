@@ -124,7 +124,7 @@ let notesData = {};
 let currentSubject = "";
 
 async function loadSubjects() {
-    const res = await fetch('/static/history_notes.json');
+    const res = await fetch('/static/Ancient history_notes.json');
     notesData = await res.json();
 
     let html = "";
@@ -162,7 +162,7 @@ function loadTopics(subject, btn) {
 }
 
 
-// 🔥 CLEAN + PREMIUM FORMAT
+// CLEAN + PREMIUM FORMAT
 function formatNotes(text) {
 
     let formatted = text;
