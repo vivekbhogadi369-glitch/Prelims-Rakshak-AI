@@ -133,7 +133,7 @@ let notesData = {};
 let currentSubject = "";
 
 async function loadSubjects() {
-    const res = await fetch('/static/Ancient history_notes.json');
+    const res = await fetch('/static/notes.json');
     notesData = await res.json();
 
     let html = "";
