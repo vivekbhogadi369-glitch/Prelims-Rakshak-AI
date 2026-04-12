@@ -181,7 +181,7 @@ function formatNotes(text) {
     let html = "";
 
     for (let line of blocks) {
-        if (/^[A-Z\s]{6,}$/.test(line)) {
+        if (/^[A-Z\s]{4,}$/.test(line)) {
             html += `<h2>${line}</h2>`;
         } else if (/^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Important Sites|Regional Pattern|PYQ Trap)$/i.test(line)) {
             html += `<h3>${line}</h3>`;
