@@ -2840,6 +2840,47 @@
     "explanation": "Article 39(b) and (c) under DPSP aim to prevent concentration of wealth and ensure equitable distribution of resources.",
     "elimination_logic": "UPSC trap: students mark equality. However, concentration of wealth is addressed explicitly in DPSP (Article 39). Hence eliminate (a) and choose (b)."
   }
+    ],
+    "Fundamental Duties": [
+  {
+    "year": 2015,
+    "question": "To uphold and protect the Sovereignty, Unity and Integrity of India is a provision made in the:",
+    "options": [
+      "a) Preamble of the Constitution",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Rights",
+      "d) Fundamental Duties"
+    ],
+    "correct_answer": "d) Fundamental Duties",
+    "explanation": "Article 51A(c) under Fundamental Duties explicitly states that it shall be the duty of every citizen 'to uphold and protect the sovereignty, unity and integrity of India'. Fundamental Duties were added by the 42nd Amendment (1976) to emphasize civic responsibility.",
+    "elimination_logic": "Option (a) is a trap—Preamble mentions ‘unity and integrity’ as ideals but does not impose a duty. Option (b) relates to State obligations, not citizens. Option (c) deals with rights, not duties. UPSC tests ‘citizen duty vs constitutional ideal’ distinction → only Fundamental Duties correctly impose this obligation."
+  },
+  {
+    "year": 2017,
+    "question": "Which of the following statements is/are true of the Fundamental Duties of an Indian citizen? 1. A legislative process has been provided to enforce these duties 2. They are correlative to legal duties",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Fundamental Duties are non-justiciable and not directly enforceable by courts. The Constitution does not provide a specific legislative mechanism for their enforcement. While Parliament can enact laws to give effect to certain duties (e.g., Prevention of Insults to National Honour Act), they are not inherently ‘correlative’ legal duties like Fundamental Rights are to State obligations.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: no direct enforcement mechanism exists in Constitution. Statement 2 is incorrect—Fundamental Duties are moral obligations, not strictly correlative legal duties (unlike rights-duty relationship in law). Hence eliminate all options except (d)."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements regarding the National Flag of India: Statement-I: One of the standard sizes is 600 mm x 400 mm. Statement-II: The ratio of length to height is 3:2.",
+    "options": [
+      "a) Both correct and explanation",
+      "b) Both correct but not explanation",
+      "c) Statement-I correct only",
+      "d) Statement-I incorrect but Statement-II correct"
+    ],
+    "correct_answer": "d) Statement-I incorrect but Statement-II correct",
+    "explanation": "As per the Flag Code of India, 2002, the ratio of the length to height of the National Flag is 3:2. However, the standard sizes prescribed do not include 600 mm x 400 mm; instead, they follow specific notified dimensions like 630 × 420 mm, etc.",
+    "elimination_logic": "Statement-II is a direct factual standard (3:2 ratio) → clearly correct. Statement-I is a numerical trap—UPSC tests precision in dimensions; 600×400 looks proportional but is not a notified standard size. Hence eliminate options where Statement-I is correct → only (d) remains."
+  }
     ]
   }
 }
