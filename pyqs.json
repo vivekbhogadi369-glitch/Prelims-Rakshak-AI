@@ -2496,6 +2496,21 @@
     "explanation": "Statement 1 is incorrect because the Preamble is a part of the Constitution (Kesavananda Bharati case). Though it is not independently enforceable, it still has constitutional status. Statement 2 is also incorrect because while Liberty, Equality, and Fraternity are inspired by the French Revolution, UPSC expects precision — these ideals are adopted but not 'directly taken' in a strict historical sense; the Constitution reflects multiple sources.",
     "elimination_logic": "Statement 1 is clearly wrong → eliminate (a), (c). Statement 2 appears correct but is a subtle UPSC trap — overly simplistic attribution. Hence eliminate (b). Final → (d)."
   }
+    ],
+    "Citizenship": [
+  {
+    "year": 2021,
+    "question": "With reference to India, consider the following statements: 1) There is only ‘one citizenship and one domicile’. 2) A citizen by birth only can become the Head of State. 3) A foreigner once granted the citizenship cannot be deprived of it under any circumstances",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 2 and 3"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "India follows the principle of single citizenship, unlike federal countries like the USA which have dual citizenship (state + federal). The Constitution also broadly follows the idea of single domicile, though domicile as a legal concept is distinct from citizenship. Regarding eligibility for President (Head of State), Article 58 only requires that the person be a citizen of India, not necessarily a citizen by birth. Further, under the Citizenship Act, 1955, citizenship can be terminated, renounced, or deprived under certain conditions, such as fraud or disloyalty to the Constitution.",
+    "elimination_logic": "Statement 1 is correct → India has single citizenship (no dual citizenship system). Statement 2 is incorrect → UPSC trap inspired by US Constitution (natural-born citizen rule); India has no such restriction. Statement 3 is incorrect → Citizenship Act allows deprivation under specific conditions. Hence only Statement 1 is correct → option (a)."
+  }
     ]
   }
 }
