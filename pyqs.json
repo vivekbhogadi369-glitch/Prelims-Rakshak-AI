@@ -4211,6 +4211,73 @@
     "explanation": "Municipalities are covered under Part IX-A, Emergency provisions under Part XVIII, and Constitutional amendment under Part XX. These are direct constitutional mappings.",
     "elimination_logic": "All mappings are correct. No trap. Hence option (d)."
   }
+    ],
+    "Scheduled and Tribal Areas": [
+  {
+    "year": 2015,
+    "question": "The provisions in the Fifth Schedule and Sixth Schedule are made to:",
+    "options": [
+      "a) Protect the interests of Scheduled Tribes",
+      "b) Determine state boundaries",
+      "c) Define Panchayat powers",
+      "d) Protect border states"
+    ],
+    "correct_answer": "a) Protect the interests of Scheduled Tribes",
+    "explanation": "The Fifth Schedule deals with administration and control of Scheduled Areas and Scheduled Tribes in most parts of India, while the Sixth Schedule provides for autonomous district councils in tribal areas of Northeast India. Both aim at protecting tribal interests, culture, and governance systems.",
+    "elimination_logic": "Options b, c, d relate to unrelated constitutional domains (federal boundaries, Panchayats, border security). Core purpose of both Schedules is tribal protection → option (a)."
+  },
+  {
+    "year": 2019,
+    "question": "Under which Schedule can transfer of tribal land for mining be declared null and void?",
+    "options": [
+      "a) Third Schedule",
+      "b) Fifth Schedule",
+      "c) Ninth Schedule",
+      "d) Twelfth Schedule"
+    ],
+    "correct_answer": "b) Fifth Schedule",
+    "explanation": "Under the Fifth Schedule, the Governor has powers to restrict or prohibit transfer of tribal land to non-tribals and regulate land use in Scheduled Areas. This has been upheld in landmark cases like Samatha case (1997), where such transfers for mining were declared invalid.",
+    "elimination_logic": "Third Schedule → oaths; Ninth Schedule → laws immune from judicial review; Twelfth Schedule → municipalities. Only Fifth Schedule deals with tribal land protection → option (b)."
+  },
+  {
+    "year": 2021,
+    "question": "Which ministry is the nodal agency for implementation of Forest Rights Act, 2006?",
+    "options": [
+      "a) Ministry of Environment",
+      "b) Ministry of Panchayati Raj",
+      "c) Ministry of Rural Development",
+      "d) Ministry of Tribal Affairs"
+    ],
+    "correct_answer": "d) Ministry of Tribal Affairs",
+    "explanation": "The Ministry of Tribal Affairs is the nodal agency for implementation of the Forest Rights Act, 2006, reflecting the focus on tribal rights rather than purely environmental regulation.",
+    "elimination_logic": "Environment Ministry seems logical but is a trap. FRA is about rights of forest dwellers, not conservation alone → Ministry of Tribal Affairs → option (d)."
+  },
+  {
+    "year": 2022,
+    "question": "If an area is brought under Fifth Schedule, what is the consequence?",
+    "options": [
+      "a) Prevent transfer of tribal land to non-tribals",
+      "b) Create local self-government body",
+      "c) Convert into Union Territory",
+      "d) Declare Special Category State"
+    ],
+    "correct_answer": "a) Prevent transfer of tribal land to non-tribals",
+    "explanation": "Fifth Schedule provides safeguards for tribal land and governance. The Governor can regulate or prohibit transfer of land from tribals to non-tribals to prevent exploitation.",
+    "elimination_logic": "Options b, c, d are unrelated (Panchayats, UT conversion, finance classification). Core feature is land protection → option (a)."
+  },
+  {
+    "year": 2025,
+    "question": "If an area is declared Scheduled Area under Fifth Schedule: I. State loses executive power II. Union can take over administration on Governor's recommendation",
+    "options": [
+      "a) I only",
+      "b) II only",
+      "c) Both I and II",
+      "d) Neither I nor II"
+    ],
+    "correct_answer": "d) Neither I nor II",
+    "explanation": "Even in Scheduled Areas, the State Government retains executive power, though subject to special provisions like Governor's regulations. Also, the Constitution does not provide for Union takeover of Scheduled Areas based on Governor’s recommendation under Fifth Schedule.",
+    "elimination_logic": "Statement I is incorrect—no complete transfer of power to local bodies. Statement II is incorrect—no such constitutional provision exists. Both wrong → option (d)."
+  }
     ]
   }
 }
