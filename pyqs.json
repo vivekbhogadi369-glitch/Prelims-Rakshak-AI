@@ -3182,62 +3182,88 @@
     "elimination_logic": "Statement 1 is incorrect—UPSC trap: distinction between ‘constitutional provision’ vs ‘convention’; ranks are not mentioned in Constitution. Statement 2 is correct—15% cap introduced by 91st Amendment. Hence eliminate options containing 1 → correct answer (b)."
   }
     ],
-    "Parliament": [
+"Parliament": [
   {
     "year": 2013,
     "question": "The Parliament can make any law for whole or any part of India for implementing international treaties?",
     "options": [
-      "a) With consent of all states",
-      "b) With consent of majority of states",
-      "c) With consent of states concerned",
-      "d) Without consent of any states"
+      "a) With the consent of all the states",
+      "b) With the consent of the majority of states",
+      "c) With the consent of the states concerned",
+      "d) Without the consent of any states"
     ],
-    "correct_answer": "d) Without consent of any states",
-    "explanation": "Under Article 253, Parliament has the power to make laws for implementing international treaties, agreements or conventions, even on subjects in the State List. This power overrides federal distribution and does not require consent of states.",
-    "elimination_logic": "UPSC trap: federalism vs international obligation. Options (a), (b), (c) assume state consent → incorrect. Article 253 clearly bypasses state consent → correct (d)."
+    "correct_answer": "d) Without the consent of any states",
+    "explanation": "Article 253 empowers Parliament to make laws for the whole or any part of India for implementing treaties, agreements and conventions with foreign countries, or decisions taken at international conferences. This power operates even on matters falling in the State List. Therefore, treaty implementation is a constitutional exception to the ordinary federal distribution of legislative powers. UPSC uses this theme to test whether the student can distinguish normal Centre-State legislative division from exceptional treaty-based parliamentary power.",
+    "elimination_logic": "Options (a), (b) and (c) are built on a federal-consent assumption. That assumption is incorrect in the context of Article 253. Parliament does not need consent of all states, majority of states, or only concerned states. Once the question says 'implementing international treaties', Article 253 becomes the key. Therefore, option (d) is correct."
   },
   {
     "year": 2013,
-    "question": "What happens if a Money Bill is substantially amended by the Rajya Sabha?",
+    "question": "What will follow if a Money Bill is substantially amended by the Rajya Sabha?",
     "options": [
-      "a) Lok Sabha may accept or reject recommendations",
-      "b) Lok Sabha cannot proceed",
-      "c) Lok Sabha must reconsider",
-      "d) Joint sitting is called"
+      "a) The Lok Sabha may still proceed with the bill, accepting or not accepting the recommendations of the Rajya Sabha",
+      "b) The Lok Sabha cannot consider the bill further",
+      "c) The Lok Sabha may send the bill to the Rajya Sabha for reconsideration",
+      "d) The President may call a joint sitting for passing the bill"
     ],
-    "correct_answer": "a) Lok Sabha may accept or reject recommendations",
-    "explanation": "Under Article 109, Rajya Sabha cannot amend or reject a Money Bill; it can only recommend changes. Lok Sabha is free to accept or reject those recommendations.",
-    "elimination_logic": "Key trap: RS has no veto on Money Bill. Options (b), (c), (d) assume equal power → incorrect. Only (a) reflects advisory role → correct."
+    "correct_answer": "a) The Lok Sabha may still proceed with the bill, accepting or not accepting the recommendations of the Rajya Sabha",
+    "explanation": "Under Article 109, Rajya Sabha has only a recommendatory role in the case of a Money Bill. It cannot amend or reject the bill in a binding manner. It must return the bill within 14 days with recommendations, and the Lok Sabha may either accept or reject any or all of them. This shows the financial supremacy of the Lok Sabha in parliamentary government.",
+    "elimination_logic": "Option (b) is wrong because Rajya Sabha cannot block further consideration of a Money Bill. Option (c) is wrong because there is no constitutional requirement of reconsideration by Rajya Sabha in the way ordinary bills may go back and forth. Option (d) is wrong because joint sitting is not available for a Money Bill. Therefore, even if Rajya Sabha proposes substantial changes, Lok Sabha remains free to proceed under option (a)."
   },
   {
     "year": 2014,
-    "question": "No-confidence motion statements",
+    "question": "Consider the following statements regarding a No-Confidence Motion in India: 1. There is no mention of a No Confidence Motion in the Constitution of India. 2. A motion of No-Confidence can be introduced in the Lok Sabha only. Which of the statements given above is/are correct?",
     "options": [
       "a) 1 only",
       "b) 2 only",
       "c) Both 1 and 2",
-      "d) Neither"
+      "d) Neither 1 nor 2"
     ],
     "correct_answer": "c) Both 1 and 2",
-    "explanation": "No-confidence motion is not explicitly mentioned in the Constitution but derives from Article 75 (collective responsibility). It can be introduced only in Lok Sabha as the government is responsible to Lok Sabha.",
-    "elimination_logic": "Statement 1 correct—implicit provision. Statement 2 correct—only LS controls executive survival. Hence (c)."
+    "explanation": "The expression 'No-Confidence Motion' is not explicitly mentioned in the Constitution. However, its basis lies in Article 75(3), which makes the Council of Ministers collectively responsible to the Lok Sabha. Since the ministry survives only so long as it enjoys the confidence of the Lok Sabha, the motion can be introduced only in that House. Rajya Sabha cannot remove the government through such a motion.",
+    "elimination_logic": "Statement 1 is correct because UPSC is testing the difference between an express constitutional phrase and a procedure derived from constitutional principle. Statement 2 is correct because collective responsibility is to Lok Sabha alone, not Parliament as a whole. Hence options (a) and (b) are incomplete, and option (d) is plainly wrong. Therefore, option (c) is correct."
   },
   {
-    "year": 2015,
-    "question": "Joint sitting bill passage",
+    "year": 2014,
+    "question": "The power to increase the number of judges in the Supreme Court of India is vested in:",
     "options": [
-      "a) Simple majority",
-      "b) Three-fourths",
-      "c) Two-thirds",
-      "d) Absolute majority"
+      "a) The President of India",
+      "b) The Parliament",
+      "c) The Chief Justice of India",
+      "d) The Law Commission"
     ],
-    "correct_answer": "a) Simple majority",
-    "explanation": "Under Article 108, bills in joint sitting are passed by simple majority of members present and voting.",
-    "elimination_logic": "UPSC trap: confusing with constitutional amendment (special majority). Joint sitting uses simple majority → (a)."
+    "correct_answer": "b) The Parliament",
+    "explanation": "Article 124 provides the constitutional framework for the Supreme Court, while Parliament is empowered to regulate by law the number of judges. Accordingly, the sanctioned strength of the Supreme Court is altered through parliamentary legislation. The President appoints judges, but the power to increase the number of judges is legislative, not merely executive.",
+    "elimination_logic": "Option (a) is wrong because the President appoints judges but does not independently increase the sanctioned strength. Option (c) is wrong because the Chief Justice has institutional importance in appointments and administration, but no power to legislate. Option (d) is wrong because the Law Commission is only recommendatory. Thus, the only constitutionally competent body here is Parliament under option (b)."
+  },
+  {
+    "year": 2014,
+    "question": "Consider the following statements: 1. The chairman and the deputy chairman of the Rajya Sabha are not the members of that house. 2. While the nominated members of the two houses of the Parliament have no voting right in the presidential election, they have the right to vote in the election of the Vice President. Which of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Chairman of Rajya Sabha is the Vice-President of India and is not a member of the House. However, the Deputy Chairman is elected from among the members of Rajya Sabha and therefore must be a member. So Statement 1 is incorrect. Statement 2 is correct because nominated members do not participate in the election of the President, but they do participate in the election of the Vice-President, since that electoral college consists of members of both Houses of Parliament, including nominated members.",
+    "elimination_logic": "Statement 1 is a mixed trap: one part about Chairman is true, but the part about Deputy Chairman is false. UPSC often frames such blended statements. Statement 2 is correct and tests a standard contrast between the President’s and Vice-President’s electoral colleges. Hence only option (b) is correct."
   },
   {
     "year": 2015,
-    "question": "Rajya Sabha powers",
+    "question": "When a bill is referred to a joint sitting of both the Houses of Parliament, it has to be passed by:",
+    "options": [
+      "a) A simple majority of members present and voting",
+      "b) Three-fourths majority of members present and voting",
+      "c) Two-thirds majority of the House",
+      "d) Absolute majority of the House"
+    ],
+    "correct_answer": "a) A simple majority of members present and voting",
+    "explanation": "Under Article 108, a joint sitting is a mechanism to resolve deadlock between the two Houses in the case of an ordinary bill. At such a sitting, the bill is passed by a simple majority of members present and voting. It is not treated like a constitutional amendment or another special class of legislation requiring a special majority.",
+    "elimination_logic": "Options (b), (c) and (d) are traps based on overestimating the threshold. UPSC often tests whether the student confuses joint sitting with special-majority situations such as constitutional amendments. Since Article 108 uses ordinary majority logic, option (a) is correct."
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following statements: 1. The Rajya Sabha has no power either to reject or to amend a Money Bill 2. The Rajya Sabha cannot vote on the Demands for Grants. 3. The Rajya Sabha cannot discuss the Annual Financial Statement. Which of the statements given above is/are correct?",
     "options": [
       "a) 1 only",
       "b) 1 and 2 only",
@@ -3245,77 +3271,155 @@
       "d) 1, 2 and 3"
     ],
     "correct_answer": "b) 1 and 2 only",
-    "explanation": "Rajya Sabha cannot amend or reject Money Bills and cannot vote on Demands for Grants. However, it can discuss the Annual Financial Statement.",
-    "elimination_logic": "Statement 3 is wrong—RS can discuss budget. UPSC trap: ‘no power’ exaggeration → eliminate options containing 3."
+    "explanation": "Rajya Sabha has only a limited role regarding Money Bills: it cannot reject or amend them in a binding way, but may only recommend changes. It also cannot vote on Demands for Grants, as that is an exclusive privilege of the Lok Sabha. However, Rajya Sabha can discuss the Annual Financial Statement. Thus the key distinction is between the power to discuss and the power to vote.",
+    "elimination_logic": "Statement 1 is correct because Rajya Sabha has no effective veto over a Money Bill. Statement 2 is correct because Demands for Grants are voted upon only in Lok Sabha. Statement 3 is incorrect because Rajya Sabha can discuss the Annual Financial Statement even though it cannot vote on grants. Therefore, any option containing Statement 3 is wrong, leaving option (b)."
   },
   {
     "year": 2016,
-    "question": "Bill lapse rules",
+    "question": "Which of the following statements is/are correct? 1. A Bill pending in the Lok Sabha lapses on its prorogation. 2. A Bill pending in the Rajya Sabha, which has not been passed by the Lok Sabha, shall not lapse on dissolution of the Lok Sabha. Select the correct answer using the code given below.",
     "options": [
       "a) 1 only",
       "b) 2 only",
-      "c) Both",
-      "d) Neither"
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
     ],
     "correct_answer": "b) 2 only",
-    "explanation": "Prorogation does not cause lapse of bills. A bill pending in Rajya Sabha does not lapse on dissolution of Lok Sabha.",
-    "elimination_logic": "Statement 1 wrong—UPSC trap: prorogation ≠ lapse. Statement 2 correct → (b)."
+    "explanation": "Prorogation does not cause bills to lapse. It only terminates a session. Dissolution of Lok Sabha, however, affects bills differently depending on the stage and the House in which they are pending. A bill pending in Rajya Sabha that has not yet been passed by Lok Sabha does not lapse merely because Lok Sabha is dissolved. UPSC often tests the distinction between adjournment, prorogation and dissolution through such questions.",
+    "elimination_logic": "Statement 1 is incorrect because prorogation does not extinguish pending business in the way dissolution may. Statement 2 is correct because a bill originating and pending in Rajya Sabha survives dissolution of Lok Sabha. Thus, option (b) is correct."
   },
   {
     "year": 2016,
-    "question": "State List legislation in national interest",
+    "question": "The Parliament of India acquires the power to legislate on any item in the State List in the national interest if a resolution to that effect is passed by the:",
     "options": [
-      "a) LS simple majority",
-      "b) LS 2/3 total",
-      "c) RS simple majority",
-      "d) RS 2/3 present and voting"
+      "a) Lok Sabha by a simple majority of its total membership",
+      "b) Lok Sabha by a majority of not less than two-thirds of its total membership",
+      "c) Rajya Sabha by a simple majority of its total membership",
+      "d) Rajya Sabha by a majority of not less than two-thirds of its members present and voting"
     ],
-    "correct_answer": "d) RS 2/3 present and voting",
-    "explanation": "Under Article 249, Rajya Sabha can empower Parliament to legislate on State List by 2/3rd majority of members present and voting.",
-    "elimination_logic": "UPSC trap: LS vs RS confusion. Only RS has this special federal role → eliminate LS options."
+    "correct_answer": "d) Rajya Sabha by a majority of not less than two-thirds of its members present and voting",
+    "explanation": "Article 249 gives Rajya Sabha a special federal role. If Rajya Sabha declares by a resolution supported by not less than two-thirds of members present and voting that it is necessary in the national interest, Parliament may legislate on a State List subject. This is one of the special powers of Rajya Sabha as the Council of States.",
+    "elimination_logic": "Options (a) and (b) are wrong because Lok Sabha has no such constitutional role under Article 249. Option (c) is wrong because the required majority is not simple majority. UPSC typically tests both the House and the exact majority. Therefore, option (d) is correct."
   },
   {
     "year": 2017,
-    "question": "Parliament control over executive",
+    "question": "For election to the Lok Sabha, a nomination paper can be filed by:",
+    "options": [
+      "a) Anyone residing in India.",
+      "b) A resident of the constituency from which the election is to be contested.",
+      "c) Any citizen of India whose name appears in the electoral roll of a constituency.",
+      "d) Any citizen of India."
+    ],
+    "correct_answer": "c) Any citizen of India whose name appears in the electoral roll of a constituency.",
+    "explanation": "To contest an election to the Lok Sabha, the person must be a citizen of India and must be an elector, meaning his or her name must appear in the electoral roll of some parliamentary constituency. Residence in the same constituency from which the election is being contested is not a mandatory condition. UPSC asks this to distinguish among mere citizenship, residence and elector status.",
+    "elimination_logic": "Option (a) is too broad because residence alone is insufficient. Option (b) is wrong because residence in the constituency is not compulsory. Option (d) is also insufficient because citizenship alone does not satisfy the requirement unless the person is an elector. Only option (c) correctly combines citizenship with inclusion in an electoral roll."
+  },
+  {
+    "year": 2017,
+    "question": "Consider the following statements: 1. In the election for Lok Sabha or State Assembly, the winning candidate must get at least 50 percent of the votes polled, to be declared elected. 2. According to the provisions laid down in the Constitution of India, in Lok Sabha, the Speaker’s post goes to the majority party and the Deputy Speaker’s to the Opposition. Which of the statements given above is/are correct?",
     "options": [
       "a) 1 only",
-      "b) 2 and 3",
-      "c) 1 and 3",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "India follows the first-past-the-post system, under which a candidate need not secure 50 percent of the votes polled; the candidate who gets the highest number of valid votes wins. Also, the Constitution does not mandate that the Speaker must come from the majority party and the Deputy Speaker from the Opposition. At best this may be a political convention in some periods, but it is not a constitutional rule.",
+    "elimination_logic": "Statement 1 is incorrect because UPSC is testing confusion between plurality system and majority system. Statement 2 is incorrect because it turns political convention into a constitutional mandate. Since both are wrong, option (d) is correct."
+  },
+  {
+    "year": 2017,
+    "question": "The Parliament of India exercises control over the functions of the Council of Ministers through: 1. Adjournment motion 2. Question hour 3. Supplementary questions Select the correct answer using the code given below:",
+    "options": [
+      "a) 1 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
       "d) 1, 2 and 3"
     ],
     "correct_answer": "d) 1, 2 and 3",
-    "explanation": "Parliament controls executive through multiple tools—Question Hour, Supplementary questions, Adjournment motions etc.",
-    "elimination_logic": "All listed mechanisms are valid → no elimination → (d)."
+    "explanation": "Parliamentary control over the executive is exercised through several procedural devices. Question Hour enables direct scrutiny of ministers. Supplementary questions sharpen that scrutiny by probing the answer further. Adjournment motion is another important device to raise a definite matter of urgent public importance and to hold the government accountable. Together, these are all part of parliamentary oversight.",
+    "elimination_logic": "There is no hidden exclusion here. Statement 1 is correct, Statement 2 is correct, and Statement 3 is also correct. UPSC sometimes gives a straightforward institutional-control question to test whether students unnecessarily over-eliminate. Hence option (d) is correct."
+  },
+  {
+    "year": 2017,
+    "question": "With reference to the Parliament of India, consider the following statements: 1. A private member’s bill is a bill presented by a Member of Parliament who is not elected but only nominated by the President of India. 2. Recently, a private member’s bill has been passed in the Parliament of India for the first time in its history. Which of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "A private member’s bill is simply a bill introduced by any member who is not a minister. It has nothing to do with whether the member is elected or nominated. Also, private member’s bills had been passed earlier in parliamentary history, so it was not the first instance. This question tests the distinction between 'private member' and 'nominated member', which students often confuse.",
+    "elimination_logic": "Statement 1 is incorrect because the defining criterion is 'not a minister', not 'nominated by the President'. Statement 2 is also incorrect because the claim 'for the first time in history' is factually false. Therefore, both are wrong and option (d) is correct."
   },
   {
     "year": 2018,
-    "question": "Money Bill incorrect statement",
+    "question": "Regarding Money Bill, which of the following statements is not correct?",
     "options": [
-      "a) Tax provisions",
-      "b) Consolidated Fund",
-      "c) Contingency Fund appropriation",
-      "d) Borrowing regulation"
+      "a) A bill shall be deemed to be a Money Bill if it contains only provisions relating to imposition, abolition, remission, alteration or regulation of any tax.",
+      "b) A Money Bill has provisions for the custody of the Consolidated Fund of India or the Contingency Fund of India.",
+      "c) A Money Bill is concerned with the appropriation of moneys out of the Contingency Fund of India.",
+      "d) A Money Bill deals with the regulation of borrowing of money or giving of any guarantee by the Government of India."
     ],
-    "correct_answer": "c) Contingency Fund appropriation",
-    "explanation": "Money Bills deal with Consolidated Fund, not Contingency Fund appropriation.",
-    "elimination_logic": "UPSC trap: Consolidated vs Contingency Fund confusion → eliminate (c) as incorrect."
+    "correct_answer": "c) A Money Bill is concerned with the appropriation of moneys out of the Contingency Fund of India.",
+    "explanation": "Article 110 defines a Money Bill. It includes taxation, borrowing by the Government of India, custody of the Consolidated Fund or Contingency Fund, and appropriation of money out of the Consolidated Fund of India. The appropriation part relates to the Consolidated Fund, not the Contingency Fund. UPSC often asks such questions to check whether the student knows the exact constitutional wording.",
+    "elimination_logic": "Option (a) is correct because taxation matters are a core part of Money Bill definition. Option (b) is correct because custody of both funds is covered. Option (d) is correct because borrowing and guarantees are expressly mentioned. Option (c) is incorrect because appropriation is from the Consolidated Fund, not the Contingency Fund. Therefore, option (c) is the right answer."
+  },
+  {
+    "year": 2018,
+    "question": "Consider the following statements: 1. In the first Lok Sabha, the single largest party in the opposition was the Swatantra Party. 2. In the Lok Sabha, a 'Leader of the Opposition' was recognised for the first time in 1969. 3. In the Lok Sabha, if a party does not have a minimum of 75 members, its leader cannot be recognised as the Leader of the Opposition. Which of the statements given above is/are correct?",
+    "options": [
+      "a) 1 and 3 only",
+      "b) 2 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Swatantra Party was formed later and could not have been the largest opposition group in the first Lok Sabha. Statement 2 is correct: the office of Leader of the Opposition in Lok Sabha came to be formally recognized in 1969. Statement 3 is incorrect because the usual benchmark discussed is one-tenth of the total House strength, not a fixed number of 75 members.",
+    "elimination_logic": "Statement 1 is historically wrong. Statement 2 is correct and is the core fact being tested. Statement 3 is a numerical trap: UPSC often changes a known benchmark to a wrong fixed number. Since only Statement 2 is correct, option (b) is correct."
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements: 1. The Parliament (Prevention of Disqualification) Act, 1959 exempts several posts from disqualification on the grounds of 'Office of Profit'. 2. The above-mentioned Act was amended five times. 3. The term 'Office of Profit' is well-defined in the Constitution of India. Which of the statements given above is/are correct?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 3 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "The Parliament (Prevention of Disqualification) Act, 1959 exempts certain offices from disqualification under the office of profit rule. It was amended multiple times, including five times as referred to in the question. However, the Constitution does not itself define 'office of profit'; its meaning has been developed through judicial interpretation and practice. UPSC tests here whether the student knows the difference between a constitutional disqualification ground and the absence of a precise constitutional definition.",
+    "elimination_logic": "Statement 1 is correct because the Act is specifically designed for such exemptions. Statement 2 is also correct. Statement 3 is incorrect because 'office of profit' is not well-defined in the Constitution. Hence any option containing Statement 3 must be rejected. Therefore, option (a) is correct."
   },
   {
     "year": 2020,
-    "question": "Rajya Sabha equal powers",
+    "question": "Rajya Sabha has equal powers with Lok Sabha in:",
     "options": [
-      "a) AIS creation",
-      "b) Constitution amendment",
-      "c) Removal of government",
-      "d) Cut motions"
+      "a) The matter of creating new All India Services",
+      "b) Amending the Constitution",
+      "c) The removal of the government",
+      "d) Making cut motions"
     ],
-    "correct_answer": "b) Constitution amendment",
-    "explanation": "Both Houses have equal powers in constitutional amendments. In other matters LS is dominant.",
-    "elimination_logic": "UPSC pattern: equality only in constitutional amendment → eliminate others."
+    "correct_answer": "b) Amending the Constitution",
+    "explanation": "In the case of constitutional amendments under Article 368, Rajya Sabha and Lok Sabha have equal powers. The amendment bill must be passed separately by both Houses with the required special majority, and there is no provision for a joint sitting. In contrast, the Council of Ministers is responsible only to Lok Sabha, and cut motions are also a Lok Sabha-centric financial device. Creation of All India Services involves a special initiating role of Rajya Sabha under Article 312, but that is not an instance of equality with Lok Sabha.",
+    "elimination_logic": "Option (a) is a trap because Rajya Sabha indeed has a special power here, but not equal power with Lok Sabha in the ordinary sense. Option (c) is incorrect because the government is removable only through Lok Sabha confidence mechanisms. Option (d) is incorrect because cut motions belong to Lok Sabha's financial control. Thus option (b) alone is correct."
   },
   {
     "year": 2022,
-    "question": "Lok Sabha exclusive powers",
+    "question": "With reference to Deputy Speaker of Lok Sabha, consider the following statements: 1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix. 2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party. 3. The Deputy Speaker has the same power as of the Speaker when presiding over the sitting of the House and no appeal lies against his rulings. 4. The well-established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker – and duly seconded by the Prime Minister. Which of the statements given above are correct?",
+    "options": [
+      "a) 1 and 3 only",
+      "b) 1, 2 and 3",
+      "c) 3 and 4 only",
+      "d) 2 and 4 only"
+    ],
+    "correct_answer": "a) 1 and 3 only",
+    "explanation": "The election of Deputy Speaker is held on a date fixed under the procedure of the House. There is no mandatory constitutional or statutory provision requiring the office to go specifically to the ruling party or principal opposition party; such arrangements, if followed, are matters of convention. When presiding, the Deputy Speaker enjoys the same authority as the Speaker, and his rulings are not appealable within the House. UPSC here tests the difference between binding rule and parliamentary convention.",
+    "elimination_logic": "Statement 1 is correct. Statement 2 is incorrect because it elevates convention into a mandatory rule. Statement 3 is correct because the Deputy Speaker, while presiding, functions with the same authority as the Speaker. Statement 4 is incorrect because the stated procedure is not a binding constitutional practice in the manner presented. Hence option (a) is correct."
+  },
+  {
+    "year": 2022,
+    "question": "Which of the following is/are the exclusive power(s) of Lok Sabha? 1. To ratify the declaration of Emergency 2. To pass a motion of no-confidence against the Council of Ministers 3. To impeach the President of India Select the correct answer using the code given below:",
     "options": [
       "a) 1 and 2",
       "b) 2 only",
@@ -3323,12 +3427,12 @@
       "d) 3 only"
     ],
     "correct_answer": "b) 2 only",
-    "explanation": "No-confidence motion is exclusive to Lok Sabha. Emergency approval and impeachment involve both Houses.",
-    "elimination_logic": "UPSC trap: ‘exclusive power’ → only LS controls executive → (b)."
+    "explanation": "Among the given powers, only the power to pass a no-confidence motion is exclusive to Lok Sabha because the Council of Ministers is collectively responsible only to Lok Sabha. Ratification of Emergency proclamation is done by both Houses. Impeachment of the President also involves both Houses. UPSC asks this to test whether the student can separate truly exclusive powers from powers shared by the two Houses.",
+    "elimination_logic": "Statement 1 is not exclusive because both Houses approve Emergency proclamations. Statement 2 is exclusive because only Lok Sabha can withdraw the government's majority support. Statement 3 is not exclusive because impeachment of the President involves both Houses. Therefore, only Statement 2 is correct and option (b) is the answer."
   },
   {
     "year": 2023,
-    "question": "Finance Bill vs Money Bill",
+    "question": "With reference to Finance Bill and Money Bill in the Indian Parliament, consider the following statements: 1. When the Lok Sabha transmits Finance Bill to the Rajya Sabha, it can amend or reject the Bill. 2. When the Lok Sabha transmits Money Bill to the Rajya Sabha, it cannot amend or reject the Bill, it can only make recommendations. 3. In the case of disagreement between the Lok Sabha and the Rajya Sabha, there is no joint sitting for Money Bill, but a joint sitting becomes necessary for Finance Bill. How many of the above statements are correct.",
     "options": [
       "a) Only one",
       "b) Only two",
@@ -3336,12 +3440,12 @@
       "d) None"
     ],
     "correct_answer": "b) Only two",
-    "explanation": "Finance Bill allows RS amendment/rejection; Money Bill does not. No joint sitting for Money Bill.",
-    "elimination_logic": "Statement 1 wrong (RS can amend Finance Bill). Statement 2 correct. Statement 3 correct → (b)."
+    "explanation": "A Finance Bill, unlike a Money Bill, can involve a more substantive Rajya Sabha role depending on its nature. A Money Bill, however, only goes to Rajya Sabha for recommendations, which Lok Sabha may accept or reject. There is no joint sitting for a Money Bill. But it is not correct to say that a joint sitting becomes necessary for Finance Bill in every disagreement; that wording is too absolute. UPSC is testing nuanced difference, not broad similarity, between Finance Bill and Money Bill.",
+    "elimination_logic": "Statement 1 is correct in substance because Rajya Sabha has wider power over a Finance Bill than over a Money Bill. Statement 2 is correct and directly reflects Article 109. Statement 3 is incorrect because joint sitting is not an automatic or mandatory outcome in the way the statement suggests. Hence only two statements are correct, making option (b) correct."
   },
   {
     "year": 2024,
-    "question": "Prorogation and dissolution",
+    "question": "With reference to the Parliament of India, consider the following statements: 1. Prorogation of a House by the President of India does not require the advice of the Council of Ministers 2. Prorogation of a House is generally done after the House is adjourned sine die but there no bar to the President of India prorogating the House which is in session. 3. Dissolution of the Lok Sabha is done by the President of India who, save in exceptional circumstances, does so on the advice of the Council of Ministers. Which of the statements given above is/are correct?",
     "options": [
       "a) 1 only",
       "b) 1 and 2",
@@ -3349,12 +3453,12 @@
       "d) 3 only"
     ],
     "correct_answer": "c) 2 and 3",
-    "explanation": "Prorogation requires advice; it can happen even during session. Dissolution usually on advice.",
-    "elimination_logic": "Statement 1 incorrect—President acts on advice. 2 & 3 correct → (c)."
+    "explanation": "In parliamentary government, the President ordinarily acts on the aid and advice of the Council of Ministers in matters such as prorogation and dissolution. Therefore, Statement 1 is incorrect. Statement 2 is correct because prorogation is generally after adjournment sine die, yet the Constitution does not impose an absolute bar on proroguing while a House is technically in session. Statement 3 is also correct because dissolution is formally by the President, ordinarily on ministerial advice, save in rare exceptional situations.",
+    "elimination_logic": "Statement 1 is wrong because it wrongly suggests independent presidential discretion in an ordinary parliamentary matter. Statement 2 is correct because the usual practice is not the same as a constitutional compulsion. Statement 3 is correct because formal power lies with the President, but real executive advice comes from the Council of Ministers. Therefore option (c) is correct."
   },
   {
     "year": 2024,
-    "question": "Bill lapse on dissolution",
+    "question": "With reference to the Indian Parliament consider the following statements: 1. A bill pending in the Lok Sabha lapses on its dissolution. 2. A bill passed by the Lok Sabha and pending in the Rajya Sabha lapses on the dissolution of the Lok Sabha. 3. A bill in regard to which the President of India notified his/her intention to summon the Houses to a joint sitting lapse on the dissolution of the Lok Sabha. Which of the statements given above is/are correct?",
     "options": [
       "a) 1 only",
       "b) 1 and 2",
@@ -3362,35 +3466,74 @@
       "d) 3 only"
     ],
     "correct_answer": "b) 1 and 2",
-    "explanation": "Bills pending in LS or passed by LS lapse; joint sitting notified bills do not lapse.",
-    "elimination_logic": "Statement 3 wrong—UPSC trap → eliminate (c), (d)."
+    "explanation": "A bill pending in Lok Sabha lapses on dissolution. A bill passed by Lok Sabha and pending in Rajya Sabha also lapses on dissolution of Lok Sabha. However, where the President has already notified intention to summon a joint sitting, the bill does not lapse merely due to dissolution. UPSC repeatedly tests these fine distinctions in legislative procedure.",
+    "elimination_logic": "Statement 1 is correct. Statement 2 is also correct. Statement 3 is incorrect because the constitutional step toward joint sitting protects the bill from lapse in that situation. Hence option (b) is correct."
   },
   {
     "year": 2024,
-    "question": "Money Bill statements",
+    "question": "With reference to the Speaker of the Lok Sabha consider the following statements: While any resolution for the removal of the Speaker of the Lok Sabha is under consideration 1. He/She shall not preside. 2. He/She shall not have the right to speak. 3. He/She shall not be entitled to vote on the resolution in the first instance. Which of the statements given above is/are correct?",
     "options": [
-      "a) 1 and 2",
-      "b) 2 and 3",
+      "a) 1 only",
+      "b) 1 and 2 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Article 96 provides that when a resolution for removal of the Speaker is under consideration, the Speaker shall not preside. However, the Speaker has the right to speak and otherwise participate in the proceedings. The Speaker may also vote in the first instance on such a resolution. UPSC uses this to test whether students know the limited but important exception to the Speaker’s normal non-voting role.",
+    "elimination_logic": "Statement 1 is correct because the Speaker cannot chair proceedings on his or her own removal. Statement 2 is incorrect because the Speaker retains the right to speak. Statement 3 is incorrect because the Speaker may vote in the first instance in such proceedings. Therefore, only Statement 1 is correct, making option (a) the answer."
+  },
+  {
+    "year": 2024,
+    "question": "Which of the following statements are correct in respect of a Money Bill in the Parliament? 1. Article 109 mentions special procedure in respect of Money Bills. 2. A Money Bill shall not be introduced in the Council of States. 3. The Rajya Sabha can either approve the Bill or suggest changes but cannot reject it. 4. Amendments to a Money Bill suggested by the Rajya Sabha have to be accepted by the Lok Sabha. Select the answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
       "c) 1, 2 and 3",
       "d) 1, 3 and 4"
     ],
     "correct_answer": "c) 1, 2 and 3",
-    "explanation": "Money Bill procedure is in Article 109; RS can only recommend; LS may reject recommendations.",
-    "elimination_logic": "Statement 4 wrong—LS not bound → eliminate options with 4."
+    "explanation": "Article 109 lays down the special procedure for Money Bills. A Money Bill can be introduced only in Lok Sabha. Rajya Sabha cannot reject it; it may only make recommendations. Lok Sabha is free to accept or reject those recommendations. This reflects the constitutional primacy of Lok Sabha in financial legislation.",
+    "elimination_logic": "Statement 1 is correct because Article 109 is the relevant procedural provision. Statement 2 is correct because Money Bills cannot originate in Rajya Sabha. Statement 3 is correct in essence because Rajya Sabha cannot block the bill and can only suggest changes. Statement 4 is incorrect because Lok Sabha is not bound to accept Rajya Sabha’s recommendations. Hence option (c) is correct."
   },
   {
     "year": 2025,
-    "question": "Ordinance powers",
+    "question": "Consider the following statements: I. If any question arises as to whether a Member of the House of the People has become subject to disqualification under the Tenth Schedule, the President’s decision in accordance with the opinion of the Council of Union Ministers shall be final. II. There is no mention of the word 'political party' in the Constitution of India. Which of the statements given above are correct?",
     "options": [
-      "a) I and II",
-      "b) II and III",
-      "c) I and III",
+      "a) I only",
+      "b) II only",
+      "c) Both I and II",
+      "d) Neither I nor II"
+    ],
+    "correct_answer": "d) Neither I nor II",
+    "explanation": "Questions of disqualification under the Tenth Schedule are decided by the Speaker of Lok Sabha or the Chairman of the House concerned, not by the President acting on ministerial advice. The Constitution does mention 'political party', especially in the Tenth Schedule dealing with anti-defection. UPSC deliberately combines ordinary disqualification provisions with anti-defection provisions to test whether the student confuses the two.",
+    "elimination_logic": "Statement I is incorrect because it wrongly imports the Article 103-style presidential role into the Tenth Schedule, where the competent authority is the Speaker or Chairman. Statement II is also incorrect because the term 'political party' does appear in the Constitution. Since both are wrong, option (d) is correct."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following statements: I. On the dissolution of the House of the People, the Speaker shall not vacate his/her office until immediately before the first meeting of the House of the People after the dissolution. II. According to the provisions of the Constitution of India, a Member of the House of the People on being elected as Speaker shall resign from his/her political party immediately. III. The Speaker of the House of the People may be removed from his/her office by a resolution of the House of the People passed by a majority of all the then Members of the House, provided that no resolution shall be moved unless at least fourteen days’ notice has been given of the intention to move the resolution. Which of the statements given above are correct?",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
       "d) I, II and III"
     ],
-    "correct_answer": "c) I and III",
-    "explanation": "Ordinance has same force as law (can amend laws, retrospective effect possible) but cannot violate Fundamental Rights.",
-    "elimination_logic": "Statement II wrong—FR cannot be abridged → eliminate options with II."
+    "correct_answer": "c) I and III only",
+    "explanation": "The Speaker continues in office even after Lok Sabha is dissolved, up to immediately before the first meeting of the new House. This ensures continuity in parliamentary functioning. There is no constitutional requirement that the Speaker must resign from his or her political party upon election to office, even though neutrality is institutionally expected. Under Article 94, removal of the Speaker requires a resolution passed by a majority of all the then members of the House, with at least fourteen days’ notice.",
+    "elimination_logic": "Statement I is correct because the Speaker’s office survives dissolution for continuity. Statement II is incorrect because constitutional expectation of impartiality is not the same as a constitutional mandate to resign from party membership. Statement III is correct because it accurately states the constitutional removal procedure. Therefore option (c) is correct."
+  },
+  {
+    "year": 2025,
+    "question": "With reference to the Indian polity, consider the following statements: I. An Ordinance can amend any Central Act. II. An Ordinance can abridge a Fundamental Right. III. An Ordinance can come into effect from a back date. Which of the statements given above are correct?",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "c) I and III only",
+    "explanation": "An Ordinance issued under Article 123 has the same force and effect as an Act of Parliament, subject to constitutional limitations. Therefore, it can amend an existing Central Act. It can also operate retrospectively, that is, from a back date, if so framed. However, an Ordinance cannot abridge Fundamental Rights any more than an ordinary law validly can, because ordinance-making power is subject to the Constitution.",
+    "elimination_logic": "Statement I is correct because an Ordinance has the force of law and can amend statutes. Statement II is incorrect because ordinance-making power is not above Part III; it remains subject to Fundamental Rights and constitutional limitations. Statement III is correct because retrospective effect is legally possible. Hence option (c) is correct."
   }
-    ]
+]
   }
 }
