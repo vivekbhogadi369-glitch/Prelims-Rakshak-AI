@@ -2695,6 +2695,151 @@
     "explanation": "Right to Privacy is intrinsic to Article 21 as reaffirmed in multiple judgments.",
     "elimination_logic": "UPSC repeats this mapping frequently. Article 21 = life + dignity → eliminate others directly."
   }
+    ],
+    "Directive Principles of State Policy": [
+  {
+    "year": 2013,
+    "question": "According to the Constitution of India, which of the following are fundamental for the governance of the country?",
+    "options": [
+      "a) Fundamental Rights",
+      "b) Fundamental Duties",
+      "c) Directive Principles of State Policy",
+      "d) Fundamental Rights and Fundamental Duties"
+    ],
+    "correct_answer": "c) Directive Principles of State Policy",
+    "explanation": "Article 37 explicitly states that Directive Principles of State Policy are fundamental in the governance of the country. Though they are non-justiciable, they impose a duty on the State to apply these principles while making laws to establish a welfare state.",
+    "elimination_logic": "Option (a) is incorrect because Fundamental Rights are enforceable but not described as ‘fundamental in governance’. Option (b) is wrong—Fundamental Duties are moral obligations, not governance principles. Option (d) is a combination trap. UPSC expects recall of exact phrase from Article 37 → only DPSP fits."
+  },
+  {
+    "year": 2014,
+    "question": "Promotion of international peace and security is included in:",
+    "options": [
+      "a) Preamble",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Duties",
+      "d) Ninth Schedule"
+    ],
+    "correct_answer": "b) Directive Principles of State Policy",
+    "explanation": "Article 51 under DPSP directs the State to promote international peace, security, and friendly relations among nations. This reflects India's commitment to global peace in constitutional philosophy.",
+    "elimination_logic": "Option (a) is a trap—Preamble mentions ideals but not specific directives like international peace. Option (c) deals with citizen duties. Option (d) relates to immunization of laws. Only DPSP (Article 51) explicitly mentions this → (b)."
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following statements regarding DPSP: 1. They spell out socio-economic democracy 2. They are not enforceable by any court",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "DPSPs aim to establish socio-economic democracy by ensuring justice—social, economic, and political. Article 37 clearly states that they are non-justiciable, meaning courts cannot enforce them.",
+    "elimination_logic": "Statement 1 is correct—UPSC tests conceptual understanding of ‘welfare state’. Statement 2 is also correct—directly from Article 37. No contradiction → both correct → (c)."
+  },
+  {
+    "year": 2015,
+    "question": "The ideal of Welfare State is enshrined in:",
+    "options": [
+      "a) Preamble",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Rights",
+      "d) Seventh Schedule"
+    ],
+    "correct_answer": "b) Directive Principles of State Policy",
+    "explanation": "DPSPs form the core of the welfare state concept by directing the State to promote social and economic justice, reduce inequalities, and ensure equitable distribution of resources.",
+    "elimination_logic": "Option (a) is partial—Preamble mentions justice but DPSP operationalizes welfare. Option (c) focuses on individual rights, not welfare framework. Option (d) is irrelevant. UPSC tests implementation vs philosophy → DPSP → (b)."
+  },
+  {
+    "year": 2017,
+    "question": "DPSPs constitute limitations upon: 1. Legislative function 2. Executive function",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "DPSPs are not limitations but guidelines. They direct the State in policy-making but do not legally restrict legislative or executive powers.",
+    "elimination_logic": "UPSC trap: confusing ‘directive’ with ‘restriction’. DPSPs guide but do not limit. Hence both statements incorrect → (d)."
+  },
+  {
+    "year": 2017,
+    "question": "Which principle was added by the 42nd Amendment?",
+    "options": [
+      "a) Equal pay for equal work",
+      "b) Participation of workers in management",
+      "c) Right to work, education and assistance",
+      "d) Living wage"
+    ],
+    "correct_answer": "b) Participation of workers in management",
+    "explanation": "The 42nd Amendment (1976) added Article 43A, which provides for participation of workers in management of industries.",
+    "elimination_logic": "UPSC tests amendment-specific knowledge. Options (a), (c), (d) existed earlier in DPSP. Only (b) was added by 42nd Amendment → (b)."
+  },
+  {
+    "year": 2020,
+    "question": "With reference to DPSP, which statements are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 2 and 3 only"
+    ],
+    "correct_answer": "d) 2 and 3 only",
+    "explanation": "DPSPs are non-justiciable (Article 37) and serve as guidelines for law-making to establish a welfare state. They are not enforceable by courts.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: DPSPs are NOT enforceable. Statement 2 is correct (explicit in Article 37). Statement 3 is correct—core purpose of DPSP. Hence eliminate options containing 1 → (d)."
+  },
+  {
+    "year": 2020,
+    "question": "Which part declares Welfare State?",
+    "options": [
+      "a) DPSP",
+      "b) Fundamental Rights",
+      "c) Preamble",
+      "d) Seventh Schedule"
+    ],
+    "correct_answer": "a) DPSP",
+    "explanation": "DPSPs provide the framework for establishing a welfare state through socio-economic policies.",
+    "elimination_logic": "Same UPSC theme repeated. Preamble states ideals but DPSP implements welfare. Others irrelevant → (a)."
+  },
+  {
+    "year": 2020,
+    "question": "Common agreement between Gandhism and Marxism is:",
+    "options": [
+      "a) Stateless society",
+      "b) Class struggle",
+      "c) Abolition of private property",
+      "d) Economic determinism"
+    ],
+    "correct_answer": "a) Stateless society",
+    "explanation": "Both Gandhism and Marxism ultimately envision a stateless society, though their methods differ—Gandhism through non-violence and decentralization, Marxism through class revolution.",
+    "elimination_logic": "Option (b) is Marxist only (Gandhi rejected class conflict). Option (c) is Marxist, not Gandhian. Option (d) is Marxist theory. UPSC tests overlap → only (a) common."
+  },
+  {
+    "year": 2020,
+    "question": "Separation of judiciary from executive is provided under:",
+    "options": [
+      "a) Preamble",
+      "b) DPSP",
+      "c) Seventh Schedule",
+      "d) Convention"
+    ],
+    "correct_answer": "b) DPSP",
+    "explanation": "Article 50 under DPSP directs the State to separate judiciary from executive in public services.",
+    "elimination_logic": "UPSC tests Article-based recall. Only DPSP (Article 50) contains this directive. Others do not → eliminate directly."
+  },
+  {
+    "year": 2021,
+    "question": "Concentration of wealth violates:",
+    "options": [
+      "a) Right to Equality",
+      "b) DPSP",
+      "c) Right to Freedom",
+      "d) Concept of Welfare"
+    ],
+    "correct_answer": "b) DPSP",
+    "explanation": "Article 39(b) and (c) under DPSP aim to prevent concentration of wealth and ensure equitable distribution of resources.",
+    "elimination_logic": "UPSC trap: students mark equality. However, concentration of wealth is addressed explicitly in DPSP (Article 39). Hence eliminate (a) and choose (b)."
+  }
     ]
   }
 }
