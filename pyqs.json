@@ -3748,6 +3748,152 @@
     "explanation": "Article 176 provides that the Governor shall address the Legislative Assembly at the commencement of the first session of each year. Also, in the absence of specific procedural rules, State Legislatures often follow the Rules of Procedure of Lok Sabha as a guiding framework. UPSC uses this to test both constitutional provision and parliamentary practice.",
     "elimination_logic": "Statement 1 is correct as it directly comes from Article 176. Statement 2 is also correct because parliamentary conventions allow borrowing of Lok Sabha procedures when state rules are silent. Since both are correct, option (c) is the answer."
   }
-    ]
+    ],
+  "Judiciary": [
+  {
+    "year": 2014,
+    "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its:",
+    "options": [
+      "a) Advisory jurisdiction",
+      "b) Appellate jurisdiction",
+      "c) Original jurisdiction",
+      "d) Writ jurisdiction"
+    ],
+    "correct_answer": "c) Original jurisdiction",
+    "explanation": "Article 131 confers original jurisdiction on the Supreme Court in disputes between the Centre and States or between States. These disputes are directly filed in the Supreme Court without passing through lower courts. This is a key federal feature ensuring impartial adjudication of inter-governmental disputes.",
+    "elimination_logic": "Advisory jurisdiction (Article 143) involves Presidential reference, not disputes. Appellate jurisdiction involves appeals from lower courts. Writ jurisdiction relates to enforcement of Fundamental Rights. Since Centre-State disputes are filed directly, the correct answer is original jurisdiction → option (c)."
+  },
+  {
+    "year": 2015,
+    "question": "Who/Which of the following is the Custodian of the Constitution of India?",
+    "options": [
+      "a) The President of India",
+      "b) The Prime Minister of India",
+      "c) The Lok Sabha Secretariat",
+      "d) The Supreme Court of India"
+    ],
+    "correct_answer": "d) The Supreme Court of India",
+    "explanation": "The Supreme Court is regarded as the 'custodian of the Constitution' because it has the power of judicial review. It ensures that laws and executive actions conform to constitutional provisions. This role was firmly established in cases like Kesavananda Bharati.",
+    "elimination_logic": "President executes the Constitution but does not interpret it. PM is head of executive. Lok Sabha Secretariat is administrative. Only Supreme Court has power of judicial review, making it the constitutional guardian → option (d)."
+  },
+  {
+    "year": 2016,
+    "question": "With reference to the Gram Nyayalaya Act, which of the following statements is/are correct? 1. Gram Nyayalayas can hear only civil cases. 2. The Act allows local social activists as mediators/conciliators.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Gram Nyayalayas Act, 2008 provides for village-level courts to ensure speedy justice. These courts can hear both civil and criminal cases, not just civil cases. The Act also promotes alternative dispute resolution by allowing local mediators/conciliators.",
+    "elimination_logic": "Statement 1 is incorrect because Gram Nyayalayas handle both civil and criminal matters. Statement 2 is correct as ADR mechanisms are explicitly encouraged. Hence only Statement 2 is correct → option (b)."
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements: 1. No High Court can declare a central law unconstitutional. 2. Constitutional amendments cannot be questioned by the Supreme Court.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "High Courts can declare central laws unconstitutional under their writ jurisdiction. Also, constitutional amendments can be challenged under the Basic Structure Doctrine established in Kesavananda Bharati case.",
+    "elimination_logic": "Statement 1 is incorrect because High Courts have judicial review power. Statement 2 is incorrect because amendments are subject to Basic Structure review. Since both are wrong → option (d)."
+  },
+  {
+    "year": 2019,
+    "question": "With reference to Article 142, what does it imply?",
+    "options": [
+      "a) Election Commission decisions cannot be challenged",
+      "b) Supreme Court is not constrained by laws made by Parliament",
+      "c) President can declare Financial Emergency without Cabinet advice",
+      "d) State Legislatures need Union approval for certain laws"
+    ],
+    "correct_answer": "b) Supreme Court is not constrained by laws made by Parliament",
+    "explanation": "Article 142 empowers the Supreme Court to pass any decree or order necessary to do 'complete justice'. This power allows the Court to transcend limitations of ordinary laws where necessary, although it cannot violate the Constitution itself.",
+    "elimination_logic": "Options (a), (c), and (d) relate to unrelated constitutional domains. Only option (b) reflects the essence of Article 142—complete justice beyond statutory constraints → correct answer."
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements regarding impeachment of Supreme Court judges: 1. Motion cannot be rejected by Speaker. 2. Constitution defines misbehaviour. 3. Details are in Judges Inquiry Act 1968. 4. Requires special majority.",
+    "options": [
+      "a) 1 and 2",
+      "b) 3 only",
+      "c) 3 and 4 only",
+      "d) 1, 3 and 4"
+    ],
+    "correct_answer": "c) 3 and 4 only",
+    "explanation": "The Judges Inquiry Act, 1968 lays down the procedure for removal of judges. The Constitution does not define 'proved misbehaviour'. The Speaker can reject the motion at initial stage. Removal requires special majority in both Houses.",
+    "elimination_logic": "Statement 1 is incorrect because Speaker has screening power. Statement 2 is incorrect as Constitution does not define misbehaviour. Statements 3 and 4 are correct → option (c)."
+  },
+  {
+    "year": 2021,
+    "question": "Consider the following statements: 1. Retired SC judges can be called back with CJI + President approval. 2. High Courts can review their own judgments.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Article 128 allows retired SC judges to sit with permission of President and request of CJI. High Courts also have review power under Article 226/227 read with inherent powers, but UPSC treats this cautiously—formal review power is explicitly mentioned for SC (Art 137).",
+    "elimination_logic": "Statement 1 is clearly correct (Article 128). Statement 2 is treated as incorrect in UPSC context because explicit constitutional mention is for SC review (Art 137). Hence option (a)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following statements: 1. Govt law officers recognised as advocates but corporate lawyers excluded. 2. Bar Councils regulate legal education.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Bar Council of India regulates legal education and recognizes law colleges. Corporate lawyers can also be advocates if enrolled, so exclusion is incorrect.",
+    "elimination_logic": "Statement 1 is incorrect due to over-generalisation. Statement 2 is correct → option (b)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider writs: 1. Mandamus not against private body unless public duty. 2. Mandamus not against govt company. 3. Quo Warranto can be filed by any person.",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "c) 1 and 3 only",
+    "explanation": "Mandamus lies only against public authorities or bodies performing public duty. It can apply even to govt companies if public function exists. Quo Warranto can be filed by any person without locus standi.",
+    "elimination_logic": "Statement 1 correct (public duty principle). Statement 2 incorrect (govt company can be covered). Statement 3 correct (no locus standi needed). Hence option (c)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider contempt of court: 1. Based on Sanyal Committee 2. SC & HC can punish for contempt 3. Constitution defines civil/criminal contempt 4. Parliament can legislate on contempt",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 1, 2 and 4",
+      "c) 3 and 4 only",
+      "d) 3 only"
+    ],
+    "correct_answer": "b) 1, 2 and 4",
+    "explanation": "Contempt of Courts Act, 1971 was based on Sanyal Committee. Constitution empowers SC & HC for contempt (Articles 129 & 215). Definitions are given in Act, not Constitution. Parliament can legislate on contempt.",
+    "elimination_logic": "Statement 3 incorrect (definition not in Constitution). Others correct → option (b)."
+  },
+  {
+    "year": 2024,
+    "question": "A Writ of Prohibition is issued to:",
+    "options": [
+      "a) Government officer",
+      "b) Legislature",
+      "c) Lower court to stop proceedings",
+      "d) Government policy"
+    ],
+    "correct_answer": "c) Lower court to stop proceedings",
+    "explanation": "Writ of Prohibition is issued by higher courts to lower courts or tribunals to prevent them from exceeding jurisdiction or continuing proceedings in violation of law.",
+    "elimination_logic": "Not against executive or legislature. It is strictly judicial control over lower courts. Hence option (c)."
+  }
+  ]
   }
 }
+
