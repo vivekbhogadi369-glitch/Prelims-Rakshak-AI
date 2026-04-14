@@ -2243,10 +2243,50 @@
         "explanation": "The Charter Act of 1833 redesignated the Governor General of Bengal as the Governor General of India, centralizing administration. Lord William Bentinck became the first Governor General of India. The Act also ended the East India Company's commercial activities.",
         "elimination_logic": "Option (a) is incorrect because the Regulating Act, 1773 only created the Governor General of Bengal. Option (c) is incorrect as the Charter Act, 1853 focused on civil services reforms. Option (d) is incorrect because the Government of India Act, 1858 transferred power to the Crown but did not change the designation."
       }
+    ],
+    "Making of the Constitution": [
+  {
+    "year": 2021,
+    "question": "What was the exact constitutional status of India on 26th January, 1950?",
+    "options": [
+      "a) A Democratic Republic",
+      "b) A Sovereign Democratic Republic",
+      "c) A Sovereign Secular Democratic Republic",
+      "d) A Sovereign Socialist Secular Democratic Republic"
+    ],
+    "correct_answer": "b) A Sovereign Democratic Republic",
+    "explanation": "On 26th January, 1950, when the Constitution came into force, India was declared a 'Sovereign Democratic Republic'. The words 'Socialist' and 'Secular' were added later by the 42nd Constitutional Amendment Act, 1976. Therefore, the original constitutional status did not include these terms.",
+    "elimination_logic": "Options (c) and (d) are incorrect because 'Secular' and 'Socialist' were added only in 1976. Option (a) is incorrect because it omits 'Sovereign', which was part of the original description. Hence, only option (b) correctly reflects the status in 1950."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements in respect of the Constitution Day: Statement-I: The Constitution Day is celebrated on 26th November every year to promote constitutional values among citizens. Statement-II: On 26th November, 1949, the Constituent Assembly of India set up a Drafting Committee under the Chairmanship of Dr. B. R. Ambedkar to prepare a Draft Constitution of India. Which one of the following is correct in respect of the above statements?",
+    "options": [
+      "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+      "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+      "c) Statement-I is correct but Statement-II is incorrect",
+      "d) Statement-I is incorrect but Statement-II is correct"
+    ],
+    "correct_answer": "c) Statement-I is correct but Statement-II is incorrect",
+    "explanation": "Constitution Day is celebrated on 26th November because on this day in 1949, the Constituent Assembly adopted the Constitution of India. However, the Drafting Committee was set up earlier on 29th August, 1947, under the chairmanship of Dr. B. R. Ambedkar. Therefore, Statement-I is correct, but Statement-II is factually incorrect.",
+    "elimination_logic": "Any option treating Statement-II as correct can be eliminated because the Drafting Committee was formed in 1947, not 1949. Thus, options (a), (b), and (d) are eliminated. Only option (c) remains correct."
+  },
+  {
+    "year": 2024,
+    "question": "Who was the Provisional President of the Constituent Assembly of India when it first met on December 9, 1946?",
+    "options": [
+      "a) Dr. B. R. Ambedkar",
+      "b) Dr. Rajendra Prasad",
+      "c) Dr. Sachchidananda Sinha",
+      "d) Jawaharlal Nehru"
+    ],
+    "correct_answer": "c) Dr. Sachchidananda Sinha",
+    "explanation": "When the Constituent Assembly met for the first time on 9th December 1946, Dr. Sachchidananda Sinha was appointed as the temporary (provisional) President. Later, Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly.",
+    "elimination_logic": "Option (a) is incorrect because Ambedkar was Chairman of the Drafting Committee, not President. Option (b) is incorrect as Rajendra Prasad was the permanent President, not provisional. Option (d) is incorrect because Nehru was a key member but not the President. Hence, option (c) is correct."
+  }
     ]
   }
 }
-     
     
 
 
