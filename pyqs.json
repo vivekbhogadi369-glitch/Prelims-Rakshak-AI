@@ -4105,6 +4105,112 @@
     "explanation": "After the 2002 amendment, NEC includes Governors, Chief Ministers of member states, and three members nominated by the President. The Home Minister is not part of NEC (Chairperson is nominated separately by President).",
     "elimination_logic": "Statement 4 is incorrect (Home Minister not a member). Others correct → option (a)."
   }
+    ],
+    "Local Government": [
+  {
+    "year": 2013,
+    "question": "Under the Forest Rights Act, 2006, who initiates the process for determining forest rights?",
+    "options": [
+      "a) State Forest Department",
+      "b) District Collector",
+      "c) Tahsildar/BDO",
+      "d) Gram Sabha"
+    ],
+    "correct_answer": "d) Gram Sabha",
+    "explanation": "The Forest Rights Act, 2006 empowers the Gram Sabha as the primary authority to initiate and determine individual and community forest rights. This reflects decentralization and recognition of traditional rights of forest dwellers.",
+    "elimination_logic": "UPSC tests grassroots empowerment. Administrative authorities (options a, b, c) are not the initiating authority. FRA clearly vests this power in Gram Sabha → option (d)."
+  },
+  {
+    "year": 2013,
+    "question": "Which is NOT an objective of PESA Act, 1996?",
+    "options": [
+      "a) Self-governance",
+      "b) Recognising traditional rights",
+      "c) Creating autonomous regions",
+      "d) Freeing tribal people from exploitation"
+    ],
+    "correct_answer": "c) Creating autonomous regions",
+    "explanation": "PESA extends Panchayati Raj to Scheduled Areas with focus on self-governance, protection of tribal customs, and prevention of exploitation. Creation of autonomous regions is not its objective (that is more related to Sixth Schedule areas).",
+    "elimination_logic": "Options a, b, d reflect core PESA principles. Option (c) is a trap confusing with Sixth Schedule autonomous councils → correct answer."
+  },
+  {
+    "year": 2015,
+    "question": "Fundamental object of Panchayati Raj system includes: 1. Participation 2. Political accountability 3. Democratic decentralization 4. Financial mobilization",
+    "options": [
+      "a) 1, 2 and 3 only",
+      "b) 2 and 4 only",
+      "c) 1 and 3 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "c) 1 and 3 only",
+    "explanation": "The core objectives of Panchayati Raj are democratic decentralization and people's participation in governance. Political accountability and financial mobilization are secondary or indirect outcomes, not fundamental objectives.",
+    "elimination_logic": "UPSC focuses on 'core vs derived'. Statements 1 and 3 are core principles. Statements 2 and 4 are indirect effects. Hence option (c)."
+  },
+  {
+    "year": 2016,
+    "question": "Consider: 1. Minimum age for Panchayat membership is 25 years. 2. Reconstituted Panchayat serves remainder period.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Minimum age for Panchayat membership is 21 years, not 25. If a Panchayat is dissolved prematurely, the newly constituted Panchayat serves only the remaining term (Article 243E).",
+    "elimination_logic": "Statement 1 incorrect (age confusion trap: 21 vs 25). Statement 2 correct → option (b)."
+  },
+  {
+    "year": 2017,
+    "question": "Local self-government is best explained as:",
+    "options": [
+      "a) Federalism",
+      "b) Democratic decentralisation",
+      "c) Administrative delegation",
+      "d) Direct democracy"
+    ],
+    "correct_answer": "b) Democratic decentralisation",
+    "explanation": "Local self-government represents devolution of power to local levels, ensuring participation and autonomy—hallmark of democratic decentralization.",
+    "elimination_logic": "Federalism is Centre-State relation, delegation is administrative, direct democracy is different concept. Only democratic decentralization fits → option (b)."
+  },
+  {
+    "year": 2020,
+    "question": "MPLADS statements: 1. Durable assets 2. SC/ST benefit 3. Funds lapse annually 4. 10% inspection",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 3 and 4 only",
+      "c) 1, 2 and 3 only",
+      "d) 1, 2 and 4 only"
+    ],
+    "correct_answer": "d) 1, 2 and 4 only",
+    "explanation": "MPLADS funds are used for creating durable assets. A portion is earmarked for SC/ST welfare. Funds do not lapse annually—they can be carried forward. District authorities must inspect at least 10% of works.",
+    "elimination_logic": "Statement 3 incorrect (funds do not lapse). Others correct → option (d)."
+  },
+  {
+    "year": 2025,
+    "question": "Which statements about Panchayats are NOT correct? I. Intermediate level exists in all states II. Minimum age 30 III. CM appoints Finance Commission",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "d) I, II and III",
+    "explanation": "Intermediate level Panchayats are not mandatory in small states (population <20 lakh). Minimum age is 21 years, not 30. State Finance Commission is constituted by the Governor, not Chief Minister.",
+    "elimination_logic": "All three statements are incorrect → option (d)."
+  },
+  {
+    "year": 2024,
+    "question": "Match constitutional parts: 1. Municipalities – Part IX-A 2. Emergency – Part XVIII 3. Amendment – Part XX",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "Municipalities are covered under Part IX-A, Emergency provisions under Part XVIII, and Constitutional amendment under Part XX. These are direct constitutional mappings.",
+    "elimination_logic": "All mappings are correct. No trap. Hence option (d)."
+  }
     ]
   }
 }
