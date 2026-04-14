@@ -2523,8 +2523,8 @@
       "d) Ideology"
     ],
     "correct_answer": "a) Privileges",
-    "explanation": "Equality under Articles 14–18 implies absence of special privileges based on birth, caste, religion, or status. It establishes equality before law and equal protection of laws. However, equality does not mean absolute absence of restraints (reasonable restrictions exist) or elimination of competition; it only removes unjustified advantages.",
-    "elimination_logic": "Option (b) is wrong because restrictions exist under Article 19(2)–(6). Option (c) is irrelevant — competition is not opposed to equality. Option (d) is vague. UPSC tests conceptual clarity: equality = absence of privilege → (a)."
+    "explanation": "Equality under Articles 14–18 aims at eliminating arbitrary discrimination and special privileges arising from birth, caste, religion or status. It ensures equality before law and equal protection of laws. However, equality does not mean absence of all restraints; the Constitution permits reasonable restrictions (Article 19). Similarly, equality does not eliminate competition but ensures a level playing field.",
+    "elimination_logic": "Option (b) is based on the misconception of ‘absolute equality’; Constitution allows reasonable restrictions, so restraints exist. Option (c) is incorrect because competition is compatible with equality—UPSC tests this economic misconception. Option (d) is a vague distractor with no constitutional linkage. Only (a) directly reflects the core idea—removal of special privileges."
   },
   {
     "year": 2017,
@@ -2536,8 +2536,8 @@
       "d) Rights are privileges of a few citizens"
     ],
     "correct_answer": "c) Rights are claims of the citizens against the State",
-    "explanation": "Fundamental Rights are enforceable claims of individuals against arbitrary State action. They impose negative obligations on the State (not to violate rights) and are enforceable through Article 32 and 226. They are not privileges granted at will, but guaranteed entitlements.",
-    "elimination_logic": "Option (a) reverses relationship. Option (b) uses wrong term ‘privileges’ (UPSC trap). Option (d) contradicts equality principle. Only (c) matches constitutional theory → correct."
+    "explanation": "Fundamental Rights are enforceable claims of individuals against the State to prevent arbitrary action. They impose limitations on State power and are enforceable through constitutional remedies under Articles 32 and 226.",
+    "elimination_logic": "Option (a) reverses the direction—UPSC standard inversion trap. Option (b) mislabels rights as ‘privileges’, which are revocable, unlike guaranteed rights. Option (d) contradicts the principle of equality. Only (c) correctly reflects constitutional doctrine."
   },
   {
     "year": 2017,
@@ -2549,8 +2549,8 @@
       "d) 1, 2, 3 and 4"
     ],
     "correct_answer": "c) 1 and 4 only",
-    "explanation": "Right against Exploitation (Articles 23–24) prohibits trafficking, forced labour (begar), and child labour in hazardous employment. Abolition of untouchability is covered under Article 17 (Right to Equality), and minority rights under Articles 29–30.",
-    "elimination_logic": "Statement 2 → Article 17 (not here). Statement 3 → Cultural & Educational Rights. UPSC mixes categories deliberately. Only 1 and 4 fit Articles 23–24 → (c)."
+    "explanation": "Right against Exploitation (Articles 23–24) prohibits trafficking in human beings, forced labour (begar), and child labour in hazardous employment. Abolition of untouchability falls under Article 17 (Right to Equality), while minority protection is covered under Cultural and Educational Rights.",
+    "elimination_logic": "Statement 2 is a trap—belongs to Article 17, not exploitation. Statement 3 relates to Articles 29–30 (minority rights). UPSC deliberately mixes categories. Hence eliminate options containing 2 or 3 → only 1 and 4 remain."
   },
   {
     "year": 2017,
@@ -2562,8 +2562,8 @@
       "d) Legal Right"
     ],
     "correct_answer": "c) Constitutional Right",
-    "explanation": "Right to vote is provided under Article 326 and detailed in Representation of People Acts. It is a constitutional right (not fundamental) and can be regulated by law (e.g., disqualifications).",
-    "elimination_logic": "UPSC trap: many assume FR. It is not in Part III → eliminate (a). Not purely legal because Constitution provides base → eliminate (d). Hence (c)."
+    "explanation": "Right to vote is provided under Article 326 and governed by statutory laws like the Representation of the People Acts. It is a constitutional right but not a fundamental right.",
+    "elimination_logic": "Option (a) is a common UPSC trap—voting is not in Part III. Option (d) is incomplete—though regulated by law, its origin is constitutional. Hence eliminate both and choose (c)."
   },
   {
     "year": 2018,
@@ -2575,8 +2575,8 @@
       "d) Article 24"
     ],
     "correct_answer": "c) Article 21",
-    "explanation": "In Justice K.S. Puttaswamy (2017), Supreme Court held that Right to Privacy is intrinsic to Article 21 (Right to Life and Personal Liberty) and part of dignity and autonomy.",
-    "elimination_logic": "Article 21 is widest (life + dignity). Article 14 = equality, 17 = untouchability, 24 = child labour. UPSC repeats this concept → (c)."
+    "explanation": "In Justice K.S. Puttaswamy (2017), the Supreme Court held that Right to Privacy is intrinsic to Article 21 (Right to Life and Personal Liberty) and includes dignity, autonomy and personal choice.",
+    "elimination_logic": "Article 14 relates to equality, 17 to untouchability, 24 to child labour. UPSC expects recognition of Article 21 as the ‘expansive rights article’. Hence eliminate others directly."
   },
   {
     "year": 2019,
@@ -2588,8 +2588,8 @@
       "d) Article 29"
     ],
     "correct_answer": "b) Article 21",
-    "explanation": "Supreme Court has consistently held that choice of partner is part of personal liberty under Article 21 (e.g., Shafin Jahan, Hadiya case). It reflects autonomy and dignity.",
-    "elimination_logic": "Article 19 = freedoms, 25 = religion, 29 = culture. Only Article 21 covers personal autonomy → (b)."
+    "explanation": "The Supreme Court has held that the right to choose a partner is part of personal liberty under Article 21, reflecting autonomy and dignity.",
+    "elimination_logic": "Article 19 deals with freedoms like speech, 25 with religion, 29 with cultural rights. UPSC tests ‘personal autonomy’ mapping → only Article 21 fits."
   },
   {
     "year": 2020,
@@ -2601,21 +2601,34 @@
       "d) Equality"
     ],
     "correct_answer": "d) Equality",
-    "explanation": "Article 17 abolishes untouchability and is part of Right to Equality (Articles 14–18). It aims to eliminate caste-based discrimination.",
-    "elimination_logic": "UPSC trap: exploitation vs equality confusion. Untouchability = discrimination → equality → (d)."
+    "explanation": "Article 17 abolishes untouchability and is part of the Right to Equality.",
+    "elimination_logic": "UPSC trap: confusion between exploitation and equality. Untouchability is a form of social discrimination → directly under equality. Hence eliminate (a)."
+  },
+  {
+    "year": 2020,
+    "question": "Which parts reflect Universal Declaration of Human Rights?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "UDHR principles influenced multiple parts of the Constitution: Preamble (values), DPSPs (social-economic justice), and Fundamental Duties (ethical obligations).",
+    "elimination_logic": "UPSC expects holistic mapping. Limiting to one or two parts is incomplete. Hence select all → (d)."
   },
   {
     "year": 2021,
     "question": "Right to Property is:",
     "options": [
-      "a) Legal right (citizens)",
-      "b) Legal right (any person)",
-      "c) Fundamental right",
-      "d) None"
+      "a) Legal right available to citizens only",
+      "b) Legal right available to any person",
+      "c) Fundamental Right available to citizens only",
+      "d) Neither Fundamental Right nor legal right"
     ],
-    "correct_answer": "b) Legal right (any person)",
-    "explanation": "After 44th Amendment (1978), Right to Property became a legal right under Article 300A. It applies to 'any person', not just citizens.",
-    "elimination_logic": "UPSC trap: citizens vs persons. Article 300A uses 'person' → eliminate (a). Not FR → eliminate (c). Hence (b)."
+    "correct_answer": "b) Legal right available to any person",
+    "explanation": "After the 44th Amendment (1978), Right to Property is a legal right under Article 300A and applies to any person.",
+    "elimination_logic": "UPSC trap: ‘citizen vs person’. Article 300A uses ‘person’, so eliminate (a). Not a Fundamental Right → eliminate (c). Hence (b)."
   },
   {
     "year": 2021,
@@ -2627,47 +2640,47 @@
       "d) Article 44"
     ],
     "correct_answer": "a) Article 14",
-    "explanation": "Article 14 embodies equality before law and prohibits arbitrariness (E.P. Royappa case). Unguided discretion leads to arbitrary action, violating equality.",
-    "elimination_logic": "Direct conceptual link: arbitrariness = violation of Article 14 → (a). Others unrelated."
+    "explanation": "Article 14 prohibits arbitrariness and ensures equality before law. Unguided discretion leads to arbitrary exercise of power, violating this principle.",
+    "elimination_logic": "Direct doctrinal link: arbitrariness = violation of Article 14 (UPSC favourite concept). Other Articles unrelated → eliminate quickly."
   },
   {
     "year": 2021,
     "question": "Parole rules:",
     "options": [
-      "a) Parole is a right",
-      "b) States have parole rules",
-      "c) Both",
-      "d) Neither"
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
     ],
-    "correct_answer": "b) States have parole rules",
-    "explanation": "Parole is not a fundamental or absolute right; it is discretionary. States frame their own prison and parole rules.",
-    "elimination_logic": "Statement 1 wrong → parole ≠ right. Statement 2 correct → (b)."
+    "correct_answer": "b) 2 only",
+    "explanation": "Parole is not a fundamental right but a discretionary relief. State governments frame their own parole rules.",
+    "elimination_logic": "Statement 1 is a trap—parole is not a right. Once eliminated, only statement 2 remains → (b)."
   },
   {
     "year": 2021,
     "question": "Judicial custody:",
     "options": [
-      "a) Police custody",
-      "b) Custody under magistrate",
-      "c) Both",
-      "d) Neither"
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
     ],
-    "correct_answer": "b) Custody under magistrate",
-    "explanation": "Judicial custody means the accused is under court authority and lodged in jail. Police interrogation requires court permission.",
-    "elimination_logic": "Statement 1 wrong → UPSC trap. Statement 2 correct → (b)."
+    "correct_answer": "b) 2 only",
+    "explanation": "Judicial custody means the accused is under court authority and usually kept in jail. Police interrogation requires court permission.",
+    "elimination_logic": "Statement 1 is factually incorrect—UPSC inversion trap. Statement 2 is correct. Hence eliminate options containing 1."
   },
   {
     "year": 2023,
     "question": "Reservation vs efficiency:",
     "options": [
       "a) Both correct + explanation",
-      "b) Both correct but no explanation",
+      "b) Both correct but not explanation",
       "c) I correct, II incorrect",
       "d) I incorrect"
     ],
     "correct_answer": "c) I correct, II incorrect",
-    "explanation": "Article 335 balances reservation with efficiency of administration. However, it does not define the term 'efficiency of administration'.",
-    "elimination_logic": "Statement II wrong → typical UPSC definitional trap → (c)."
+    "explanation": "Article 335 balances reservation with efficiency of administration but does not define the term.",
+    "elimination_logic": "UPSC definitional trap—Article mentions concept but does not define it. Hence Statement II is wrong → (c)."
   },
   {
     "year": 2024,
@@ -2679,12 +2692,9 @@
       "d) Article 21"
     ],
     "correct_answer": "d) Article 21",
-    "explanation": "Reaffirmed in Puttaswamy case — privacy is intrinsic to life and liberty under Article 21.",
-    "elimination_logic": "Repeated PYQ theme → Article 21 → (d)."
+    "explanation": "Right to Privacy is intrinsic to Article 21 as reaffirmed in multiple judgments.",
+    "elimination_logic": "UPSC repeats this mapping frequently. Article 21 = life + dignity → eliminate others directly."
   }
     ]
   }
 }
-
-
-
