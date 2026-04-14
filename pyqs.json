@@ -2214,7 +2214,38 @@
     "elimination_logic": "Tilak is known for ‘Gita Rahasya’, Nehru for ‘Discovery of India’, Sarojini Naidu for poetry. Only Gandhi is linked to this work → (c)."
   }
 ]
-}
+},
+  {
+  "Indian Polity": {
+    "Evolution of the Constitution": [
+      {
+        "year": 2022,
+        "question": "The Government of India Act of 1919 clearly defined:",
+        "options": [
+          "a) The powers of the Secretary of State for India",
+          "b) The system of Diarchy in the provinces",
+          "c) The composition of the Indian Civil Services",
+          "d) The structure of the Constituent Assembly"
+        ],
+        "correct_answer": "b) The system of Diarchy in the provinces",
+        "explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced the system of diarchy in the provinces. Under this system, provincial subjects were divided into 'Transferred' and 'Reserved' categories. Transferred subjects were administered by Indian ministers responsible to the legislative councils, while reserved subjects remained under the control of the Governor and his executive council. This marked the first step towards responsible government at the provincial level.",
+        "elimination_logic": "Option (a) is incorrect because the powers of the Secretary of State were already defined under the Government of India Act, 1858. Option (c) is incorrect as ICS composition was not the focus of this Act. Option (d) is incorrect because the Constituent Assembly was formed later in 1946."
+      },
+      {
+        "year": 2023,
+        "question": "By which one of the following Acts was the Governor General of Bengal designated as the Governor General of India?",
+        "options": [
+          "a) Regulating Act, 1773",
+          "b) Charter Act, 1833",
+          "c) Charter Act, 1853",
+          "d) Government of India Act, 1858"
+        ],
+        "correct_answer": "b) Charter Act, 1833",
+        "explanation": "The Charter Act of 1833 redesignated the Governor General of Bengal as the Governor General of India, centralizing administration. Lord William Bentinck became the first Governor General of India. The Act also ended the East India Company's commercial activities.",
+        "elimination_logic": "Option (a) is incorrect because the Regulating Act, 1773 only created the Governor General of Bengal. Option (c) is incorrect as the Charter Act, 1853 focused on civil services reforms. Option (d) is incorrect because the Government of India Act, 1858 transferred power to the Crown but did not change the designation."
+      }
+    ]
+  }
 }
      
     
