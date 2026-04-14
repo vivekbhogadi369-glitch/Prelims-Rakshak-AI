@@ -3601,6 +3601,99 @@
     "explanation": "The Ethics Committee in Lok Sabha was initially constituted as an ad hoc committee before being given a more regular institutional form. It deals with questions of ethical conduct and standards expected from members. The statement that only a member of Lok Sabha can make such a complaint is incorrect, because complaints may come from other sources as well, subject to procedural scrutiny. The Committee does not ordinarily take up matters that are sub judice, reflecting the standard parliamentary restraint against interfering in matters under judicial consideration. UPSC here tests fine procedural knowledge rather than broad theory.",
     "elimination_logic": "Statement 1 is correct because the Ethics Committee began as an ad hoc arrangement. Statement 2 is incorrect because the complaint mechanism is not confined only to Lok Sabha members; that exclusivity is the trap in the statement. Statement 3 is correct because parliamentary committees generally avoid taking up sub judice matters. Hence the correct combination is 1 and 3, making option (c) correct."
   }
+    ],
+    "Governor": [
+  {
+    "year": 2013,
+    "question": "Which one of the following statements is correct?",
+    "options": [
+      "a) In India, the same person cannot be appointed as governor for two or more states at the same time",
+      "b) The judges of the high court of the states in India are appointed by the Governor of the state just as the judges of the Supreme Court are appointed by the president",
+      "c) No procedure has been laid down in the constitution of India for the removal of a governor from his/her post",
+      "d) In the case of a union territory having a legislative setup, the chief minister is appointed by the Lt. Governor on the basis of majority support"
+    ],
+    "correct_answer": "c) No procedure has been laid down in the constitution of India for the removal of a governor from his/her post",
+    "explanation": "The Constitution provides that the Governor holds office 'during the pleasure of the President' (Article 156), but it does not prescribe any formal removal procedure such as impeachment or inquiry. Hence, removal is an executive decision without a constitutionally defined process. Also, one person can be appointed Governor of two or more states (7th Amendment). High Court judges are appointed by the President, not the Governor. Appointment of CM in UTs varies and is not a straightforward constitutional parallel.",
+    "elimination_logic": "Option (a) is wrong because the Constitution explicitly allows one person to be Governor of multiple states. Option (b) is wrong because High Court judges are appointed by the President under Article 217. Option (d) is a trap—though Lt. Governor plays a role, the statement is not universally correct across all UTs and is not the best answer. Option (c) stands correct because UPSC is testing the 'pleasure doctrine without procedure'."
+  },
+  {
+    "year": 2014,
+    "question": "Which of the following are the discretionary powers given to the Governor of a State? 1. Sending a report to the President for imposing President’s Rule 2. Appointing the Ministers 3. Reserving certain bills for the consideration of the President 4. Making rules for transaction of State Government business",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 1 and 3 only",
+      "c) 2, 3 and 4 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "b) 1 and 3 only",
+    "explanation": "The Governor has both constitutional and situational discretionary powers. Sending a report under Article 356 and reserving bills for the President (Article 200) are clear discretionary powers. However, appointing ministers is normally done on the advice of the Chief Minister, and rule-making for business is also done on ministerial advice. UPSC here tests whether the student can distinguish between formal executive acts and real discretionary authority.",
+    "elimination_logic": "Statement 1 is correct because reporting breakdown of constitutional machinery is a discretionary act. Statement 2 is incorrect because ministers are appointed based on CM’s advice. Statement 3 is correct because the Governor can reserve bills independently. Statement 4 is incorrect because rule-making is not discretionary but done on aid and advice. Hence only 1 and 3 remain → option (b)."
+  },
+  {
+    "year": 2018,
+    "question": "Consider the following statements: 1. No criminal proceeding shall be instituted against the Governor during his term of office. 2. The emoluments and allowances of the Governor shall not be diminished during his term of office.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 and 2",
+    "explanation": "Article 361 provides immunity to the Governor: no criminal proceedings can be initiated or continued during the term. It also protects the dignity and independence of the office by ensuring that emoluments and allowances are not reduced during tenure. These provisions ensure functional independence of the constitutional head.",
+    "elimination_logic": "Statement 1 is correct due to constitutional immunity under Article 361. Statement 2 is correct as a standard constitutional safeguard similar to judges. Since both are correct, elimination is straightforward—option (c)."
+  },
+  {
+    "year": 2019,
+    "question": "Which one of the following suggested that the Governor should be an eminent person from outside the State and should be a detached figure without intense political links?",
+    "options": [
+      "a) First Administrative Reforms Commission",
+      "b) Rajamannar Committee",
+      "c) Sarkaria Commission",
+      "d) National Commission to Review the Working of the Constitution"
+    ],
+    "correct_answer": "c) Sarkaria Commission",
+    "explanation": "The Sarkaria Commission (1983) on Centre-State relations laid down detailed guidelines for the appointment of Governors. It recommended that the Governor should be an eminent person, not from the same state, and should not be actively involved in politics recently, to ensure neutrality and federal balance.",
+    "elimination_logic": "Option (a) dealt broadly with administrative reforms, not specifically Governor norms. Option (b) was Tamil Nadu-based and focused on state autonomy. Option (d) reviewed the Constitution broadly. Only Sarkaria Commission directly addressed Governor appointment criteria—option (c)."
+  },
+  {
+    "year": 2024,
+    "question": "Consider the following statements: 1. It is the Governor who recognizes a community as Scheduled Tribe. 2. A community declared as Scheduled Tribe in one State need not be so in another State.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Scheduled Tribes are notified by the President under Article 342, not by the Governor. However, the classification is state-specific, meaning a community recognized as ST in one state may not be recognized in another. UPSC uses this to test both authority and federal variation.",
+    "elimination_logic": "Statement 1 is incorrect because the Governor has no role in declaring ST status. Statement 2 is correct because ST lists are state-specific. Hence only Statement 2 remains → option (b)."
+  },
+  {
+    "year": 2025,
+    "question": "With reference to the Indian polity, consider the following statements: I. The Governor is not answerable to any court for exercise of powers. II. No criminal proceedings shall be instituted or continued during term. III. Members of State Legislature are not liable for anything said in the House.",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "d) I, II and III",
+    "explanation": "Article 361 grants immunity to the Governor from court proceedings for official acts and criminal prosecution during tenure. Additionally, legislative privileges (Article 194) protect members of State Legislature for anything said in the House. This question combines executive immunity with legislative privilege—a typical UPSC mix.",
+    "elimination_logic": "Statement I is correct due to immunity for official acts. Statement II is correct due to criminal immunity. Statement III is correct due to legislative privilege. Since all are constitutionally valid, option (d) is correct."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following statements: I. The Constitution explicitly mentions that the Governor may act in his discretion in certain matters. II. The President can independently reserve a State bill without the Governor forwarding it.",
+    "options": [
+      "a) I only",
+      "b) II only",
+      "c) Both I and II",
+      "d) Neither I nor II"
+    ],
+    "correct_answer": "a) I only",
+    "explanation": "The Constitution explicitly provides for discretionary powers of the Governor in certain situations (e.g., Sixth Schedule areas, reservation of bills, etc.). However, the President cannot suo motu reserve a bill; it must come through the Governor under Article 200/201. This question tests procedural flow in Centre-State legislative relations.",
+    "elimination_logic": "Statement I is correct because discretion is explicitly mentioned in the Constitution. Statement II is incorrect because the President cannot directly intervene; the bill must be reserved by the Governor first. Hence option (a) is correct."
+  }
     ]
   }
 }
