@@ -4012,6 +4012,99 @@
     "explanation": "The Inter-State Council is provided under Article 263 of the Constitution. The National Security Council and Zonal Councils are extra-constitutional/statutory bodies.",
     "elimination_logic": "Only Inter-State Council has constitutional backing. Others are not. Hence count = 1 → option (a)."
   }
+    ],
+    "Non-Constitutional Bodies": [
+  {
+    "year": 2013,
+    "question": "Which of the following bodies does not find mention in the Constitution? 1. National Development Council 2. Planning Commission 3. Zonal Councils",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "National Development Council and Planning Commission were extra-constitutional bodies created by executive resolutions. Zonal Councils were established under the States Reorganisation Act, 1956 (statutory). None of them are mentioned in the Constitution.",
+    "elimination_logic": "All three bodies lack constitutional status. UPSC is testing confusion between statutory and constitutional bodies. Hence all three → option (d)."
+  },
+  {
+    "year": 2013,
+    "question": "With reference to National Legal Services Authority (NALSA), consider the following statements: 1. It provides free legal services to weaker sections. 2. It issues guidelines to State Legal Services Authorities.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) both 1 and 2",
+    "explanation": "NALSA is a statutory body under the Legal Services Authorities Act, 1987. Its objective is to provide free legal aid to weaker sections and ensure access to justice. It also lays down policies and guidelines for State Legal Services Authorities.",
+    "elimination_logic": "Both statements reflect core functions of NALSA—legal aid + coordination role. No ambiguity → option (c)."
+  },
+  {
+    "year": 2015,
+    "question": "NITI Aayog replaced which body?",
+    "options": [
+      "a) Human Rights Commission",
+      "b) Finance Commission",
+      "c) Law Commission",
+      "d) Planning Commission"
+    ],
+    "correct_answer": "d) Planning Commission",
+    "explanation": "NITI Aayog was established in 2015 by replacing the Planning Commission to promote cooperative federalism and a bottom-up planning approach.",
+    "elimination_logic": "Planning Commission is the only body associated with centralized planning replaced by NITI Aayog. Others are unrelated → option (d)."
+  },
+  {
+    "year": 2024,
+    "question": "How many Delimitation Commissions have been constituted in India till December 2023?",
+    "options": [
+      "a) One",
+      "b) Two",
+      "c) Three",
+      "d) Four"
+    ],
+    "correct_answer": "d) Four",
+    "explanation": "Delimitation Commissions were constituted in 1952, 1963, 1973, and 2002. These commissions redraw constituency boundaries based on census data.",
+    "elimination_logic": "UPSC tests factual recall here. Total = 4 commissions → option (d)."
+  },
+  {
+    "year": 2024,
+    "question": "Match the organizations correctly: 1. Enforcement Directorate – works under MHA 2. DRI – under Dept of Revenue 3. DG Systems & Data Management – under Dept of Revenue",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) All three",
+      "d) None"
+    ],
+    "correct_answer": "b) Only two",
+    "explanation": "Enforcement Directorate works under the Department of Revenue (Ministry of Finance), not MHA. Directorate of Revenue Intelligence and DG Systems & Data Management both function under the Department of Revenue.",
+    "elimination_logic": "Statement 1 incorrect (wrong ministry). Statements 2 and 3 correct. Hence 2 correct → option (b)."
+  },
+  {
+    "year": 2025,
+    "question": "Consider statements about Lokpal: I. Not applicable to officials outside India II. Only CJI can be Chairperson III. Minimum age 45 IV. Cannot inquire against PM",
+    "options": [
+      "a) III only",
+      "b) II and III",
+      "c) I and IV",
+      "d) None"
+    ],
+    "correct_answer": "a) III only",
+    "explanation": "Lokpal has jurisdiction over public servants including those posted abroad. Chairperson can be former CJI, judge, or eminent person—not only CJI. Lokpal can inquire against PM with safeguards. Minimum age of 45 years is correct.",
+    "elimination_logic": "Statements I, II, IV are incorrect (common traps). Only Statement III is correct → option (a)."
+  },
+  {
+    "year": 2024,
+    "question": "North Eastern Council composition after 2002 amendment includes: 1. Governors 2. Chief Ministers 3. Three Presidential nominees 4. Home Minister",
+    "options": [
+      "a) 1, 2 and 3 only",
+      "b) 1, 3 and 4 only",
+      "c) 2 and 4 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "a) 1, 2 and 3 only",
+    "explanation": "After the 2002 amendment, NEC includes Governors, Chief Ministers of member states, and three members nominated by the President. The Home Minister is not part of NEC (Chairperson is nominated separately by President).",
+    "elimination_logic": "Statement 4 is incorrect (Home Minister not a member). Others correct → option (a)."
+  }
     ]
   }
 }
