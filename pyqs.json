@@ -3058,6 +3058,86 @@
     "explanation": "Under Article 356, the powers of the State Legislature are assumed by Parliament. Parliament can delegate this power to the President. However, the Assembly is not necessarily dissolved—it may be kept in suspended animation. Article 19 is suspended only during National Emergency (Article 352), not during President’s Rule.",
     "elimination_logic": "Option (a) is incorrect—UPSC trap: ‘automatically dissolved’; it may be suspended instead. Option (c) is incorrect—Article 19 suspension is linked to National Emergency, not President’s Rule. Option (d) is partially misleading—President does not directly make laws; Parliament (or delegated authority) exercises legislative power. Only (b) correctly reflects Article 356 mechanism."
   }
+    ],
+    "President": [
+  {
+    "year": 2014,
+    "question": "Consider the following statements: 1. President makes rules for transaction of government business. 2. Executive actions are expressed in the name of the Prime Minister.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Under Article 77, the President makes rules for the more convenient transaction of business of the Government of India and allocation among Ministers. All executive actions are expressed in the name of the President, not the Prime Minister.",
+    "elimination_logic": "Statement 1 is correct—direct Article 77 provision. Statement 2 is a classic UPSC trap—executive actions are taken in the name of the President, not PM. UPSC tests ‘nominal vs real executive’ confusion → eliminate options containing 2."
+  },
+  {
+    "year": 2018,
+    "question": "With reference to election of President: 1. Value of MLA votes varies across states. 2. Value of vote of Lok Sabha MPs is more than Rajya Sabha MPs.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "The value of votes of MLAs differs from state to state based on population (1971 Census) and number of elected MLAs. However, all MPs (Lok Sabha and Rajya Sabha) have equal vote value in Presidential election.",
+    "elimination_logic": "Statement 1 is correct—population-based formula creates variation. Statement 2 is incorrect—UPSC trap: LS vs RS distinction does not exist here; all MPs have equal vote value. Hence eliminate options containing 2."
+  },
+  {
+    "year": 2020,
+    "question": "Consider the following statements: 1. President can summon Parliament at any place. 2. Constitution provides for three sessions but not mandatory. 3. No minimum number of sitting days prescribed.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 2 and 3 only"
+    ],
+    "correct_answer": "c) 1 and 3 only",
+    "explanation": "Under Article 85, the President summons Parliament and may choose the place. The Constitution does not mandate three sessions (this is a convention), but requires that not more than six months shall elapse between two sessions. There is no minimum number of sitting days prescribed.",
+    "elimination_logic": "Statement 1 is correct—Article 85 allows flexibility. Statement 2 is incorrect—‘three sessions’ is not constitutional, only a convention (UPSC trap: convention vs provision). Statement 3 is correct—no minimum sitting days fixed. Hence (c)."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements in respect of election to the President: 1. Nominated members are part of Electoral College. 2. More seats → higher vote value per MLA. 3. MP MLA vote comparison (MP vs Kerala). 4. Puducherry vs Arunachal vote value reasoning.",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) Only three",
+      "d) All four"
+    ],
+    "correct_answer": "a) Only one",
+    "explanation": "The Electoral College includes only elected members (nominated members excluded). The value of MLA vote depends on population per elected seat—not simply number of seats. Vote values vary across states based on population-seat ratio.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: nominated members excluded. Statement 2 is incorrect—formula depends on population/MLA ratio, not just number of seats. Statement 3 is incorrect—UPSC tests factual comparison trap; not universally valid. Statement 4 is correct—correct logic based on population-seat ratio. Hence only one correct → (a)."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements: 1. If President’s election is void, acts become invalid. 2. Election can be postponed if assemblies dissolved. 3. Time limit exists for President’s assent.",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) All three",
+      "d) None"
+    ],
+    "correct_answer": "d) None",
+    "explanation": "Even if the election is declared void, acts done by the President remain valid (doctrine of de facto authority). Election cannot be postponed; it must be completed before vacancy (Article 62). No time limit is prescribed for Presidential assent under Article 111.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: de facto doctrine protects acts. Statement 2 is incorrect—constitutional mandate ensures continuity (no postponement). Statement 3 is incorrect—no time limit (another UPSC favourite). Hence none correct → (d)."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following regarding pardoning power: I. Subject to judicial review. II. Can be exercised without advice of Council of Ministers.",
+    "options": [
+      "a) I only",
+      "b) II only",
+      "c) Both I and II",
+      "d) Neither I nor II"
+    ],
+    "correct_answer": "a) I only",
+    "explanation": "Under Article 72, the President has the power to grant pardons. This power is exercised on the advice of the Council of Ministers (Article 74). It is subject to limited judicial review (Epuru Sudhakar case) on grounds like mala fide or arbitrariness.",
+    "elimination_logic": "Statement I is correct—judicial review exists but limited (UPSC nuance). Statement II is incorrect—President acts on aid and advice, not independently. UPSC tests ‘real vs nominal executive’ again → eliminate options containing II."
+  }
     ]
   }
 }
