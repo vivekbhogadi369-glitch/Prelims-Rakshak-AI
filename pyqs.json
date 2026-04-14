@@ -4278,6 +4278,34 @@
     "explanation": "Even in Scheduled Areas, the State Government retains executive power, though subject to special provisions like Governor's regulations. Also, the Constitution does not provide for Union takeover of Scheduled Areas based on Governor’s recommendation under Fifth Schedule.",
     "elimination_logic": "Statement I is incorrect—no complete transfer of power to local bodies. Statement II is incorrect—no such constitutional provision exists. Both wrong → option (d)."
   }
+    ],
+    "Anti-Defection": [
+  {
+    "year": 2014,
+    "question": "Which Schedule of the Constitution contains provisions regarding anti-defection?",
+    "options": [
+      "a) Second Schedule",
+      "b) Fifth Schedule",
+      "c) Eighth Schedule",
+      "d) Tenth Schedule"
+    ],
+    "correct_answer": "d) Tenth Schedule",
+    "explanation": "The anti-defection law was added by the 52nd Constitutional Amendment Act, 1985 and is contained in the Tenth Schedule of the Constitution. It aims to curb political defections and maintain stability in governments.",
+    "elimination_logic": "Second Schedule → salaries; Fifth Schedule → tribal areas; Eighth Schedule → languages. Only Tenth Schedule deals with defection → option (d)."
+  },
+  {
+    "year": 2022,
+    "question": "With reference to anti-defection law, consider the following statements: 1. A nominated legislator cannot join any political party within six months of appointment. 2. No time-frame is provided for presiding officer to decide defection cases.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Under the Tenth Schedule, a nominated member can join a political party within six months of taking seat in the House; joining after six months attracts disqualification. Hence Statement 1 is incorrect as it reverses the rule. The law does not specify any time limit for the Speaker/Chairman to decide defection cases, which has led to delays and judicial concerns.",
+    "elimination_logic": "Statement 1 is a classic UPSC trap—actual rule is 'allowed within 6 months', not prohibited. Statement 2 is correct because no time limit is prescribed. Hence only Statement 2 → option (b)."
+  }
     ]
   }
 }
