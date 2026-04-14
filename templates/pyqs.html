@@ -130,7 +130,7 @@
             font-size: 17px;
             font-weight: 700;
             color: #111827;
-            line-height: 1.65;
+            line-height: 1.5;
             margin-bottom: 12px;
             white-space: pre-wrap;
             word-break: normal;
@@ -300,7 +300,7 @@
 
             .question-text {
                 font-size: 16px;
-                line-height: 1.55;
+                line-height: 1.45;
                 margin-bottom: 10px;
             }
 
@@ -434,31 +434,6 @@ function cleanQuestionsStrict(questions) {
     });
 
     return output;
-}
-
-function formatQuestionText(text) {
-    if (!text) return "";
-
-    let q = String(text).replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim();
-
-    q = q.replace(/\s+/g, " ");
-
-    q = q.replace(/\s(Statement-I:)/gi, "\n\n$1");
-    q = q.replace(/\s(Statement-II:)/gi, "\n$1");
-    q = q.replace(/\s(Statement- I:)/gi, "\n\nStatement-I:");
-    q = q.replace(/\s(Statement- II:)/gi, "\nStatement-II:");
-
-    q = q.replace(/\s([1-9][0-9]*\.)\s/g, "\n\n$1 ");
-
-    q = q.replace(/\s(Select the correct answer using the code given below[:]?)/gi, "\n\n$1");
-    q = q.replace(/\s(Which of the following is correct in respect of the above statements[?]?)/gi, "\n\n$1");
-    q = q.replace(/\s(How many of the above statements are correct[?]?)/gi, "\n\n$1");
-    q = q.replace(/\s(Which of the statements given above is\/are correct[?]?)/gi, "\n\n$1");
-    q = q.replace(/\s(Which of the statements given above are correct[?]?)/gi, "\n\n$1");
-
-    q = q.replace(/([A-Za-z])\n\n([1-9][0-9]*\.)/g, "$1\n\n$2");
-
-    return q.trim();
 }
 
 async function loadSubjects() {
@@ -659,7 +634,7 @@ function renderCurrentQuestion() {
         </div>
 
         <div class="question-card">
-            <div class="question-text">${escapeHtml(formatQuestionText(q.question || ""))}</div>
+            <div class="question-text">${escapeHtml(q.question || "")}</div>
 
             <div class="options-list">
                 ${optionsHtml}
