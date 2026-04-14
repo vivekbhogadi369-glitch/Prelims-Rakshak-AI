@@ -2511,10 +2511,180 @@
     "explanation": "India follows the principle of single citizenship, unlike federal countries like the USA which have dual citizenship (state + federal). The Constitution also broadly follows the idea of single domicile, though domicile as a legal concept is distinct from citizenship. Regarding eligibility for President (Head of State), Article 58 only requires that the person be a citizen of India, not necessarily a citizen by birth. Further, under the Citizenship Act, 1955, citizenship can be terminated, renounced, or deprived under certain conditions, such as fraud or disloyalty to the Constitution.",
     "elimination_logic": "Statement 1 is correct → India has single citizenship (no dual citizenship system). Statement 2 is incorrect → UPSC trap inspired by US Constitution (natural-born citizen rule); India has no such restriction. Statement 3 is incorrect → Citizenship Act allows deprivation under specific conditions. Hence only Statement 1 is correct → option (a)."
   }
+    ],
+    "Fundamental Rights": [
+  {
+    "year": 2017,
+    "question": "One of the implications of equality in society is the absence of:",
+    "options": [
+      "a) Privileges",
+      "b) Restraints",
+      "c) Competition",
+      "d) Ideology"
+    ],
+    "correct_answer": "a) Privileges",
+    "explanation": "Equality under Articles 14–18 implies absence of special privileges based on birth, caste, religion, or status. It establishes equality before law and equal protection of laws. However, equality does not mean absolute absence of restraints (reasonable restrictions exist) or elimination of competition; it only removes unjustified advantages.",
+    "elimination_logic": "Option (b) is wrong because restrictions exist under Article 19(2)–(6). Option (c) is irrelevant — competition is not opposed to equality. Option (d) is vague. UPSC tests conceptual clarity: equality = absence of privilege → (a)."
+  },
+  {
+    "year": 2017,
+    "question": "Which one of the following statements is correct?",
+    "options": [
+      "a) Rights are claims of the State against the citizens",
+      "b) Rights are privileges incorporated in the Constitution",
+      "c) Rights are claims of the citizens against the State",
+      "d) Rights are privileges of a few citizens"
+    ],
+    "correct_answer": "c) Rights are claims of the citizens against the State",
+    "explanation": "Fundamental Rights are enforceable claims of individuals against arbitrary State action. They impose negative obligations on the State (not to violate rights) and are enforceable through Article 32 and 226. They are not privileges granted at will, but guaranteed entitlements.",
+    "elimination_logic": "Option (a) reverses relationship. Option (b) uses wrong term ‘privileges’ (UPSC trap). Option (d) contradicts equality principle. Only (c) matches constitutional theory → correct."
+  },
+  {
+    "year": 2017,
+    "question": "Which of the following are included in the Right against Exploitation?",
+    "options": [
+      "a) 1, 2 and 4 only",
+      "b) 2, 3 and 4 only",
+      "c) 1 and 4 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "c) 1 and 4 only",
+    "explanation": "Right against Exploitation (Articles 23–24) prohibits trafficking, forced labour (begar), and child labour in hazardous employment. Abolition of untouchability is covered under Article 17 (Right to Equality), and minority rights under Articles 29–30.",
+    "elimination_logic": "Statement 2 → Article 17 (not here). Statement 3 → Cultural & Educational Rights. UPSC mixes categories deliberately. Only 1 and 4 fit Articles 23–24 → (c)."
+  },
+  {
+    "year": 2017,
+    "question": "Right to vote and to be elected in India is a:",
+    "options": [
+      "a) Fundamental Right",
+      "b) Natural Right",
+      "c) Constitutional Right",
+      "d) Legal Right"
+    ],
+    "correct_answer": "c) Constitutional Right",
+    "explanation": "Right to vote is provided under Article 326 and detailed in Representation of People Acts. It is a constitutional right (not fundamental) and can be regulated by law (e.g., disqualifications).",
+    "elimination_logic": "UPSC trap: many assume FR. It is not in Part III → eliminate (a). Not purely legal because Constitution provides base → eliminate (d). Hence (c)."
+  },
+  {
+    "year": 2018,
+    "question": "Right to Privacy is protected as intrinsic part of:",
+    "options": [
+      "a) Article 14",
+      "b) Article 17",
+      "c) Article 21",
+      "d) Article 24"
+    ],
+    "correct_answer": "c) Article 21",
+    "explanation": "In Justice K.S. Puttaswamy (2017), Supreme Court held that Right to Privacy is intrinsic to Article 21 (Right to Life and Personal Liberty) and part of dignity and autonomy.",
+    "elimination_logic": "Article 21 is widest (life + dignity). Article 14 = equality, 17 = untouchability, 24 = child labour. UPSC repeats this concept → (c)."
+  },
+  {
+    "year": 2019,
+    "question": "Right to marry a person of one’s choice is under:",
+    "options": [
+      "a) Article 19",
+      "b) Article 21",
+      "c) Article 25",
+      "d) Article 29"
+    ],
+    "correct_answer": "b) Article 21",
+    "explanation": "Supreme Court has consistently held that choice of partner is part of personal liberty under Article 21 (e.g., Shafin Jahan, Hadiya case). It reflects autonomy and dignity.",
+    "elimination_logic": "Article 19 = freedoms, 25 = religion, 29 = culture. Only Article 21 covers personal autonomy → (b)."
+  },
+  {
+    "year": 2020,
+    "question": "Untouchability protection falls under:",
+    "options": [
+      "a) Exploitation",
+      "b) Freedom",
+      "c) Remedies",
+      "d) Equality"
+    ],
+    "correct_answer": "d) Equality",
+    "explanation": "Article 17 abolishes untouchability and is part of Right to Equality (Articles 14–18). It aims to eliminate caste-based discrimination.",
+    "elimination_logic": "UPSC trap: exploitation vs equality confusion. Untouchability = discrimination → equality → (d)."
+  },
+  {
+    "year": 2021,
+    "question": "Right to Property is:",
+    "options": [
+      "a) Legal right (citizens)",
+      "b) Legal right (any person)",
+      "c) Fundamental right",
+      "d) None"
+    ],
+    "correct_answer": "b) Legal right (any person)",
+    "explanation": "After 44th Amendment (1978), Right to Property became a legal right under Article 300A. It applies to 'any person', not just citizens.",
+    "elimination_logic": "UPSC trap: citizens vs persons. Article 300A uses 'person' → eliminate (a). Not FR → eliminate (c). Hence (b)."
+  },
+  {
+    "year": 2021,
+    "question": "Unguided discretionary power violates:",
+    "options": [
+      "a) Article 14",
+      "b) Article 28",
+      "c) Article 32",
+      "d) Article 44"
+    ],
+    "correct_answer": "a) Article 14",
+    "explanation": "Article 14 embodies equality before law and prohibits arbitrariness (E.P. Royappa case). Unguided discretion leads to arbitrary action, violating equality.",
+    "elimination_logic": "Direct conceptual link: arbitrariness = violation of Article 14 → (a). Others unrelated."
+  },
+  {
+    "year": 2021,
+    "question": "Parole rules:",
+    "options": [
+      "a) Parole is a right",
+      "b) States have parole rules",
+      "c) Both",
+      "d) Neither"
+    ],
+    "correct_answer": "b) States have parole rules",
+    "explanation": "Parole is not a fundamental or absolute right; it is discretionary. States frame their own prison and parole rules.",
+    "elimination_logic": "Statement 1 wrong → parole ≠ right. Statement 2 correct → (b)."
+  },
+  {
+    "year": 2021,
+    "question": "Judicial custody:",
+    "options": [
+      "a) Police custody",
+      "b) Custody under magistrate",
+      "c) Both",
+      "d) Neither"
+    ],
+    "correct_answer": "b) Custody under magistrate",
+    "explanation": "Judicial custody means the accused is under court authority and lodged in jail. Police interrogation requires court permission.",
+    "elimination_logic": "Statement 1 wrong → UPSC trap. Statement 2 correct → (b)."
+  },
+  {
+    "year": 2023,
+    "question": "Reservation vs efficiency:",
+    "options": [
+      "a) Both correct + explanation",
+      "b) Both correct but no explanation",
+      "c) I correct, II incorrect",
+      "d) I incorrect"
+    ],
+    "correct_answer": "c) I correct, II incorrect",
+    "explanation": "Article 335 balances reservation with efficiency of administration. However, it does not define the term 'efficiency of administration'.",
+    "elimination_logic": "Statement II wrong → typical UPSC definitional trap → (c)."
+  },
+  {
+    "year": 2024,
+    "question": "Right to Privacy under:",
+    "options": [
+      "a) Article 15",
+      "b) Article 16",
+      "c) Article 19",
+      "d) Article 21"
+    ],
+    "correct_answer": "d) Article 21",
+    "explanation": "Reaffirmed in Puttaswamy case — privacy is intrinsic to life and liberty under Article 21.",
+    "elimination_logic": "Repeated PYQ theme → Article 21 → (d)."
+  }
     ]
   }
 }
-    
 
 
 
