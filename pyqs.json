@@ -3405,6 +3405,19 @@
     "elimination_logic": "Option (a) is a trap because Rajya Sabha indeed has a special power here, but not equal power with Lok Sabha in the ordinary sense. Option (c) is incorrect because the government is removable only through Lok Sabha confidence mechanisms. Option (d) is incorrect because cut motions belong to Lok Sabha's financial control. Thus option (b) alone is correct."
   },
   {
+  "year": 2021,
+  "question": "Consider the following statements: 1. In India, there is no law restricting candidates from contesting from three constituencies. 2. In 1991 Lok Sabha election, Shri Devi Lal contested from three constituencies. 3. If a candidate contests from multiple constituencies, the party must bear the cost of bye-elections.",
+  "options": [
+    "a) 1 only",
+    "b) 2 only",
+    "c) 1 and 3",
+    "d) 2 and 3"
+  ],
+  "correct_answer": "b) 2 only",
+  "explanation": "The Representation of the People Act, 1951 (amended in 1996) restricts a candidate to contest from a maximum of two constituencies. Hence, there is a legal restriction, making Statement 1 incorrect. Before this amendment, candidates could contest from more than two constituencies; for example, Devi Lal contested from three constituencies in the 1991 Lok Sabha elections, making Statement 2 correct. Statement 3 is incorrect because currently, the candidate (not the political party) is liable to bear the cost of bye-elections if he/she vacates seats after winning multiple constituencies (as per recent legal provisions).",
+  "elimination_logic": "Statement 1 is incorrect because UPSC expects awareness of the 1996 amendment limiting candidates to two constituencies. Statement 2 is a factual historical exception—correct. Statement 3 is a trap: cost is borne by the candidate, not the party. Hence only Statement 2 is correct → option (b)."
+  },
+  {
     "year": 2022,
     "question": "With reference to Deputy Speaker of Lok Sabha, consider the following statements: 1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix. 2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party. 3. The Deputy Speaker has the same power as of the Speaker when presiding over the sitting of the House and no appeal lies against his rulings. 4. The well-established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker – and duly seconded by the Prime Minister. Which of the statements given above are correct?",
     "options": [
