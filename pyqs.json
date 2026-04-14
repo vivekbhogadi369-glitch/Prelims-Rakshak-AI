@@ -3138,6 +3138,21 @@
     "explanation": "Under Article 72, the President has the power to grant pardons. This power is exercised on the advice of the Council of Ministers (Article 74). It is subject to limited judicial review (Epuru Sudhakar case) on grounds like mala fide or arbitrariness.",
     "elimination_logic": "Statement I is correct—judicial review exists but limited (UPSC nuance). Statement II is incorrect—President acts on aid and advice, not independently. UPSC tests ‘real vs nominal executive’ again → eliminate options containing II."
   }
+    ],
+    "Prime Minister": [
+  {
+    "year": 2015,
+    "question": "Consider the following statements: 1. The Executive Power of the Union is vested in the Prime Minister. 2. The Prime Minister is the ex-officio Chairman of the Civil Services Board.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Under Article 53, the executive power of the Union is vested in the President, not the Prime Minister. However, in practice, it is exercised by the Council of Ministers headed by the Prime Minister (Article 74). The Prime Minister is not the ex-officio Chairman of the Civil Services Board; this board is an administrative body typically headed by the Cabinet Secretary. The PM is the real executive head but constitutionally executive power remains vested in the President.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC classic trap between ‘de jure’ and ‘de facto’ executive: Constitutionally power is with President, not PM. Statement 2 is incorrect—Civil Services Board is bureaucratic, chaired by Cabinet Secretary, not PM. Since both statements are wrong → eliminate (a), (b), (c) → correct answer (d)."
+  }
     ]
   }
 }
