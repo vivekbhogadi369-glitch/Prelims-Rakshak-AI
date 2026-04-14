@@ -3030,6 +3030,34 @@
     "explanation": "The Seventh Schedule of the Constitution distributes subjects between Union, State, and Concurrent Lists. Inter-State quarantine falls under the Union List (Entry 81), as it involves coordination across states and national-level regulation. Matters involving inter-state dimensions are generally placed in the Union List to maintain uniformity. Corporation tax is also a Union List subject (Entry 85), while inter-state trade and migration are not purely state subjects.",
     "elimination_logic": "Option (a) is incorrect—Inter-State trade and commerce is governed by the Union (Entry 42, Union List), not States; UPSC tests ‘inter-state = Union bias’. Option (b) is incorrect—migration has inter-state implications and is not confined to State List; UPSC trap based on word ‘migration’. Option (d) is incorrect—Corporation tax is a Union List subject (Entry 85); taxation powers are clearly demarcated. Only (c) correctly matches a Union List entry (Inter-State quarantine), making it the correct answer."
   }
+    ],
+    "Emergency Provisions": [
+  {
+    "year": 2017,
+    "question": "Which of the following are not necessarily the consequences of the proclamation of the President’s rule in a State? 1. Dissolution of the State Legislative Assembly 2. Removal of the Council of Ministers in the State 3. Dissolution of the local bodies",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 1 and 3 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 1 and 3 only",
+    "explanation": "Under Article 356, President’s Rule leads to dismissal of the Council of Ministers and transfer of executive power to the President (Governor acting on behalf of President). However, the State Legislative Assembly may either be dissolved or kept under suspended animation—hence dissolution is not mandatory. Local bodies (Panchayats/Municipalities) are not automatically affected as they are governed by separate constitutional provisions (73rd and 74th Amendments).",
+    "elimination_logic": "Statement 2 is a definite consequence—Council of Ministers is always removed → eliminate options where 2 is treated as ‘not necessary’. Statement 1 is a trap—Assembly may be dissolved OR suspended (not compulsory). Statement 3 is incorrect—local bodies are independent of Article 356. Hence ‘not necessarily’ applies to 1 and 3 → (b)."
+  },
+  {
+    "year": 2018,
+    "question": "If President’s Rule is imposed under Article 356, then:",
+    "options": [
+      "a) The State Assembly is automatically dissolved.",
+      "b) The powers of the Legislature shall be exercisable by or under authority of Parliament.",
+      "c) Article 19 is suspended in that State.",
+      "d) The President can make laws relating to that State."
+    ],
+    "correct_answer": "b) The powers of the Legislature shall be exercisable by or under authority of Parliament.",
+    "explanation": "Under Article 356, the powers of the State Legislature are assumed by Parliament. Parliament can delegate this power to the President. However, the Assembly is not necessarily dissolved—it may be kept in suspended animation. Article 19 is suspended only during National Emergency (Article 352), not during President’s Rule.",
+    "elimination_logic": "Option (a) is incorrect—UPSC trap: ‘automatically dissolved’; it may be suspended instead. Option (c) is incorrect—Article 19 suspension is linked to National Emergency, not President’s Rule. Option (d) is partially misleading—President does not directly make laws; Parliament (or delegated authority) exercises legislative power. Only (b) correctly reflects Article 356 mechanism."
+  }
     ]
   }
 }
