@@ -3153,6 +3153,34 @@
     "explanation": "Under Article 53, the executive power of the Union is vested in the President, not the Prime Minister. However, in practice, it is exercised by the Council of Ministers headed by the Prime Minister (Article 74). The Prime Minister is not the ex-officio Chairman of the Civil Services Board; this board is an administrative body typically headed by the Cabinet Secretary. The PM is the real executive head but constitutionally executive power remains vested in the President.",
     "elimination_logic": "Statement 1 is incorrect—UPSC classic trap between ‘de jure’ and ‘de facto’ executive: Constitutionally power is with President, not PM. Statement 2 is incorrect—Civil Services Board is bureaucratic, chaired by Cabinet Secretary, not PM. Since both statements are wrong → eliminate (a), (b), (c) → correct answer (d)."
   }
+    ],
+    "Central Council of Ministers": [
+  {
+    "year": 2013,
+    "question": "Consider the following statements: 1. Council of Ministers shall be collectively responsible to Parliament. 2. Ministers hold office during pleasure of President. 3. Prime Minister shall communicate to President about legislative proposals.",
+    "options": [
+      "a) 1 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 and 3 only",
+    "explanation": "Under Article 75(3), the Council of Ministers is collectively responsible specifically to the Lok Sabha, not the entire Parliament—this is a key distinction in parliamentary accountability. Ministers hold office during the pleasure of the President (Article 75), though in practice this pleasure is exercised on the advice of the Prime Minister. Under Article 78, it is the duty of the Prime Minister to communicate to the President all decisions of the Council of Ministers relating to administration and legislative proposals.",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: ‘Parliament’ vs ‘Lok Sabha’; accountability is only to Lok Sabha → eliminate options containing 1. Statement 2 is correct—constitutional phrase ‘pleasure of President’ (even though real control is PM). Statement 3 is correct—Article 78 duty of PM. Hence correct combination is 2 and 3 → (b)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following statements: 1. Constitution classifies ministers into four ranks. 2. Total number of ministers shall not exceed 15% of Lok Sabha strength.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Constitution does not classify ministers into ranks; such classification (Cabinet Minister, MoS, etc.) is based on convention and practice. The 91st Constitutional Amendment Act, 2003 inserted a provision limiting the size of the Council of Ministers to 15% of the strength of the Lok Sabha (Article 75(1A)).",
+    "elimination_logic": "Statement 1 is incorrect—UPSC trap: distinction between ‘constitutional provision’ vs ‘convention’; ranks are not mentioned in Constitution. Statement 2 is correct—15% cap introduced by 91st Amendment. Hence eliminate options containing 1 → correct answer (b)."
+  }
     ]
   }
 }
