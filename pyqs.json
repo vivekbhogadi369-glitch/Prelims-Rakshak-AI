@@ -2974,6 +2974,47 @@
     "explanation": "Amendments affecting federal structure (Article 368) require ratification by at least half of the states. This includes matters like Union List distribution and extent of executive powers of states. However, conditions of Governor’s office do not require state ratification.",
     "elimination_logic": "UPSC tests ‘federal vs non-federal’. Union List and executive power affect Centre-State relations → require ratification. Governor’s office is centrally controlled → no ratification. Hence eliminate options containing III → (a)."
   }
+    ],
+    "Basic Structure": [
+  {
+    "year": 2017,
+    "question": "In India, Judicial Review implies:",
+    "options": [
+      "a) The power of the Judiciary to pronounce upon the constitutionality of laws and executive orders.",
+      "b) The power of the Judiciary to question the wisdom of the laws enacted by the Legislatures.",
+      "c) The power of the Judiciary to review all legislative enactments before Presidential assent.",
+      "d) The power of the Judiciary to review its own judgements."
+    ],
+    "correct_answer": "a) The power of the Judiciary to pronounce upon the constitutionality of laws and executive orders.",
+    "explanation": "Judicial Review is a basic feature of the Constitution (Kesavananda Bharati case, 1973). It empowers the judiciary to examine the constitutionality of legislative and executive actions and strike them down if they violate the Constitution, particularly Fundamental Rights.",
+    "elimination_logic": "Option (b) is a classic UPSC trap—courts do not judge ‘wisdom’ of laws, only constitutionality. Option (c) is incorrect—India follows post-enactment judicial review, not prior review (unlike some countries). Option (d) refers to ‘review jurisdiction’ under Article 137, not Judicial Review. Only (a) correctly captures the concept."
+  },
+  {
+    "year": 2018,
+    "question": "Consider the following statements: 1. Parliament can place a law in the Ninth Schedule. 2. Laws in Ninth Schedule cannot be examined by courts.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Parliament can place laws in the Ninth Schedule (introduced by 1st Amendment, 1951). However, after the I.R. Coelho case (2007), even laws placed in the Ninth Schedule are subject to judicial review if they violate the Basic Structure of the Constitution.",
+    "elimination_logic": "Statement 1 is correct—Parliament has this power. Statement 2 is a trap—earlier position (absolute immunity) is outdated after I.R. Coelho judgment. UPSC tests updated constitutional position → hence eliminate options containing 2."
+  },
+  {
+    "year": 2020,
+    "question": "Consider the following statements: 1. Constitution defines its ‘basic structure’. 2. Constitution provides for judicial review to safeguard liberties.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "The term ‘Basic Structure’ is not defined in the Constitution; it is a judicial doctrine evolved by the Supreme Court in Kesavananda Bharati (1973). While the Constitution provides for judicial review (Articles 13, 32, 226), the statement is framed incorrectly because it links it explicitly to ‘preserving ideals’ in that manner—UPSC expects precision and rejects loosely worded generalizations.",
+    "elimination_logic": "Statement 1 is incorrect—Basic Structure is judge-made, not written. Statement 2 appears correct but is a UPSC trap—though judicial review exists, the wording is vague and not a direct constitutional provision in that phrasing. UPSC eliminates such generalized statements → hence both incorrect → (d)."
+  }
     ]
   }
 }
