@@ -3015,6 +3015,21 @@
     "explanation": "The term ‘Basic Structure’ is not defined in the Constitution; it is a judicial doctrine evolved by the Supreme Court in Kesavananda Bharati (1973). While the Constitution provides for judicial review (Articles 13, 32, 226), the statement is framed incorrectly because it links it explicitly to ‘preserving ideals’ in that manner—UPSC expects precision and rejects loosely worded generalizations.",
     "elimination_logic": "Statement 1 is incorrect—Basic Structure is judge-made, not written. Statement 2 appears correct but is a UPSC trap—though judicial review exists, the wording is vague and not a direct constitutional provision in that phrasing. UPSC eliminates such generalized statements → hence both incorrect → (d)."
   }
+    ],
+    "Centre-State Relations": [
+  {
+    "year": 2024,
+    "question": "Which one of the following statements is correct as per the Constitution of India?",
+    "options": [
+      "a) Inter-State trade and commerce is a State subject under the State List.",
+      "b) Inter-State migration is a State subject under the State List.",
+      "c) Inter-State quarantine is a Union subject under the Union List.",
+      "d) Corporation tax is a State subject under the State List."
+    ],
+    "correct_answer": "c) Inter-State quarantine is a Union subject under the Union List.",
+    "explanation": "The Seventh Schedule of the Constitution distributes subjects between Union, State, and Concurrent Lists. Inter-State quarantine falls under the Union List (Entry 81), as it involves coordination across states and national-level regulation. Matters involving inter-state dimensions are generally placed in the Union List to maintain uniformity. Corporation tax is also a Union List subject (Entry 85), while inter-state trade and migration are not purely state subjects.",
+    "elimination_logic": "Option (a) is incorrect—Inter-State trade and commerce is governed by the Union (Entry 42, Union List), not States; UPSC tests ‘inter-state = Union bias’. Option (b) is incorrect—migration has inter-state implications and is not confined to State List; UPSC trap based on word ‘migration’. Option (d) is incorrect—Corporation tax is a Union List subject (Entry 85); taxation powers are clearly demarcated. Only (c) correctly matches a Union List entry (Inter-State quarantine), making it the correct answer."
+  }
     ]
   }
 }
