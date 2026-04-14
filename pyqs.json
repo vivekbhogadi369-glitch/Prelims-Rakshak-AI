@@ -2403,6 +2403,99 @@
     "explanation": "Due Process of Law implies that laws must be fair, just, and reasonable, and their application must follow principles of natural justice. In India, although the Constitution originally used 'procedure established by law' (Article 21), the Supreme Court in Maneka Gandhi case expanded it to include due process elements.",
     "elimination_logic": "Option (b) is the classic UPSC trap — it reflects original Article 21 wording, not due process. Option (c) is vague. Option (d) relates to Article 14. Only (a) captures essence → fairness + natural justice."
   }
+    ],
+    "Preamble": [
+  {
+    "year": 2013,
+    "question": "Economic justice as one of the objectives of the Indian Constitution has been provided in?",
+    "options": [
+      "a) The Preamble and the Fundamental Rights",
+      "b) The Preamble and the Directive Principles of State Policy",
+      "c) The Fundamental Rights and the Directive Principles of State Policy",
+      "d) None of the above"
+    ],
+    "correct_answer": "b) The Preamble and the Directive Principles of State Policy",
+    "explanation": "Economic justice is explicitly mentioned in the Preamble as one of the core objectives of the Constitution. Further, it is operationalized through the Directive Principles of State Policy (Part IV), especially Articles 38 and 39, which aim at reducing inequalities and ensuring equitable distribution of resources. Fundamental Rights primarily focus on political and civil liberties, not economic justice.",
+    "elimination_logic": "Option (a) is incorrect because Fundamental Rights do not directly guarantee economic justice. Option (c) is incorrect because it omits the Preamble, where economic justice is explicitly stated. Option (b) correctly combines ideological source (Preamble) and implementation mechanism (DPSP)."
+  },
+  {
+    "year": 2017,
+    "question": "The mind of the makers of the Constitution of India is reflected in which of the following?",
+    "options": [
+      "a) The Preamble",
+      "b) The Fundamental Rights",
+      "c) The Directive Principles of State Policy",
+      "d) The Fundamental Duties"
+    ],
+    "correct_answer": "a) The Preamble",
+    "explanation": "The Preamble is often described as the 'key to the Constitution' and reflects the philosophy, ideals, and objectives of the Constitution-makers. It embodies the vision of justice, liberty, equality, and fraternity, thereby revealing the intent and ideological framework of the framers.",
+    "elimination_logic": "Fundamental Rights and DPSPs are substantive provisions but do not directly express the framers’ philosophy in a summarized form. Fundamental Duties were added later (42nd Amendment, 1976). Only the Preamble reflects the original intent → (a)."
+  },
+  {
+    "year": 2018,
+    "question": "Which of the following statements is/are true of the Preamble to the Constitution of India? 1. The Preamble is a part of the Constitution. 2. The Preamble has been amended twice since the Constitution came into force. 3. The Preamble can be amended under Article 368.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "c) 1 and 3 only",
+    "explanation": "In the Kesavananda Bharati case (1973), the Supreme Court held that the Preamble is part of the Constitution. It can be amended under Article 368, but subject to the Basic Structure doctrine. However, the Preamble has been amended only once, by the 42nd Constitutional Amendment Act (1976), which added 'Socialist', 'Secular', and 'Integrity'.",
+    "elimination_logic": "Statement 1 is correct (Kesavananda case). Statement 2 is incorrect — UPSC trap → amended only once, not twice. Statement 3 is correct → amendable under Article 368. Hence eliminate options containing 2 → (b), (d). Final → (c)."
+  },
+  {
+    "year": 2019,
+    "question": "Which one of the following objectives is not embodied in the Preamble to the Constitution of India?",
+    "options": [
+      "a) Liberty of thought",
+      "b) Economic liberty",
+      "c) Liberty of expression",
+      "d) Liberty of belief"
+    ],
+    "correct_answer": "b) Economic liberty",
+    "explanation": "The Preamble guarantees liberty of thought, expression, belief, faith, and worship. However, it refers to 'economic justice' and not 'economic liberty'. This distinction is important — liberty in the Preamble is largely civil-political, while economic aspects are framed in terms of justice.",
+    "elimination_logic": "Options (a), (c), and (d) are directly mentioned in the Preamble. 'Economic liberty' is not mentioned — UPSC tests exact wording vs conceptual assumption. Hence (b)."
+  },
+  {
+    "year": 2019,
+    "question": "In the context of polity, which one of the following would you accept as the most appropriate definition of liberty?",
+    "options": [
+      "a) Protection against the tyranny of political rulers",
+      "b) Absence of restraint",
+      "c) Opportunity to do whatever one likes",
+      "d) Opportunity to develop oneself fully"
+    ],
+    "correct_answer": "d) Opportunity to develop oneself fully",
+    "explanation": "Modern constitutional understanding of liberty is positive, not merely negative. It does not mean absence of restraint, but the presence of conditions that allow full development of human personality. This aligns with the constitutional vision where liberty is balanced with reasonable restrictions (Article 19).",
+    "elimination_logic": "Option (b) represents negative liberty (absence of restraint) — incomplete. Option (c) is absolute freedom → unrealistic. Option (a) is partial (only political tyranny). Option (d) reflects positive liberty → most comprehensive → correct."
+  },
+  {
+    "year": 2020,
+    "question": "The Preamble to the Constitution of India is:",
+    "options": [
+      "a) A part of the Constitution but has no legal effect",
+      "b) Not a part of the Constitution and has no legal effect either",
+      "c) A part of the Constitution and has the same legal effect as any other part",
+      "d) A part of the Constitution but has no legal effect independently of other parts"
+    ],
+    "correct_answer": "d) A part of the Constitution but has no legal effect independently of other parts",
+    "explanation": "The Supreme Court in Kesavananda Bharati (1973) held that the Preamble is part of the Constitution. However, it is not enforceable in a court of law and cannot be a source of independent rights or powers. It is interpretative in nature and helps in understanding the Constitution.",
+    "elimination_logic": "Option (b) is incorrect (Preamble is part). Option (c) is incorrect because Preamble is not enforceable like other provisions. Option (a) is misleading — it has legal relevance in interpretation. Only (d) correctly captures its position."
+  },
+  {
+    "year": 2021,
+    "question": "Consider the following statements about the Preamble of the Constitution of India: 1. The Preamble is not a part of the Constitution and has no legal effect independently of other parts. 2. The ideals of Liberty, Equality, and Fraternity enshrined in the Preamble have been taken from the French Revolution.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Statement 1 is incorrect because the Preamble is a part of the Constitution (Kesavananda Bharati case). Though it is not independently enforceable, it still has constitutional status. Statement 2 is also incorrect because while Liberty, Equality, and Fraternity are inspired by the French Revolution, UPSC expects precision — these ideals are adopted but not 'directly taken' in a strict historical sense; the Constitution reflects multiple sources.",
+    "elimination_logic": "Statement 1 is clearly wrong → eliminate (a), (c). Statement 2 appears correct but is a subtle UPSC trap — overly simplistic attribution. Hence eliminate (b). Final → (d)."
+  }
     ]
   }
 }
