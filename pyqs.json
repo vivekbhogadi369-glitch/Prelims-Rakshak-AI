@@ -3893,7 +3893,114 @@
     "explanation": "Writ of Prohibition is issued by higher courts to lower courts or tribunals to prevent them from exceeding jurisdiction or continuing proceedings in violation of law.",
     "elimination_logic": "Not against executive or legislature. It is strictly judicial control over lower courts. Hence option (c)."
   }
-  ]
+  ],
+    "Constitutional Bodies": [
+  {
+    "year": 2013,
+    "question": "Attorney General of India can: 1. Take part in the proceedings of Lok Sabha 2. Be a member of a committee of the Lok Sabha 3. Speak in the Lok Sabha 4. Vote in the Lok Sabha",
+    "options": [
+      "a) 1 only",
+      "b) 2 and 4",
+      "c) 1, 2 and 3",
+      "d) 1 and 3 only"
+    ],
+    "correct_answer": "c) 1, 2 and 3",
+    "explanation": "Under Article 88, the Attorney General of India has the right to participate in the proceedings of both Houses of Parliament and their committees. He can speak and take part in discussions but does not have the right to vote. This reflects his role as the chief legal advisor to the Government rather than a legislator.",
+    "elimination_logic": "Statement 4 is clearly incorrect because AG is not a member of Parliament and hence cannot vote. Statements 1, 2, and 3 are correct as per Article 88. Hence option (c)."
+  },
+  {
+    "year": 2015,
+    "question": "With reference to the Fourteenth Finance Commission, which of the following statements is/are correct? 1. It increased the share of States from 32% to 42%. 2. It made recommendations on sector-specific grants.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "The 14th Finance Commission significantly increased the States’ share in the divisible pool from 32% to 42%, marking a major shift towards fiscal federalism. However, it reduced sector-specific grants, preferring untied transfers to give States greater autonomy.",
+    "elimination_logic": "Statement 1 is correct (factual core point). Statement 2 is incorrect because the Commission deliberately moved away from sector-specific grants. Hence only Statement 1 → option (a)."
+  },
+  {
+    "year": 2017,
+    "question": "Consider the following statements: 1. Election Commission is a five-member body. 2. MHA decides election schedule. 3. ECI resolves disputes on party splits/mergers.",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 only",
+      "c) 2 and 3 only",
+      "d) 3 only"
+    ],
+    "correct_answer": "d) 3 only",
+    "explanation": "The Election Commission of India is not constitutionally fixed at five members; currently it is a three-member body. The election schedule is decided by the Election Commission itself, ensuring independence from the executive. The Commission has quasi-judicial powers to decide disputes related to party splits and mergers under the Election Symbols Order.",
+    "elimination_logic": "Statement 1 is incorrect (no fixed five-member structure). Statement 2 is incorrect (ECI decides schedule, not MHA). Statement 3 is correct. Hence only Statement 3 → option (d)."
+  },
+  {
+    "year": 2020,
+    "question": "Consider the following statements: 1. Attorney General and Solicitor General are the only officers allowed to participate in Parliament. 2. AG resigns when the Government resigns.",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Article 88 allows the Attorney General to participate in Parliament, but Solicitor General is not a constitutional post and does not enjoy this right. Also, the Attorney General holds office during the pleasure of the President and does not automatically resign when the government changes.",
+    "elimination_logic": "Statement 1 is incorrect due to over-generalisation (SG not included). Statement 2 is incorrect because AG tenure is not tied to government resignation. Hence option (d)."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following bodies: 1. NCBC 2. NHRC 3. Law Commission 4. NCDRC. How many are constitutional bodies?",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) Only three",
+      "d) All four"
+    ],
+    "correct_answer": "a) Only one",
+    "explanation": "The National Commission for Backward Classes (NCBC) is a constitutional body under Article 338B. NHRC, Law Commission, and NCDRC are statutory bodies created by Acts of Parliament.",
+    "elimination_logic": "Only NCBC is constitutional. Others are statutory. Hence count = 1 → option (a)."
+  },
+  {
+    "year": 2023,
+    "question": "15th Finance Commission horizontal devolution criteria (excluding population, area, income distance): 1. Demographic performance 2. Forest and ecology 3. Governance reforms 4. Stable government 5. Tax effort",
+    "options": [
+      "a) Only two",
+      "b) Only three",
+      "c) Only four",
+      "d) All five"
+    ],
+    "correct_answer": "b) Only three",
+    "explanation": "The 15th Finance Commission used criteria such as demographic performance, forest & ecology, and tax effort. Governance reforms and stable government were not used as explicit criteria.",
+    "elimination_logic": "Statements 1, 2, and 5 are correct. Statements 3 and 4 are traps (sound logical but not used). Hence total = 3 → option (b)."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following statements about 15th Finance Commission: I. ₹4800 crore for education outcomes II. 45% tax share III. ₹45,000 crore for agri reforms IV. Reintroduced tax effort",
+    "options": [
+      "a) I, II and III",
+      "b) I, II and IV",
+      "c) I, III and IV",
+      "d) II, III and IV"
+    ],
+    "correct_answer": "c) I, III and IV",
+    "explanation": "The 15th Finance Commission retained the 41% share (not 45%) for States due to J&K reorganization. It recommended grants for education outcomes and agricultural reforms and reintroduced tax effort as a criterion.",
+    "elimination_logic": "Statement II is incorrect (42% reduced to 41%, not 45%). Statements I, III, IV are correct. Hence option (c)."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following: I. Inter-State Council II. National Security Council III. Zonal Councils. How many are constitutional bodies?",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) All three",
+      "d) None"
+    ],
+    "correct_answer": "a) Only one",
+    "explanation": "The Inter-State Council is provided under Article 263 of the Constitution. The National Security Council and Zonal Councils are extra-constitutional/statutory bodies.",
+    "elimination_logic": "Only Inter-State Council has constitutional backing. Others are not. Hence count = 1 → option (a)."
+  }
+    ]
   }
 }
+
 
