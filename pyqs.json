@@ -2613,6 +2613,21 @@
     "explanation": "Statement 1 is incorrect because the Supreme Court in Kesavananda Bharati (1973) clearly held that the Preamble is a part of the Constitution. Statement 2 is also incorrect in strict UPSC sense because while the ideals of liberty, equality, and fraternity were inspired by the French Revolution, they were also influenced by other sources and are not exclusively derived from it. UPSC treats this statement as incorrect due to over-simplification.",
     "elimination_logic": "Statement 1 is factually wrong → eliminate (a) and (c). Statement 2 appears correct but UPSC treats it as incorrect because it is not exclusively derived from French Revolution. Hence both incorrect → (d)."
   }
+    ],
+    "Citizenship": [
+  {
+    "year": 2021,
+    "question": "With reference to India, consider the following statements:\n1. There is only ‘one citizenship and one domicile’.\n2. A citizen by birth only can become the Head of State.\n3. A foreigner once granted the citizenship cannot be deprived of it under any circumstances.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3",
+      "d) 2 and 3"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "India follows the principle of single citizenship, unlike federal countries such as the United States which have dual citizenship (state and federal). Therefore, Statement 1 is correct. Statement 2 is incorrect because the Constitution of India does not restrict the office of the President (Head of State) only to citizens by birth. Any citizen of India, whether by birth, descent, registration, or naturalization, can become the President provided other constitutional conditions are satisfied. Statement 3 is also incorrect because the Citizenship Act, 1955 provides for deprivation of citizenship under certain conditions such as fraud, disloyalty, or unlawful trade with an enemy country. Hence, citizenship once granted is not absolute and can be revoked under specified circumstances.",
+    "elimination_logic": "Statement 2 can be eliminated because India does not follow the ‘natural-born citizen’ requirement like the USA. This removes options (b) and (d). Statement 3 is also incorrect because citizenship can be terminated or deprived under the Citizenship Act, 1955. Hence, options (c) and (d) are eliminated. Only Statement 1 is correct, making option (a) the correct answer."
+  }
     ]
   }
 }
