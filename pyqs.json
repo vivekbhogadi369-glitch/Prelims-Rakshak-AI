@@ -3215,19 +3215,6 @@
     "correct_answer": "a) I only",
     "explanation": "Under Article 72, the President exercises pardoning power, but it is subject to judicial review on limited grounds such as mala fide or arbitrariness. However, the President acts on the aid and advice of the Council of Ministers (Article 74) and cannot exercise this power independently.",
     "elimination_logic": "UPSC tests ‘aid & advice’ doctrine. Statement II violates core principle → eliminate options containing II. Statement I is correct due to judicial review evolution → (a)."
-  },
-  {
-    "year": 2025,
-    "question": "The Constitution (71st Amendment) Act, 1992 amends the Eighth Schedule to include which of the following languages?\n1. Konkani\n2. Manipuri\n3. Nepali\n4. Maithili\nSelect the correct answer using the code given below:",
-    "options": [
-      "a) 1, 2 and 3",
-      "b) 1, 2 and 4",
-      "c) 1, 3 and 4",
-      "d) 2, 3 and 4"
-    ],
-    "correct_answer": "a) 1, 2 and 3",
-    "explanation": "The 71st Amendment Act, 1992 added Konkani, Manipuri and Nepali. Maithili was added later by the 92nd Amendment (2003).",
-    "elimination_logic": "Presence of Maithili indicates wrong option for 71st Amendment → eliminate all except (a)."
   }
     ]
   }
