@@ -2216,34 +2216,37 @@
 ]
 },
   "Indian Polity": {
-    "Evolution of the Constitution": [
-      {
-        "year": 2022,
-        "question": "The Government of India Act of 1919 clearly defined:",
-        "options": [
-          "a) The powers of the Secretary of State for India",
-          "b) The system of Diarchy in the provinces",
-          "c) The composition of the Indian Civil Services",
-          "d) The structure of the Constituent Assembly"
-        ],
-        "correct_answer": "b) The system of Diarchy in the provinces",
-        "explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced the system of diarchy in the provinces. Under this system, provincial subjects were divided into 'Transferred' and 'Reserved' categories. Transferred subjects were administered by Indian ministers responsible to the legislative councils, while reserved subjects remained under the control of the Governor and his executive council. This marked the first step towards responsible government at the provincial level.",
-        "elimination_logic": "Option (a) is incorrect because the powers of the Secretary of State were already defined under the Government of India Act, 1858. Option (c) is incorrect as ICS composition was not the focus of this Act. Option (d) is incorrect because the Constituent Assembly was formed later in 1946."
-      },
-      {
-        "year": 2023,
-        "question": "By which one of the following Acts was the Governor General of Bengal designated as the Governor General of India?",
-        "options": [
-          "a) Regulating Act, 1773",
-          "b) Charter Act, 1833",
-          "c) Charter Act, 1853",
-          "d) Government of India Act, 1858"
-        ],
-        "correct_answer": "b) Charter Act, 1833",
-        "explanation": "The Charter Act of 1833 redesignated the Governor General of Bengal as the Governor General of India, centralizing administration. Lord William Bentinck became the first Governor General of India. The Act also ended the East India Company's commercial activities.",
-        "elimination_logic": "Option (a) is incorrect because the Regulating Act, 1773 only created the Governor General of Bengal. Option (c) is incorrect as the Charter Act, 1853 focused on civil services reforms. Option (d) is incorrect because the Government of India Act, 1858 transferred power to the Crown but did not change the designation."
-      }
-    ],
+  "Evolution of the Constitution": [
+
+    {
+      "year": 2022,
+      "question": "The Government of India Act, 1919 clearly defined which of the following?\n\n(a) The powers of the Secretary of State for India\n(b) The system of Diarchy in the provinces\n(c) The composition of the Indian Civil Services\n(d) The structure of the Constituent Assembly",
+      "options": [
+        "a) The powers of the Secretary of State for India",
+        "b) The system of Diarchy in the provinces",
+        "c) The composition of the Indian Civil Services",
+        "d) The structure of the Constituent Assembly"
+      ],
+      "correct_answer": "b) The system of Diarchy in the provinces",
+      "explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced the system of diarchy in the provinces. Under this system, provincial subjects were divided into ‘reserved’ and ‘transferred’ subjects. Reserved subjects like law and order were administered by the Governor and his executive council, while transferred subjects like education and public health were administered by Indian ministers responsible to the legislative councils. The Act did not deal with the structure of the Constituent Assembly (which came later in 1946), nor did it substantially redefine the ICS or the Secretary of State’s powers.",
+      "elimination_logic": "Option (d) can be eliminated immediately because the Constituent Assembly was formed much later (1946). Option (c) is incorrect since ICS structure was not the focus of the 1919 Act. Option (a) is too general and not the defining feature. The most distinctive and exam-relevant feature of the 1919 Act is diarchy → hence (b) is correct."
+    },
+
+    {
+      "year": 2023,
+      "question": "By which one of the following Acts was the Governor-General of Bengal designated as the Governor-General of India?\n\n(a) Regulating Act, 1773\n(b) Charter Act, 1833\n(c) Charter Act, 1853\n(d) Government of India Act, 1858",
+      "options": [
+        "a) Regulating Act, 1773",
+        "b) Charter Act, 1833",
+        "c) Charter Act, 1853",
+        "d) Government of India Act, 1858"
+      ],
+      "correct_answer": "b) Charter Act, 1833",
+      "explanation": "The Charter Act of 1833 was a landmark legislation that centralized British administration in India. It redesignated the Governor-General of Bengal as the Governor-General of India, thereby making him the head of all British territories in India. Lord William Bentinck became the first Governor-General of India under this Act. It also ended the commercial activities of the East India Company and marked the beginning of a centralised administrative system.",
+      "elimination_logic": "Option (a) Regulating Act, 1773 only created the post of Governor-General of Bengal, not India. Option (c) Charter Act, 1853 dealt with legislative reforms and civil services, not this designation. Option (d) Government of India Act, 1858 transferred power from the Company to the Crown. Hence, only the Charter Act, 1833 made this specific designation change → (b) is correct."
+    }
+    ]
+  },
     "Making of the Constitution": [
   {
     "year": 2021,
