@@ -2959,6 +2959,99 @@
     "explanation": "Statement-II is correct as per the Flag Code of India, 2002, which mandates that the ratio of length to height of the National Flag must be 3:2. However, Statement-I is incorrect because the standard sizes prescribed under the Flag Code do not include 600 mm × 400 mm. The official sizes follow the 3:2 ratio but are standardized in specific dimensions such as 6300×4200 mm, 3600×2400 mm, etc., not 600×400 mm.",
     "elimination_logic": "This is a factual trap. First verify the ratio — 3:2 is standard → Statement II correct. Now check dimensions — UPSC often traps with near-correct numbers. 600×400 seems proportional but is not an officially prescribed size → Statement I incorrect. Hence only II correct → (d)."
   }
+    ],
+    "Amendment of the Constitution": [
+  {
+    "year": 2013,
+    "question": "Consider the following statements:\n1. An amendment to the Constitution of India can be initiated by introduction of a bill in the Lok Sabha only.\n2. If such an amendment seeks to make changes in the federal character of the Constitution, the amendment also requires it to be ratified by the legislature of all the States of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Article 368 of the Constitution provides the procedure for constitutional amendment. A Constitution Amendment Bill can be introduced in either House of Parliament — Lok Sabha or Rajya Sabha — hence Statement 1 is incorrect. Further, amendments affecting the federal structure (such as distribution of powers, representation of states, etc.) require ratification by not less than one-half of the State legislatures, not all states. Hence Statement 2 is also incorrect.",
+    "elimination_logic": "Statement 1 is a classic trap — UPSC tests knowledge of bicameral initiation → eliminate options (a) and (c). Statement 2 exaggerates requirement (‘all states’ instead of ‘half states’) → eliminate (b). Hence (d) remains."
+  },
+  {
+    "year": 2019,
+    "question": "Consider the following statements:\n1. The 44th Amendment to the Constitution of India introduced an article placing the election of the Prime Minister beyond judicial review.\n2. The Supreme Court of India struck down the 99th Amendment to the Constitution of India as being violative of the independence of judiciary.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "Statement 1 is incorrect. It was the 39th Amendment Act, 1975 that attempted to place the election of the Prime Minister beyond judicial review by inserting Article 329A. This was later struck down in the Indira Gandhi case. Statement 2 is correct. The Supreme Court in the NJAC case (2015) struck down the 99th Constitutional Amendment Act as it violated the basic structure doctrine, particularly the independence of judiciary.",
+    "elimination_logic": "UPSC tests amendment-number precision. 44th Amendment is linked to restoring civil liberties post-Emergency, not election immunity → eliminate Statement 1. Statement 2 is a well-known basic structure case → correct. Hence (b)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following statements:\n1. A bill amending the Constitution requires prior recommendation of the President of India.\n2. When a Constitution Amendment Bill is presented to the President of India, it is obligatory for the President to give assent.\n3. A Constitution Amendment Bill must be passed by both Houses by special majority and there is no provision for joint sitting.\nWhich of the statements given above are correct?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 and 3 only",
+    "explanation": "Under Article 368, no prior recommendation of the President is required to introduce a Constitutional Amendment Bill — hence Statement 1 is incorrect. Once passed by both Houses, the President is bound to give assent and cannot withhold or return the bill — Statement 2 is correct. Further, there is no provision for joint sitting in case of disagreement between the Houses — Statement 3 is correct.",
+    "elimination_logic": "Statement 1 confuses ordinary bill procedure with amendment procedure → eliminate options (a), (c), (d). Statements 2 and 3 are core features of Article 368 → (b)."
+  },
+  {
+    "year": 2023,
+    "question": "In India, which one of the following Constitutional Amendments was widely believed to be enacted to overcome judicial interpretations of the Fundamental Rights?",
+    "options": [
+      "a) 1st Amendment",
+      "b) 42nd Amendment",
+      "c) 44th Amendment",
+      "d) 86th Amendment"
+    ],
+    "correct_answer": "a) 1st Amendment",
+    "explanation": "The 1st Constitutional Amendment Act, 1951 was enacted in response to early Supreme Court judgments such as Champakam Dorairajan case, which interpreted Fundamental Rights in a restrictive manner. The amendment introduced provisions like Article 15(4) for affirmative action and placed certain laws in the Ninth Schedule to immunize them from judicial review.",
+    "elimination_logic": "42nd Amendment is about centralization and DPSP supremacy, not specifically early FR judicial conflict → eliminate (b). 44th restores rights → eliminate (c). 86th relates to Right to Education → eliminate (d). Only 1st Amendment fits judicial override context → (a)."
+  },
+  {
+    "year": 2023,
+    "question": "The Constitution (71st Amendment) Act, 1992 amended the Eighth Schedule to include which of the following languages?\n1. Konkani\n2. Manipuri\n3. Nepali\n4. Maithili\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1, 2 and 3",
+      "b) 1, 2 and 4",
+      "c) 1, 3 and 4",
+      "d) 2, 3 and 4"
+    ],
+    "correct_answer": "a) 1, 2 and 3",
+    "explanation": "The 71st Constitutional Amendment Act, 1992 added Konkani, Manipuri and Nepali to the Eighth Schedule, increasing the number of scheduled languages. Maithili was added later by the 92nd Amendment Act, 2003.",
+    "elimination_logic": "UPSC tests amendment-language mapping. If Maithili appears, eliminate options including it → eliminates (b), (c), (d). Only (a) remains."
+  },
+  {
+    "year": 2024,
+    "question": "As per Article 368 of the Constitution of India, Parliament may amend any provision of the Constitution by way of:\n1. Addition\n2. Variation\n3. Repeal\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "d) 1, 2 and 3",
+    "explanation": "Article 368 explicitly states that Parliament may amend the Constitution by way of addition, variation or repeal of any provision, subject to the basic structure doctrine laid down by the Supreme Court.",
+    "elimination_logic": "Direct Article-based question. If one option includes all three and matches Article wording, UPSC generally expects full inclusion → (d)."
+  },
+  {
+    "year": 2025,
+    "question": "Consider the following subjects under the Constitution of India:\nI. List I – Union List\nII. Extent of the executive power of a State\nIII. Conditions of the Governor’s office\nFor a constitutional amendment with respect to which of the above, ratification by not less than one-half of the States is required?",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "a) I and II only",
+    "explanation": "Amendments affecting federal provisions such as distribution of legislative powers (Seventh Schedule including Union List) and extent of executive power of states require ratification by at least half of the states. However, conditions of the Governor’s office do not fall under mandatory state ratification category.",
+    "elimination_logic": "Key concept: federal structure amendments → require state ratification. Union List (I) and executive power of states (II) directly affect federal balance → include. Governor’s office is centrally controlled → eliminate III. Hence (a)."
+  }
     ]
   }
 }
