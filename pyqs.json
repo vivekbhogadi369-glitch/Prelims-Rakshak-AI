@@ -2291,9 +2291,10 @@
     }
  ],
    "Salient Features of Indian Constitution": [
+
   {
     "year": 2013,
-    "question": "In the context of India, which of the following principles is/are implied institutionally in the parliamentary government? 1. Members of the cabinet are members of the parliament 2. Ministers hold the office till they enjoy confidence in the parliament 3. Cabinet is headed by the head of the state",
+    "question": "In the context of India, which of the following principles is/are implied institutionally in the parliamentary government?\n\n1. Members of the cabinet are members of the Parliament\n2. Ministers hold office as long as they enjoy the confidence of the Parliament\n3. The Cabinet is headed by the Head of the State\n\nSelect the correct answer using the code given below:\n\n(a) 1 and 2 only\n(b) 3 only\n(c) 2 and 3 only\n(d) 1, 2 and 3",
     "options": [
       "a) 1 and 2 only",
       "b) 3 only",
@@ -2301,12 +2302,13 @@
       "d) 1, 2 and 3"
     ],
     "correct_answer": "a) 1 and 2 only",
-    "explanation": "The parliamentary system in India is based on the British model and is characterized by a close relationship between the executive and legislature. Under Article 75, ministers are generally members of Parliament, and even if appointed from outside, they must secure membership within six months. Further, Article 75(3) establishes collective responsibility of the Council of Ministers to the Lok Sabha, meaning they remain in office only as long as they enjoy majority support. However, the Cabinet is not headed by the Head of State. In India, the President is the nominal executive, while the Prime Minister is the real executive and head of the Cabinet.",
-    "elimination_logic": "Statement 1 is correct due to fusion of executive and legislature. Statement 2 is correct due to collective responsibility. Statement 3 is incorrect because UPSC tests the distinction between nominal and real executive — President ≠ Cabinet head. Hence eliminate options containing 3 → (c), (d). Final answer → (a)."
+    "explanation": "The parliamentary system of government, as adopted in India, is characterized by the fusion of executive and legislature. Ministers are usually members of Parliament (Article 75) or must become members within six months. Further, the Council of Ministers remains in office only as long as it enjoys the confidence of the Lok Sabha (collective responsibility under Article 75(3)). However, the Cabinet is headed by the Prime Minister, not the Head of the State (President), who is only a nominal executive.",
+    "elimination_logic": "Statement 1 → Correct (ministers drawn from legislature). Statement 2 → Correct (confidence of Lok Sabha essential). Statement 3 → Incorrect (Cabinet headed by PM, not President). Hence eliminate options containing 3 → (b), (c), (d) eliminated → correct answer (a)."
   },
+
   {
     "year": 2014,
-    "question": "A Constitutional Government is one which: 1. Places effective restrictions on individual liberty in the interest of State Authority. 2. Places effective restrictions on the Authority of the State in the interest of individual liberty.",
+    "question": "Consider the following statements:\n\nA constitutional government is one which:\n\n1. Places effective restrictions on individual liberty in the interest of State authority\n2. Places effective restrictions on the authority of the State in the interest of individual liberty\n\nWhich of the statements given above is/are correct?\n\n(a) 1 only\n(b) 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2",
     "options": [
       "a) 1 only",
       "b) 2 only",
@@ -2314,38 +2316,55 @@
       "d) Neither 1 nor 2"
     ],
     "correct_answer": "b) 2 only",
-    "explanation": "The essence of constitutional government lies in the idea of constitutionalism, which implies limited government. The Constitution acts as a restraint on arbitrary exercise of power by the State, ensuring protection of individual liberty. This is closely linked with the Rule of Law doctrine. Therefore, constitutional government is one where State authority is limited, not one where individual liberty is curtailed.",
-    "elimination_logic": "Statement 1 reverses the core principle by prioritizing State authority over liberty — this is typical of authoritarian systems. Statement 2 correctly reflects constitutionalism — limitation of State power to protect liberty. Hence answer is (b)."
+    "explanation": "The essence of constitutional government lies in the principle of ‘limited government’, where the powers of the State are restricted by a constitution to protect individual liberty. The Constitution acts as a safeguard against arbitrary authority. Therefore, it is not about restricting liberty for the State, but about restricting State power for liberty.",
+    "elimination_logic": "Statement 1 → Incorrect (reverses concept; constitutionalism protects liberty). Statement 2 → Correct (limits State power). Hence eliminate (a) and (c). (d) incorrect as Statement 2 is valid → correct answer (b)."
   },
+
   {
     "year": 2015,
-    "question": "There is a Parliamentary System of Government in India because the",
+    "question": "There is a Parliamentary System of Government in India because the:\n\n(a) Lok Sabha is elected directly by the people\n(b) Parliament can amend the Constitution\n(c) Rajya Sabha cannot be dissolved\n(d) Council of Ministers is responsible to the Lok Sabha",
     "options": [
       "a) Lok Sabha is elected directly by the people",
-      "b) Parliament can amend the constitution",
+      "b) Parliament can amend the Constitution",
       "c) Rajya Sabha cannot be dissolved",
       "d) Council of Ministers is responsible to the Lok Sabha"
     ],
     "correct_answer": "d) Council of Ministers is responsible to the Lok Sabha",
-    "explanation": "The defining feature of a parliamentary system is executive accountability to the legislature. In India, Article 75(3) clearly states that the Council of Ministers is collectively responsible to the Lok Sabha. This ensures continuous control of the legislature over the executive, distinguishing it from the presidential system where the executive has a fixed tenure.",
-    "elimination_logic": "Option (a) is present in both parliamentary and presidential systems. Option (b) relates to constitutional amendment, not executive-legislature relation. Option (c) is only a structural feature. Only (d) captures the core principle of parliamentary system → accountability."
+    "explanation": "The defining feature of a parliamentary system is the collective responsibility of the Council of Ministers to the lower house (Lok Sabha). This ensures that the executive remains accountable to the legislature and can be removed through a vote of no-confidence.",
+    "elimination_logic": "(a) Direct election exists even in presidential systems → eliminate. (b) Amendment power is unrelated to parliamentary nature → eliminate. (c) Rajya Sabha continuity is not defining feature → eliminate. (d) Collective responsibility is core feature → correct."
   },
+
   {
     "year": 2017,
-    "question": "Which one of the following is not a feature of Indian federalism?",
+    "question": "Out of the following statements, choose the one that brings out the principle underlying the Cabinet form of Government:\n\n(a) An arrangement for minimizing criticism against the Government\n(b) A mechanism for speeding up the activities of the Government\n(c) A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people\n(d) A device for strengthening the hands of the head of the Government",
     "options": [
-      "a) Independent judiciary",
-      "b) Division of powers",
-      "c) Unequal representation in Rajya Sabha",
-      "d) Result of agreement among states"
+      "a) An arrangement for minimizing criticism against the Government",
+      "b) A mechanism for speeding up the activities of the Government",
+      "c) A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people",
+      "d) A device for strengthening the hands of the head of the Government"
     ],
-    "correct_answer": "d) Result of agreement among states",
-    "explanation": "Indian federalism is described as a 'holding together federation' (K.C. Wheare), where the Constitution creates a federal structure within a strong Union. Unlike the USA, Indian states did not come together through an agreement. Features like division of powers (Seventh Schedule), independent judiciary, and representation of states in Rajya Sabha are integral to Indian federalism.",
-    "elimination_logic": "Options (a) and (b) are classic federal features. Option (c) is a unique Indian feature (population-based representation). Option (d) is the UPSC trap — it applies to 'coming together' federations like USA, not India. Hence answer (d)."
+    "correct_answer": "c) A mechanism of parliamentary democracy for ensuring collective responsibility of the Government to the people",
+    "explanation": "The Cabinet system is fundamentally based on the doctrine of collective responsibility, under which all ministers act as a team and are jointly accountable to the legislature. This ensures unity in policy and accountability in governance.",
+    "elimination_logic": "(a) and (b) are administrative outcomes, not core principles → eliminate. (d) contradicts collective nature (focuses on individual power) → eliminate. Only (c) reflects constitutional doctrine → correct."
   },
+
+  {
+    "year": 2017,
+    "question": "The main advantage of the parliamentary form of government is that:\n\n(a) The executive and legislature work independently\n(b) It provides continuity of policy and is more efficient\n(c) The executive remains responsible to the legislature\n(d) The head of the government cannot be changed without election",
+    "options": [
+      "a) The executive and legislature work independently",
+      "b) It provides continuity of policy and is more efficient",
+      "c) The executive remains responsible to the legislature",
+      "d) The head of the government cannot be changed without election"
+    ],
+    "correct_answer": "c) The executive remains responsible to the legislature",
+    "explanation": "The greatest advantage of a parliamentary system is continuous accountability of the executive to the legislature. This ensures democratic control and responsiveness of the government.",
+    "elimination_logic": "(a) describes presidential system → eliminate. (b) is secondary benefit, not defining advantage → eliminate. (d) incorrect; PM can be removed anytime → eliminate. Only (c) reflects core advantage → correct."
+  },
+
   {
     "year": 2018,
-    "question": "Which of the following are features of Rule of Law? 1. Limitation of powers 2. Equality before law 3. People's responsibility to government 4. Liberty and civil rights",
+    "question": "Which of the following are regarded as the main features of the Rule of Law?\n\n1. Limitation of powers\n2. Equality before law\n3. People’s responsibility to the Government\n4. Liberty and civil rights\n\nSelect the correct answer:\n\n(a) 1 and 3 only\n(b) 2 and 4 only\n(c) 1, 2 and 4 only\n(d) 1, 2, 3 and 4",
     "options": [
       "a) 1 and 3 only",
       "b) 2 and 4 only",
@@ -2353,25 +2372,13 @@
       "d) 1, 2, 3 and 4"
     ],
     "correct_answer": "c) 1, 2 and 4 only",
-    "explanation": "The Rule of Law doctrine, propounded by A.V. Dicey, includes three core elements: supremacy of law (no arbitrary power), equality before law (Article 14), and protection of individual rights. It ensures that government functions within legal limits. It does not include any notion of citizens' duty towards government as a defining feature.",
-    "elimination_logic": "Statement 3 is a conceptual trap — UPSC shifts focus from 'limiting state power' to 'citizen duty'. Rule of Law is about controlling the State, not disciplining citizens. Hence eliminate options containing 3 → (a), (d). Final → (c)."
+    "explanation": "The concept of Rule of Law (A.V. Dicey) includes supremacy of law (limitation of arbitrary power), equality before law, and protection of individual liberties. It does not deal with duties of citizens towards the government.",
+    "elimination_logic": "Statement 1 → correct (limits arbitrary power). Statement 2 → correct (equality). Statement 3 → incorrect (not part of rule of law). Statement 4 → correct (civil liberties). Hence eliminate options containing 3 → (a), (d). Correct answer → (c)."
   },
-  {
-    "year": 2018,
-    "question": "Relationship between law and liberty?",
-    "options": [
-      "a) More laws = less liberty",
-      "b) No laws = no liberty",
-      "c) Liberty → laws by people",
-      "d) Frequent law change threatens liberty"
-    ],
-    "correct_answer": "b) No laws = no liberty",
-    "explanation": "In constitutional theory, liberty is not absolute absence of restraint but existence of reasonable legal restraint. Law provides a framework within which individual freedoms are protected. Without law, there would be anarchy, and in such conditions liberty cannot survive.",
-    "elimination_logic": "Option (a) is an oversimplification — quality of law matters, not quantity. Option (c) is procedural, not definitional. Option (d) is situational. Only (b) captures the fundamental philosophical relationship between law and liberty."
-  },
+
   {
     "year": 2020,
-    "question": "A constitutional government is:",
+    "question": "A constitutional government by definition is a:\n\n(a) Government by legislature\n(b) Popular government\n(c) Multi-party government\n(d) Limited government",
     "options": [
       "a) Government by legislature",
       "b) Popular government",
@@ -2379,36 +2386,52 @@
       "d) Limited government"
     ],
     "correct_answer": "d) Limited government",
-    "explanation": "Constitutional government refers to a system where powers of government are limited by a Constitution. This includes checks like separation of powers, judicial review, and protection of fundamental rights.",
-    "elimination_logic": "Options (a), (b), and (c) describe forms or features of government but do not define constitutionalism. The core idea is limitation of power → (d)."
+    "explanation": "A constitutional government is one in which the powers of government are limited by a constitution. It ensures that authority is exercised within legal bounds and protects individual rights.",
+    "elimination_logic": "(a) legislature-based is not defining → eliminate. (b) popularity ≠ constitutionalism → eliminate. (c) party system irrelevant → eliminate. (d) captures limitation of power → correct."
   },
+
   {
     "year": 2021,
-    "question": "Best safeguard of liberty in liberal democracy?",
+    "question": "Which one of the following factors constitutes the best safeguard of liberty in a liberal democracy?\n\n(a) A committed judiciary\n(b) Centralization of powers\n(c) Elected government\n(d) Separation of powers",
     "options": [
-      "a) Judiciary",
-      "b) Centralization",
+      "a) A committed judiciary",
+      "b) Centralization of powers",
       "c) Elected government",
       "d) Separation of powers"
     ],
     "correct_answer": "d) Separation of powers",
-    "explanation": "According to Montesquieu, liberty is best protected when legislative, executive, and judicial powers are separated. This prevents concentration of power and ensures checks and balances. Indian Constitution reflects this through functional separation and judicial review.",
-    "elimination_logic": "Judiciary alone is not sufficient safeguard. Centralization is opposite of liberty. Elected government can still violate rights (majoritarianism). Only separation of powers structurally prevents abuse → (d)."
+    "explanation": "Separation of powers ensures that legislative, executive, and judicial powers are distributed among different organs, preventing concentration of power. This structural safeguard is the most effective protection of liberty.",
+    "elimination_logic": "(a) important but not structural safeguard → eliminate. (b) centralization reduces liberty → eliminate. (c) elections alone insufficient → eliminate. (d) prevents power concentration → correct."
   },
+
   {
     "year": 2023,
-    "question": "Due Process of Law means:",
+    "question": "In essence, what does ‘Due Process of Law’ mean?\n\n(a) The principle of natural justice\n(b) The procedure established by law\n(c) Fair application of law\n(d) Equality before law",
     "options": [
-      "a) Natural justice",
-      "b) Procedure established by law",
-      "c) Fair application",
+      "a) The principle of natural justice",
+      "b) The procedure established by law",
+      "c) Fair application of law",
       "d) Equality before law"
     ],
-    "correct_answer": "a) Natural justice",
-    "explanation": "Due Process of Law implies that laws must be fair, just, and reasonable, and their application must follow principles of natural justice. In India, although the Constitution originally used 'procedure established by law' (Article 21), the Supreme Court in Maneka Gandhi case expanded it to include due process elements.",
-    "elimination_logic": "Option (b) is the classic UPSC trap — it reflects original Article 21 wording, not due process. Option (c) is vague. Option (d) relates to Article 14. Only (a) captures essence → fairness + natural justice."
-  }
+    "correct_answer": "a) The principle of natural justice",
+    "explanation": "‘Due Process of Law’ implies that laws must be fair, just, and reasonable, and must follow principles of natural justice. It contrasts with ‘Procedure Established by Law’, which focuses only on legal validity, not fairness.",
+    "elimination_logic": "(b) is Indian concept → eliminate. (c) vague and incomplete → eliminate. (d) unrelated → eliminate. (a) correctly reflects fairness and justice → correct."
+  },
+
+  {
+    "year": 2023,
+    "question": "Which one of the following statements best reflects the chief purpose of the Constitution of a country?\n\n(a) It determines the objectives for making laws\n(b) It enables the creation of political offices\n(c) It defines and limits the powers of government\n(d) It secures social justice",
+    "options": [
+      "a) It determines the objectives for making laws",
+      "b) It enables the creation of political offices",
+      "c) It defines and limits the powers of government",
+      "d) It secures social justice"
     ],
+    "correct_answer": "c) It defines and limits the powers of government",
+    "explanation": "The primary purpose of a constitution is to establish the structure of government and limit its powers to prevent arbitrary rule, thereby safeguarding liberty.",
+    "elimination_logic": "(a) and (b) are secondary functions → eliminate. (d) is a goal, not primary function → eliminate. Core function → limitation of power → (c)."
+  }
+],
     "Preamble": [
   {
     "year": 2013,
