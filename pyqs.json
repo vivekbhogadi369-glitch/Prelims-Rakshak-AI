@@ -3052,6 +3052,47 @@
     "explanation": "Amendments affecting federal provisions such as distribution of legislative powers (Seventh Schedule including Union List) and extent of executive power of states require ratification by at least half of the states. However, conditions of the Governor’s office do not fall under mandatory state ratification category.",
     "elimination_logic": "Key concept: federal structure amendments → require state ratification. Union List (I) and executive power of states (II) directly affect federal balance → include. Governor’s office is centrally controlled → eliminate III. Hence (a)."
   }
+    ],
+    "Basic Structure": [
+  {
+    "year": 2017,
+    "question": "In India, Judicial Review implies:",
+    "options": [
+      "a) The power of the Judiciary to pronounce upon the constitutionality of laws and executive orders.",
+      "b) The power of the Judiciary to question the wisdom of the laws enacted by the Legislatures.",
+      "c) The power of the Judiciary to review all the legislative enactments before they are assented to by the President.",
+      "d) The power of the Judiciary to review its own judgements given earlier in similar or different cases."
+    ],
+    "correct_answer": "a) The power of the Judiciary to pronounce upon the constitutionality of laws and executive orders.",
+    "explanation": "Judicial Review is a core feature of the Basic Structure doctrine evolved in the Kesavananda Bharati case (1973). It refers to the power of the judiciary to examine the constitutionality of legislative and executive actions and to invalidate them if they violate the Constitution. It is derived from Articles 13, 32, 226 and forms a key safeguard of Fundamental Rights and constitutional supremacy.",
+    "elimination_logic": "UPSC tests scope of judicial review vs judicial overreach. Option (b) is incorrect because courts do not question legislative wisdom, only constitutionality. Option (c) suggests pre-enactment review (not applicable in India) → eliminate. Option (d) refers to review jurisdiction under Article 137, not judicial review. Hence only (a) matches constitutional meaning."
+  },
+  {
+    "year": 2018,
+    "question": "Consider the following statements:\n1. The Parliament of India can place a particular law in the Ninth Schedule of the Constitution of India.\n2. The validity of law placed in Ninth Schedule cannot be examined by any court and no judgement can be made on it.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "a) 1 only",
+    "explanation": "Parliament has the power to place laws in the Ninth Schedule through constitutional amendment (Article 31B). However, after the I.R. Coelho judgement (2007), the Supreme Court held that even laws placed in the Ninth Schedule are subject to judicial review if they violate the Basic Structure of the Constitution. Therefore, Statement 1 is correct, but Statement 2 is incorrect.",
+    "elimination_logic": "Statement 2 is a classic outdated trap. Earlier Ninth Schedule immunity existed (1951), but post-2007, Basic Structure overrides it. Hence eliminate options (b) and (c). Statement 1 is factually correct → (a)."
+  },
+  {
+    "year": 2020,
+    "question": "Consider the following statements:\n1. The Constitution of India defines its ‘basic structure’ in terms of federalism, secularism, fundamental rights and democracy.\n2. The Constitution of India provides for ‘judicial review’ to safeguard the citizens’ liberties and to preserve the ideals on which the Constitution is based.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Statement 1 is incorrect because the term ‘Basic Structure’ is not defined anywhere in the Constitution. It is a judicial doctrine evolved by the Supreme Court in Kesavananda Bharati (1973). Though elements like federalism, secularism and democracy are part of the basic structure, they are not constitutionally codified as such.\n\nStatement 2 is also incorrect in a strict sense. While judicial review is indeed a feature of the Constitution and serves to protect liberties, the Constitution does not explicitly state that judicial review exists for preserving ‘basic structure’ or ‘constitutional ideals’. These interpretations have evolved through judicial pronouncements, not explicit constitutional text.",
+    "elimination_logic": "Statement 1 is a direct conceptual trap — UPSC checks if you confuse judicial doctrine with constitutional text → eliminate (a) and (c). Statement 2 appears conceptually true but is not explicitly provided in the Constitution → UPSC expects strict textual reading → eliminate (b). Hence (d)."
+  }
     ]
   }
 }
