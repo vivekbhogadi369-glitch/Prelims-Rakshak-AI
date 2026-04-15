@@ -2212,8 +2212,9 @@
     "correct_answer": "c) Mohandas Karamchand Gandhi",
     "explanation": "‘Songs from Prison’ is associated with Mahatma Gandhi, reflecting his engagement with spiritual and philosophical literature during imprisonment. UPSC often tests such cultural-intellectual associations of national leaders.",
     "elimination_logic": "Tilak is known for ‘Gita Rahasya’, Nehru for ‘Discovery of India’, Sarojini Naidu for poetry. Only Gandhi is linked to this work → (c)."
-  },
-  {
+  }
+]
+},
   "Indian Polity": {
     "Evolution of the Constitution": [
       {
@@ -2244,4 +2245,4 @@
       }
     ]
   }
-  }
+}
