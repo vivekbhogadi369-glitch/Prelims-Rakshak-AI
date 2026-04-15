@@ -2773,6 +2773,151 @@
     "explanation": "Right to Privacy is part of Article 21 (life & liberty).",
     "elimination_logic": "Direct recall → Article 21 → (d)."
   }
+    ],
+    "Directive Principles of State Policy": [
+  {
+    "year": 2013,
+    "question": "According to the Constitution of India, which of the following are fundamental for the governance of the country?",
+    "options": [
+      "a) Fundamental Rights",
+      "b) Fundamental Duties",
+      "c) Directive Principles of State Policy",
+      "d) Fundamental Rights and Fundamental Duties"
+    ],
+    "correct_answer": "c) Directive Principles of State Policy",
+    "explanation": "Article 37 of the Constitution explicitly states that the Directive Principles of State Policy (DPSPs) are 'fundamental in the governance of the country'. Although they are non-justiciable, they impose a duty on the State to apply these principles in making laws. They represent the socio-economic vision of the Constitution and guide the State in establishing a welfare state.",
+    "elimination_logic": "This is a direct conceptual question based on Article 37. Fundamental Rights are enforceable but not described as 'fundamental in governance'. Fundamental Duties are obligations of citizens. Only DPSPs are explicitly described as fundamental for governance → (c)."
+  },
+  {
+    "year": 2014,
+    "question": "In the Constitution of India, promotion of international peace and security is included in the:",
+    "options": [
+      "a) Preamble to the Constitution",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Duties",
+      "d) Ninth Schedule"
+    ],
+    "correct_answer": "b) Directive Principles of State Policy",
+    "explanation": "Article 51 under DPSPs specifically directs the State to promote international peace and security, maintain just and honourable relations between nations, and encourage settlement of disputes by arbitration. This reflects India's commitment to global peace as part of its constitutional philosophy.",
+    "elimination_logic": "International peace is not mentioned in Preamble explicitly. Fundamental Duties are citizen obligations. Ninth Schedule deals with judicial immunity. Article 51 → DPSP → (b)."
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following statements regarding the Directive Principles of State Policy:\n1. The principles spell out the socio-economic democracy in the country\n2. The provisions contained in these Principles are not enforceable by any court\nWhich of the statements given below are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 & 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "c) Both 1 & 2",
+    "explanation": "DPSPs aim to establish socio-economic democracy by promoting welfare, reducing inequality, and ensuring justice. Article 37 clearly states that DPSPs are non-justiciable, meaning they are not enforceable by courts, though they are fundamental in governance.",
+    "elimination_logic": "Statement 2 is direct from Article 37 → correct. Statement 1 reflects core purpose of DPSPs → socio-economic democracy → correct. Hence both correct → (c)."
+  },
+  {
+    "year": 2015,
+    "question": "The ideal of 'Welfare State' in the Indian Constitution is enshrined in its:",
+    "options": [
+      "a) Preamble",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Rights",
+      "d) Seventh Schedule"
+    ],
+    "correct_answer": "b) Directive Principles of State Policy",
+    "explanation": "The concept of a Welfare State is primarily embodied in the DPSPs, which aim to ensure social and economic justice, reduce inequality, and promote welfare of the people. While the Preamble reflects the vision, DPSPs provide operational guidance.",
+    "elimination_logic": "Preamble is philosophical, not operational. Fundamental Rights protect liberty. DPSPs actively guide welfare policies → (b)."
+  },
+  {
+    "year": 2017,
+    "question": "Consider the following statements:\nWith reference to the Constitution of India, the Directive Principles of State Policy constitute limitations upon\n1. Legislative function\n2. Executive function\nWhich of the above statements is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "DPSPs do not impose legal limitations on either legislative or executive functions. Instead, they act as guiding principles for governance. They are non-justiciable and cannot be enforced in courts, hence cannot restrict State action legally.",
+    "elimination_logic": "Key word: 'limitations'. DPSPs guide but do not legally restrict. Hence both statements incorrect → eliminate (a), (b), (c). Correct → (d)."
+  },
+  {
+    "year": 2017,
+    "question": "Which principle among the following was added to the Directive Principles of State Policy by the 42nd Amendment to the Constitution?",
+    "options": [
+      "a) Equal pay for equal work for both men and women",
+      "b) Participation of workers in the management of industries",
+      "c) Right to work, education and public assistance",
+      "d) Securing living wage and human conditions of work to workers"
+    ],
+    "correct_answer": "b) Participation of workers in the management of industries",
+    "explanation": "The 42nd Amendment (1976) added Article 43A, which provides for participation of workers in management of industries. Other options were already part of DPSPs before this amendment.",
+    "elimination_logic": "Static memory-based question. Article 43A added by 42nd Amendment → (b). Others existed earlier → eliminate."
+  },
+  {
+    "year": 2020,
+    "question": "With reference to the provisions contained in Part IV of the Constitution of India, which of the following statements is/are correct?\n1. They shall be enforceable by courts\n2. They shall not be enforceable by any court\n3. The principles laid down in this part are to influence the making of laws by the State\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 2 and 3 only"
+    ],
+    "correct_answer": "d) 2 and 3 only",
+    "explanation": "Article 37 states that DPSPs are not enforceable by courts but are fundamental in governance and must guide law-making. Thus Statement 2 and 3 are correct, while Statement 1 is incorrect.",
+    "elimination_logic": "Statement 1 wrong → eliminate (a), (c). Statement 2 direct Article 37 → correct. Statement 3 reflects purpose → correct. Answer → (d)."
+  },
+  {
+    "year": 2020,
+    "question": "Which part of the Constitution of India declares the ideal of a Welfare State?",
+    "options": [
+      "a) Directive Principles of State Policy",
+      "b) Fundamental Rights",
+      "c) Preamble",
+      "d) Seventh Schedule"
+    ],
+    "correct_answer": "a) Directive Principles of State Policy",
+    "explanation": "DPSPs operationalize the idea of welfare state by directing the State to promote socio-economic justice and reduce inequality.",
+    "elimination_logic": "Same conceptual base → DPSPs → (a)."
+  },
+  {
+    "year": 2020,
+    "question": "One common agreement between Gandhism and Marxism is:",
+    "options": [
+      "a) The final goal of a stateless society",
+      "b) Class struggle",
+      "c) Abolition of private property",
+      "d) Economic determinism"
+    ],
+    "correct_answer": "a) The final goal of a stateless society",
+    "explanation": "Both Gandhism and Marxism envision a society without coercive State power ultimately, though their methods differ fundamentally.",
+    "elimination_logic": "Marxism supports class struggle, Gandhism rejects it. Abolition of property not Gandhian. Only convergence → stateless ideal → (a)."
+  },
+  {
+    "year": 2020,
+    "question": "In India, separation of judiciary from the executive is enjoined by:",
+    "options": [
+      "a) The Preamble of the Constitution",
+      "b) A Directive Principle of State Policy",
+      "c) The Seventh Schedule",
+      "d) The conventional practice"
+    ],
+    "correct_answer": "b) A Directive Principle of State Policy",
+    "explanation": "Article 50 under DPSPs directs the State to separate judiciary from executive in public services.",
+    "elimination_logic": "Article 50 → DPSP → (b)."
+  },
+  {
+    "year": 2021,
+    "question": "Under the Indian Constitution, concentration of wealth violates:",
+    "options": [
+      "a) The Right to Equality",
+      "b) The Directive Principles of State Policy",
+      "c) The Right to Freedom",
+      "d) The Concept of Welfare"
+    ],
+    "correct_answer": "b) The Directive Principles of State Policy",
+    "explanation": "Article 39(b) and (c) of DPSPs aim to prevent concentration of wealth and ensure equitable distribution of resources.",
+    "elimination_logic": "Wealth distribution → Article 39 → DPSP → (b)."
+  }
     ]
   }
 }
