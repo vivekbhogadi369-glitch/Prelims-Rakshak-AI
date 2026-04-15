@@ -3093,7 +3093,21 @@
     "explanation": "Statement 1 is incorrect because the term ‘Basic Structure’ is not defined anywhere in the Constitution. It is a judicial doctrine evolved by the Supreme Court in Kesavananda Bharati (1973). Though elements like federalism, secularism and democracy are part of the basic structure, they are not constitutionally codified as such.\n\nStatement 2 is also incorrect in a strict sense. While judicial review is indeed a feature of the Constitution and serves to protect liberties, the Constitution does not explicitly state that judicial review exists for preserving ‘basic structure’ or ‘constitutional ideals’. These interpretations have evolved through judicial pronouncements, not explicit constitutional text.",
     "elimination_logic": "Statement 1 is a direct conceptual trap — UPSC checks if you confuse judicial doctrine with constitutional text → eliminate (a) and (c). Statement 2 appears conceptually true but is not explicitly provided in the Constitution → UPSC expects strict textual reading → eliminate (b). Hence (d)."
   }
+    ],
+    "Centre-State Relations": [
+  {
+    "year": 2024,
+    "question": "Which one of the following statements is correct as per the Constitution of India?",
+    "options": [
+      "a) Inter-State trade and commerce is a State subject under the State List.",
+      "b) Inter-State migration is a State subject under the State List.",
+      "c) Inter-State quarantine is a Union subject under the Union List.",
+      "d) Corporation tax is a State subject under the State List."
+    ],
+    "correct_answer": "c) Inter-State quarantine is a Union subject under the Union List.",
+    "explanation": "The Seventh Schedule of the Constitution distributes subjects between the Union and the States. Entry 81 of the Union List explicitly includes 'inter-State quarantine', making it a Union subject. Inter-State trade and commerce falls under the Union List (Entry 42), not the State List. Inter-State migration is also not a State subject; migration and inter-State movement relate to Union powers. Corporation tax is listed under Entry 85 of the Union List, making it exclusively a Union subject. Hence, only option (c) is correct.",
+    "elimination_logic": "UPSC tests mapping of keywords to the Seventh Schedule. 'Inter-State' generally signals Union control → eliminates (a) and (b). Corporation tax is a well-known Union tax → eliminates (d). Only (c) matches a specific Union List entry (Entry 81)."
+  }
     ]
   }
 }
-
