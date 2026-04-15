@@ -2628,6 +2628,151 @@
     "explanation": "India follows the principle of single citizenship, unlike federal countries such as the United States which have dual citizenship (state and federal). Therefore, Statement 1 is correct. Statement 2 is incorrect because the Constitution of India does not restrict the office of the President (Head of State) only to citizens by birth. Any citizen of India, whether by birth, descent, registration, or naturalization, can become the President provided other constitutional conditions are satisfied. Statement 3 is also incorrect because the Citizenship Act, 1955 provides for deprivation of citizenship under certain conditions such as fraud, disloyalty, or unlawful trade with an enemy country. Hence, citizenship once granted is not absolute and can be revoked under specified circumstances.",
     "elimination_logic": "Statement 2 can be eliminated because India does not follow the ‘natural-born citizen’ requirement like the USA. This removes options (b) and (d). Statement 3 is also incorrect because citizenship can be terminated or deprived under the Citizenship Act, 1955. Hence, options (c) and (d) are eliminated. Only Statement 1 is correct, making option (a) the correct answer."
   }
+    ],
+    "Fundamental Rights": [
+  {
+    "year": 2017,
+    "question": "One of the implications of equality in society is the absence of:",
+    "options": [
+      "a) Privileges",
+      "b) Restraints",
+      "c) Competition",
+      "d) Ideology"
+    ],
+    "correct_answer": "a) Privileges",
+    "explanation": "The concept of equality in constitutional philosophy refers to the absence of special privileges based on birth, caste, religion, or status. Article 14 ensures equality before law and equal protection of laws. Equality does not imply absence of all restraints or competition; rather, it eliminates arbitrary advantages enjoyed by certain groups. Therefore, equality is essentially the negation of unjust privileges and discrimination.",
+    "elimination_logic": "UPSC expects conceptual clarity here. Equality targets removal of privileges, not restraints. Restraints are necessary for order. Competition exists even in equal societies. Ideology is irrelevant. Hence eliminate (b), (c), (d). Only (a) fits the definition → correct."
+  },
+  {
+    "year": 2017,
+    "question": "Which one of the following statements is correct?",
+    "options": [
+      "a) Rights are claims of the State against the citizens",
+      "b) Rights are privileges which are incorporated in the Constitution of a State",
+      "c) Rights are claims of the citizens against the State",
+      "d) Rights are privileges of a few citizens against the many"
+    ],
+    "correct_answer": "c) Rights are claims of the citizens against the State",
+    "explanation": "In modern constitutional theory, rights are enforceable claims of individuals against the State. Fundamental Rights act as limitations on State power and protect individual liberty. They are not privileges but legally enforceable entitlements guaranteed by the Constitution.",
+    "elimination_logic": "Option (a) reverses logic — incorrect. Option (b) wrongly treats rights as privileges. Option (d) contradicts equality principle. Only (c) captures core idea → correct."
+  },
+  {
+    "year": 2017,
+    "question": "Which of the following are included in the Right against Exploitation in the Constitution of India?\n1. Prohibition of traffic in human beings and forced labour\n2. Abolition of untouchability\n3. Protection of the interests of minorities\n4. Prohibition of employment of children in factories and mines\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1, 2 and 4 only",
+      "b) 2, 3 and 4 only",
+      "c) 1 and 4 only",
+      "d) 1, 2, 3 and 4"
+    ],
+    "correct_answer": "c) 1 and 4 only",
+    "explanation": "Right against Exploitation (Articles 23 and 24) prohibits trafficking, forced labour, and child labour in hazardous occupations. Abolition of untouchability falls under Article 17 (Right to Equality), and protection of minorities falls under Cultural and Educational Rights (Articles 29–30).",
+    "elimination_logic": "Statement 2 → Article 17 → eliminate (a), (b), (d). Statement 3 → minority rights → eliminate remaining incorrect options. Only 1 & 4 belong to exploitation → (c)."
+  },
+  {
+    "year": 2017,
+    "question": "Right to vote and to be elected in India is a:",
+    "options": [
+      "a) Fundamental Right",
+      "b) Natural Right",
+      "c) Constitutional Right",
+      "d) Legal Right"
+    ],
+    "correct_answer": "c) Constitutional Right",
+    "explanation": "Right to vote is not a Fundamental Right but a Constitutional Right derived from Article 326 and statutory laws like Representation of the People Act. It is guaranteed by the Constitution but regulated by legislation.",
+    "elimination_logic": "Not in Part III → eliminate (a). Not natural right. It is constitution-based → (c)."
+  },
+  {
+    "year": 2018,
+    "question": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statements?",
+    "options": [
+      "a) Article 14 and the provisions under the 42nd Amendments",
+      "b) Article 17 and DPSPs",
+      "c) Article 21 and freedoms in Part III",
+      "d) Article 24 and the 44th Amendment"
+    ],
+    "correct_answer": "c) Article 21 and freedoms in Part III",
+    "explanation": "The Supreme Court in K.S. Puttaswamy (2017) declared that Right to Privacy is intrinsic to Article 21 (Right to Life and Personal Liberty) and connected with freedoms under Part III.",
+    "elimination_logic": "Privacy → Article 21 → eliminate all others → (c)."
+  },
+  {
+    "year": 2019,
+    "question": "Which Article of the Constitution of India safeguards one’s right to marry the person of one’s choice?",
+    "options": [
+      "a) Article 19",
+      "b) Article 21",
+      "c) Article 25",
+      "d) Article 29"
+    ],
+    "correct_answer": "b) Article 21",
+    "explanation": "The Supreme Court has held that the right to marry a person of one’s choice is part of personal liberty under Article 21. It is linked with dignity, autonomy, and privacy.",
+    "elimination_logic": "Marriage → personal liberty → Article 21 → (b)."
+  },
+  {
+    "year": 2020,
+    "question": "Which one of the following categories of Fundamental Rights incorporates protection against untouchability?",
+    "options": [
+      "a) Right against Exploitation",
+      "b) Right to Freedom",
+      "c) Right to Constitutional Remedies",
+      "d) Right to Equality"
+    ],
+    "correct_answer": "d) Right to Equality",
+    "explanation": "Article 17 abolishes untouchability and is part of Right to Equality (Articles 14–18).",
+    "elimination_logic": "Untouchability → Article 17 → Equality → (d)."
+  },
+  {
+    "year": 2021,
+    "question": "What is the position of the Right to Property in India?",
+    "options": [
+      "a) Legal right available to citizens only",
+      "b) Legal right available to any person",
+      "c) Fundamental Right available to citizens only",
+      "d) Neither Fundamental Right nor legal right"
+    ],
+    "correct_answer": "b) Legal right available to any person",
+    "explanation": "After the 44th Amendment (1978), Right to Property is no longer a Fundamental Right but a legal right under Article 300A. It is available to all persons.",
+    "elimination_logic": "Not Fundamental Right → eliminate (c). Available to all persons → (b)."
+  },
+  {
+    "year": 2021,
+    "question": "A legislation conferring unguided discretionary power violates which Article?",
+    "options": [
+      "a) Article 14",
+      "b) Article 28",
+      "c) Article 32",
+      "d) Article 44"
+    ],
+    "correct_answer": "a) Article 14",
+    "explanation": "Article 14 prohibits arbitrariness. Unguided discretion leads to arbitrary State action and violates equality before law.",
+    "elimination_logic": "Arbitrariness → Article 14 → (a)."
+  },
+  {
+    "year": 2021,
+    "question": "Right to Privacy is protected under which Article?",
+    "options": [
+      "a) Article 15",
+      "b) Article 19",
+      "c) Article 21",
+      "d) Article 29"
+    ],
+    "correct_answer": "c) Article 21",
+    "explanation": "Privacy is intrinsic to Article 21 as held in Puttaswamy judgment.",
+    "elimination_logic": "Privacy → Article 21 → (c)."
+  },
+  {
+    "year": 2024,
+    "question": "Under which Article has Supreme Court placed Right to Privacy?",
+    "options": [
+      "a) Article 15",
+      "b) Article 16",
+      "c) Article 19",
+      "d) Article 21"
+    ],
+    "correct_answer": "d) Article 21",
+    "explanation": "Right to Privacy is part of Article 21 (life & liberty).",
+    "elimination_logic": "Direct recall → Article 21 → (d)."
+  }
     ]
   }
 }
