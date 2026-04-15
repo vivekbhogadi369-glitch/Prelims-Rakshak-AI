@@ -2918,6 +2918,48 @@
     "explanation": "Article 39(b) and (c) of DPSPs aim to prevent concentration of wealth and ensure equitable distribution of resources.",
     "elimination_logic": "Wealth distribution → Article 39 → DPSP → (b)."
   }
+    ],
+    "Fundamental Duties": [
+  {
+    "year": 2015,
+    "question": "To uphold and protect the Sovereignty, Unity and Integrity of India is a provision made in the:",
+    "options": [
+      "a) Preamble of the Constitution",
+      "b) Directive Principles of State Policy",
+      "c) Fundamental Rights",
+      "d) Fundamental Duties"
+    ],
+    "correct_answer": "d) Fundamental Duties",
+    "explanation": "Article 51A(c) of the Constitution explicitly provides that it shall be the duty of every citizen 'to uphold and protect the sovereignty, unity and integrity of India'. Fundamental Duties were added by the 42nd Constitutional Amendment Act, 1976 to inculcate a sense of responsibility among citizens. While the Preamble reflects sovereignty and unity as ideals, the explicit obligation to uphold and protect them is placed under Fundamental Duties.",
+    "elimination_logic": "The question is testing distinction between ideals vs enforceable duties. Preamble contains values, not duties → eliminate (a). DPSPs guide State, not citizens → eliminate (b). Fundamental Rights give protections, not obligations → eliminate (c). Only Fundamental Duties impose such responsibility → (d)."
+  },
+  {
+    "year": 2017,
+    "question": "Which of the following statements is/are true of the Fundamental Duties of an Indian citizen?\n1. A legislative process has been provided to enforce these duties\n2. They are correlative to legal duties\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Fundamental Duties under Article 51A are non-justiciable, meaning there is no direct legislative mechanism for their enforcement. While Parliament can make laws to give effect to some duties (for example, laws against disrespect of national symbols), the Constitution itself does not provide a compulsory enforcement mechanism. Further, these duties are moral obligations and not strictly correlative to legal duties in a constitutional sense. They are not enforceable claims like Fundamental Rights.",
+    "elimination_logic": "Statement 1 is a trap — UPSC expects you to know that Fundamental Duties are non-justiciable and not directly enforceable. Hence eliminate options (a) and (c). Statement 2 is also incorrect because Fundamental Duties are moral, not strictly legal correlatives. Therefore both statements are incorrect → (d)."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements in respect of the National Flag of India according to the Flag Code of India, 2002:\nStatement-I:\nOne of the standard sizes of the National Flag of India is 600 mm x 400 mm.\nStatement-II:\nThe ratio of the length to the height (width) of the Flag shall be 3:2.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+      "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+      "c) Statement-I is correct but Statement-II is incorrect",
+      "d) Statement-I is incorrect but Statement-II is correct"
+    ],
+    "correct_answer": "d) Statement-I is incorrect but Statement-II is correct",
+    "explanation": "Statement-II is correct as per the Flag Code of India, 2002, which mandates that the ratio of length to height of the National Flag must be 3:2. However, Statement-I is incorrect because the standard sizes prescribed under the Flag Code do not include 600 mm × 400 mm. The official sizes follow the 3:2 ratio but are standardized in specific dimensions such as 6300×4200 mm, 3600×2400 mm, etc., not 600×400 mm.",
+    "elimination_logic": "This is a factual trap. First verify the ratio — 3:2 is standard → Statement II correct. Now check dimensions — UPSC often traps with near-correct numbers. 600×400 seems proportional but is not an officially prescribed size → Statement I incorrect. Hence only II correct → (d)."
+  }
     ]
   }
 }
+
