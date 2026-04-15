@@ -3108,6 +3108,34 @@
     "explanation": "The Seventh Schedule of the Constitution distributes subjects between the Union and the States. Entry 81 of the Union List explicitly includes 'inter-State quarantine', making it a Union subject. Inter-State trade and commerce falls under the Union List (Entry 42), not the State List. Inter-State migration is also not a State subject; migration and inter-State movement relate to Union powers. Corporation tax is listed under Entry 85 of the Union List, making it exclusively a Union subject. Hence, only option (c) is correct.",
     "elimination_logic": "UPSC tests mapping of keywords to the Seventh Schedule. 'Inter-State' generally signals Union control → eliminates (a) and (b). Corporation tax is a well-known Union tax → eliminates (d). Only (c) matches a specific Union List entry (Entry 81)."
   }
+    ],
+    "Emergency Provisions": [
+  {
+    "year": 2017,
+    "question": "Which of the following are not necessarily the consequences of the proclamation of the President’s Rule in a State?\n1. Dissolution of the State Legislative Assembly\n2. Removal of the Council of Ministers in the State\n3. Dissolution of the local bodies\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 1 and 3 only",
+      "c) 2 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 1 and 3 only",
+    "explanation": "Article 356 deals with President’s Rule (State Emergency). Upon its proclamation, the Council of Ministers is necessarily dismissed as the executive power is assumed by the President through the Governor. However, the Legislative Assembly may either be dissolved or kept under suspended animation; hence dissolution is not a necessary consequence. Further, local bodies (Panchayats and Municipalities) are constitutional entities under Part IX and IX-A and are not automatically dissolved under Article 356. Therefore, Statements 1 and 3 are not necessary consequences, while Statement 2 is a necessary consequence.",
+    "elimination_logic": "UPSC tests the difference between ‘automatic’ vs ‘discretionary’ consequences. Council of Ministers must go → Statement 2 is necessary → eliminate options containing 2. Assembly dissolution is not automatic (can be suspended) → include 1. Local bodies are constitutionally independent → include 3. Hence (b)."
+  },
+  {
+    "year": 2018,
+    "question": "If the President of India exercises his power under Article 356 of the Constitution in respect of a particular State, then:",
+    "options": [
+      "a) The Assembly of the State is automatically dissolved.",
+      "b) The powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.",
+      "c) Article 19 is suspended in that State.",
+      "d) The President can make laws relating to that State."
+    ],
+    "correct_answer": "b) The powers of the Legislature of that State shall be exercisable by or under the authority of the Parliament.",
+    "explanation": "Under Article 356, when President’s Rule is imposed, the legislative powers of the State are assumed by Parliament. The Assembly is not automatically dissolved; it may be suspended. Suspension of Fundamental Rights like Article 19 occurs only during National Emergency under Article 352, not under President’s Rule. While the President may promulgate ordinances, law-making power is exercised by Parliament or under its authority, not directly by the President in a legislative sense.",
+    "elimination_logic": "Statement (a) is incorrect due to ‘automatic dissolution’ trap. Statement (c) confuses State Emergency with National Emergency → eliminate. Statement (d) is technically misleading — President acts through Parliament, not independently. Only (b) correctly reflects Article 356 mechanism."
+  }
     ]
   }
 }
