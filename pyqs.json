@@ -2243,6 +2243,47 @@
         "explanation": "The Charter Act of 1833 was a landmark in the constitutional history of India. It centralized the administration by making the Governor-General of Bengal the Governor-General of India. Lord William Bentinck became the first Governor-General of India under this Act. It also ended the commercial activities of the East India Company and transformed it into a purely administrative body. The Regulating Act of 1773 only created the post of Governor-General of Bengal, not India. The Charter Act of 1853 and the Government of India Act of 1858 dealt with later administrative changes but did not introduce this designation.",
         "elimination_logic": "Option (a) can be eliminated because the Regulating Act, 1773 only created the position of Governor-General of Bengal, not India. Option (c) is incorrect because the Charter Act of 1853 dealt with legislative and administrative reforms but did not change the designation. Option (d) is also incorrect because the Government of India Act, 1858 transferred power from the East India Company to the British Crown but did not introduce this designation. The Charter Act, 1833 is specifically known for centralizing authority and designating the Governor-General of Bengal as the Governor-General of India. Hence, (b) is correct."
       }
+    ],
+    "Making of the Constitution": [
+  {
+    "year": 2021,
+    "question": "What was the exact constitutional status of India on 26th January, 1950?",
+    "options": [
+      "a) A Democratic Republic",
+      "b) A Sovereign Democratic Republic",
+      "c) A Sovereign Secular Democratic Republic",
+      "d) A Sovereign Socialist Secular Democratic Republic"
+    ],
+    "correct_answer": "b) A Sovereign Democratic Republic",
+    "explanation": "On 26 January 1950, when the Constitution of India came into force, India became a Sovereign Democratic Republic. This was the original formulation in the Preamble. The words 'Socialist' and 'Secular' were not part of the original Preamble; they were inserted much later by the 42nd Constitutional Amendment Act, 1976 during the Emergency. Therefore, any option containing those words cannot represent India’s exact constitutional status on 26 January 1950. The word 'Democratic' was certainly present, but the fuller and exact constitutional description was 'Sovereign Democratic Republic'.",
+    "elimination_logic": "The key is to remember the original wording of the Preamble as it stood in 1950. Options (c) and (d) can be eliminated immediately because 'Secular' and 'Socialist' were added only in 1976, not in 1950. Between (a) and (b), option (a) is incomplete because it omits 'Sovereign', which was very much part of the original Preamble. Hence, the precise constitutional status was not merely a Democratic Republic, but a Sovereign Democratic Republic. Therefore, option (b) is correct."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statements in respect of the Constitution Day:\nStatement-I:\nThe Constitution Day is celebrated on 26th November every year to promote constitutional values among citizens.\nStatement-II:\nOn 26th November, 1949, the Constituent Assembly of India set up a Drafting Committee under the Chairmanship of Dr. B. R. Ambedkar to prepare a Draft Constitution of India.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+      "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+      "c) Statement-I is correct but Statement-II is incorrect",
+      "d) Statement-I is incorrect but Statement-II is correct"
+    ],
+    "correct_answer": "c) Statement-I is correct but Statement-II is incorrect",
+    "explanation": "Statement-I is correct. Constitution Day is observed on 26 November every year because on that day in 1949, the Constituent Assembly adopted the Constitution of India. The purpose of the observance is to promote constitutional values among citizens. Statement-II is incorrect because the Drafting Committee was not set up on 26 November 1949. It was constituted much earlier, on 29 August 1947, and Dr. B. R. Ambedkar was appointed its Chairman. Thus, the statement wrongly mixes up the date of adoption of the Constitution with the earlier date of creation of the Drafting Committee.",
+    "elimination_logic": "First test Statement-II carefully through chronology. UPSC often traps aspirants by mixing two important dates: 29 August 1947, when the Drafting Committee was set up, and 26 November 1949, when the Constitution was adopted. Since Statement-II places the formation of the Drafting Committee on 26 November 1949, it is factually wrong. Once Statement-II is incorrect, options (a), (b), and (d) are ruled out. Statement-I is correct because Constitution Day is indeed celebrated on 26 November to spread awareness of constitutional ideals. Therefore, option (c) is the only correct choice."
+  },
+  {
+    "year": 2024,
+    "question": "Who was the Provisional President of the Constituent Assembly of India when it first met on December 9, 1946?",
+    "options": [
+      "a) Dr. B. R. Ambedkar",
+      "b) Dr. Rajendra Prasad",
+      "c) Dr. Sachchidananda Sinha",
+      "d) Jawaharlal Nehru"
+    ],
+    "correct_answer": "c) Dr. Sachchidananda Sinha",
+    "explanation": "When the Constituent Assembly of India met for the first time on 9 December 1946, Dr. Sachchidananda Sinha, the oldest member of the Assembly, was appointed as its Provisional President. Later, Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly. Dr. B. R. Ambedkar became Chairman of the Drafting Committee, while Jawaharlal Nehru played a major role by moving the Objectives Resolution. Therefore, the Provisional President at the first sitting was Dr. Sachchidananda Sinha.",
+    "elimination_logic": "This question can be solved by distinguishing among the major roles in the Constituent Assembly. Dr. B. R. Ambedkar is strongly associated with the Drafting Committee, not the provisional presidentship, so option (a) is incorrect. Jawaharlal Nehru is associated with the Objectives Resolution, not this office, so option (d) is incorrect. Dr. Rajendra Prasad became the permanent President of the Constituent Assembly, but not the provisional one, so option (b) is also incorrect. That leaves Dr. Sachchidananda Sinha, who presided over the first meeting as Provisional President. Hence, option (c) is correct."
+  }
     ]
   }
 }
