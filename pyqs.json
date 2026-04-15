@@ -2520,6 +2520,99 @@
     "explanation": "The primary purpose of a Constitution is to define and limit governmental powers to prevent arbitrary rule and protect liberty.",
     "elimination_logic": "Other options are secondary or partial. Core function = limitation of power → (c)."
   }
+    ],
+    "Preamble": [
+  {
+    "year": 2013,
+    "question": "Economic justice as one of the objectives of the Indian Constitution has been provided in?",
+    "options": [
+      "a) The Preamble and the Fundamental Rights",
+      "b) The Preamble and the Directive Principles of State Policy",
+      "c) The Fundamental Rights and the Directive Principles of State Policy",
+      "d) None of the above"
+    ],
+    "correct_answer": "b) The Preamble and the Directive Principles of State Policy",
+    "explanation": "Economic justice is explicitly mentioned in the Preamble as part of the objective of securing 'Justice — social, economic and political'. Additionally, the Directive Principles of State Policy (DPSPs) in Part IV of the Constitution provide the framework for achieving economic justice by directing the State to reduce inequalities, ensure equitable distribution of resources, and promote welfare. Fundamental Rights, on the other hand, primarily guarantee civil and political rights, not economic justice directly.",
+    "elimination_logic": "The key is to identify where 'economic justice' is explicitly or substantively addressed. The Preamble clearly mentions it, so any option excluding Preamble can be eliminated. Fundamental Rights focus mainly on civil liberties, so options (a) and (c) are incorrect. DPSPs are specifically designed to achieve socio-economic justice, so option (b) is correct."
+  },
+  {
+    "year": 2017,
+    "question": "The mind of the makers of the Constitution of India is reflected in which of the following?",
+    "options": [
+      "a) The Preamble",
+      "b) The Fundamental Rights",
+      "c) The Directive Principles of State Policy",
+      "d) The Fundamental Duties"
+    ],
+    "correct_answer": "a) The Preamble",
+    "explanation": "The Preamble is often described as the 'soul' or 'philosophy' of the Constitution because it reflects the ideals, objectives, and vision of the Constitution-makers. It reveals the guiding principles such as justice, liberty, equality, and fraternity that inspired the framing of the Constitution. Therefore, it is considered the key to understanding the mindset of the framers.",
+    "elimination_logic": "This is a conceptual question. Fundamental Rights and DPSPs are operational parts of the Constitution, not direct reflections of the framers’ philosophy. Fundamental Duties were added later by the 42nd Amendment (1976), so they cannot reflect the original intent. Only the Preamble directly expresses the ideals of the makers → (a)."
+  },
+  {
+    "year": 2018,
+    "question": "Which of the following statements is/are true of the Preamble to the Constitution of India?\n1. The Preamble is a part of the Constitution.\n2. The Preamble has been amended twice since the Constitution came into force.\n3. The Preamble can be amended under Article 368.\nSelect the correct answer using the code given below:",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "c) 1 and 3 only",
+    "explanation": "The Supreme Court in the Kesavananda Bharati case (1973) held that the Preamble is a part of the Constitution. It can also be amended under Article 368, subject to the Basic Structure doctrine. However, the Preamble has been amended only once, by the 42nd Constitutional Amendment Act, 1976, which added the words 'Socialist', 'Secular', and 'Integrity'. Therefore, Statement 2 is incorrect.",
+    "elimination_logic": "Statement 2 is the trap — many assume multiple amendments, but only one amendment (42nd Amendment) was made. So eliminate options containing 2 → (b) and (d). Statements 1 and 3 are correct as per Kesavananda Bharati judgment → (c)."
+  },
+  {
+    "year": 2019,
+    "question": "Which one of the following objectives is not embodied in the Preamble to the Constitution of India?",
+    "options": [
+      "a) Liberty of thought",
+      "b) Economic liberty",
+      "c) Liberty of expression",
+      "d) Liberty of belief"
+    ],
+    "correct_answer": "b) Economic liberty",
+    "explanation": "The Preamble guarantees liberty of thought, expression, belief, faith, and worship. However, it does not explicitly mention 'economic liberty'. Instead, it refers to 'economic justice'. Liberty and justice are distinct concepts in constitutional philosophy. Hence, economic liberty is not an objective mentioned in the Preamble.",
+    "elimination_logic": "Options (a), (c), and (d) are directly mentioned in the Preamble under liberty. The confusion arises between 'economic liberty' and 'economic justice'. Since the Preamble uses 'economic justice', option (b) is not included and hence correct."
+  },
+  {
+    "year": 2019,
+    "question": "In the context of polity, which one of the following would you accept as the most appropriate definition of liberty?",
+    "options": [
+      "a) Protection against the tyranny of political rulers",
+      "b) Absence of restraint",
+      "c) Opportunity to do whatever one likes",
+      "d) Opportunity to develop oneself fully"
+    ],
+    "correct_answer": "d) Opportunity to develop oneself fully",
+    "explanation": "Liberty in modern constitutional philosophy does not mean absence of restraint or unlimited freedom. It implies the presence of conditions that allow individuals to develop their personality to the fullest. This is known as 'positive liberty', which includes opportunities, rights, and enabling conditions for self-development.",
+    "elimination_logic": "Option (b) and (c) reflect absolute or negative liberty, which is not accepted in modern constitutional systems. Option (a) is partial and does not capture the full meaning. The most comprehensive understanding is positive liberty → development of individual potential → (d)."
+  },
+  {
+    "year": 2020,
+    "question": "The Preamble to the Constitution of India is:",
+    "options": [
+      "a) A part of the Constitution but has no legal effect",
+      "b) Not a part of the Constitution and has no legal effect either",
+      "c) A part of the Constitution and has the same legal effect as any other part",
+      "d) A part of the Constitution but has no legal effect independently of other parts"
+    ],
+    "correct_answer": "d) A part of the Constitution but has no legal effect independently of other parts",
+    "explanation": "The Supreme Court in Kesavananda Bharati (1973) held that the Preamble is a part of the Constitution. However, it is not enforceable by courts and does not confer any substantive rights. It serves as an interpretative tool to understand the provisions of the Constitution. Therefore, it has no independent legal effect, though it is part of the Constitution.",
+    "elimination_logic": "Option (b) is incorrect because the Preamble is part of the Constitution. Option (c) is incorrect because it does not have the same enforceability as other provisions. Option (a) is partially correct but incomplete. Option (d) accurately captures both aspects — part of Constitution but not independently enforceable."
+  },
+  {
+    "year": 2021,
+    "question": "Consider the following statements about the Preamble of the Constitution of India:\n1. The Preamble is not a part of the Constitution and has no legal effect independently of other parts.\n2. The ideals of Liberty, Equality, and Fraternity enshrined in the Preamble have been taken from the French Revolution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Statement 1 is incorrect because the Supreme Court in Kesavananda Bharati (1973) clearly held that the Preamble is a part of the Constitution. Statement 2 is also incorrect in strict UPSC sense because while the ideals of liberty, equality, and fraternity were inspired by the French Revolution, they were also influenced by other sources and are not exclusively derived from it. UPSC treats this statement as incorrect due to over-simplification.",
+    "elimination_logic": "Statement 1 is factually wrong → eliminate (a) and (c). Statement 2 appears correct but UPSC treats it as incorrect because it is not exclusively derived from French Revolution. Hence both incorrect → (d)."
+  }
     ]
   }
 }
