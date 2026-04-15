@@ -2212,7 +2212,36 @@
     "correct_answer": "c) Mohandas Karamchand Gandhi",
     "explanation": "‘Songs from Prison’ is associated with Mahatma Gandhi, reflecting his engagement with spiritual and philosophical literature during imprisonment. UPSC often tests such cultural-intellectual associations of national leaders.",
     "elimination_logic": "Tilak is known for ‘Gita Rahasya’, Nehru for ‘Discovery of India’, Sarojini Naidu for poetry. Only Gandhi is linked to this work → (c)."
+  },
+  {
+  "Indian Polity": {
+    "Evolution of the Constitution": [
+      {
+        "year": 2022,
+        "question": "The Government of India Act of 1919 clearly defined:",
+        "options": [
+          "a) The powers of the Secretary of State for India",
+          "b) The system of Diarchy in the provinces",
+          "c) The composition of the Indian Civil Services",
+          "d) The structure of the Constituent Assembly"
+        ],
+        "correct_answer": "b) The system of Diarchy in the provinces",
+        "explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced the system of Diarchy in the provinces. Under this system, provincial subjects were divided into 'Reserved' and 'Transferred' categories. Reserved subjects like law and order were administered by the Governor and his executive council, while transferred subjects like education and health were administered by Indian ministers responsible to the legislative councils. This marked the beginning of limited self-government in provinces. The Act did not redefine the powers of the Secretary of State, nor did it deal with the composition of the Indian Civil Services or the structure of the Constituent Assembly, which came much later.",
+        "elimination_logic": "Option (b) directly refers to Diarchy, which is the most well-known and defining feature of the 1919 Act, making it a strong contender. Option (a) is incorrect because the powers of the Secretary of State were already defined earlier and were not the central feature of this Act. Option (c) is incorrect because the Act did not focus on the composition of the ICS. Option (d) is clearly wrong because the Constituent Assembly was established only in 1946. Hence, options (a), (c), and (d) can be eliminated, leaving (b) as the correct answer."
+      },
+      {
+        "year": 2023,
+        "question": "By which one of the following Acts was the Governor General of Bengal designated as the Governor General of India?",
+        "options": [
+          "a) Regulating Act, 1773",
+          "b) Charter Act, 1833",
+          "c) Charter Act, 1853",
+          "d) Government of India Act, 1858"
+        ],
+        "correct_answer": "b) Charter Act, 1833",
+        "explanation": "The Charter Act of 1833 was a landmark in the constitutional history of India. It centralized the administration by making the Governor-General of Bengal the Governor-General of India. Lord William Bentinck became the first Governor-General of India under this Act. It also ended the commercial activities of the East India Company and transformed it into a purely administrative body. The Regulating Act of 1773 only created the post of Governor-General of Bengal, not India. The Charter Act of 1853 and the Government of India Act of 1858 dealt with later administrative changes but did not introduce this designation.",
+        "elimination_logic": "Option (a) can be eliminated because the Regulating Act, 1773 only created the position of Governor-General of Bengal, not India. Option (c) is incorrect because the Charter Act of 1853 dealt with legislative and administrative reforms but did not change the designation. Option (d) is also incorrect because the Government of India Act, 1858 transferred power from the East India Company to the British Crown but did not introduce this designation. The Charter Act, 1833 is specifically known for centralizing authority and designating the Governor-General of Bengal as the Governor-General of India. Hence, (b) is correct."
+      }
+    ]
   }
-]
-}
-}
+  }
