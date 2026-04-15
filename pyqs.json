@@ -3216,6 +3216,47 @@
     "explanation": "Under Article 72, the President exercises pardoning power, but it is subject to judicial review on limited grounds such as mala fide or arbitrariness. However, the President acts on the aid and advice of the Council of Ministers (Article 74) and cannot exercise this power independently.",
     "elimination_logic": "UPSC tests ‘aid & advice’ doctrine. Statement II violates core principle → eliminate options containing II. Statement I is correct due to judicial review evolution → (a)."
   }
+    ],
+    "Central Council of Ministers": [
+  {
+    "year": 2013,
+    "question": "Consider the following statements:\n1. The Council of Ministers in the Centre shall be collectively responsible to the Parliament\n2. The Union Ministers shall hold office during the pleasure of the President of India\n3. The Prime Minister shall communicate to the President about the proposals for legislation\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "b) 2 and 3 only",
+    "explanation": "Article 75(3) provides that the Council of Ministers shall be collectively responsible to the Lok Sabha, not the entire Parliament — hence Statement 1 is incorrect. Article 75(2) states that ministers hold office during the pleasure of the President — Statement 2 is correct. Under Article 78, the Prime Minister has the duty to communicate to the President all decisions of the Council of Ministers relating to administration and proposals for legislation — Statement 3 is correct.",
+    "elimination_logic": "UPSC trap: ‘Parliament’ vs ‘Lok Sabha’. Collective responsibility is only to Lok Sabha → eliminate Statement 1. Statements 2 and 3 are direct Article-based → (b)."
+  },
+  {
+    "year": 2015,
+    "question": "Consider the following statements:\n1. The executive power of the Union of India is vested in the Prime Minister\n2. The Prime Minister is the ex-officio Chairman of the Civil Services Board\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "d) Neither 1 nor 2",
+    "explanation": "Article 53 clearly states that the executive power of the Union is vested in the President, not the Prime Minister — hence Statement 1 is incorrect. The Civil Services Board is chaired by the Cabinet Secretary, not the Prime Minister — hence Statement 2 is also incorrect.",
+    "elimination_logic": "UPSC tests ‘real vs nominal executive’. Though PM is real executive, Constitution vests power in President → eliminate Statement 1. Statement 2 is a factual trap → eliminate. Hence (d)."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following statements:\n1. The Constitution of India classifies the ministers into four ranks viz. Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister.\n2. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members of the Lok Sabha.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "a) 1 only",
+      "b) 2 only",
+      "c) Both 1 and 2",
+      "d) Neither 1 nor 2"
+    ],
+    "correct_answer": "b) 2 only",
+    "explanation": "The Constitution does not classify ministers into ranks; this classification is based on parliamentary convention — hence Statement 1 is incorrect. The 91st Constitutional Amendment Act, 2003 inserted Article 75(1A), which limits the size of the Council of Ministers to 15% of the Lok Sabha strength — hence Statement 2 is correct.",
+    "elimination_logic": "UPSC frequently tests ‘constitutional vs conventional’. If something is not explicitly mentioned in the Constitution, treat it cautiously → eliminate Statement 1. Statement 2 is a direct amendment-based provision → (b)."
+  }
     ]
   }
 }
