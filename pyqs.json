@@ -4395,6 +4395,190 @@
       "explanation": "Under the Tenth Schedule, a nominated member is allowed to join a political party within six months of taking seat; after that, joining leads to disqualification—hence Statement 1 is incorrect. The law does not prescribe a time limit for the Speaker/Chairman to decide defection cases, which has led to delays and judicial criticism—Statement 2 is correct.",
       "elimination_logic": "Statement 1 is a UPSC trap → it reverses the provision (joining within 6 months is allowed, not prohibited). Statement 2 correct → absence of time limit is a known constitutional gap. Hence only (b)."
     }
+  ],
+  "Miscellaneous": [
+    {
+      "year": 2014,
+      "question": "Consider the following pairs: Programme/Project – Ministry\n1. Drought-Prone Area Programme – Ministry of Agriculture\n2. Desert Development Programme – Ministry of Environment and Forests\n3. National Watershed Development Project for Rainfed Areas – Ministry of Rural Development\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1, 2 and 3",
+        "d) None"
+      ],
+      "correct_answer": "d) None",
+      "explanation": "All schemes were historically under Ministry of Rural Development (later restructuring), not as per given pairings. UPSC tests administrative restructuring awareness.",
+      "elimination_logic": "Each pairing mismatched → eliminate all partial options → (d). Classic factual trap."
+    },
+    {
+      "year": 2014,
+      "question": "Which of the following is/are the function/functions of the Cabinet Secretariat?\n1. Preparation of agenda for Cabinet Meetings\n2. Secretariat assistance to Cabinet Committees\n3. Allocation of financial resources to the Ministries",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 2 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "c) 1 and 2 only",
+      "explanation": "Cabinet Secretariat assists in coordination, agenda preparation, and support to Cabinet Committees. Financial allocation is done by Ministry of Finance.",
+      "elimination_logic": "3 incorrect → eliminates options containing 3 → (c)."
+    },
+    {
+      "year": 2017,
+      "question": "In the context of India, which one of the following is the correct relationship between Rights and Duties?",
+      "options": [
+        "a) Rights are correlative with Duties",
+        "b) Rights are personal and hence independent of society and Duties",
+        "c) Rights, not Duties, are important for the advancement of the personality of the citizen",
+        "d) Duties, not Rights, are important for the stability of the State"
+      ],
+      "correct_answer": "a) Rights are correlative with Duties",
+      "explanation": "Indian constitutional philosophy (influenced by liberal-democratic theory) treats Rights and Duties as complementary. Rights impose corresponding duties on others and society.",
+      "elimination_logic": "b,c,d reflect extreme or one-sided views. UPSC prefers balanced constitutional philosophy → (a)."
+    },
+    {
+      "year": 2019,
+      "question": "The Ninth Schedule was introduced in the Constitution of India during the prime ministership of:",
+      "options": [
+        "a) Jawaharlal Nehru",
+        "b) Lal Bahadur Shastri",
+        "c) Indira Gandhi",
+        "d) Morarji Desai"
+      ],
+      "correct_answer": "a) Jawaharlal Nehru",
+      "explanation": "Ninth Schedule was introduced by the 1st Constitutional Amendment Act, 1951 during Nehru’s tenure to protect land reform laws from judicial review.",
+      "elimination_logic": "Timeline-based elimination → only Nehru matches 1951 → (a)."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following statements:\n1. As per recent amendment to the Indian Forest Act, 1927, forest dwellers have the right to fell the bamboos grown on forest areas.\n2. As per the Forest Rights Act, 2006, bamboo is a minor forest produce.\n3. The Forest Rights Act, 2006 allows ownership of minor forest produce to forest dwellers.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 and 3 only",
+        "c) 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 and 3 only",
+      "explanation": "FRA, 2006 classifies bamboo as minor forest produce and grants ownership rights. Indian Forest Act amendment statement is incorrect in framing.",
+      "elimination_logic": "1 incorrect → eliminate options with 1 → (b)."
+    },
+    {
+      "year": 2020,
+      "question": "Consider the following statements:\n1. According to the Constitution of India, a person who is eligible to vote can be made a minister in a State for six months even if he/she is not a member of the Legislature.\n2. According to the Representation of People Act, 1951, a person convicted of a criminal offence and sentenced to imprisonment for five years is permanently disqualified.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "d) Neither 1 nor 2",
+      "explanation": "Minister need not be just a voter—must be eligible to become legislator. Disqualification is not permanent; lasts during sentence + 6 years after release.",
+      "elimination_logic": "Both statements contain distortions → (d)."
+    },
+    {
+      "year": 2020,
+      "question": "In India, Legal Services Authorities provide free legal services to which of the following type of citizens?\n1. Person with annual income less than Rs.1,00,000\n2. Transgender with annual income less than Rs.2,00,000\n3. OBC with income less than Rs.3,00,000\n4. All Senior Citizens",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 and 4 only",
+        "c) 2 and 3 only",
+        "d) 1 and 4 only"
+      ],
+      "correct_answer": "a) 1 and 2 only",
+      "explanation": "Legal Services Authorities Act specifies eligible categories including economically weaker sections and marginalized groups like transgender persons. OBC and all senior citizens are not automatically eligible.",
+      "elimination_logic": "3 and 4 are traps → not universally eligible → (a)."
+    },
+    {
+      "year": 2020,
+      "question": "In the context of India, which one of the following is the characteristic appropriate for bureaucracy?",
+      "options": [
+        "a) An agency for widening the scope of parliamentary democracy",
+        "b) An agency for strengthening federalism",
+        "c) An agency for facilitating political stability and economic growth",
+        "d) An agency for the implementation of public policy"
+      ],
+      "correct_answer": "d) An agency for the implementation of public policy",
+      "explanation": "Bureaucracy is the executive arm responsible for policy implementation, not policy formulation or political functions.",
+      "elimination_logic": "Other options are indirect roles. Core function = implementation → (d)."
+    },
+    {
+      "year": 2021,
+      "question": "With reference to the Union Government, consider the following statements:\n1. Gopalaswamy Iyengar Committee suggested a minister and secretary for administrative reforms.\n2. In 1970, Department of Personnel was created under PM on ARC recommendation.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "ARC recommended DoPT under PM. Iyengar Committee statement is incorrect.",
+      "elimination_logic": "1 incorrect → eliminates (a),(c). Only 2 correct → (b)."
+    },
+    {
+      "year": 2023,
+      "question": "With reference to Home Guards, consider the following statements:\n1. Raised under Central Act\n2. Auxiliary force to police\n3. Border Wing HG for infiltration control\nHow many are correct?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "b) Only two",
+      "explanation": "Home Guards are state subjects (not central act). Other two roles are correct.",
+      "elimination_logic": "1 wrong → remaining 2 correct → (b)."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following statements:\n1. Union has duty to protect states from internal disturbance.\n2. States exempt from providing legal counsel in preventive detention.\n3. Confession before police not admissible under POTA 2002.\nHow many are correct?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "b) Only two",
+      "explanation": "Art 355 → duty exists. Preventive detention allows restrictions. POTA allowed police confession → statement 3 wrong.",
+      "elimination_logic": "1 & 2 correct, 3 wrong → (b)."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following statements:\nStatement-I: Prisons managed by States.\nStatement-II: Prison Act 1894 governs them.\nWhich is correct?",
+      "options": [
+        "a) Both correct and II explains I",
+        "b) Both correct but II not explanation",
+        "c) I correct II wrong",
+        "d) I wrong II correct"
+      ],
+      "correct_answer": "a) Both correct and II explains I",
+      "explanation": "Prisons fall under State List. Prison Act provides legal framework → explains state control.",
+      "elimination_logic": "Direct explanation relation → (a)."
+    },
+    {
+      "year": 2023,
+      "question": "With reference to India, consider the following pairs:\n1. Unauthorized uniform – Official Secrets Act\n2. Misleading officer – Evidence Act\n3. Celebratory gunfire – Arms Amendment Act\nHow many correct?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "b) Only two",
+      "explanation": "Pair 2 incorrect. Others correct.",
+      "elimination_logic": "One incorrect → two correct → (b)."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following pairs:\nI. Separation of judiciary – DPSP\nII. Heritage preservation – Fundamental Duties\nIII. Child labour prohibition – Fundamental Rights\nHow many correct?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "c) All the three",
+      "explanation": "Art 50 → DPSP, Art 51A → Duties, Art 24 → Fundamental Right.",
+      "elimination_logic": "All correctly matched → (c)."
+    }
   ]
   }
 }
