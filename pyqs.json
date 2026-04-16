@@ -3851,7 +3851,7 @@
         "elimination_logic": "Statement 1 is directly backed by Article 176. Statement 2 reflects parliamentary practice where state legislatures adopt Lok Sabha procedures in absence of their own rules. Since both are correct → answer c."
       }
     ],
-  "JUDICIARY": [
+  "Judiciary": [
     {
       "year": 2014,
       "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its:",
@@ -3994,6 +3994,113 @@
       "correct_answer": "c) The lower court prohibiting continuation of proceedings in a case.",
       "explanation": "Writ of Prohibition is issued to prevent inferior courts or tribunals from exceeding jurisdiction. It acts as preventive control before judgment is delivered.",
       "elimination_logic": "Only option (c) matches definition. Others confuse with executive control or policy matters."
+    }
+  ],
+    {
+  "CONSTITUTIONAL BODIES": [
+    {
+      "year": 2013,
+      "question": "Consider the following statements:\nAttorney General of India can\n1. Take part in the proceedings of Lok sabha\n2. Be a member of a committee of the Lok sabha\n3. Speak in the Lok sabha\n4. Vote in the Lok sabha\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 4",
+        "c) 1, 2 and 3",
+        "d) 1 and 3 only"
+      ],
+      "correct_answer": "c) 1, 2 and 3",
+      "explanation": "Article 88 provides that the Attorney General has the right to participate in the proceedings of both Houses of Parliament and their committees and can speak, but does not have the right to vote. Thus, AG can take part, speak, and be part of committees but cannot vote.",
+      "elimination_logic": "Statement 4 is incorrect → AG cannot vote. Statements 1, 2, 3 are correct → eliminates options with 4. Hence (c)."
+    },
+    {
+      "year": 2015,
+      "question": "With Reference to the Fourteenth Finance Commission, which of the following statements is/are correct? \n1. It has increased the share of States in the central divisible pool from 32 percent to 42 percent\n2. It has made recommendations concerning sector-specific grants",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "The 14th Finance Commission (Chairman: Y.V. Reddy) significantly increased states' share in the divisible pool from 32% to 42%, marking a major shift towards fiscal federalism. It moved away from sector-specific grants, unlike previous commissions.",
+      "elimination_logic": "Statement 1 correct (42% share). Statement 2 incorrect → sector-specific grants were reduced. Hence only (a)."
+    },
+    {
+      "year": 2017,
+      "question": "Consider the following statements:\n1. The Election Commission of India is a five-member body.\n2. Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections.\n3. Election Commission resolves the disputes relating to splits/mergers of recognised political parties.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 only",
+        "c) 2 and 3 only",
+        "d) 3 only"
+      ],
+      "correct_answer": "d) 3 only",
+      "explanation": "Election Commission is not fixed as a five-member body (currently 3-member). Election schedule is decided by the Election Commission, not MHA. Under the Symbols Order, ECI decides disputes related to party splits/mergers.",
+      "elimination_logic": "1 wrong → no fixed 5-member structure. 2 wrong → ECI decides schedule. 3 correct → ECI adjudicates party disputes. Hence only (d)."
+    },
+    {
+      "year": 2020,
+      "question": "Consider the following statements:\n1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India.\n2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "d) Neither 1 nor 2",
+      "explanation": "Only Attorney General has constitutional right (Art 88) to participate in Parliament; Solicitor General does not. AG holds office during pleasure of President; no constitutional requirement to resign with government change.",
+      "elimination_logic": "1 wrong → SG not constitutionally allowed. 2 wrong → no such constitutional mandate. Hence (d)."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following organizations /bodies in India:\n1. The National Commission for Backward Classes\n2. The National Human Rights Commission\n3. The National Law Commission\n4. The National Consumer Disputes Redressal Commission\nHow many of the above are constitutional bodies?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) Only three",
+        "d) All four"
+      ],
+      "correct_answer": "a) Only one",
+      "explanation": "NCBC is a constitutional body (Article 338B). NHRC, Law Commission, and NCDRC are statutory bodies created by acts of Parliament.",
+      "elimination_logic": "Only NCBC is constitutional → eliminates all options except (a)."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following:\n1. Demographic performance\n2. Forest and ecology\n3. Governance reforms\n4. Stable government\n5. Tax and fiscal efforts\nFor the horizontal tax devolution, the Fifteenth Finance Commission used how many of the above as criteria other than population area and income distance?",
+      "options": [
+        "a) Only two",
+        "b) Only three",
+        "c) Only four",
+        "d) All five"
+      ],
+      "correct_answer": "b) Only three",
+      "explanation": "15th Finance Commission used criteria such as demographic performance, forest & ecology, and tax effort. Stable government and governance reforms were not formal criteria.",
+      "elimination_logic": "Correct factors → 1,2,5. Exclude 3 and 4 → total 3 → (b)."
+    },
+    {
+      "year": 2025,
+      "question": "Which of the following statements with regard to recommendations of the 15th Finance Commission of India are correct? \nI. It has recommended grants of ₹4,800 crores from the year 2022–23 to the year 2025–26 for incentivizing States to enhance educational outcomes.\nII. 45% of the net proceeds of Union taxes are to be shared with States.\nIII. ₹45,000 crores are to be kept as performance-based incentive for all States for carrying out agricultural reforms.\nIV. It reintroduced tax effort criteria to reward fiscal performance.",
+      "options": [
+        "a) I, II and III",
+        "b) I, II and IV",
+        "c) I, III and IV",
+        "d) II, III and IV"
+      ],
+      "correct_answer": "c) I, III and IV",
+      "explanation": "15th FC recommended performance-based grants including education and agriculture reforms and reintroduced tax effort criteria. However, vertical devolution remained at 41%, not 45%.",
+      "elimination_logic": "Statement II wrong → not 45% (41%). I, III, IV correct → (c)."
+    },
+    {
+      "year": 2025,
+      "question": "With reference to India, consider the following: \nI. The Inter-State Council\nII. The National Security Council\nIII. Zonal Councils\nHow many of the above were established as per the provisions of the Constitution of India?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All the three",
+        "d) None"
+      ],
+      "correct_answer": "a) Only one",
+      "explanation": "Inter-State Council is a constitutional body under Article 263. National Security Council and Zonal Councils are statutory/executive bodies.",
+      "elimination_logic": "Only ISC is constitutional → eliminates all except (a)."
     }
   ]
   }
