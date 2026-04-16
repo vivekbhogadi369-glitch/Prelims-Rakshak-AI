@@ -3796,6 +3796,61 @@
         "explanation": "The Constitution explicitly provides discretionary powers to the Governor in certain cases (e.g., Sixth Schedule, reservation of bills). However, the President cannot independently reserve a state bill; it must be forwarded by the Governor under Article 200.",
         "elimination_logic": "Statement II is clearly incorrect because the President acts only after the Governor reserves the bill. Statement I is constitutionally valid → answer a."
       }
+    ],
+    {
+    "State Legislature": [
+      {
+        "year": 2015,
+        "question": "Consider the following statements:\n1. The Legislative Council of a state in India can be larger in size than half of the Legislative Assembly of that particular state.\n2. The Governor of a state nominates the Chairman of the Legislative Council of that particular state.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "d) Neither 1 nor 2",
+        "explanation": "Article 171 of the Constitution prescribes that the Legislative Council shall not exceed one-third of the total strength of the Legislative Assembly, though it must not be less than 40 members. Therefore, it can never be larger than half of the Assembly, making Statement 1 incorrect. Further, the Chairman of the Legislative Council is elected by the members of the Council from among themselves, not nominated by the Governor. The Governor only nominates certain members with special knowledge or experience. Hence Statement 2 is also incorrect.",
+        "elimination_logic": "Statement 1 violates the constitutional cap of one-third, so eliminate options a and c. Statement 2 confuses nomination of members with election of Chairman, so eliminate b. Thus only d remains."
+      },
+      {
+        "year": 2016,
+        "question": "Consider the following statement\n1. The Chief Secretary in a State is appointed by the Governor of that State\n2. The Chief Secretary in a State has a fixed tenure\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "d) Neither 1 nor 2",
+        "explanation": "The Chief Secretary is the senior-most civil servant of the state and is appointed by the Chief Minister and Council of Ministers in practice, although formally orders may be issued in the name of the Governor. Thus Statement 1 is incorrect. There is no constitutionally guaranteed fixed tenure for the Chief Secretary; tenure depends on executive discretion and service conditions. Hence Statement 2 is also incorrect.",
+        "elimination_logic": "Statement 1 confuses nominal authority (Governor) with real executive power (Chief Minister). Statement 2 is incorrect as there is no fixed tenure. Hence eliminate a, b, c → answer d."
+      },
+      {
+        "year": 2018,
+        "question": "Consider the following statements:\n1. The Speaker of the Legislative Assembly shall vacate his/her office if he/she ceases to be a member of the Assembly.\n2. Whenever the Legislative Assembly is dissolved, the Speaker shall vacate his/her office immediately.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "As per Article 179, the Speaker vacates office if he/she ceases to be a member of the Assembly, making Statement 1 correct. However, even after the dissolution of the Legislative Assembly, the Speaker continues in office until immediately before the first meeting of the newly constituted Assembly. This ensures continuity and institutional stability. Hence Statement 2 is incorrect.",
+        "elimination_logic": "Statement 2 is a standard UPSC trap. Speakers continue after dissolution. Eliminating statement 2 removes options b, c, and d. Statement 1 is correct → answer a."
+      },
+      {
+        "year": 2019,
+        "question": "With reference to the Legislative Assembly of a State in India, consider the following statements:\n1. The Governor makes a customary address to Members of the House at the commencement of the first session of the year.\n2. When a State Legislature does not have a rule on a particular matter, it follows the Lok Sabha rule on that matter.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "c) Both 1 and 2",
+        "explanation": "Under Article 176, the Governor addresses the State Legislature at the commencement of the first session each year, making Statement 1 correct. Statement 2 is also correct because in the absence of specific rules, State Legislatures often follow the established practices and procedures of the Lok Sabha as a guiding framework.",
+        "elimination_logic": "Statement 1 is directly backed by Article 176. Statement 2 reflects parliamentary practice where state legislatures adopt Lok Sabha procedures in absence of their own rules. Since both are correct → answer c."
+      }
     ]
   }
   }
