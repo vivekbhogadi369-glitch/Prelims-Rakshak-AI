@@ -3623,6 +3623,86 @@
     "explanation": "Ordinance (Article 123) has same force as law, so it can amend Acts. However, it cannot violate Fundamental Rights. It can have retrospective effect if explicitly stated.",
     "elimination_logic": "Statement II wrong (FR cannot be abridged). Statement I and III correct → eliminate a, b, d → answer c."
   }
-      ]
+      ],
+    "Parliamentary Committees": [
+      {
+        "year": 2013,
+        "question": "Consider the following statements:\nThe parliamentary committee on public accounts:\n1. Consists of not more than 25 members of the Lok Sabha\n2. Scrutinizes appropriation and finance accounts of the government\n3. Examines the report of the comptroller and auditor general of India\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 Only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "The Public Accounts Committee is one of the most important financial committees of Parliament. Its core function is post-audit legislative control over public expenditure. It examines the Appropriation Accounts and Finance Accounts of the Union Government and also studies the audit reports submitted by the Comptroller and Auditor General of India. However, statement 1 is incorrect because the committee does not consist only of Lok Sabha members. It consists of 22 members in all, 15 from Lok Sabha and 7 from Rajya Sabha. Therefore, the statement that it consists of not more than 25 members of the Lok Sabha is constitutionally and institutionally incorrect. Statements 2 and 3 correctly capture the actual functional domain of the PAC.",
+        "elimination_logic": "Statement 1 is the trap. UPSC often tests committee composition very precisely. PAC is a joint parliamentary committee with members from both Houses, not a Lok Sabha-only committee. Once statement 1 is rejected, options a and d are eliminated. Statement 2 is standard textbook knowledge because PAC examines appropriation and finance accounts. Statement 3 is also correct because PAC works substantially through the audit reports of the CAG. Hence only 2 and 3 survive, making b the correct answer."
+      },
+      {
+        "year": 2014,
+        "question": "Which one of the following is the largest Committee of the Parliament?",
+        "options": [
+          "a) The committee on Public Accounts",
+          "b) The committee on Estimates",
+          "c) The Committee on Public Undertakings",
+          "d) The committee on Petitions"
+        ],
+        "correct_answer": "b) The committee on Estimates",
+        "explanation": "Among the major parliamentary financial committees, the Estimates Committee is the largest. It consists of 30 members, all drawn from the Lok Sabha. By contrast, the Public Accounts Committee and the Committee on Public Undertakings each have 22 members. The Estimates Committee performs a forward-looking function by examining budget estimates and suggesting economies, improvements in organization, and administrative efficiency. Its size and exclusive Lok Sabha composition make it the largest parliamentary committee.",
+        "elimination_logic": "PAC and CPU are often confused with the Estimates Committee because all three are major financial committees. But PAC and CPU each have 22 members, whereas the Estimates Committee has 30 members. The Committee on Petitions is not larger than these. So once the membership size is recalled, b becomes straightforward."
+      },
+      {
+        "year": 2018,
+        "question": "With reference to Parliament of India, which of the following Parliamentary Committees scrutinises and reports to the House whether the power to make regulations, rules, sub-rules, by-laws, etc. conferred by the Constitution or delegated by the Parliament are being properly exercised by the Executive within the scope of such delegation?",
+        "options": [
+          "a) Committee on Government Assurances",
+          "b) Committee on Subordinate Legislation",
+          "c) Rules Committee",
+          "d) Business Advisory Committee"
+        ],
+        "correct_answer": "b) Committee on Subordinate Legislation",
+        "explanation": "The Committee on Subordinate Legislation examines whether the delegated legislation made by the Executive under the authority of Parliament is within the limits of the parent law and whether such delegated powers are being exercised properly. This includes scrutiny of rules, regulations, sub-rules, by-laws, schemes and similar instruments. Its role is vital because modern governance depends heavily on delegated legislation, but Parliament must ensure that the Executive does not exceed the authority granted to it.",
+        "elimination_logic": "Committee on Government Assurances tracks promises or assurances given by ministers on the floor of the House, so a is incorrect. Rules Committee deals with procedural rules of the House itself, not delegated executive legislation, so c is wrong. Business Advisory Committee allocates House time for legislative and other business, so d is irrelevant. Only the Committee on Subordinate Legislation matches the exact function described, so b is correct."
+      },
+      {
+        "year": 2019,
+        "question": "In India, which of the following review the independent regulators in sectors like telecommunications, insurance, electricity, etc.?\n1. Ad Hoc Committees set up by the Parliament\n2. Parliamentary Department Related Standing Committees\n3. Finance Commission\n4. Financial Sector Legislative Reforms Commission\n5. NITI Aayog\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2",
+          "b) 1, 3 and 4",
+          "c) 3, 4 and 5",
+          "d) 2 and 5"
+        ],
+        "correct_answer": "a) 1 and 2",
+        "explanation": "Independent regulators in India may be reviewed through parliamentary oversight mechanisms, especially by Department-related Standing Committees and by ad hoc committees created by Parliament for specific purposes. These committees perform accountability functions over sectoral governance and regulatory performance. The Finance Commission is a constitutional body dealing with Centre-State fiscal devolution, not with review of sector regulators. The Financial Sector Legislative Reforms Commission was a reform commission, not a continuing parliamentary review body. NITI Aayog is a policy think tank and planning institution, not a parliamentary scrutiny mechanism.",
+        "elimination_logic": "The question is testing institutional character. Finance Commission and NITI Aayog are not parliamentary oversight bodies, so any option containing 3 or 5 becomes suspect. Financial Sector Legislative Reforms Commission was an expert commission, not a regular review forum for independent regulators. That leaves parliamentary committees. Hence both 1 and 2 are correct, making a the only viable option."
+      },
+      {
+        "year": 2021,
+        "question": "Consider the following statements:\n1) In India, there is no law restricting the candidates from contesting in one Lok Sabha election from three constituencies.\n2) In 1991 Lok Sabha Election, Shri Devi Lal contested from three Lok Sabha constituencies.\n3) As per the existing rules, if a candidate contests in one Lok Sabha election from many constituencies, his/her party should bear the cost of bye-elections to the constituencies vacated by him/her in the event of him/her winning in all the constituencies.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) 1 and 3",
+          "d) 2 and 3"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "At present, the law restricts a candidate to contesting from a maximum of two constituencies, so statement 1 is incorrect. Statement 2 is correct because Devi Lal did contest from three Lok Sabha constituencies in 1991, when the legal framework still permitted it. Statement 3 is incorrect because there is no existing legal rule making the political party bear the cost of by-elections caused by a candidate vacating seats after winning from multiple constituencies. Such reform proposals have been discussed, but they are not part of the current legal framework.",
+        "elimination_logic": "Statement 1 is the first eliminator. The Representation of the People Act now limits a candidate to two constituencies, so options containing 1 must be rejected. Statement 3 sounds reform-oriented and plausible, which is why UPSC used it as a trap, but it is not the law. That leaves only statement 2 as correct. Therefore b is the correct answer. Even though this question is not directly on parliamentary committees, it has been retained because you included it in the topic set and asked that no question be missed."
+      },
+      {
+        "year": 2024,
+        "question": "Which of the following statements about the Ethics Committee in the Lok Sabha are correct?\n1. Initially it was an ad-hoc Committee.\n2. Only a Member of the Lok Sabha can make a complaint relating to unethical conduct of a member of the Lok Sabha.\n3. This Committee cannot take up any matter which is sub-judice.\nSelect the answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "The Ethics Committee in the Lok Sabha was initially constituted as an ad hoc committee and later became a permanent committee. Statement 1 is therefore correct. Statement 2 is incorrect because complaints regarding unethical conduct are not restricted only to members of the Lok Sabha. The procedure permits complaints from others as well, subject to the rules and scrutiny process. Statement 3 is correct because, following standard parliamentary convention and committee discipline, matters that are sub judice are generally not taken up so as to avoid interference with judicial proceedings.",
+        "elimination_logic": "The key trap is statement 2. UPSC frames such statements in an exclusivist way using the word 'only'. Unless the rules explicitly restrict complaints to Lok Sabha members alone, such wording is usually suspect. Statement 1 is historically correct. Statement 3 is consistent with standard parliamentary restraint regarding sub judice matters. Hence 1 and 3 are correct, so c is the answer."
+      }
+    ]
   }
-}
+  }
