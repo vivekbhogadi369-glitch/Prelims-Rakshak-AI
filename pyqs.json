@@ -4300,6 +4300,73 @@
       "explanation": "Intermediate Panchayats are not mandatory in States with population below 20 lakhs. Minimum age is 21 years. State Finance Commission is constituted by the Governor, not CM.",
       "elimination_logic": "I wrong → exception exists. II wrong → age 21. III wrong → Governor appoints SFC. All incorrect → (d)."
     }
+  ],
+  "Scheduled and Tribal areas": [
+    {
+      "year": 2015,
+      "question": "The provisions in the Fifth Schedule and Sixth Schedule in the Constitution of India are made in order to:",
+      "options": [
+        "a) Protect the interests of Scheduled Tribes",
+        "b) Determine the boundaries between states",
+        "c) Determine the powers, authorities, and responsibilities of Panchayats",
+        "d) Protect the interests of all the border States"
+      ],
+      "correct_answer": "a) Protect the interests of Scheduled Tribes",
+      "explanation": "Fifth Schedule (Article 244(1)) deals with administration of Scheduled Areas and protection of tribal interests in most states, while Sixth Schedule (Article 244(2)) provides autonomous councils in tribal areas of Northeast. Both aim at safeguarding tribal land, culture, and governance.",
+      "elimination_logic": "b → relates to State reorganisation (Articles 2–3). c → relates to Part IX (Panchayats). d → vague and unrelated. Only (a) captures constitutional intent → tribal protection."
+    },
+    {
+      "year": 2019,
+      "question": "Under which Schedule of the Constitution of India can the transfer of tribal land to private parties for mining be declared null and void?",
+      "options": [
+        "a) Third Schedule",
+        "b) Fifth Schedule",
+        "c) Ninth Schedule",
+        "d) Twelfth Schedule"
+      ],
+      "correct_answer": "b) Fifth Schedule",
+      "explanation": "Fifth Schedule empowers the Governor to make regulations restricting transfer of tribal land to non-tribals and regulating land use. Courts have upheld such protections to prevent exploitation, including mining-related transfers.",
+      "elimination_logic": "Third Schedule → oaths; Ninth Schedule → immunity from judicial review; Twelfth Schedule → municipalities. Only Fifth Schedule deals with tribal land protection → (b)."
+    },
+    {
+      "year": 2021,
+      "question": "At the national level, which ministry is nodal agency to ensure effective implementation of the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006?",
+      "options": [
+        "a) Ministry of Environment, Forest and Climate Change",
+        "b) Ministry of Panchayati Raj",
+        "c) Ministry of Rural Development",
+        "d) Ministry of Tribal Affairs"
+      ],
+      "correct_answer": "d) Ministry of Tribal Affairs",
+      "explanation": "Though FRA deals with forest land, its implementation is entrusted to the Ministry of Tribal Affairs as the nodal ministry to ensure rights-based approach for tribal communities.",
+      "elimination_logic": "Trap → Environment Ministry seems logical but incorrect. FRA is rights-based, not conservation-based → Tribal Affairs is nodal → (d)."
+    },
+    {
+      "year": 2022,
+      "question": "If a particular area is brought under the Fifth Schedule of the Constitution of India, which one of the following statements best reflects the consequence of it?",
+      "options": [
+        "a) This would prevent the transfer of land of tribal people to non-tribal people",
+        "b) This would create a local self-governing body in that area",
+        "c) This would convert that area into a Union Territory",
+        "d) The State having such areas would be declared a Special Category State"
+      ],
+      "correct_answer": "a) This would prevent the transfer of land of tribal people to non-tribal people",
+      "explanation": "Fifth Schedule provides protective discrimination by enabling restrictions on land transfer and exploitation of tribal communities. It does not create autonomous councils (Sixth Schedule feature).",
+      "elimination_logic": "b → Sixth Schedule (autonomous councils). c → irrelevant. d → economic classification, not constitutional. Only (a) reflects real consequence."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following statements:\nWith reference to the Constitution of India, if an area in a State is declared as Scheduled Area under the Fifth Schedule,\nI. The State Government loses its executive power in such areas and a local body assumes total administration.\nII. The Union Government can take over the total administration of such areas under certain circumstances on the recommendations of the Governor.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) I only",
+        "b) II only",
+        "c) Both I and II",
+        "d) Neither I nor II"
+      ],
+      "correct_answer": "d) Neither I nor II",
+      "explanation": "Under Fifth Schedule, State retains executive power, though subject to special regulations by the Governor. There is no provision for Union takeover based on Governor’s recommendation specifically under Fifth Schedule (unlike emergency provisions).",
+      "elimination_logic": "I wrong → State authority continues (Governor modifies, not replaces). II wrong → no such constitutional mechanism in Fifth Schedule. Both incorrect → (d)."
+    }
   ]
   }
 }
