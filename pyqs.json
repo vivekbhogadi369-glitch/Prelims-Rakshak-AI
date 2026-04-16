@@ -3850,6 +3850,150 @@
         "explanation": "Under Article 176, the Governor addresses the State Legislature at the commencement of the first session each year, making Statement 1 correct. Statement 2 is also correct because in the absence of specific rules, State Legislatures often follow the established practices and procedures of the Lok Sabha as a guiding framework.",
         "elimination_logic": "Statement 1 is directly backed by Article 176. Statement 2 reflects parliamentary practice where state legislatures adopt Lok Sabha procedures in absence of their own rules. Since both are correct → answer c."
       }
-    ]
-  }
+    ],
+  "JUDICIARY": [
+    {
+      "year": 2014,
+      "question": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its:",
+      "options": [
+        "a) Advisory jurisdiction",
+        "b) Appellate jurisdiction",
+        "c) Original jurisdiction",
+        "d) Writ jurisdiction"
+      ],
+      "correct_answer": "c) Original jurisdiction",
+      "explanation": "Article 131 of the Constitution provides for the original jurisdiction of the Supreme Court in disputes between the Union and States or between States. These disputes are directly brought before the Supreme Court, not through appeals. This makes it a unique federal court function.",
+      "elimination_logic": "Advisory jurisdiction (Art 143) involves Presidential references, not disputes. Appellate jurisdiction deals with appeals from lower courts. Writ jurisdiction relates to enforcement of Fundamental Rights (Art 32), not inter-governmental disputes. Hence only original jurisdiction fits."
+    },
+    {
+      "year": 2015,
+      "question": "Who/Which of the following is the Custodian of the Constitution of India?",
+      "options": [
+        "a) The President of India",
+        "b) The Prime Minister of India",
+        "c) The Lok Sabha Secretariat",
+        "d) The Supreme Court of India"
+      ],
+      "correct_answer": "d) The Supreme Court of India",
+      "explanation": "The Supreme Court is the guardian and final interpreter of the Constitution through the power of judicial review (Articles 13, 32, 136, 141). It ensures constitutional supremacy by invalidating unconstitutional laws.",
+      "elimination_logic": "President is the constitutional head but not interpreter. PM and Lok Sabha Secretariat have no constitutional guardianship role. Only Supreme Court has judicial review power → correct."
+    },
+    {
+      "year": 2016,
+      "question": "With reference to the ‘Gram Nyayalaya Act’, which of the following statements is/are correct? \n1. As per the Act, Gram Nyayalayas can hear only civil cases and not criminal cases.\n2. The Act allows local social activists as mediators/conciliators.",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Gram Nyayalayas Act, 2008 provides for both civil and criminal jurisdiction to ensure access to justice at grassroots. It also allows use of conciliators including social workers for dispute resolution.",
+      "elimination_logic": "Statement 1 is wrong → Gram Nyayalayas handle both civil and criminal matters. Statement 2 is correct → conciliatory role exists. Hence only 2 is correct."
+    },
+    {
+      "year": 2019,
+      "question": "With reference to the Constitution of India, consider the following statements: \n1. No High Court shall have the jurisdiction to declare any central law to be constitutionally invalid.\n2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India.",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "d) Neither 1 nor 2",
+      "explanation": "High Courts under Article 226 can examine constitutional validity of central laws. Supreme Court can review constitutional amendments under Basic Structure Doctrine (Kesavananda Bharati case).",
+      "elimination_logic": "Statement 1 wrong → High Courts have judicial review. Statement 2 wrong → SC can review amendments. Hence neither is correct."
+    },
+    {
+      "year": 2019,
+      "question": "With reference to the Constitution of India, prohibitions or limitations or provisions contained in ordinary laws cannot act as prohibitions or limitations on the constitutional powers under Article 142. It could mean which one of the following?",
+      "options": [
+        "a) The decisions taken by the Election Commission of India while discharging its duties cannot be challenged in any court of law.",
+        "b) The Supreme Court of India is not constrained in the exercise of its powers by the laws made by Parliament.",
+        "c) In the event of grave financial crisis in the country, the President of India can declare Financial Emergency without the counsel from the Cabinet.",
+        "d) State Legislatures cannot make laws on certain matters without the concurrence of Union Legislature."
+      ],
+      "correct_answer": "b) The Supreme Court of India is not constrained in the exercise of its powers by the laws made by Parliament.",
+      "explanation": "Article 142 empowers the Supreme Court to pass any order necessary for complete justice, even beyond statutory limitations. This gives it extraordinary equitable powers.",
+      "elimination_logic": "Only option (b) reflects Article 142 essence. Others relate to EC powers, Emergency provisions, and federal structure—irrelevant here."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following statements: \n1. The motion to impeach a Judge of the Supreme Court of India cannot be rejected by the Speaker of the Lok Sabha as per the Judges (Inquiry) Act 1968.\n2. The Constitution of India defines and gives details or what constitutes ‘incapacity and proved misbehaviour’ of the Judges of the Supreme Court of India.\n3. The details of the process of impeachment of the Judges of the Supreme Court of India are given in the Judges (Inquiry) Act, 1968.\n4. If the motion for the impeachment of a Judge is taken up for voting, the law requires the motion to be backed by each House of the Parliament and supported by a majority of total membership of that House and by not less than two-thirds of total members of that House present and voting.",
+      "options": [
+        "a) 1 and 2",
+        "b) 3 only",
+        "c) 3 and 4 only",
+        "d) 1, 3 and 4"
+      ],
+      "correct_answer": "c) 3 and 4 only",
+      "explanation": "Judges (Inquiry) Act, 1968 provides procedure for impeachment. Constitution does not define ‘misbehaviour’. Speaker can reject motion at admission stage. Special majority required in both Houses.",
+      "elimination_logic": "1 wrong → Speaker can reject. 2 wrong → Constitution silent. 3 correct → Act governs. 4 correct → special majority rule. Hence 3 and 4."
+    },
+    {
+      "year": 2021,
+      "question": "With reference to Indian judiciary, consider the following statements:\n1) Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court judge by the Chief Justice of India with prior permission of the President of India.\n2) A High Court in India has the power to review its own judgement as the Supreme Court does.",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "Article 128 allows CJI (with President’s consent) to request retired SC judges. High Courts do not have explicit constitutional provision like Article 137 for review, though they exercise it under procedural laws.",
+      "elimination_logic": "1 correct → explicitly provided. 2 treated incorrect in UPSC context → no direct constitutional provision. Hence only 1."
+    },
+    {
+      "year": 2022,
+      "question": "With reference to India, consider the following statements: \n1. Government law officers and legal firms are recognised as advocates, but corporate lawyers and patent attorneys are excluded from recognition as advocates.\n2. ‘Bar Councils have the power to lay down the rules relating to legal education and recognition of law colleges.",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Bar Council of India regulates legal education and recognition of institutions. Corporate lawyers can be advocates if enrolled; hence statement 1 is incorrect.",
+      "elimination_logic": "1 wrong → corporate lawyers not excluded. 2 correct → statutory function of BCI. Hence only 2."
+    },
+    {
+      "year": 2022,
+      "question": "With reference to the writs issued by the Courts in India, consider the following statements:\n1. Mandamus will not lie against a private organisation unless it is entrusted with a public duty.\n2. Mandamus will not lie against a Company even though it may be a Government Company.\n3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "c) 1 and 3 only",
+      "explanation": "Mandamus lies against public authorities or bodies performing public duty. Government companies may fall under this. Quo Warranto can be filed by any citizen.",
+      "elimination_logic": "1 correct → public duty condition. 2 wrong → govt companies can be covered. 3 correct → no locus standi restriction. Hence 1 and 3."
+    },
+    {
+      "year": 2022,
+      "question": "Consider the following statements:\n1. Pursuant to the report of H.N. Sanyal Committee, the Contempt of Courts Act, 1971 was passed.\n2. The Constitution of India empowers the Supreme Court and the High Courts to punish for contempt of themselves.\n3. The Constitution of India defines Civil Contempt and Criminal Contempt.\n4. In India, the Parliament is vested with the powers to make laws on Contempt of Court.",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 1, 2 and 4",
+        "c) 3 and 4 only",
+        "d) 3 only"
+      ],
+      "correct_answer": "b) 1, 2 and 4",
+      "explanation": "Articles 129 and 215 empower SC and HC. Parliament enacted Contempt of Courts Act based on Sanyal Committee. Constitution does not define contempt.",
+      "elimination_logic": "1 correct, 2 correct, 3 wrong (defined in Act not Constitution), 4 correct → hence 1,2,4."
+    },
+    {
+      "year": 2024,
+      "question": "A Writ of Prohibition is an order issued by the Supreme Court or High Courts to:",
+      "options": [
+        "a) A government officer prohibiting him from taking a particular action.",
+        "b) The Parliament or legislative Assembly to pass a law on Prohibition.",
+        "c) The lower court prohibiting continuation of proceedings in a case.",
+        "d) The Government prohibiting it from following an unconstitutional policy."
+      ],
+      "correct_answer": "c) The lower court prohibiting continuation of proceedings in a case.",
+      "explanation": "Writ of Prohibition is issued to prevent inferior courts or tribunals from exceeding jurisdiction. It acts as preventive control before judgment is delivered.",
+      "elimination_logic": "Only option (c) matches definition. Others confuse with executive control or policy matters."
+    }
+  ]
   }
