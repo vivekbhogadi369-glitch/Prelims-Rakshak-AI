@@ -3481,6 +3481,19 @@
         "elimination_logic": "Removal of government → Lok Sabha only. Cut motions → Lok Sabha. AIS creation → special Rajya Sabha role. Only amendment equal → b."
       },
       {
+    "year": 2021,
+    "question": "Who among the following is associated with ‘Songs from Prison’, a translation of ancient Indian Religious lyrics in English?",
+    "options": [
+      "a) Bal Gangadhar Tilak",
+      "b) Jawaharlal Nehru",
+      "c) Mohandas Karamchand Gandhi",
+      "d) Sarojini Naidu"
+    ],
+    "correct_answer": "c) Mohandas Karamchand Gandhi",
+    "explanation": "‘Songs from Prison’ is a translation of devotional and spiritual Indian texts rendered into English by Mahatma Gandhi during his imprisonment. It reflects his engagement with Indian religious philosophy and ethical traditions.",
+    "elimination_logic": "Tilak wrote Gita Rahasya → eliminate a. Nehru wrote Discovery of India → eliminate b. Sarojini Naidu known for poetry → eliminate d. Gandhi fits translation context → c."
+  },
+      {
         "year": 2022,
         "question": "With reference to Deputy Speaker of Lok Sabha, consider the following statements:\n1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix.\n2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party.\n3. The Deputy Speaker has the same power as of the Speaker when presiding over the sitting of the House and no appeal lies against his rulings.\n4. The well-established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker – and duly seconded by the Prime Minister.\nWhich of the statements given above are correct?",
         "options": [
@@ -3583,7 +3596,33 @@
         "correct_answer": "d) Neither I nor II",
         "explanation": "Disqualification under Tenth Schedule is decided by Speaker, not President. Also, 'political party' is mentioned in Tenth Schedule.",
         "elimination_logic": "Both statements incorrect → d."
-      }
-    ]
+      },
+  {
+    "year": 2025,
+    "question": "Consider the following statements:\nI. On the dissolution of the House of the People, the Speaker shall not vacate his/her office until immediately before the first meeting of the House of the People after the dissolution.\nII. According to the provisions of the Constitution of India, a Member of the House of the People on being elected as Speaker shall resign from his/her political party immediately.\nIII. The Speaker of the House of the People may be removed from his/her office by a resolution of the House of the People passed by a majority of all the then Members of the House, provided that no resolution shall be moved unless at least fourteen days’ notice has been given of the intention to move the resolution.\nWhich of the statements given above are correct?",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "c) I and III only",
+    "explanation": "Article 94 provides that Speaker continues even after dissolution until the first meeting of the new Lok Sabha. There is no constitutional requirement for Speaker to resign from political party. Removal requires effective majority with 14-day notice.",
+    "elimination_logic": "Statement II incorrect (no such provision). Statement I and III correct → eliminate a, b, d → answer c."
+  },
+  {
+    "year": 2025,
+    "question": "With reference to the Indian polity, consider the following statements:\nI. An Ordinance can amend any Central Act.\nII. An Ordinance can abridge a Fundamental Right.\nIII. An Ordinance can come into effect from a back date.\nWhich of the statements given above are correct?",
+    "options": [
+      "a) I and II only",
+      "b) II and III only",
+      "c) I and III only",
+      "d) I, II and III"
+    ],
+    "correct_answer": "c) I and III only",
+    "explanation": "Ordinance (Article 123) has same force as law, so it can amend Acts. However, it cannot violate Fundamental Rights. It can have retrospective effect if explicitly stated.",
+    "elimination_logic": "Statement II wrong (FR cannot be abridged). Statement I and III correct → eliminate a, b, d → answer c."
   }
-      }
+      ]
+  }
+}
