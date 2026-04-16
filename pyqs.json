@@ -4367,6 +4367,33 @@
       "explanation": "Under Fifth Schedule, State retains executive power, though subject to special regulations by the Governor. There is no provision for Union takeover based on Governor’s recommendation specifically under Fifth Schedule (unlike emergency provisions).",
       "elimination_logic": "I wrong → State authority continues (Governor modifies, not replaces). II wrong → no such constitutional mechanism in Fifth Schedule. Both incorrect → (d)."
     }
+  ],
+  "Anti Defection": [
+    {
+      "year": 2014,
+      "question": "Which one of the following Schedules of the Constitution of India contains provisions regarding anti-defection?",
+      "options": [
+        "a) Second Schedule",
+        "b) Fifth Schedule",
+        "c) Eighth Schedule",
+        "d) Tenth Schedule"
+      ],
+      "correct_answer": "d) Tenth Schedule",
+      "explanation": "The Anti-Defection Law was introduced by the 52nd Constitutional Amendment Act, 1985 and is contained in the Tenth Schedule of the Constitution. It lays down provisions for disqualification of members on grounds of defection to ensure political stability and discipline.",
+      "elimination_logic": "Second Schedule → salaries & allowances. Fifth Schedule → tribal areas. Eighth Schedule → languages. Only Tenth Schedule deals with defection → (d). Classic static mapping question."
+    },
+    {
+      "year": 2022,
+      "question": "With reference to anti-defection law in India, consider the following statements:\n1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House.\n2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Under the Tenth Schedule, a nominated member is allowed to join a political party within six months of taking seat; after that, joining leads to disqualification—hence Statement 1 is incorrect. The law does not prescribe a time limit for the Speaker/Chairman to decide defection cases, which has led to delays and judicial criticism—Statement 2 is correct.",
+      "elimination_logic": "Statement 1 is a UPSC trap → it reverses the provision (joining within 6 months is allowed, not prohibited). Statement 2 correct → absence of time limit is a known constitutional gap. Hence only (b)."
+    }
   ]
   }
-}
