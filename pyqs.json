@@ -4580,5 +4580,89 @@
       "elimination_logic": "All correctly matched → (c)."
     }
   ]
+  },
+  {
+  "Geography": {
+    "PHYSIOGRAPHY": [
+      {
+        "year": 2014,
+        "question": "Consider the following pairs: Hills Region:\n1. Cardamom Hills: Coromandel Coast\n2. Kaimur Hills: Konkan Coast\n3. Mahadeo Hills: Central India\n4. Mikir Hills: North-East India\nWhich of the above pairs are correctly matched?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 and 3",
+          "c) 3 and 4",
+          "d) 2 and 4"
+        ],
+        "correct_answer": "c) 3 and 4",
+        "explanation": "Mahadeo Hills are part of the Satpura Range in Central India. Mikir Hills (Karbi Anglong Plateau) are located in Assam (North-East India). Cardamom Hills are in Southern Western Ghats (Kerala), not Coromandel Coast. Kaimur Hills are part of Vindhyan system (Central India), not Konkan Coast.",
+        "elimination_logic": "1 wrong → Cardamom ≠ Coromandel. 2 wrong → Kaimur ≠ Konkan. 3 correct (Satpura). 4 correct (NE India). Hence (c). UPSC trap: confusing coastal names with hill locations."
+      },
+      {
+        "year": 2018,
+        "question": "Consider the following statements:\n1. The Barren Island volcano is an active volcano located in the Indian territory.\n2. Barren Island lies about 140 kms east of Great Nicobar.\n3. The last time the Barren Island volcano erupted was in 1991 and it has remained inactive since then.\nWhich of the statement given below is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1 and 3"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Barren Island is India’s only active volcano located in the Andaman Sea. It lies closer to Middle Andaman, not Great Nicobar. It has erupted multiple times after 1991 (latest eruptions in recent decades), so it is not inactive.",
+        "elimination_logic": "2 wrong → location mismatch (not near Great Nicobar). 3 wrong → repeated eruptions after 1991. Only 1 correct → (a). Trap: outdated eruption info."
+      },
+      {
+        "year": 2020,
+        "question": "Siachen Glacier is situated to the:",
+        "options": [
+          "a) East of Aksai Chin",
+          "b) East of Leh",
+          "c) North of Gilgit",
+          "d) North of Nubra Valley"
+        ],
+        "correct_answer": "d) North of Nubra Valley",
+        "explanation": "Siachen Glacier lies in the eastern Karakoram Range, north of Nubra Valley (which itself lies between Ladakh and Karakoram ranges). It is west of Aksai Chin and not directly north of Gilgit.",
+        "elimination_logic": "a wrong → Siachen is west of Aksai Chin. b vague/inaccurate. c wrong → not directly north of Gilgit. Correct spatial relation → north of Nubra Valley → (d). Map-based elimination."
+      },
+      {
+        "year": 2022,
+        "question": "Consider the following pairs:\n1. Namcha Barwa – Garhwal Himalaya\n2. Nanda Devi – Kumaon Himalaya\n3. Nokrek – Sikkim Himalaya\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 1 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Namcha Barwa is located in Arunachal Pradesh (Eastern Himalaya), not Garhwal. Nanda Devi lies in Kumaon Himalaya (Uttarakhand). Nokrek is in Meghalaya (Garo Hills), not Sikkim Himalaya.",
+        "elimination_logic": "1 wrong → Namcha Barwa = Arunachal. 3 wrong → Nokrek = Meghalaya. Only 2 correct → (b). Trap: mixing Eastern Himalaya with NE hills."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\n1. Amarkantak Hills are at the confluence of Vindhya and Sahyadri Ranges\n2. Biligirirangan Hills constitute the easternmost part of Satpura Range\n3. Seshachalam Hills constitute the southernmost part of Western Ghats\nHow many of the above statements are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "d) None",
+        "explanation": "Amarkantak lies at Vindhya–Satpura junction, not Sahyadri. Biligirirangan Hills are part of Eastern Ghats–Western Ghats junction, not Satpura. Seshachalam Hills are part of Eastern Ghats, not Western Ghats.",
+        "elimination_logic": "All three statements contain conceptual traps → wrong range associations. Hence none correct → (d). UPSC pattern: 3/3 wrong cluster."
+      },
+      {
+        "year": 2023,
+        "question": "Which of the following is the best example of repeated falls in sea level, giving rise to present day extensive marshland?",
+        "options": [
+          "a) Bhitarkanika Mangroves",
+          "b) Marakkanam Salt Pans",
+          "c) Naupada Swamp",
+          "d) Rann of Kutch"
+        ],
+        "correct_answer": "d) Rann of Kutch",
+        "explanation": "Rann of Kutch represents a former shallow sea that underwent repeated marine transgressions and regressions, leading to extensive salt marsh formation. It is a classic geomorphological example of sea-level fluctuation.",
+        "elimination_logic": "a → deltaic mangrove system. b → human-modified salt pans. c → local swamp. Only Rann reflects geological sea-level regression → (d)."
+      }
+    ]
   }
 }
+
