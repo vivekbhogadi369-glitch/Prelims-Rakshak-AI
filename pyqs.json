@@ -4964,6 +4964,112 @@
       "explanation": "Downstream of Prayagraj, the sequence from west to east among these tributaries is Gomati, then Ghaghara, followed by Gandak, and finally Kosi. This is fundamentally a basin-ordering and map-sequencing question. Such questions demand spatial accuracy rather than conceptual theory. The order reflects their confluences along the Ganga’s eastward journey across the Indo-Gangetic Plain.",
       "elimination_logic": "The main trap is confusion between Gomati and Ghaghara, and between Gandak and Kosi. Gomati joins the Ganga west of Ghaghara, so any option beginning with Ghaghara is suspect. Kosi lies further east than Gandak, so options placing Kosi before Gandak are wrong. With these two eliminations, only option b remains. This is best solved through west-to-east map logic, not memorisation alone."
     }
+  ],
+  "Economic & Human Geography": [
+    {
+      "year": 2013,
+      "question": "Consider the following statements:\n1. Natural gas occurs in the Gondwana beds.\n2. Mica occurs in abundance in Kodarma.\n3. Dharwars are famous for petroleum.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2",
+        "b) 2 only",
+        "c) 2 and 3",
+        "d) None"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Kodarma in Jharkhand is historically known as the ‘mica capital of India’, making statement 2 correct. Gondwana formations are primarily associated with coal deposits formed in swampy conditions, not natural gas, which is usually found in tertiary sedimentary basins. Dharwar rocks are among the oldest crystalline formations rich in metallic minerals like iron and gold, but they lack the organic sedimentary conditions required for petroleum formation. Thus, only statement 2 is correct.",
+      "elimination_logic": "Statement 2 is a direct factual hit. Statement 1 is a classic UPSC trap—Gondwana = coal, not natural gas. Statement 3 is wrong because petroleum requires sedimentary basins, not crystalline shields like Dharwar. Eliminating 1 and 3 removes options a and c. Option d is incorrect since 2 is clearly correct. Hence, option b."
+    },
+    {
+      "year": 2013,
+      "question": "Consider the following crops:\n1. Cotton\n2. Groundnut\n3. Rice\n4. Wheat\nWhich of these are Kharif crops",
+      "options": [
+        "a) 1 and 4",
+        "b) 2 and 3 only",
+        "c) 1, 2 and 3",
+        "d) 2, 3 and 4"
+      ],
+      "correct_answer": "c) 1, 2 and 3",
+      "explanation": "Kharif crops are sown with the onset of the southwest monsoon and require warm temperatures and rainfall. Cotton, groundnut, and rice fall under this category due to their dependence on monsoon conditions. Wheat is a Rabi crop, grown during winter under cooler conditions. Thus, only crops 1, 2, and 3 are Kharif.",
+      "elimination_logic": "Wheat is the key elimination marker—it is always a Rabi crop. Any option containing wheat must be eliminated (a, d). Option b is incomplete as cotton is also a Kharif crop. Thus, only option c satisfies all correct crops."
+    },
+    {
+      "year": 2014,
+      "question": "With reference to two non-conventional energy sources called ‘coalbed methane’ and ‘shale gas’, consider the following statements:\n1. Coalbed methane is the pure methane gas extracted from coal seams, while shale gas is a mixture of propane and butane only that can be extracted from fine-grained sedimentary rocks.\n2. In India, abundant coalbed methane sources exist, but so far no shale gas sources have been found.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "d) Neither 1 nor 2",
+      "explanation": "Coalbed methane is indeed methane extracted from coal seams, but shale gas is also primarily methane, not just propane and butane, making statement 1 incorrect. India has identified shale gas reserves in basins like Cambay and Krishna-Godavari, even if exploitation is limited. Hence, statement 2 is also incorrect.",
+      "elimination_logic": "Statement 1 contains the keyword ‘only’, making it incorrect—UPSC frequently uses such restrictive wording as traps. Statement 2 is factually wrong as shale gas resources have been identified in India. Since both are incorrect, eliminate a, b, c → answer d."
+    },
+    {
+      "year": 2014,
+      "question": "Consider the following pairs:\nRegion: Well-known for the production of\n1. Kinnaur: Areca nut\n2. Mewat: Mango\n3. Coromandel: Soya bean\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1, 2 and 3",
+        "d) None"
+      ],
+      "correct_answer": "d) None",
+      "explanation": "Kinnaur is a cold Himalayan region unsuitable for areca nut, which requires humid tropical climate. Mewat is not a major mango-producing belt compared to regions like Malihabad. Coromandel Coast is associated with rice cultivation and coastal agriculture, not soybean, which thrives in central India. Thus, none are correct.",
+      "elimination_logic": "Areca nut requires tropical climate → eliminate pair 1. Soybean is a central Indian crop → eliminate pair 3. Mewat is not a known mango belt → eliminate pair 2. Hence, all are incorrect → option d."
+    },
+    {
+      "year": 2014,
+      "question": "Consider the following pairs:\nNational Highway: Cities connected\n1. NH4: Chennai and Hyderabad\n2. NH6: Mumbai and Kolkata\n3. NH15: Ahmedabad and Jodhpur\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1, 2 and 3",
+        "d) None"
+      ],
+      "correct_answer": "d) None",
+      "explanation": "NH4 connects Chennai to Mumbai (not Hyderabad). NH6 connects Surat to Kolkata (not Mumbai). NH15 does not connect Ahmedabad and Jodhpur. All given pairs are incorrect due to wrong endpoints.",
+      "elimination_logic": "UPSC uses incorrect endpoints as traps. If one pair is wrong, eliminate options containing it. Here all three are wrong → eliminate a, b, c → answer d."
+    },
+    {
+      "year": 2016,
+      "question": "In which of the following regions of India are shale gas resources found?\n1. Cambay Basin\n2. Cauvery Basin\n3. Krishna-Godavari Basin",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 2 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "d) 1, 2 and 3",
+      "explanation": "India has identified shale gas potential in major sedimentary basins including Cambay (Gujarat), Cauvery (Tamil Nadu), and Krishna-Godavari (Andhra Pradesh). These basins have favorable geological conditions such as organic-rich shale formations necessary for shale gas accumulation.",
+      "elimination_logic": "All three basins are well-known sedimentary basins. UPSC expects recognition of major basins rather than elimination. Since none is doubtful, eliminate partial options (a, b, c) → correct is d."
+    },
+    {
+      "year": 2017,
+      "question": "Which of the following practices can help in water conservation in agriculture?\n1. Reduced or zero tillage of the land\n2. Applying gypsum before irrigating the field\n3. Allowing crop residue to remain in the field",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "c) 1 and 3 only",
+      "explanation": "Zero tillage reduces soil disturbance and helps retain soil moisture. Crop residue acts as mulch, reducing evaporation and improving water retention. Gypsum is used for soil reclamation (salinity/alkalinity), not directly for water conservation. Hence, only 1 and 3 are correct.",
+      "elimination_logic": "Statement 2 is the trap—it relates to soil chemistry, not water conservation. Eliminate options containing 2 (a, d). Between b and c, statement 1 is clearly valid → answer c."
+    },
+    {
+      "year": 2017,
+      "question": "If you travel by road from Kohima to Kottayam, what is the minimum number of States within India through which you can travel, including the origin and the destination?",
+      "options": [
+        "a) 6",
+        "b) 7",
+        "c) 8",
+        "d) 9"
+      ],
+      "correct_answer": "b) 7",
+      "explanation": "The shortest route passes through Nagaland, Assam, West Bengal, Odisha, Andhra Pradesh, Tamil Nadu, and Kerala. This totals seven states including origin and destination.",
+      "elimination_logic": "UPSC tests map sense. Extreme options (6 or 9) are unlikely. Logical routing via eastern corridor gives 7 states. Hence eliminate others → answer b."
+    }
   ]
   }
 }
