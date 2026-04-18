@@ -5399,6 +5399,74 @@
       "explanation": "Delhi lies roughly around 77°E longitude. Bengaluru is also close to 77°E longitude, making it the closest among the given options. Hyderabad (~78°E), Nagpur (~79°E), and Pune (~73°E) are farther away in longitudinal terms.",
       "elimination_logic": "Delhi ≈ 77°E. Compare options: Bengaluru (~77°E) matches closely. Hyderabad and Nagpur lie further east (>78°E). Pune lies west (~73°E). Hence Bengaluru is the closest → answer a."
     }
+  ],
+  "Miscellaneous": [
+    {
+      "year": 2015,
+      "question": "Consider the following pairs:\n1. Srisailam – Nallamala Hills\n2. Omkareshwar – Satmala Hills\n3. Pushkar – Mahadeo Hills\nWhich of the above pairs is/are correctly matched?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "Srisailam is located in the Nallamala Hills of Andhra Pradesh, making pair 1 correct. Omkareshwar is situated on the Narmada River in Madhya Pradesh and is not associated with the Satmala Hills (which are part of Maharashtra). Pushkar is located in Rajasthan near the Aravalli range, not the Mahadeo Hills (which are part of the Satpura range). Hence, only one pair is correctly matched.",
+      "elimination_logic": "Pair 1 is a well-known factual location → correct. Pair 2 is incorrect as Omkareshwar is not in Satmala Hills. Pair 3 is incorrect because Pushkar lies in Aravalli region, not Mahadeo Hills. Eliminating options with incorrect pairs leaves only option a."
+    },
+    {
+      "year": 2016,
+      "question": "‘Gadgil Committee Report’ and ‘Kasturirangan Committee Report’, sometimes seen in the news, are related to:",
+      "options": [
+        "a) Constitutional reforms",
+        "b) Ganga Action Plan",
+        "c) Linking of rivers",
+        "d) Protection of Western Ghats"
+      ],
+      "correct_answer": "d) Protection of Western Ghats",
+      "explanation": "Both the Gadgil Committee (Western Ghats Ecology Expert Panel) and Kasturirangan Committee were formed to assess ecological sensitivity and recommend conservation measures for the Western Ghats. These reports deal with balancing development and environmental protection in this biodiversity hotspot.",
+      "elimination_logic": "These committees are environment-related, not constitutional or river-linking. Ganga Action Plan is unrelated. Western Ghats conservation is a widely known topic linked to both committees. Eliminating a, b, c → answer d."
+    },
+    {
+      "year": 2017,
+      "question": "Consider the following statements:\n1. In India, the Himalayas are spread over five States only.\n2. Western Ghats are spread over five States only.\n3. Pulicat Lake is spread over two States only.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 2 and 3 only",
+        "d) 1 and 3 only"
+      ],
+      "correct_answer": "b) 3 only",
+      "explanation": "The Himalayas extend across more than five Indian states (Jammu & Kashmir/Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh, and parts of West Bengal and Assam), making statement 1 incorrect. The Western Ghats extend across six states, not five, making statement 2 incorrect. Pulicat Lake is shared between Andhra Pradesh and Tamil Nadu, making statement 3 correct.",
+      "elimination_logic": "Statement 1 is incorrect as Himalayas cover more than five states. Statement 2 is also incorrect since Western Ghats extend across six states. Statement 3 is a clear fact → Pulicat spans AP and TN. Hence only statement 3 is correct → answer b."
+    },
+    {
+      "year": 2019,
+      "question": "In the context of which of the following do some scientists suggest the use of cirrus cloud thinning technique and the injection of sulphate aerosol into stratosphere?",
+      "options": [
+        "a) Creating artificial rains",
+        "b) Reducing tropical cyclones",
+        "c) Reducing solar wind effects",
+        "d) Reducing global warming"
+      ],
+      "correct_answer": "d) Reducing global warming",
+      "explanation": "Cirrus cloud thinning and sulphate aerosol injection are geoengineering techniques proposed to reflect solar radiation back into space and reduce Earth’s temperature. These are part of solar radiation management strategies aimed at mitigating global warming.",
+      "elimination_logic": "Artificial rain relates to cloud seeding, not aerosol injection. Cyclone reduction and solar wind are unrelated. These techniques are widely discussed under climate engineering to combat global warming. Hence eliminate a, b, c → answer d."
+    },
+    {
+      "year": 2020,
+      "question": "Consider the following statements:\n1. 36% of India’s districts are classified as ‘overexploited’ or ‘critical’ by the Central Ground Water Authority (CGWA).\n2. CGWA was formed under the Environment (Protection) Act.\n3. India has the largest area under groundwater irrigation in the world.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 2 only",
+        "d) 1 and 3 only"
+      ],
+      "correct_answer": "b) 2 and 3 only",
+      "explanation": "CGWA was constituted under the Environment (Protection) Act, 1986 to regulate groundwater use. India indeed has the largest area under groundwater irrigation globally due to extensive tube well usage. However, the figure of 36% districts being overexploited or critical is not accurate as per official data, making statement 1 incorrect.",
+      "elimination_logic": "Statement 2 is a direct statutory fact → correct. Statement 3 is widely accepted → correct. Statement 1 contains a specific statistic, which UPSC often uses as a trap → incorrect. Hence eliminate a and d. Between b and c, statement 3 confirms → answer b."
+    }
   ]
   }
 }
+  
