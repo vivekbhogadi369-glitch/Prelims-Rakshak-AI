@@ -5173,7 +5173,85 @@
       "correct_answer": "b) 1, 2 and 4",
       "explanation": "Permaculture promotes biodiversity and discourages monoculture, unlike conventional farming. Chemical farming can lead to salinity issues due to excessive irrigation and fertilizers. Mulching is a core practice in permaculture to conserve moisture and improve soil health. Statement 3 is incorrect because permaculture is designed to adapt even to semi-arid conditions.",
       "elimination_logic": "Statement 3 is incorrect → eliminate options containing it (a, d). Remaining options b and c—statement 1 is clearly correct → eliminate c. Hence b is correct."
-    }
-  ]
-    }
+    },
+  {
+    "year": 2021,
+    "question": "Consider the following statements:\n1) Moringa (drumstick tree) is a leguminous evergreen tree.\n2) Tamarind tree is endemic to South Asia.\n3) In India, most of the tamarind is collected as minor forest produce.\n4) India exports tamarind and seeds of moringa.\n5) Seeds of moringa and tamarind can be used in the production of biofuels.\nWhich of the statements given above are correct?",
+    "options": [
+      "a) 1, 2, 4 and 5",
+      "b) 3, 4 and 5",
+      "c) 1, 3 and 4",
+      "d) 1, 2, 3 and 5"
+    ],
+    "correct_answer": "b) 3, 4 and 5",
+    "explanation": "Moringa is not a true leguminous plant, making statement 1 incorrect. Tamarind is believed to have African origin, hence not endemic to South Asia. Tamarind in India is largely collected as minor forest produce, especially in tribal regions. India is a major exporter of tamarind and moringa seeds. Both seeds are used in biofuel production due to oil content.",
+    "elimination_logic": "Statement 1 is incorrect → eliminate options containing it (a, c, d). Between remaining options, statement 2 is also incorrect. Only statements 3, 4, and 5 are correct → answer b."
+  },
+  {
+    "year": 2022,
+    "question": "Consider the following states:\nAndhra Pradesh, Kerala, Himachal Pradesh, Tripura\nHow many of the above are generally known as tea-producing States?",
+    "options": [
+      "a) Only one State",
+      "b) Only two States",
+      "c) Only three States",
+      "d) All four States"
+    ],
+    "correct_answer": "d) All four States",
+    "explanation": "Tea cultivation is widespread in India across diverse agro-climatic zones. Andhra Pradesh has limited but existing tea cultivation. Kerala is a major producer (Munnar region). Himachal Pradesh produces tea in Kangra valley. Tripura also has tea plantations. Hence, all four states are tea producers.",
+    "elimination_logic": "Kerala and Himachal are well-known tea regions → eliminates a and b. Tripura is also a known producer. Andhra Pradesh is the tricky one but has emerging cultivation. Hence all four → option d."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following statement:\n1. India has more arable area than China\n2. The proportion of irrigated area is more in India as compared to China\n3. The average productivity per hectare in Indian agriculture is higher than that in China\nHow many of the above statements are correct?",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) All three",
+      "d) None"
+    ],
+    "correct_answer": "a) Only one",
+    "explanation": "India has more arable land than China due to its extensive plains. However, China has a higher proportion of irrigated land and significantly higher agricultural productivity due to better technology and inputs. Thus, only statement 1 is correct.",
+    "elimination_logic": "Statement 3 is clearly false—China’s productivity is higher. Statement 2 is also false as China has better irrigation coverage. Only statement 1 remains → answer a."
+  },
+  {
+    "year": 2023,
+    "question": "Consider the following pairs:\n1. Kamarajar Port – First major port in India registered as a company\n2. Mundra Port – Largest privately owned port in India\n3. Visakhapatnam Port – Largest container port in India\nHow many of the above pairs are correctly matched?",
+    "options": [
+      "a) Only one pair",
+      "b) Only two pairs",
+      "c) All three pairs",
+      "d) None of the pairs"
+    ],
+    "correct_answer": "b) Only two pairs",
+    "explanation": "Kamarajar Port (Ennore) is India’s first corporatized port. Mundra is the largest private port. Visakhapatnam is not the largest container port—Jawaharlal Nehru Port holds that distinction. Hence, only two pairs are correct.",
+    "elimination_logic": "Pair 3 is incorrect → eliminate options with all three. Pair 1 and 2 are well-known facts → correct count is two → answer b."
+  },
+  {
+    "year": 2023,
+    "question": "With reference to India’s projects on connectivity, consider the following statements:\n1. East-West Corridor under Golden Quadrilateral Project connects Dibrugarh and Surat.\n2. Trilateral Highway connects Moreh in Manipur and Chiang Mai in Thailand via Myanmar.\n3. Bangladesh-China-India-Myanmar Economic Corridor connects Varanasi with Kunming.\nHow many of the above statements are correct?",
+    "options": [
+      "a) Only one",
+      "b) Only two",
+      "c) All three",
+      "d) None"
+    ],
+    "correct_answer": "d) None",
+    "explanation": "East-West Corridor connects Silchar to Porbandar, not Dibrugarh to Surat. Trilateral Highway connects Moreh to Mae Sot (Thailand), not Chiang Mai directly. BCIM corridor proposal connects Kolkata to Kunming, not Varanasi. Hence, all statements are incorrect.",
+    "elimination_logic": "All three statements contain factual distortions (endpoints mismatch). UPSC uses such traps frequently. Since none is correct → eliminate a, b, c → answer d."
+  },
+  {
+    "year": 2024,
+    "question": "Consider the following airports:\n1. Donyi Polo Airport\n2. Kushinagar International Airport\n3. Vijayawada International Airport\nIn the recent past, which of the above have been constructed as Greenfield projects?",
+    "options": [
+      "a) 1 and 2 only",
+      "b) 2 and 3 only",
+      "c) 1 and 3 only",
+      "d) 1, 2 and 3"
+    ],
+    "correct_answer": "a) 1 and 2 only",
+    "explanation": "Donyi Polo Airport (Arunachal Pradesh) and Kushinagar Airport (UP) are newly constructed greenfield airports. Vijayawada Airport is a brownfield project that has been upgraded, not newly built from scratch.",
+    "elimination_logic": "Identify greenfield vs brownfield. Vijayawada is an upgrade → eliminate options with 3. Remaining option a fits → answer a."
+  }
+    ]
+  }
 }
