@@ -5148,6 +5148,45 @@
       "explanation": "Fertigation involves applying fertilizers through irrigation systems, improving nutrient efficiency and reducing losses. It helps regulate nutrient delivery and can indirectly control alkalinity. However, rock phosphate is not suitable for fertigation due to its low solubility. It enhances nutrient availability and reduces leaching.",
       "elimination_logic": "Statement 2 is the trap—rock phosphate is not water-soluble. Eliminate options with 2 (a, b, d). Remaining option c is correct."
     },
+  {
+    "year": 2020,
+    "question": "What are the advantages of fertigation in agriculture?\n1. Controlling the alkalinity of irrigation water is possible.\n2. Efficient application of Rock Phosphate and all other phosphatic fertilizers is possible.\n3. Increased availability of nutrients to plants is possible.\n4. Reduction in the leaching of chemical nutrients is possible.",
+    "options": [
+      "a) 1, 2 and 3 only",
+      "b) 1, 2 and 4 only",
+      "c) 1, 3 and 4 only",
+      "d) 2, 3 and 4 only"
+    ],
+    "correct_answer": "c) 1, 3 and 4 only",
+    "explanation": "Fertigation allows precise nutrient delivery through irrigation, enhancing nutrient use efficiency and reducing wastage. It improves nutrient availability and reduces leaching losses. It can help manage alkalinity indirectly. However, rock phosphate is not water-soluble and hence unsuitable for fertigation systems.",
+    "elimination_logic": "Statement 2 is incorrect due to solubility issue. Eliminate all options containing 2 → a, b, d. Remaining option c is correct."
+  },
+  {
+    "year": 2021,
+    "question": "Among the following, which one is the least water-efficient crop?",
+    "options": [
+      "a) Sugarcane",
+      "b) Sunflower",
+      "c) Pearl millet",
+      "d) Red gram"
+    ],
+    "correct_answer": "a) Sugarcane",
+    "explanation": "Sugarcane is a highly water-intensive crop requiring continuous irrigation over a long growing period. Millets and pulses are drought-resistant and require less water. Hence sugarcane is least water-efficient.",
+    "elimination_logic": "Millets and pulses are water-efficient → eliminate c and d. Sunflower is moderate. Sugarcane is highest water consuming → answer a."
+  },
+  {
+    "year": 2021,
+    "question": "How is permaculture farming different from conventional chemical farming?\n1) Permaculture farming discourages monoculture practices but in conventional chemical farming, monoculture practices are pre-dominant.\n2) Conventional chemical farming can cause increase in soil salinity but the occurrence of such phenomenon is not observed in permaculture farming.\n3) Conventional chemical farming is easily possible in semi-arid regions but permaculture farming is not so easily possible in such regions.\n4) Practice of mulching is very important in permaculture farming but not necessarily so in conventional chemical farming.",
+    "options": [
+      "a) 1 and 3",
+      "b) 1, 2 and 4",
+      "c) 4 only",
+      "d) 2 and 3"
+    ],
+    "correct_answer": "b) 1, 2 and 4",
+    "explanation": "Permaculture emphasizes biodiversity and ecological sustainability, discouraging monoculture. Chemical farming may cause soil salinity due to intensive inputs. Mulching is central to permaculture. Permaculture can be adapted to semi-arid areas, making statement 3 incorrect.",
+    "elimination_logic": "Statement 3 incorrect → eliminate a and d. Statement 1 clearly correct → eliminate c. Remaining option b is correct."
+  },
     {
       "year": 2021,
       "question": "Among the following, which one is the least water-efficient crop?",
