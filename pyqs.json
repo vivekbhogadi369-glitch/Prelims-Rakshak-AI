@@ -5069,7 +5069,111 @@
       "correct_answer": "b) 7",
       "explanation": "The shortest route passes through Nagaland, Assam, West Bengal, Odisha, Andhra Pradesh, Tamil Nadu, and Kerala. This totals seven states including origin and destination.",
       "elimination_logic": "UPSC tests map sense. Extreme options (6 or 9) are unlikely. Logical routing via eastern corridor gives 7 states. Hence eliminate others → answer b."
+    },
+    {
+      "year": 2019,
+      "question": "Among the following, which one is the largest exporter of rice in the world in the last five years?",
+      "options": [
+        "a) China",
+        "b) India",
+        "c) Myanmar",
+        "d) Vietnam"
+      ],
+      "correct_answer": "b) India",
+      "explanation": "India has consistently been the world’s largest exporter of rice over the past decade due to large-scale production, diverse varieties (basmati and non-basmati), and competitive pricing. Favorable monsoon patterns and extensive irrigation support high output. Countries like Vietnam and Thailand are major exporters but fall behind India in volume. China is largely a domestic consumer despite large production.",
+      "elimination_logic": "China is eliminated first because it is a major consumer, not exporter. Myanmar’s export capacity is limited. Vietnam is a strong exporter but not the largest. India stands out as the dominant global exporter → answer b."
+    },
+    {
+      "year": 2020,
+      "question": "Consider the following minerals:\n1. Bentonite\n2. Chromite\n3. Kyanite\n4. Sillimanite\nIn India, which of the above is/are officially designated as major minerals?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 4 only",
+        "c) 1 and 3 only",
+        "d) 2, 3 and 4 only"
+      ],
+      "correct_answer": "d) 2, 3 and 4 only",
+      "explanation": "Chromite, kyanite, and sillimanite are classified as major minerals due to their industrial importance, especially in metallurgy and refractory industries. Bentonite, on the other hand, is classified as a minor mineral used mainly in drilling mud and foundry operations. The classification is governed by mining regulations distinguishing economic significance.",
+      "elimination_logic": "Bentonite is the key elimination point—it is a minor mineral. Any option containing 1 is incorrect → eliminate a and c. Between b and d, chromite and kyanite are clearly major minerals → hence d is correct."
+    },
+    {
+      "year": 2020,
+      "question": "With reference to the current trends in the cultivation of sugarcane in India, consider the following statements:\n1. A substantial saving in seed material is made when ‘bud chip settlings’ are raised in a nursery, and transplanted in the main field.\n2. When direct planting of setts is done, the germination percentage is better with single-budded setts as compared to setts with many buds.\n3. If bad weather conditions prevail when setts are directly planted, single-budded setts have better survival as compared to large setts.\n4. Sugarcane can be cultivated using settlings prepared from tissue culture.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1 and 4 only",
+        "d) 2, 3 and 4 only"
+      ],
+      "correct_answer": "c) 1 and 4 only",
+      "explanation": "Bud chip technology significantly reduces seed requirement by using single buds raised in nurseries, improving efficiency. Tissue culture is also increasingly used for disease-free planting material. However, multi-budded setts generally have better germination and resilience compared to single-budded ones, especially under stress conditions, making statements 2 and 3 incorrect.",
+      "elimination_logic": "Statements 2 and 3 are traps—they contradict basic agronomic practice where multi-budded setts perform better. Statement 1 is clearly correct due to seed-saving innovation. Statement 4 is also correct due to modern techniques. Hence eliminate a, b, d → answer c."
+    },
+    {
+      "year": 2020,
+      "question": "“The crop is subtropical in nature. A hard frost is injurious to it. It requires at least 210 frost-free days and 50 to 100 centimetres of rainfall for its growth. A light well-drained soil capable of retaining moisture is ideally suited for the cultivation of the crop.” Which one of the following is that crop?",
+      "options": [
+        "a) Cotton",
+        "b) Jute",
+        "c) Sugarcane",
+        "d) Tea"
+      ],
+      "correct_answer": "a) Cotton",
+      "explanation": "Cotton is a subtropical crop requiring long frost-free periods and moderate rainfall. It is highly sensitive to frost and grows best in well-drained soils like black cotton soil. Sugarcane requires higher rainfall and more humid conditions, while tea prefers hilly humid climates and jute needs heavy rainfall and alluvial soils.",
+      "elimination_logic": "Jute requires heavy rainfall → eliminate. Tea grows in humid hilly areas → eliminate. Sugarcane requires more water than specified → eliminate. Cotton fits all conditions → answer a."
+    },
+    {
+      "year": 2020,
+      "question": "With reference to pulse production in India, consider the following statements:\n1. Black gram can be cultivated as both kharif and rabi crop.\n2. Green-gram alone accounts for nearly half of pulse production.\n3. In the last three decades, while the production of kharif pulses has increased, the production of rabi pulses has decreased.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 2 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "Black gram is a versatile pulse crop grown in both Kharif and Rabi seasons depending on region. Green gram does not dominate pulse production—chickpea contributes a major share. Both Kharif and Rabi pulse production have generally increased over time due to policy and technology interventions.",
+      "elimination_logic": "Statement 2 is exaggerated (‘half’) → eliminate. Statement 3 is incorrect as both categories increased. Only statement 1 is factually correct → answer a."
+    },
+    {
+      "year": 2020,
+      "question": "What are the advantages of fertigation in agriculture?\n1. Controlling the alkalinity of irrigation water is possible.\n2. Efficient application of Rock Phosphate and all other phosphatic fertilizers is possible.\n3. Increased availability of nutrients to plants is possible.\n4. Reduction in the leaching of chemical nutrients is possible.",
+      "options": [
+        "a) 1, 2 and 3 only",
+        "b) 1, 2 and 4 only",
+        "c) 1, 3 and 4 only",
+        "d) 2, 3 and 4 only"
+      ],
+      "correct_answer": "c) 1, 3 and 4 only",
+      "explanation": "Fertigation involves applying fertilizers through irrigation systems, improving nutrient efficiency and reducing losses. It helps regulate nutrient delivery and can indirectly control alkalinity. However, rock phosphate is not suitable for fertigation due to its low solubility. It enhances nutrient availability and reduces leaching.",
+      "elimination_logic": "Statement 2 is the trap—rock phosphate is not water-soluble. Eliminate options with 2 (a, b, d). Remaining option c is correct."
+    },
+    {
+      "year": 2021,
+      "question": "Among the following, which one is the least water-efficient crop?",
+      "options": [
+        "a) Sugarcane",
+        "b) Sunflower",
+        "c) Pearl millet",
+        "d) Red gram"
+      ],
+      "correct_answer": "a) Sugarcane",
+      "explanation": "Sugarcane is a highly water-intensive crop requiring continuous irrigation and long growing periods. Crops like pearl millet and red gram are drought-resistant and adapted to low rainfall conditions. Sunflower also requires less water compared to sugarcane.",
+      "elimination_logic": "Millets and pulses are known for drought resistance → eliminate c and d. Sunflower is moderately water-efficient. Sugarcane stands out as highly water-intensive → answer a."
+    },
+    {
+      "year": 2021,
+      "question": "How is permaculture farming different from conventional chemical farming?\n1) Permaculture farming discourages monoculture practices but in conventional chemical farming, monoculture practices are pre-dominant.\n2) Conventional chemical farming can cause increase in soil salinity but the occurrence of such phenomenon is not observed in permaculture farming.\n3) Conventional chemical farming is easily possible in semi-arid regions but permaculture farming is not so easily possible in such regions.\n4) Practice of mulching is very important in permaculture farming but not necessarily so in conventional chemical farming.",
+      "options": [
+        "a) 1 and 3",
+        "b) 1, 2 and 4",
+        "c) 4 only",
+        "d) 2 and 3"
+      ],
+      "correct_answer": "b) 1, 2 and 4",
+      "explanation": "Permaculture promotes biodiversity and discourages monoculture, unlike conventional farming. Chemical farming can lead to salinity issues due to excessive irrigation and fertilizers. Mulching is a core practice in permaculture to conserve moisture and improve soil health. Statement 3 is incorrect because permaculture is designed to adapt even to semi-arid conditions.",
+      "elimination_logic": "Statement 3 is incorrect → eliminate options containing it (a, d). Remaining options b and c—statement 1 is clearly correct → eliminate c. Hence b is correct."
     }
   ]
-  }
+    }
 }
