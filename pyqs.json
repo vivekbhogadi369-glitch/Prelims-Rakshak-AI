@@ -5291,6 +5291,60 @@
     "explanation": "Donyi Polo Airport (Arunachal Pradesh) and Kushinagar Airport (UP) are newly constructed greenfield airports. Vijayawada Airport is a brownfield project that has been upgraded, not newly built from scratch.",
     "elimination_logic": "Identify greenfield vs brownfield. Vijayawada is an upgrade → eliminate options with 3. Remaining option a fits → answer a."
   }
-    ]
+    ],
+  "Forests": [
+    {
+      "year": 2013,
+      "question": "Which of the following is/are unique characteristic/characteristics of equatorial forests?\n1. Presence of tall, closely set trees with crowns forming a continuous canopy\n2. Coexistence of a large number of species\n3. Presence of numerous varieties of epiphytes\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3",
+        "c) 1 and 3",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "d) 1, 2 and 3",
+      "explanation": "Equatorial forests are characterized by dense vegetation due to high rainfall and temperature throughout the year. The trees grow very tall and close together, forming a continuous canopy that restricts sunlight from reaching the forest floor. These forests exhibit extremely high biodiversity, with a large number of plant and animal species coexisting. Epiphytes such as orchids and ferns are abundant due to high humidity and competition for sunlight. Hence, all three statements are correct.",
+      "elimination_logic": "All three statements are standard textbook characteristics of equatorial forests. Statement 1 reflects structural density, statement 2 indicates biodiversity, and statement 3 highlights ecological adaptations. Since none is doubtful, eliminate partial options (a, b, c). Thus, option d is correct."
+    },
+    {
+      "year": 2015,
+      "question": "In India, in which one of the following types of forests is teak a dominant tree species?",
+      "options": [
+        "a) Tropical moist deciduous forest",
+        "b) Tropical rain forest",
+        "c) Tropical thorn scrub forest",
+        "d) Temperate Forest with grasslands"
+      ],
+      "correct_answer": "a) Tropical moist deciduous forest",
+      "explanation": "Teak (Tectona grandis) is a major hardwood species found predominantly in tropical moist deciduous forests, where moderate rainfall (100–200 cm) supports its growth. These forests are found in central and southern India. Teak is not suited to evergreen rainforests due to excessive moisture, nor to thorn forests due to aridity. It is also absent in temperate regions.",
+      "elimination_logic": "Teak requires moderate rainfall—not excessive (rainforest) or scarce (thorn forest). Hence eliminate b and c. Temperate forests are climatically unsuitable → eliminate d. Only moist deciduous forests match teak ecology → answer a."
+    },
+    {
+      "year": 2015,
+      "question": "Consider the following States:\n1. Arunachal Pradesh\n2. Himachal Pradesh\n3. Mizoram\nIn which of the following states do “Tropical Wet Evergreen Forests” occur?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "c) 1 and 3 only",
+      "explanation": "Tropical wet evergreen forests require high rainfall and warm temperatures, conditions found in northeastern India. Arunachal Pradesh and Mizoram receive heavy rainfall and support such forests. Himachal Pradesh, being largely mountainous and temperate, does not support tropical evergreen vegetation.",
+      "elimination_logic": "Himachal Pradesh lies in temperate zone → eliminate options containing 2 (b, d). Remaining options are a and c. Mizoram clearly has tropical evergreen forests → eliminate a. Hence, option c is correct."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following States:\n1. Chhattisgarh\n2. Madhya Pradesh\n3. Maharashtra\n4. Odisha\nWith reference to the States mentioned above, in terms of percentage of forest cover to the total area of State, which one of the following is the correct ascending order?",
+      "options": [
+        "a) 2-3-1-4",
+        "b) 2-3-4-1",
+        "c) 3-2-4-1",
+        "d) 3-2-1-4"
+      ],
+      "correct_answer": "c) 3-2-4-1",
+      "explanation": "Maharashtra has relatively lower forest cover percentage compared to the others due to larger cultivated and urbanized areas. Madhya Pradesh, though having the largest forest area in absolute terms, has moderate percentage coverage. Odisha has higher forest percentage due to Eastern Ghats and tribal regions. Chhattisgarh has the highest percentage among these due to dense forest cover in central India.",
+      "elimination_logic": "Start with lowest forest % → Maharashtra (3). Next is Madhya Pradesh (2). Odisha (4) has higher forest % than MP. Chhattisgarh (1) has highest. Thus ascending order → 3-2-4-1 → option c."
+    }
+  ]
   }
 }
