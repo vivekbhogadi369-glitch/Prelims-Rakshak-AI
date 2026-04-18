@@ -4661,7 +4661,73 @@
         "explanation": "Rann of Kutch represents a former shallow sea that underwent repeated marine transgressions and regressions, leading to extensive salt marsh formation. It is a classic geomorphological example of sea-level fluctuation.",
         "elimination_logic": "a → deltaic mangrove system. b → human-modified salt pans. c → local swamp. Only Rann reflects geological sea-level regression → (d)."
       }
-    ]
+    ],
+  "Soils": [
+    {
+      "year": 2013,
+      "question": "Which of the following statements regarding laterite soils of India are correct?\n1. They are generally red in colour.\n2. They are rich in nitrogen and Potash.\n3. They are well-developed in Rajasthan and UP.\n4. Tapioca and Cashew nuts grow well on these soils.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a) 1, 2 and 3",
+        "b) 2, 3 and 4",
+        "c) 1 and 4",
+        "d) 2 and 3 only"
+      ],
+      "correct_answer": "c) 1 and 4",
+      "explanation": "Laterite soils are intensely leached soils rich in iron and aluminium oxides, giving them a red colour. They are poor in nitrogen, potash and humus due to heavy leaching. They are mainly found in high rainfall regions of Western Ghats, Eastern Ghats and parts of NE India—not in Rajasthan or UP. Crops like cashew and tapioca grow well due to adaptation to poor soils.",
+      "elimination_logic": "2 wrong → laterite soils are nutrient deficient (not rich in N & K). 3 wrong → not found in arid/semi-arid Rajasthan/UP. 1 correct (red due to iron). 4 correct (cashew/tapioca). Hence (c). Trap: assuming fertility."
+    },
+    {
+      "year": 2013,
+      "question": "Contour Bunding is a method of soil conservation used in?",
+      "options": [
+        "a) Desert margins, liable to strong wind action",
+        "b) Low flat plains, close to stream courses, liable to flooding",
+        "c) Scrublands, liable to spread of weed growth",
+        "d) None of the above"
+      ],
+      "correct_answer": "d) None of the above",
+      "explanation": "Contour bunding is practiced in sloping lands to reduce runoff and soil erosion by following contour lines. It is not associated with deserts (wind erosion), floodplains, or weed-prone scrublands.",
+      "elimination_logic": "a wrong → wind erosion (needs shelter belts). b wrong → floodplains (embankments used). c irrelevant. Correct concept (slopes) not given → (d). Trap: mismatch of conservation technique vs geography."
+    },
+    {
+      "year": 2014,
+      "question": "In India, the problem of soil erosion is associated with which of the following?\n1. Terrace cultivation\n2. Deforestation\n3. Tropical climate\nSelect the correct answer using the code given below.",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Deforestation removes vegetation cover, exposing soil to erosion. Terrace cultivation is a soil conservation method, not a cause. Tropical climate alone does not inherently cause erosion unless combined with factors like deforestation or slope.",
+      "elimination_logic": "1 wrong → terrace cultivation prevents erosion. 3 trap → climate alone not direct cause. Only 2 valid → (b). UPSC trap: confusing conservation methods as causes."
+    },
+    {
+      "year": 2018,
+      "question": "With reference to agriculture soils consider the following statements:\n1. A high content of organic matter drastically reduces its water holding capacity.\n2. Soil does not play role in the sulphur cycle.\n3. Irrigation over a period of time can contribute to the salinization of some agricultural lands.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 3 only",
+      "explanation": "Organic matter increases water holding capacity by improving soil structure. Soil is an active component of the sulphur cycle through microbial activity. Excess irrigation leads to salt accumulation due to evaporation and poor drainage, causing salinization.",
+      "elimination_logic": "1 wrong → organic matter increases water retention. 2 wrong → soil is key in nutrient cycles. 3 correct → salinization due to irrigation. Hence (b). Trap: reversing basic soil properties."
+    },
+    {
+      "year": 2021,
+      "question": "The black cotton soil of India has been formed due to the weathering of:",
+      "options": [
+        "a) Brown Forest soil",
+        "b) Fissure volcanic rock",
+        "c) Granite and schist",
+        "d) Shale and limestone"
+      ],
+      "correct_answer": "b) Fissure volcanic rock",
+      "explanation": "Black cotton soil (Regur soil) is derived from the weathering of Deccan Trap basalt formed from fissure volcanic eruptions. It is rich in clay minerals like montmorillonite, giving it high water retention and cracking properties.",
+      "elimination_logic": "a irrelevant (soil type, not parent rock). c & d → not associated with black soil formation. Basalt from fissure volcanism → correct (b). Map + geology linkage."
+    }
+  ]
   }
 }
-
