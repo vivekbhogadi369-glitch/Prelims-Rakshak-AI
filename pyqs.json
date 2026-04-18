@@ -1640,7 +1640,7 @@
   }
     ],
     
-"PEASANT_TRIBAL_AND_LABOUR_MOVEMENTS": [
+"Peasant-Tribal-Labour Movements": [
   {
     "year": 2013,
     "question": "The demand for the Tebhaga Peasant Movement in Bengal was for___?",
@@ -1707,7 +1707,7 @@
     "elimination_logic": "Options (a), (b), and (c) list leaders associated with other political or regional movements. Only option (d) correctly identifies the founders of Hind Mazdoor Sabha."
   }
 ],
-  "SWADESHI_MOVEMENT": [
+  "Swadesi Movement": [
   {
     "year": 2014,
     "question": "The Partition of Bengal made by Lord Curzon in 1905 lasted until:",
@@ -1787,7 +1787,7 @@
     "elimination_logic": "Both statements are correct and directly linked. The Swadeshi Movement’s emphasis on indigenous goods explains why the same day is commemorated as Handloom Day. Hence option (a) is correct."
   }
   ],
-  "REVOLUTIONARY_NATIONALISM": [
+  "Revolutionary Terrorism": [
   {
     "year": 2014,
     "question": "The Ghadr (Ghadar) was a:",
@@ -1815,7 +1815,7 @@
     "elimination_logic": "Statement 1 is incorrect as Barindra Ghosh belonged to Bengal revolutionary groups. Statement 2 is incorrect as Jogesh Chandra Chatterjee was part of HRA. Statement 3 is correct as Rash Behari Bose was linked with Ghadar. Hence only 3 is correct."
   }
   ],
-  "HOME_RULE_MOVEMENT": [
+  "Home Rule Movement": [
   {
     "year": 2013,
     "question": "Annie Besant was:\n1. Responsible for starting the Home Rule Movement\n2. The founder of the Theosophical Society\n3. Once the President of the Indian National Congress\nSelect the correct statement / statements using the codes given below:",
@@ -1830,7 +1830,7 @@
     "elimination_logic": "Statement 1 is correct as Annie Besant was instrumental in the Home Rule Movement. Statement 2 is incorrect because she was not the founder of the Theosophical Society. Statement 3 is correct as she served as INC President in 1917. Hence, only 1 and 3 are correct."
   }
   ],
-  "GANDHIAN_PHASE": [
+  "Gandhian Phase": [
   {
     "year": 2013,
     "question": "The people of India agitated against the arrival of the Simon Commission because?",
@@ -2079,7 +2079,7 @@
     "elimination_logic": "Option (b) is incorrect because the Gandhi-Irwin Pact dealt with Civil Disobedience issues, not specifically the anti-untouchability campaign. Option (c) is unrelated to the beginning of Harijan uplift work. Option (d) is also not the trigger for Gandhi’s focused anti-untouchability programme. The decisive event was the Poona Pact, so option (a) is correct."
   }
   ],
-  "AZAD_HIND_FOUZ": [
+  "Azad Hind Fauz": [
   {
     "year": 2017,
     "question": "With reference to Indian freedom struggle, consider the following events:\n1. Mutiny in Royal Indian Navy\n2. Quit India Movement launched\n3. Second Round Table Conference\nWhat is the correct chronological sequence of the above events?",
@@ -2108,7 +2108,7 @@
   }
   ],
   
-"MISCELLANEOUS": [
+"Miscellaneous": [
   {
     "year": 2015,
     "question": "Consider the following statements:\n1. The first woman President of the Indian National Congress was Sarojini Naidu.\n2. The first Muslim President of the Indian National Congress was Badruddin Tyabji\nWhich of the statements given above is/are correct?",
@@ -4727,6 +4727,242 @@
       "correct_answer": "b) Fissure volcanic rock",
       "explanation": "Black cotton soil (Regur soil) is derived from the weathering of Deccan Trap basalt formed from fissure volcanic eruptions. It is rich in clay minerals like montmorillonite, giving it high water retention and cracking properties.",
       "elimination_logic": "a irrelevant (soil type, not parent rock). c & d → not associated with black soil formation. Basalt from fissure volcanism → correct (b). Map + geology linkage."
+    }
+  ],
+  "Drainage System": [
+    {
+      "year": 2013,
+      "question": "The Narmada River flows to the west, while most other large peninsular rivers flow to the east. Why?\n1. It occupies a linear rift valley.\n2. It flows between the Vindhyas and the Satpuras.\n3. The land slopes to the west from central India.\nSelect the correct answer using the codes given below.",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3",
+        "c) 1 and 3",
+        "d) None"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "The Narmada is one of the very few major Peninsular rivers that flows westward, and the decisive reason is structural geology. It flows through a rift valley formed by faulting, which gives it a tectonically controlled linear course. This distinguishes it from most Peninsular rivers, whose eastward flow is broadly influenced by the general eastward slope of the Peninsular block. The fact that Narmada lies between the Vindhyas and the Satpuras is a locational description, not the fundamental explanation of its westward flow. Therefore, the river’s rift-valley origin, not simple surrounding topography, explains its unusual drainage direction.",
+      "elimination_logic": "Statement 1 is the key conceptual anchor because Narmada is a classic example of structurally controlled drainage. Statement 2 may look attractive because the river indeed flows between the Vindhyas and the Satpuras, but that only describes the corridor, not the causal reason for westward flow. Statement 3 is factually weak because the general slope of Peninsular India is not westward from central India; if that were so, most Peninsular rivers would not drain east. Once 3 is rejected, option b and c become suspect. With 2 being merely descriptive and not explanatory, only 1 survives, so option a is correct."
+    },
+    {
+      "year": 2014,
+      "question": "Consider the following rivers:\n1. Barak\n2. Lohit\n3. Subansiri\nwhich of the above flows/flow through Arunachal Pradesh?",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 and 3 only",
+      "explanation": "Lohit and Subansiri are important tributaries of the Brahmaputra system associated with Arunachal Pradesh. Lohit enters Assam after flowing through eastern Arunachal Pradesh, while Subansiri also descends from the Arunachal Himalaya into Assam. Barak, however, is associated with Manipur, Mizoram, and southern Assam, especially the Cachar region. It is not a river identified with Arunachal Pradesh. Hence, only rivers 2 and 3 correctly fit the state association asked in the question.",
+      "elimination_logic": "The main trap here is Barak, because candidates often mix North-East rivers without separating Brahmaputra basin rivers from Barak basin rivers. Lohit is a known eastern tributary of Brahmaputra and clearly belongs to the Arunachal-Assam system. Subansiri too is one of the major north-bank tributaries descending from Arunachal Pradesh. Barak, on the other hand, belongs to the southern part of the North-East and is not linked to Arunachal. Therefore, all options containing 1 must be eliminated, leaving only option b."
+    },
+    {
+      "year": 2015,
+      "question": "Consider the following rivers:\n1. Vamsadhara\n2. Indravati\n3. Pranahita\n4. Pennar\nWhich of the above are tributaries of Godavari?",
+      "options": [
+        "a) 1,2 and 3",
+        "b) 2,3 and 4",
+        "c) 1,2 and 4",
+        "d) 2 and 3 only"
+      ],
+      "correct_answer": "d) 2 and 3 only",
+      "explanation": "Indravati and Pranahita are both major tributaries of the Godavari. Indravati rises in the highlands of central India and joins the Godavari from the left bank, while Pranahita is itself a large tributary formed by the confluence of Wardha and Wainganga. Vamsadhara and Pennar are separate east-flowing rivers of Peninsular India that drain independently into the Bay of Bengal. They do not form part of the Godavari drainage system. Thus, only 2 and 3 are correct.",
+      "elimination_logic": "The first elimination step is to separate independent east-flowing rivers from actual tributaries of Godavari. Vamsadhara is a small east-flowing river of Odisha-Andhra region, not a Godavari tributary. Pennar too is an independent river of southern Andhra Pradesh. Indravati is a well-known tributary, and Pranahita is one of the largest contributors to Godavari discharge. Therefore, any option containing 1 or 4 must be rejected. That leaves only option d."
+    },
+    {
+      "year": 2016,
+      "question": "Which of the following is/are tributary/tributaries of Brahmaputra?\n1. Dibang\n2. Kameng\n3. Lohit\nSelect the correct answer using the code given below.",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "d) 1, 2 and 3",
+      "explanation": "Dibang, Kameng, and Lohit are all important tributaries of the Brahmaputra system. These rivers descend from the Eastern Himalaya and join the Brahmaputra in Assam after traversing Arunachal Pradesh. UPSC often frames such questions to test basin familiarity in the North-East, where multiple tributaries enter from both north and south. In this case, all three rivers belong to the Brahmaputra drainage network. Hence, all the listed rivers are correct.",
+      "elimination_logic": "There is no hidden mismatch here; the difficulty lies in the candidate’s lack of familiarity with North-Eastern river systems. Dibang is a major tributary from Arunachal Pradesh, Kameng also joins the Brahmaputra system, and Lohit is another prominent tributary. Since each individual river is correctly associated, any option excluding even one becomes incorrect. Thus options a, b, and c fail by omission. Only option d accommodates all three correctly."
+    },
+    {
+      "year": 2017,
+      "question": "With reference to river Teesta, consider the following statements:\n1. The source of river Teesta is the same as that of Brahmaputra but it flows through Sikkim.\n2. River Rangeet originates in Sikkim and it is a tributary of river Teesta.\n3. River Teesta flows into Bay of Bengal on the border of India and Bangladesh.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 and 3 only",
+        "b) 2 only",
+        "c) 2 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Teesta originates from the Tso Lhamo area in North Sikkim, whereas Brahmaputra originates in Tibet as the Yarlung Tsangpo; therefore, statement 1 is incorrect. Rangeet does originate in Sikkim and is a major tributary of the Teesta, making statement 2 correct. Teesta does not directly enter the Bay of Bengal at the India-Bangladesh border; rather, it joins the Brahmaputra system in Bangladesh. Hence statement 3 is also incorrect. Therefore, only statement 2 is correct.",
+      "elimination_logic": "Statement 1 is a classic source-confusion trap: Teesta and Brahmaputra are geographically linked in the eastern Himalaya but do not arise from the same source. Statement 3 is another trap because candidates may assume every major Himalayan river independently reaches the Bay of Bengal, but Teesta joins the Brahmaputra-Jamuna system first. Statement 2 is straightforward and geographically correct. With 1 and 3 rejected, options containing them automatically fail. That leaves only option b."
+    },
+    {
+      "year": 2018,
+      "question": "Which of the following is an Artificial Lake?",
+      "options": [
+        "a) Kodaikanal (Tamil Nadu)",
+        "b) Kolleru (Andhra Pradesh)",
+        "c) Nainital (Uttarakhand)",
+        "d) Renuka (Himachal Pradesh)"
+      ],
+      "correct_answer": "a) Kodaikanal (Tamil Nadu)",
+      "explanation": "Kodaikanal Lake is an artificial, star-shaped lake created during the colonial period in Tamil Nadu. Kolleru is a natural freshwater lake of Andhra Pradesh situated between the Krishna and Godavari deltas. Nainital is a natural tectono-glacial lake in Uttarakhand, and Renuka is also a natural lake in Himachal Pradesh associated with local geomorphic and cultural significance. Therefore, among the given options, only Kodaikanal is artificial.",
+      "elimination_logic": "The question is factual, but UPSC makes it tricky by mixing well-known tourist lakes with natural lakes. Kolleru can be eliminated because it is a major natural lake and wetland ecosystem. Nainital is a classic natural hill lake, not man-made. Renuka is also natural. Hence only Kodaikanal, which was created artificially, remains correct. So option a is the answer."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following pairs:\n1. Bandarpunch – Yamuna\n2. Bara Shigri – Chenab\n3. Milam – Mandakini\n4. Siachen – Nubra\n5. Zemu – Manas\nWhich of the pairs correctly matched?",
+      "options": [
+        "a) 1, 2 and 4",
+        "b) 1, 3 and 4",
+        "c) 2 and 5",
+        "d) 3 and 5"
+      ],
+      "correct_answer": "a) 1, 2 and 4",
+      "explanation": "Bandarpunch glacier region is associated with the source system of the Yamuna. Bara Shigri is a major glacier in Himachal Pradesh associated with the Chenab basin. Siachen glacier feeds the Nubra river. However, Milam glacier is associated with the Gori Ganga system, not Mandakini, and Zemu glacier is connected with the Teesta basin, not Manas. Hence the correctly matched pairs are 1, 2, and 4.",
+      "elimination_logic": "Milam–Mandakini is a trap because Milam is famous, but it belongs to the Kumaon Himalayan glacier system feeding Gori Ganga. Zemu–Manas is also incorrect because Zemu is in Sikkim and linked with Teesta drainage, not Manas. Once 3 and 5 are eliminated, options b, c, and d automatically fail. The remaining valid set is 1, 2, and 4, which gives option a."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following pairs:\n1. Pandharpur – Chandrabhaga\n2. Tiruchirappalli – Cauvery\n3. Hampi – Malaprabha\nWhich of the pairs given above are correctly matched?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "a) 1 and 2 only",
+      "explanation": "Pandharpur is situated on the Chandrabhaga river, the local name for a bend of the Bhima. Tiruchirappalli is located on the Cauvery system in Tamil Nadu. Hampi, however, is situated on the Tungabhadra, not on the Malaprabha. Therefore, only pairs 1 and 2 are correctly matched.",
+      "elimination_logic": "The decisive elimination lies in pair 3. Hampi is a very famous Vijayanagara site on the Tungabhadra river, so linking it with Malaprabha is incorrect. Once pair 3 is rejected, options b, c, and d all collapse. That leaves only option a. UPSC here tests site-river association rather than basin theory."
+    },
+    {
+      "year": 2019,
+      "question": "What is common to the places known as Aliyar, Isapur and Kangsabati?",
+      "options": [
+        "a) Recently discovered uranium deposits",
+        "b) Tropical rain forests",
+        "c) Underground cave systems",
+        "d) Water reservoirs"
+      ],
+      "correct_answer": "d) Water reservoirs",
+      "explanation": "Aliyar, Isapur, and Kangsabati are all known for reservoir projects or water storage structures in different states of India. They are not categories of mineral deposits, forest types, or cave systems. This is a direct location-feature association question that tests familiarity with Indian irrigation and multipurpose water projects.",
+      "elimination_logic": "Uranium deposits, rain forests, and cave systems all belong to very different geographical domains and have no commonality with these place names. The common link is infrastructure related to water storage and irrigation. Candidates who know even one or two of these names can infer the pattern. Hence option d is correct."
+    },
+    {
+      "year": 2021,
+      "question": "Consider the following rivers:\n1) Brahmani\n2) Nagavali\n3) Subarnarekha\n4) Vamsadhara\nWhich of the above rise from the Eastern Ghats?",
+      "options": [
+        "a) 1 and 2",
+        "b) 2 and 4",
+        "c) 3 and 4",
+        "d) 1 and 3"
+      ],
+      "correct_answer": "b) 2 and 4",
+      "explanation": "Nagavali and Vamsadhara originate in the Eastern Ghats region and flow eastward into the Bay of Bengal. Brahmani rises from the confluence of South Koel and Sankh in the Chotanagpur Plateau region, and Subarnarekha also originates in the Chotanagpur Plateau. Thus, only 2 and 4 are rivers rising from the Eastern Ghats.",
+      "elimination_logic": "The key is to separate Eastern Ghats origin rivers from plateau-origin rivers. Brahmani and Subarnarekha are associated with Chotanagpur, so any option containing 1 or 3 becomes doubtful. Nagavali and Vamsadhara are the classic east-coast rivers rising in the Eastern Ghats belt. Thus the correct combination is 2 and 4, making option b correct."
+    },
+    {
+      "year": 2021,
+      "question": "With reference to India, Didwana, Kuchaman, Sargol and Khatu are the names of:",
+      "options": [
+        "a) Glaciers",
+        "b) Mangrove areas",
+        "c) Ramsar sites",
+        "d) Saline lakes"
+      ],
+      "correct_answer": "d) Saline lakes",
+      "explanation": "Didwana, Kuchaman, Sargol, and Khatu are inland saline lakes of Rajasthan associated with arid and semi-arid environments. These are important examples of salt-affected lacustrine features in western India. They are neither Himalayan glacial systems nor coastal ecosystems like mangroves, nor are all of them designated Ramsar wetlands.",
+      "elimination_logic": "Given the place names and Rajasthan association, glaciers and mangroves can be eliminated immediately. Ramsar site is a legal-conservation category, not the geomorphic identity being asked here. The correct physical category is saline lakes. Hence option d is correct."
+    },
+    {
+      "year": 2021,
+      "question": "With reference to the Indus River system, of the following four rivers, three of them pour into one of them which joins the Indus direct. Among the following, which one is such river that joins the Indus direct?",
+      "options": [
+        "a) Chenab",
+        "b) Jhelum",
+        "c) Ravi",
+        "d) Sutlej"
+      ],
+      "correct_answer": "d) Sutlej",
+      "explanation": "In the Punjab river system, Jhelum joins Chenab, Ravi also ultimately joins Chenab, and later Chenab joins Sutlej through the Panjnad system before entering the Indus in Pakistan. Thus, among the given rivers, Sutlej is the river that directly joins the Indus after receiving the waters of the others through the larger integrated drainage hierarchy.",
+      "elimination_logic": "The question is not asking which river is biggest, but which among the listed rivers finally joins the Indus directly after receiving the others. Jhelum and Ravi are tributary-level rivers within the hierarchy. Chenab itself is not the final one in this sequence. The combined flow ultimately reaches the Indus through Sutlej-Panjnad linkage. Hence option d is correct. This is a hierarchy-tracing question, not a simple map recall item."
+    },
+    {
+      "year": 2022,
+      "question": "Gandikota canyon of South India was created by which one of the following rivers?",
+      "options": [
+        "a) Cauvery",
+        "b) Manjira",
+        "c) Pennar",
+        "d) Tungabhadra"
+      ],
+      "correct_answer": "c) Pennar",
+      "explanation": "Gandikota canyon in Andhra Pradesh is carved by the Pennar river and is often compared with major canyon landscapes due to its dramatic rock-cut topography. It is a notable example of fluvial incision in the Peninsular plateau. The other rivers listed are important in their own basins but are not associated with Gandikota.",
+      "elimination_logic": "This is a location-specific river-landform question. Cauvery is associated with several falls and deltaic features but not Gandikota. Manjira and Tungabhadra are basin distractors. Gandikota is a well-known canyon on the Pennar, so option c is the correct choice."
+    },
+    {
+      "year": 2022,
+      "question": "Consider the following pairs:\n1. Ghataprabha – Telangana\n2. Gandhi Sagar – Madhya Pradesh\n3. Indira Sagar – Andhra Pradesh\n4. Maithon – Chhattisgarh\nHow many pairs given above are not correctly matched?",
+      "options": [
+        "a) Only one pair",
+        "b) Only two pairs",
+        "c) Only three pairs",
+        "d) All four pairs"
+      ],
+      "correct_answer": "c) Only three pairs",
+      "explanation": "Ghataprabha is associated with Karnataka, not Telangana. Gandhi Sagar is correctly located in Madhya Pradesh. Indira Sagar is also in Madhya Pradesh, not Andhra Pradesh. Maithon is in Jharkhand, not Chhattisgarh. Therefore, among the four pairs, only one is correct and three are incorrectly matched.",
+      "elimination_logic": "Pair 2 is the only correct pair. Once that is established, option d is eliminated because not all are wrong. Pairs 1, 3, and 4 are incorrect due to wrong state associations. Therefore, the number of incorrectly matched pairs is three, which gives option c."
+    },
+    {
+      "year": 2022,
+      "question": "Consider the following pairs:\n1. Hokera Wetland – Punjab\n2. Renuka Wetland – Himachal Pradesh\n3. Rudrasagar Lake – Tripura\n4. Sasthamkotta Lake – Tamil Nadu\nHow many pairs given above are correctly matched?",
+      "options": [
+        "a) Only one pair",
+        "b) Only two pairs",
+        "c) Only three pairs",
+        "d) All four pairs"
+      ],
+      "correct_answer": "b) Only two pairs",
+      "explanation": "Renuka Wetland is correctly associated with Himachal Pradesh and Rudrasagar Lake with Tripura. Hokera Wetland is in Jammu and Kashmir, not Punjab. Sasthamkotta Lake is in Kerala, not Tamil Nadu. Hence, only two pairs are correctly matched.",
+      "elimination_logic": "Pairs 2 and 3 are correct. Pair 1 is a state mismatch because Hokera lies in Kashmir Valley. Pair 4 is another deliberate trap because Sasthamkotta is in Kerala. Therefore, exactly two pairs are correct, making option b the answer."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following statement:\n1. Jhelum River passes through Wular Lake\n2. Krishna River directly feeds Kolleru Lake\n3. Meandering of Gandak River formed Kanwar Lake\nHow many of the statements given above are correct?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "a) Only one",
+      "explanation": "Jhelum does pass through Wular Lake, so statement 1 is correct. Kolleru is associated with the inter-deltaic region between Krishna and Godavari, but Krishna does not directly feed it in the manner stated. Kanwar Lake is linked with the Burhi Gandak system, not the Gandak proper. Thus, only one statement is correct.",
+      "elimination_logic": "Statement 1 is a standard and correct Kashmir map fact. Statement 2 is framed to induce overgeneralisation from delta proximity, but the direct feeding statement is inaccurate. Statement 3 is another river-name trap: Kanwar is linked with Burhi Gandak, not Gandak. Therefore only one statement survives, which makes option a correct."
+    },
+    {
+      "year": 2024,
+      "question": "Consider the following information:\nWaterfall – Region – River\n1. Dhuandhar – Malwa – Narmada\n2. Hundru – Chota Nagpur – Subarnarekha\n3. Gersoppa – Western Ghats – Netravati\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All three",
+        "d) None"
+      ],
+      "correct_answer": "a) Only one",
+      "explanation": "Hundru Falls is correctly associated with the Subarnarekha river in the Chota Nagpur Plateau. Dhuandhar Falls is on the Narmada, but its regional attribution as Malwa is not correct in the strict physiographic sense. Gersoppa or Jog Falls is on the Sharavathi river, not Netravati, though it is in the Western Ghats. Hence, only one row is correctly matched.",
+      "elimination_logic": "Pair 2 is clearly correct, so option d is ruled out. Pair 3 is a well-known UPSC trap because Gersoppa/Jog is often confused among west-flowing rivers, but it belongs to Sharavathi, not Netravati. Pair 1 is also incorrect due to regional mismatch. Thus only one row is correct, making option a the answer."
+    },
+    {
+      "year": 2024,
+      "question": "With reference to the Himalayan rivers joining the Ganga downstream of Prayagraj from West to East, which one of the following sequences is correct?",
+      "options": [
+        "a) Ghaghara — Gomati — Gandak — Kosi",
+        "b) Gomati — Ghaghara — Gandak — Kosi",
+        "c) Ghaghara — Gomati — Kosi — Gandak",
+        "d) Gomati — Ghaghara — Kosi — Gandak"
+      ],
+      "correct_answer": "b) Gomati — Ghaghara — Gandak — Kosi",
+      "explanation": "Downstream of Prayagraj, the sequence from west to east among these tributaries is Gomati, then Ghaghara, followed by Gandak, and finally Kosi. This is fundamentally a basin-ordering and map-sequencing question. Such questions demand spatial accuracy rather than conceptual theory. The order reflects their confluences along the Ganga’s eastward journey across the Indo-Gangetic Plain.",
+      "elimination_logic": "The main trap is confusion between Gomati and Ghaghara, and between Gandak and Kosi. Gomati joins the Ganga west of Ghaghara, so any option beginning with Ghaghara is suspect. Kosi lies further east than Gandak, so options placing Kosi before Gandak are wrong. With these two eliminations, only option b remains. This is best solved through west-to-east map logic, not memorisation alone."
     }
   ]
   }
