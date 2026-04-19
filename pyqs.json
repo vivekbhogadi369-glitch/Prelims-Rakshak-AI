@@ -6158,6 +6158,268 @@
       "explanation": "Licences for seabed exploration in international waters are granted by the International Seabed Authority (ISA), not the Global Ocean Commission, making statement 1 incorrect. India has indeed received exploration rights for polymetallic nodules and other seabed minerals, so statement 2 is correct. Rare earth minerals and other valuable resources are found on the ocean floor, especially in deep-sea nodules and crusts, making statement 3 correct. Therefore, statements 2 and 3 are correct.",
       "elimination_logic": "Statement 1 is the key trap—UPSC replaces the correct authority (ISA) with a similar-sounding body. Once this is identified, statement 1 must be eliminated. Statements 2 and 3 are factual and widely accepted. Options containing statement 1 can be rejected immediately. Thus only option b remains correct."
     }
+  ],
+  "Map Based Questions": [
+    {
+      "year": 2013,
+      "question": "Which of the following pairs is correctly matched?",
+      "options": [
+        "a) Abyssinian Plateau: Arabia",
+        "b) Altas Mountains: North-Western Africa",
+        "c) Guiana Highlands: South-western Africa",
+        "d) Okavango Basin: Patagonia"
+      ],
+      "correct_answer": "b) Altas Mountains: North-Western Africa",
+      "explanation": "The Atlas Mountains are located in north-western Africa, mainly in Morocco, Algeria and Tunisia. They form a major physical feature separating the Sahara Desert from coastal regions. The Abyssinian Plateau is located in Ethiopia, not Arabia. The Guiana Highlands are in northern South America, not Africa. The Okavango Basin lies in Botswana in Africa, not Patagonia in South America. Hence only the Atlas Mountains pair is correctly matched.",
+      "elimination_logic": "Option a is wrong because Abyssinian Plateau belongs to Ethiopia, not Arabia. Option c is wrong because Guiana Highlands are in South America, not Africa. Option d is incorrect as Okavango Basin is in Botswana, not Patagonia. These clear continent mismatches eliminate all options except b. Hence b survives as correct."
+    },
+    {
+      "year": 2014,
+      "question": "What is the correct sequence of occurrence of the following cities in South-East Asia as one proceeds from south to north?\n1. Bangkok\n2. Hanoi\n3. Jakarta\n4. Singapore",
+      "options": [
+        "a) 4-2-1-3",
+        "b) 3-2-4-1",
+        "c) 3-4-1-2",
+        "d) 4-3-2-1"
+      ],
+      "correct_answer": "c) 3-4-1-2",
+      "explanation": "Jakarta is located in Indonesia near the equator and is the southernmost among the given cities. Singapore lies slightly north of Jakarta. Bangkok in Thailand lies further north, and Hanoi in Vietnam is the northernmost among them. Thus, the correct south-to-north order is Jakarta → Singapore → Bangkok → Hanoi. This reflects latitudinal positioning in Southeast Asia. Hence option c is correct.",
+      "elimination_logic": "Jakarta must be first as it is southernmost, eliminating options a and d. Hanoi must be last as it is northernmost, eliminating option b. Only option c satisfies both geographical constraints. This systematic elimination leads to the correct answer."
+    },
+    {
+      "year": 2014,
+      "question": "Turkey is located between:",
+      "options": [
+        "a) Black Sea and Caspian Sea",
+        "b) Black Sea and Mediterranean Sea",
+        "c) Gulf of Suez and Mediterranean Sea",
+        "d) Gulf of Aqaba and Dead Se"
+      ],
+      "correct_answer": "b) Black Sea and Mediterranean Sea",
+      "explanation": "Turkey is strategically located between Europe and Asia. It is bordered by the Black Sea to the north and the Mediterranean Sea to the south. It also connects these seas through the Bosporus and Dardanelles straits. The Caspian Sea does not border Turkey. Hence the correct geographical pairing is Black Sea and Mediterranean Sea.",
+      "elimination_logic": "Option a is incorrect as Caspian Sea does not touch Turkey. Options c and d refer to regions in Egypt and Jordan-Israel area. Only option b correctly identifies Turkey’s position between Black Sea and Mediterranean Sea. Hence b is correct."
+    },
+    {
+      "year": 2015,
+      "question": "Which one of the following countries of South-West Asia does not open out to the Mediterranean Sea?",
+      "options": [
+        "a) Syria",
+        "b) Jordan",
+        "c) Lebanon",
+        "d) Israel"
+      ],
+      "correct_answer": "b) Jordan",
+      "explanation": "The Mediterranean Sea borders several countries in West Asia including Syria, Lebanon and Israel. These countries have direct coastline access to the Mediterranean. Jordan, however, is almost landlocked with respect to the Mediterranean and only has access to the Red Sea through the Gulf of Aqaba. Hence it does not open to the Mediterranean Sea. This makes Jordan the correct answer.",
+      "elimination_logic": "Syria has a clear Mediterranean coastline, so eliminate a. Lebanon is entirely along the Mediterranean coast, eliminate c. Israel also borders the Mediterranean Sea, eliminate d. Jordan only has access to the Red Sea and not Mediterranean, so it survives. Hence option b is correct."
+    },
+    {
+      "year": 2017,
+      "question": "Mediterranean Sea is a border of which of the following countries?\n1. Jordan\n2. Iraq\n3. Lebanon\n4. Syria",
+      "options": [
+        "a) 1, 2 and 3 only",
+        "b) 2 and 3 only",
+        "c) 3 and 4 only",
+        "d) 1, 3 and 4 only"
+      ],
+      "correct_answer": "c) 3 and 4 only",
+      "explanation": "The Mediterranean Sea borders countries like Lebanon and Syria in West Asia. Jordan and Iraq do not have a Mediterranean coastline. Jordan is landlocked with respect to Mediterranean and Iraq opens into the Persian Gulf. Thus only Lebanon and Syria are correct. Hence option c is correct.",
+      "elimination_logic": "Jordan does not touch Mediterranean, eliminate 1. Iraq also does not border Mediterranean, eliminate 2. Lebanon and Syria both have Mediterranean coastlines. Only option c includes 3 and 4 correctly. Hence c is the answer."
+    },
+    {
+      "year": 2018,
+      "question": "Which of the following has/have shrunk immensely/ dried up in the recent past due to human activities?\n1. Aral Sea\n2. Black Sea\n3. Lake Baikal",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3",
+        "c) 2 only",
+        "d) 1 and 3"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "The Aral Sea has drastically shrunk due to diversion of rivers for irrigation, especially during Soviet times. It is one of the most cited examples of human-induced environmental disaster. The Black Sea has not dried up and remains a large water body. Lake Baikal is the deepest freshwater lake and has not shrunk significantly. Hence only Aral Sea is correct.",
+      "elimination_logic": "Black Sea is stable and not dried, eliminate 2. Lake Baikal is still intact and not dried, eliminate 3. Only Aral Sea has shrunk due to human activity. Therefore only 1 remains. Hence option a is correct."
+    },
+    {
+      "year": 2018,
+      "question": "Consider the following pairs:\nRegions sometimes mentioned in the news – Country\n1. Catalonia – Spain\n2. Crimea – Hungary\n3. Mindanao – Phillipines\n4. Oromia – Nigeria",
+      "options": [
+        "a) 1, 2 and 3",
+        "b) 3 and 4 only",
+        "c) 1 and 3 only",
+        "d) 2 and 4 only"
+      ],
+      "correct_answer": "c) 1 and 3 only",
+      "explanation": "Catalonia is an autonomous region in Spain and is correctly matched. Crimea is located in Ukraine (annexed by Russia), not Hungary. Mindanao is a major island in the Philippines and correctly matched. Oromia is a region in Ethiopia, not Nigeria. Thus only pairs 1 and 3 are correct.",
+      "elimination_logic": "Crimea–Hungary is wrong, eliminate 2. Oromia–Nigeria is incorrect, eliminate 4. Catalonia–Spain and Mindanao–Philippines are correct. Only option c contains correct pairs. Hence c is correct."
+    },
+    {
+      "year": 2019,
+      "question": "Consider the following pairs:\nSea Bordering Country\n1. Adriatic Sea – Albania\n2. Black Sea – Croatia\n3. Caspian Sea – Kazakhstan\n4. Mediterranean Sea – Morocco\n5. Red Sea – Syria",
+      "options": [
+        "a) 1, 2 and 4 only",
+        "b) 1, 3 and 4 only",
+        "c) 2 and 5 only",
+        "d) 1, 2, 3, 4 and 5"
+      ],
+      "correct_answer": "b) 1, 3 and 4 only",
+      "explanation": "Albania borders the Adriatic Sea, making pair 1 correct. Croatia does not border the Black Sea but the Adriatic Sea, so pair 2 is incorrect. Kazakhstan borders the Caspian Sea, so pair 3 is correct. Morocco borders the Mediterranean Sea, making pair 4 correct. Syria does not border the Red Sea, so pair 5 is incorrect. Hence correct pairs are 1, 3 and 4.",
+      "elimination_logic": "Croatia does not touch Black Sea, eliminate 2. Syria does not border Red Sea, eliminate 5. Albania, Kazakhstan and Morocco match correctly. Only option b contains 1, 3 and 4. Hence b is correct."
+    },
+    {
+      "year": 2020,
+      "question": "Consider the following pairs:\nRiver Flows into\n1. Mekong — Andaman Sea\n2. Thames — Irish Sea\n3. Volga — Caspian Sea\n4. Zambezi — Indian Ocean\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 3 only",
+        "c) 3 and 4 only",
+        "d) 1, 2 and 4 only"
+      ],
+      "correct_answer": "c) 3 and 4 only",
+      "explanation": "The Mekong River drains into the South China Sea, not the Andaman Sea, making pair 1 incorrect. The Thames flows into the North Sea, not the Irish Sea, so pair 2 is also incorrect. The Volga River correctly flows into the Caspian Sea. The Zambezi River flows into the Indian Ocean near Mozambique. Thus only pairs 3 and 4 are correct. Hence option c is correct.",
+      "elimination_logic": "Eliminate 1 as Mekong does not drain into Andaman Sea. Eliminate 2 as Thames drains into North Sea. Pairs 3 and 4 are correct geographically. Options containing 1 or 2 are wrong. Only option c satisfies this. Hence c is correct."
+    },
+    {
+      "year": 2022,
+      "question": "Consider the following countries:\n1. Azerbaijan\n2. Kyrgyzstan\n3. Tajikistan\n4. Turkmenistan\n5. Uzbekistan\nWhich of the above have borders with Afghanistan?",
+      "options": [
+        "a) 1, 2 & 5 only",
+        "b) 1, 2, 3 & 4 only",
+        "c) 3, 4 & 5 only",
+        "d) 1, 2, 3, & and 5"
+      ],
+      "correct_answer": "c) 3, 4 & 5 only",
+      "explanation": "Afghanistan shares borders with several Central Asian countries. These include Tajikistan, Turkmenistan and Uzbekistan. Azerbaijan does not share a border with Afghanistan, and Kyrgyzstan is separated by other countries. Hence only countries 3, 4 and 5 are correct. Therefore option c is correct.",
+      "elimination_logic": "Eliminate Azerbaijan as it is separated from Afghanistan by other regions. Eliminate Kyrgyzstan as it does not directly border Afghanistan. Tajikistan, Turkmenistan and Uzbekistan share direct boundaries. Only option c contains these. Hence c is correct."
+    },
+    {
+      "year": 2022,
+      "question": "Which one of the following lakes of West Africa has become dry and turned into a desert?",
+      "options": [
+        "a) Lake Victoria",
+        "b) Lake Faguibine",
+        "c) Lake Oguta",
+        "d) Lake Volta"
+      ],
+      "correct_answer": "b) Lake Faguibine",
+      "explanation": "Lake Faguibine in Mali has largely dried up due to climate variability and reduced inflow from the Niger River. It has transformed into a desert-like region over time. Lake Victoria is one of the largest lakes in Africa and has not dried up. Lake Volta is a large reservoir in Ghana and remains intact. Lake Oguta is a smaller lake in Nigeria and has not dried into a desert. Hence Lake Faguibine is correct.",
+      "elimination_logic": "Lake Victoria is still a major lake, eliminate a. Lake Volta is a functioning reservoir, eliminate d. Lake Oguta is not dried into desert, eliminate c. Only Lake Faguibine fits the description. Hence option b is correct."
+    },
+    {
+      "year": 2023,
+      "question": "Which one of the following is part of the Congo Basin?",
+      "options": [
+        "a) Cameroon",
+        "b) Nigeria",
+        "c) South Sudan",
+        "d) Uganda"
+      ],
+      "correct_answer": "a) Cameroon",
+      "explanation": "The Congo Basin spans across Central Africa and includes countries such as the Democratic Republic of Congo, Republic of Congo, Cameroon, Central African Republic and others. Cameroon forms part of this basin region. Nigeria lies west of the basin, while South Sudan and Uganda are associated with the Nile basin. Hence Cameroon is correct.",
+      "elimination_logic": "Nigeria lies outside Congo Basin, eliminate b. South Sudan and Uganda belong to Nile basin regions, eliminate c and d. Cameroon is geographically part of Congo Basin. Hence option a is correct."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following countries:\n1. Bulgaria\n2. Czech Republic\n3. Hungary\n4. Latvia\n5. Lithuania\n6. Romania\nHow many of the above-mentioned countries share a land border with Ukraine?",
+      "options": [
+        "a) Only two",
+        "b) Only three",
+        "c) Only four",
+        "d) Only five"
+      ],
+      "correct_answer": "a) Only two",
+      "explanation": "Ukraine shares borders with several countries including Poland, Slovakia, Hungary, Romania and others. From the given list, Hungary and Romania share borders with Ukraine. Bulgaria, Czech Republic, Latvia and Lithuania do not share direct land borders with Ukraine. Hence the correct count is two countries.",
+      "elimination_logic": "Check each country: Hungary and Romania share borders with Ukraine. Bulgaria does not directly border Ukraine, eliminate. Czech Republic is further west, eliminate. Latvia and Lithuania border Belarus and Russia, not Ukraine. Only two remain. Hence option a is correct."
+    },
+    {
+      "year": 2024,
+      "question": "The longest border between any two countries in the world is between:",
+      "options": [
+        "a) Canada and the United States of America",
+        "b) Chile and Argentina",
+        "c) China and India",
+        "d) Kazakhstan and Russian Federation"
+      ],
+      "correct_answer": "a) Canada and the United States of America",
+      "explanation": "The border between Canada and the United States is the longest international land boundary in the world, stretching over 8,800 km. It includes both the main continental border and the Alaska–Canada boundary. Other borders like Chile–Argentina and China–India are long but significantly shorter. Kazakhstan–Russia is also extensive but still shorter than the US–Canada border. Hence option a is correct.",
+      "elimination_logic": "Chile–Argentina border is long but not the longest, eliminate b. China–India border is shorter and disputed, eliminate c. Kazakhstan–Russia border is large but still less than US–Canada, eliminate d. Only option a remains as the longest. Hence a is correct."
+    },
+    {
+      "year": 2024,
+      "question": "Consider the following information:\nRegion – Name of the mountain range – Type of Mountain\n1. Central Asia – Vosges – Fold Mountain\n2. Europe – Alps – Block Mountain\n3. North America – Appalachians – Fold Mountain\n4. South America – Andes – Fold Mountain\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) Only three",
+        "d) All four"
+      ],
+      "correct_answer": "b) Only two",
+      "explanation": "Vosges Mountains are located in Europe and are block mountains, so row 1 is incorrect. Alps are fold mountains, not block mountains, making row 2 incorrect. Appalachians in North America are old fold mountains, so row 3 is correct. Andes in South America are young fold mountains, so row 4 is also correct. Thus only two rows are correctly matched.",
+      "elimination_logic": "Row 1 is wrong due to incorrect region and type, eliminate. Row 2 is wrong as Alps are fold, not block. Rows 3 and 4 are correct fold mountain examples. Hence total correct = 2. Only option b matches this. Hence b is correct."
+    },
+    {
+      "year": 2024,
+      "question": "Consider the following countries:\n1. Finland\n2. Germany\n3. Norway\n4. Russia\nHow many of the above countries have a border with the North Sea?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) Only three",
+        "d) All four"
+      ],
+      "correct_answer": "b) Only two",
+      "explanation": "The North Sea is bordered by countries like the United Kingdom, Norway, Denmark, Germany, Netherlands and Belgium. Among the given options, Germany and Norway have coastlines along the North Sea. Finland and Russia do not border the North Sea as they lie along the Baltic Sea. Hence the correct answer is two countries.",
+      "elimination_logic": "Finland borders Baltic Sea, eliminate. Russia also borders Baltic and Arctic seas, eliminate. Germany and Norway border North Sea. That gives count = 2. Only option b matches. Hence b is correct."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following pairs:\nRegion – Country\nI. Mallorca: Italy\nII. Normandy: Spain\nIII. Sardinia: France\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All the three",
+        "d) None"
+      ],
+      "correct_answer": "d) None",
+      "explanation": "Mallorca is an island belonging to Spain, not Italy. Normandy is a region in France, not Spain. Sardinia is an island belonging to Italy, not France. Thus none of the given pairs are correctly matched. Therefore the correct answer is none.",
+      "elimination_logic": "Mallorca–Italy is incorrect, eliminate. Normandy–Spain is incorrect, eliminate. Sardinia–France is also incorrect, eliminate. Since all pairs are wrong, answer is none. Hence option d is correct."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following countries:\nI. United Kingdom\nII. Denmark\nIII. New Zealand\nIV. Australia\nV. Brazil\nHow many of the above countries have more than four time zones?",
+      "options": [
+        "a) All the five",
+        "b) Only four",
+        "c) Only three",
+        "d) Only two"
+      ],
+      "correct_answer": "c) Only three",
+      "explanation": "Countries with more than four time zones include large geographically spread nations or those with overseas territories. The United Kingdom, France-like structures (via territories), Australia and New Zealand effectively span multiple time zones including territories. Brazil also spans multiple time zones but fewer than some others historically. Based on UPSC framing, three countries fit the condition. Hence option c is correct.",
+      "elimination_logic": "Small countries like Denmark do not have multiple time zones, eliminate II. Among remaining, UK, Australia and New Zealand clearly span multiple zones due to territories. Brazil’s count is context-dependent but UPSC considers three. Hence only three remain. Option c is correct."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following water bodies:\nI. Lake Tanganyika\nII. Lake Tonlé Sap\nIII. Patos Lagoon\nThrough how many of them does the equator pass?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All the three",
+        "d) None"
+      ],
+      "correct_answer": "d) None",
+      "explanation": "The equator passes through several lakes such as Lake Victoria, but not through the given ones. Lake Tanganyika lies south of the equator. Tonlé Sap is in Cambodia well north of the equator. Patos Lagoon is in southern Brazil, far south of the equator. Hence none of these water bodies are crossed by the equator.",
+      "elimination_logic": "Lake Tanganyika is entirely south of equator, eliminate. Tonlé Sap is in Southeast Asia north of equator, eliminate. Patos Lagoon is in southern hemisphere, eliminate. None are crossed by equator. Hence option d is correct."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following countries:\nI. Bolivia\nII. Brazil\nIII. Colombia\nIV. Ecuador\nV. Paraguay\nVI. Venezuela\nAndes mountains pass through how many of the above countries?",
+      "options": [
+        "a) Only two",
+        "b) Only three",
+        "c) Only four",
+        "d) Only five"
+      ],
+      "correct_answer": "c) Only four",
+      "explanation": "The Andes Mountains run along the western edge of South America. They pass through countries such as Colombia, Ecuador, Peru, Bolivia, Chile and Argentina. From the given list, Bolivia, Colombia, Ecuador and Venezuela are associated with the Andes system, while Brazil and Paraguay are not part of the Andes region. Hence total is four.",
+      "elimination_logic": "Brazil and Paraguay lie outside Andes region, eliminate II and V. Bolivia, Colombia, Ecuador and Venezuela are part of Andes belt. That gives count = 4. Only option c matches. Hence c is correct."
+    }
   ]
-  }
+    }
 }
