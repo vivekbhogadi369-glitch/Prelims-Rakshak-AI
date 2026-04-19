@@ -5574,7 +5574,61 @@
       "explanation": "Continental drift is supported by multiple lines of evidence, including matching rock formations, correlated mineral belts, and widespread Gondwana sedimentary sequences across southern continents. The geological continuity between Brazil and western Africa is a classic piece of drift evidence. Similarity of mineral deposits, including gold-bearing belts, also supports former continental unity. Gondwana sediments occurring across India, Africa, South America, Antarctica and Australia further reinforce this. Thus all three statements are correct.",
       "elimination_logic": "This is a cumulative evidence question, so excluding any one statement weakens the geological case unnecessarily. Statement I is a standard rock-belt matching argument. Statement II uses mineral continuity, another accepted line of support. Statement III brings in Gondwana stratigraphic evidence across southern landmasses. Since all three are valid evidences, options a, b and d are incomplete. Therefore option c is correct."
     }
+  ],
+  "Motions of Earth": [
+    {
+      "year": 2013,
+      "question": "Variations in the length of daytime and night-time from season to season are due to?",
+      "options": [
+        "a) The earth’s rotation on its axis",
+        "b) The earth’s revolution round the sun in an elliptical manner",
+        "c) Latitudinal position of the place",
+        "d) Revolution of the earth on a titled axis"
+      ],
+      "correct_answer": "d) Revolution of the earth on a titled axis",
+      "explanation": "Seasonal variation in day length is fundamentally caused by the Earth’s revolution around the Sun together with the tilt of its axis. Because the axis remains inclined at about 23.5° while the Earth revolves, different hemispheres receive different durations of sunlight during different parts of the year. Rotation causes day and night, but not seasonal variation in their length. The elliptical shape of orbit is not the governing reason for changing day length. Latitude influences the degree of variation, but the core cause remains axial tilt combined with revolution.",
+      "elimination_logic": "Option a is incorrect because rotation only explains the daily cycle of day and night, not why day length changes across seasons. Option b is a trap: orbital ellipticity affects distance from the Sun slightly, but it does not explain seasonal day-length variation. Option c is only a modifying factor; latitude determines how much variation a place experiences, not the primary cause of variation itself. Option d correctly captures the causal combination of revolution and tilted axis. Hence d is the correct answer."
+    },
+    {
+      "year": 2019,
+      "question": "On 21st June, the Sun:",
+      "options": [
+        "a) Does not set below the horizon at the Arctic Circle",
+        "b) Does not set below the horizon at Antarctic Circle",
+        "c) Shines vertically overhead at noon on the Equator",
+        "d) Shines vertically overhead at the Tropic of Capricorn"
+      ],
+      "correct_answer": "a) Does not set below the horizon at the Arctic Circle",
+      "explanation": "June 21 marks the summer solstice in the Northern Hemisphere. On this day, the Sun is vertically overhead at the Tropic of Cancer, and areas at and within the Arctic Circle experience the midnight sun, meaning the Sun does not set below the horizon. The Antarctic Circle simultaneously experiences polar night conditions. The Equator never receives the overhead Sun on June 21 specifically. Therefore, the Arctic Circle condition given in option a is correct.",
+      "elimination_logic": "Option b is wrong because the Antarctic Circle experiences the opposite seasonal condition in June, namely very short day or even continuous darkness. Option c is incorrect because the overhead Sun at the Equator occurs at the equinoxes, not at the June solstice. Option d is incorrect because the Tropic of Capricorn gets the overhead Sun around December 22, not June 21. Option a alone matches the June solstice condition. Hence a is correct."
+    },
+    {
+      "year": 2022,
+      "question": "In the northern hemisphere, the longest day of the year normally occurs in the:",
+      "options": [
+        "a) First half of the month of June",
+        "b) Second half of the month of June",
+        "c) First half of the month of July",
+        "d) Second half of the month of July"
+      ],
+      "correct_answer": "b) Second half of the month of June",
+      "explanation": "The longest day in the Northern Hemisphere occurs on the summer solstice, which falls around June 21. This date lies in the second half of June. On this day, the Northern Hemisphere is tilted most strongly toward the Sun, producing maximum daylight duration. After this point, day length gradually starts decreasing. Hence the correct answer is the second half of June.",
+      "elimination_logic": "Option a is too early because the solstice does not occur in the first half of June. Options c and d are incorrect because by July the longest day has already passed and daylight duration is slowly decreasing. The astronomical marker here is the summer solstice around June 21. That falls in the second half of June. Therefore option b is correct."
+    },
+    {
+      "year": 2024,
+      "question": "On June 21 every year, which of the following latitude(s) experience(s) a sunlight of more than 12 hours?\n1. Equator\n2. Tropic of Cancer\n3. Tropic of Capricorn\n4. Arctic Circle\nSelect the correct answer using the code given below:",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) 3 and 4",
+        "d) 2 and 4"
+      ],
+      "correct_answer": "d) 2 and 4",
+      "explanation": "On June 21, the Northern Hemisphere is tilted toward the Sun. As a result, places north of the Equator generally experience more than 12 hours of daylight, with especially long duration toward higher latitudes. The Tropic of Cancer definitely receives more than 12 hours of sunlight, and the Arctic Circle experiences nearly or fully 24 hours of daylight. The Equator remains close to 12 hours throughout the year, not more than 12 in the strict UPSC sense. The Tropic of Capricorn, being in the Southern Hemisphere winter zone on that date, gets less than 12 hours.",
+      "elimination_logic": "Statement 1 is a trap because many assume every June solstice day means more than 12 hours everywhere in the north, but the Equator is conventionally treated as roughly 12 hours year-round. Statement 3 is clearly incorrect because the Tropic of Capricorn is in the winter hemisphere on June 21. Statement 4 is definitely correct due to polar day conditions. Statement 2 is also correct because the Tropic of Cancer is in the sunward hemisphere and receives more than 12 hours. Thus only 2 and 4 survive, making option d correct."
+    }
   ]
-}
+  }
 }
 
