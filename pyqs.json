@@ -5916,7 +5916,114 @@
       "explanation": "Dust load is generally higher in subtropical and some temperate regions because these include major arid and semi-arid belts, continental interiors, and active wind erosion zones. Equatorial regions are wetter, and polar regions have limited loose dust availability, so atmospheric dust is lower there. Statement II is incorrect because subtropical regions often have more dry winds, not fewer. Therefore Statement I is correct, but Statement II is not. Hence option c is correct.",
       "elimination_logic": "Statement I matches broad global dust distribution and should be retained. Statement II fails because dry winds are a major feature of many subtropical regions, especially desert belts. So the explanatory link in options a and b collapses immediately. Option d is also wrong because Statement I is not false. Therefore option c is the correct answer."
     }
+  ],
+  "Oceanography": [
+    {
+      "year": 2013,
+      "question": "On the planet earth, most of the freshwater exists as ice caps and glaciers. Out of the remaining freshwater, the largest proportion?",
+      "options": [
+        "a) Is found in atmosphere as moisture and clouds",
+        "b) Is found in freshwater lakes and rivers",
+        "c) Exists as groundwater",
+        "d) Exists as soil moisture"
+      ],
+      "correct_answer": "c) Exists as groundwater",
+      "explanation": "The largest share of Earth’s freshwater is locked in ice caps and glaciers. Once that frozen component is excluded, groundwater forms the overwhelmingly dominant remaining reservoir of freshwater. Lakes and rivers contain only a very small fraction of total freshwater despite being most visible to humans. Atmospheric moisture and soil moisture are even smaller in quantity. Therefore, among the listed options, groundwater is the largest component of the remaining freshwater.",
+      "elimination_logic": "Options a, b, and d may seem intuitively important because they are directly linked to weather, rivers, and agriculture, but quantitatively they are small reservoirs. Freshwater lakes and rivers are hydrologically significant yet volumetrically tiny. Soil moisture is highly limited in storage compared to aquifers. Atmospheric moisture is extremely small in total volume. Thus, after excluding glaciers and ice caps, groundwater clearly dominates, making option c correct."
+    },
+    {
+      "year": 2013,
+      "question": "The most important fishing grounds of the world are found in the regions where?",
+      "options": [
+        "a) Warm and cold atmospheric currents meet",
+        "b) Rivers drain out large amounts of freshwater into the sea",
+        "c) Warm and cold oceanic currents meet",
+        "d) Continental shelf is undulating"
+      ],
+      "correct_answer": "c) Warm and cold oceanic currents meet",
+      "explanation": "The world’s richest fishing grounds occur where warm and cold ocean currents converge. Such zones promote vertical mixing, nutrient enrichment, and plankton growth, which support dense fish populations. Famous examples include the Newfoundland and Japanese fishing grounds. The biological productivity of these waters is the key reason they become major fishing regions. Hence, the meeting of warm and cold oceanic currents is the correct condition.",
+      "elimination_logic": "Option a is incorrect because atmospheric currents do not directly create the nutrient-rich marine environment responsible for major fishing grounds. Option b can enhance fisheries locally near estuaries, but it does not explain the most important global fishing grounds. Option d is too vague; continental shelves help fisheries, but the decisive high-productivity zones are those with current convergence and mixing. Therefore option c is the best and most specific answer."
+    },
+    {
+      "year": 2015,
+      "question": "Tides occur in oceans and seas due to which of the following?\n1. Gravitational Force of the Sun\n2. Gravitational Force of the Moon\n3. Gravitational Force of the Earth\nSelect the correct answer using the code given below",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2, and 3"
+      ],
+      "correct_answer": "d) 1, 2, and 3",
+      "explanation": "Tides are primarily produced by the gravitational pull of the Moon and, to a lesser extent, the Sun. However, the Earth’s own gravitational force also matters because it retains ocean water on the planet and participates in the Earth-Moon system that generates tidal bulges and differential effects. UPSC here uses a broader physical framing, not just the conventional ‘Moon and Sun only’ formula. Thus, all three forces are relevant to tidal occurrence in the accepted answer logic. Therefore the correct answer is the option including 1, 2, and 3.",
+      "elimination_logic": "If one follows a simplistic school-level shortcut, one may choose only Sun and Moon, but that option is not present. Option a is instantly wrong because the Moon’s tidal role is stronger than the Sun’s. Options b and c each omit one essential component from the accepted framework. Since the official key includes Earth’s gravitational role in the overall tidal system, the only workable answer is option d."
+    },
+    {
+      "year": 2020,
+      "question": "With reference to Ocean Mean Temperature (OMT), which of the following statements is/are correct?\n1. OMT is measured up to a depth of 26ºC isotherm which is 129 meters in the south-western Indian Ocean during January-March.\n2. OMT collected during January-March can be used in assessing whether the amount of rainfall in monsoon will be less or more than a certain long-term mean.\nSelect the correct answer using the code given below:",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Ocean Mean Temperature is a useful predictor in ocean-atmosphere studies because subsurface thermal content can influence the strength of the monsoon. Thus, statement 2 is correct. Statement 1 is incorrect because it fixes the 26°C isotherm depth too rigidly and specifically; that depth is not a universally valid defining number in the way the statement presents it. OMT is connected to upper ocean heat content, but the wording of statement 1 is overly precise and therefore not accepted. Hence only statement 2 is correct.",
+      "elimination_logic": "Statement 2 is well-established in monsoon forecasting and should be retained. Statement 1 is the trap because UPSC often inserts an exact-looking technical value to make a statement appear scientific. Since that depth is not accepted as a general defining truth in the way stated, statement 1 must be rejected. Once 1 is removed, options a and c collapse. Option d also fails because statement 2 is definitely correct. Therefore option b is the correct answer."
+    },
+    {
+      "year": 2021,
+      "question": "With reference to the water on the planet Earth, consider the following statements:\n1) The amount of water in the rivers and lakes is more than the amount of groundwater.\n2) The amount of water in polar ice caps and glaciers is more than the amount of groundwater.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "b) 2 only",
+      "explanation": "Rivers and lakes together store only a very small amount of the Earth's water compared to groundwater, so statement 1 is incorrect. Polar ice caps and glaciers contain a larger volume of freshwater than groundwater, making statement 2 correct. This reflects the basic global freshwater distribution pattern: frozen water first, groundwater second, and surface water much smaller. Therefore only the second statement is correct.",
+      "elimination_logic": "Statement 1 is the easiest to eliminate because visible surface water is often overestimated compared to subsurface reserves. Groundwater far exceeds rivers and lakes in total volume. Statement 2 is consistent with the standard global freshwater hierarchy and should be retained. Thus options a, c, and d fail. The correct answer is option b."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following statements:\nStatement-I: The temperature contrast between continents and oceans is greater during summer than in winter.\nStatement-II: The specific heat of water is more than that of land surface.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "c) Statement-I is correct but Statement-II is incorrect",
+        "d) Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct_answer": "d) Statement-I is incorrect but Statement-II is correct",
+      "explanation": "Water does have a higher specific heat than land, so statement II is correct. However, the land-ocean thermal contrast is generally greater in winter in the Northern Hemisphere, when continents cool much faster than oceans, producing stronger contrasts. Therefore statement I, as framed, is incorrect. UPSC here tests not only land-water thermal properties but also the seasonal asymmetry of continentality. Hence, statement I is wrong while statement II is right.",
+      "elimination_logic": "Statement II is a standard physical property and should be accepted. The trap lies in statement I: many students assume summer heating automatically creates the greatest contrast, but winter cooling over continents often produces stronger contrasts. Because statement I is false, options a, b, and c are ruled out immediately. That leaves option d as the only consistent answer."
+    },
+    {
+      "year": 2024,
+      "question": "Which of the following is/are correct inference/inferences from isothermal maps in the month of January?\n1. The isotherms deviate to the north over the ocean and to the south over the continent.\n2. The presence of cold ocean currents, Gulf Stream and North Atlantic Drift make the North Atlantic Ocean colder and the isotherms bend towards the north.\nSelect the answer using the code given below",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "a) 1 only",
+      "explanation": "In January, oceans are relatively warmer than adjacent landmasses in the Northern Hemisphere, so isotherms bend poleward over oceans and equatorward over continents. That makes statement 1 correct. Statement 2 is incorrect because the Gulf Stream and North Atlantic Drift are warm currents, not cold currents, and they help keep the North Atlantic warmer, not colder. Hence only the first statement is correct.",
+      "elimination_logic": "Statement 1 reflects the standard January isotherm pattern and should be retained. Statement 2 is wrong on a very basic current-classification fact: Gulf Stream and North Atlantic Drift are warm currents. Once that error is noticed, options b and c are eliminated. Option d is also wrong because statement 1 is valid. Therefore the correct answer is option a."
+    },
+    {
+      "year": 2024,
+      "question": "Consider the following statements:\n1. The Red Sea receives very little precipitation in any form.\n2. No water enters the Red Sea from rivers.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "a) 1 only",
+        "b) 2 only",
+        "c) Both 1 and 2",
+        "d) Neither 1 nor 2"
+      ],
+      "correct_answer": "c) Both 1 and 2",
+      "explanation": "The Red Sea lies in an arid belt and receives very little rainfall. It is also notable for lacking significant river inflow, unlike many other enclosed or semi-enclosed water bodies. This combination of low precipitation, no major river input, and high evaporation contributes to its high salinity. Both statements are therefore correct. UPSC is testing regional oceanographic characteristics rather than just map familiarity.",
+      "elimination_logic": "Statement 1 is consistent with the desert climate of the surrounding region and should be retained. Statement 2 is also correct because no major river empties into the Red Sea. Since both statements are true, options a and b are incomplete. Option d is clearly untenable. Therefore option c is the correct answer."
+    }
   ]
   }
 }
+
 
