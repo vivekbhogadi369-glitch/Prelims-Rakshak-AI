@@ -6117,6 +6117,47 @@
       "explanation": "Tropical rainforest soils are generally poor in nutrients because heavy rainfall leads to leaching, and nutrients are rapidly taken up by vegetation rather than stored in the soil. However, high temperature and moisture do lead to rapid decomposition of organic matter, which is why nutrients are quickly recycled within the ecosystem. Thus, Statement I is incorrect while Statement II is correct. The apparent contradiction is resolved by understanding that nutrients are stored in biomass rather than soil.",
       "elimination_logic": "Statement II is a standard ecological fact and should be retained. Statement I appears intuitive because of dense vegetation, but this is a classic UPSC trap—soil is actually nutrient-poor due to leaching and rapid uptake. Once Statement I is eliminated, options a, b, and c are automatically ruled out. Therefore option d is correct."
     }
+  ],
+  "Miscellaneous Topics": [
+    {
+      "year": 2018,
+      "question": "Which of the is/are the possible consequences of heavy sand mining in riverbeds?\n1. Decreased salinity in the water\n2. Pollution of groundwater\n3. Lowering of the water table\nSelect the correct answer using the code below:",
+      "options": [
+        "a) 1 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 and 3 only",
+      "explanation": "Excessive sand mining in riverbeds disrupts the natural hydrological balance. It can lead to lowering of the water table because sand acts as a natural aquifer storing and slowly releasing groundwater. Removal of sand also increases vulnerability to groundwater contamination as the natural filtration capacity is reduced. Decreased salinity is not a standard or consistent consequence of sand mining. Therefore, statements 2 and 3 are correct.",
+      "elimination_logic": "Statement 1 is a trap because sand mining does not systematically reduce salinity levels; salinity is influenced by broader hydrological and coastal processes. Statements 2 and 3 directly relate to aquifer disruption and are well-established impacts. Once 1 is eliminated, options a, c, and d are ruled out. Hence option b is correct."
+    },
+    {
+      "year": 2019,
+      "question": "The word ‘Denisovan’ is sometimes mentioned in media in reference to:",
+      "options": [
+        "a) Fossils of a kind of dinosaurs",
+        "b) An early human species",
+        "c) A cave system found in North-East India",
+        "d) A geological period in the history of Indian subcontinent"
+      ],
+      "correct_answer": "b) An early human species",
+      "explanation": "Denisovans are an extinct group of archaic humans identified from fossil remains and genetic studies, particularly from Denisova Cave in Siberia. They are closely related to Neanderthals and modern humans and are important in understanding human evolution. The term is widely used in anthropology and genetics rather than geology or paleontology of dinosaurs. Hence the correct answer is an early human species.",
+      "elimination_logic": "Option a is incorrect because Denisovans are not dinosaurs but hominin species. Option c is misleading because the name comes from a cave in Siberia, not India. Option d is incorrect because it is not a geological period. Since Denisovans are classified as an archaic human group, option b is correct."
+    },
+    {
+      "year": 2021,
+      "question": "Consider the following statements:\n1) The Global Ocean Commission grants licences for seabed exploration and mining in international waters.\n2) India has received licences for seabed mineral exploration in international waters.\n3) ‘Rare earth minerals’ are present on seafloor in international waters.\nWhich of the statements given above are correct?",
+      "options": [
+        "a) 1 and 2 only",
+        "b) 2 and 3 only",
+        "c) 1 and 3 only",
+        "d) 1, 2 and 3"
+      ],
+      "correct_answer": "b) 2 and 3 only",
+      "explanation": "Licences for seabed exploration in international waters are granted by the International Seabed Authority (ISA), not the Global Ocean Commission, making statement 1 incorrect. India has indeed received exploration rights for polymetallic nodules and other seabed minerals, so statement 2 is correct. Rare earth minerals and other valuable resources are found on the ocean floor, especially in deep-sea nodules and crusts, making statement 3 correct. Therefore, statements 2 and 3 are correct.",
+      "elimination_logic": "Statement 1 is the key trap—UPSC replaces the correct authority (ISA) with a similar-sounding body. Once this is identified, statement 1 must be eliminated. Statements 2 and 3 are factual and widely accepted. Options containing statement 1 can be rejected immediately. Thus only option b remains correct."
+    }
   ]
   }
 }
