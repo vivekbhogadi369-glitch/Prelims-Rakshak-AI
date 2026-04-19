@@ -5467,6 +5467,113 @@
       "elimination_logic": "Statement 2 is a direct statutory fact → correct. Statement 3 is widely accepted → correct. Statement 1 contains a specific statistic, which UPSC often uses as a trap → incorrect. Hence eliminate a and d. Between b and c, statement 3 confirms → answer b."
     }
   ]
+  },
+  "World Geography": {
+    "Geomorphology": [
+      {
+        "year": 2013,
+        "question": "Consider the following:\n1. Electromagnetic radiation\n2. Geothermal energy\n3. Gravitational force\n4. Plate movements\n5. Rotation of the earth\n6. Revolution of the earth\nWhich of the above are responsible for bringing dynamic changes on the surface of the earth?",
+        "options": {
+          "a": "1, 2, 3, and 4 only",
+          "b": "1, 3, 5 and 6 only",
+          "c": "2, 4, 5, and 6 only",
+          "d": "1, 2, 3, 4, 5, and 6"
+        },
+        "correct_answer": "d",
+        "explanation": "Dynamic changes on the Earth’s surface are driven by both endogenic (internal) and exogenic (external) forces. Plate movements and geothermal energy represent internal forces shaping tectonics and volcanism. Electromagnetic radiation (solar energy) drives weathering, erosion, and atmospheric processes. Gravitational force governs mass wasting and sediment transport. Rotation and revolution influence climatic systems, which indirectly affect geomorphic processes. UPSC here tests holistic understanding of Earth system interactions rather than isolated processes.",
+        "elimination_logic": "Options a, b, and c selectively include processes, but UPSC expects recognition that geomorphology is influenced by a combination of internal and external forces. Rotation and revolution, though indirect, control climatic regimes and thus geomorphic activity. Gravitational force is fundamental for erosion and deposition. Since all factors contribute in some capacity, elimination leads to the most comprehensive option — (d)."
+      },
+      {
+        "year": 2014,
+        "question": "Which of the following phenomena might have influenced the evolution of organisms?\n1. Continental drift\n2. Glacial cycles\nSelect the correct answer using the code given below.",
+        "options": {
+          "a": "1 only",
+          "b": "2 only",
+          "c": "Both 1 and 2",
+          "d": "Neither 1 nor 2"
+        },
+        "correct_answer": "c",
+        "explanation": "Continental drift alters geographical distribution of species, leading to isolation, speciation, and evolutionary divergence. Glacial cycles impact climate, habitat availability, and migration patterns, influencing natural selection. Both processes have played a major role in shaping biodiversity over geological time scales. UPSC integrates geomorphology with evolutionary biology here.",
+        "elimination_logic": "Eliminating options a and b is straightforward because both tectonic shifts and climatic fluctuations have documented evolutionary impacts. Option d is incorrect as it denies well-established scientific evidence. Hence, both factors must be included → (c)."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\n1. In a seismograph, P waves are recorded earlier than S waves.\n2. In P waves, particles vibrate parallel to wave direction, whereas in S waves, particles vibrate perpendicular.\nWhich of the statements given above is/are correct?",
+        "options": {
+          "a": "1 only",
+          "b": "2 only",
+          "c": "Both 1 and 2",
+          "d": "Neither 1 nor 2"
+        },
+        "correct_answer": "c",
+        "explanation": "P-waves (primary waves) are compressional waves that travel faster and hence are recorded first. S-waves (secondary waves) are transverse and slower. Their particle motion differences are fundamental to seismology. These distinctions help in understanding Earth’s internal structure. UPSC tests conceptual clarity of seismic wave behavior.",
+        "elimination_logic": "Statement 1 is standard seismic knowledge — P waves arrive first. Statement 2 correctly distinguishes wave motion types. Any confusion between longitudinal and transverse motion leads to wrong options. Hence eliminate a, b, and d → correct answer is (c)."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following:\n1. Pyroclastic debris\n2. Ash and dust\n3. Nitrogen compounds\n4. Sulphur compounds\nHow many of the above are products of volcanic eruptions?",
+        "options": {
+          "a": "Only one",
+          "b": "Only two",
+          "c": "Only three",
+          "d": "All four"
+        },
+        "correct_answer": "d",
+        "explanation": "Volcanic eruptions release solid, liquid, and gaseous materials. Pyroclastic debris and ash are direct solid outputs. Volcanic gases include sulphur compounds (SO₂) and also nitrogen compounds in trace forms. These emissions significantly affect atmospheric chemistry and climate. UPSC tests awareness of volcanic outputs beyond just lava.",
+        "elimination_logic": "Many aspirants ignore gaseous outputs and eliminate nitrogen compounds. However, volcanoes emit a range of gases including nitrogen traces. Since all listed are associated with eruptions, partial options are incorrect. Hence, (d) is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following statements:\nStatement-I: Rainfall is one of the reasons for weathering of rocks.\nStatement-II: Rainwater contains carbon dioxide in solution.\nStatement-III: Rainwater contains atmospheric oxygen.\nWhich one of the following is correct?",
+        "options": {
+          "a": "Both Statement-II and Statement-III are correct and both explain Statement-I",
+          "b": "Both Statement-II and Statement-III are correct, but only one explains Statement-I",
+          "c": "Only one explains",
+          "d": "Neither is correct"
+        },
+        "correct_answer": "a",
+        "explanation": "Rainfall contributes to chemical weathering through dissolved gases. CO₂ forms carbonic acid, which reacts with minerals (carbonation). Oxygen contributes to oxidation processes. Both mechanisms weaken rocks and enhance weathering. UPSC tests linkage between atmospheric chemistry and geomorphic processes.",
+        "elimination_logic": "If one assumes only CO₂ is relevant, option b may seem correct. However, oxidation is equally significant in weathering. Hence both statements explain weathering → eliminate b, c, d → correct is (a)."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Shift is taking place in Earth’s rotation and axis.\nStatement II: Solar flares impact Earth’s atmosphere.\nStatement III: Melting polar ice redistributes mass towards equator.\nWhich is correct?",
+        "options": {
+          "a": "Both II and III explain I",
+          "b": "Both II and III correct but only one explains I",
+          "c": "Only one correct",
+          "d": "None correct"
+        },
+        "correct_answer": "b",
+        "explanation": "Polar ice melting leads to redistribution of mass, affecting Earth’s moment of inertia and rotational dynamics. Solar flares influence atmosphere but do not directly alter rotation significantly. Thus, while both statements are correct, only one (mass redistribution) explains axial shift. UPSC tests application of physics concepts in geography.",
+        "elimination_logic": "Statement II is correct but not causative. Statement III directly impacts rotation. Hence eliminate a (both explain), c (only one correct), d (none correct). Correct → (b)."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Chalk is permeable, clay is impermeable.\nStatement II: Chalk is porous.\nStatement III: Clay is not at all porous.\nWhich is correct?",
+        "options": {
+          "a": "Both explain",
+          "b": "Both correct but only one explains",
+          "c": "Only one explains",
+          "d": "None correct"
+        },
+        "correct_answer": "c",
+        "explanation": "Chalk is porous and permeable, allowing water flow. Clay, although porous, has very low permeability due to fine particles. Hence Statement III is incorrect (clay is porous but impermeable). Only Statement II explains Statement I correctly. UPSC tests distinction between porosity and permeability.",
+        "elimination_logic": "Most aspirants assume clay is non-porous → trap. Clay is porous but impermeable. Hence Statement III is wrong. Only Statement II explains → eliminate a, b, d → correct (c)."
+      },
+      {
+        "year": 2025,
+        "question": "Which of the following are evidences of continental drift?\nI. Matching rock belts\nII. Gold deposits linkage\nIII. Gondwana sediment similarity",
+        "options": {
+          "a": "I and III only",
+          "b": "I and II only",
+          "c": "I, II and III",
+          "d": "II and III only"
+        },
+        "correct_answer": "c",
+        "explanation": "Continental drift is supported by geological, fossil, and mineral evidence. Matching rock formations across continents indicate past connections. Mineral deposits like gold show continuity. Gondwana sediments across southern continents further validate drift theory. UPSC tests multi-dimensional evidence understanding.",
+        "elimination_logic": "All three are classic evidences used in Wegener’s theory. Any option excluding one is incomplete. Hence eliminate a, b, d → correct (c)."
+      }
+    ]
   }
 }
-  
