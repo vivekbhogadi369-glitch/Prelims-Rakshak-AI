@@ -6022,6 +6022,60 @@
       "explanation": "The Red Sea lies in an arid belt and receives very little rainfall. It is also notable for lacking significant river inflow, unlike many other enclosed or semi-enclosed water bodies. This combination of low precipitation, no major river input, and high evaporation contributes to its high salinity. Both statements are therefore correct. UPSC is testing regional oceanographic characteristics rather than just map familiarity.",
       "elimination_logic": "Statement 1 is consistent with the desert climate of the surrounding region and should be retained. Statement 2 is also correct because no major river empties into the Red Sea. Since both statements are true, options a and b are incomplete. Option d is clearly untenable. Therefore option c is the correct answer."
     }
+  ],
+  "Economic & Human Geography": [
+    {
+      "year": 2023,
+      "question": "Consider the following statements:\nStatement-I:\nSwitzerland is one of the leading exporters of gold in terms of value.\nStatement-II:\nSwitzerland has the second largest gold reserves in the world.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "c) Statement-I is correct but Statement-II is incorrect",
+        "d) Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct_answer": "c) Statement-I is correct but Statement-II is incorrect",
+      "explanation": "Switzerland is indeed one of the world’s leading exporters of gold in value terms because it is a major global refining, trading, and re-export hub. Large volumes of raw and semi-processed gold move through Swiss refineries before entering world markets. Its export strength is therefore based on processing and trade infrastructure rather than domestic mining or reserve strength. Statement II is incorrect because Switzerland does not hold the second largest official gold reserves in the world. Thus, Statement I is correct but Statement II is false.",
+      "elimination_logic": "The trap here is to assume that a leading exporter must also possess enormous natural or reserve endowment. In reality, Switzerland’s importance comes from gold refining and bullion trade, not from holding the world’s second largest reserves. Once Statement II is rejected, options a, b, and d collapse automatically. Statement I remains correct because export leadership can arise from trade specialization. Therefore option c is the correct answer."
+    },
+    {
+      "year": 2023,
+      "question": "About three-fourth of world’s Cobalt, a metal required for the manufacture of batteries for electric motor vehicles, is produced by:",
+      "options": [
+        "a) Argentina",
+        "b) Botswana",
+        "c) The Democratic Republic of the Congo",
+        "d) Kazakhstan"
+      ],
+      "correct_answer": "c) The Democratic Republic of the Congo",
+      "explanation": "The Democratic Republic of the Congo dominates global cobalt production and contributes the overwhelming share of the world’s mined supply. This is why it has become central to discussions on electric vehicle supply chains, battery security, and strategic minerals. Argentina is more commonly associated with lithium, Botswana with diamonds, and Kazakhstan with uranium and other minerals, but not global cobalt leadership. Hence the correct answer is the DRC.",
+      "elimination_logic": "Argentina can be eliminated first because it is better known in global mineral geography for lithium rather than cobalt. Botswana is strongly identified with diamonds, not cobalt dominance. Kazakhstan is mineral-rich, but not the producer responsible for about three-fourths of world cobalt. The Democratic Republic of the Congo is the recognized global leader by a huge margin. Hence option c is correct."
+    },
+    {
+      "year": 2024,
+      "question": "Which of the following countries are well known as the two largest cocoa producers in the world?",
+      "options": [
+        "a) Algeria and Morocco",
+        "b) Botswana and Namibia",
+        "c) Côte d’Ivoire and Ghana",
+        "d) Madagascar and Mozambique"
+      ],
+      "correct_answer": "c) Côte d’Ivoire and Ghana",
+      "explanation": "Côte d’Ivoire and Ghana are the two most prominent cocoa-producing countries in the world and dominate global cocoa supply, especially in West Africa. Their humid tropical climate, plantation systems, and long export orientation make them central to the global chocolate industry. The other country pairs listed are either arid, semi-arid, or not globally significant cocoa leaders. Therefore the correct pair is Côte d’Ivoire and Ghana.",
+      "elimination_logic": "Options a and b can be rejected immediately because North African and southern African dryland countries are not major cocoa belts. Option d is also incorrect because Madagascar and Mozambique are not the world’s top two producers. Cocoa is strongly concentrated in the humid tropical West African belt. Therefore the only correct option is c."
+    },
+    {
+      "year": 2025,
+      "question": "Consider the following pairs:\nCountry – Resource-rich in\nI. Botswana: Diamond\nII. Chile: Lithium\nIII. Indonesia: Nickel\nIn how many of the above rows is the given information correctly matched?",
+      "options": [
+        "a) Only one",
+        "b) Only two",
+        "c) All the three",
+        "d) None"
+      ],
+      "correct_answer": "c) All the three",
+      "explanation": "Botswana is one of the world’s best-known diamond-rich countries and has long depended heavily on diamond mining. Chile is globally important for lithium because of its salt flats and its role in the lithium triangle of South America. Indonesia is among the leading nickel-rich countries and has major strategic significance in battery and stainless-steel supply chains. Thus, all three pairs are correctly matched.",
+      "elimination_logic": "There is no weak pair here: Botswana–diamond is a classic static fact, Chile–lithium is central to modern battery geography, and Indonesia–nickel is equally well established. UPSC is testing whether the candidate can identify multiple high-value resource-country associations in one frame. Eliminating any pair would create an unnecessary error. Therefore all three are correct, and option c is the right answer."
+    }
   ]
   }
 }
