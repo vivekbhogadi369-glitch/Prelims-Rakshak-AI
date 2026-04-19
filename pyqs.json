@@ -6076,8 +6076,47 @@
       "explanation": "Botswana is one of the world’s best-known diamond-rich countries and has long depended heavily on diamond mining. Chile is globally important for lithium because of its salt flats and its role in the lithium triangle of South America. Indonesia is among the leading nickel-rich countries and has major strategic significance in battery and stainless-steel supply chains. Thus, all three pairs are correctly matched.",
       "elimination_logic": "There is no weak pair here: Botswana–diamond is a classic static fact, Chile–lithium is central to modern battery geography, and Indonesia–nickel is equally well established. UPSC is testing whether the candidate can identify multiple high-value resource-country associations in one frame. Eliminating any pair would create an unnecessary error. Therefore all three are correct, and option c is the right answer."
     }
+  ],
+  "Biogeography": [
+    {
+      "year": 2021,
+      "question": "‘Leaf litter decomposes faster than in any other biome and as a result the soil surface is often almost bare. Apart from trees, the vegetation is largely composed of plant forms that reach up into the canopy vicariously, by climbing the trees or growing as epiphytes, rooted on the upper branches of trees. This is the most likely description of:",
+      "options": [
+        "a) Coniferous Forest",
+        "b) Dry deciduous forest",
+        "c) Mangrove Forest",
+        "d) Tropical rainforest"
+      ],
+      "correct_answer": "d) Tropical rainforest",
+      "explanation": "Tropical rainforests are characterized by very rapid decomposition of organic matter due to high temperature and humidity. As a result, nutrients are quickly recycled and the soil surface often appears relatively bare despite dense vegetation. The ecosystem shows strong vertical stratification, with climbers (lianas) and epiphytes growing on tree canopies to access sunlight. These features are classic identifiers of tropical rainforests.",
+      "elimination_logic": "Coniferous forests have slow decomposition due to cold climates, so option a is incorrect. Dry deciduous forests do not show such intense epiphytic and climber dominance, eliminating option b. Mangroves are coastal saline ecosystems and do not match the described canopy dynamics, eliminating option c. The combination of rapid decomposition, nutrient cycling, and epiphyte-rich canopy is unique to tropical rainforests. Hence option d is correct."
+    },
+    {
+      "year": 2021,
+      "question": "The vegetation of savannah consists of grassland with scattered small trees, but extensive areas have no trees. The forest development in such areas is generally kept in check by one or more or a combination of some conditions. Which of the following are such conditions?\n1) Burrowing animals and termites\n2) Fire\n3) Grazing herbivores\n4) Seasonal rainfall\n5) Soil properties\nSelect the correct answer using the code given below.",
+      "options": [
+        "a) 1 and 2",
+        "b) 4 and 5",
+        "c) 2, 3 and 4",
+        "d) 1, 3 and 5"
+      ],
+      "correct_answer": "c) 2, 3 and 4",
+      "explanation": "Savannah ecosystems are maintained by a combination of ecological controls that prevent full forest development. Frequent fires destroy young tree saplings, grazing herbivores limit tree regeneration, and seasonal rainfall creates alternating wet and dry conditions that favor grasses over trees. These three factors together maintain the open grassland structure. Burrowing animals and soil properties may play a role locally, but they are not the primary large-scale controlling factors in savannah landscapes.",
+      "elimination_logic": "Fire (2) is a key regulator of savannah vegetation and must be included. Grazing herbivores (3) suppress tree growth and are essential. Seasonal rainfall (4) creates the climatic conditions for grass dominance. Options that exclude any of these major factors can be eliminated. Statements 1 and 5 are secondary influences and not the core UPSC answer. Thus only the combination 2, 3, and 4 remains, making option c correct."
+    },
+    {
+      "year": 2023,
+      "question": "Consider the following statements:\nStatement-I: The soil in tropical rain forests is rich in nutrients.\nStatement-II: The high temperature and moisture of tropical rain forests cause dead organic matter in the soil to decompose quickly.\nWhich one of the following is correct in respect of the above statements?",
+      "options": [
+        "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+        "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+        "c) Statement-I is correct but Statement-II is incorrect",
+        "d) Statement-I is incorrect but Statement-II is correct"
+      ],
+      "correct_answer": "d) Statement-I is incorrect but Statement-II is correct",
+      "explanation": "Tropical rainforest soils are generally poor in nutrients because heavy rainfall leads to leaching, and nutrients are rapidly taken up by vegetation rather than stored in the soil. However, high temperature and moisture do lead to rapid decomposition of organic matter, which is why nutrients are quickly recycled within the ecosystem. Thus, Statement I is incorrect while Statement II is correct. The apparent contradiction is resolved by understanding that nutrients are stored in biomass rather than soil.",
+      "elimination_logic": "Statement II is a standard ecological fact and should be retained. Statement I appears intuitive because of dense vegetation, but this is a classic UPSC trap—soil is actually nutrient-poor due to leaching and rapid uptake. Once Statement I is eliminated, options a, b, and c are automatically ruled out. Therefore option d is correct."
+    }
   ]
   }
 }
-
-
