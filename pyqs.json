@@ -8941,6 +8941,99 @@
         "explanation": "Article 6 deals with both market and non-market mechanisms for climate action, making it central in discussions.",
         "elimination_logic": "Both II and III directly relate to Article 6 → full explanation → option a."
       }
+    ],
+    "Institutional & Organizational Mechanisms": [
+      {
+        "year": 2014,
+        "question": "Consider the following statements: \n1. Animal Welfare Board of India is established under the Environment (Protection) Act, 1986.\n2. National Tiger Conservation Authority is a statutory body.\n3. National Ganga River Basin Authority is chaired by the Prime Minister.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 2 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Statement 1 is incorrect because the Animal Welfare Board of India (AWBI) was established under the Prevention of Cruelty to Animals Act, 1960, not under the Environment Protection Act, 1986. Statement 2 is correct as the National Tiger Conservation Authority (NTCA) is a statutory body constituted under the Wildlife (Protection) Act, 1972 (amended in 2006). Statement 3 is also correct because the National Ganga River Basin Authority (NGRBA) was chaired by the Prime Minister, reflecting its high-level institutional importance. Hence, only statements 2 and 3 are correct.",
+        "elimination_logic": "Statement 1 is a classic UPSC trap—wrong Act linkage. Once eliminated, options a and d are removed. Statements 2 and 3 are factually correct and commonly asked institutional facts. Hence option b is the correct answer."
+      },
+      {
+        "year": 2016,
+        "question": "Consider the following pairs:\n1. Annex-I Countries – Cartagena Protocol\n2. Certified Emissions Reductions – Nagoya Protocol\n3. Clean Development Mechanism – Kyoto Protocol\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only",
+        "explanation": "Pair 1 is incorrect because Annex-I countries are associated with the UNFCCC and Kyoto Protocol, not the Cartagena Protocol (which deals with biosafety). Pair 2 is incorrect because Certified Emission Reductions (CERs) are linked to the Kyoto Protocol, not the Nagoya Protocol (which deals with access and benefit sharing). Pair 3 is correct because the Clean Development Mechanism (CDM) is a key flexibility mechanism under the Kyoto Protocol. Hence, only pair 3 is correctly matched.",
+        "elimination_logic": "UPSC uses protocol confusion trap. Cartagena → biosafety, Nagoya → biodiversity, Kyoto → emissions. Only CDM fits Kyoto correctly. Eliminate 1 and 2 → option c."
+      },
+      {
+        "year": 2017,
+        "question": "Consider the following statements in respect of Trade Related Analysis of Fauna and Flora in Commerce (TRAFFIC):\n1. TRAFFIC is a bureau under United Nations Environment Programme (UNEP).\n2. The mission of TRAFFIC is to ensure that trade in wild plants and animals is not a threat to the conservation of nature.\nWhich of the above statements is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Statement 1 is incorrect because TRAFFIC is not a UNEP bureau. It is a joint programme of WWF and IUCN. Statement 2 is correct because TRAFFIC works globally to ensure that trade in wild species is legal and sustainable, thereby supporting biodiversity conservation. Hence only statement 2 is correct.",
+        "elimination_logic": "Institutional trap: UPSC often links NGOs with UN bodies incorrectly. TRAFFIC ≠ UNEP. Statement 2 clearly defines TRAFFIC’s objective → eliminate options with 1 → option b."
+      },
+      {
+        "year": 2021,
+        "question": "With reference to the New York Declaration on Forests, which of the following statements are correct?\n1) It was first endorsed at the United Nations Climate Summit in 2014.\n2) It endorses a global timeline to end the loss of forests.\n3) It is a legally binding international declaration.\n4) It is endorsed by governments, big companies and indigenous communities.\n5) India was one of the signatories at its inception.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1,2 and 4",
+          "b) 1, 3 and 5",
+          "c) 3 and 4",
+          "d) 2 and 5"
+        ],
+        "correct_answer": "a) 1,2 and 4",
+        "explanation": "Statement 1 is correct as the declaration was endorsed at the UN Climate Summit in 2014. Statement 2 is correct because it sets targets to halve deforestation by 2020 and end it by 2030. Statement 3 is incorrect because it is a voluntary and non-binding declaration. Statement 4 is correct since it includes governments, corporations and civil society including indigenous communities. Statement 5 is incorrect as India was not an initial signatory. Therefore, 1, 2 and 4 are correct.",
+        "elimination_logic": "Binding vs non-binding is key UPSC trap → eliminate 3. India-specific trap → eliminate 5. Remaining correct set is 1,2,4 → option a."
+      },
+      {
+        "year": 2021,
+        "question": "The ‘Common Carbon Metric’, supported by UNEP, has been developed for",
+        "options": [
+          "a) Assessing the carbon footprint of building operations around the world",
+          "b) Enabling commercial farming entities to enter carbon trading",
+          "c) Enabling governments to assess total national carbon footprint",
+          "d) Assessing fossil fuel emissions globally"
+        ],
+        "correct_answer": "a) Assessing the carbon footprint of building operations around the world",
+        "explanation": "The Common Carbon Metric (CCM), supported by UNEP, is specifically designed to measure and compare greenhouse gas emissions from building operations. It focuses on energy consumption in buildings and helps standardize reporting globally. It is not meant for agriculture, national accounting, or fossil fuel-specific emissions alone. Hence option a is correct.",
+        "elimination_logic": "Keyword ‘building operations’ is the core concept. Other options are broader (national/global sectors) and misleading. Narrow functional definition → option a."
+      },
+      {
+        "year": 2022,
+        "question": "Consider the following statements:\n1. “The Climate Group” is an international non-profit organization that drives climate action by building large networks.\n2. The International Energy Agency in partnership with the Climate Group launched EP100.\n3. EP100 brings together companies committed to energy efficiency and emission reduction.\n4. Some Indian companies are members of EP100.\n5. The International Energy Agency is the Secretariat to the Under2 Coalition.\nWhich of the statements given above are correct?",
+        "options": [
+          "a) 1,2,4 and5",
+          "b) 1, 3 and 4 only",
+          "c) 2, 3 and 5 only",
+          "d) 1, 2, 3, 4 and 5"
+        ],
+        "correct_answer": "b) 1, 3 and 4 only",
+        "explanation": "Statement 1 is correct as The Climate Group is a global non-profit driving climate initiatives. Statement 2 is incorrect because EP100 is led by The Climate Group, not IEA. Statement 3 is correct as EP100 promotes corporate energy efficiency commitments. Statement 4 is correct since several Indian companies participate. Statement 5 is incorrect because the Under2 Coalition is supported by The Climate Group, not IEA. Hence 1, 3 and 4 are correct.",
+        "elimination_logic": "IEA linkage is the trap (appears authoritative but incorrect). Eliminating statements 2 and 5 leaves 1,3,4 → option b."
+      },
+      {
+        "year": 2023,
+        "question": "‘Invasive Species Specialist Group’ (that develops Global Invasive Species Database) belongs to which one of the following organizations?",
+        "options": [
+          "a) The International Union for Conservation of Nature",
+          "b) The United Nations Environment Programme",
+          "c) The United Nations World Commission for Environment and Development",
+          "d) The World-Wide Fund for Nature"
+        ],
+        "correct_answer": "a) The International Union for Conservation of Nature",
+        "explanation": "The Invasive Species Specialist Group (ISSG) is part of the Species Survival Commission of IUCN. It maintains the Global Invasive Species Database and plays a key role in biodiversity conservation. It is not a UNEP or WWF body.",
+        "elimination_logic": "UPSC trap: confusion between IUCN, UNEP, WWF. ISSG is directly linked to IUCN SSC → eliminate others → option a."
+      }
     ]
   }
-}
+  }
