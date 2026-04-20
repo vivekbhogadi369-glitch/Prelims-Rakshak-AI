@@ -6791,6 +6791,19 @@
         "elimination_logic": "Sandalwood is the key eliminator since it belongs to South India. Once 3 is removed, options b, c and d collapse. Oak and rhododendron are standard Himalayan vegetation. Hence option a is correct."
       },
       {
+  "year": 2014,
+  "question": "Consider the following pairs:\n1. Dampa Tiger Reserve: Mizoram\n2. Gumti Wildlife Sanctuary: Sikkim\n3. Saramati Peak: Nagaland\nWhich of the above pairs is/are correctly matched?",
+  "options": [
+    "a) 1 only",
+    "b) 2 and 3 only",
+    "c) 1 and 3 only",
+    "d) 1, 2 and 3"
+  ],
+  "correct_answer": "c) 1 and 3 only",
+  "explanation": "Dampa Tiger Reserve is correctly located in Mizoram. Saramati Peak is the highest peak of Nagaland, so that pair is correct. Gumti Wildlife Sanctuary is located in Tripura, not Sikkim, making that pair incorrect. Hence only pairs 1 and 3 are correct.",
+  "elimination_logic": "Pair 2 is incorrect because Gumti belongs to Tripura, not Sikkim. Once eliminated, options b and d collapse. Pairs 1 and 3 are correct. Hence option c is correct."
+      },
+      {
         "year": 2015,
         "question": "Which one of the following regions of India has a combination of mangrove forest, evergreen forest and deciduous forest?",
         "options": [
@@ -6841,6 +6854,19 @@
         "correct_answer": "d) Namdapha National Park",
         "explanation": "Namdapha National Park in Arunachal Pradesh spans a wide altitudinal range. This results in multiple climatic zones ranging from tropical lowlands to alpine regions. Such vertical diversity leads to varied vegetation and fauna. Hence Namdapha is known for this climatic variation.",
         "elimination_logic": "Though Khangchendzonga has altitude variation, Namdapha is the classic UPSC example. Other parks do not exhibit such wide range in the expected answer. Hence eliminate a, b and c. Option d is correct."
+      },
+      {
+  "year": 2015,
+  "question": "Which of the following National Parks is unique in being a swamp with floating vegetation that supports a rich biodiversity?",
+  "options": [
+    "a) Bhitarkanika National Park",
+    "b) Keibul Lamjao National Park",
+    "c) Keoladeo Ghana National Park",
+    "d) Sultanpur National Park"
+  ],
+  "correct_answer": "b) Keibul Lamjao National Park",
+  "explanation": "Keibul Lamjao National Park in Manipur is the only floating national park in the world. It is characterized by phumdis, which are floating masses of vegetation. It supports rich biodiversity including the endangered Sangai deer.",
+  "elimination_logic": "Bhitarkanika is mangrove-based, Keoladeo and Sultanpur are bird sanctuaries. Only Keibul Lamjao has floating vegetation. Hence option b is correct."
       },
       {
         "year": 2016,
@@ -6895,6 +6921,19 @@
         "elimination_logic": "Statement 3 is incorrect because Kharai camel is domesticated. Statements 1 and 2 are unique traits and correct. Eliminating 3 removes options b, c and d. Hence option a is correct."
       },
       {
+  "year": 2017,
+  "question": "Recently there was a proposal to translocate some of the lions from their natural habitat in Gujarat to which one of the following sites?",
+  "options": [
+    "a) Corbett National Park",
+    "b) Kuno Palpur Wildlife Sanctuary",
+    "c) Mudumalai Wildlife Sanctuary",
+    "d) Sariska National Park"
+  ],
+  "correct_answer": "b) Kuno Palpur Wildlife Sanctuary",
+  "explanation": "Kuno Palpur Wildlife Sanctuary in Madhya Pradesh was identified as a second home for Asiatic lions. This was proposed to reduce the risk of extinction from a single population in Gir.",
+  "elimination_logic": "Sariska is known for tiger relocation, not lions. Corbett and Mudumalai are not proposed for lion translocation. Kuno is the correct site. Hence option b is correct."
+      },
+      {
         "year": 2017,
         "question": "If you want to see gharials in their natural habitat, which one of the following is the best place to visit?",
         "options": [
@@ -6934,6 +6973,19 @@
         "elimination_logic": "Nallamala and Seshachalam are located in Eastern Ghats but do not connect to Western Ghats. Nagarhole is within Western Ghats and not a connecting corridor. Sathyamangalam uniquely connects both ranges. Hence option a is correct."
       },
       {
+  "year": 2018,
+  "question": "In which of the following States is Pakhui Wildlife Sanctuary located?",
+  "options": [
+    "a) Arunachal Pradesh",
+    "b) Manipur",
+    "c) Meghalaya",
+    "d) Nagaland"
+  ],
+  "correct_answer": "a) Arunachal Pradesh",
+  "explanation": "Pakhui Wildlife Sanctuary, now known as Pakke Tiger Reserve, is located in Arunachal Pradesh. It is part of the Eastern Himalayan biodiversity hotspot.",
+  "elimination_logic": "Pakhui is directly associated with Arunachal Pradesh. Other northeastern states are distractors. Hence option a is correct."
+      },
+      {
         "year": 2018,
         "question": "Which of the following leaf modifications occur(s) in the desert areas to inhibit water loss?\n1. Hard and waxy leaves\n2. Tiny leaves\n3. Thorns instead of leaves\nSelect the correct answer using the code given below:",
         "options": [
@@ -6971,6 +7023,32 @@
         "correct_answer": "d) 1, 2 and 3",
         "explanation": "Coral reefs are predominantly found in warm tropical waters where conditions support reef-building corals. A significant proportion of global coral reefs are concentrated in the Indo-Pacific region including Australia, Indonesia and Philippines. Coral reefs are among the most biodiverse ecosystems and host a wide variety of animal phyla. Hence all three statements are correct.",
         "elimination_logic": "Statement 1 is a basic fact and must be retained. Statement 2 reflects Indo-Pacific concentration of reefs and is correct. Statement 3 highlights biodiversity richness of reefs and is also correct. Eliminating any statement leads to incomplete answer. Hence option d is correct."
+      },
+      {
+  "year": 2019,
+  "question": "Which of the following are in Agasthyamala Biosphere Reserve?",
+  "options": [
+    "a) Neyyar, Peppara and Shendurney Wildlife Sanctuaries; and Kalakad Mundanthurai Tiger Reserve",
+    "b) Mudumalai, Sathyamangalam and Wayanad Wildlife Sanctuaries; and Silent Valley National Park",
+    "c) Kaundinya, Gundla Brahmeswaram and Papikonda Wildlife Sanctuaries; and Mukurthi National Park",
+    "d) Kawal and Sri Venkateswara Wildlife Sanctuaries; and Nagarjunasagar-Srisailam Tiger Reserve"
+  ],
+  "correct_answer": "a) Neyyar, Peppara and Shendurney Wildlife Sanctuaries; and Kalakad Mundanthurai Tiger Reserve",
+  "explanation": "Agasthyamala Biosphere Reserve lies in the southern Western Ghats covering parts of Kerala and Tamil Nadu. It includes Neyyar, Peppara, Shendurney and Kalakad-Mundanthurai.",
+  "elimination_logic": "Other options correspond to Nilgiri or Eastern Ghats regions. Only option a matches Agasthyamala. Hence correct."
+      },
+      {
+  "year": 2019,
+  "question": "Which one of the following National Parks lies completely in the temperate alpine zone?",
+  "options": [
+    "a) Manas National Park",
+    "b) Namdapha National Park",
+    "c) Neora Valley National Park",
+    "d) Valley of Flowers National Park"
+  ],
+  "correct_answer": "d) Valley of Flowers National Park",
+  "explanation": "Valley of Flowers is located in high-altitude Himalayan region and lies entirely in temperate-alpine zone. It is famous for endemic flora.",
+  "elimination_logic": "Manas and Namdapha include tropical zones. Neora spans multiple zones. Only Valley of Flowers is fully alpine. Hence option d is correct."
       },
       {
         "year": 2019,
@@ -7024,6 +7102,19 @@
         "explanation": "The New World refers to the Americas. Crops like tobacco, cocoa and rubber originated in the Americas and were later introduced to the Old World. Cotton, coffee and wheat have different origins. Hence the correct answer is tobacco, cocoa and rubber.",
         "elimination_logic": "Coffee and wheat are Old World crops, so eliminate c and d. Cotton has Old World origins in some varieties, making option b incorrect. Tobacco, cocoa and rubber are classic New World crops. Hence option a is correct."
       },
+      {
+  "year": 2020,
+  "question": "Which one of the following protected areas is well-known for the conservation of a sub-species of the Indian swamp deer (Barasingha) that thrives well on hard ground and is exclusively graminivorous?",
+  "options": [
+    "a) Kanha National Park",
+    "b) Manas National Park",
+    "c) Mudumalai Wildlife Sanctuary",
+    "d) Tal Chhapar Wildlife Sanctuary"
+  ],
+  "correct_answer": "a) Kanha National Park",
+  "explanation": "Kanha National Park is known for successful conservation of hard-ground Barasingha, a unique subspecies adapted to grasslands.",
+  "elimination_logic": "This is a direct factual recall linked only with Kanha. No other park matches this. Hence option a is correct."
+      } 
       {
         "year": 2020,
         "question": "With reference to India’s biodiversity, Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet, and White-throated redstart are:",
