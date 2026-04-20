@@ -6553,6 +6553,84 @@
         "correct_answer": "c) 1, 3 & 5 only",
         "explanation": "Detritivores feed on dead organic matter and help in decomposition. Earthworms, millipedes and woodlice consume detritus and contribute to nutrient cycling. Jellyfish are carnivorous marine organisms and seahorses feed on small aquatic animals. Thus only 1, 3 and 5 are detritivores.",
         "elimination_logic": "Jellyfish are predators, not detritivores, eliminate 2. Seahorses feed on small fish and plankton, eliminate 4. Earthworms, millipedes and woodlice are classic detritivores. Hence only 1, 3 and 5 remain. Option c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "In case of which one of the following biogeochemical cycles the weathering of rocks is the main source of release of nutrient to enter the cycle?",
+        "options": [
+          "a) Carbon cycle",
+          "b) Nitrogen cycle",
+          "c) Phosphorus cycle",
+          "d) Sulphur cycle"
+        ],
+        "correct_answer": "c) Phosphorus cycle",
+        "explanation": "Phosphorus is primarily stored in rocks and minerals, unlike nitrogen which has a large atmospheric reservoir. The release of phosphorus into ecosystems mainly happens through weathering of phosphate-bearing rocks. From there, it enters soil, water, plants and animal systems. This makes the phosphorus cycle largely sedimentary rather than atmospheric. Therefore, among the given options, phosphorus cycle is the one in which rock weathering is the main entry point.",
+        "elimination_logic": "Carbon cycle is mainly driven by atmosphere, respiration, photosynthesis and ocean exchange, so eliminate a. Nitrogen cycle is dominated by atmospheric nitrogen fixation and microbial processes, so eliminate b. Sulphur has both rock and atmospheric components, but UPSC’s standard answer for weathering-dominated nutrient release is phosphorus, so eliminate d. Phosphorus has no major gaseous phase and enters ecosystems mainly through rock weathering. Hence option c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Consider the following kinds of organisms:\n1) Copepods\n2) Cyanobacteria\n3) Diatoms\n4) Foraminifera\nWhich of the above are primary producers in the food chains of oceans?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 and 3",
+          "c) 3 and 4",
+          "d) 1 and 4"
+        ],
+        "correct_answer": "b) 2 and 3",
+        "explanation": "Primary producers are organisms that synthesize organic matter using sunlight, forming the base of the food chain. In oceans, cyanobacteria and diatoms perform photosynthesis and act as phytoplanktonic primary producers. Copepods are zooplankton and feed on phytoplankton rather than producing food. Foraminifera are mainly protozoans and not the standard primary producers in marine food chains. Hence the correct combination is 2 and 3.",
+        "elimination_logic": "Copepods are small crustaceans and function as consumers, so eliminate any option containing 1 unless paired with only producers. Foraminifera are not treated as primary producers in standard UPSC ecology framing, so eliminate options containing 4 as the decisive set. Cyanobacteria are photosynthetic and must be retained. Diatoms are also classic phytoplankton producers and must be retained. Therefore option b is correct."
+      },
+      {
+        "year": 2022,
+        "question": "“If rainforests and tropical forests are the lungs of the Earth, then surely, ‘Wetlands function as its kidneys.’ Which one of the following functions of wetlands best reflects the above statement?",
+        "options": [
+          "a) The water cycle in wetlands involves surface runoff, subsoil percolation and evaporation.",
+          "b) Algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive.",
+          "c) Wetlands play a vital role in maintaining sedimentation balance and soil stabilization.",
+          "d) Aquatic plants absorb heavy metals and excess nutrients."
+        ],
+        "correct_answer": "d) Aquatic plants absorb heavy metals and excess nutrients.",
+        "explanation": "The kidney analogy refers to filtration, cleansing and purification functions. Wetlands remove pollutants, trap sediments, and absorb excess nutrients and toxic substances through plants, microbes and sediments. Aquatic vegetation in wetlands can absorb heavy metals and nutrient loads, thereby improving water quality. This is why wetlands are often described as natural purifiers of ecosystems. Hence option d best captures the ‘kidney’ function.",
+        "elimination_logic": "Option a describes hydrological movement, but not purification, so eliminate it. Option b explains productivity and food-web support, not the kidney-like filtering role, so eliminate b. Option c refers to geomorphic stabilization, which is useful but not the best reflection of the analogy. Option d directly expresses pollutant removal and nutrient absorption, which matches the idea of a kidney. Hence d is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\n1. Some mushrooms have medicinal properties.\n2. Some mushrooms have psycho-active properties.\n3. Some mushrooms have insecticidal properties.\n4. Some mushrooms have bioluminescent properties.\nHow many of the above statements are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) Only three",
+          "d) All four"
+        ],
+        "correct_answer": "d) All four",
+        "explanation": "Mushrooms are a highly diverse group of fungi with wide ecological and biochemical variation. Some mushrooms are well known for medicinal applications, including compounds with therapeutic potential. Some species have psychoactive effects due to specific chemical compounds. Certain mushrooms also exhibit insecticidal or toxic properties, while others are bioluminescent and glow in the dark due to chemical reactions. Therefore all four statements are correct.",
+        "elimination_logic": "If one assumes mushrooms are only edible or poisonous, one may wrongly eliminate medicinal or bioluminescent uses. However, fungal diversity is extremely broad and all four traits are scientifically documented. There is no statement here that is artificially exaggerated or impossible. Since each statement can be independently accepted, partial counts become incorrect. Therefore option d is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Which of the following organisms perform waggle dance for others of their kin to indicate the direction and the distance to a source of their food?",
+        "options": [
+          "a) Butterflies",
+          "b) Dragonflies",
+          "c) Honeybees",
+          "d) Wasps"
+        ],
+        "correct_answer": "c) Honeybees",
+        "explanation": "The waggle dance is a well-known communication behavior seen in honeybees. It helps worker bees communicate the direction and approximate distance of food sources relative to the Sun. This behavior is one of the classic examples of symbolic communication in insects. Butterflies and dragonflies do not perform such recruitment dances. Hence honeybees are the correct answer.",
+        "elimination_logic": "Butterflies do not use dance-based colony communication, so eliminate a. Dragonflies are solitary hunters and do not perform waggle dance, so eliminate b. Wasps may show social behavior in some groups, but the textbook waggle dance is specifically associated with honeybees, so eliminate d. Honeybees are the classic and accepted UPSC answer. Therefore option c is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Which one of the following shows a unique relationship with an insect that has co-evolved with it and that is the only insect that can pollinate this tree?",
+        "options": [
+          "a) Fig",
+          "b) Mahua",
+          "c) Sandalwood",
+          "d) Silk cotton"
+        ],
+        "correct_answer": "a) Fig",
+        "explanation": "Fig species are famous for their highly specialized mutualistic relationship with fig wasps. In many cases, a particular fig species is pollinated by a corresponding wasp species that has co-evolved with it. This is one of the most cited examples of co-evolution and obligate pollination mutualism in ecology. The other trees listed do not show such a classic one-to-one obligate pollinator relationship in standard ecological literature. Hence fig is the correct answer.",
+        "elimination_logic": "Mahua is pollinated by a range of agents and does not fit the strict co-evolved exclusive pollinator model, so eliminate b. Sandalwood is better known for its hemi-parasitic root relationship rather than an exclusive insect pollinator, so eliminate c. Silk cotton also does not represent the standard co-evolved single-insect pollination example, so eliminate d. Fig with fig wasp is the textbook ecological example. Therefore option a is correct."
       }
     ]
   }
