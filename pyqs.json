@@ -7545,7 +7545,124 @@
         "correct_answer": "c) Both 1 and 2",
         "explanation": "Brominated flame retardants are persistent organic pollutants that degrade very slowly. They accumulate in biological tissues through bioaccumulation. This can lead to long-term toxic effects in humans and wildlife. Hence both statements are correct.",
         "elimination_logic": "Persistence and bioaccumulation are the key concerns of such chemicals. Eliminating either statement makes the answer incomplete. Hence option c is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Which of the following are some important pollutants released by the steel industry in India?\n1. Oxides of sulphur\n2. Oxide of nitrogen\n3. Carbon monoxide\n4. Carbon dioxide\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1, 3 and 4 only",
+          "b) 2 and 3 only",
+          "c) 1 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "d) 1, 2, 3 and 4",
+        "explanation": "The steel industry is a major source of multiple air pollutants because it involves combustion, ore processing and high-temperature industrial operations. Sulphur oxides and nitrogen oxides arise from fuel use and industrial processes. Carbon monoxide is produced from incomplete combustion and metallurgical reduction processes. Carbon dioxide is emitted in large quantities from fuel burning and industrial reactions. Therefore all four listed pollutants are important emissions associated with the steel industry.",
+        "elimination_logic": "Options a, b and c each exclude at least one known pollutant from steel production. Nitrogen oxides cannot be excluded because large combustion systems generate them. Carbon monoxide is also significant due to incomplete combustion and blast furnace operations. Carbon dioxide is unavoidable in such energy-intensive industry. Since all four are valid pollutants, only option d survives."
+      },
+      {
+        "year": 2015,
+        "question": "With reference to ‘fly ash’ produced by the power plants using the coal as fuel, which of the following statements is/are correct?\n1. Fly ash can be used in the production of bricks for building construction\n2. Fly ash can be used as a replacement for some of the Portland cement contents of concrete\n3. Fly ash is made up of silicon dioxide and calcium oxide only, and does not contain any toxic elements.\nSelect the correct answer using the code given below",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 1 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "a) 1 and 2",
+        "explanation": "Fly ash is widely used in making bricks and other construction materials. It is also used as a partial replacement for Portland cement in concrete because of its pozzolanic properties. However, it is not limited to just silicon dioxide and calcium oxide, and it may contain toxic trace elements such as arsenic, mercury or lead depending on coal source. Therefore statement 3 is incorrect. Hence statements 1 and 2 are correct.",
+        "elimination_logic": "Statement 3 is the trap because it falsely presents fly ash as chemically simple and non-toxic. Once 3 is eliminated, options c and d collapse immediately. Statements 1 and 2 are standard industrial uses of fly ash and must be retained. Option b becomes too narrow because brick manufacture is also correct. Therefore option a is the right answer."
+      },
+      {
+        "year": 2015,
+        "question": "With reference to bio-toilets used by the Indian Railways, consider the following statements:\n1. The decomposition of human waste in the bio-toilets is initiated by a fungal inoculum.\n2. Ammonia and water vapour are the only end products in this decomposition which are released into the atmosphere.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "d) Neither 1 nor 2",
+        "explanation": "Railway bio-toilets use anaerobic bacteria, not fungi, for decomposition of human waste. Thus statement 1 is incorrect. The decomposition process produces multiple by-products, and the statement that only ammonia and water vapour are released is also incorrect. The mechanism is based on bacterial digestion adopted from DRDO technology. Therefore neither statement is correct.",
+        "elimination_logic": "Statement 1 fails because the inoculum is bacterial, not fungal. Statement 2 is also wrong because the end products are not limited to only those two gases or vapours. Since both statements are incorrect, options a, b and c must be rejected. The only option that remains consistent is d."
+      },
+      {
+        "year": 2016,
+        "question": "In the cities of our country, which among the following atmospheric gases are normally considered in calculating the value of the Air Quality Index?\n1. Carbon dioxide\n2. Carbon monoxide\n3. Nitrogen dioxide\n4. Sulphur dioxide\n5. Methane\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2, 3 and 4 only",
+          "c) 1, 4 and 5 only",
+          "d) 1, 2, 3, 4 and 5"
+        ],
+        "correct_answer": "b) 2, 3 and 4 only",
+        "explanation": "The Air Quality Index in Indian cities includes key air pollutants such as carbon monoxide, nitrogen dioxide and sulphur dioxide. Carbon dioxide is not treated as a conventional AQI pollutant in this framework, though it is a greenhouse gas. Methane is also not one of the routine AQI gases used in standard city-level index calculation. Hence statements 2, 3 and 4 are the correct components from the given list. Therefore option b is correct.",
+        "elimination_logic": "Carbon dioxide is a climate concern but not a standard AQI gas in this context, so 1 must be removed. Methane is also not part of the usual AQI list here, so 5 must be removed. That immediately rules out options a, c and d. The remaining correct combination is 2, 3 and 4 only. Hence option b is correct."
+      },
+      {
+        "year": 2017,
+        "question": "Biological Oxygen Demand (BOD) is a standard criterion for:",
+        "options": [
+          "a) Measuring oxygen levels in blood",
+          "b) Computing oxygen levels in forest ecosystems",
+          "c) Pollution assay in aquatic ecosystems",
+          "d) Assessing oxygen levels in high altitude regions"
+        ],
+        "correct_answer": "c) Pollution assay in aquatic ecosystems",
+        "explanation": "Biological Oxygen Demand measures the amount of oxygen required by microorganisms to decompose organic matter in water. A higher BOD indicates higher organic pollution and reduced water quality. It is therefore a widely used indicator of pollution in rivers, lakes and other aquatic ecosystems. It is not used for medical blood oxygen measurement or forest oxygen calculation. Hence the correct answer is pollution assay in aquatic ecosystems.",
+        "elimination_logic": "Option a refers to clinical or physiological measurement, not environmental science. Option b is unrelated because BOD is a water quality parameter, not a forest parameter. Option d is also irrelevant because altitude oxygen analysis is atmospheric, not biochemical. Since BOD is a classic aquatic pollution indicator, only option c survives."
+      },
+      {
+        "year": 2017,
+        "question": "In the context of solving pollution problems, what is/are the advantage/advantages of bioremediation technique?\n1. It is a technique for cleaning up pollution by enhancing the same biodegradation process that occurs in nature.\n2. Any contaminant with heavy metals such as cadmium and lead can be readily and completely treated by bioremediation using microorganisms.\n3. Genetic engineering can be used to create microorganisms specifically designed for bioremediation.\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Bioremediation works by using or enhancing natural biological degradation processes, so statement 1 is correct. Genetic engineering can indeed be used to develop microorganisms with improved pollutant-degrading capacity, making statement 3 correct. However, heavy metals like cadmium and lead cannot be readily and completely degraded in the same way organic pollutants can be, so statement 2 is incorrect. Metals may be immobilized or transformed, but not simply biodegraded away. Hence 1 and 3 only are correct.",
+        "elimination_logic": "Statement 2 is the decisive trap because it overstates the ability of bioremediation with respect to heavy metals. Microorganisms may help manage metal contamination, but not readily and completely remove it in the sense stated. Statements 1 and 3 are standard strengths of bioremediation and must be retained. Thus options a, b and d fail. Option c is the correct answer."
+      },
+      {
+        "year": 2018,
+        "question": "How is the National Green Tribunal (NGT) different from Central Pollution Control Board (CPCB)?\n1. The NGT has been established by an Act and CPCB has been created by an executive order of the government.\n2. The NGT provides environmental justice and helps reducing the burden of litigation in the High Courts whereas the CPCB promotes the cleanliness of streams and wells, aims to improve the quality of air in the country.\n3. In Kerala, a little over 60 percent agricultural households reported to have maximum income from sources other than agricultural activities.\nWhich of the statement(s) given below is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "NGT was established by an Act, namely the National Green Tribunal Act, 2010. CPCB, however, was not created merely by executive order; it was constituted under the Water (Prevention and Control of Pollution) Act, 1974. Therefore statement 1 is incorrect. Statement 2 correctly distinguishes their roles: NGT is a judicial body for environmental justice, while CPCB is a regulatory and technical body for pollution control. Statement 3 is irrelevant to the question. Hence only statement 2 is correct.",
+        "elimination_logic": "Statement 1 appears plausible but is factually wrong because CPCB is also a statutory body, not an executive creation. Statement 2 is correct and clearly captures the institutional difference. Statement 3 is unrelated noise and must be ignored. Therefore options a and c fail because they include the wrong first statement. The only correct option is b."
+      },
+      {
+        "year": 2019,
+        "question": "In India, ‘extended producer responsibility’ was introduced as an important feature in which of the following?",
+        "options": [
+          "a) The Bio-medical Waste (Management and Handling) Rules, 1998",
+          "b) The Recycled Plastic (Manufacturing and Usage) Rules, 1999",
+          "c) The E-Waste (Management and Handling) Rules, 2011",
+          "d) The Food Safety and Standard Regulations, 2011"
+        ],
+        "correct_answer": "c) The E-Waste (Management and Handling) Rules, 2011",
+        "explanation": "Extended Producer Responsibility means that producers are made responsible for collection and environmentally sound disposal of products after use. In India, this became a major feature in the e-waste regulatory framework. E-waste rules recognized the responsibility of manufacturers and producers in end-of-life management of electronic goods. This was a significant policy step in waste governance. Hence the correct answer is the E-Waste (Management and Handling) Rules, 2011.",
+        "elimination_logic": "Biomedical waste rules focus on healthcare waste management, not producer responsibility in this form, so eliminate a. Recycled plastic rules did not introduce EPR in the manner asked here, so eliminate b. Food safety regulations are unrelated, so eliminate d. The e-waste rules are the correct legal context for this feature. Therefore option c is correct."
+      },
+      {
+        "year": 2019,
+        "question": "As per the Solid Waste Management Rules, 2016 in India, which one of the following statements is correct?",
+        "options": [
+          "a) Waste generator has to segregate waste into five categories.",
+          "b) The Rules are applicable to notified urban local bodies, notified towns and all industrial townships only.",
+          "c) The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
+          "d) It is mandatory on the part of the waste generator that the waste generated in one district cannot be moved to another district."
+        ],
+        "correct_answer": "c) The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
+        "explanation": "The Solid Waste Management Rules, 2016 provide a more detailed and expansive framework for waste handling, including criteria for landfill and processing site selection. They are not restricted only to a narrow set of urban entities, and they also do not mandate the district-wise immobility of waste in the manner stated. The waste generator is generally required to segregate waste into broad categories such as biodegradable, non-biodegradable and domestic hazardous waste, not five in the way the option states. Thus option c correctly reflects a key feature of the Rules.",
+        "elimination_logic": "Option a is incorrect because the Rules do not prescribe segregation into five categories in this exact form. Option b is too narrow because the Rules have broader applicability beyond only those listed entities. Option d is also incorrect because the Rules do not impose that rigid district-based restriction. Option c accurately states an important feature of the Rules. Hence c is correct."
       }
     ]
   }
-  }
+      }
