@@ -6421,5 +6421,74 @@
       "elimination_logic": "Brazil and Paraguay lie outside Andes region, eliminate II and V. Bolivia, Colombia, Ecuador and Venezuela are part of Andes belt. That gives count = 4. Only option c matches. Hence c is correct."
     }
   ]
-    }
+    },
+  "Environment & Ecology": {
+    "Ecology, Environment & Ecosystem": [
+      {
+        "year": 2013,
+        "question": "With reference to the food chains in Ecosystems which of the following kinds of organism, is/are known as decomposer organism/ organisms?\n1. Virus\n2. Fungi\n3. Bacteria",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Decomposers are organisms that break down dead organic matter into simpler substances, thereby recycling nutrients back into the ecosystem. Fungi and bacteria play a crucial role in decomposition by acting on dead plants and animals. Viruses, however, do not independently carry out metabolic processes and are not decomposers. They require host cells for replication and do not contribute to nutrient cycling directly. Hence fungi and bacteria are true decomposers.",
+        "elimination_logic": "Virus lacks independent metabolism and cannot decompose organic matter, eliminate 1. Fungi are classic decomposers breaking down lignin and cellulose. Bacteria also decompose organic matter and recycle nutrients. Options including virus are incorrect. Hence only 2 and 3 remain, making option b correct."
+      },
+      {
+        "year": 2013,
+        "question": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
+        "options": [
+          "a) Oceans, lakes, grasslands, mangroves",
+          "b) Mangroves, oceans, grasslands, lakes",
+          "c) Mangroves, grasslands, lakes, oceans",
+          "d) Oceans, mangroves, lakes, grasslands"
+        ],
+        "correct_answer": "c) Mangroves, grasslands, lakes, oceans",
+        "explanation": "Primary productivity depends on nutrient availability and environmental conditions. Mangroves have very high productivity due to nutrient-rich sediments and tidal inputs. Grasslands have moderate productivity due to seasonal rainfall. Lakes have lower productivity compared to terrestrial ecosystems. Oceans generally have low productivity per unit area due to nutrient limitation. Hence correct order is mangroves → grasslands → lakes → oceans.",
+        "elimination_logic": "Mangroves must be highest due to nutrient-rich conditions, eliminate options without it first. Oceans have lowest productivity, so must come last, eliminating a and d. Grasslands are more productive than lakes, eliminating b. Only option c satisfies correct descending order. Hence c is correct."
+      },
+      {
+        "year": 2013,
+        "question": "In the grasslands, trees do not replace the grasses as a part of an ecological succession because of___?",
+        "options": [
+          "a) Insects and fungi",
+          "b) Limited sunlight and paucity of nutrients",
+          "c) Water limits and fire",
+          "d) None of the above"
+        ],
+        "correct_answer": "c) Water limits and fire",
+        "explanation": "Grasslands are maintained due to ecological constraints such as low rainfall and frequent fires. Water scarcity prevents the growth of large trees, while periodic fires destroy tree saplings before they mature. These disturbances stabilize grassland ecosystems and prevent succession into forests. Thus climatic and disturbance factors maintain grass dominance.",
+        "elimination_logic": "Insects and fungi do not prevent tree growth, eliminate a. Grasslands receive sufficient sunlight, so b is incorrect. Water limitation and fire are known ecological controls preventing forest succession. Hence c is correct while others fail ecological reasoning."
+      },
+      {
+        "year": 2013,
+        "question": "Which one of the following terms describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?",
+        "options": [
+          "a) Ecotone",
+          "b) Ecological niche",
+          "c) Habitat",
+          "d) Home range"
+        ],
+        "correct_answer": "b) Ecological niche",
+        "explanation": "Ecological niche refers to both the position and role of an organism in an ecosystem. It includes its interactions, resource use, and functional contribution. Habitat only refers to physical space, not function. Ecotone is a transitional area between ecosystems. Home range refers to movement area. Hence ecological niche is the correct term.",
+        "elimination_logic": "Habitat only refers to location, eliminate c. Ecotone is boundary region, eliminate a. Home range is movement territory, eliminate d. Only ecological niche includes both space and function. Hence option b is correct."
+      },
+      {
+        "year": 2013,
+        "question": "Which of the following adds/ adds nitrogen to the soil?\n1. Excretion of Urea by animals\n2. Burning of coal by man\n3. Death of vegetation",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2, and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Nitrogen enters soil through organic processes. Excretion of urea adds nitrogen which is converted by microbes. Dead vegetation decomposes and releases nitrogen compounds. Burning of coal releases nitrogen oxides into atmosphere but does not directly enrich soil nitrogen. Hence only 1 and 3 contribute to soil nitrogen enrichment.",
+        "elimination_logic": "Coal burning leads to atmospheric pollution, not soil enrichment, eliminate 2. Urea adds nitrogen through decomposition. Vegetation decay also contributes nitrogen. Options including 2 are incorrect. Hence only 1 and 3 remain, making option c correct."
+      }
+    ]
+  }
 }
