@@ -8447,7 +8447,8 @@
       }
     ],
     "Conservation Efforts": [
-        "year": 2014,
+       {
+         "year": 2014,
         "question": "What are the benefits of implementing the ‘Integrated Watershed Development Programme?\n1. Prevention of soil runoff\n2. Linking the country’s perennial rivers with seasonal rivers\n3. Rainwater harvesting and recharge of groundwater table\n4. Regeneration of natural vegetation\nSelect the correct answer using the code given below:",
         "options": [
           "a) 1 and 2 only",
