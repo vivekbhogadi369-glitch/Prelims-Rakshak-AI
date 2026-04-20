@@ -7662,6 +7662,110 @@
         "correct_answer": "c) The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
         "explanation": "The Solid Waste Management Rules, 2016 provide a more detailed and expansive framework for waste handling, including criteria for landfill and processing site selection. They are not restricted only to a narrow set of urban entities, and they also do not mandate the district-wise immobility of waste in the manner stated. The waste generator is generally required to segregate waste into broad categories such as biodegradable, non-biodegradable and domestic hazardous waste, not five in the way the option states. Thus option c correctly reflects a key feature of the Rules.",
         "elimination_logic": "Option a is incorrect because the Rules do not prescribe segregation into five categories in this exact form. Option b is too narrow because the Rules have broader applicability beyond only those listed entities. Option d is also incorrect because the Rules do not impose that rigid district-based restriction. Option c accurately states an important feature of the Rules. Hence c is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following statements?\nThe Environment Protection Act, 1986 empowers the Government of India to\n1. State the requirement of public participation in the process of environmental protection, and the procedure and manner in which it is sought\n2. Lay down the standards for emission or discharge of environmental pollutants from various sources\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "The Environment Protection Act, 1986 is a comprehensive legislation empowering the central government to take measures for environmental protection. One of its key provisions is the authority to prescribe standards for emission or discharge of pollutants. However, it does not explicitly mandate public participation procedures as stated in statement 1; such provisions are addressed through other mechanisms like EIA notifications. Therefore only statement 2 is correct.",
+        "elimination_logic": "Statement 1 is a trap because it sounds normatively correct but is not explicitly provided under the Act. Statement 2 is a core power of the Act and must be retained. Options a and c include the incorrect statement 1 and must be eliminated. Option d rejects statement 2, which is clearly correct. Hence option b is correct."
+      },
+      {
+        "year": 2019,
+        "question": "In India, the use of carbofuran, methyl parathion, phorate and triazophos is viewed with apprehension. These chemicals are used as:",
+        "options": [
+          "a) Pesticides in agriculture",
+          "b) Preservatives in processed foods",
+          "c) Fruit-ripening agents",
+          "d) Moisturising agents in cosmetics"
+        ],
+        "correct_answer": "a) Pesticides in agriculture",
+        "explanation": "Carbofuran, methyl parathion, phorate and triazophos are highly toxic organophosphate or carbamate pesticides used in agriculture. Their use is controversial due to their harmful impact on human health, non-target organisms and environment. Many of these chemicals are restricted or banned in several countries. They are not used as food preservatives or cosmetic agents. Hence the correct answer is pesticides in agriculture.",
+        "elimination_logic": "These are well-known toxic agricultural chemicals, immediately pointing toward pesticides. Food preservatives and cosmetics are unrelated domains, so options b and d can be eliminated. Fruit ripening involves chemicals like ethylene, not these compounds, eliminating option c. Thus option a is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Why is there a great concern about the ‘microbeads’ that are released into environment?",
+        "options": [
+          "a) They are considered harmful to marine ecosystems.",
+          "b) They are considered to cause skin cancer in children.",
+          "c) They are small enough to be absorbed by crop plants in irrigated fields.",
+          "d) They are often found to be used as food adulterants."
+        ],
+        "correct_answer": "a) They are considered harmful to marine ecosystems.",
+        "explanation": "Microbeads are tiny plastic particles used in cosmetics and personal care products. They escape wastewater treatment and enter aquatic ecosystems. Marine organisms often ingest them, leading to bioaccumulation and ecological damage. They act as carriers of toxic chemicals and disrupt food chains. Hence they are a major concern for marine ecosystems.",
+        "elimination_logic": "The core issue with microbeads is environmental, particularly marine pollution. Options b, c and d introduce unrelated or exaggerated concerns not supported by standard knowledge. Since marine ecosystem impact is widely recognized, only option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Steel slag can be the material for which of the following?\n1. Construction of base road\n2. Improvement of agricultural soil\n3. Production of cement\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Steel slag is a by-product of steel manufacturing and has multiple applications. It can be used in road construction as a base material due to its strength and durability. It is also used in soil conditioning because it can improve soil properties such as pH. Additionally, it is used in cement production as a supplementary material. Hence all three applications are correct.",
+        "elimination_logic": "Each of the three statements reflects a known industrial reuse of steel slag. Eliminating any of them would ignore a valid application. Therefore options a, b and c are incomplete. Only option d includes all correct uses and is therefore correct."
+      },
+      {
+        "year": 2020,
+        "question": "Consider the following statements:\n1. Coal ash contains arsenic, lead and mercury.\n2. Coal-fired power plants release sulphur dioxide and oxides of nitrogen into the environment.\n3. High ash content is observed in Indian coal.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Coal ash contains several toxic heavy metals including arsenic, lead and mercury. Coal-fired power plants are major sources of sulphur dioxide and nitrogen oxides, contributing to air pollution and acid rain. Indian coal is known for its relatively high ash content, which creates additional environmental challenges. Hence all three statements are correct.",
+        "elimination_logic": "Each statement is factually correct and commonly cited in environmental studies. Eliminating any would contradict well-established facts about coal pollution. Therefore options a, b and c are incomplete. Only option d includes all correct statements."
+      },
+      {
+        "year": 2020,
+        "question": "Which of the following are the reasons/factors for exposure to benzene pollution?\n1. Automobile exhaust\n2. Tobacco smoke\n3. Wood burning\n4. Using varnished wooden furniture\n5. Using products made of polyurethane\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2 and 4 only",
+          "c) 1, 3 and 4 only",
+          "d) 1, 2, 3, 4 and 5"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "Benzene is a volatile organic compound commonly released from combustion processes. Major sources include automobile exhaust, tobacco smoke and burning of wood. These contribute significantly to ambient and indoor benzene levels. While certain industrial materials may emit VOCs, varnished furniture and polyurethane products are not primary sources of benzene exposure in this context. Hence 1, 2 and 3 are correct.",
+        "elimination_logic": "Combustion sources like vehicles, tobacco and wood burning are well-known contributors to benzene exposure. Statements 4 and 5 are distractors and not primary sources in this context. Including them leads to incorrect options. Therefore options b, c and d are eliminated. Option a is correct."
+      },
+      {
+        "year": 2021,
+        "question": "With reference to furnace oil, consider the following statements:\n1) It is a product of oil refineries.\n2) Some industries use it to generate power\n3) Its use causes sulphur emissions into environment.\nWhich of the statements given above are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Furnace oil is a residual product obtained during oil refining. It is widely used as a fuel in industries and for power generation. Due to its high sulphur content, its combustion releases sulphur dioxide into the atmosphere, contributing to air pollution. Hence all three statements are correct.",
+        "elimination_logic": "All three statements are standard characteristics of furnace oil. Eliminating any one of them would contradict known industrial usage and pollution facts. Therefore options a, b and c are incomplete. Option d is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Why is there a concern about copper smelting plants?\n1) They may release lethal quantities of carbon monoxide into environment.\n2) The copper slag can cause the leaching of some heavy metals into environment.\n3) They may release sulphur dioxide as a pollutant.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a)1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "Copper smelting is associated with the release of sulphur dioxide due to sulphide ores, which is a major air pollutant. Copper slag can also contain heavy metals that may leach into the environment. However, large-scale lethal carbon monoxide emission is not the primary concern in copper smelting context. Hence statements 2 and 3 are correct, while statement 1 is incorrect.",
+        "elimination_logic": "Statement 1 is the trap as it exaggerates the role of carbon monoxide in this process. The key issues are sulphur dioxide emissions and heavy metal leaching. Options containing statement 1 must be eliminated. Thus options a, c and d are incorrect. Option b is correct."
       }
     ]
   }
