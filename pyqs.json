@@ -7962,6 +7962,489 @@
         "explanation": "Cigarette butts contain cellulose acetate, a type of plastic. Eyeglass lenses are often made of plastic polymers like polycarbonate. Car tyres also contain synthetic rubber and plastic-based materials. All three items therefore contain plastic components and contribute to environmental pollution. Hence all three are correct.",
         "elimination_logic": "Each item listed has a well-known plastic component. Eliminating any one would ignore widely accepted material composition facts. Therefore options a and b are incomplete, and option d is incorrect. Only option c correctly includes all three."
       }
+    ],
+    "Climate Change": [
+      {
+        "year": 2013,
+        "question": "Consider the following:\n1. Agaricus\n2. Nostoc\n3. Spirogyra\nWhich of the above is/are used as biofertilizer/ biofertilizers?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 2 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Nostoc is a cyanobacterium capable of nitrogen fixation and is widely used as a biofertilizer. It enriches soil fertility by converting atmospheric nitrogen into usable forms. Agaricus is a fungus (mushroom) used as food, not a biofertilizer. Spirogyra is an alga and does not perform nitrogen fixation in agricultural sense. Hence only Nostoc qualifies as a biofertilizer.",
+        "elimination_logic": "Nitrogen fixation is the key clue. Nostoc performs it, so 2 must be retained. Agaricus (fungus) and Spirogyra (algae) are distractors without biofertilizer role. Eliminate options containing 1 and 3. Hence option b is correct."
+      },
+      {
+        "year": 2014,
+        "question": "What are the significances of a practical approach to sugarcane production known as ‘Sustainable Sugarcane Initiative’?\n1. Seed cost is very low in this compared to the conventional method of cultivation.\n2. Drip irrigation can be practiced very effectively in this.\n3. There is no application of chemical/inorganic fertilizers at all in this.\n4. The scope for intercropping is more in this compared to the conventional method of cultivation.",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 1, 2 and 4 only",
+          "c) 2, 3 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "b) 1, 2 and 4 only",
+        "explanation": "Sustainable Sugarcane Initiative (SSI) focuses on efficient resource use and improved productivity. It reduces seed requirement, making seed cost low. It promotes drip irrigation, enhancing water efficiency. It also allows intercropping due to wider spacing. However, it does not completely eliminate chemical fertilizers, making statement 3 incorrect.",
+        "elimination_logic": "Statement 3 is extreme and unrealistic, so eliminate options containing it (a, c, d). Remaining option b includes valid benefits like low seed cost, drip irrigation and intercropping. Hence option b is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Consider the following statements:\n1. Maize can be used for the production of starch.\n2. Oil extracted from maize can be a feedstock for biodiesel.\n3. Alcoholic beverages can be produced by using maize.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Maize is a versatile crop used for multiple industrial and food purposes. It is a major source of starch used in industries. Maize oil can be processed into biodiesel, contributing to renewable energy. It is also used in fermentation industries to produce alcohol. Hence all three statements are correct.",
+        "elimination_logic": "All three statements are standard uses of maize. Eliminating any would contradict basic agricultural and industrial knowledge. Hence options a, b and c are incomplete. Option d is correct."
+      },
+      {
+        "year": 2014,
+        "question": "The scientific view is that the increase in global temperature should not exceed 2 degree Celsius above pre-industrial level. If the global temperature increases beyond 3 degrees Celsius above the pre-industrial level, what can be its possible impact/impacts on the world?\n1 Terrestrial biosphere tends toward a net carbon source.\n2. Widespread coral mortality will occur.\n3. All the global wetlands will permanently disappear.\n4. Cultivation of cereals will not be possible anywhere in the world.",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 2, 3 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "b) 1 and 2 only",
+        "explanation": "Beyond 3°C warming, ecosystems may shift from carbon sinks to carbon sources, intensifying climate change. Coral reefs are highly sensitive and large-scale mortality is expected. However, statements 3 and 4 are extreme and absolute, which UPSC often uses as traps. Wetlands may decline but not completely disappear, and cereal cultivation will not entirely stop globally.",
+        "elimination_logic": "Statements with absolute terms like 'all' and 'anywhere' are usually incorrect. Eliminate options c and d. Statement 1 and 2 are scientifically valid impacts. Hence option b is correct."
+      },
+      {
+        "year": 2014,
+        "question": "If a wetland of international importance is brought under the ‘Montreux Record’, what does it imply?",
+        "options": [
+          "a) Changes in ecological character have occurred, are occurring or are likely to occur in the wetland as a result of human interference.",
+          "b) The country in which the wetland is located should enact a law to prohibit any human activity within five kilometres from the edge of the wetland.",
+          "c) The survival of the wetland depends on the cultural practices of communities.",
+          "d) It is given the status of ‘World Heritage Site.’"
+        ],
+        "correct_answer": "a) Changes in ecological character have occurred, are occurring or are likely to occur in the wetland as a result of human interference.",
+        "explanation": "Montreux Record is a register under the Ramsar Convention highlighting wetlands where ecological changes have occurred or are likely. It serves as a warning mechanism to prioritize conservation. It does not impose legal bans or confer World Heritage status. Hence option a correctly describes its significance.",
+        "elimination_logic": "Options b and c introduce unrelated conditions not part of Ramsar framework. Option d confuses with UNESCO World Heritage. Only option a reflects actual definition. Hence option a is correct."
+      },
+      {
+        "year": 2014,
+        "question": "With reference to a conservation organization called ‘Wetlands International’, which of the following statements is/are correct?\n1. It is an intergovernmental organization formed by the countries which are signatories to Ramsar Convention.\n2. It works at the field level to develop and mobilize knowledge, and use the practical experience to advocate for better policies.",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Wetlands International is a global not-for-profit conservation organization and is not an intergovernmental body created by Ramsar signatory states. Therefore statement 1 is incorrect. It does work on the ground, generates knowledge, and uses field experience to influence policy and wetland conservation practice. That makes statement 2 correct. UPSC here tests whether the candidate can distinguish between a treaty-based intergovernmental arrangement and an independent international conservation organization. Hence only statement 2 is correct.",
+        "elimination_logic": "Statement 1 is the trap because the word 'International' may make it sound like a treaty-created intergovernmental body. It is not an organ formed by Ramsar signatories, so 1 must be rejected. Statement 2 accurately reflects the organization’s field and advocacy role and must be retained. Once 1 is eliminated, options a and c collapse. Option d is also wrong because 2 is clearly correct. Therefore option b is correct."
+      },
+      {
+        "year": 2015,
+        "question": "Consider the following statements:\n1. The Accelerated Irrigation Benefits Programme was launched during 1996-97 to provide loan assistance to poor farmers.\n2. The Command Area Development Programme was launched in 1974-75 for the development of water-use efficiency.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "The Accelerated Irrigation Benefits Programme was launched to accelerate completion of ongoing irrigation projects, not to provide direct loan assistance to poor farmers. Hence statement 1 is incorrect. The Command Area Development Programme was indeed launched in 1974-75 to improve irrigation efficiency and optimum utilization of created irrigation potential. That makes statement 2 correct. This is a scheme-identification question where the purpose of the programme matters as much as the year. Therefore only statement 2 is correct.",
+        "elimination_logic": "Statement 1 sounds welfare-oriented, but AIBP was fundamentally an irrigation infrastructure acceleration programme, not a farmer loan scheme. Statement 2 matches both time period and purpose, so it should be retained. Options a and c fail because they keep statement 1. Option d fails because statement 2 is clearly valid. Hence the correct answer is option b."
+      },
+      {
+        "year": 2015,
+        "question": "What can be the impact of excessive/inappropriate use of nitrogenous fertilizers in agriculture?\n1. Proliferation of nitrogen-fixing microorganisms in soil can occur.\n2. Increase in the acidity of soil can take place\n3. Leaching of nitrate to the ground-water can occur.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 2 and 3 only",
+        "explanation": "Excessive use of nitrogenous fertilizers can acidify soils over time, especially through nitrification and related chemical processes. It can also cause nitrate leaching into groundwater, creating environmental and health hazards. However, heavy application of nitrogen fertilizer does not promote proliferation of nitrogen-fixing microorganisms; rather, abundant available nitrogen can reduce the biological need for nitrogen fixation. Thus statement 1 is incorrect, while statements 2 and 3 are correct. Hence the correct answer is 2 and 3 only.",
+        "elimination_logic": "Statement 1 is the trick statement because it reverses the expected biological response. Nitrogen-fixing organisms are generally more useful when available nitrogen is low, not when soil is already overloaded with nitrogen fertilizer. Statements 2 and 3 are both standard consequences of nitrogen overuse and must be retained. That eliminates options a and d. Option b is incomplete because nitrate leaching is also a valid effect. Therefore option c is correct."
+      },
+      {
+        "year": 2015,
+        "question": "With reference to the International Union for Conservation of Nature and Natural Resources (IUCN) and the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), which of the following statements is/are correct?\n1. IUCN is an organ of the United Nations and CITES is an international agreement between governments\n2. IUCN runs thousands of field projects around the world to better manage natural environments.\n3. CITES is legally binding on the States that have joined it, but this Convention does not take the place of national laws.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "IUCN is not an organ of the United Nations; it is an international membership union of governments and civil society organizations. Therefore statement 1 is incorrect. IUCN does run and support a wide range of field conservation initiatives and knowledge-based environmental management efforts, making statement 2 correct. CITES is indeed a legally binding international agreement on member states, but implementation occurs through domestic legislation, so statement 3 is also correct. Therefore only statements 2 and 3 are correct.",
+        "elimination_logic": "Statement 1 is the key eliminator because it incorrectly upgrades IUCN into a UN organ. Once 1 is rejected, options a, c and d automatically weaken. Statement 2 is acceptable in UPSC’s framing because IUCN works globally through field-linked conservation efforts and partnerships. Statement 3 is also correct because CITES is binding internationally but operates through national legal systems. Hence option b is the correct answer."
+      },
+      {
+        "year": 2015,
+        "question": "With reference to an organization known as ‘Birdlife International’ which of the following statements is/are correct?\n1. It is a Global Partnership of Conservation Organizations.\n2. The concept of ‘biodiversity hotspots’ originated from this organization.\n3. It identifies the sites known/referred to as ‘Important Bird and Biodiversity Areas’.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "BirdLife International is a global partnership of conservation organizations, so statement 1 is correct. It is also well known for identifying Important Bird and Biodiversity Areas (IBAs), making statement 3 correct. However, the concept of biodiversity hotspots is associated with Norman Myers, not with BirdLife International. Therefore statement 2 is incorrect. Hence the correct answer is 1 and 3 only.",
+        "elimination_logic": "Statement 2 is the trap because students may confuse major conservation concepts across organizations. Biodiversity hotspots did not originate from BirdLife International, so 2 must be rejected. Statements 1 and 3 are standard and should be retained. This eliminates options b and d. Option a becomes incomplete because IBAs are indeed one of BirdLife’s core contributions. Therefore option c is correct."
+      },
+      {
+        "year": 2016,
+        "question": "Why does the Government of India promote the use of Neem-coated Urea’ in agriculture?",
+        "options": [
+          "a) Release of Neem oil in the soil increases nitrogen fixation by the soil microorganisms",
+          "b) Neem coating slows down the rate of dissolution of urea in the soil",
+          "c) Nitrous oxide, which is a greenhouse gas, is not at all released into atmosphere by crop fields",
+          "d) Six is a combination of a weedicide and a fertilizer for particular crops"
+        ],
+        "correct_answer": "b) Neem coating slows down the rate of dissolution of urea in the soil",
+        "explanation": "Neem-coated urea is promoted because the neem coating slows the release of nitrogen from urea into the soil. This improves nitrogen-use efficiency and reduces losses from leaching, volatilization and misuse. It does not eliminate nitrous oxide release completely, nor is it a weedicide-fertilizer combination. The policy logic is better nutrient management, not magical removal of all emissions. Hence the correct reason is the slowing down of urea dissolution.",
+        "elimination_logic": "Option a overstates the mechanism and is not the principal reason for the policy. Option c uses the absolute phrase 'not at all', which makes it incorrect because greenhouse gas release may be reduced, not totally eliminated. Option d is plainly wrong because neem-coated urea is not a weedicide-fertilizer combination. Option b correctly states the core agronomic rationale. Therefore option b is correct."
+      },
+      {
+        "year": 2016,
+        "question": "Which of the following is/are the advantage /advantages of practising drip irrigation?\n1. Reduction in weed\n2. Reduction in soil salinity\n3. Reduction in soil erosion\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 1 and 3 only",
+          "d) None of the above is an advantage of practising drip irrigation"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Drip irrigation delivers water directly to the root zone in a controlled manner, so less water is available for weeds in non-target areas, reducing weed growth. It also minimizes surface runoff and thus reduces soil erosion. However, reduction in soil salinity is not generally treated as a direct blanket advantage in the way stated; salinity outcomes depend on water quality, drainage and management. Therefore statements 1 and 3 are accepted as correct. Hence option c is correct.",
+        "elimination_logic": "Statement 1 is valid because targeted irrigation suppresses unnecessary wetting of weed-prone spaces. Statement 3 is also valid because low-flow water application reduces erosive runoff. Statement 2 is the doubtful one and must be rejected in this UPSC framing because salinity may not necessarily reduce simply by adopting drip irrigation. That eliminates options a and d. Option b is incomplete because weed reduction is also a real advantage. Therefore option c is correct."
+      },
+      {
+        "year": 2017,
+        "question": "In the context of mitigating the impending global warming due to anthropogenic emissions of carbon dioxide, which of the following can be the potential sites for carbon sequestration?\n1. Abandoned and uneconomic coal seams\n2. Depleted oil and gas reservoirs\n3. Subterranean deep saline formations\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Carbon sequestration involves capturing carbon dioxide and storing it securely in geological formations. Abandoned coal seams, depleted oil and gas reservoirs, and deep saline aquifers are all recognized potential storage sites. Each of these subsurface formations can trap CO2 under suitable geological conditions. This is a standard carbon capture and storage framework. Therefore all three listed sites are correct.",
+        "elimination_logic": "None of the three options is an outlier here; all are accepted geological storage options in carbon sequestration literature. Eliminating any one of them would make the answer incomplete. That immediately weakens options a, b and c. Since all three are valid, option d is the correct answer."
+      },
+      {
+        "year": 2018,
+        "question": "With reference to the ‘Global Alliance for Climate Smart Agriculture (GACSA)’, which of the following statements is/are correct?\n1. GACSA is an outcome of the climate summit held in Paris in 2015.\n2. Membership of GACSA does not create any binding obligations.\n3. India was instrumental in the creation of GACSA.\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "GACSA was launched in 2014 at the UN Climate Summit, not as an outcome of the Paris Agreement of 2015, so statement 1 is incorrect. It is a voluntary platform and does not impose legally binding obligations on its members, making statement 2 correct. India was not specifically instrumental in its creation, so statement 3 is incorrect. Hence only statement 2 is correct.",
+        "elimination_logic": "Statement 1 is factually incorrect regarding timeline, eliminating options a and d. Statement 3 is also incorrect as UPSC expects precise institutional knowledge. Only statement 2 survives as correct. Thus options containing 3 must be eliminated, leaving option b."
+      },
+      {
+        "year": 2018,
+        "question": "The term “sixth mass extinction/sixth extinction” is often mentioned in the news in the context of discussion of:",
+        "options": [
+          "a) Widespread monoculture practices in agriculture and large scale commercial farming with indiscriminate use of chemicals",
+          "b) Fears of possible collision of a meteorite with the Earth",
+          "c) Large scale cultivation of genetically modified crops",
+          "d) Mankind’s overexploitation/misuse of natural resources, fragmentation/loss of natural habitats, destruction of ecosystems, pollution and world climate change"
+        ],
+        "correct_answer": "d) Mankind’s overexploitation/misuse of natural resources, fragmentation/loss of natural habitats, destruction of ecosystems, pollution and world climate change",
+        "explanation": "The term ‘sixth mass extinction’ refers to the current phase of accelerated biodiversity loss driven by human activities. It includes habitat destruction, pollution, climate change and overexploitation of resources. Unlike previous mass extinctions caused by natural events, this one is anthropogenic. Therefore option d captures the comprehensive causes. Other options are partial or incorrect representations.",
+        "elimination_logic": "Options a and c are partial causes but not the complete explanation of mass extinction. Option b refers to a past natural extinction cause, not the present context. Option d includes all major anthropogenic drivers. Hence option d is correct."
+      },
+      {
+        "year": 2018,
+        "question": "Which of the following statements best describes ‘carbon fertilization’?",
+        "options": [
+          "a) Increased plant growth due to increased concentration of carbon dioxide in the atmosphere",
+          "b) Increased temperature of the earth due to increased concentration of carbon dioxide",
+          "c) Increased acidity of oceans due to increased CO2",
+          "d) Adaptation of living beings to climate change"
+        ],
+        "correct_answer": "a) Increased plant growth due to increased concentration of carbon dioxide in the atmosphere",
+        "explanation": "Carbon fertilization refers to the enhancement of plant growth due to higher concentrations of CO2 in the atmosphere. CO2 is a key input for photosynthesis, so increased availability can stimulate plant productivity under certain conditions. However, this effect is limited by other factors such as nutrients and water availability. It is distinct from global warming or ocean acidification. Hence option a is correct.",
+        "elimination_logic": "Options b and c describe consequences of CO2 but not the definition of carbon fertilization. Option d is unrelated to plant physiology. Only option a directly explains the concept. Hence option a is correct."
+      },
+      {
+        "year": 2019,
+        "question": "In the context of proposals to the use of hydrogen-enriched CNG (H-CNG) as fuel for buses in public transport, consider the following statements:\n1. The main advantage of the use of H-CNG is the elimination of carbon monoxide emissions.\n2. H-CNG as fuel reduces carbon dioxide and hydrocarbon emissions.\n3. Hydrogen up to one-fifth by volume can be blended with CNG as fuel for buses.\n4. H-CNG makes the fuel less expensive than CNG.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "b) 2 and 3 only",
+        "explanation": "H-CNG improves combustion efficiency and reduces emissions such as CO2 and hydrocarbons, making statement 2 correct. Hydrogen blending up to around 20% is technically feasible, making statement 3 correct. However, it does not completely eliminate carbon monoxide emissions, so statement 1 is incorrect. It also does not necessarily reduce cost due to hydrogen production expenses, so statement 4 is incorrect.",
+        "elimination_logic": "Statement 1 uses absolute wording ‘elimination’, which is incorrect. Statement 4 is economically unrealistic. Thus options containing 1 or 4 must be eliminated. Statements 2 and 3 are technically valid. Hence option b is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following statements:\n1. Agricultural soils release nitrogen oxides into the environment.\n2. Cattle release ammonia into the environment.\n3. Poultry industry releases reactive nitrogen compounds into the environment.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2 and 3 only",
+          "c) 2 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Agricultural soils release nitrogen oxides through microbial processes like nitrification and denitrification. Livestock such as cattle emit ammonia through excreta decomposition. Poultry farming also contributes reactive nitrogen compounds to the environment. These emissions play a role in air pollution and climate change. Hence all three statements are correct.",
+        "elimination_logic": "Each statement represents a scientifically established source of nitrogen emissions. Eliminating any one would ignore known environmental processes. Thus options a, b and c are incomplete. Option d includes all correct statements."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following:\n1. Carbon monoxide\n2. Methane\n3. Ozone\n4. Sulphur dioxide\nWhich of the above are released into atmosphere due to the burning of crop/biomass residue?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2, 3 and 4 only",
+          "c) 1 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "d) 1, 2, 3 and 4",
+        "explanation": "Burning of crop residue releases a wide range of pollutants including carbon monoxide from incomplete combustion, methane as a greenhouse gas, ozone as a secondary pollutant, and sulphur dioxide depending on biomass composition. These emissions contribute significantly to air pollution and climate change. Hence all four are correct.",
+        "elimination_logic": "Biomass burning produces multiple gases, not limited to one or two. Eliminating any of the listed gases would be incorrect. Options a, b and c are incomplete combinations. Therefore option d is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Which of the following statements are correct about the deposits of ‘methane hydrate’?\n1. Global warming might trigger the release of methane gas from these deposits.\n2. Large deposits of ‘methane hydrate’ are found in Arctic Tundra and under the seafloor.\n3. Methane in atmosphere oxidises to carbon dioxide after a decade or two.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Methane hydrates are sensitive to temperature rise, so global warming can destabilize them and release methane. They are found in permafrost regions like Arctic tundra and beneath ocean floors. Atmospheric methane eventually oxidizes to carbon dioxide over time. All three statements are scientifically correct.",
+        "elimination_logic": "All three statements are factual and widely accepted in climate science. Eliminating any would contradict known processes. Therefore options a, b and c are incorrect. Option d is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Which of the following statements best describes the term ‘Social Cost of Carbon’?",
+        "options": [
+          "a) Long-term damage done by a tonne of CO2 emissions in a given year.",
+          "b) Requirement of fossil fuels for a country to provide goods and services",
+          "c) Efforts put in by a climate refugee to adapt",
+          "d) Contribution of an individual person to carbon footprint"
+        ],
+        "correct_answer": "a) Long-term damage done by a tonne of CO2 emissions in a given year.",
+        "explanation": "The Social Cost of Carbon (SCC) is an economic concept that estimates the monetary value of long-term damages caused by emitting one additional tonne of CO2 in a given year. These damages include impacts on agriculture, health, sea level rise, and ecosystem services. It is used in policy-making and cost-benefit analysis of climate actions. Thus option a correctly captures its definition.",
+        "elimination_logic": "Options b, c and d are distractors that relate to energy use, adaptation, and individual emissions but do not define SCC. Only option a reflects the economic valuation of climate damage. Hence option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "What is the use of biochar in farming?\n1. Biochar can be used as a part of the growing medium in vertical farming.\n2. When biochar is a part of the growing medium, it promotes the growth of nitrogen-fixing microorganisms.\n3. When biochar is a part of the growing medium, it enables the growing medium to retain water for longer time.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Biochar improves soil structure, enhances water retention, and provides a favorable habitat for beneficial microorganisms including nitrogen-fixing bacteria. It is also used in modern agricultural practices such as vertical farming as part of growing media. Thus all three statements are correct.",
+        "elimination_logic": "All three statements are standard advantages of biochar supported by soil science and sustainable agriculture practices. Eliminating any one would ignore known benefits. Hence option d is correct."
+      },
+      {
+        "year": 2020,
+        "question": "In the context of India, which of the following is/are considered to be practice(s) of eco-friendly agriculture?\n1. Crop diversification\n2. Legume intensification\n3. Tensiometer use\n4. Vertical farming\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 3 only",
+          "c) 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "Crop diversification and legume intensification improve soil health and reduce dependence on chemical fertilizers. Tensiometers help optimize irrigation, conserving water resources. Vertical farming, while efficient, is not generally categorized under eco-friendly agriculture in the traditional UPSC context due to its high technological and energy requirements. Thus statements 1, 2 and 3 are correct.",
+        "elimination_logic": "Statement 4 is the trap because vertical farming is often perceived as sustainable but is not conventionally classified under eco-friendly agriculture in UPSC framing. Eliminating 4 removes options c and d. Statements 1, 2 and 3 are clearly valid, leaving option a."
+      },
+      {
+        "year": 2020,
+        "question": "What is/are the advantage/advantages of zero tillage in agriculture?\n1. Sowing of wheat without burning the residue of previous crop.\n2. Without the need for nursery of rice saplings, direct planting of paddy seeds in the wet soil is possible.\n3. Carbon sequestration in the soil is possible\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Zero tillage allows direct sowing without disturbing soil, reducing residue burning. It enables direct seeding techniques, especially in rice cultivation, eliminating nursery stages. It also enhances soil organic carbon, contributing to carbon sequestration. Hence all three statements are correct.",
+        "elimination_logic": "Each statement reflects a well-known advantage of conservation agriculture. Removing any one would ignore key benefits of zero tillage. Hence options a, b and c are incomplete. Option d is correct."
+      },
+      {
+        "year": 2020,
+        "question": "In rural road construction, the use of which of the following is preferred for ensuring environmental sustainability or to reduce carbon footprint?\n1. Copper slag\n2. Cold mix asphalt technology\n3. Geotextiles\n4. Hot mix asphalt technology\n5. Portland cement\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2, 3 and 4 only",
+          "c) 4 and 5 only",
+          "d) 1 and 5 only"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "Copper slag is a recycled industrial by-product, cold mix asphalt reduces energy consumption compared to hot mix, and geotextiles enhance durability and reduce material use. Hot mix asphalt and Portland cement have higher carbon footprints. Therefore 1, 2 and 3 are environmentally preferable.",
+        "elimination_logic": "Statements 4 and 5 are conventional high-carbon materials/technologies and must be eliminated. This removes options b, c and d. Remaining valid combination is 1, 2 and 3. Hence option a."
+      },
+      {
+        "year": 2021,
+        "question": "What is blue carbon?",
+        "options": [
+          "a) Carbon captured by oceans and coastal ecosystems",
+          "b) Carbon sequestered in forest biomass and agricultural soils",
+          "c) Carbon contained in petroleum and natural gas",
+          "d) Carbon present in atmosphere"
+        ],
+        "correct_answer": "a) Carbon captured by oceans and coastal ecosystems",
+        "explanation": "Blue carbon refers to carbon captured and stored by coastal and marine ecosystems such as mangroves, seagrasses, and salt marshes. These ecosystems play a significant role in climate change mitigation by sequestering carbon efficiently. Hence option a is correct.",
+        "elimination_logic": "Option b refers to terrestrial carbon (green carbon). Options c and d are unrelated to the specific concept. Only option a correctly defines blue carbon."
+      },
+      {
+        "year": 2022,
+        "question": "Which of the following are nitrogen-fixing plants?\n1. Alfalfa\n2. Amaranth\n3. Chickpea\n4. Clover\n5. Purslane (Kulfa)\n6. Spinach\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1, 3 and 4 only",
+          "b) 1, 3, 5 and 6 only",
+          "c) 2, 4, 5 and 6 only",
+          "d) 1, 2, 4, 5 and 6"
+        ],
+        "correct_answer": "a) 1, 3 and 4 only",
+        "explanation": "Nitrogen-fixing plants are typically legumes. Alfalfa, chickpea, and clover belong to leguminous family and fix nitrogen through symbiotic bacteria. Amaranth, purslane and spinach are non-leguminous plants and do not fix nitrogen. Hence option a is correct.",
+        "elimination_logic": "Legume identification is key. Only alfalfa, chickpea and clover are legumes. Eliminating non-legumes removes options b, c and d. Hence option a."
+      },
+      {
+        "year": 2022,
+        "question": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+        "options": [
+          "a) Cotton",
+          "b) Rice",
+          "c) Sugarcane",
+          "d) Wheat"
+        ],
+        "correct_answer": "b) Rice",
+        "explanation": "Rice cultivation in flooded fields creates anaerobic conditions leading to methane emissions. Nitrogen fertilizers used in rice fields also produce nitrous oxide. Thus rice is a major anthropogenic source of both greenhouse gases.",
+        "elimination_logic": "Only rice cultivation involves waterlogged anaerobic conditions essential for methane production. Other crops do not produce methane significantly. Hence option b is correct."
+      },
+      {
+  "year": 2023,
+  "question": "Consider the following activities:\n1. Spreading finely ground basalt rock on farmlands extensively\n2. Increasing the alkalinity of oceans by adding lime\n3. Capturing carbon dioxide released by various industries and pumping it into abandoned subterranean mines in the form of carbonated waters\nHow many of the above activities are often considered and discussed for carbon capture and sequestration?",
+  "options": [
+    "a) Only one",
+    "b) Only two",
+    "c) All three",
+    "d) None"
+  ],
+  "correct_answer": "c) All three",
+  "explanation": "All three listed activities are emerging or proposed methods for carbon capture and sequestration. Enhanced weathering using basalt absorbs CO2, ocean alkalinity enhancement increases carbon absorption capacity, and carbon capture with underground storage is a well-established technique. Thus all three are valid approaches.",
+  "elimination_logic": "Each option represents a recognized or emerging carbon sequestration method. Eliminating any one would ignore current climate mitigation discussions. Hence options a and b are incomplete, and option d is incorrect. Correct answer is option c."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following activities:\n1. Spreading finely ground basalt rock on farmlands extensively\n2. Increasing the alkalinity of oceans by adding lime\n3. Capturing carbon dioxide released by various industries and pumping it into abandoned subterranean mines in the form of carbonated waters\nHow many of the above activities are often considered and discussed for carbon capture and sequestration?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "c) All three",
+        "explanation": "All three listed activities are emerging or proposed methods for carbon capture and sequestration. Enhanced weathering using basalt absorbs CO2, ocean alkalinity enhancement increases carbon absorption capacity, and carbon capture with underground storage is a well-established technique. Thus all three are valid approaches.",
+        "elimination_logic": "Each option represents a recognized or emerging carbon sequestration method. Eliminating any one would ignore current climate mitigation discussions. Hence options a and b are incomplete, and option d is incorrect. Correct answer is option c."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following:\n1. Aerosols\n2. Foam agents\n3. Fire retardants\n4. Lubricants\nIn the making of how many of the above are hydrofluorocarbons used?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) Only three",
+          "d) All four"
+        ],
+        "correct_answer": "c) Only three",
+        "explanation": "Hydrofluorocarbons (HFCs) are commonly used in aerosols, foam blowing agents, and fire suppression systems. They are not typically used as lubricants. Thus three out of four applications are correct.",
+        "elimination_logic": "Lubricants (4) is the odd one out since HFCs are not standard components in lubrication. Eliminating it leaves 1, 2 and 3. Hence option c is correct."
+      },
+      {
+        "year": 2024,
+        "question": "One of the following regions has the world’s largest tropical peatland, which holds about three years’ worth of global carbon emissions from fossil fuels; and the possible destruction of which can exert detrimental effect on the global climate. Which one of the following denotes that region?",
+        "options": [
+          "a) Amazon Basin",
+          "b) Congo Basin",
+          "c) Kikori Basin",
+          "d) Rio de la Plata Basin"
+        ],
+        "correct_answer": "b) Congo Basin",
+        "explanation": "The Congo Basin contains the world’s largest tropical peatland complex, storing massive amounts of carbon accumulated over thousands of years. Its degradation could release enormous greenhouse gases into the atmosphere. Hence it is crucial for global climate regulation.",
+        "elimination_logic": "Amazon Basin is a major forest but not the largest tropical peatland. Congo Basin is specifically known for peat carbon storage. Other options are not relevant. Hence option b is correct."
+      },
+      {
+        "year": 2025,
+        "question": "The World Bank warned that India could become one of the first places where wet-bulb temperatures routinely exceed 35 °C. Which of the following statements best reflect(s) the implication of the above‐said report?\nI. Peninsular India will most likely suffer from flooding, tropical cyclones and droughts.\nII. The survival of animals including humans will be affected as shedding of their body heat through perspiration becomes difficult.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) I only",
+          "b) II only",
+          "c) Both I and II",
+          "d) Neither I nor II"
+        ],
+        "correct_answer": "b) II only",
+        "explanation": "Wet-bulb temperature above 35°C represents a critical physiological threshold beyond which human survival becomes difficult because the body cannot cool itself through sweating. Statement II directly captures this implication. Statement I relates to general climate risks but not specifically to wet-bulb temperature effects.",
+        "elimination_logic": "Statement I is generic climate impact and not directly linked to wet-bulb temperature concept. Statement II directly explains the physiological danger. Hence eliminate options containing I and retain II only. Correct answer is option b."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nI. Carbon dioxide (CO₂) emissions in India are less than 0.5 t CO₂/capita.\nII. In terms of CO₂ emissions from fuel combustion, India ranks second in Asia-Pacific region.\nIII. Electricity and heat producers are the largest sources of CO₂ emissions in India.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) I and III only",
+          "b) II only",
+          "c) II and III only",
+          "d) I, II and III"
+        ],
+        "correct_answer": "c) II and III only",
+        "explanation": "India’s per capita CO2 emissions are higher than 0.5 tonnes, so statement I is incorrect. India ranks second in the Asia-Pacific region in total emissions from fuel combustion, making statement II correct. Electricity and heat production is the largest emission source, so statement III is correct.",
+        "elimination_logic": "Statement I is factually incorrect (too low value), so eliminate options containing it (a and d). Statements II and III are standard facts. Hence option c."
+      },
+      {
+        "year": 2025,
+        "question": "With reference to Direct Air Capture, an emerging technology, which of the following statements is/are correct?\nI. It can be used as a way of carbon sequestration.\nII. It can be a valuable approach for plastic production and in food processing.\nIII. In aviation, it can be a source of carbon for combining with hydrogen to create synthetic low-carbon fuel.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) I and II only",
+          "b) III only",
+          "c) I, II and III",
+          "d) None of the above"
+        ],
+        "correct_answer": "c) I, II and III",
+        "explanation": "Direct Air Capture (DAC) removes CO2 directly from the atmosphere and can be used for sequestration. Captured CO2 can also be utilized in industrial applications such as synthetic fuels, plastics, and food processing. Thus all three statements are correct.",
+        "elimination_logic": "All three statements reflect current applications of DAC in climate mitigation and carbon utilization. Eliminating any would make the answer incomplete. Hence option c."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Studies indicate that carbon dioxide emissions from cement industry account for more than 5% of global carbon emissions.\nStatement II: Silica-bearing clay is mixed with limestone while manufacturing cement.\nStatement III: Limestone is converted into lime during clinker production for cement manufacturing.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+          "a) Both Statement II and Statement III are correct and both of them explain Statement I",
+          "b) Both Statement II and Statement III are correct but only one of them explains Statement I",
+          "c) Only one of the Statements II and III is correct and that explains Statement I",
+          "d) Neither Statement II nor Statement III is correct"
+        ],
+        "correct_answer": "b) Both Statement II and Statement III are correct but only one of them explains Statement I",
+        "explanation": "Cement production contributes significantly (>5%) to global CO2 emissions mainly due to calcination of limestone. Statement II is correct but does not directly explain emissions. Statement III explains emissions because conversion of limestone to lime releases CO2. Hence both II and III are correct, but only III explains I.",
+        "elimination_logic": "Statement II is process-related but not emission-generating explanation. Statement III directly links to CO2 release. Thus option b fits precisely."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Circular economy reduces the emissions of greenhouse gases.\nStatement II: Circular economy reduces the use of raw materials as inputs.\nStatement III: Circular economy reduces wastage in the production process.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+          "a) Both Statement II and Statement III are correct and both of them explain Statement I",
+          "b) Both Statement II and Statement III are correct but only one of them explains Statement I",
+          "c) Only one of the Statements II and III is correct and that explains Statement I",
+          "d) Neither Statement II nor Statement III is correct"
+        ],
+        "correct_answer": "a) Both Statement II and Statement III are correct and both of them explain Statement I",
+        "explanation": "Circular economy minimizes resource extraction and waste generation, thereby reducing emissions across the lifecycle. Both reduced raw material use and reduced waste contribute to lower greenhouse gas emissions. Hence both II and III explain I.",
+        "elimination_logic": "Both statements II and III directly contribute to emission reduction. Eliminating either would weaken the causal explanation. Hence option a."
+      }
     ]
   }
       }
