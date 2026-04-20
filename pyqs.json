@@ -7023,6 +7023,123 @@
         "correct_answer": "a) Tobacco, cocoa, and rubber",
         "explanation": "The New World refers to the Americas. Crops like tobacco, cocoa and rubber originated in the Americas and were later introduced to the Old World. Cotton, coffee and wheat have different origins. Hence the correct answer is tobacco, cocoa and rubber.",
         "elimination_logic": "Coffee and wheat are Old World crops, so eliminate c and d. Cotton has Old World origins in some varieties, making option b incorrect. Tobacco, cocoa and rubber are classic New World crops. Hence option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "With reference to India’s biodiversity, Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet, and White-throated redstart are:",
+        "options": [
+          "a) Birds",
+          "b) Primates",
+          "c) Reptiles",
+          "d) Amphibians"
+        ],
+        "correct_answer": "a) Birds",
+        "explanation": "All the given species—Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet, and White-throated redstart—are well-known bird species found in India. They belong to different bird families but are all avifauna. These species are commonly referenced in biodiversity studies and birdwatching contexts. Hence they are classified as birds.",
+        "elimination_logic": "The names themselves are typical bird nomenclature and do not correspond to mammals, reptiles or amphibians. None of them belong to primates or reptiles. Amphibians are also clearly not applicable here. Hence eliminate b, c and d. Option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "With reference to Indian elephants, consider the following statements:\n1. The leader of an elephant group is a female.\n2. The maximum gestation period can be 22 months.\n3. An elephant can normally go on calving till the age of 40 years only.\n4. Among the States in India, the highest elephant population is in Kerala.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 4 only",
+          "c) 3 only",
+          "d) 1, 3 and 4 only"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "Elephant herds are matriarchal, led by an experienced female, making statement 1 correct. Elephants have one of the longest gestation periods among mammals, around 22 months, so statement 2 is correct. Statement 3 is incorrect as elephants can reproduce beyond that age. Statement 4 is incorrect as Karnataka has the highest elephant population, not Kerala. Hence only statements 1 and 2 are correct.",
+        "elimination_logic": "Statement 4 is incorrect because Karnataka leads in elephant population, eliminating options b and d. Statement 3 is not a standard biological limit and is incorrect. Statements 1 and 2 are well-established facts. Hence option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Which of the following are the most likely places to find the musk deer in its natural habitat?\n1. Askot Wildlife Sanctuary\n2. Gangotri National Park\n3. Kishanpur Wildlife Sanctuary\n4. Manas National Park\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 and 4 only",
+          "d) 1 and 4 only"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "Musk deer are high-altitude Himalayan species. They are found in alpine and subalpine regions such as Uttarakhand. Askot Wildlife Sanctuary and Gangotri National Park fall within suitable Himalayan habitats. Kishanpur and Manas are not typical habitats for musk deer. Hence the correct answer is 1 and 2 only.",
+        "elimination_logic": "Musk deer require cold Himalayan conditions, so eliminate plains-based reserves like Kishanpur. Manas is in Assam and not typical musk deer habitat. Askot and Gangotri fit the Himalayan profile. Hence option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Which one of the following protected areas is well-known for the conservation of a sub-species of the Indian swamp deer (Barasingha) that thrives well on hard ground and is exclusively graminivorous?",
+        "options": [
+          "a) Kanha National Park",
+          "b) Manas National Park",
+          "c) Mudumalai Wildlife Sanctuary",
+          "d) Tal Chhapar Wildlife Sanctuary"
+        ],
+        "correct_answer": "a) Kanha National Park",
+        "explanation": "Kanha National Park is famous for the conservation of the hard-ground Barasingha. This subspecies adapted to grassland habitats and was brought back from near extinction through focused conservation efforts. It is a flagship conservation success story. Hence Kanha is the correct answer.",
+        "elimination_logic": "Barasingha conservation is strongly associated with Kanha. Other parks do not have this specific conservation program. This is a direct factual recall. Hence option a is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Which of the following Protected Areas are located in Cauvery basin?\n1. Nagarhole National Park\n2. Papikonda National Park\n3. Sathyamangalam Tiger Reserve\n4. Wayanad Wildlife Sanctuary\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 and 4 only",
+          "c) 1, 3 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "c) 1, 3 and 4 only",
+        "explanation": "Nagarhole, Sathyamangalam and Wayanad are part of the Cauvery basin ecosystem. Papikonda National Park lies in the Godavari basin and hence is not included. The Cauvery basin supports several key wildlife habitats across Karnataka, Tamil Nadu and Kerala. Hence 1, 3 and 4 are correct.",
+        "elimination_logic": "Papikonda is the key trap as it belongs to Godavari basin. Once 2 is eliminated, options a and d collapse. Nagarhole, Sathyamangalam and Wayanad clearly fall within Cauvery system. Hence option c is correct."
+      },
+      {
+        "year": 2020,
+        "question": "With reference to India’s Desert National Park, which of the following statements are correct?\n1. It is spread over two districts.\n2. There is no human habitation inside the park.\n3. It is one of the natural habitats of the Great Indian Bustard.\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Desert National Park is spread over Jaisalmer and Barmer districts, making statement 1 correct. It supports Great Indian Bustard, a critically endangered bird, so statement 3 is correct. However, human habitation exists within the park boundaries, making statement 2 incorrect. Hence the correct answer is 1 and 3 only.",
+        "elimination_logic": "Statement 2 is incorrect because human presence exists in DNP. Statements 1 and 3 are factual and correct. Eliminating 2 removes options a, b and d. Hence option c is correct."
+      },
+      {
+        "year": 2020,
+        "question": "Among the following Tiger Reserves, which one has the largest area under ‘Critical Tiger Habitat’?",
+        "options": [
+          "a) Corbett",
+          "b) Ranthambore",
+          "c) Nagarjunasagar-Srisailam",
+          "d) Sundarbans"
+        ],
+        "correct_answer": "c) Nagarjunasagar-Srisailam",
+        "explanation": "Nagarjunasagar-Srisailam Tiger Reserve is the largest tiger reserve in India. It has the largest area under critical tiger habitat. It spans across Andhra Pradesh and Telangana. Hence it is the correct answer.",
+        "elimination_logic": "Corbett and Ranthambore are smaller reserves. Sundarbans is large but not the largest in terms of critical tiger habitat. Nagarjunasagar-Srisailam is the known largest reserve. Hence option c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Which one of the following is a filter feeder?",
+        "options": [
+          "a) Catfish",
+          "b) Octopus",
+          "c) Oyster",
+          "d) Pelican"
+        ],
+        "correct_answer": "c) Oyster",
+        "explanation": "Filter feeders obtain food by filtering suspended particles from water. Oysters are classic filter feeders and play a role in cleaning water bodies. Catfish and octopus are active predators. Pelicans catch fish rather than filtering water. Hence oyster is the correct answer.",
+        "elimination_logic": "Catfish and octopus are predators, so eliminate a and b. Pelican uses scoop feeding, not true filtration. Oyster is a textbook filter feeder. Hence option c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Which one of the following is used in preparing a natural mosquito repellent?",
+        "options": [
+          "a) Congress grass",
+          "b) Elephant grass",
+          "c) Lemon grass",
+          "d) Nut grass"
+        ],
+        "correct_answer": "c) Lemon grass",
+        "explanation": "Lemongrass contains citronella oil, which is widely used as a natural mosquito repellent. It is commonly used in oils, sprays and herbal products. The other grasses listed do not have this property. Hence lemon grass is the correct answer.",
+        "elimination_logic": "Citronella is the key clue which is derived from lemongrass. Other grasses do not produce mosquito-repellent compounds. Hence eliminate a, b and d. Option c is correct."
       }
     ]
   }
