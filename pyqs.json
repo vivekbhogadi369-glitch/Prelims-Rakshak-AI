@@ -7766,6 +7766,201 @@
         "correct_answer": "b) 2 and 3 only",
         "explanation": "Copper smelting is associated with the release of sulphur dioxide due to sulphide ores, which is a major air pollutant. Copper slag can also contain heavy metals that may leach into the environment. However, large-scale lethal carbon monoxide emission is not the primary concern in copper smelting context. Hence statements 2 and 3 are correct, while statement 1 is incorrect.",
         "elimination_logic": "Statement 1 is the trap as it exaggerates the role of carbon monoxide in this process. The key issues are sulphur dioxide emissions and heavy metal leaching. Options containing statement 1 must be eliminated. Thus options a, c and d are incorrect. Option b is correct."
+      },
+      {
+        "year": 2021,
+        "question": "‘R2 Code of Practices’ constitutes a tool available for promoting the adoption of:",
+        "options": [
+          "a) Environmentally responsible practices in electronics recycling industry",
+          "b) Ecological management of ‘Wetlands of International Importance’ under the Ramsar",
+          "c) Sustainable practices in the cultivation of agricultural crops in degraded lands",
+          "d) ‘Environmental Impact Assessment’ in the exploitation of natural resources"
+        ],
+        "correct_answer": "a) Environmentally responsible practices in electronics recycling industry",
+        "explanation": "R2 (Responsible Recycling) Code of Practices is an international standard for electronics recycling. It ensures environmentally sound management of electronic waste and promotes safe recycling practices. It addresses issues like data security, worker safety and pollution control. It is specifically related to e-waste management and recycling industries. Hence the correct answer is option a.",
+        "elimination_logic": "The keyword 'R2' is directly associated with responsible recycling of electronics. Options b, c and d refer to entirely different environmental domains like wetlands, agriculture and EIA. These are unrelated to e-waste recycling standards. Therefore they can be eliminated. Only option a correctly matches the concept."
+      },
+      {
+        "year": 2021,
+        "question": "Magnetite particles suspected to cause neurodegenerative problems, are generated as environmental pollutants from which of the following?\n1) Brakes of motor vehicles\n2) Engines of motor vehicles\n3) Microwave stoves within homes\n4) Power plants\n5) Telephone lines\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1, 2, 3 and 5 only",
+          "b) 1, 2 and 4 only",
+          "c) 3, 4 and 5 only",
+          "d) 1, 2, 3, 4 and 5"
+        ],
+        "correct_answer": "b) 1, 2 and 4 only",
+        "explanation": "Magnetite nanoparticles are produced from combustion and friction-related processes such as vehicle engines and brake wear. Power plants, especially coal-based ones, also contribute to such particulate emissions. These particles are of concern due to their ability to enter the human body and affect neurological functions. Household appliances like microwave stoves and telephone lines are not sources of such particles. Hence 1, 2 and 4 are correct.",
+        "elimination_logic": "Statements 3 and 5 are clearly unrelated to particulate pollution generation. Including them leads to incorrect options a, c and d. Known sources include vehicular emissions and power plants, so 1, 2 and 4 must be retained. Therefore option b is correct."
+      },
+      {
+        "year": 2022,
+        "question": "Consider the following statements:\n1. Other than those made by humans, nanoparticles do not exist in nature.\n2. Nanoparticles of some metallic oxides are used in the manufacture of some cosmetics.\n3. Nanoparticles of some commercial products which enter the environment are unsafe for humans.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 3 only",
+          "c) 1 and 2",
+          "d) 2 and 3"
+        ],
+        "correct_answer": "d) 2 and 3",
+        "explanation": "Nanoparticles exist naturally as well, such as those produced in volcanic ash or biological processes, so statement 1 is incorrect. Metallic oxide nanoparticles are widely used in cosmetics like sunscreens, making statement 2 correct. Some engineered nanoparticles may pose risks to human health and environment, especially due to their reactivity and ability to penetrate biological systems. Hence statement 3 is also correct.",
+        "elimination_logic": "Statement 1 is clearly incorrect because nanoparticles are naturally occurring. This eliminates options a and c. Statements 2 and 3 are valid and widely accepted. Therefore option d is correct."
+      },
+      {
+        "year": 2022,
+        "question": "In the context of WHO Air Quality Guidelines, consider the following statements:\n1. The 24-hour mean of PM 2.5 should not exceed 15 µg/m3 and annual mean of PM2.5 should not exceed 5 µg/m3.\n2. In a year, the highest levels of ozone pollution occur during the periods of inclement weather.\n3. PM 10 can penetrate the lung barrier and enter the bloodstream.\n4. Excessive ozone in the air can trigger asthma.\nWhich of the statements given above are correct?",
+        "options": [
+          "a) 1, 3 and 4",
+          "b) 1 and 4 only",
+          "c) 2, 3 and 4",
+          "d) 1 and 2 only"
+        ],
+        "correct_answer": "b) 1 and 4 only",
+        "explanation": "WHO guidelines specify strict limits for PM2.5 concentration, making statement 1 correct. Ozone pollution is usually highest during sunny conditions, not inclement weather, so statement 2 is incorrect. PM10 particles are larger and generally do not penetrate deeply into bloodstream like PM2.5, so statement 3 is incorrect. Ozone exposure can trigger respiratory problems such as asthma, making statement 4 correct.",
+        "elimination_logic": "Statement 2 is incorrect because ozone forms in sunlight, not cloudy or inclement weather. Statement 3 is incorrect because PM10 does not penetrate as deeply as PM2.5. Thus options containing 2 or 3 must be eliminated. Only statements 1 and 4 remain valid. Hence option b is correct."
+      },
+      {
+        "year": 2022,
+        "question": "Consider the following:\n1. Carbon monoxide\n2. Nitrogen oxide\n3. Ozone\n4. Sulphur dioxide\nExcess of which of the above in the environment is/are the cause(s) of acid rain?",
+        "options": [
+          "a) 1, 2 and 3",
+          "b) 2 and 4 only",
+          "c) 4 only",
+          "d) 1, 3 and 4"
+        ],
+        "correct_answer": "b) 2 and 4 only",
+        "explanation": "Acid rain is primarily caused by nitrogen oxides and sulphur dioxide which react with water vapour to form nitric and sulphuric acids. Carbon monoxide and ozone are not responsible for acid rain formation. These acid-forming pollutants mainly originate from fossil fuel combustion and industrial emissions. Hence only nitrogen oxide and sulphur dioxide are correct.",
+        "elimination_logic": "Carbon monoxide and ozone do not form acids responsible for acid rain, so options including 1 or 3 must be eliminated. That removes options a and d. Option c is incomplete as it excludes nitrogen oxides. Therefore option b is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements regarding mercury pollution:\n1. Gold mining activity is a source of mercury pollution in the world.\n2. Coal-based thermal power plants cause mercury pollution.\n3. There is no known safe level of exposure to mercury.\nHow many of the above statements are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "c) All three",
+        "explanation": "Mercury is widely used in artisanal gold mining, leading to significant environmental contamination. Coal-based thermal power plants release mercury as a trace pollutant during combustion. Mercury is highly toxic and even low levels of exposure can be harmful, with no clearly safe threshold. Hence all three statements are correct.",
+        "elimination_logic": "Each statement reflects well-established sources and effects of mercury pollution. Eliminating any would contradict standard environmental science. Therefore options a, b and d are incorrect. Only option c includes all correct statements."
+      },
+      {
+        "year": 2023,
+        "question": "With reference to the role of biofilters in Recirculating Aquaculture System, consider the following statements:\n1. Biofilters provide waste treatment by removing uneaten fish feed.\n2. Biofilters convert ammonia present in fish waste to nitrate.\n3. Biofilters increase phosphorus as nutrient for fish in water.\nHow many of the statements given above are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "b) Only two",
+        "explanation": "Biofilters in aquaculture systems help maintain water quality by facilitating nitrification. They convert toxic ammonia into less harmful nitrate through microbial processes. They also indirectly assist in waste removal including uneaten feed. However, they do not function to increase phosphorus as a nutrient in the system. Hence only statements 1 and 2 are correct.",
+        "elimination_logic": "Statement 3 is incorrect because biofilters are meant to reduce waste and toxicity, not enhance phosphorus levels. Statements 1 and 2 reflect correct functioning of biofilters. Options including all three or excluding valid statements must be eliminated. Thus option b is correct."
+      },
+      {
+  "year": 2024,
+  "question": "Consider the following statements:\n1. Lions do not have a particular breeding season\n2. Unlike most other big cats, cheetahs do not roar\n3. Unlike male lions, male leopards do not proclaim their territory by scent marking\nWhich of the statements given above are correct?",
+  "options": [
+    "a) 1 and 2 only",
+    "b) 2 and 3 only",
+    "c) 1 and 3 only",
+    "d) 1, 2 and 3"
+  ],
+  "correct_answer": "a) 1 and 2 only",
+  "explanation": "Lions can breed throughout the year and do not have a strict seasonal breeding cycle, making statement 1 correct. Cheetahs are unique among big cats because they do not roar; instead they chirp or purr, making statement 2 correct. Leopards, however, do mark territory using scent like other big cats, so statement 3 is incorrect. Hence only statements 1 and 2 are correct.",
+  "elimination_logic": "Statement 2 is a standard factual point and must be retained. Statement 3 is clearly incorrect because scent marking is common among big cats, eliminating options b, c and d. Statement 1 is also correct regarding lion breeding behavior. Hence option a is correct."
+      },
+      {
+        "year": 2024,
+        "question": "“Membrane Bioreactors” are often discussed in the context of:",
+        "options": [
+          "a) Assisted reproductive technologies",
+          "b) Drug delivery nanotechnologies",
+          "c) Vaccine production technologies",
+          "d) Wastewater treatment technologies"
+        ],
+        "correct_answer": "d) Wastewater treatment technologies",
+        "explanation": "Membrane bioreactors combine biological treatment processes with membrane filtration. They are widely used in wastewater treatment to remove contaminants effectively. This technology improves water quality and allows reuse of treated water. It is not related to medical or pharmaceutical applications in this context. Hence the correct answer is wastewater treatment technologies.",
+        "elimination_logic": "The term 'bioreactor' may confuse towards biotechnology, but membrane bioreactors are specifically used in wastewater management. Options a, b and c are unrelated medical or pharmaceutical fields. Only option d correctly matches the concept."
+      },
+      {
+        "year": 2024,
+        "question": "According to the Environmental Protection Agency (EPA), which one of the following is the largest source of Sulphur dioxide emissions?",
+        "options": [
+          "a) Locomotives using fossil fuels",
+          "b) Ships using fossil fuels",
+          "c) Extraction of metals from ores",
+          "d) Power plants using fossil fuels"
+        ],
+        "correct_answer": "d) Power plants using fossil fuels",
+        "explanation": "Coal-based power plants are the largest contributors of sulphur dioxide emissions globally. This is due to the high sulphur content in coal and large-scale combustion processes. These emissions are a major cause of acid rain and air pollution. Other sources like ships and locomotives contribute but are comparatively smaller. Hence power plants are the dominant source.",
+        "elimination_logic": "While all listed options emit sulphur dioxide, power plants operate at a much larger scale. Options a, b and c are relatively minor contributors compared to thermal power plants. Therefore they can be eliminated. Option d is correct."
+      },
+      {
+        "year": 2024,
+        "question": "With reference to Perfluoroalkyl and polyfluoroalkyl substances (PFAS) that are used in making many consumer products, consider the following statements:\n1. PFAS are found to be widespread in drinking water, food and food packaging materials.\n2. PFAS are not easily degraded in the environment.\n3. Persistent exposure to PFAS can lead to bioaccumulation in animal bodies.\nWhich of the statements given above are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "PFAS are known as 'forever chemicals' due to their persistence in the environment. They are widely detected in water, food and packaging materials. They resist degradation and can accumulate in living organisms over time. This bioaccumulation raises serious health concerns. Hence all three statements are correct.",
+        "elimination_logic": "All statements accurately describe the nature of PFAS. Eliminating any would ignore key characteristics like persistence and bioaccumulation. Therefore options a, b and c are incomplete. Option d is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following statements:\nStatement I: Many chewing gums found in the market are considered a source of environmental pollution.\nStatement-II: Many chewing gums contain plastic as gum base.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+          "a) Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+          "b) Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+          "c) Statement-I is correct, but Statement-II is incorrect",
+          "d) Statement-I is incorrect, but Statement-II is correct"
+        ],
+        "correct_answer": "a) Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+        "explanation": "Modern chewing gums often contain synthetic polymers similar to plastics. These are non-biodegradable and persist in the environment, contributing to pollution. The presence of plastic base explains why chewing gum waste is problematic. Thus both statements are correct and the second explains the first.",
+        "elimination_logic": "Both statements are factually correct and directly linked. Statement II provides the reason for Statement I. Therefore options b, c and d are incorrect. Option a is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Artificial way of causing rainfall to reduce air pollution makes use of",
+        "options": [
+          "a) silver iodide and potassium iodide",
+          "b) silver nitrate and potassium iodide",
+          "c) silver iodide and potassium nitrate",
+          "d) silver nitrate and potassium chloride"
+        ],
+        "correct_answer": "a) silver iodide and potassium iodide",
+        "explanation": "Artificial rainfall or cloud seeding uses chemicals like silver iodide to act as nuclei for condensation. Potassium iodide is also used in similar processes. These substances help in cloud formation and precipitation, which can reduce air pollution by washing pollutants out of the atmosphere. Hence option a is correct.",
+        "elimination_logic": "Silver iodide is the key known agent for cloud seeding, so options without it can be eliminated. Potassium iodide is also used in such processes. Options involving nitrate or chloride are incorrect combinations. Therefore option a is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Activated carbon is a good and an attractive tool to remove pollutants from effluent streams and to remediate contaminants from various industries.\nStatement II: Activated carbon exhibits a large surface area and a strong potential for adsorbing heavy metals.\nStatement III: Activated carbon can be easily synthesized from environmental wastes with high carbon content.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+          "a) Both Statement II and Statement III are correct and both of them explain Statement I",
+          "b) Both Statement II and Statement III are correct but only one of them explains Statement I",
+          "c) Only one of the Statements II and III is correct and that explains Statement I",
+          "d) Neither Statement II nor Statement III is correct"
+        ],
+        "correct_answer": "a) Both Statement II and Statement III are correct and both of them explain Statement I",
+        "explanation": "Activated carbon is widely used in pollution control due to its high adsorption capacity. Its large surface area allows it to effectively capture contaminants including heavy metals. It can also be produced from carbon-rich waste materials, making it cost-effective and sustainable. Both these properties explain why it is widely used in effluent treatment. Hence both statements II and III correctly explain statement I.",
+        "elimination_logic": "Statements II and III both provide valid reasons for the effectiveness of activated carbon. Eliminating either would make the explanation incomplete. Options b and c fail to recognize both explanatory factors. Option d is incorrect as both statements are valid. Therefore option a is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nI. Cigarette butts\nII. Eyeglass lenses\nIII. Car tyres\nHow many of them contain plastic?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All the three",
+          "d) None"
+        ],
+        "correct_answer": "c) All the three",
+        "explanation": "Cigarette butts contain cellulose acetate, a type of plastic. Eyeglass lenses are often made of plastic polymers like polycarbonate. Car tyres also contain synthetic rubber and plastic-based materials. All three items therefore contain plastic components and contribute to environmental pollution. Hence all three are correct.",
+        "elimination_logic": "Each item listed has a well-known plastic component. Eliminating any one would ignore widely accepted material composition facts. Therefore options a and b are incomplete, and option d is incorrect. Only option c correctly includes all three."
       }
     ]
   }
