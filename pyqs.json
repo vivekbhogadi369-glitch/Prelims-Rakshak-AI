@@ -6488,7 +6488,72 @@
         "correct_answer": "c) 1 and 3 only",
         "explanation": "Nitrogen enters soil through organic processes. Excretion of urea adds nitrogen which is converted by microbes. Dead vegetation decomposes and releases nitrogen compounds. Burning of coal releases nitrogen oxides into atmosphere but does not directly enrich soil nitrogen. Hence only 1 and 3 contribute to soil nitrogen enrichment.",
         "elimination_logic": "Coal burning leads to atmospheric pollution, not soil enrichment, eliminate 2. Urea adds nitrogen through decomposition. Vegetation decay also contributes nitrogen. Options including 2 are incorrect. Hence only 1 and 3 remain, making option c correct."
+      },
+      {
+        "year": 2013,
+        "question": "With reference to food chains in ecosystems, consider the following statements:\n1. A food chain illustrates the order in which a chain of organisms feed upon each other.\n2. Food chains are found within the population of a species.\n3. A food chain illustrates the numbers of each organism which are eaten by others.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 1 and 2 only",
+          "c) 1, 2 and 3",
+          "d) None"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "A food chain represents the linear sequence of organisms through which energy flows in an ecosystem. It shows who eats whom, beginning from producers to consumers. Food chains exist across species, not within a single species population. The number of organisms at each level is represented by ecological pyramids, not food chains. Hence only statement 1 is correct.",
+        "elimination_logic": "Statement 2 is incorrect because food chains involve multiple species, not a single population. Statement 3 is incorrect because numbers are represented by pyramids, not food chains. Only statement 1 correctly defines a food chain. Hence option a is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Lichens, which are capable of initiating ecological succession even on a bare rock, are actually a symbiotic association of:",
+        "options": [
+          "a) Algae and bacteria",
+          "b) Algae and fungi",
+          "c) Bacteria and fungi",
+          "d) Fungi and mosses"
+        ],
+        "correct_answer": "b) Algae and fungi",
+        "explanation": "Lichens are symbiotic associations between algae (or cyanobacteria) and fungi. The algal component performs photosynthesis and provides food, while the fungal component provides protection and absorbs water and minerals. This mutual relationship allows lichens to survive in harsh environments like bare rocks. They are pioneer species in ecological succession. Hence algae and fungi combination is correct.",
+        "elimination_logic": "Algae with bacteria is not the standard lichen association, eliminate a. Bacteria and fungi do not form lichens, eliminate c. Mosses are independent plants, not part of lichen symbiosis, eliminate d. Only algae and fungi form lichens. Hence option b is correct."
+      },
+      {
+        "year": 2015,
+        "question": "Which one of the following is the best description of the term ‘ecosystem’?",
+        "options": [
+          "a) A community of organisms interacting with one another",
+          "b) That part of the Earth which is inhabited by living organisms",
+          "c) A community of organisms together with the environment in which they live.",
+          "d) The flora and fauna of a geographical area."
+        ],
+        "correct_answer": "c) A community of organisms together with the environment in which they live.",
+        "explanation": "An ecosystem includes both biotic (living organisms) and abiotic (physical environment) components interacting together. It is a functional unit where energy flows and nutrients cycle. Option a only considers organisms and misses environment. Option b defines biosphere, not ecosystem. Option d is incomplete as it excludes abiotic factors. Hence option c is correct.",
+        "elimination_logic": "Option a ignores abiotic components, eliminate. Option b refers to biosphere, not ecosystem, eliminate. Option d only lists flora and fauna, not environment, eliminate. Only option c includes both organisms and environment. Hence c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Which of the following have species that can establish symbiotic relationship with other organisms?\n1) Cnidarians\n2) Fungi\n3) Protozoa",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Symbiotic relationships are widespread across many organisms. Cnidarians like corals form symbiosis with zooxanthellae algae. Fungi form symbiotic associations such as lichens and mycorrhiza. Protozoa also engage in mutualistic relationships in various ecosystems. Hence all three groups are capable of symbiosis.",
+        "elimination_logic": "Cnidarians form coral-algae symbiosis, so cannot eliminate 1. Fungi are well-known for symbiosis, so cannot eliminate 2. Protozoa also form mutualistic relationships, so cannot eliminate 3. Since all are correct, only option d remains. Hence d is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Which of the following are detritivores?\n1) Earthworms\n2) Jellyfish\n3) Millipedes\n4) Seahorses\n5) Woodlice",
+        "options": [
+          "a) 1, 2 & 4 only",
+          "b) 2, 3, 4 & 5 only",
+          "c) 1, 3 & 5 only",
+          "d) 1, 2, 3, 4 & 5"
+        ],
+        "correct_answer": "c) 1, 3 & 5 only",
+        "explanation": "Detritivores feed on dead organic matter and help in decomposition. Earthworms, millipedes and woodlice consume detritus and contribute to nutrient cycling. Jellyfish are carnivorous marine organisms and seahorses feed on small aquatic animals. Thus only 1, 3 and 5 are detritivores.",
+        "elimination_logic": "Jellyfish are predators, not detritivores, eliminate 2. Seahorses feed on small fish and plankton, eliminate 4. Earthworms, millipedes and woodlice are classic detritivores. Hence only 1, 3 and 5 remain. Option c is correct."
       }
     ]
   }
-}
+      }
