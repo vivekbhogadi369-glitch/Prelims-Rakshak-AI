@@ -6893,6 +6893,136 @@
         "correct_answer": "a) 1 and 2 only",
         "explanation": "Kharai camel is a unique breed found in Gujarat. It can swim in seawater and feeds on mangroves. However, it is domesticated and used by local communities. Hence statements 1 and 2 are correct, while 3 is incorrect.",
         "elimination_logic": "Statement 3 is incorrect because Kharai camel is domesticated. Statements 1 and 2 are unique traits and correct. Eliminating 3 removes options b, c and d. Hence option a is correct."
+      },
+      {
+        "year": 2017,
+        "question": "If you want to see gharials in their natural habitat, which one of the following is the best place to visit?",
+        "options": [
+          "a) Bhitarkanika Mangroves",
+          "b) Chambal River",
+          "c) Pulicat Lake",
+          "d) Deepor Beel"
+        ],
+        "correct_answer": "b) Chambal River",
+        "explanation": "Gharial is a critically endangered crocodilian species found in freshwater river systems. The Chambal River is one of the last strongholds of gharial population in India. It provides clean water and suitable breeding habitat. Other options represent coastal or wetland ecosystems not suitable for gharials. Hence Chambal River is the correct answer.",
+        "elimination_logic": "Bhitarkanika is mangrove and saline ecosystem, unsuitable for gharials. Pulicat Lake is a brackish lagoon and Deepor Beel is a wetland. Gharials prefer deep freshwater rivers with sandy banks. Chambal is the classic UPSC location. Hence option b is correct."
+      },
+      {
+        "year": 2017,
+        "question": "Due to some reasons, if there is a huge fall in the population of species of butterflies, what could be its likely consequence/consequences?\n1. Pollination of some plants could be adversely affected.\n2. There could be a drastic increase in the fungal infections of some cultivated plants.\n3. It could lead to a fall in the population of some species of wasps, spiders and birds.\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Butterflies are important pollinators, so their decline would negatively affect pollination of certain plants. They are also part of food chains, serving as prey for birds, spiders and some insects. Hence their decline can affect higher trophic levels. However, fungal infections are not directly linked to butterfly population decline. Therefore statements 1 and 3 are correct.",
+        "elimination_logic": "Statement 2 is unrelated because fungal infections are not dependent on butterflies. Statements 1 and 3 are ecologically valid and must be retained. Eliminating 2 removes options b and d. Option a is incomplete. Hence option c is correct."
+      },
+      {
+        "year": 2017,
+        "question": "From the ecological point of view, which one of the following assumes importance in being a good link between the Eastern Ghats and the Western Ghats?",
+        "options": [
+          "a) Sathyamangalam Tiger Reserve",
+          "b) Nallamala Forest",
+          "c) Nagarhole National Park",
+          "d) Seshachalam Biosphere Reserve"
+        ],
+        "correct_answer": "a) Sathyamangalam Tiger Reserve",
+        "explanation": "Sathyamangalam Tiger Reserve forms an important ecological corridor connecting Eastern and Western Ghats. It facilitates movement of wildlife, especially large mammals like elephants and tigers. Such corridors are critical for gene flow and biodiversity conservation. Hence it is considered a vital ecological link.",
+        "elimination_logic": "Nallamala and Seshachalam are located in Eastern Ghats but do not connect to Western Ghats. Nagarhole is within Western Ghats and not a connecting corridor. Sathyamangalam uniquely connects both ranges. Hence option a is correct."
+      },
+      {
+        "year": 2018,
+        "question": "Which of the following leaf modifications occur(s) in the desert areas to inhibit water loss?\n1. Hard and waxy leaves\n2. Tiny leaves\n3. Thorns instead of leaves\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 2 and 3 only",
+          "b) 2 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Plants in desert environments adapt to minimize water loss. Hard and waxy leaves reduce transpiration. Tiny leaves reduce surface area for evaporation. Conversion of leaves into thorns further reduces water loss and protects against herbivory. Hence all three modifications are correct.",
+        "elimination_logic": "All three adaptations directly reduce transpiration and are standard xerophytic features. Eliminating any of them would ignore known desert adaptations. Hence options a, b and c are incomplete. Option d includes all correct adaptations. Therefore option d is correct."
+      },
+      {
+        "year": 2018,
+        "question": "Why is a plant called Prosopis juliflora often mentioned in news?",
+        "options": [
+          "a) Its extract is widely used in cosmetics.",
+          "b) It tends to reduce the widely biodiversity in the area in which it grows.",
+          "c) Its extract is used in the synthesis of pesticides.",
+          "d) None of the above"
+        ],
+        "correct_answer": "b) It tends to reduce the widely biodiversity in the area in which it grows.",
+        "explanation": "Prosopis juliflora is an invasive alien species in India. It spreads aggressively and suppresses native vegetation. This leads to reduction in biodiversity and alters ecosystem structure. Hence it is often discussed in environmental issues.",
+        "elimination_logic": "Options a and c are not the primary reason for its mention in news. The key issue is its invasive nature and ecological damage. Option d is incorrect because a correct reason exists. Hence option b is correct."
+      },
+      {
+        "year": 2018,
+        "question": "Consider the following statements:\n1. Most of the world’s coral reefs are in tropical waters.\n2. More than one-third of the world’s coral reefs are located in the territories of Australia, Indonesia, and Philippines.\n3. Coral reefs host far more number of animal phyla than those hosted by tropical rainforests.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Coral reefs are predominantly found in warm tropical waters where conditions support reef-building corals. A significant proportion of global coral reefs are concentrated in the Indo-Pacific region including Australia, Indonesia and Philippines. Coral reefs are among the most biodiverse ecosystems and host a wide variety of animal phyla. Hence all three statements are correct.",
+        "elimination_logic": "Statement 1 is a basic fact and must be retained. Statement 2 reflects Indo-Pacific concentration of reefs and is correct. Statement 3 highlights biodiversity richness of reefs and is also correct. Eliminating any statement leads to incomplete answer. Hence option d is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Recently, there was a growing awareness in our country about the importance of Himalayan nettle (Girardinia diversifolia) because it is found to be a sustainable source of:",
+        "options": [
+          "a) Anti-malarial drug",
+          "b) Biodiesel",
+          "c) Pulp for paper industry",
+          "d) Textile fibre"
+        ],
+        "correct_answer": "d) Textile fibre",
+        "explanation": "Himalayan nettle is known for producing strong natural fibres. It has been traditionally used by local communities for making textiles. Recently, its eco-friendly fibre potential has gained attention. Hence it is recognized as a sustainable textile fibre source.",
+        "elimination_logic": "It is not associated with drugs or biodiesel production. Paper pulp is also not the primary highlighted use. Textile fibre is the key recognized application. Hence eliminate a, b and c. Option d is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following pairs:\nWildlife: Naturally found in\n1. Blue-finned Mahseer: Cauvery River\n2. Irrawaddy Dolphin: Chambal River\n3. Rusty-spotted Cat: Eastern Ghats\nWhich of the pairs given correctly matched?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Blue-finned Mahseer is found in the Cauvery River system. Irrawaddy dolphin is found in coastal and estuarine waters, not Chambal River. Rusty-spotted cat is found in forest regions including Eastern Ghats. Hence pairs 1 and 3 are correct.",
+        "elimination_logic": "Pair 2 is incorrect because Chambal hosts Gangetic dolphin, not Irrawaddy dolphin. Pair 1 is correct and pair 3 is also correct. Eliminating 2 removes options a, b and d. Hence option c is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following pairs:\n1. Asiatic lion is naturally found in India only.\n2. Double-humped camel is naturally found in India only.\n3. One-horned rhinoceros is naturally found in India only.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Asiatic lion is found only in India in the Gir region. Double-humped camel is also found in Central Asia, not only India. One-horned rhinoceros is found in Nepal as well as India. Hence only statement 1 is correct.",
+        "elimination_logic": "Statement 2 is incorrect because Bactrian camel is found outside India. Statement 3 is incorrect because rhino exists in Nepal also. Only statement 1 is exclusively Indian. Hence eliminate b, c and d. Option a is correct."
+      },
+      {
+        "year": 2019,
+        "question": "Which one of the following groups of plants was domesticated in the ‘New World’ and introduced into the ‘Old World’?",
+        "options": [
+          "a) Tobacco, cocoa, and rubber",
+          "b) Tobacco, cotton, and rubber",
+          "c) Cotton, coffee, and sugarcane",
+          "d) Rubber, coffee, and wheat"
+        ],
+        "correct_answer": "a) Tobacco, cocoa, and rubber",
+        "explanation": "The New World refers to the Americas. Crops like tobacco, cocoa and rubber originated in the Americas and were later introduced to the Old World. Cotton, coffee and wheat have different origins. Hence the correct answer is tobacco, cocoa and rubber.",
+        "elimination_logic": "Coffee and wheat are Old World crops, so eliminate c and d. Cotton has Old World origins in some varieties, making option b incorrect. Tobacco, cocoa and rubber are classic New World crops. Hence option a is correct."
       }
     ]
   }
