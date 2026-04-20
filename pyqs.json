@@ -7140,6 +7140,227 @@
         "correct_answer": "c) Lemon grass",
         "explanation": "Lemongrass contains citronella oil, which is widely used as a natural mosquito repellent. It is commonly used in oils, sprays and herbal products. The other grasses listed do not have this property. Hence lemon grass is the correct answer.",
         "elimination_logic": "Citronella is the key clue which is derived from lemongrass. Other grasses do not produce mosquito-repellent compounds. Hence eliminate a, b and d. Option c is correct."
+      },
+      {
+        "year": 2021,
+        "question": "Consider the following animals:\n1) Hedgehog\n2) Marmot\n3) Pangolin\nTo reduce the chance of being captured by predators which of the above organisms rolls up/roll up and protects/protect its/their vulnerable parts?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 3 only",
+          "d) 1 and 3"
+        ],
+        "correct_answer": "d) 1 and 3",
+        "explanation": "Hedgehogs and pangolins use rolling behavior as a defensive mechanism against predators. Hedgehogs curl into a ball exposing their spines outward. Pangolins also roll up, using their hard scales as protection. Marmots do not exhibit this rolling defensive behavior and instead rely on burrows and vigilance. Hence statements 1 and 3 are correct.",
+        "elimination_logic": "Marmot is the key eliminator as it does not roll for defense. Hedgehog and pangolin are textbook examples of rolling defense mechanisms. Eliminating 2 removes options a and b. Option c is incomplete as it excludes hedgehog. Hence option d is correct."
+      },
+      {
+        "year": 2022,
+        "question": "Bio rock technology” is talked about in which one of the following situations?",
+        "options": [
+          "a) Restoration of damaged coral reefs",
+          "b) Development of building materials using plant residues",
+          "c) Identification of areas for exploration/extraction of shale gas",
+          "d) Providing salt licks for wild animals in forests/protected areas"
+        ],
+        "correct_answer": "a) Restoration of damaged coral reefs",
+        "explanation": "Biorock technology is used in coral reef restoration by enhancing mineral accretion through electric currents. It helps in faster coral growth and reef regeneration. This technique is increasingly used in marine conservation projects. Hence it is associated with coral reef restoration.",
+        "elimination_logic": "Options b, c and d relate to unrelated domains like construction, energy and wildlife feeding. Biorock is specifically linked with marine ecosystem restoration. Hence eliminate b, c and d. Option a is correct."
+      },
+      {
+        "year": 2022,
+        "question": "Which of the following is not a bird?",
+        "options": [
+          "a) Golden Mahseer",
+          "b) Indian Nightjar",
+          "c) Spoonbill",
+          "d) White Ibis"
+        ],
+        "correct_answer": "a) Golden Mahseer",
+        "explanation": "Golden Mahseer is a freshwater fish species found in Himalayan rivers. Indian Nightjar, Spoonbill and White Ibis are all bird species. Hence Golden Mahseer is not a bird.",
+        "elimination_logic": "Nightjar, Spoonbill and Ibis are clearly birds. Mahseer is a fish, making it the only non-bird option. Hence eliminate b, c and d. Option a is correct."
+      },
+      {
+        "year": 2022,
+        "question": "With reference to “Gucchi” sometimes mentioned in the news, consider the following statements:\n1. It is a fungus.\n2. It grows in some Himalayan Forest areas.\n3. It is commercially cultivated in the Himalayan foothills of north-eastern India.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 3 only",
+          "c) 1 and 2",
+          "d) 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 2",
+        "explanation": "Gucchi refers to morel mushrooms, which are fungi found in Himalayan regions. They grow naturally in forest areas and are highly valued. They are not commercially cultivated on a large scale as they are difficult to grow artificially. Hence statements 1 and 2 are correct while 3 is incorrect.",
+        "elimination_logic": "Statement 3 is incorrect because gucchi is not widely cultivated commercially. Statements 1 and 2 are factual and correct. Eliminating 3 removes options b and d. Option a is incomplete. Hence option c is correct."
+      },
+      {
+        "year": 2022,
+        "question": "Certain species of which one of the following organisms are well known as cultivators of fungi?",
+        "options": [
+          "a) Ant",
+          "b) Cockroach",
+          "c) Crab",
+          "d) Spider"
+        ],
+        "correct_answer": "a) Ant",
+        "explanation": "Certain species of ants, especially leaf-cutter ants, cultivate fungi as a food source. They actively farm fungal colonies using plant material. This is a well-known example of mutualism in ecology. Hence ants are correct.",
+        "elimination_logic": "Cockroach, crab and spider do not exhibit systematic fungal cultivation. Ants are the classic example of insect agriculture. Hence eliminate b, c and d. Option a is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements regarding the Indian squirrels:\n1. They build nests by making burrows in the ground.\n2. They store their food materials like nuts and seeds in the ground.\n3. They are omnivorous.\nHow many of the above statements are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "b) Only two",
+        "explanation": "Indian squirrels generally build nests in trees rather than burrows, making statement 1 incorrect. They store food like nuts and seeds, so statement 2 is correct. They are omnivorous and consume both plant and animal matter, making statement 3 correct. Hence two statements are correct.",
+        "elimination_logic": "Statement 1 is incorrect because squirrels are arboreal nest builders. Statements 2 and 3 are correct ecological traits. Eliminating 1 removes options c and d. Option a is incomplete. Hence option b is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following Fauna:\n1. Lion-tailed Macaque\n2. Malabar Civet\n3. Sambar Deer\nHow many of the above are generally nocturnal or most active after sunset?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "a) Only one",
+        "explanation": "Malabar civet is a nocturnal animal active mainly at night. Lion-tailed macaque is diurnal and active during daytime. Sambar deer is largely crepuscular but not strictly nocturnal in the standard UPSC framing. Hence only one species fits the description.",
+        "elimination_logic": "Lion-tailed macaque is clearly diurnal, eliminating it. Sambar deer is not strictly nocturnal in exam context. Malabar civet is the correct nocturnal species. Hence only one is correct. Option a is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\nStatement-I\nMarsupials are not naturally found in India.\nStatement-II\nMarsupials can thrive only in Montane grasslands with no predators.\nWhich of the following is correct in respect of the above statements?",
+        "options": [
+          "a) Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+          "b) Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I",
+          "c) Statement-I is correct but Statement-II is incorrect",
+          "d) Statement-I is incorrect but Statement-II is correct"
+        ],
+        "correct_answer": "c) Statement-I is correct but Statement-II is incorrect",
+        "explanation": "Marsupials are not naturally found in India and are mainly native to Australia and nearby regions. However, they are not restricted only to montane grasslands and can thrive in diverse habitats. Hence Statement I is correct and Statement II is incorrect.",
+        "elimination_logic": "Statement II is clearly restrictive and incorrect. Statement I is factual and correct. Hence options a and b are eliminated. Option d is also incorrect. Only option c fits. Hence option c is correct."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following trees:\n1. Jackfruit (Artocarpus heterophyllus)\n2. Mahua (Madhuca indica)\n3. Teak (Tectona grandis)\nHow many of the above are deciduous trees?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "b) Only two",
+        "explanation": "Mahua and teak are deciduous trees that shed leaves seasonally. Jackfruit is generally an evergreen tree. Hence two out of the three are deciduous.",
+        "elimination_logic": "Jackfruit is the key eliminator as it is not deciduous. Mahua and teak are well-known deciduous species. Hence eliminate options a, c and d. Option b is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following:\n1. Cashew\n2. Papaya\n3. Red sanders\nHow many of the above trees are actually native to India?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "a) Only one",
+        "explanation": "Red sanders is native to India. Cashew and papaya were introduced from the Americas. Hence only one of the listed trees is native to India.",
+        "elimination_logic": "Cashew and papaya are known Portuguese introductions. Red sanders is endemic to India. Hence only one is correct. Option a is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following:\n1. Butterflies\n2. Fish\n3. Frogs\nHow many of the above have poisonous species among them?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "c) All three",
+        "explanation": "Poisonous species exist among butterflies (toxic chemicals), fish (poisonous species like pufferfish) and frogs (poison dart frogs). Each group includes species with toxic or poisonous traits. Hence all three are correct.",
+        "elimination_logic": "Each category has known poisonous representatives. Eliminating any group would ignore established biological examples. Hence all three are correct. Option c is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following statements:\n1. Lions do not have a particular breeding season\n2. Unlike most other big cats, cheetahs do not roar\n3. Unlike male lions, male leopards do not proclaim their territory by scent marking\nWhich of the statements given above are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "Lions can breed throughout the year, so statement 1 is correct. Cheetahs do not roar unlike lions and tigers, making statement 2 correct. Leopards do mark territory using scent, so statement 3 is incorrect. Hence 1 and 2 are correct.",
+        "elimination_logic": "Statement 3 is incorrect because leopards do scent marking. Statements 1 and 2 are correct. Eliminating 3 removes options b, c and d. Hence option a is correct."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following statements:\nCountry – Animal found in its natural habitat\n1. Brazil – Indri\n2. Indonesia – Elk\n3. Madagascar – Bonobo\nHow many of the pairs given above are correctly matched?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "d) None",
+        "explanation": "Indri is found in Madagascar, not Brazil. Elk is found in North America and parts of Eurasia, not Indonesia. Bonobo is found in Congo region, not Madagascar. Hence none of the pairs are correct.",
+        "elimination_logic": "All three pairs are mismatched with incorrect geographic associations. Eliminating each pair leads to zero correct matches. Hence option d is correct."
+      },
+      {
+        "year": 2024,
+        "question": "The organisms “Cicada, Froghopper and Pond skater” are:",
+        "options": [
+          "a) Birds",
+          "b) Fish",
+          "c) Insects",
+          "d) Reptiles"
+        ],
+        "correct_answer": "c) Insects",
+        "explanation": "Cicada, froghopper and pond skater are all insects belonging to different orders. They are commonly found in terrestrial and freshwater environments. Hence they are classified as insects.",
+        "elimination_logic": "These organisms are clearly not vertebrates. They belong to insect group based on morphology and classification. Hence eliminate a, b and d. Option c is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following fruits:\nI. Papaya\nII. Pineapple\nIII. Guava\nHow many of the above were introduced in India by the Portuguese in the sixteenth and seventeenth centuries?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All the three",
+          "d) None"
+        ],
+        "correct_answer": "c) All the three",
+        "explanation": "Papaya, pineapple and guava are all New World crops introduced to India by the Portuguese during the colonial period. They originated in the Americas. Their introduction significantly influenced Indian agriculture. Hence all three are correct.",
+        "elimination_logic": "All three are known Portuguese introductions. Eliminating any would be incorrect. Hence option c is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following pairs:\nPlant – Description\nI. Cassava: Woody shrub\nII. Ginger: Herb with pseudostem\nIII. Malabar spinach: Herbaceous climber\nIV. Mint: Annual shrub\nV. Papaya: Woody shrub\nHow many of the above pairs are correctly matched?",
+        "options": [
+          "a) Only two",
+          "b) Only three",
+          "c) Only four",
+          "d) All the five"
+        ],
+        "correct_answer": "b) Only three",
+        "explanation": "Cassava is a woody shrub, ginger is a herb with pseudostem and Malabar spinach is a climber. Mint is not a woody shrub and papaya is a herbaceous plant, not woody. Hence three pairs are correct.",
+        "elimination_logic": "Mint and papaya are the incorrect matches. Cassava, ginger and Malabar spinach are correct. Eliminating wrong pairs leads to three correct matches. Hence option b is correct."
+      },
+      {
+        "year": 2025,
+        "question": "Regarding Peacock tarantula (Gooty tarantula), consider the following statements:\nI. It is an omnivorous crustacean.\nII. Its natural habitat in India is only limited to some forest areas.\nIII. In its natural habitat, it is an arboreal species.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) I only",
+          "b) I and III",
+          "c) II only",
+          "d) II and III"
+        ],
+        "correct_answer": "d) II and III",
+        "explanation": "Peacock tarantula is a spider, not a crustacean, so statement I is incorrect. It is endemic to limited forest areas in India, making statement II correct. It is arboreal, living on trees, making statement III correct. Hence II and III are correct.",
+        "elimination_logic": "Statement I is incorrect due to wrong classification. Statements II and III are factual. Eliminating I removes options a and b. Option c is incomplete. Hence option d is correct."
       }
     ]
   }
