@@ -6632,6 +6632,138 @@
         "explanation": "Fig species are famous for their highly specialized mutualistic relationship with fig wasps. In many cases, a particular fig species is pollinated by a corresponding wasp species that has co-evolved with it. This is one of the most cited examples of co-evolution and obligate pollination mutualism in ecology. The other trees listed do not show such a classic one-to-one obligate pollinator relationship in standard ecological literature. Hence fig is the correct answer.",
         "elimination_logic": "Mahua is pollinated by a range of agents and does not fit the strict co-evolved exclusive pollinator model, so eliminate b. Sandalwood is better known for its hemi-parasitic root relationship rather than an exclusive insect pollinator, so eliminate c. Silk cotton also does not represent the standard co-evolved single-insect pollination example, so eliminate d. Fig with fig wasp is the textbook ecological example. Therefore option a is correct."
       }
+    ],
+    "Biodiversity": [
+      {
+        "year": 2013,
+        "question": "Consider the following:\n1. Star tortoise\n2. Monitor lizard\n3. Pygmy hog\n4. Spider monkey\nWhich of the above are naturally found in India?",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2 and 3 only",
+          "c) 1 and 4 only",
+          "d) 1, 2, 3, and 4"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "Star tortoise is naturally found in India, especially in dry regions of the subcontinent.\nMonitor lizard species are also naturally present in India and are part of native reptilian fauna.\nPygmy hog is an Indian species associated especially with Assam grasslands and is one of the country’s rarest mammals.\nSpider monkey, however, is a New World primate found in Central and South America, not in India.\nTherefore, the naturally found species in India among the given list are 1, 2 and 3 only.",
+        "elimination_logic": "The decisive eliminator is spider monkey because it is not an Indian species at all and belongs to the New World.\nOnce 4 is removed, option d automatically collapses.\nOption b becomes incorrect because it wrongly excludes star tortoise, which is definitely native to India.\nOption c becomes incorrect because it includes spider monkey and excludes pygmy hog.\nThus only option a survives after proper species-origin elimination."
+      },
+      {
+        "year": 2013,
+        "question": "In which of the following states is lion-tailed macaque found in its natural Habitat?\n1. Tamil Nadu\n2. Kerala\n3. Karnataka\n4. Andhra Pradesh\nSelect the correct answer using the codes given below.",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2 only",
+          "c) 1, 3 and 4 only",
+          "d) 1, 2, 3, and 4"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "The lion-tailed macaque is an endemic primate of the Western Ghats.\nIts natural distribution includes forested tracts of Kerala, Tamil Nadu and Karnataka.\nIt is especially associated with evergreen and semi-evergreen forests of the southern Western Ghats.\nIt is not naturally found in Andhra Pradesh in the accepted UPSC habitat sense.\nHence the correct combination is 1, 2 and 3 only.",
+        "elimination_logic": "The main trap is Andhra Pradesh, which may appear tempting because of general South India association.\nHowever, the species is specifically tied to the Western Ghats belt, which runs through Kerala, Tamil Nadu and Karnataka.\nOnce 4 is rejected, options c and d are eliminated immediately.\nOption b is too narrow because the species is not limited to Kerala alone.\nTherefore option a is the only correct answer."
+      },
+      {
+        "year": 2013,
+        "question": "Consider the following fauna of India___:\n1. Gharial\n2. Leatherback turtle\n3. Swamp deer\nWhich among the above is / are endangered?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 Only",
+          "c) 1, 2 & 3",
+          "d) None"
+        ],
+        "correct_answer": "c) 1, 2 & 3",
+        "explanation": "Gharial is a threatened reptile and has long been treated as an endangered conservation concern in India.\nLeatherback turtle is also a globally threatened marine reptile and conservation priority species.\nSwamp deer too has been treated as a species under significant conservation concern, especially in India’s protected habitats.\nUPSC here expects recognition of all three as endangered in the conventional exam framework.\nTherefore, all three given fauna are covered under the correct answer.",
+        "elimination_logic": "If one excludes swamp deer, option a becomes attractive, but that would be incomplete in UPSC’s accepted framing.\nOption b is far too narrow because it leaves out two clearly threatened species.\nOption d is plainly untenable because at least gharial and leatherback turtle are definitely endangered.\nThe safe approach is to identify that all three are conservation-priority endangered fauna in the exam context.\nHence option c is the correct answer."
+      },
+      {
+        "year": 2013,
+        "question": "Consider the following pairs:\n1. Nokrek biosphere reserve: Garo Hills\n2. Logtak (Loktak) lake: Bakail Range\n3. Namdapha national park: Dafla Hills\nWhich of the above pairs is/are correctly matched?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1, 2 and 3",
+          "d) None"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Nokrek Biosphere Reserve is correctly associated with the Garo Hills of Meghalaya.\nLoktak Lake is in Manipur and is not correctly matched with Bakail Range in the given manner.\nNamdapha National Park is in Arunachal Pradesh but not in the Dafla Hills.\nThus only the first pair is correctly matched.\nTherefore the correct answer is 1 only.",
+        "elimination_logic": "Pair 1 is a standard factual match and should be retained.\nPair 2 is incorrect because Loktak Lake is associated with Manipur’s valley-lake system, not the stated range.\nPair 3 is also incorrect because Namdapha is in eastern Arunachal Pradesh and not in Dafla Hills.\nOnce 2 and 3 are rejected, options b and c fail automatically.\nThus option a is the only valid answer."
+      },
+      {
+        "year": 2013,
+        "question": "Consider the following pairs:\nNational Park: River flowering through the park\n1. Corbett national park: Ganga\n2. Kaziranga national park: Manas\n3. Silent valley national park: Kaveri\nWhich of the above pairs is/are correctly matched?",
+        "options": [
+          "a) 1 and 2",
+          "b) 3 only",
+          "c) 1 and 3",
+          "d) None"
+        ],
+        "correct_answer": "d) None",
+        "explanation": "Corbett National Park is associated with the Ramganga River, not the Ganga.\nKaziranga National Park is associated with the Brahmaputra floodplain, not the Manas River.\nSilent Valley National Park is associated with the Kunthipuzha River, not the Kaveri.\nHence none of the listed pairs are correctly matched.\nTherefore the correct answer is none.",
+        "elimination_logic": "The first pair fails because Corbett’s principal river is Ramganga, not Ganga.\nThe second pair fails because Kaziranga is not traversed by the Manas River.\nThe third pair fails because Silent Valley is linked with Kunthipuzha, not Kaveri.\nSince all three pairs are wrong, all options containing any correct pair become invalid.\nThat leaves option d as the only defensible answer."
+      },
+      {
+        "year": 2014,
+        "question": "Which of the following have coral reefs?\n1. Andaman and Nicobar Islands\n2. Gulf of Kachchh\n3. Gulf of Mannar \n4. Sundarbans\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1, 2 and 3 only",
+          "b) 2 and 4 only",
+          "c) 1 and 3 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "a) 1, 2 and 3 only",
+        "explanation": "India’s major coral reef regions include Andaman and Nicobar Islands, Gulf of Kachchh and Gulf of Mannar.\nThese are repeatedly cited in Indian geography and environment sections as standard reef locations.\nSundarbans is a mangrove-dominated deltaic ecosystem rather than a coral reef region.\nSo the first three are correct, while the fourth is not.\nHence the correct answer is 1, 2 and 3 only.",
+        "elimination_logic": "Sundarbans is the key trap here because students may confuse all coastal biodiversity hotspots.\nOnce Sundarbans is rejected, option d automatically collapses.\nOption b is incorrect because it excludes two major reef regions and includes Sundarbans wrongly.\nOption c is incomplete because Gulf of Kachchh is definitely a coral reef area.\nTherefore option a is the only correct answer."
+      },
+      {
+        "year": 2014,
+        "question": "If you walk through countryside, you are likely to see some birds stalking alongside the cattle to seize the insects disturbed by their movement through grasses. Which one of the following is/are such bird/birds?\n1. Painted Stork\n2. Common Myna\n3. Black-necked Crane\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 2 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "The Common Myna is well known for opportunistically feeding on insects disturbed by grazing cattle.\nThis behavior is commonly observed in rural landscapes and open fields.\nPainted Stork is primarily a wetland bird and not known for this cattle-following insect-catching behavior in the same sense.\nBlack-necked Crane is also not the correct countryside bird in this context.\nHence only Common Myna fits the description.",
+        "elimination_logic": "Painted Stork can be eliminated because it is strongly associated with wetlands and fish/amphibian feeding behavior.\nBlack-necked Crane is also not the standard bird that follows cattle in Indian countryside.\nCommon Myna is the textbook and field-observed example of this insect-seizing behavior.\nThus options a, c and d become invalid.\nOnly option b survives as the correct answer."
+      },
+      {
+        "year": 2014,
+        "question": "Other than poaching, what are the possible reasons for the decline in the population of Gangas River Dolphins?\n1. Construction of dams and barrages on rivers\n2. Increase in the population of crocodiles in rivers.\n3. Getting trapped in fishing nets accidentally\n4. Use of synthetic fertilizers and other agricultural chemicals in crop-fields in the vicinity of rivers\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1, 3 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "c) 1, 3 and 4 only",
+        "explanation": "Gangetic river dolphins decline due to habitat fragmentation caused by dams and barrages.\nAccidental entanglement in fishing nets is also a major anthropogenic threat.\nRiver pollution from agricultural chemicals affects water quality and prey base, contributing to decline.\nIncrease in crocodile population is not treated as a standard primary reason in this context.\nHence statements 1, 3 and 4 are correct.",
+        "elimination_logic": "Statement 2 is the weak link because crocodile increase is not the accepted major factor behind Gangetic dolphin decline.\nStatements 1, 3 and 4 are all well-established threats and must be retained.\nOnce 2 is eliminated, options a, b and d collapse.\nOption c alone contains the correct combination.\nTherefore option c is correct."
+      },
+      {
+        "year": 2014,
+        "question": "With reference to Neem tree, consider the following statements:\n1. Neem oil can be used as a pesticide to control the proliferation of some species of insects and mites.\n2. Neem seeds are used in the manufacture of biofuels and hospital detergents.\n3. Neem oil has applications in pharmaceutical industry.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "Neem oil is widely known for its biopesticidal use and is effective against several insects and mites.\nNeem and its derivatives also have recognized medicinal and pharmaceutical applications.\nThe statement about neem seeds being used in the manufacture of biofuels and hospital detergents is not accepted in the UPSC key for this question.\nThus statements 1 and 3 are correct, while 2 is incorrect.\nHence the correct answer is 1 and 3 only.",
+        "elimination_logic": "Statement 1 is a standard fact and should be retained.\nStatement 3 is also correct because neem products have medicinal and pharmaceutical relevance.\nStatement 2 is the trap and must be rejected as framed in this exam context.\nOnce 2 is eliminated, options a and d collapse, and b becomes too narrow.\nTherefore option c is correct."
+      },
+      {
+        "year": 2014,
+        "question": "In India, cluster bean (Guar) is traditionally used as a vegetable or animal feed, but recently the cultivation of this has assumed significance. Which one of the following statements is correct in this context?",
+        "options": [
+          "a) The oil extracted from seeds is used in the manufacture of biodegradable plastics.",
+          "b) The gum made from its seeds is used in the extraction of shale gas",
+          "c) The leaf extract of this plant has the properties of anti-histamines.",
+          "d) It is a source of high-quality biodiesel."
+        ],
+        "correct_answer": "b) The gum made from its seeds is used in the extraction of shale gas",
+        "explanation": "Guar gum derived from cluster bean seeds has become commercially important because of its use in hydraulic fracturing.\nIt is used as a thickening and stabilizing agent in shale gas extraction processes.\nThis industrial relevance greatly increased the economic significance of guar cultivation in India.\nThe other listed uses are not the accepted reason in this UPSC context.\nTherefore the correct answer is the shale gas extraction application.",
+        "elimination_logic": "Option a is not the standard high-profile reason behind guar’s sudden significance, so it is eliminated.\nOption c is not the accepted industrial relevance tested here.\nOption d is also incorrect because guar is not primarily highlighted as a biodiesel source.\nOption b directly matches the globally discussed use of guar gum in shale gas extraction.\nHence option b is correct."
+      }
     ]
   }
-      }
+  }
