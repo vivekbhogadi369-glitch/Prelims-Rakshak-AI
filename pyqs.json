@@ -8445,6 +8445,501 @@
         "explanation": "Circular economy minimizes resource extraction and waste generation, thereby reducing emissions across the lifecycle. Both reduced raw material use and reduced waste contribute to lower greenhouse gas emissions. Hence both II and III explain I.",
         "elimination_logic": "Both statements II and III directly contribute to emission reduction. Eliminating either would weaken the causal explanation. Hence option a."
       }
+    ],
+    "Conservation Efforts": [
+        "year": 2014,
+        "question": "What are the benefits of implementing the ‘Integrated Watershed Development Programme?\n1. Prevention of soil runoff\n2. Linking the country’s perennial rivers with seasonal rivers\n3. Rainwater harvesting and recharge of groundwater table\n4. Regeneration of natural vegetation\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2, 3 and 4 only",
+          "c) 1, 3 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "c) 1, 3 and 4 only",
+        "explanation": "The Integrated Watershed Development Programme (IWDP) focuses on soil and water conservation, groundwater recharge and ecological restoration at the watershed level. It helps prevent soil erosion, promotes rainwater harvesting and improves vegetation cover. However, linking rivers is a macro-level hydrological project unrelated to watershed management. Hence statements 1, 3 and 4 are correct.",
+        "elimination_logic": "Statement 2 is a classic UPSC trap. River linking is a separate national-level engineering project, not part of watershed development. Eliminate 2 → removes options a, b and d. Remaining option c is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Consider the following pairs:\nWetlands: Confluence of rivers:\n1. Harike Wetlands: Confluence of Beas and Satluj/ Sutlej\n2. Keoladeo Ghana National Park: Confluence of Banas and Chambal\n3. Kolleru Lake: Confluence of Musi and Krishna\nWhich of the above pairs is/are correctly matched?",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Harike Wetland is correctly located at the confluence of Beas and Sutlej rivers. Keoladeo Ghana is not situated at the confluence of Banas and Chambal; it is a man-made wetland fed by Gambhir and Banganga rivers. Kolleru Lake lies between Krishna and Godavari deltas, not at Musi–Krishna confluence. Hence only pair 1 is correct.",
+        "elimination_logic": "Pairs 2 and 3 are incorrect. UPSC tests map-based static knowledge here. Eliminating both leaves only pair 1. Hence option a."
+      },
+      {
+        "year": 2014,
+        "question": "With reference to ‘Eco-Sensitive Zones’, which of the following statements is/are correct?\n1. Eco-Sensitive Zones are the areas that are declared under the Wildlife (Protection) Act, 1972.\n2. The purpose of the declaration of Eco Sensitive Zones is to prohibit all kinds of human activities in those zones except agriculture.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "d) Neither 1 nor 2",
+        "explanation": "Eco-Sensitive Zones (ESZs) are notified under the Environment Protection Act, 1986—not the Wildlife Protection Act. Their purpose is to regulate and manage human activities, not completely prohibit them. Therefore both statements are incorrect.",
+        "elimination_logic": "Statement 1 → wrong law (common UPSC trap). Statement 2 → absolute wording 'prohibit all' → incorrect. Hence eliminate all except option d."
+      },
+      {
+        "year": 2014,
+        "question": "With reference to ‘Global Environment Facility,’ which of the following statements is/are correct?",
+        "options": [
+          "a) It serves as financial mechanism for ‘Convention on Biological Diversity’ and ‘United Nations Framework Convention on Climate Change’.",
+          "b) It undertakes scientific research on environmental issues at global level.",
+          "c) It is an agency under OECD to facilitate transfer of technology and funds.",
+          "d) Both (a) and (b)"
+        ],
+        "correct_answer": "a) It serves as financial mechanism for ‘Convention on Biological Diversity’ and ‘United Nations Framework Convention on Climate Change’.",
+        "explanation": "The Global Environment Facility (GEF) is a financial mechanism supporting global environmental conventions like CBD and UNFCCC. It does not itself conduct scientific research and is not an OECD agency. Hence only option a is correct.",
+        "elimination_logic": "b is incorrect (GEF funds projects, does not conduct research). c is incorrect (not OECD body). Hence d eliminated. Only a remains."
+      },
+{
+        "year": 2015,
+        "question": "Which of the following statements regarding ‘Green Climate Fund’ is/are correct?\n1. It is intended to assist the developing countries in adaptation and mitigation practices to counter climate change.\n2. It is founded under the aegis of UNEP, OECD, Asian Development Bank and World Bank\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "The Green Climate Fund (GCF) was established under the UNFCCC framework to assist developing countries in climate change mitigation and adaptation. It is not founded under UNEP, OECD, ADB or World Bank; rather, it is an independent financial mechanism under UNFCCC. Hence statement 1 is correct and statement 2 is incorrect.",
+        "elimination_logic": "Statement 2 is a factual trap—UPSC often confuses institutions. Once 2 is eliminated, options b and c go. Statement 1 is correct → option a."
+      },
+      {
+        "year": 2015,
+        "question": "What is Rio+20 Conference, often mentioned in the news?",
+        "options": [
+          "a) It is the United Nations Conference on Sustainable Development",
+          "b) It is a Ministerial Meeting of the World Trade Organization",
+          "c) It is a Conference of the Inter-governmental Panel on Climate Change",
+          "d) It is a Conference of the Member Countries of the Convention on Biological Diversity"
+        ],
+        "correct_answer": "a) It is the United Nations Conference on Sustainable Development",
+        "explanation": "Rio+20 refers to the 2012 United Nations Conference on Sustainable Development held in Rio de Janeiro, marking 20 years after the 1992 Earth Summit. It focused on green economy and institutional framework for sustainable development.",
+        "elimination_logic": "Rio+20 is linked to Earth Summit lineage → sustainable development. Other options relate to WTO/IPCC/CBD, not Rio+20. Hence option a."
+      },
+      {
+        "year": 2015,
+        "question": "Which one of the following is associated with the issue of control and phasing out of the use of ozone-depleting substances?",
+        "options": [
+          "a) Bretton Woods Conference",
+          "b) Montreal Protocol",
+          "c) Kyoto Protocol",
+          "d) Nagoya Protocol"
+        ],
+        "correct_answer": "b) Montreal Protocol",
+        "explanation": "The Montreal Protocol (1987) specifically deals with phasing out ozone-depleting substances such as CFCs. Kyoto Protocol deals with greenhouse gases, Nagoya Protocol with biodiversity access and benefit sharing, and Bretton Woods relates to financial institutions.",
+        "elimination_logic": "Direct concept linkage: ODS → Montreal. Others belong to different domains. Hence option b."
+      },
+      {
+        "year": 2015,
+        "question": "With reference to ‘Forest Carbon Partnership Facility’, which of the following statements is/are correct?\n1. It is global partnership of governments, businesses, civil society and indigenous peoples\n2. It provides financial aid to universities, individual scientists and institutions involved in scientific forestry research\n3. It assists the countries in their ‘REDD+’ efforts by providing them with financial and technical assistance.\nSelect the correct answer using the code given below",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 1 and 3 only",
+        "explanation": "The Forest Carbon Partnership Facility (FCPF), led by the World Bank, is a global partnership supporting REDD+ initiatives. It provides financial and technical assistance to countries for reducing emissions from deforestation. It does not primarily fund universities or individual scientific research. Hence statements 1 and 3 are correct.",
+        "elimination_logic": "Statement 2 is the trap—sounds academic but incorrect. Eliminating it removes b and d. Remaining correct → c."
+      },
+      {
+        "year": 2015,
+        "question": "‘BioCarbon Fund Initiative for Sustainable Forest Landscapes’ is managed by the:",
+        "options": [
+          "a) Asian Development Bank",
+          "b) International Monetary Fund",
+          "c) United Nations Environment Programme",
+          "d) World Bank"
+        ],
+        "correct_answer": "d) World Bank",
+        "explanation": "The BioCarbon Fund Initiative for Sustainable Forest Landscapes is managed by the World Bank. It supports emission reductions through land-use and forest-based activities.",
+        "elimination_logic": "Direct factual recall. Managed by World Bank → eliminate others → option d."
+      },
+{
+        "year": 2016,
+        "question": "The term ‘Intended Nationally Determined Contributions’ is sometimes seen in the news in the context of:",
+        "options": [
+          "a) Pledges made by European countries to rehabilitate refugees",
+          "b) Plan of action outlined by countries to combat climate change",
+          "c) Capital contribution to AIIB",
+          "d) Plan for Sustainable Development Goals"
+        ],
+        "correct_answer": "b) Plan of action outlined by countries to combat climate change",
+        "explanation": "INDCs are national pledges submitted by countries under the UNFCCC framework before the Paris Agreement, outlining their intended contributions to reducing greenhouse gas emissions and adapting to climate change.",
+        "elimination_logic": "INDCs are climate-specific commitments → eliminate SDGs, AIIB and refugee options → only b fits."
+      },
+      {
+        "year": 2016,
+        "question": "Consider the following statements:\n1. The Sustainable Development Goals were first proposed in 1972 by the Club of Rome.\n2. The Sustainable Development Goals have to be achieved by 2030.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "SDGs were adopted in 2015 by the United Nations, not in 1972. However, they are to be achieved by 2030. Hence statement 2 is correct.",
+        "elimination_logic": "Statement 1 is factual trap (Club of Rome = Limits to Growth, not SDGs). Statement 2 correct → option b."
+      },
+      {
+        "year": 2016,
+        "question": "With reference to the Agreement at the UNFCCC Meeting in Paris in 2015, which of the following statements is/are correct?\n1. Signed by all UN members and came into effect in 2017\n2. Aims to limit global temperature rise to 2°C or 1.5°C\n3. Developed countries committed $1000 billion per year from 2020\nSelect the correct answer:",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "The Paris Agreement aims to limit global temperature rise to well below 2°C and pursue efforts to limit it to 1.5°C. It was not signed by all UN members and did not come into force in 2017 (it came into force in 2016). The financial commitment is around $100 billion annually, not $1000 billion.",
+        "elimination_logic": "Statement 1 incorrect (timeline). Statement 3 exaggerated funding (classic UPSC trap). Only statement 2 correct → option b."
+      },
+      {
+        "year": 2016,
+        "question": "With reference to ‘Agenda 21’, consider the following statements:\n1. It is a global action plan for sustainable development\n2. It originated at Johannesburg Summit 2002\nWhich is correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "Agenda 21 is a global action plan adopted at the 1992 Rio Earth Summit. It did not originate in Johannesburg 2002.",
+        "elimination_logic": "Statement 2 incorrect (wrong summit). Statement 1 correct → option a."
+      },
+      {
+        "year": 2016,
+        "question": "What is ‘Greenhouse Gas Protocol’?",
+        "options": [
+          "a) International accounting tool to measure and manage GHG emissions",
+          "b) UN financial incentive mechanism",
+          "c) UN treaty to reduce emissions",
+          "d) REDD+ initiative"
+        ],
+        "correct_answer": "a) International accounting tool to measure and manage GHG emissions",
+        "explanation": "GHG Protocol is a globally recognized accounting framework used by governments and businesses to quantify and manage greenhouse gas emissions.",
+        "elimination_logic": "Only option a correctly defines accounting framework. Others confuse with treaties/finance mechanisms."
+      },
+      {
+        "year": 2016,
+        "question": "Which of the following best describes the aim of ‘Green India Mission’?\n1. Green accounting in budgets\n2. Second green revolution\n3. Enhance forest cover and climate adaptation/mitigation\nSelect the correct answer:",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only",
+        "explanation": "Green India Mission focuses on increasing forest cover and enhancing ecosystem services while addressing climate change through adaptation and mitigation.",
+        "elimination_logic": "Statements 1 and 2 are unrelated policy areas → eliminate. Only 3 correct → option c."
+      },
+      {
+        "year": 2016,
+        "question": "Proper design and implementation of UN-REDD+ Programme can significantly contribute to:\n1. Protection of biodiversity\n2. Resilience of forest ecosystems\n3. Poverty reduction\nSelect the correct answer:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "UN-REDD+ aims at reducing deforestation and forest degradation, which enhances biodiversity conservation, ecosystem resilience and supports livelihood improvements including poverty reduction.",
+        "elimination_logic": "All three are direct outcomes → no elimination possible → option d."
+      },
+      {
+        "year": 2016,
+        "question": "With reference to ‘The Economics of Ecosystems and Biodiversity (TEEB)’, which statements are correct?\n1. Hosted by UNEP, IMF and WEF\n2. Focuses on economic benefits of biodiversity\n3. Helps decision-makers capture ecosystem value\nSelect the correct answer:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 2 and 3 only",
+        "explanation": "TEEB is a global initiative focusing on economic valuation of biodiversity and ecosystem services. It is not hosted by IMF or WEF. Hence 2 and 3 are correct.",
+        "elimination_logic": "Statement 1 incorrect (wrong institutions). Eliminating it leaves option c."
+      },
+      {
+        "year": 2016,
+        "question": "Which of the following are the key features of ‘National Ganga River Basin Authority (NGRBA)?\n1. River basin as unit of planning\n2. National-level river conservation\n3. CM rotates as Chairman\nSelect the correct answer:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "NGRBA adopts basin-level planning and coordinates national river conservation. It is chaired by the Prime Minister, not by rotating Chief Ministers.",
+        "elimination_logic": "Statement 3 incorrect (trap). Eliminating it → option a."
+      },
+{
+        "year": 2017,
+        "question": "In India, if a species of tortoise is declared protected under Schedule I of the Wildlife (Protection) Act, 1972, what does it imply?",
+        "options": [
+          "a) It enjoys the same level of protection as the tiger.",
+          "b) It no longer exists in the wild and is only under captive protection.",
+          "c) It is endemic to a particular region of India.",
+          "d) Both (b) and (c)"
+        ],
+        "correct_answer": "a) It enjoys the same level of protection as the tiger.",
+        "explanation": "Schedule I of the Wildlife (Protection) Act, 1972 provides the highest level of protection to listed species, similar to flagship species like the tiger. Hunting and trade are strictly prohibited.",
+        "elimination_logic": "Options b and c add unrelated conditions (extinction/endemicity). Schedule classification is about protection level, not distribution or population status. Hence option a."
+      },
+      {
+        "year": 2017,
+        "question": "The term ‘M-STrIPES’ is sometimes seen in the news in the context of:",
+        "options": [
+          "a) Captive breeding of wild fauna",
+          "b) Maintenance of Tiger Reserves",
+          "c) Indigenous satellite navigation system",
+          "d) Security of National Highways"
+        ],
+        "correct_answer": "b) Maintenance of Tiger Reserves",
+        "explanation": "M-STrIPES (Monitoring System for Tigers – Intensive Protection and Ecological Status) is a technology-based monitoring system used for patrolling and management of tiger reserves.",
+        "elimination_logic": "Only option b relates to tiger conservation. Other options are unrelated domains. Hence option b."
+      },
+      {
+        "year": 2017,
+        "question": "According to the Wildlife (Protection) Act, 1972, which of the following animals cannot be hunted by any person except under some provisions provided by law?\n1. Gharial\n2. Indian wild ass\n3. Wild buffalo\nSelect the correct answer using the code given below:",
+        "options": [
+          "a) 1 only",
+          "b) 2 and 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "All three species are protected under the Wildlife (Protection) Act and cannot be hunted except under specific legal provisions such as threat to life or scientific management.",
+        "elimination_logic": "All listed animals fall under protected categories. Eliminating any would contradict the Act. Hence option d."
+      },
+      {
+        "year": 2017,
+        "question": "Consider the following statements:\n1. Climate and Clean Air Coalition (CCAC) is a unique initiative of G20 countries.\n2. The CCAC focuses on methane, black carbon and hydrofluorocarbons.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "CCAC is a global voluntary initiative involving multiple stakeholders, not limited to G20 countries. It focuses on reducing short-lived climate pollutants such as methane, black carbon and HFCs. Hence only statement 2 is correct.",
+        "elimination_logic": "Statement 1 is the trap (wrong grouping with G20). Statement 2 is factually correct. Hence option b."
+      },
+      {
+        "year": 2017,
+        "question": "With reference to ‘Global Climate Change Alliance’, which of the following statements is/are correct?\n1. It is an initiative of the European Union.\n2. It provides technical and financial support to developing countries.\n3. It is coordinated by WRI and WBCSD.\nSelect the correct answer:",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 2 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "Global Climate Change Alliance (GCCA) is an initiative of the European Union aimed at supporting developing countries in integrating climate change into development policies. It is not coordinated by WRI or WBCSD.",
+        "elimination_logic": "Statement 3 is incorrect (wrong institutions). Eliminating it removes b, c and d. Remaining correct → option a."
+      },
+{
+        "year": 2018,
+        "question": "The Partnership for Action Green Economy (PAGE), a UN mechanism to assist countries transition towards greener and more inclusive economies, emerged at:",
+        "options": [
+          "a) The Earth Summit on Sustainable Development 2002, Johannesburg",
+          "b) The United Nations Conference on Sustainable Development 2012, Rio De Janeiro",
+          "c) The United Nations Framework Convention on Climate Change 2015, Paris",
+          "d) The World Sustainable Development Summit 2016, New Delhi"
+        ],
+        "correct_answer": "b) The United Nations Conference on Sustainable Development 2012, Rio De Janeiro",
+        "explanation": "PAGE was launched at the Rio+20 Conference (UNCSD 2012) to support countries in transitioning to green economies.",
+        "elimination_logic": "Link PAGE with Rio+20 (2012). Eliminate Johannesburg (2002), Paris (2015), and New Delhi (2016). Hence option b."
+      },
+      {
+        "year": 2018,
+        "question": "‘Momentum for Change: Climate Neutral Now’ is an initiative launched by:",
+        "options": [
+          "a) Intergovernmental Panel on Climate Change",
+          "b) UNEP Secretariat",
+          "c) UNFCCC Secretariat",
+          "d) World Meteorological Organization"
+        ],
+        "correct_answer": "c) UNFCCC Secretariat",
+        "explanation": "This initiative is launched under UNFCCC to encourage voluntary climate action and carbon neutrality.",
+        "elimination_logic": "Climate Neutral Now is UNFCCC-linked → eliminate IPCC (assessment body), UNEP, WMO → option c."
+      },
+      {
+        "year": 2018,
+        "question": "Consider the following statements:\n1. The definition of ‘Critical Wildlife Habitat’ is incorporated in the Forest Rights Act, 2006.\n2. For the first time in India, Baigas have been given Habitat Rights.\n3. MoEFCC declares Habitat Rights for tribal groups.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "a) 1 and 2 only",
+        "explanation": "Critical Wildlife Habitat is defined under Forest Rights Act, 2006. Baigas were among the first to receive habitat rights. However, Habitat Rights are granted under FRA through district-level processes, not directly by MoEFCC.",
+        "elimination_logic": "Statement 3 is incorrect (authority confusion). Eliminating it removes b, c, d → option a."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following statements:\n1. Compensatory Afforestation Fund Management and Planning Authority exists at both National and State levels.\n2. People’s participation is mandatory in compensatory afforestation.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "a) 1 only",
+        "explanation": "CAMPA exists at both National and State levels under the Compensatory Afforestation Fund Act, 2016. However, people’s participation is not mandated as a compulsory legal provision.",
+        "elimination_logic": "Statement 2 is the trap (sounds desirable but not mandatory legally). Hence eliminate 2 → option a."
+      },
+      {
+        "year": 2019,
+        "question": "Consider the following statements:\n1. Under Ramsar Convention, it is mandatory for India to protect all wetlands.\n2. Wetlands Rules 2010 were framed based on Ramsar recommendations.\n3. Wetlands Rules 2010 include catchment areas of wetlands.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 2 and 3 only",
+          "c) 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "c) 3 only",
+        "explanation": "Ramsar Convention does not mandate protection of all wetlands, only designated ones. Wetlands Rules 2010 are domestic regulations, not directly based on Ramsar. However, they do include catchment areas. Hence only statement 3 is correct.",
+        "elimination_logic": "Statement 1 → overgeneralization (trap). Statement 2 → incorrect linkage. Only 3 survives → option c."
+      },
+{
+        "year": 2020,
+        "question": "If a particular plant species is placed under Schedule VI of The Wildlife Protection Act, 1972, what is the implication?",
+        "options": [
+          "a) A licence is required to cultivate that plant.",
+          "b) Such a plant cannot be cultivated under any circumstances.",
+          "c) It is a Genetically Modified crop plant.",
+          "d) Such a plant is invasive and harmful to the ecosystem."
+        ],
+        "correct_answer": "a) A licence is required to cultivate that plant.",
+        "explanation": "Schedule VI of the Wildlife (Protection) Act, 1972 includes certain plant species that are prohibited from cultivation and planting except under a licence. It regulates cultivation rather than completely banning it.",
+        "elimination_logic": "Statement b is extreme (complete ban) → incorrect. c and d are unrelated. Only a reflects regulatory restriction → correct."
+      },
+      {
+        "year": 2022,
+        "question": "The “Miyawaki method” is well known for the:",
+        "options": [
+          "a) Promotion of commercial farming in arid areas",
+          "b) Development of gardens using genetically modified flora",
+          "c) Creation of mini forests in urban areas",
+          "d) Harvesting wind energy on coastal areas"
+        ],
+        "correct_answer": "c) Creation of mini forests in urban areas",
+        "explanation": "The Miyawaki method is a technique of dense plantation of native species to rapidly create urban forests and restore biodiversity.",
+        "elimination_logic": "Only option c relates to afforestation technique. Others unrelated → eliminate."
+      },
+      {
+        "year": 2022,
+        "question": "With reference to Indian laws about wildlife protection, consider the following statements:\n1. Wild animals are the sole property of the government.\n2. When a wild animal is declared protected, it gets equal protection everywhere.\n3. Apprehension of danger to human life is sufficient ground for killing it.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) 1 and 2",
+          "b) 2 only",
+          "c) 1 and 3",
+          "d) 3 only"
+        ],
+        "correct_answer": "b) 2 only",
+        "explanation": "Protected animals enjoy uniform protection across India. However, they are not the ‘property’ of the government in a strict legal sense. Also, killing requires official permission, not mere apprehension.",
+        "elimination_logic": "Statement 1 is legally incorrect wording. Statement 3 requires authorization → incorrect. Only 2 survives → option b."
+      },
+      {
+        "year": 2022,
+        "question": "Which one of the following has been constituted under the Environment (Protection) Act, 1986?",
+        "options": [
+          "a) Central Water Commission",
+          "b) Central Ground Water Board",
+          "c) Central Ground Water Authority",
+          "d) National Water Development Agency"
+        ],
+        "correct_answer": "c) Central Ground Water Authority",
+        "explanation": "Central Ground Water Authority (CGWA) is constituted under the Environment Protection Act, 1986 for regulating groundwater usage.",
+        "elimination_logic": "Other bodies were created under different administrative setups. Only CGWA comes under EPA → option c."
+      },
+      {
+        "year": 2022,
+        "question": "“Climate Action Tracker” which monitors the emission reduction pledges of different countries is a:",
+        "options": [
+          "a) Database created by coalition of research organisations",
+          "b) Wing of IPCC",
+          "c) Committee under UNFCCC",
+          "d) Agency financed by UNEP and World Bank"
+        ],
+        "correct_answer": "a) Database created by coalition of research organisations",
+        "explanation": "Climate Action Tracker is an independent scientific analysis produced by research organizations, not an official UN body.",
+        "elimination_logic": "UPSC trap: looks like UN body → eliminate b, c, d. Independent coalition → option a."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\nStatement-I: Carbon markets are likely to be one of the most widespread tools in climate change.\nStatement-II: Carbon markets transfer resources from private sector to State.\nWhich is correct?",
+        "options": [
+          "a) Both correct and II explains I",
+          "b) Both correct but II does not explain I",
+          "c) I correct, II incorrect",
+          "d) I incorrect, II correct"
+        ],
+        "correct_answer": "b) Both correct but II does not explain I",
+        "explanation": "Carbon markets are important tools for emission reduction. They involve financial flows, but their effectiveness is due to emission pricing, not simply transfer of resources.",
+        "elimination_logic": "II is true but not causal explanation → option b."
+      },
+      {
+        "year": 2023,
+        "question": "Consider the following statements:\n1. Biodiversity Management Committees are key to Nagoya Protocol implementation.\n2. They can determine access and benefit sharing.\nWhich is correct?",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "c) Both 1 and 2",
+        "explanation": "BMCs play a crucial role in implementing Access and Benefit Sharing under the Biological Diversity Act aligned with Nagoya Protocol.",
+        "elimination_logic": "Both statements directly linked to ABS mechanism → option c."
+      },
+      {
+        "year": 2023,
+        "question": "Once an area is notified as a ‘Community Reserve’\n1. Chief Wildlife Warden becomes governing authority\n2. Hunting is not allowed\n3. People can collect non-timber forest produce\n4. Traditional agriculture allowed\nHow many are correct?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) Only three",
+          "d) All four"
+        ],
+        "correct_answer": "b) Only two",
+        "explanation": "Community reserves involve local participation. Hunting is prohibited, and traditional practices are allowed. Governance is not solely by Chief Wildlife Warden.",
+        "elimination_logic": "Statement 1 incorrect → eliminates d. Only two correct → option b."
+      },
+      {
+        "year": 2024,
+        "question": "Statement I: Indian Flying Fox is placed under ‘vermin’ category.\nStatement II: It feeds on blood.\nWhich is correct?",
+        "options": [
+          "a) Both correct and II explains I",
+          "b) Both correct but II not explanation",
+          "c) I correct, II incorrect",
+          "d) I incorrect, II correct"
+        ],
+        "correct_answer": "c) I correct, II incorrect",
+        "explanation": "Indian Flying Fox is fruit-eating (not blood-sucking). Statement II is false.",
+        "elimination_logic": "Statement II biologically wrong → eliminate all except c."
+      },
+      {
+        "year": 2025,
+        "question": "Consider the following statements:\nStatement I: Article 6 of Paris Agreement is widely discussed.\nStatement II: It sets principles of carbon markets.\nStatement III: It promotes non-market strategies.\nWhich is correct?",
+        "options": [
+          "a) II and III both explain I",
+          "b) II and III correct but only one explains I",
+          "c) Only one correct",
+          "d) None correct"
+        ],
+        "correct_answer": "a) II and III both explain I",
+        "explanation": "Article 6 deals with both market and non-market mechanisms for climate action, making it central in discussions.",
+        "elimination_logic": "Both II and III directly relate to Article 6 → full explanation → option a."
+      }
     ]
   }
-      }
+}
