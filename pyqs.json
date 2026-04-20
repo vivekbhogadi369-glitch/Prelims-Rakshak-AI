@@ -7453,6 +7453,99 @@
         "explanation": "Peacock tarantula is a spider, not a crustacean, so statement I is incorrect. It is endemic to limited forest areas in India, making statement II correct. It is arboreal, living on trees, making statement III correct. Hence II and III are correct.",
         "elimination_logic": "Statement I is incorrect due to wrong classification. Statements II and III are factual. Eliminating I removes options a and b. Option c is incomplete. Hence option d is correct."
       }
+    ],
+    "Environmental Pollution": [
+      {
+        "year": 2013,
+        "question": "Which of the following can be found as pollutants in the drinking water in some parts of India?\n1. Arsenic\n2. Sorbitol\n3. Fluoride\n4. Formaldehyde\n5. Uranium\nSelect the correct answer using the codes given below.",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2, 4 and 5 only",
+          "c) 1, 3, and 5 only",
+          "d) 1, 2, 3, 4, and 5"
+        ],
+        "correct_answer": "c) 1, 3, and 5 only",
+        "explanation": "Arsenic contamination is a major groundwater issue in parts of India such as West Bengal and Bihar. Fluoride contamination is also common and leads to fluorosis in several regions. Uranium contamination has been reported in groundwater in states like Punjab. Sorbitol is an artificial sweetener and not a standard groundwater pollutant. Formaldehyde is not typically found as a drinking water contaminant in Indian context. Hence 1, 3 and 5 are correct.",
+        "elimination_logic": "Arsenic and fluoride are well-known Indian groundwater pollutants, so 1 and 3 must be retained. Uranium contamination has also been reported, so 5 is correct. Sorbitol (2) and formaldehyde (4) are not typical contaminants in this context, eliminating options b and d. Option a is incomplete. Hence option c is correct."
+      },
+      {
+        "year": 2013,
+        "question": "Photochemical smog is a resultant of the reaction among?",
+        "options": [
+          "a) NO2, O3 and peroxyacetyl nitrate in the presence of sunlight",
+          "b) CO, CO2 and peroxyacetyl nitrate in the presence of sunlight",
+          "c) CO, CO2 and NO2 at low temperature",
+          "d) High concentration of NO2, O3 and CO in the evening"
+        ],
+        "correct_answer": "a) NO2, O3 and peroxyacetyl nitrate in the presence of sunlight",
+        "explanation": "Photochemical smog forms due to reactions between nitrogen oxides and hydrocarbons in the presence of sunlight. This leads to formation of secondary pollutants like ozone and peroxyacetyl nitrate (PAN). It is common in urban areas with high vehicular emissions. Sunlight is a key requirement for these reactions. Hence option a correctly captures the components and conditions.",
+        "elimination_logic": "Presence of sunlight is essential, eliminating options c and d. CO and CO2 are not the primary drivers of photochemical smog formation, eliminating option b. NO2, ozone and PAN are the correct combination. Hence option a is correct."
+      },
+      {
+        "year": 2013,
+        "question": "Acid rain is caused by the pollution of the environment by?",
+        "options": [
+          "a) Carbon dioxide and nitrogen",
+          "b) Carbon monoxide and carbon dioxide",
+          "c) Ozone and carbon dioxide",
+          "d) Nitrous oxide and sulphur dioxide"
+        ],
+        "correct_answer": "d) Nitrous oxide and sulphur dioxide",
+        "explanation": "Acid rain is caused by emissions of sulphur dioxide (SO2) and nitrogen oxides (NOx), which react with water vapour to form sulphuric and nitric acids. These acids then fall as precipitation. It leads to soil acidification, damage to vegetation and aquatic ecosystems. Carbon dioxide forms weak carbonic acid but is not responsible for acid rain. Hence SO2 and NOx are the main contributors.",
+        "elimination_logic": "Carbon dioxide-based options can be eliminated as CO2 is not the primary cause of acid rain. Ozone is also not directly responsible. Nitrogen oxides and sulphur dioxide are the known contributors. Hence option d is correct."
+      },
+      {
+        "year": 2013,
+        "question": "Due to improper / indiscriminate disposal of old and used computers or their parts, which of the following are released into the environment as e-waste?\n1. Beryllium\n2. Cadmium\n3. Chromium\n4. Heptachlor\n5. Mercury\n6. Lead\n7. Plutonium\nSelect the correct answer using the codes given below.",
+        "options": [
+          "a) 1, 3, 4, 6, and 7 only",
+          "b) 1, 2, 3, 5, and 6 only",
+          "c) 2, 4, 5 and 7 only",
+          "d) 1, 2, 3, 4, 5, 6, and 7"
+        ],
+        "correct_answer": "b) 1, 2, 3, 5, and 6 only",
+        "explanation": "E-waste contains several heavy metals such as beryllium, cadmium, chromium, mercury and lead. These are used in electronic components and can leach into the environment. Heptachlor is a pesticide and not associated with e-waste. Plutonium is radioactive and not part of standard consumer electronics. Hence the correct combination includes 1, 2, 3, 5 and 6.",
+        "elimination_logic": "Heptachlor (4) is a pesticide, eliminating options containing it. Plutonium (7) is not part of electronic waste, eliminating options a, c and d. The remaining valid combination is 1, 2, 3, 5 and 6. Hence option b is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Which of the following adds carbon dioxide to the carbon cycle on the planet Earth?\n1. Volcanic action\n2. Respiration\n3. Photosynthesis\n4. Decay of organic matter\nSelect the correct answer using the code given below",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2 only",
+          "c) 1, 2 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "c) 1, 2 and 4 only",
+        "explanation": "Volcanic eruptions release carbon dioxide into the atmosphere. Respiration by organisms also emits CO2. Decomposition of organic matter releases CO2 as well. Photosynthesis, however, removes CO2 from the atmosphere. Hence 1, 2 and 4 are correct.",
+        "elimination_logic": "Photosynthesis consumes CO2, so eliminate any option containing 3. This removes options a and d. Remaining correct contributors are 1, 2 and 4. Hence option c is correct."
+      },
+      {
+        "year": 2014,
+        "question": "There is some concern regarding the nanoparticles of some chemical elements that are used by the industry in the manufacture of various products. Why?\n1. They can accumulate in the environment and contaminate water and soil.\n2. They can enter the food chains.\n3. They can trigger the production of free radicals.\nSelect the correct answer using the code given below.",
+        "options": [
+          "a) 1 and 2 only",
+          "b) 3 only",
+          "c) 1 and 3 only",
+          "d) 1, 2 and 3"
+        ],
+        "correct_answer": "d) 1, 2 and 3",
+        "explanation": "Nanoparticles can accumulate in ecosystems due to their persistence and small size. They can enter food chains and biomagnify. They may also induce oxidative stress by generating free radicals, affecting living organisms. Hence all three statements are correct.",
+        "elimination_logic": "All three statements reflect scientifically established concerns. Eliminating any would ignore key nanoparticle risks. Hence options a, b and c are incomplete. Option d is correct."
+      },
+      {
+        "year": 2014,
+        "question": "Brominated flame retardants are used in many household products like mattresses and upholstery. Why is there some concern about their use?\n1. They are highly resistant to degradation in the environment.\n2. They are able to accumulate in humans and animals.",
+        "options": [
+          "a) 1 only",
+          "b) 2 only",
+          "c) Both 1 and 2",
+          "d) Neither 1 nor 2"
+        ],
+        "correct_answer": "c) Both 1 and 2",
+        "explanation": "Brominated flame retardants are persistent organic pollutants that degrade very slowly. They accumulate in biological tissues through bioaccumulation. This can lead to long-term toxic effects in humans and wildlife. Hence both statements are correct.",
+        "elimination_logic": "Persistence and bioaccumulation are the key concerns of such chemicals. Eliminating either statement makes the answer incomplete. Hence option c is correct."
+      }
     ]
   }
-      }
+  }
