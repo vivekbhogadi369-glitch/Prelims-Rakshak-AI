@@ -9034,6 +9034,73 @@
         "explanation": "The Invasive Species Specialist Group (ISSG) is part of the Species Survival Commission of IUCN. It maintains the Global Invasive Species Database and plays a key role in biodiversity conservation. It is not a UNEP or WWF body.",
         "elimination_logic": "UPSC trap: confusion between IUCN, UNEP, WWF. ISSG is directly linked to IUCN SSC → eliminate others → option a."
       }
+    ],
+    "Miscellaneous Topics": [
+      {
+        "year": 2014,
+        "question": "Which one of the following is the correct sequence of a food chain?",
+        "options": [
+          "a) Diatoms-Crustaceans-Herrings",
+          "b) Crustaceans-Diatoms-Herrings",
+          "c) Diatoms-Herrings-Crustaceans",
+          "d) Crustaceans-Herrings-Diatoms"
+        ],
+        "correct_answer": "a) Diatoms-Crustaceans-Herrings",
+        "explanation": "A food chain represents the flow of energy from primary producers to higher trophic levels. Diatoms are microscopic phytoplankton and act as primary producers through photosynthesis. Crustaceans such as zooplankton feed on diatoms, making them primary consumers. Herrings are fish that feed on crustaceans, making them secondary consumers. Hence the correct ecological sequence follows producer → primary consumer → secondary consumer.",
+        "elimination_logic": "UPSC elimination rule: always start with producers → diatoms must be first. Options starting with crustaceans are eliminated. Next, crustaceans cannot come after fish → eliminate c. Only a maintains correct trophic hierarchy → correct."
+      },
+      {
+        "year": 2018,
+        "question": "Consider the following statements: \n1. Some species of turtles are herbivores.\n2. Some species of fish are herbivores.\n3. Some species of marine mammals are herbivores.\n4. Some species of snakes are viviparous.\nWhich of the statements given above is/are correct",
+        "options": [
+          "a) 1 and 3 only",
+          "b) 2, 3 and 4 only",
+          "c) 2 and 4 only",
+          "d) 1, 2, 3 and 4"
+        ],
+        "correct_answer": "d) 1, 2, 3 and 4",
+        "explanation": "Statement 1 is correct as some turtles like green sea turtles are herbivorous. Statement 2 is correct because several fish species (like parrotfish) feed on algae and plants. Statement 3 is correct since marine mammals such as dugongs and manatees are herbivorous. Statement 4 is also correct as certain snakes (like boa and viper species) exhibit viviparity (giving birth to live young). Hence all statements are correct.",
+        "elimination_logic": "UPSC trap: mixing zoology facts across taxa. If even one statement seems doubtful, cross-check: herbivory exists across reptiles, fish, mammals; viviparity exists in snakes. No extreme/absolute statement → all correct → option d."
+      },
+      {
+        "year": 2023,
+        "question": "Which of the following makes a tool with a stick to scrape insects from a hole in a tree or a log of wood?",
+        "options": [
+          "a) Fishing cat",
+          "b) Orangutan",
+          "c) Otter",
+          "d) Sloth bear"
+        ],
+        "correct_answer": "b) Orangutan",
+        "explanation": "Orangutans are known for their advanced cognitive abilities and tool use. They use sticks to extract insects, honey, and seeds from tree holes, demonstrating problem-solving and learned behavior. This is a classic example of primate intelligence and cultural transmission of behavior. Other animals listed may show feeding adaptations but do not typically use tools in this specific way.",
+        "elimination_logic": "UPSC pattern: tool use → primates. Fishing cat and otter use paws, sloth bear uses claws/snout. Only orangutan shows stick-based tool use → eliminate others → option b."
+      },
+      {
+        "year": 2024,
+        "question": "Consider the following plants:\n1. Groundnut\n2. Horse-gram\n3. Soybean\nHow many of the above belong to the pea family?",
+        "options": [
+          "a) Only one",
+          "b) Only two",
+          "c) All three",
+          "d) None"
+        ],
+        "correct_answer": "c) All three",
+        "explanation": "Groundnut (Arachis hypogaea), horse-gram (Macrotyloma uniflorum), and soybean (Glycine max) all belong to the family Fabaceae (Leguminosae), commonly known as the pea family. This family is characterized by nitrogen-fixing ability through symbiotic bacteria in root nodules. These crops are important pulses/oilseeds and improve soil fertility. Hence all three belong to the same botanical family.",
+        "elimination_logic": "UPSC shortcut: pulses + legumes → Fabaceae. All three are common leguminous crops → no partial elimination possible → option c."
+      },
+      {
+        "year": 2025,
+        "question": "With reference to the planet Earth, consider the following statements:\nI. Rain forests produce more oxygen than that produced by oceans.\nII. Marine phytoplankton and photosynthetic bacteria produce about 50% of world’s oxygen.\nIII. Well-oxygenated surface water contains several folds higher oxygen than that in atmospheric air.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "a) I and II",
+          "b) II only",
+          "c) I and III",
+          "d) None of the above statements is correct"
+        ],
+        "correct_answer": "b) II only",
+        "explanation": "Statement I is incorrect because oceans, especially phytoplankton, contribute a major share of global oxygen production, often exceeding rainforests. Statement II is correct as marine phytoplankton and cyanobacteria contribute around 50% of global oxygen. Statement III is incorrect because oxygen concentration in water is far lower than in air due to lower solubility of gases in liquids. Hence only statement II is correct.",
+        "elimination_logic": "UPSC trap: rainforest myth → eliminate I. Scientific fact: oceans dominate oxygen → II correct. Physics concept: gas solubility lower in water → III wrong. Only II survives → option b."
+      }
     ]
   }
   }
