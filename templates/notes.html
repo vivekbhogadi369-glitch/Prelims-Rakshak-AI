@@ -170,25 +170,39 @@ function loadTopics(subject, btn) {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
+function escapeHtml(text) {
+    return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
 function formatNotes(text) {
     let formatted = text || "";
 
     formatted = formatted.replace(/\r/g, "");
     formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
-    const blocks = formatted.split("\n").map(line => line.trim()).filter(line => line !== "");
+    const blocks = formatted
+        .split("\n")
+        .map(line => line.trim())
+        .filter(line => line !== "");
 
     let html = "";
 
+    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Important Sites|Regional Pattern|PYQ Trap|Background|Objectives|Methods|Leaders|Leadership|Outcome|Results|Impact|Impacts|Nature|Spread of Movement|Role of Education|Economic Impact|Social Impact|Political Impact|Decline|Achievements|Limitations|Formation|Role of Press|Common Features|Comparative Analysis|Slogans|Participation|Immediate Cause|Course of the Revolt|Causes of Failure|Consequences|Historiographical Debate|Early Phase|Later Phase|Important Events|Revolutionary Activities Abroad|Ideological Evolution|Campaigns|Role of Women|Reaction of Indian Leaders|Failure of Mission|Main Proposals|Union Government|Provincial Autonomy|Grouping of Provinces|Constituent Assembly|Interim Government|Acceptance of Plan|Partition of India|Radcliffe Commission|Negative Programme|Positive Programme|Spread of Movement|Government Response|Second Phase|Reasons for Withdrawal|Programme of Action|Independence Day Declaration|Purna Swaraj Resolution|Lucknow Pact|Reunion of Congress|Central Administration|Civil Services|Judicial Administration|Police Administration|Revenue Administration|Local Administration|Military Administration|Communication Administration|Abolition of Social Evils|Widow Remarriage and Women Reforms|Education Policy|Missionary Activities|Social Legislations|Racial Policies|Impact on Indian Society|Land Revenue Systems|Deindustrialization|Drain of Wealth|Commercialization of Agriculture|Industrial Policies|Railways and Infrastructure|Trade Policies|Famines and Economic Impact|Early Satyagrahas|Non-Cooperation Movement|Civil Disobedience Movement|Quit India Movement|Other Important Events|Swaraj Party|Formation|Ideology|Members of Mission|Reaction of Parties|Main Provisions|Key Features|Creation of Dominions|Legislative Sovereignty|Princely States|Partition Provisions|Role of Congress|Regional Movements|Support for Commission|Leader of Mission|Proposals|Composition|Annexation Policies|Direct Annexations|Subsidiary Alliance|Doctrine of Lapse|Anglo-Mysore Wars|Anglo-Maratha Wars|Anglo-Sikh Wars|Battle of Plassey|Battle of Buxar)$/i;
+
     for (let line of blocks) {
-        if (/^[A-Z\s]{4,}$/.test(line)) {
-            html += `<h2>${line}</h2>`;
-        } else if (/^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Important Sites|Regional Pattern|PYQ Trap)$/i.test(line)) {
-            html += `<h3>${line}</h3>`;
+        if (/^[A-Z0-9\s()&,\-–\/]+$/.test(line) && line.length >= 4) {
+            html += `<h2>${escapeHtml(line)}</h2>`;
+        } else if (supportedSubheads.test(line)) {
+            html += `<h3>${escapeHtml(line)}</h3>`;
         } else if (line.startsWith("•")) {
-            html += `<div class="bullet">${line}</div>`;
+            html += `<div class="bullet">${escapeHtml(line)}</div>`;
         } else {
-            html += `<p>${line}</p>`;
+            html += `<p>${escapeHtml(line)}</p>`;
         }
     }
 
