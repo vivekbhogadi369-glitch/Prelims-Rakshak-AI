@@ -138,7 +138,7 @@ async function loadSubjects() {
 
     let html = "";
     Object.keys(notesData).forEach(s => {
-        html += `<button onclick="loadTopics('${s}', this)">${s}</button>`;
+        html += `<button onclick="loadTopics(this.innerText, this)">${s}</button>`;
     });
 
     document.getElementById("subjects").innerHTML = html;
@@ -192,7 +192,7 @@ function formatNotes(text) {
 
     let html = "";
 
-    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|Important Sites|Regional Pattern|PYQ Trap|Background|Objectives|Methods|Leaders|Leadership|Outcome|Results|Impact|Impacts|Nature|Spread of Movement|Role of Education|Economic Impact|Social Impact|Political Impact|Decline|Achievements|Limitations|Formation|Role of Press|Common Features|Comparative Analysis|Slogans|Participation|Immediate Cause|Course of the Revolt|Causes of Failure|Consequences|Historiographical Debate|Early Phase|Later Phase|Important Events|Revolutionary Activities Abroad|Ideological Evolution|Campaigns|Role of Women|Reaction of Indian Leaders|Failure of Mission|Main Proposals|Union Government|Provincial Autonomy|Grouping of Provinces|Constituent Assembly|Interim Government|Acceptance of Plan|Partition of India|Radcliffe Commission|Negative Programme|Positive Programme|Spread of Movement|Government Response|Second Phase|Reasons for Withdrawal|Programme of Action|Independence Day Declaration|Purna Swaraj Resolution|Lucknow Pact|Reunion of Congress|Central Administration|Civil Services|Judicial Administration|Police Administration|Revenue Administration|Local Administration|Military Administration|Communication Administration|Abolition of Social Evils|Widow Remarriage and Women Reforms|Education Policy|Missionary Activities|Social Legislations|Racial Policies|Impact on Indian Society|Land Revenue Systems|Deindustrialization|Drain of Wealth|Commercialization of Agriculture|Industrial Policies|Railways and Infrastructure|Trade Policies|Famines and Economic Impact|Early Satyagrahas|Non-Cooperation Movement|Civil Disobedience Movement|Quit India Movement|Other Important Events|Swaraj Party|Formation|Ideology|Members of Mission|Reaction of Parties|Main Provisions|Key Features|Creation of Dominions|Legislative Sovereignty|Princely States|Partition Provisions|Role of Congress|Regional Movements|Support for Commission|Leader of Mission|Proposals|Composition|Annexation Policies|Direct Annexations|Subsidiary Alliance|Doctrine of Lapse|Anglo-Mysore Wars|Anglo-Maratha Wars|Anglo-Sikh Wars|Battle of Plassey|Battle of Buxar)$/i;
+    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|PYQ Trap)$/i;
 
     for (let line of blocks) {
         if (/^[A-Z0-9\s()&,\-–\/]+$/.test(line) && line.length >= 4) {
@@ -239,7 +239,7 @@ function backToTopics() {
     document.getElementById("notesSection").classList.add("hidden");
 }
 
-loadSubjects();
+window.onload = loadSubjects;
 </script>
 
 </body>
