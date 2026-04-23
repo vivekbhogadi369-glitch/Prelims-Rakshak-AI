@@ -133,19 +133,27 @@ let notesData = {};
 let currentSubject = "";
 
 async function loadSubjects() {
-    const res = await fetch('/static/notes.json');
-    notesData = await res.json();
+    try {
+        const res = await fetch('/static/notes.json');
+        const text = await res.text();
+        notesData = JSON.parse(text);
 
-    let html = "";
-    Object.keys(notesData).forEach(s => {
-        html += `<button onclick="loadTopics(this.innerText, this)">${s}</button>`;
-    });
+        let html = "";
+        Object.keys(notesData).forEach(s => {
+            html += `<button onclick="loadTopics(this.innerText, this)">${s}</button>`;
+        });
 
-    document.getElementById("subjects").innerHTML = html;
+        document.getElementById("subjects").innerHTML = html;
 
-    document.getElementById("subjects").classList.remove("hidden");
-    document.getElementById("topicsSection").classList.add("hidden");
-    document.getElementById("notesSection").classList.add("hidden");
+        document.getElementById("subjects").classList.remove("hidden");
+        document.getElementById("topicsSection").classList.add("hidden");
+        document.getElementById("notesSection").classList.add("hidden");
+
+    } catch (e) {
+        document.getElementById("subjects").innerHTML =
+            "<p style='color:red; font-weight:bold;'>JSON ERROR - check console</p>";
+        console.error("JSON ERROR:", e);
+    }
 }
 
 function clearSelected(container) {
