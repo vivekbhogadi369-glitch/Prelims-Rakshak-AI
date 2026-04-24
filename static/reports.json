@@ -92,7 +92,27 @@
   "published_by": "International Monetary Fund (IMF)",
   
   "official_link": "https://www.imf.org/en/Publications/GFSR"
+    },
+    "Social Sector Reports": {
+      "Human Development Report": {
+  "about": "An annual report published by UNDP that measures and analyses human development using indicators like health, education and standard of living.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are frequently asked on HDI ranking, methodology, indicators and comparison between countries.",
+  
+  "areas_covered": [
+    "Human Development Index (HDI)",
+    "Health (life expectancy)",
+    "Education (years of schooling)",
+    "Standard of living (GNI per capita)",
+    "Inequality",
+    "Gender development",
+    "Global comparisons"
+  ],
+  
+  "published_by": "United Nations Development Programme (UNDP)",
+  
+  "official_link": "https://hdr.undp.org/"
+      }
     }
   }
-}
-    
+  
