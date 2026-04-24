@@ -37,6 +37,26 @@
   "published_by": "Ministry of Finance, Government of India",
   
   "official_link": "https://www.indiabudget.gov.in/"
-      }
+      },
+    "World Economic Outlook": {
+  "about": "A flagship report of the IMF that provides analysis and projections of global economic growth, inflation, trade and financial conditions.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on global growth trends, inflation outlook, recession risks and comparison of economies.",
+  
+  "areas_covered": [
+    "Global GDP growth",
+    "Inflation trends",
+    "Trade outlook",
+    "Financial stability",
+    "Emerging markets",
+    "Advanced economies",
+    "Policy challenges"
+  ],
+  
+  "published_by": "International Monetary Fund (IMF)",
+  
+  "official_link": "https://www.imf.org/en/Publications/WEO"
     }
   }
+}
+
