@@ -18,6 +18,25 @@
       "published_by": "Ministry of Finance, Government of India",
       
       "official_link": "https://www.indiabudget.gov.in/economicsurvey/"
+  ,
+      "Union Budget": {
+  "about": "The Union Budget is the annual financial statement of the Government of India presenting estimated receipts and expenditures for a financial year.",
+  
+  "importance": "Extremely important for UPSC Prelims and Mains. Questions are asked on fiscal deficit, taxation, government schemes, sectoral allocations and economic policy direction.",
+  
+  "areas_covered": [
+    "Taxation policy",
+    "Fiscal deficit",
+    "Government expenditure",
+    "Subsidies",
+    "Sectoral allocations",
+    "Disinvestment",
+    "Economic reforms"
+  ],
+  
+  "published_by": "Ministry of Finance, Government of India",
+  
+  "official_link": "https://www.indiabudget.gov.in/"
+      }
     }
   }
-}
