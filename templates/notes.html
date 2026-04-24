@@ -200,10 +200,10 @@ function formatNotes(text) {
 
     let html = "";
 
-    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|PYQ Trap)$/i;
+    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|PYQ Trap|Definition|Key Features|Types of NBFCs|Classification Based on Liability|Difference Between Banks and NBFCs|Role in Economy|Importance|Issues and Challenges|Recent RBI Reforms|Systemically Important NBFCs|Regulatory Framework|Functions|Types|Recent Reforms|Issues|Reforms|Measurement|Formula|Examples|Objectives|Components|Impact|Limitations|India Context|Advanced Insight)$/i;
 
     for (let line of blocks) {
-        if (/^[A-Z0-9\s()&,\-–\/]+$/.test(line) && line.length >= 4) {
+        if (/^[A-Z0-9a-z\s()&,\-–\/]+$/.test(line) && line.length >= 4 && line === line.toUpperCase().replace("NBFCS", "NBFCs")) {
             html += `<h2>${escapeHtml(line)}</h2>`;
         } else if (supportedSubheads.test(line)) {
             html += `<h3>${escapeHtml(line)}</h3>`;
