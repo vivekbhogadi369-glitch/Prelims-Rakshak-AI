@@ -113,7 +113,25 @@
   "published_by": "United Nations Development Programme (UNDP)",
   
   "official_link": "https://hdr.undp.org/"
+      },
+      "Multidimensional Poverty Index": {
+  "about": "A global index that measures poverty across multiple dimensions such as health, education and living standards, going beyond income-based measures.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on methodology, indicators, comparison with poverty line and India’s performance.",
+  
+  "areas_covered": [
+    "Health (nutrition, child mortality)",
+    "Education (years of schooling, school attendance)",
+    "Living standards (housing, sanitation, electricity, assets)",
+    "Poverty intensity",
+    "Deprivation indicators",
+    "Global and country comparisons"
+  ],
+  
+  "published_by": "UNDP and Oxford Poverty and Human Development Initiative (OPHI)",
+  
+  "official_link": "https://hdr.undp.org/mpi"
       }
     }
-  }
+}
   
