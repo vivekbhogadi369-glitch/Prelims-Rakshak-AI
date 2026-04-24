@@ -172,6 +172,11 @@ def notes_page():
     return render_template("notes.html")
 
 
+@app.route("/reports")
+def reports_page():
+    return render_template("reports.html")
+
+
 @app.route("/pyq-subjects", methods=["GET"])
 def pyq_subjects():
     return jsonify({"subjects": get_pyq_subjects()})
