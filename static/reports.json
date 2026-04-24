@@ -74,6 +74,24 @@
   "published_by": "World Bank",
   
   "official_link": "https://www.worldbank.org/en/publication/global-economic-prospects"
+    },
+    "Global Financial Stability Report": {
+  "about": "A flagship IMF report that assesses the stability of the global financial system and highlights risks to financial markets and institutions.",
+  
+  "importance": "Important for UPSC Mains and selective Prelims. Helps in understanding financial crises, banking sector risks, global liquidity and capital flows.",
+  
+  "areas_covered": [
+    "Financial market stability",
+    "Banking sector risks",
+    "Capital flows",
+    "Debt vulnerabilities",
+    "Asset price movements",
+    "Global liquidity conditions"
+  ],
+  
+  "published_by": "International Monetary Fund (IMF)",
+  
+  "official_link": "https://www.imf.org/en/Publications/GFSR"
     }
   }
 }
