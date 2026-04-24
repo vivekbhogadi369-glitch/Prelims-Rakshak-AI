@@ -56,7 +56,25 @@
   "published_by": "International Monetary Fund (IMF)",
   
   "official_link": "https://www.imf.org/en/Publications/WEO"
+    },
+    "Global Economic Prospects": {
+  "about": "A World Bank report that provides analysis and projections of the global economy, with a focus on emerging markets and developing economies.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Helps in understanding global growth trends, developing economies, debt issues and external sector vulnerabilities.",
+  
+  "areas_covered": [
+    "Global growth outlook",
+    "Developing economies",
+    "Trade trends",
+    "Debt and fiscal risks",
+    "Investment trends",
+    "Regional analysis"
+  ],
+  
+  "published_by": "World Bank",
+  
+  "official_link": "https://www.worldbank.org/en/publication/global-economic-prospects"
     }
   }
 }
-
+    
