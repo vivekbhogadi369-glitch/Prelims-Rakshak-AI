@@ -1,0 +1,23 @@
+{
+  "Economic & Finance": {
+    "Economic Survey": {
+      "about": "Annual document reviewing the performance of the Indian economy and suggesting policy measures.",
+      
+      "importance": "Highly important for UPSC Prelims and Mains. Questions are asked on growth trends, inflation, fiscal policy, sectors and reforms.",
+      
+      "areas_covered": [
+        "GDP growth",
+        "Inflation",
+        "Fiscal policy",
+        "Agriculture",
+        "Industry",
+        "Services",
+        "Employment"
+      ],
+      
+      "published_by": "Ministry of Finance, Government of India",
+      
+      "official_link": "https://www.indiabudget.gov.in/economicsurvey/"
+    }
+  }
+}
