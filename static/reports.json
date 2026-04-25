@@ -131,7 +131,24 @@
   "published_by": "UNDP and Oxford Poverty and Human Development Initiative (OPHI)",
   
   "official_link": "https://hdr.undp.org/content/2025-global-multidimensional-poverty-index-mpi"
+      },
+      "Global Hunger Index": {
+  "about": "An annual index that measures hunger at global, regional and national levels using indicators related to undernourishment, child wasting, stunting and mortality.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Frequently asked regarding India’s rank, methodology, indicators and comparison with other countries.",
+  
+  "areas_covered": [
+    "Undernourishment",
+    "Child wasting",
+    "Child stunting",
+    "Child mortality",
+    "Country rankings",
+    "Regional comparisons"
+  ],
+  
+  "published_by": "Concern Worldwide and Welthungerhilfe",
+  
+  "official_link": "https://www.globalhungerindex.org/"
       }
     }
 }
-  
