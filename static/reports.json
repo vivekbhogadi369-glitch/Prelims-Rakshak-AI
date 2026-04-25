@@ -241,6 +241,24 @@
   "published_by": "United Nations Environment Programme (UNEP)",
   
   "official_link": "https://www.unep.org/resources/emissions-gap-report"
+    },
+    "Global Climate Risk Index": {
+  "about": "An annual index that analyses the extent to which countries have been affected by extreme weather events such as floods, storms and heatwaves.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on vulnerable countries, India’s ranking, climate change impacts and disaster-related risks.",
+  
+  "areas_covered": [
+    "Extreme weather events",
+    "Loss of lives",
+    "Economic losses",
+    "Climate vulnerability",
+    "Country rankings",
+    "Long-term climate impact trends"
+  ],
+  
+  "published_by": "Germanwatch",
+  
+  "official_link": "https://www.germanwatch.org/en/cri"
     }
   }
 }
