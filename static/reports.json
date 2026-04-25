@@ -222,5 +222,25 @@
   
   "official_link": "https://www.unfpa.org/swp"
       }
+    },
+  "Environment and Climate Reports": {
+    "Emissions Gap Report": {
+  "about": "An annual report by UNEP that assesses the gap between projected global greenhouse gas emissions and the levels required to meet climate targets under the Paris Agreement.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on emission targets, climate commitments, net-zero goals and global mitigation gaps.",
+  
+  "areas_covered": [
+    "Global emission trends",
+    "Emission gap analysis",
+    "National commitments (NDCs)",
+    "Net-zero targets",
+    "Climate policy actions",
+    "Sector-wise emissions"
+  ],
+  
+  "published_by": "United Nations Environment Programme (UNEP)",
+  
+  "official_link": "https://www.unep.org/resources/emissions-gap-report"
     }
+  }
 }
