@@ -448,6 +448,24 @@
   "published_by": "Food and Agriculture Organization (FAO)",
   
   "official_link": "https://www.fao.org/3/cb7494en/cb7494en.pdf"
+  },
+    "State of Food Security and Nutrition in the World (SOFI)": {
+  "about": "An annual report jointly published by FAO, IFAD, UNICEF, WFP and WHO that assesses global hunger, food insecurity and nutrition trends.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on hunger levels, malnutrition indicators, global food security trends and India’s performance.",
+  
+  "areas_covered": [
+    "Hunger and undernourishment",
+    "Food insecurity (moderate and severe)",
+    "Malnutrition (stunting, wasting, obesity)",
+    "Healthy diet affordability",
+    "Global and regional trends",
+    "Policy recommendations"
+  ],
+  
+  "published_by": "FAO, IFAD, UNICEF, WFP and WHO",
+  
+  "official_link": "https://www.fao.org/publications/sofi/"
+    }
   }
-}
 }
