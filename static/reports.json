@@ -185,6 +185,23 @@
   
   "published_by": "World Economic Forum (WEF)",
   "official_link": "https://www.weforum.org/publications/global-gender-gap-report-2025/"
+      },
+      "Gender Inequality Index": {
+  "about": "An index developed by UNDP that measures gender-based inequalities in reproductive health, empowerment and labour market participation.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on indicators, difference from Gender Gap Report and India’s performance.",
+  
+  "areas_covered": [
+    "Reproductive health (maternal mortality, adolescent birth rate)",
+    "Empowerment (education, parliamentary representation)",
+    "Labour force participation",
+    "Gender inequality measurement",
+    "Country rankings"
+  ],
+  
+  "published_by": "United Nations Development Programme (UNDP)",
+  
+  "official_link": "https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index"
       }
     }
 }
