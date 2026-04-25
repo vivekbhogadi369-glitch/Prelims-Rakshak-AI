@@ -429,5 +429,25 @@
   "official_link": "https://www.asercentre.org/"
     
     }
+  },
+  "Agriculture and Food Reports": {
+  "Food Outlook": {
+  "about": "A biannual report by the Food and Agriculture Organization (FAO) that provides analysis of global food markets, trade trends and price movements.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Questions are asked on global food supply, price trends, food security and agricultural trade.",
+  
+  "areas_covered": [
+    "Global food production",
+    "Food prices",
+    "Agricultural trade",
+    "Supply and demand trends",
+    "Commodity markets (cereals, oilseeds, sugar, meat, dairy)",
+    "Food security outlook"
+  ],
+  
+  "published_by": "Food and Agriculture Organization (FAO)",
+  
+  "official_link": "https://www.fao.org/3/cb7494en/cb7494en.pdf"
   }
+}
 }
