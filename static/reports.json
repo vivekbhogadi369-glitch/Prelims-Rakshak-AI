@@ -372,5 +372,25 @@
   
   "official_link": "https://worldjusticeproject.org/rule-of-law-index/"
     }
+  },
+  "Health and Education Reports": {
+    "World Health Statistics": {
+  "about": "An annual report by the World Health Organization that provides comprehensive data on global health indicators, trends and progress towards health-related goals.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on global health indicators, mortality rates, life expectancy, disease burden and comparisons across countries.",
+  
+  "areas_covered": [
+    "Life expectancy",
+    "Mortality rates",
+    "Disease burden",
+    "Health system indicators",
+    "Universal health coverage",
+    "Global and regional comparisons"
+  ],
+  
+  "published_by": "World Health Organization (WHO)",
+  
+  "official_link": "https://www.who.int/data/gho/publications/world-health-statistics"
+    }
   }
 }
