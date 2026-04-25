@@ -427,6 +427,25 @@
   "published_by": "Pratham Education Foundation",
   
   "official_link": "https://www.asercentre.org/"
+    },
+    "National Family Health Survey (NFHS)": {
+  "about": "A large-scale, multi-round survey conducted in India to provide data on population, health, nutrition and family welfare indicators.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are frequently asked on health indicators, nutrition, fertility, maternal and child health, and India-specific data.",
+  
+  "areas_covered": [
+    "Population and fertility",
+    "Maternal health",
+    "Child health and mortality",
+    "Nutrition (stunting, wasting, anaemia)",
+    "Women empowerment",
+    "Immunization",
+    "Sanitation and drinking water"
+  ],
+  
+  "published_by": "Ministry of Health and Family Welfare, Government of India",
+  
+  "official_link": "https://rchiips.org/nfhs/"
     }
   }
 }
