@@ -466,6 +466,24 @@
   "published_by": "FAO, IFAD, UNICEF, WFP and WHO",
   
   "official_link": "https://www.fao.org/publications/sofi/"
+    },
+    "Agricultural Census (India)": {
+  "about": "A periodic census conducted by the Government of India to collect comprehensive data on agricultural holdings, including size, ownership, land use and tenancy patterns.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Questions are asked on landholding patterns, marginal farmers, agricultural structure and rural economy trends.",
+  
+  "areas_covered": [
+    "Number and size of landholdings",
+    "Marginal, small and large farmers",
+    "Ownership and tenancy patterns",
+    "Land use classification",
+    "Irrigation status",
+    "Gender-wise land ownership"
+  ],
+  
+  "published_by": "Ministry of Agriculture & Farmers Welfare, Government of India",
+  
+  "official_link": "https://agcensus.nic.in/"
     }
   }
 }
