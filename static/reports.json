@@ -224,6 +224,24 @@
       }
     },
   "Environment and Climate Reports": {
+    "Sustainable Development Goals Report (Global)": {
+  "about": "An annual report published by the United Nations that tracks global progress on the 17 Sustainable Development Goals using official indicators and data.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on SDG targets, global progress, indicators, gaps and comparison between countries.",
+  
+  "areas_covered": [
+    "Progress on 17 SDGs",
+    "Global indicators and targets",
+    "Poverty, health and education",
+    "Climate change and environment",
+    "Inequality and inclusion",
+    "Regional and global comparisons"
+  ],
+  
+  "published_by": "United Nations (UN)",
+  
+  "official_link": "https://unstats.un.org/sdgs/report/"
+    },
     "Emissions Gap Report": {
   "about": "An annual report by UNEP that assesses the gap between projected global greenhouse gas emissions and the levels required to meet climate targets under the Paris Agreement.",
   
