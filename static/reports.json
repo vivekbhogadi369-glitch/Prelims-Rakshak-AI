@@ -1,5 +1,5 @@
 {
-  "Economic & Finance": {
+  "Economic & Finance Reports": {
     "Economic Survey": {
       "about": "Annual document reviewing the performance of the Indian economy and suggesting policy measures.",
       
@@ -221,6 +221,63 @@
   "published_by": "United Nations Population Fund (UNFPA)",
   
   "official_link": "https://www.unfpa.org/swp"
+      },
+      "School Education Quality Index (SEQI)": {
+  "about": "An index developed by NITI Aayog to evaluate the performance of states and union territories in the school education sector based on learning outcomes, access, equity and governance.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Questions may be asked on education indicators, state rankings and parameters used to assess quality of school education.",
+  
+  "areas_covered": [
+    "Learning outcomes",
+    "Access to education",
+    "Equity in education",
+    "Infrastructure",
+    "Governance processes",
+    "State and UT rankings"
+  ],
+  
+  "published_by": "NITI Aayog, Government of India",
+  
+  "official_link": "https://www.niti.gov.in/content/school-education-quality-index"
       }
+    },
+  "Sustainable Development Reports": {
+    "Sustainable Development Goals Report": {
+  "about": "An annual global report by the United Nations that tracks progress on the 17 Sustainable Development Goals using official data and indicators.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on SDG progress, global trends, targets, indicators and comparison between countries.",
+  
+  "areas_covered": [
+    "Progress on 17 SDGs",
+    "Global indicators and targets",
+    "Poverty, health and education",
+    "Climate change and environment",
+    "Inequality and inclusion",
+    "Global and regional comparisons"
+  ],
+  
+  "published_by": "United Nations (UN)",
+  
+  "official_link": "https://unstats.un.org/sdgs/report/"
+    },
+    "NITI Aayog SDG Index": {
+  "about": "An index developed by NITI Aayog to measure and track the progress of Indian States and Union Territories towards achieving the Sustainable Development Goals (SDGs).",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on state rankings, indicators used, SDG performance and inter-state comparisons.",
+  
+  "areas_covered": [
+    "SDG-wise performance",
+    "State and UT rankings",
+    "Health, education and poverty indicators",
+    "Environment and sustainability",
+    "Economic growth indicators",
+    "Governance indicators"
+  ],
+  
+  "published_by": "NITI Aayog, Government of India",
+  
+  "official_link": "https://www.niti.gov.in/sdg-india-index-dashboard"
     }
+  }
 }
+    
