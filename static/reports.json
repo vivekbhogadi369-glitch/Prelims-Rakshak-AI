@@ -295,6 +295,24 @@
   "published_by": "Forest Survey of India (FSI), Ministry of Environment, Forest and Climate",
  
       "official_link": "https://fsi.nic.in/forest-report"
+    },
+    "Living Planet Report": {
+  "about": "A biennial report by WWF that assesses the state of global biodiversity using indicators like the Living Planet Index, highlighting trends in wildlife populations and ecosystem health.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on biodiversity loss, species decline, ecological footprint and global conservation trends.",
+  
+  "areas_covered": [
+    "Living Planet Index (LPI)",
+    "Biodiversity trends",
+    "Wildlife population decline",
+    "Ecosystem health",
+    "Ecological footprint",
+    "Climate change impact on biodiversity"
+  ],
+  
+  "published_by": "World Wide Fund for Nature (WWF)",
+  
+  "official_link": "https://www.wwf.org.uk/our-reports/living-planet-report"
     }
   }
 }
