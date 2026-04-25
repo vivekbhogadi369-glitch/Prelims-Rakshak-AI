@@ -332,6 +332,24 @@
   "published_by": "Transparency International",
   
   "official_link": "https://www.transparency.org/en/cpi"
+    },
+    "Democracy Index": {
+  "about": "An annual index by the Economist Intelligence Unit (EIU) that measures the state of democracy in countries based on electoral process, civil liberties, political participation, political culture and functioning of government.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on India’s classification (full/flawed democracy), ranking, indicators and global trends.",
+  
+  "areas_covered": [
+    "Electoral process and pluralism",
+    "Functioning of government",
+    "Political participation",
+    "Political culture",
+    "Civil liberties",
+    "Country rankings and classifications"
+  ],
+  
+  "published_by": "Economist Intelligence Unit (EIU)",
+  
+  "official_link": "https://www.eiu.com/n/campaigns/democracy-index-2024/"
     }
   }
 }
