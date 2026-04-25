@@ -314,5 +314,24 @@
   
   "official_link": "https://www.cbd.int/gbo/"
     }
+  },
+  "Governance Reports": {
+    "Corruption Perceptions Index": {
+  "about": "An annual index that ranks countries based on perceived levels of public sector corruption, using expert assessments and surveys.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on India’s rank, methodology and comparison with other countries.",
+  
+  "areas_covered": [
+    "Public sector corruption",
+    "Country rankings",
+    "Governance indicators",
+    "Transparency and accountability",
+    "Global comparisons"
+  ],
+  
+  "published_by": "Transparency International",
+  
+  "official_link": "https://www.transparency.org/en/cpi"
+    }
   }
 }
