@@ -168,6 +168,24 @@
   "published_by": "UN Sustainable Development Solutions Network (SDSN)",
   
   "official_link": "https://worldhappiness.report/"
+      },
+      "Global Gender Gap Report": {
+  "about": "An annual report by the World Economic Forum that measures gender-based disparities across countries in economic participation, education, health and political empowerment.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are frequently asked on India’s rank, gender equality indicators and global comparisons.",
+  
+  "areas_covered": [
+    "Economic participation and opportunity",
+    "Educational attainment",
+    "Health and survival",
+    "Political empowerment",
+    "Gender parity index",
+    "Country rankings"
+  ],
+  
+  "published_by": "World Economic Forum (WEF)",
+  
+  "official_link": "https://www.weforum.org/reports/global-gender-gap-report/"
       }
     }
 }
