@@ -202,6 +202,25 @@
   "published_by": "United Nations Development Programme (UNDP)",
   
   "official_link": "https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index"
+      },
+      "State of World Population": {
+  "about": "An annual report by UNFPA that analyses global population trends with a focus on reproductive health, gender equality and demographic changes.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on population trends, fertility rates, demographic transition, gender issues and India’s population status.",
+  
+  "areas_covered": [
+    "Population growth trends",
+    "Fertility rates",
+    "Reproductive health",
+    "Gender equality",
+    "Youth population",
+    "Demographic transition",
+    "Global and country comparisons"
+  ],
+  
+  "published_by": "United Nations Population Fund (UNFPA)",
+  
+  "official_link": "https://www.unfpa.org/swp"
       }
     }
 }
