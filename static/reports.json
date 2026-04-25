@@ -409,6 +409,24 @@
   "published_by": "World Health Organization (WHO)",
   
   "official_link": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports"
+    },
+    "ASER Report": {
+  "about": "An annual citizen-led survey that assesses basic learning outcomes of children in rural India, focusing on reading and arithmetic abilities.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on learning outcomes, education quality, rural schooling trends and India-specific data.",
+  
+  "areas_covered": [
+    "Reading ability",
+    "Arithmetic skills",
+    "School enrolment",
+    "Learning outcomes",
+    "Rural education trends",
+    "Age-wise assessment"
+  ],
+  
+  "published_by": "Pratham Education Foundation",
+  
+  "official_link": "https://www.asercentre.org/"
     }
   }
 }
