@@ -296,23 +296,23 @@
  
       "official_link": "https://fsi.nic.in/forest-report"
     },
-    "Living Planet Report": {
-  "about": "A biennial report by WWF that assesses the state of global biodiversity using indicators like the Living Planet Index, highlighting trends in wildlife populations and ecosystem health.",
+    "Global Biodiversity Outlook": {
+  "about": "A flagship assessment report under the Convention on Biological Diversity (CBD) that evaluates the global status and trends of biodiversity and progress towards biodiversity targets.",
   
-  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on biodiversity loss, species decline, ecological footprint and global conservation trends.",
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on biodiversity targets (Aichi/Post-2020), conservation status, global trends and policy gaps.",
   
   "areas_covered": [
-    "Living Planet Index (LPI)",
-    "Biodiversity trends",
-    "Wildlife population decline",
-    "Ecosystem health",
-    "Ecological footprint",
-    "Climate change impact on biodiversity"
+    "Global biodiversity status",
+    "Aichi Biodiversity Targets / Post-2020 Global Biodiversity Framework",
+    "Ecosystem degradation",
+    "Species extinction trends",
+    "Conservation measures",
+    "Policy gaps and recommendations"
   ],
   
-  "published_by": "World Wide Fund for Nature (WWF)",
+  "published_by": "Convention on Biological Diversity (CBD)",
   
-  "official_link": "https://www.wwf.org.uk/our-reports/living-planet-report"
+  "official_link": "https://www.cbd.int/gbo/"
     }
   }
 }
