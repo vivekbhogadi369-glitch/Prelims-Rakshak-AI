@@ -149,6 +149,25 @@
   "published_by": "Concern Worldwide and Welthungerhilfe",
   
   "official_link": "https://www.globalhungerindex.org/"
+      },
+      "World Happiness Report": {
+  "about": "An annual report that ranks countries based on happiness levels using factors like income, social support, life expectancy, freedom, generosity and corruption.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Questions are asked on India’s rank, indicators used and global comparisons.",
+  
+  "areas_covered": [
+    "Happiness ranking",
+    "GDP per capita",
+    "Social support",
+    "Healthy life expectancy",
+    "Freedom to make life choices",
+    "Perception of corruption",
+    "Generosity"
+  ],
+  
+  "published_by": "UN Sustainable Development Solutions Network (SDSN)",
+  
+  "official_link": "https://worldhappiness.report/"
       }
     }
 }
