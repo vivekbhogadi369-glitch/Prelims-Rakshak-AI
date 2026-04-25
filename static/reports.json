@@ -259,6 +259,24 @@
   "published_by": "Germanwatch",
   
   "official_link": "https://www.germanwatch.org/en/cri"
+    },
+    "IPCC Reports": {
+  "about": "Comprehensive assessment reports prepared by the Intergovernmental Panel on Climate Change (IPCC) that evaluate scientific knowledge on climate change, its impacts, risks and mitigation options.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are frequently asked on assessment reports, climate science, mitigation pathways, adaptation strategies and key findings.",
+  
+  "areas_covered": [
+    "Climate science (physical basis)",
+    "Impacts and vulnerabilities",
+    "Adaptation strategies",
+    "Mitigation pathways",
+    "Emission scenarios",
+    "Global temperature projections"
+  ],
+  
+  "published_by": "Intergovernmental Panel on Climate Change (IPCC)",
+  
+  "official_link": "https://www.ipcc.ch/reports/"
     }
   }
 }
