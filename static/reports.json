@@ -391,6 +391,24 @@
   "published_by": "World Health Organization (WHO)",
   
   "official_link": "https://www.who.int/data/gho/publications/world-health-statistics"
+    },
+    "Global Tuberculosis Report": {
+  "about": "An annual report by the World Health Organization that provides comprehensive data and analysis on the global burden of tuberculosis, including incidence, mortality and control efforts.",
+  
+  "importance": "Very important for UPSC Prelims and Mains. Questions are asked on TB burden, India’s performance, elimination targets and global health initiatives.",
+  
+  "areas_covered": [
+    "TB incidence and prevalence",
+    "TB mortality",
+    "Drug-resistant TB",
+    "National TB programmes",
+    "Global and regional trends",
+    "TB elimination targets"
+  ],
+  
+  "published_by": "World Health Organization (WHO)",
+  
+  "official_link": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports"
     }
   }
 }
