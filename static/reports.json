@@ -350,6 +350,27 @@
   "published_by": "Economist Intelligence Unit (EIU)",
   
   "official_link": "https://www.eiu.com/n/campaigns/democracy-index-2024/"
+    },
+    "Rule of Law Index": {
+  "about": "An annual index by the World Justice Project that measures how the rule of law is experienced and perceived in countries based on factors like constraints on government powers, absence of corruption, fundamental rights and justice systems.",
+  
+  "importance": "Important for UPSC Prelims and Mains. Questions are asked on India’s ranking, governance indicators, justice delivery and comparison with other countries.",
+  
+  "areas_covered": [
+    "Constraints on government powers",
+    "Absence of corruption",
+    "Open government",
+    "Fundamental rights",
+    "Order and security",
+    "Regulatory enforcement",
+    "Civil justice",
+    "Criminal justice",
+    "Country rankings"
+  ],
+  
+  "published_by": "World Justice Project",
+  
+  "official_link": "https://worldjusticeproject.org/rule-of-law-index/"
     }
   }
 }
