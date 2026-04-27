@@ -64,37 +64,53 @@
 
         .notes-box {
             margin-top: 12px;
-            padding: 16px;
+            padding: 18px;
             background: #fffaf5;
             border-radius: 14px;
-            line-height: 1.7;
-            font-size: 15px;
+            line-height: 1.65;
+            font-size: 16px;
             color: #222;
             font-family: Georgia, "Times New Roman", serif;
             box-shadow: inset 0 0 6px rgba(0,0,0,0.03);
         }
 
         .notes-box h2 {
-            font-size: 18px;
-            margin-top: 14px;
-            margin-bottom: 6px;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 20px;
+            margin-top: 24px;
+            margin-bottom: 10px;
             color: #7c2d12;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            line-height: 1.35;
+        }
+
+        .notes-box h2:first-child {
+            margin-top: 0;
         }
 
         .notes-box h3 {
-            font-size: 16px;
-            margin-top: 10px;
-            margin-bottom: 4px;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 18px;
+            margin-top: 18px;
+            margin-bottom: 8px;
             color: #0f766e;
+            font-weight: 800;
+            line-height: 1.35;
         }
 
         .notes-box p {
             margin-top: 0;
             margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.65;
         }
 
         .notes-box .bullet {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            font-size: 16px;
+            line-height: 1.65;
         }
 
         .back-btn {
@@ -200,13 +216,15 @@ function formatNotes(text) {
 
     let html = "";
 
-    const supportedSubheads = /^(Introduction|Features|Causes|Effects|Conclusion|Significance|Important Points|PYQ Trap|Definition|Key Features|Types of NBFCs|Classification Based on Liability|Difference Between Banks and NBFCs|Role in Economy|Importance|Issues and Challenges|Recent RBI Reforms|Systemically Important NBFCs|Regulatory Framework|Functions|Types|Recent Reforms|Issues|Reforms|Measurement|Formula|Examples|Objectives|Components|Impact|Limitations|India Context|Advanced Insight)$/i;
+    const supportedSubheads = /^(Introduction|Background|Definition|Features|Key Features|Causes|Effects|Conclusion|Significance|Importance|Important Points|PYQ Trap|Types|Functions|Objectives|Components|Impact|Limitations|India Context|Advanced Insight|Examples|Measurement|Formula|Issues|Challenges|Issues and Challenges|Reforms|Recent Reforms|Recent RBI Reforms|Regulatory Framework|Role in Economy|Classification Based on Liability|Difference Between Banks and NBFCs|Systemically Important NBFCs|Types of NBFCs|Based on Cause|Demand-Pull Inflation|Cost-Push Inflation|Built-in Inflation|Expansion|Decline|Texts|Practices|Spread|Administration|Economy|Political Structure|Major Rajput Clans)$/i;
 
     for (let line of blocks) {
-        if (/^[A-Z0-9a-z\s()&,\-–\/]+$/.test(line) && line.length >= 4 && line === line.toUpperCase().replace("NBFCS", "NBFCs")) {
-            html += `<h2>${escapeHtml(line)}</h2>`;
-        } else if (supportedSubheads.test(line)) {
-            html += `<h3>${escapeHtml(line)}</h3>`;
+        const cleanLine = line.replace(/[:：]$/, "").trim();
+
+        if (/^[A-Z0-9\s()&,\-–\/]+$/.test(cleanLine) && cleanLine.length >= 4) {
+            html += `<h2>${escapeHtml(cleanLine)}</h2>`;
+        } else if (supportedSubheads.test(cleanLine)) {
+            html += `<h3>${escapeHtml(cleanLine)}</h3>`;
         } else if (line.startsWith("•")) {
             html += `<div class="bullet">${escapeHtml(line)}</div>`;
         } else {
