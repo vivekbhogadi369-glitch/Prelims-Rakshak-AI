@@ -216,12 +216,14 @@ function formatNotes(text) {
 
     let html = "";
 
-    const supportedSubheads = /^(Introduction|Background|Definition|Features|Key Features|Causes|Effects|Conclusion|Significance|Importance|Important Points|PYQ Trap|Types|Functions|Objectives|Components|Impact|Limitations|India Context|Advanced Insight|Examples|Measurement|Formula|Issues|Challenges|Issues and Challenges|Reforms|Recent Reforms|Recent RBI Reforms|Regulatory Framework|Role in Economy|Classification Based on Liability|Difference Between Banks and NBFCs|Systemically Important NBFCs|Types of NBFCs|Based on Cause|Demand-Pull Inflation|Cost-Push Inflation|Built-in Inflation|Expansion|Decline|Texts|Practices|Spread|Administration|Economy|Political Structure|Major Rajput Clans)$/i;
+    const supportedSubheads = /^(Introduction|Background|Definition|Features|Key Features|Causes|Effects|Significance|Importance|Important Points|PYQ Trap|Types|Functions|Objectives|Components|Impact|Limitations|India Context|Advanced Insight|Examples|Measurement|Formula|Issues|Challenges|Issues and Challenges|Reforms|Recent Reforms|Recent RBI Reforms|Regulatory Framework|Role in Economy|Classification Based on Liability|Difference Between Banks and NBFCs|Systemically Important NBFCs|Types of NBFCs|Based on Cause|Demand-Pull Inflation|Cost-Push Inflation|Built-in Inflation|Expansion|Decline|Texts|Practices|Spread|Administration|Economy|Political Structure|Major Rajput Clans)$/i;
 
     for (let line of blocks) {
         const cleanLine = line.replace(/[:：]$/, "").trim();
 
-        if (/^[A-Z0-9\s()&,\-–\/]+$/.test(cleanLine) && cleanLine.length >= 4) {
+        if (/^Conclusion$/i.test(cleanLine)) {
+            html += `<h2>CONCLUSION</h2>`;
+        } else if (/^[A-Z0-9\s()&,\-–\/]+$/.test(cleanLine) && cleanLine.length >= 4) {
             html += `<h2>${escapeHtml(cleanLine)}</h2>`;
         } else if (supportedSubheads.test(cleanLine)) {
             html += `<h3>${escapeHtml(cleanLine)}</h3>`;
