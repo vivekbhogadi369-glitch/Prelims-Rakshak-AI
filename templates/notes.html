@@ -19,11 +19,9 @@
             margin-bottom: 18px;
         }
 
-        .top-bar {
-            margin-bottom: 12px;
-        }
+        .top-bar { margin-bottom: 12px; }
 
-        .home-btn {
+        .home-btn, .back-btn {
             background: #475569;
             color: white;
             padding: 9px 12px;
@@ -56,10 +54,7 @@
             font-size: 14px;
         }
 
-        .selected {
-            background: #0f766e !important;
-        }
-
+        .selected { background: #0f766e !important; }
         .hidden { display: none; }
 
         .notes-box {
@@ -75,42 +70,28 @@
         }
 
         .notes-box h2 {
-            font-family: Georgia, "Times New Roman", serif;
             font-size: 20px;
             margin-top: 24px;
             margin-bottom: 10px;
             color: #7c2d12;
             font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 0.3px;
-            line-height: 1.35;
         }
 
-        .notes-box h2:first-child {
-            margin-top: 0;
-        }
+        .notes-box h2:first-child { margin-top: 0; }
 
         .notes-box h3 {
-            font-family: Georgia, "Times New Roman", serif;
             font-size: 18px;
             margin-top: 18px;
             margin-bottom: 8px;
             color: #0f766e;
             font-weight: 800;
-            line-height: 1.35;
         }
 
-        .notes-box p {
-            margin-top: 0;
+        .notes-box p, .notes-box .bullet {
+            font-size: 16px;
+            line-height: 1.65;
             margin-bottom: 12px;
-            font-size: 16px;
-            line-height: 1.65;
-        }
-
-        .notes-box .bullet {
-            margin-bottom: 8px;
-            font-size: 16px;
-            line-height: 1.65;
         }
 
         .audio-box {
@@ -128,9 +109,7 @@
             font-size: 16px;
         }
 
-        .audio-lang-btn {
-            background: #0f766e;
-        }
+        .audio-lang-btn { background: #0f766e; }
 
         audio {
             width: 100%;
@@ -141,11 +120,6 @@
             color: #7c2d12;
             font-weight: bold;
             margin-top: 10px;
-        }
-
-        .back-btn {
-            background: #475569;
-            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -192,6 +166,21 @@
 let notesData = {};
 let currentSubject = "";
 let currentTopicText = "";
+let currentTopicName = "";
+
+/* AUDIO FILE MAP */
+const audioFiles = {
+    "Prehistoric India": {
+        english: "/static/audio/prehistoric_india_english.mp3",
+        telugu: "/static/audio/prehistoric_india_telugu.mp3",
+        hindi: "/static/audio/prehistoric_india_hindi.mp3"
+    },
+    "Indus Valley Civilization": {
+        english: "/static/audio/IVC_english.mp3",
+        telugu: "/static/audio/IVC_telugu.mp3",
+        hindi: "/static/audio/IVC_hindi.mp3"
+    }
+};
 
 async function loadSubjects() {
     try {
@@ -205,7 +194,6 @@ async function loadSubjects() {
         });
 
         document.getElementById("subjects").innerHTML = html;
-
         document.getElementById("subjects").classList.remove("hidden");
         document.getElementById("topicsSection").classList.add("hidden");
         document.getElementById("notesSection").classList.add("hidden");
@@ -223,7 +211,6 @@ function clearSelected(container) {
 
 function loadTopics(subject, btn) {
     currentSubject = subject;
-
     clearSelected(document.getElementById("subjects"));
     btn.classList.add("selected");
 
@@ -233,7 +220,6 @@ function loadTopics(subject, btn) {
     });
 
     document.getElementById("topics").innerHTML = html;
-
     document.getElementById("subjects").classList.add("hidden");
     document.getElementById("topicsSection").classList.remove("hidden");
     document.getElementById("notesSection").classList.add("hidden");
@@ -250,7 +236,6 @@ function escapeHtml(text) {
 
 function formatNotes(text) {
     let formatted = text || "";
-
     formatted = formatted.replace(/\r/g, "");
     formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
@@ -294,8 +279,9 @@ function stopAudio() {
 function loadNotes(subject, topic) {
     stopAudio();
 
-    const content = notesData[subject][topic];
+    currentTopicName = topic;
 
+    const content = notesData[subject][topic];
     let text = "";
 
     if (typeof content === "string") {
@@ -307,7 +293,6 @@ function loadNotes(subject, topic) {
     }
 
     currentTopicText = text;
-
     document.getElementById("notesContent").innerHTML = formatNotes(text);
 
     document.getElementById("topicsSection").classList.add("hidden");
@@ -321,22 +306,17 @@ function playAudio(language) {
     player.pause();
     player.currentTime = 0;
 
-    const audioFiles = {
-        english: "/static/audio/prehistoric_india_english.mp3",
-        telugu: "/static/audio/prehistoric_india_telugu.mp3",
-        hindi: "/static/audio/prehistoric_india_hindi.mp3"
-    };
-
-    if (!audioFiles[language]) {
+    if (!audioFiles[currentTopicName] || !audioFiles[currentTopicName][language]) {
         player.classList.add("hidden");
         player.src = "";
-        message.innerHTML = "Audio not available.";
+        message.innerHTML = "Audio not added for this topic yet.";
         return;
     }
 
-    player.src = audioFiles[language];
+    player.src = audioFiles[currentTopicName][language];
     player.classList.remove("hidden");
     message.innerHTML = "";
+
     player.play().catch(function() {
         player.classList.add("hidden");
         message.innerHTML = "Audio file not uploaded yet.";
