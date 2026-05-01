@@ -175,8 +175,8 @@
 
             <div class="button-group">
                 <button class="audio-lang-btn" onclick="playAudio('english')">English</button>
-<button class="audio-lang-btn" onclick="playAudio('telugu')">తెలుగు</button>
-<button class="audio-lang-btn" onclick="playAudio('hindi')">हिन्दी</button>
+                <button class="audio-lang-btn" onclick="playAudio('telugu')">తెలుగు</button>
+                <button class="audio-lang-btn" onclick="playAudio('hindi')">हिन्दी</button>
             </div>
 
             <div id="audioMessage" class="audio-message"></div>
@@ -310,7 +310,7 @@ function loadNotes(subject, topic) {
 async function playAudio(language) {
     try {
         document.getElementById("audioMessage").innerHTML = "Generating audio...";
-        
+
         const response = await fetch("/generate-audio", {
             method: "POST",
             headers: {
