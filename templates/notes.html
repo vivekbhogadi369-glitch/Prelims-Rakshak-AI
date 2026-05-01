@@ -282,7 +282,18 @@ function formatNotes(text) {
     return html;
 }
 
+function stopAudio() {
+    const player = document.getElementById("audioPlayer");
+    player.pause();
+    player.currentTime = 0;
+    player.src = "";
+    player.classList.add("hidden");
+    document.getElementById("audioMessage").innerHTML = "";
+}
+
 function loadNotes(subject, topic) {
+    stopAudio();
+
     const content = notesData[subject][topic];
 
     let text = "";
@@ -299,57 +310,48 @@ function loadNotes(subject, topic) {
 
     document.getElementById("notesContent").innerHTML = formatNotes(text);
 
-    document.getElementById("audioMessage").innerHTML = "";
-    document.getElementById("audioPlayer").classList.add("hidden");
-    document.getElementById("audioPlayer").src = "";
-
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.remove("hidden");
 }
 
-async function playAudio(language) {
-    try {
-        document.getElementById("audioMessage").innerHTML = "Generating audio...";
+function playAudio(language) {
+    const player = document.getElementById("audioPlayer");
+    const message = document.getElementById("audioMessage");
 
-        const response = await fetch("/generate-audio", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                text: currentTopicText,
-                language: language
-            })
-        });
+    player.pause();
+    player.currentTime = 0;
 
-        const data = await response.json();
+    const audioFiles = {
+        english: "/static/audio/prehistoric_india_english.mp3",
+        telugu: "/static/audio/prehistoric_india_telugu.mp3",
+        hindi: "/static/audio/prehistoric_india_hindi.mp3"
+    };
 
-        if (!response.ok || data.error) {
-            document.getElementById("audioMessage").innerHTML =
-                "Audio generation failed.";
-            return;
-        }
-
-        const player = document.getElementById("audioPlayer");
-        player.src = data.audio_url;
-        player.classList.remove("hidden");
-        document.getElementById("audioMessage").innerHTML = "";
-        player.play();
-
-    } catch (error) {
-        document.getElementById("audioMessage").innerHTML =
-            "Audio generation failed.";
-        console.error(error);
+    if (!audioFiles[language]) {
+        player.classList.add("hidden");
+        player.src = "";
+        message.innerHTML = "Audio not available.";
+        return;
     }
+
+    player.src = audioFiles[language];
+    player.classList.remove("hidden");
+    message.innerHTML = "";
+    player.play().catch(function() {
+        player.classList.add("hidden");
+        message.innerHTML = "Audio file not uploaded yet.";
+    });
 }
 
 function backToSubjects() {
+    stopAudio();
     document.getElementById("subjects").classList.remove("hidden");
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.add("hidden");
 }
 
 function backToTopics() {
+    stopAudio();
     document.getElementById("topicsSection").classList.remove("hidden");
     document.getElementById("notesSection").classList.add("hidden");
 }
