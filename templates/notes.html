@@ -113,6 +113,40 @@
             line-height: 1.65;
         }
 
+        .audio-box {
+            margin-top: 12px;
+            padding: 14px;
+            background: #eefdf9;
+            border-radius: 14px;
+            border: 1px solid #99f6e4;
+        }
+
+        .audio-title {
+            font-weight: 800;
+            color: #0f766e;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .audio-btn {
+            background: #0f766e;
+        }
+
+        .audio-lang-btn {
+            background: #1d3557;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        .audio-message {
+            color: #7c2d12;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
         .back-btn {
             background: #475569;
             margin-bottom: 8px;
@@ -140,19 +174,44 @@
     <div id="notesSection" class="hidden">
         <button class="back-btn" onclick="backToTopics()">← Back</button>
         <div id="notesContent" class="notes-box"></div>
+
+        <div id="audioSection" class="audio-box hidden">
+            <div class="audio-title">🎧 Audio Explanation</div>
+            <button class="audio-btn" onclick="showAudioLanguages()">Listen Audio</button>
+
+            <div id="audioLanguages" class="button-group hidden">
+                <button class="audio-lang-btn" onclick="playAudio('english')">English</button>
+                <button class="audio-lang-btn" onclick="playAudio('telugu')">Telugu</button>
+                <button class="audio-lang-btn" onclick="playAudio('hindi')">Hindi</button>
+            </div>
+
+            <div id="audioMessage" class="audio-message"></div>
+            <audio id="audioPlayer" controls class="hidden"></audio>
+        </div>
     </div>
 
 </div>
 
 <script>
 let notesData = {};
+let audioData = {};
 let currentSubject = "";
+let currentTopic = "";
 
 async function loadSubjects() {
     try {
         const res = await fetch('/static/notes.json');
         const text = await res.text();
         notesData = JSON.parse(text);
+
+        try {
+            const audioRes = await fetch('/static/audio.json');
+            const audioText = await audioRes.text();
+            audioData = JSON.parse(audioText);
+        } catch (audioError) {
+            audioData = {};
+            console.warn("AUDIO JSON not loaded:", audioError);
+        }
 
         let html = "";
         Object.keys(notesData).forEach(s => {
@@ -238,6 +297,8 @@ function formatNotes(text) {
 }
 
 function loadNotes(subject, topic) {
+    currentTopic = topic;
+
     const content = notesData[subject][topic];
 
     let text = "";
@@ -252,8 +313,44 @@ function loadNotes(subject, topic) {
 
     document.getElementById("notesContent").innerHTML = formatNotes(text);
 
+    resetAudioSection(topic);
+
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.remove("hidden");
+}
+
+function resetAudioSection(topic) {
+    document.getElementById("audioLanguages").classList.add("hidden");
+    document.getElementById("audioMessage").innerHTML = "";
+    document.getElementById("audioPlayer").classList.add("hidden");
+    document.getElementById("audioPlayer").src = "";
+
+    if (audioData[topic]) {
+        document.getElementById("audioSection").classList.remove("hidden");
+    } else {
+        document.getElementById("audioSection").classList.add("hidden");
+    }
+}
+
+function showAudioLanguages() {
+    document.getElementById("audioLanguages").classList.remove("hidden");
+}
+
+function playAudio(language) {
+    const topicAudio = audioData[currentTopic];
+
+    if (!topicAudio || !topicAudio[language]) {
+        document.getElementById("audioMessage").innerHTML =
+            "Audio not available yet for this language.";
+        document.getElementById("audioPlayer").classList.add("hidden");
+        return;
+    }
+
+    const player = document.getElementById("audioPlayer");
+    player.src = topicAudio[language];
+    player.classList.remove("hidden");
+    document.getElementById("audioMessage").innerHTML = "";
+    player.play();
 }
 
 function backToSubjects() {
