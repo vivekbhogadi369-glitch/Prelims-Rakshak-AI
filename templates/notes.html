@@ -23,7 +23,7 @@
             margin-bottom: 12px;
         }
 
-        .home-btn {
+        .home-btn, .back-btn {
             background: #475569;
             color: white;
             padding: 9px 12px;
@@ -75,47 +75,55 @@
         }
 
         .notes-box h2 {
-            font-family: Georgia, "Times New Roman", serif;
             font-size: 20px;
             margin-top: 24px;
             margin-bottom: 10px;
             color: #7c2d12;
             font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 0.3px;
-            line-height: 1.35;
-        }
-
-        .notes-box h2:first-child {
-            margin-top: 0;
         }
 
         .notes-box h3 {
-            font-family: Georgia, "Times New Roman", serif;
             font-size: 18px;
             margin-top: 18px;
             margin-bottom: 8px;
             color: #0f766e;
             font-weight: 800;
-            line-height: 1.35;
         }
 
-        .notes-box p {
-            margin-top: 0;
-            margin-bottom: 12px;
+        .notes-box p, .notes-box .bullet {
             font-size: 16px;
             line-height: 1.65;
+            margin-bottom: 8px;
         }
 
-        .notes-box .bullet {
-            margin-bottom: 8px;
-            font-size: 16px;
-            line-height: 1.65;
+        .audio-panel {
+            margin-top: 14px;
+            padding: 14px;
+            background: #eefdf9;
+            border: 1px solid #99f6e4;
+            border-radius: 14px;
         }
 
-        .back-btn {
-            background: #475569;
-            margin-bottom: 8px;
+        .audio-title {
+            font-weight: 800;
+            color: #0f766e;
+            margin-bottom: 10px;
+        }
+
+        .audio-panel button {
+            background: #0f766e;
+        }
+
+        .audio-msg {
+            margin-top: 10px;
+            color: #7c2d12;
+            font-weight: bold;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 12px;
         }
     </style>
 </head>
@@ -139,6 +147,18 @@
 
     <div id="notesSection" class="hidden">
         <button class="back-btn" onclick="backToTopics()">← Back</button>
+
+        <div id="audioPanel" class="audio-panel">
+            <div class="audio-title">🎧 Listen to Notes</div>
+            <div class="button-group">
+                <button onclick="generateAudio('english')">English</button>
+                <button onclick="generateAudio('telugu')">Telugu</button>
+                <button onclick="generateAudio('hindi')">Hindi</button>
+            </div>
+            <div id="audioMsg" class="audio-msg"></div>
+            <audio id="audioPlayer" controls class="hidden"></audio>
+        </div>
+
         <div id="notesContent" class="notes-box"></div>
     </div>
 
@@ -147,6 +167,8 @@
 <script>
 let notesData = {};
 let currentSubject = "";
+let currentTopic = "";
+let currentRawNotes = "";
 
 async function loadSubjects() {
     try {
@@ -160,7 +182,6 @@ async function loadSubjects() {
         });
 
         document.getElementById("subjects").innerHTML = html;
-
         document.getElementById("subjects").classList.remove("hidden");
         document.getElementById("topicsSection").classList.add("hidden");
         document.getElementById("notesSection").classList.add("hidden");
@@ -178,7 +199,6 @@ function clearSelected(container) {
 
 function loadTopics(subject, btn) {
     currentSubject = subject;
-
     clearSelected(document.getElementById("subjects"));
     btn.classList.add("selected");
 
@@ -188,7 +208,6 @@ function loadTopics(subject, btn) {
     });
 
     document.getElementById("topics").innerHTML = html;
-
     document.getElementById("subjects").classList.add("hidden");
     document.getElementById("topicsSection").classList.remove("hidden");
     document.getElementById("notesSection").classList.add("hidden");
@@ -205,15 +224,10 @@ function escapeHtml(text) {
 
 function formatNotes(text) {
     let formatted = text || "";
-
     formatted = formatted.replace(/\r/g, "");
     formatted = formatted.replace(/\n{3,}/g, "\n\n");
 
-    const blocks = formatted
-        .split("\n")
-        .map(line => line.trim())
-        .filter(line => line !== "");
-
+    const blocks = formatted.split("\n").map(line => line.trim()).filter(line => line !== "");
     let html = "";
 
     const supportedSubheads = /^(Introduction|Background|Definition|Features|Key Features|Causes|Effects|Significance|Importance|Important Points|PYQ Trap|Types|Functions|Objectives|Components|Impact|Limitations|India Context|Advanced Insight|Examples|Measurement|Formula|Issues|Challenges|Issues and Challenges|Reforms|Recent Reforms|Recent RBI Reforms|Regulatory Framework|Role in Economy|Classification Based on Liability|Difference Between Banks and NBFCs|Systemically Important NBFCs|Types of NBFCs|Based on Cause|Demand-Pull Inflation|Cost-Push Inflation|Built-in Inflation|Expansion|Decline|Texts|Practices|Spread|Administration|Economy|Political Structure|Major Rajput Clans)$/i;
@@ -238,6 +252,7 @@ function formatNotes(text) {
 }
 
 function loadNotes(subject, topic) {
+    currentTopic = topic;
     const content = notesData[subject][topic];
 
     let text = "";
@@ -250,10 +265,48 @@ function loadNotes(subject, topic) {
         }
     }
 
+    currentRawNotes = text;
+
     document.getElementById("notesContent").innerHTML = formatNotes(text);
+    document.getElementById("audioMsg").innerHTML = "";
+    document.getElementById("audioPlayer").classList.add("hidden");
+    document.getElementById("audioPlayer").src = "";
 
     document.getElementById("topicsSection").classList.add("hidden");
     document.getElementById("notesSection").classList.remove("hidden");
+}
+
+async function generateAudio(language) {
+    document.getElementById("audioMsg").innerHTML = "Generating audio... please wait.";
+
+    try {
+        const res = await fetch('/generate-audio', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                topic: currentTopic,
+                language: language,
+                text: currentRawNotes
+            })
+        });
+
+        const data = await res.json();
+
+        if (!data.audio_url) {
+            document.getElementById("audioMsg").innerHTML = "Audio service not connected yet.";
+            return;
+        }
+
+        const player = document.getElementById("audioPlayer");
+        player.src = data.audio_url;
+        player.classList.remove("hidden");
+        document.getElementById("audioMsg").innerHTML = "";
+        player.play();
+
+    } catch (e) {
+        document.getElementById("audioMsg").innerHTML = "Audio backend not added yet.";
+        console.error(e);
+    }
 }
 
 function backToSubjects() {
