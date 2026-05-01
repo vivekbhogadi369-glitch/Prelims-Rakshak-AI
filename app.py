@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify, render_template, send_from_directory
 import os
 import re
 import json
+import base64
+import requests
 from difflib import SequenceMatcher
 
 # ✅ FIXED (static serving)
@@ -136,11 +138,8 @@ def get_pyqs_from_txt(topic):
     if not blocks:
         return "No PYQs came from this subtopic so far."
 
-    best_title = ""
     best_content = None
     best_score = -1
-
-    topic_words = set(topic_norm.split())
 
     for raw_title, raw_content in blocks:
         title_norm = normalize_topic(raw_title)
@@ -148,13 +147,37 @@ def get_pyqs_from_txt(topic):
 
         if score > best_score:
             best_score = score
-            best_title = title_norm
             best_content = raw_content
 
     if not best_content:
         return "No PYQs came from this subtopic so far."
 
     return best_content
+
+
+def trim_text_for_tts(text, max_chars=2400):
+    text = re.sub(r"\s+", " ", text or "").strip()
+    return text[:max_chars]
+
+
+def get_language_code(language):
+    language = (language or "").lower()
+
+    if language == "telugu":
+        return "te-IN"
+    if language == "hindi":
+        return "hi-IN"
+    return "en-IN"
+
+
+def get_speaker(language):
+    language = (language or "").lower()
+
+    if language == "telugu":
+        return "neha"
+    if language == "hindi":
+        return "shubh"
+    return "shubh"
 
 
 @app.route("/")
@@ -193,6 +216,64 @@ def pyq_questions():
     subject = request.args.get("subject", "").strip()
     topic = request.args.get("topic", "").strip()
     return jsonify({"questions": get_pyqs_by_subject_topic(subject, topic)})
+
+
+@app.route("/generate-audio", methods=["POST"])
+def generate_audio():
+    try:
+        api_key = os.environ.get("SARVAM_API_KEY", "").strip()
+
+        if not api_key:
+            return jsonify({"error": "Sarvam API key missing"}), 500
+
+        data = request.get_json() or {}
+
+        text = trim_text_for_tts(data.get("text", ""))
+        language = data.get("language", "english")
+
+        if not text:
+            return jsonify({"error": "No text received"}), 400
+
+        payload = {
+            "text": text,
+            "target_language_code": get_language_code(language),
+            "speaker": get_speaker(language),
+            "model": "bulbul:v3",
+            "pace": 0.9,
+            "speech_sample_rate": 24000
+        }
+
+        response = requests.post(
+            "https://api.sarvam.ai/text-to-speech",
+            headers={
+                "api-subscription-key": api_key,
+                "Content-Type": "application/json"
+            },
+            json=payload,
+            timeout=60
+        )
+
+        if response.status_code != 200:
+            return jsonify({
+                "error": "Sarvam API error",
+                "status": response.status_code,
+                "details": response.text
+            }), 500
+
+        result = response.json()
+        audios = result.get("audios", [])
+
+        if not audios:
+            return jsonify({"error": "No audio returned"}), 500
+
+        audio_base64 = audios[0]
+
+        return jsonify({
+            "audio_url": "data:audio/wav;base64," + audio_base64
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
