@@ -168,20 +168,6 @@ let currentSubject = "";
 let currentTopicText = "";
 let currentTopicName = "";
 
-/* AUDIO FILE MAP */
-const audioFiles = {
-    "Prehistoric India": {
-        english: "/static/audio/prehistoric_india_english.mp3",
-        telugu: "/static/audio/prehistoric_india_telugu.mp3",
-        hindi: "/static/audio/prehistoric_india_hindi.mp3"
-    },
-    "Indus Valley Civilization": {
-        english: "/static/audio/IVC_english.mp3",
-        telugu: "/static/audio/IVC_telugu.mp3",
-        hindi: "/static/audio/IVC_hindi.mp3"
-    }
-};
-
 async function loadSubjects() {
     try {
         const res = await fetch('/static/notes.json');
@@ -267,6 +253,15 @@ function formatNotes(text) {
     return html;
 }
 
+function makeAudioFileName(topic, language) {
+    return topic
+        .trim()
+        .toLowerCase()
+        .replace(/&/g, "and")
+        .replace(/[^a-z0-9]+/g, "_")
+        .replace(/^_+|_+$/g, "") + "_" + language + ".mp3";
+}
+
 function stopAudio() {
     const player = document.getElementById("audioPlayer");
     player.pause();
@@ -306,20 +301,17 @@ function playAudio(language) {
     player.pause();
     player.currentTime = 0;
 
-    if (!audioFiles[currentTopicName] || !audioFiles[currentTopicName][language]) {
-        player.classList.add("hidden");
-        player.src = "";
-        message.innerHTML = "Audio not added for this topic yet.";
-        return;
-    }
+    const fileName = makeAudioFileName(currentTopicName, language);
+    const audioPath = "/static/audio/" + fileName;
 
-    player.src = audioFiles[currentTopicName][language];
+    player.src = audioPath;
     player.classList.remove("hidden");
     message.innerHTML = "";
 
     player.play().catch(function() {
         player.classList.add("hidden");
-        message.innerHTML = "Audio file not uploaded yet.";
+        player.src = "";
+        message.innerHTML = "Audio not added for this topic yet.";
     });
 }
 
