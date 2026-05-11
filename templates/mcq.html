@@ -100,7 +100,7 @@
       font-weight: bold;
       font-size: 18px;
       margin-bottom: 14px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .option {
@@ -109,7 +109,7 @@
       border-radius: 10px;
       margin: 10px 0;
       font-size: 16px;
-      line-height: 1.4;
+      line-height: 1.5;
       cursor: pointer;
       border: 2px solid transparent;
     }
@@ -130,7 +130,7 @@
       padding: 14px;
       background: #f9fafb;
       border-radius: 10px;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     .resultBox h3 {
@@ -178,267 +178,365 @@
 
 <body>
 
-  <h1>MCQ Practice</h1>
+<h1>MCQ Practice</h1>
 
-  <div class="box">
-    <div class="language-buttons">
-      <button class="lang-btn active-lang" onclick="changeLanguage('english', this)">English</button>
-      <button class="lang-btn" onclick="changeLanguage('telugu', this)">తెలుగు</button>
-      <button class="lang-btn" onclick="changeLanguage('hindi', this)">हिन्दी</button>
-    </div>
+<div class="box">
 
-    <label>Select Subject</label>
-    <select id="subjectSelect">
-      <option value="">Select Subject</option>
-    </select>
-
-    <label>Select Topic</label>
-    <select id="topicSelect">
-      <option value="">Select Topic</option>
-    </select>
+  <div class="language-buttons">
+    <button class="lang-btn active-lang" onclick="changeLanguage('english', this)">English</button>
+    <button class="lang-btn" onclick="changeLanguage('telugu', this)">తెలుగు</button>
+    <button class="lang-btn" onclick="changeLanguage('hindi', this)">हिन्दी</button>
   </div>
 
-  <div id="mcqBox" class="box" style="display:none;">
+  <label>Select Subject</label>
+  <select id="subjectSelect">
+    <option value="">Select Subject</option>
+  </select>
 
-    <div class="progress-container">
-      <div id="progressBar" class="progress-bar"></div>
-    </div>
-    <div id="progressText" class="progress-text"></div>
+  <label>Select Topic</label>
+  <select id="topicSelect">
+    <option value="">Select Topic</option>
+  </select>
 
-    <div id="questionCount" class="question-count"></div>
-    <div id="scoreBox" class="score"></div>
-    <div id="questionText" class="question"></div>
-    <div id="optionsBox"></div>
+</div>
 
-    <div id="explanationBox" class="resultBox">
-      <h3>Explanation</h3>
-      <p id="explanationText"></p>
-    </div>
+<div id="mcqBox" class="box" style="display:none;">
 
-    <div id="eliminationBox" class="resultBox">
-      <h3>Elimination Logic</h3>
-      <p id="eliminationText"></p>
-    </div>
-
-    <div class="nav-buttons">
-      <button id="prevBtn" onclick="previousQuestion()">Previous</button>
-      <button id="nextBtn" onclick="nextQuestion()">Next</button>
-    </div>
+  <div class="progress-container">
+    <div id="progressBar" class="progress-bar"></div>
   </div>
 
-  <div id="finalBox" class="box" style="display:none;">
-    <div id="finalScore" class="final-score"></div>
-    <div id="finalFeedback" class="feedback"></div>
-    <button id="retryBtn" class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
+  <div id="progressText" class="progress-text"></div>
+
+  <div id="questionCount" class="question-count"></div>
+
+  <div id="scoreBox" class="score"></div>
+
+  <div id="questionText" class="question"></div>
+
+  <div id="optionsBox"></div>
+
+  <div id="explanationBox" class="resultBox">
+    <h3>Explanation</h3>
+    <p id="explanationText"></p>
   </div>
 
-  <script>
-    let mcqData = {};
-    let questions = [];
-    let currentIndex = 0;
-    let score = 0;
-    let userAnswers = [];
-    let currentLanguage = "english";
+  <div id="eliminationBox" class="resultBox">
+    <h3>Elimination Logic</h3>
+    <p id="eliminationText"></p>
+  </div>
 
-    function changeLanguage(language, button) {
-      currentLanguage = language;
+  <div class="nav-buttons">
+    <button id="prevBtn" onclick="previousQuestion()">Previous</button>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+  </div>
 
-      document.querySelectorAll(".lang-btn").forEach(btn => {
-        btn.classList.remove("active-lang");
-      });
+</div>
 
-      button.classList.add("active-lang");
-      alert(language + " mode coming next.");
-    }
+<div id="finalBox" class="box" style="display:none;">
+  <div id="finalScore" class="final-score"></div>
+  <div id="finalFeedback" class="feedback"></div>
+  <button id="retryBtn" class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
+</div>
 
-    async function loadMCQs() {
-      try {
-        const response = await fetch("/static/json/mcqs_history.json");
-        mcqData = await response.json();
+<script>
 
-        const subjectSelect = document.getElementById("subjectSelect");
+let mcqData = {};
+let questions = [];
+let currentIndex = 0;
+let score = 0;
+let userAnswers = [];
+let currentLanguage = "english";
 
-        Object.keys(mcqData).forEach(subject => {
-          const option = document.createElement("option");
-          option.value = subject;
-          option.textContent = subject;
-          subjectSelect.appendChild(option);
-        });
+function changeLanguage(language, button) {
 
-      } catch (error) {
-        alert("MCQ JSON loading failed.");
-        console.error(error);
-      }
-    }
+  currentLanguage = language;
 
-    document.getElementById("subjectSelect").addEventListener("change", function () {
-      const subject = this.value;
-      const topicSelect = document.getElementById("topicSelect");
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.remove("active-lang");
+  });
 
-      topicSelect.innerHTML = '<option value="">Select Topic</option>';
-      document.getElementById("mcqBox").style.display = "none";
-      document.getElementById("finalBox").style.display = "none";
+  button.classList.add("active-lang");
 
-      if (!subject) return;
+  if (questions.length > 0) {
+    showQuestion();
+  }
+}
 
-      Object.keys(mcqData[subject]).forEach(topic => {
-        const option = document.createElement("option");
-        option.value = topic;
-        option.textContent = topic;
-        topicSelect.appendChild(option);
-      });
+async function loadMCQs() {
+
+  try {
+
+    const response = await fetch("/static/json/mcqs_history.json");
+
+    mcqData = await response.json();
+
+    const subjectSelect = document.getElementById("subjectSelect");
+
+    Object.keys(mcqData).forEach(subject => {
+
+      const option = document.createElement("option");
+
+      option.value = subject;
+      option.textContent = subject;
+
+      subjectSelect.appendChild(option);
+
     });
 
-    document.getElementById("topicSelect").addEventListener("change", function () {
-      const subject = document.getElementById("subjectSelect").value;
-      const topic = this.value;
+  } catch (error) {
 
-      if (!subject || !topic) return;
+    alert("MCQ JSON loading failed.");
+    console.error(error);
 
-      questions = mcqData[subject][topic];
-      currentIndex = 0;
-      score = 0;
-      userAnswers = new Array(questions.length).fill(null);
+  }
+}
 
-      document.getElementById("finalBox").style.display = "none";
-      document.getElementById("mcqBox").style.display = "block";
+document.getElementById("subjectSelect").addEventListener("change", function () {
 
-      showQuestion();
-    });
+  const subject = this.value;
 
-    function showQuestion() {
-      const currentQuestion = questions[currentIndex];
-      const selectedAnswer = userAnswers[currentIndex];
+  const topicSelect = document.getElementById("topicSelect");
 
-      const progressPercent = Math.round(((currentIndex + 1) / questions.length) * 100);
-      document.getElementById("progressBar").style.width = progressPercent + "%";
-      document.getElementById("progressText").textContent = "Progress: " + progressPercent + "%";
+  topicSelect.innerHTML = '<option value="">Select Topic</option>';
 
-      document.getElementById("questionCount").textContent =
-        "Question " + (currentIndex + 1) + " of " + questions.length;
+  document.getElementById("mcqBox").style.display = "none";
 
-      document.getElementById("scoreBox").textContent =
-        "Score: " + score + " / " + questions.length;
+  document.getElementById("finalBox").style.display = "none";
 
-      document.getElementById("questionText").textContent = currentQuestion.question;
+  if (!subject) return;
 
-      document.getElementById("explanationBox").style.display = "none";
-      document.getElementById("eliminationBox").style.display = "none";
+  Object.keys(mcqData[subject]).forEach(topic => {
 
-      const optionsBox = document.getElementById("optionsBox");
-      optionsBox.innerHTML = "";
+    const option = document.createElement("option");
 
-      Object.entries(currentQuestion.options).forEach(([key, value]) => {
-        const div = document.createElement("div");
-        div.className = "option";
-        div.textContent = key + ") " + value;
+    option.value = topic;
+    option.textContent = topic;
 
-        if (selectedAnswer !== null) {
-          if (key === currentQuestion.correct_answer) {
-            div.classList.add("correct");
-          }
+    topicSelect.appendChild(option);
 
-          if (key === selectedAnswer && selectedAnswer !== currentQuestion.correct_answer) {
-            div.classList.add("wrong");
-          }
-        } else {
-          div.onclick = function () {
-            checkAnswer(key);
-          };
-        }
+  });
 
-        optionsBox.appendChild(div);
-      });
+});
 
-      if (selectedAnswer !== null) {
-        document.getElementById("explanationText").textContent = currentQuestion.explanation;
-        document.getElementById("eliminationText").textContent = currentQuestion.elimination_logic;
+document.getElementById("topicSelect").addEventListener("change", function () {
 
-        document.getElementById("explanationBox").style.display = "block";
-        document.getElementById("eliminationBox").style.display = "block";
+  const subject = document.getElementById("subjectSelect").value;
+
+  const topic = this.value;
+
+  if (!subject || !topic) return;
+
+  questions = mcqData[subject][topic];
+
+  currentIndex = 0;
+
+  score = 0;
+
+  userAnswers = new Array(questions.length).fill(null);
+
+  document.getElementById("finalBox").style.display = "none";
+
+  document.getElementById("mcqBox").style.display = "block";
+
+  showQuestion();
+
+});
+
+function showQuestion() {
+
+  const currentQuestion = questions[currentIndex];
+
+  const selectedAnswer = userAnswers[currentIndex];
+
+  const progressPercent = Math.round(((currentIndex + 1) / questions.length) * 100);
+
+  document.getElementById("progressBar").style.width = progressPercent + "%";
+
+  document.getElementById("progressText").textContent =
+    "Progress: " + progressPercent + "%";
+
+  document.getElementById("questionCount").textContent =
+    "Question " + (currentIndex + 1) + " of " + questions.length;
+
+  document.getElementById("scoreBox").textContent =
+    "Score: " + score + " / " + questions.length;
+
+  document.getElementById("questionText").textContent =
+    currentQuestion["question_" + currentLanguage];
+
+  document.getElementById("explanationBox").style.display = "none";
+
+  document.getElementById("eliminationBox").style.display = "none";
+
+  const optionsBox = document.getElementById("optionsBox");
+
+  optionsBox.innerHTML = "";
+
+  const currentOptions = currentQuestion["options_" + currentLanguage];
+
+  Object.entries(currentOptions).forEach(([key, value]) => {
+
+    const div = document.createElement("div");
+
+    div.className = "option";
+
+    div.textContent = key + ") " + value;
+
+    if (selectedAnswer !== null) {
+
+      if (key === currentQuestion.correct_answer) {
+        div.classList.add("correct");
       }
 
-      document.getElementById("prevBtn").disabled = currentIndex === 0;
-
-      if (currentIndex === questions.length - 1) {
-        document.getElementById("nextBtn").textContent = "Finish Quiz";
-      } else {
-        document.getElementById("nextBtn").textContent = "Next";
-      }
-    }
-
-    function checkAnswer(selectedKey) {
-      const currentQuestion = questions[currentIndex];
-
-      if (userAnswers[currentIndex] !== null) return;
-
-      userAnswers[currentIndex] = selectedKey;
-
-      if (selectedKey === currentQuestion.correct_answer) {
-        score++;
+      if (
+        key === selectedAnswer &&
+        selectedAnswer !== currentQuestion.correct_answer
+      ) {
+        div.classList.add("wrong");
       }
 
-      showQuestion();
+    } else {
+
+      div.onclick = function () {
+        checkAnswer(key);
+      };
+
     }
 
-    function previousQuestion() {
-      if (currentIndex > 0) {
-        currentIndex--;
-        showQuestion();
-      }
-    }
+    optionsBox.appendChild(div);
 
-    function nextQuestion() {
-      if (currentIndex < questions.length - 1) {
-        currentIndex++;
-        showQuestion();
-      } else {
-        showFinalResult();
-      }
-    }
+  });
 
-    function showFinalResult() {
-      const percentage = Math.round((score / questions.length) * 100);
+  if (selectedAnswer !== null) {
 
-      document.getElementById("mcqBox").style.display = "none";
-      document.getElementById("finalBox").style.display = "block";
+    document.getElementById("explanationText").textContent =
+      currentQuestion["explanation_" + currentLanguage];
 
-      document.getElementById("finalScore").textContent =
-        "Score: " + score + " / " + questions.length + " | Accuracy: " + percentage + "%";
+    document.getElementById("eliminationText").textContent =
+      currentQuestion["elimination_logic_" + currentLanguage];
 
-      let feedback = "";
+    document.getElementById("explanationBox").style.display = "block";
 
-      if (percentage === 100) {
-        feedback = "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level.";
-        document.getElementById("retryBtn").style.display = "none";
-      } else if (percentage >= 80) {
-        feedback = "Excellent. Your preparation is moving in a strong UPSC direction. Keep practising elimination logic.";
-        document.getElementById("retryBtn").style.display = "block";
-      } else if (percentage >= 50) {
-        feedback = "Good attempt. Revise the concepts and focus more on statement-based traps.";
-        document.getElementById("retryBtn").style.display = "block";
-      } else {
-        feedback = "Needs revision. Go back to notes, understand the basics, and attempt again with elimination logic.";
-        document.getElementById("retryBtn").style.display = "block";
-      }
+    document.getElementById("eliminationBox").style.display = "block";
+  }
 
-      document.getElementById("finalFeedback").textContent = feedback;
-    }
+  document.getElementById("prevBtn").disabled = currentIndex === 0;
 
-    function retryQuiz() {
-      currentIndex = 0;
-      score = 0;
-      userAnswers = new Array(questions.length).fill(null);
+  if (currentIndex === questions.length - 1) {
+    document.getElementById("nextBtn").textContent = "Finish Quiz";
+  } else {
+    document.getElementById("nextBtn").textContent = "Next";
+  }
+}
 
-      document.getElementById("finalBox").style.display = "none";
-      document.getElementById("mcqBox").style.display = "block";
-      document.getElementById("retryBtn").style.display = "block";
+function checkAnswer(selectedKey) {
 
-      showQuestion();
-    }
+  const currentQuestion = questions[currentIndex];
 
-    loadMCQs();
-  </script>
+  if (userAnswers[currentIndex] !== null) return;
+
+  userAnswers[currentIndex] = selectedKey;
+
+  if (selectedKey === currentQuestion.correct_answer) {
+    score++;
+  }
+
+  showQuestion();
+}
+
+function previousQuestion() {
+
+  if (currentIndex > 0) {
+
+    currentIndex--;
+
+    showQuestion();
+
+  }
+}
+
+function nextQuestion() {
+
+  if (currentIndex < questions.length - 1) {
+
+    currentIndex++;
+
+    showQuestion();
+
+  } else {
+
+    showFinalResult();
+
+  }
+}
+
+function showFinalResult() {
+
+  const percentage = Math.round((score / questions.length) * 100);
+
+  document.getElementById("mcqBox").style.display = "none";
+
+  document.getElementById("finalBox").style.display = "block";
+
+  document.getElementById("finalScore").textContent =
+    "Score: " + score + " / " + questions.length +
+    " | Accuracy: " + percentage + "%";
+
+  let feedback = "";
+
+  if (percentage === 100) {
+
+    feedback =
+      "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level.";
+
+    document.getElementById("retryBtn").style.display = "none";
+
+  } else if (percentage >= 80) {
+
+    feedback =
+      "Excellent. Your preparation is moving in a strong UPSC direction. Keep practising elimination logic.";
+
+    document.getElementById("retryBtn").style.display = "block";
+
+  } else if (percentage >= 50) {
+
+    feedback =
+      "Good attempt. Revise the concepts and focus more on statement-based traps.";
+
+    document.getElementById("retryBtn").style.display = "block";
+
+  } else {
+
+    feedback =
+      "Needs revision. Go back to notes, understand the basics, and attempt again with elimination logic.";
+
+    document.getElementById("retryBtn").style.display = "block";
+  }
+
+  document.getElementById("finalFeedback").textContent = feedback;
+}
+
+function retryQuiz() {
+
+  currentIndex = 0;
+
+  score = 0;
+
+  userAnswers = new Array(questions.length).fill(null);
+
+  document.getElementById("finalBox").style.display = "none";
+
+  document.getElementById("mcqBox").style.display = "block";
+
+  document.getElementById("retryBtn").style.display = "block";
+
+  showQuestion();
+}
+
+loadMCQs();
+
+</script>
 
 </body>
 </html>
