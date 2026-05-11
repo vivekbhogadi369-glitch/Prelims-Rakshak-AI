@@ -423,6 +423,136 @@
 
   "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है क्योंकि ताम्रपाषाण समुदायों ने कृषि नहीं छोड़ी थी। UPSC प्रायः संक्रमणकालीन प्रागैतिहासिक चरणों को आदिम शिकार जीवन से जोड़कर भ्रम उत्पन्न करता है। चूँकि कथन 1 और 3 सही हैं, इसलिए विकल्प a सही उत्तर है।"
       }
+    ],
+    "Indus Valley Civilization": [
+      {
+        "question_english": "Consider the following statements regarding the Indus Valley Civilization:\n\n1. It was primarily an urban civilization.\n2. Most cities of the civilization show evidence of planned drainage systems.\n3. Iron tools were extensively used in the civilization.\n\nWhich of the statements given above is/are correct?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "question_telugu": "సింధు లోయ నాగరికతకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది ప్రధానంగా పట్టణ నాగరికత.\n2. ఈ నాగరికత నగరాలలో ప్రణాళికాబద్ధమైన కాలువ వ్యవస్థకు ఆధారాలు కనిపిస్తాయి.\n3. ఈ నాగరికతలో ఇనుప సాధనాలు విస్తృతంగా ఉపయోగించబడ్డాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "question_hindi": "सिंधु घाटी सभ्यता के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह मुख्यतः एक नगरीय सभ्यता थी।\n2. इसके अधिकांश नगरों में योजनाबद्ध जल निकासी व्यवस्था के प्रमाण मिलते हैं।\n3. इस सभ्यता में लोहे के उपकरणों का व्यापक उपयोग होता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Statements 1 and 2 are correct. The Indus Valley Civilization is known for its advanced urban planning, including grid-pattern streets, drainage systems and standardized construction. Statement 3 is incorrect because the civilization belonged to the Bronze Age and iron was not extensively used. Copper and bronze were the primary metals used.",
+
+        "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. సింధు లోయ నాగరికత ప్రణాళికాబద్ధ పట్టణ నిర్మాణం, గ్రిడ్ ఆకార వీధులు మరియు కాలువ వ్యవస్థలకు ప్రసిద్ధి చెందింది. ప్రకటన 3 తప్పు, ఎందుకంటే ఇది కాంస్యయుగ నాగరికత; ఇనుప విస్తృతంగా ఉపయోగించబడలేదు. రాగి మరియు కాంస్యం ప్రధాన లోహాలు.",
+
+        "explanation_hindi": "कथन 1 और 2 सही हैं। सिंधु घाटी सभ्यता उन्नत नगरीय नियोजन, ग्रिड प्रणाली वाली सड़कों और जल निकासी व्यवस्था के लिए प्रसिद्ध है। कथन 3 गलत है क्योंकि यह कांस्य युग की सभ्यता थी और लोहे का व्यापक उपयोग नहीं होता था। ताँबा और कांस्य प्रमुख धातुएँ थीं।",
+
+        "elimination_logic_english": "The word 'iron' is the main trap. UPSC often tests whether students can distinguish Bronze Age civilizations from Iron Age developments. Once Statement 3 is identified as incorrect, options b, c and d can be eliminated.",
+
+        "elimination_logic_telugu": "‘ఇనుప’ అనే పదమే ప్రధాన ఉచ్చు. UPSC కాంస్యయుగ మరియు ఇనుపయుగ నాగరికతల మధ్య తేడాను పరీక్షిస్తుంది. ప్రకటన 3 తప్పని గుర్తించిన వెంటనే b, c, d ఎంపికలు తొలగిపోతాయి.",
+
+        "elimination_logic_hindi": "‘लोहा’ मुख्य भ्रम है। UPSC प्रायः कांस्य युग और लौह युग के बीच अंतर की समझ को परखता है। कथन 3 गलत पहचानते ही विकल्प b, c और d हट जाते हैं।"
+      },
+
+      {
+        "question_english": "Match the following:\n\nList I (Indus Valley Site)\n1. Harappa\n2. Mohenjo-daro\n3. Lothal\n4. Kalibangan\n\nList II (Feature)\nA. Dockyard\nB. Great Bath\nC. Fire altars\nD. First discovered site of the civilization\n\nSelect the correct answer using the code given below.",
+
+        "options_english": {
+          "a": "1-D, 2-B, 3-A, 4-C",
+          "b": "1-B, 2-A, 3-C, 4-D",
+          "c": "1-D, 2-C, 3-B, 4-A",
+          "d": "1-A, 2-B, 3-D, 4-C"
+        },
+
+        "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (సింధు నాగరికత స్థలం)\n1. హరప్పా\n2. మొహెంజోదారో\n3. లోథల్\n4. కాలిబంగన్\n\nజాబితా II (లక్షణం)\nA. నౌకాశ్రయం\nB. మహాస్నానగృహం\nC. అగ్నివేదికలు\nD. నాగరికతలో మొదట గుర్తించిన స్థలం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+        "options_telugu": {
+          "a": "1-D, 2-B, 3-A, 4-C",
+          "b": "1-B, 2-A, 3-C, 4-D",
+          "c": "1-D, 2-C, 3-B, 4-A",
+          "d": "1-A, 2-B, 3-D, 4-C"
+        },
+
+        "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (सिंधु सभ्यता स्थल)\n1. हड़प्पा\n2. मोहनजोदड़ो\n3. लोथल\n4. कालीबंगन\n\nसूची II (विशेषता)\nA. गोदी (Dockyard)\nB. महान स्नानागार\nC. अग्निवेदियाँ\nD. सभ्यता का सर्वप्रथम खोजा गया स्थल\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+        "options_hindi": {
+          "a": "1-D, 2-B, 3-A, 4-C",
+          "b": "1-B, 2-A, 3-C, 4-D",
+          "c": "1-D, 2-C, 3-B, 4-A",
+          "d": "1-A, 2-B, 3-D, 4-C"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Harappa was the first discovered site of the civilization. Mohenjo-daro is famous for the Great Bath. Lothal in Gujarat is known for its dockyard and maritime trade. Kalibangan in Rajasthan provides evidence of fire altars. Therefore, option a is correctly matched.",
+
+        "explanation_telugu": "హరప్పా నాగరికతలో మొదట గుర్తించిన స్థలం. మొహెంజోదారో మహాస్నానగృహానికి ప్రసిద్ధి చెందింది. గుజరాత్‌లోని లోథల్ నౌకాశ్రయం మరియు సముద్ర వాణిజ్యానికి ప్రసిద్ధి చెందింది. రాజస్థాన్‌లోని కాలిబంగన్ అగ్నివేదికలకు ఆధారాలు అందిస్తుంది. కాబట్టి ఎంపిక a సరైన జత.",
+
+        "explanation_hindi": "हड़प्पा सभ्यता का सर्वप्रथम खोजा गया स्थल था। मोहनजोदड़ो महान स्नानागार के लिए प्रसिद्ध है। गुजरात का लोथल अपनी गोदी और समुद्री व्यापार के लिए जाना जाता है। राजस्थान का कालीबंगन अग्निवेदियों के प्रमाण देता है। अतः विकल्प a सही मिलान है।",
+
+        "elimination_logic_english": "Great Bath is directly associated with Mohenjo-daro, while dockyard clearly points to Lothal. Once these are fixed, Harappa automatically matches with the first discovered site and Kalibangan with fire altars.",
+
+        "elimination_logic_telugu": "మహాస్నానగృహం అంటే మొహెంజోదారో అని వెంటనే గుర్తించాలి. నౌకాశ్రయం అంటే లోథల్ అని స్పష్టంగా తెలుస్తుంది. ఇవి సరిపోల్చిన తర్వాత హరప్పా మొదట గుర్తించిన స్థలం, కాలిబంగన్ అగ్నివేదికలతో సరిపోతాయి.",
+
+        "elimination_logic_hindi": "महान स्नानागार सीधे मोहनजोदड़ो से जुड़ा है जबकि गोदी लोथल की पहचान है। इनके सही मिलान के बाद हड़प्पा स्वतः प्रथम खोजा गया स्थल और कालीबंगन अग्निवेदियों से जुड़ जाता है।"
+      },
+
+      {
+        "question_english": "Assertion (A): The Indus Valley Civilization maintained trade relations with distant regions.\n\nReason (R): Archaeological evidence suggests the use of seals, weights and maritime trade facilities.\n\nWhich one of the following is correct?",
+
+        "options_english": {
+          "a": "Both A and R are correct and R is the correct explanation of A",
+          "b": "Both A and R are correct but R is not the correct explanation of A",
+          "c": "A is correct but R is not correct",
+          "d": "A is not correct but R is correct"
+        },
+
+        "question_telugu": "ప్రతిపాదన (A): సింధు లోయ నాగరికత దూర ప్రాంతాలతో వాణిజ్య సంబంధాలు కొనసాగించింది.\n\nకారణం (R): ముద్రలు, తూనికలు మరియు సముద్ర వాణిజ్య సౌకర్యాల వినియోగానికి పురావస్తు ఆధారాలు ఉన్నాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+        "options_telugu": {
+          "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+          "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+          "c": "A సరైనది కానీ R సరైనది కాదు",
+          "d": "A సరైనది కాదు కానీ R సరైనది"
+        },
+
+        "question_hindi": "अभिकथन (A): सिंधु घाटी सभ्यता ने दूरस्थ क्षेत्रों के साथ व्यापारिक संबंध बनाए रखे थे।\n\nकारण (R): पुरातात्त्विक प्रमाण मुहरों, बाटों तथा समुद्री व्यापार सुविधाओं के उपयोग को दर्शाते हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+        "options_hindi": {
+          "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+          "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+          "c": "A सही है किन्तु R सही नहीं है",
+          "d": "A सही नहीं है किन्तु R सही है"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "The Indus Valley Civilization had active trade relations with regions such as Mesopotamia. Archaeological evidence includes standardized weights, seals used in trade transactions and dockyard facilities at Lothal. These features indicate organized internal and external trade. Therefore, both the Assertion and Reason are correct, and the Reason explains the Assertion.",
+
+        "explanation_telugu": "సింధు లోయ నాగరికత మెసపొటేమియా వంటి ప్రాంతాలతో చురుకైన వాణిజ్య సంబంధాలు కలిగి ఉంది. ప్రమాణీకృత తూనికలు, వాణిజ్య ముద్రలు మరియు లోథల్ నౌకాశ్రయం వంటి పురావస్తు ఆధారాలు ఉన్నాయి. ఇవి అంతర్గత మరియు బాహ్య వాణిజ్య వ్యవస్థను సూచిస్తున్నాయి. కాబట్టి ప్రతిపాదన మరియు కారణం రెండూ సరైనవి మరియు కారణం ప్రతిపాదనను వివరిస్తుంది.",
+
+        "explanation_hindi": "सिंधु घाटी सभ्यता के मेसोपोटामिया जैसे क्षेत्रों के साथ सक्रिय व्यापारिक संबंध थे। मानकीकृत बाट, व्यापार में प्रयुक्त मुहरें तथा लोथल की गोदी जैसे पुरातात्त्विक प्रमाण मिले हैं। ये संगठित आंतरिक एवं बाह्य व्यापार को दर्शाते हैं। अतः अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है।",
+
+        "elimination_logic_english": "The Reason directly provides the evidence for long-distance trade. Seals, weights and dockyards are not unrelated facts; they explain how organized commerce functioned in the civilization. Hence option a is correct.",
+
+        "elimination_logic_telugu": "కారణం దూర వాణిజ్యానికి నేరుగా ఆధారాలు అందిస్తుంది. ముద్రలు, తూనికలు మరియు నౌకాశ్రయాలు వాణిజ్య వ్యవస్థ ఎలా పనిచేసిందో వివరిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+        "elimination_logic_hindi": "कारण दूरस्थ व्यापार के प्रत्यक्ष प्रमाण प्रस्तुत करता है। मुहरें, बाट और गोदी संगठित व्यापार व्यवस्था को स्पष्ट करते हैं। इसलिए विकल्प a सही है।"
+      }
     ]
   }
-}
+  }
