@@ -2,11 +2,151 @@
 <html>
 <head>
   <title>MCQ Practice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 16px;
+      color: #111827;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      background: white;
+      padding: 18px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      margin-bottom: 16px;
+    }
+
+    select, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      background: #1f2937;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .question {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+
+    .option {
+      background: #f3f4f6;
+      padding: 12px;
+      border-radius: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+  </style>
 </head>
+
 <body>
 
   <h1>MCQ Practice</h1>
-  <p>Quiz mode will appear here.</p>
+
+  <div class="box">
+    <label>Select Subject</label>
+    <select id="subjectSelect">
+      <option value="">Select Subject</option>
+    </select>
+
+    <label>Select Topic</label>
+    <select id="topicSelect">
+      <option value="">Select Topic</option>
+    </select>
+  </div>
+
+  <div id="mcqBox" class="box" style="display:none;">
+    <div id="questionText" class="question"></div>
+    <div id="optionsBox"></div>
+  </div>
+
+  <script>
+    let mcqData = {};
+
+    async function loadMCQs() {
+      try {
+        const response = await fetch("/static/json/mcqs_history.json");
+        mcqData = await response.json();
+
+        const subjectSelect = document.getElementById("subjectSelect");
+
+        Object.keys(mcqData).forEach(subject => {
+          const option = document.createElement("option");
+          option.value = subject;
+          option.textContent = subject;
+          subjectSelect.appendChild(option);
+        });
+
+      } catch (error) {
+        alert("MCQ JSON loading failed.");
+        console.error(error);
+      }
+    }
+
+    document.getElementById("subjectSelect").addEventListener("change", function () {
+      const subject = this.value;
+      const topicSelect = document.getElementById("topicSelect");
+
+      topicSelect.innerHTML = '<option value="">Select Topic</option>';
+      document.getElementById("mcqBox").style.display = "none";
+
+      if (!subject) return;
+
+      Object.keys(mcqData[subject]).forEach(topic => {
+        const option = document.createElement("option");
+        option.value = topic;
+        option.textContent = topic;
+        topicSelect.appendChild(option);
+      });
+    });
+
+    document.getElementById("topicSelect").addEventListener("change", function () {
+      const subject = document.getElementById("subjectSelect").value;
+      const topic = this.value;
+
+      if (!subject || !topic) return;
+
+      const questions = mcqData[subject][topic];
+      const firstQuestion = questions[0];
+
+      document.getElementById("mcqBox").style.display = "block";
+      document.getElementById("questionText").textContent = firstQuestion.question;
+
+      const optionsBox = document.getElementById("optionsBox");
+      optionsBox.innerHTML = "";
+
+      Object.entries(firstQuestion.options).forEach(([key, value]) => {
+        const div = document.createElement("div");
+        div.className = "option";
+        div.textContent = key + ") " + value;
+        optionsBox.appendChild(div);
+      });
+    });
+
+    loadMCQs();
+  </script>
 
 </body>
 </html>
