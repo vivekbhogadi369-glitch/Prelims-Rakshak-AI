@@ -12,7 +12,20 @@
         "correct_answer": "b",
         "difficulty": "easy",
         "explanation": "The Neolithic Age is mainly identified by the beginning of agriculture and food production. This transformed human life from food gathering to settled life.",
-        "elimination_logic": "Eliminate option c because iron tools belong to Iron Age. Eliminate option d because coinage came much later in historical periods. Polished stone tools are important but agriculture is the defining feature."
+        "elimination_logic": "Eliminate option c because iron tools belong to Iron Age. Eliminate option d because coinage came much later in historical periods. Polished stone tools are important, but agriculture is the defining feature."
+      },
+      {
+        "question": "With reference to prehistoric India, consider the following statements: 1. Rock paintings are useful for understanding the life and environment of early humans. 2. Bhimbetka is associated with prehistoric rock shelters. Which of the statements given above is/are correct?",
+        "options": {
+          "a": "1 only",
+          "b": "2 only",
+          "c": "Both 1 and 2",
+          "d": "Neither 1 nor 2"
+        },
+        "correct_answer": "c",
+        "difficulty": "moderate",
+        "explanation": "Both statements are correct. Rock paintings help us understand hunting scenes, animals, social life and environment of early humans. Bhimbetka in Madhya Pradesh is one of the most important prehistoric rock shelter sites in India.",
+        "elimination_logic": "Statement 1 is correct because rock paintings are archaeological evidence of prehistoric life. Statement 2 is also correct because Bhimbetka is a famous prehistoric rock shelter site. Therefore, option c is correct."
       }
     ]
   }
