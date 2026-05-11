@@ -333,6 +333,46 @@ function t() {
   return translations[currentLanguage];
 }
 
+function cleanExamTerms(text) {
+  if (!text) return "";
+
+  if (currentLanguage === "telugu") {
+    return text
+      .replaceAll("Assertion (A)", "ప్రతిపాదన (A)")
+      .replaceAll("Reason (R)", "కారణం (R)")
+      .replaceAll("Assertion", "ప్రతిపాదన")
+      .replaceAll("Reason", "కారణం")
+      .replaceAll("Match the following", "క్రింది వాటిని జతపరచండి")
+      .replaceAll("List I", "జాబితా I")
+      .replaceAll("List II", "జాబితా II")
+      .replaceAll("Select the correct answer using the code given below.", "క్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.")
+      .replaceAll("Which one of the following is correct?", "క్రింది వాటిలో ఏది సరైనది?")
+      .replaceAll("Which of the statements given above is/are correct?", "పై ప్రకటనలలో ఏవి సరైనవి?")
+      .replaceAll("consider the following statements", "క్రింది ప్రకటనలను పరిశీలించండి")
+      .replaceAll("With reference to", "సంబంధించి")
+      .replaceAll("Prehistoric India", "చరిత్రపూర్వ భారతదేశం");
+  }
+
+  if (currentLanguage === "hindi") {
+    return text
+      .replaceAll("Assertion (A)", "अभिकथन (A)")
+      .replaceAll("Reason (R)", "कारण (R)")
+      .replaceAll("Assertion", "अभिकथन")
+      .replaceAll("Reason", "कारण")
+      .replaceAll("Match the following", "निम्नलिखित का मिलान कीजिए")
+      .replaceAll("List I", "सूची I")
+      .replaceAll("List II", "सूची II")
+      .replaceAll("Select the correct answer using the code given below.", "नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।")
+      .replaceAll("Which one of the following is correct?", "निम्नलिखित में से कौन-सा सही है?")
+      .replaceAll("Which of the statements given above is/are correct?", "उपर्युक्त कथनों में से कौन-सा/से सही है/हैं?")
+      .replaceAll("consider the following statements", "निम्नलिखित कथनों पर विचार कीजिए")
+      .replaceAll("With reference to", "के संदर्भ में")
+      .replaceAll("Prehistoric India", "प्रागैतिहासिक भारत");
+  }
+
+  return text;
+}
+
 function getSubjectName(subject) {
   return t().subjectNames[subject] || subject;
 }
@@ -466,7 +506,7 @@ function showQuestion() {
     t().score + ": " + score + " / " + questions.length;
 
   document.getElementById("questionText").textContent =
-    currentQuestion["question_" + currentLanguage];
+    cleanExamTerms(currentQuestion["question_" + currentLanguage]);
 
   document.getElementById("explanationBox").style.display = "none";
   document.getElementById("eliminationBox").style.display = "none";
@@ -479,7 +519,7 @@ function showQuestion() {
   Object.entries(currentOptions).forEach(([key, value]) => {
     const div = document.createElement("div");
     div.className = "option";
-    div.textContent = key + ") " + value;
+    div.textContent = key + ") " + cleanExamTerms(value);
 
     if (selectedAnswer !== null) {
       if (key === currentQuestion.correct_answer) div.classList.add("correct");
@@ -495,10 +535,10 @@ function showQuestion() {
 
   if (selectedAnswer !== null) {
     document.getElementById("explanationText").textContent =
-      currentQuestion["explanation_" + currentLanguage];
+      cleanExamTerms(currentQuestion["explanation_" + currentLanguage]);
 
     document.getElementById("eliminationText").textContent =
-      currentQuestion["elimination_logic_" + currentLanguage];
+      cleanExamTerms(currentQuestion["elimination_logic_" + currentLanguage]);
 
     document.getElementById("explanationBox").style.display = "block";
     document.getElementById("eliminationBox").style.display = "block";
