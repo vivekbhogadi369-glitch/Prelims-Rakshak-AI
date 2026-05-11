@@ -128,7 +128,133 @@
         "elimination_logic_telugu": "వ్యవసాయం మరియు పశుపోషణ నూతన శిలాయుగంలో ప్రారంభమైనందున అది మానవ చరిత్రలో ప్రధాన మలుపుగా మారింది. కాబట్టి కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది. నూతన శిలాయుగ విప్లవం మరియు స్థిర నివాసాల మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.",
 
         "elimination_logic_hindi": "यदि कृषि और पशुपालन नवपाषाण काल में प्रारम्भ हुए, तो यह स्वाभाविक रूप से मानव इतिहास का महत्वपूर्ण मोड़ बन गया। इसलिए कारण सीधे अभिकथन की व्याख्या करता है। UPSC प्रायः नवपाषाण क्रांति और स्थायी जीवन के बीच संबंध पूछता है।"
-      }
-    ]
-  }
+      },
+      {
+  "question_english": "Consider the following statements regarding the Mesolithic Age in India:\n\n1. Microliths were an important feature of this period.\n2. Hunting, fishing and food gathering continued during this phase.\n3. Agriculture completely replaced hunting during this period.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "భారతదేశంలోని మధ్య శిలాయుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సూక్ష్మ శిలాయుధాలు ఈ కాలపు ముఖ్యమైన లక్షణం.\n2. వేట, చేపల వేట మరియు ఆహార సేకరణ ఈ దశలో కొనసాగాయి.\n3. ఈ కాలంలో వ్యవసాయం పూర్తిగా వేటను భర్తీ చేసింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "भारत में मध्यपाषाण काल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सूक्ष्म पाषाण उपकरण इस काल की एक महत्वपूर्ण विशेषता थे।\n2. इस चरण में शिकार, मछली पकड़ना और भोजन संग्रह जारी रहा।\n3. इस काल में कृषि ने शिकार को पूर्णतः प्रतिस्थापित कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statement 1 is correct because microliths, or small stone tools, are the most important technological feature of the Mesolithic Age. Statement 2 is also correct because Mesolithic communities continued hunting, fishing and gathering food. Statement 3 is incorrect because agriculture did not completely replace hunting in this period. The Mesolithic phase represents a transition, not a complete agricultural economy.",
+
+  "explanation_telugu": "ప్రకటన 1 సరైనది, ఎందుకంటే సూక్ష్మ శిలాయుధాలు మధ్య శిలాయుగంలోని ముఖ్యమైన సాంకేతిక లక్షణం. ప్రకటన 2 కూడా సరైనది, ఎందుకంటే ఈ కాలంలో వేట, చేపల వేట మరియు ఆహార సేకరణ కొనసాగాయి. ప్రకటన 3 తప్పు, ఎందుకంటే ఈ కాలంలో వ్యవసాయం వేటను పూర్తిగా భర్తీ చేయలేదు. మధ్య శిలాయుగం ఒక మార్పు దశ మాత్రమే, పూర్తి వ్యవసాయ ఆర్థిక వ్యవస్థ కాదు.",
+
+  "explanation_hindi": "कथन 1 सही है क्योंकि सूक्ष्म पाषाण उपकरण मध्यपाषाण काल की सबसे महत्वपूर्ण तकनीकी विशेषता हैं। कथन 2 भी सही है क्योंकि इस काल में शिकार, मछली पकड़ना और भोजन संग्रह जारी रहा। कथन 3 गलत है क्योंकि इस काल में कृषि ने शिकार को पूर्णतः प्रतिस्थापित नहीं किया। मध्यपाषाण काल एक संक्रमणकालीन अवस्था थी, पूर्ण कृषि अर्थव्यवस्था नहीं।",
+
+  "elimination_logic_english": "Statement 3 is the trap. UPSC may confuse the beginning of transition with complete agricultural settlement. Once Statement 3 is eliminated, options b, c and d become incorrect. Therefore, only Statements 1 and 2 are correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. UPSC మార్పు ప్రారంభాన్ని పూర్తి వ్యవసాయ స్థిర నివాసంతో కలిపి అడగవచ్చు. ప్రకటన 3ను తొలగించిన వెంటనే b, c, d ఎంపికలు తప్పవుతాయి. కాబట్టి 1 మరియు 2 మాత్రమే సరైనవి.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। UPSC संक्रमण की शुरुआत को पूर्ण कृषि जीवन से मिलाकर पूछ सकता है। कथन 3 हटाते ही विकल्प b, c और d गलत हो जाते हैं। इसलिए केवल कथन 1 और 2 सही हैं।"
+},
+{
+  "question_english": "With reference to prehistoric rock paintings in India, consider the following statements:\n\n1. They provide evidence of the social and economic life of early humans.\n2. Hunting scenes, animals and community activities are commonly represented in them.\n3. They are found only in the north-western part of India.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "భారతదేశంలోని చరిత్రపూర్వ శిలాచిత్రాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అవి తొలి మానవుల సామాజిక మరియు ఆర్థిక జీవితానికి ఆధారాలను ఇస్తాయి.\n2. వేట దృశ్యాలు, జంతువులు మరియు సమూహ కార్యకలాపాలు వీటిలో సాధారణంగా కనిపిస్తాయి.\n3. ఇవి భారతదేశంలోని వాయవ్య ప్రాంతంలో మాత్రమే కనిపిస్తాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "भारत में प्रागैतिहासिक शैलचित्रों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. वे प्रारम्भिक मानवों के सामाजिक और आर्थिक जीवन के प्रमाण प्रदान करते हैं।\n2. इनमें शिकार दृश्य, पशु और सामुदायिक गतिविधियाँ सामान्यतः दिखाई देती हैं।\n3. ये केवल भारत के उत्तर-पश्चिमी भाग में पाए जाते हैं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statement 1 is correct because rock paintings help historians understand early human life, including hunting, group behaviour, rituals and interaction with animals. Statement 2 is correct because animals, hunting scenes, dancing and community activities are common themes in prehistoric paintings. Statement 3 is incorrect because such paintings are not restricted to north-western India. Bhimbetka in Madhya Pradesh is one of the best-known examples.",
+
+  "explanation_telugu": "ప్రకటన 1 సరైనది, ఎందుకంటే శిలాచిత్రాలు వేట, సమూహ జీవితం, ఆచారాలు మరియు జంతువులతో సంబంధం వంటి తొలి మానవ జీవనాన్ని అర్థం చేసుకోవడానికి సహాయపడతాయి. ప్రకటన 2 సరైనది, ఎందుకంటే జంతువులు, వేట దృశ్యాలు, నృత్యాలు మరియు సమూహ కార్యకలాపాలు చరిత్రపూర్వ చిత్రాల్లో సాధారణంగా కనిపిస్తాయి. ప్రకటన 3 తప్పు, ఎందుకంటే ఈ చిత్రాలు భారతదేశం వాయవ్య ప్రాంతానికి మాత్రమే పరిమితం కావు. మధ్యప్రదేశ్‌లోని భీంబేట్కా ముఖ్యమైన ఉదాహరణ.",
+
+  "explanation_hindi": "कथन 1 सही है क्योंकि शैलचित्र प्रारम्भिक मानव जीवन, शिकार, सामूहिक व्यवहार, अनुष्ठानों और पशुओं से संबंध को समझने में सहायता करते हैं। कथन 2 सही है क्योंकि पशु, शिकार दृश्य, नृत्य और सामुदायिक गतिविधियाँ प्रागैतिहासिक चित्रों के सामान्य विषय हैं। कथन 3 गलत है क्योंकि ये चित्र केवल उत्तर-पश्चिमी भारत तक सीमित नहीं हैं। मध्य प्रदेश का भीमबेटका इसका प्रमुख उदाहरण है।",
+
+  "elimination_logic_english": "The word 'only' in Statement 3 makes it extreme and incorrect. Rock paintings are found in different regions, with Bhimbetka being a key example. Since Statements 1 and 2 describe the real value and themes of rock art, option a is correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 3లోని 'మాత్రమే' అనే పదం దాన్ని అతిశయంగా మరియు తప్పుగా చేస్తుంది. శిలాచిత్రాలు వివిధ ప్రాంతాల్లో కనిపిస్తాయి; భీంబేట్కా ముఖ్యమైన ఉదాహరణ. ప్రకటనలు 1 మరియు 2 శిలాచిత్రాల నిజమైన ప్రాముఖ్యతను వివరిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कथन 3 में 'केवल' शब्द इसे अतिवादी और गलत बनाता है। शैलचित्र विभिन्न क्षेत्रों में पाए जाते हैं, जिनमें भीमबेटका प्रमुख है। कथन 1 और 2 शैलकला के वास्तविक महत्व और विषयों को बताते हैं। इसलिए विकल्प a सही है।"
+},
+{
+  "question_english": "Which of the following best explains the importance of Mehrgarh in the study of ancient Indian history?",
+
+  "options_english": {
+    "a": "It provides evidence of early farming and animal domestication in the Indian subcontinent.",
+    "b": "It is the earliest known site of Vedic sacrificial rituals.",
+    "c": "It is mainly known for Ashokan inscriptions.",
+    "d": "It was the capital city of the Harappan civilization."
+  },
+
+  "question_telugu": "ప్రాచీన భారత చరిత్ర అధ్యయనంలో మెహర్‌గఢ్ ప్రాముఖ్యతను క్రింది వాటిలో ఏది ఉత్తమంగా వివరిస్తుంది?",
+
+  "options_telugu": {
+    "a": "భారత ఉపఖండంలో ప్రారంభ వ్యవసాయం మరియు జంతు పశుపోషణకు ఆధారాలు ఇస్తుంది.",
+    "b": "వేద యజ్ఞ ఆచారాలకు తెలిసిన తొలి స్థలం ఇది.",
+    "c": "ఇది ప్రధానంగా అశోక శాసనాలకు ప్రసిద్ధి చెందింది.",
+    "d": "ఇది హరప్పా నాగరికత రాజధాని నగరం."
+  },
+
+  "question_hindi": "प्राचीन भारतीय इतिहास के अध्ययन में मेहरगढ़ के महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+  "options_hindi": {
+    "a": "यह भारतीय उपमहाद्वीप में प्रारम्भिक कृषि और पशुपालन के प्रमाण प्रदान करता है।",
+    "b": "यह वैदिक यज्ञ अनुष्ठानों का सबसे प्रारम्भिक ज्ञात स्थल है।",
+    "c": "यह मुख्यतः अशोक के अभिलेखों के लिए प्रसिद्ध है।",
+    "d": "यह हड़प्पा सभ्यता की राजधानी थी।"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Mehrgarh is one of the most important Neolithic-Chalcolithic sites of the Indian subcontinent. It provides early evidence of agriculture, domestication of animals and settled village life. Its importance lies in showing the gradual development from early farming communities towards more complex cultures. It is not connected with Vedic sacrifices, Ashokan inscriptions or the capital of Harappan civilization.",
+
+  "explanation_telugu": "మెహర్‌గఢ్ భారత ఉపఖండంలోని అత్యంత ముఖ్యమైన నూతన శిలాయుగ తామ్రశిలాయుగ స్థలాలలో ఒకటి. ఇది ప్రారంభ వ్యవసాయం, జంతు పశుపోషణ మరియు స్థిర గ్రామీణ జీవనానికి ఆధారాలను ఇస్తుంది. ప్రారంభ వ్యవసాయ సమాజాల నుంచి సంక్లిష్ట సంస్కృతుల వైపు మార్పును చూపడం దీని ప్రాముఖ్యత. ఇది వేద యజ్ఞాలు, అశోక శాసనాలు లేదా హరప్పా రాజధానితో సంబంధం లేదు.",
+
+  "explanation_hindi": "मेहरगढ़ भारतीय उपमहाद्वीप का एक अत्यंत महत्वपूर्ण नवपाषाण ताम्रपाषाण स्थल है। यह प्रारम्भिक कृषि, पशुपालन और स्थायी ग्राम जीवन के प्रमाण देता है। इसका महत्व प्रारम्भिक कृषक समुदायों से जटिल संस्कृतियों की ओर क्रमिक विकास को दिखाने में है। इसका संबंध वैदिक यज्ञों, अशोक अभिलेखों या हड़प्पा की राजधानी से नहीं है।",
+
+  "elimination_logic_english": "Option b is incorrect because Vedic rituals belong to a much later cultural phase. Option c is incorrect because Ashokan inscriptions belong to the Mauryan period. Option d is incorrect because Harappan civilization did not have one clearly identified capital city. Option a alone correctly reflects Mehrgarh’s prehistoric importance.",
+
+  "elimination_logic_telugu": "ఎంపిక b తప్పు, ఎందుకంటే వేద యజ్ఞాలు చాలా తర్వాతి సంస్కృతిక దశకు చెందినవి. ఎంపిక c తప్పు, ఎందుకంటే అశోక శాసనాలు మౌర్య కాలానికి చెందినవి. ఎంపిక d తప్పు, ఎందుకంటే హరప్పా నాగరికతకు ఒకే స్పష్టమైన రాజధాని నగరం లేదు. మెహర్‌గఢ్ చరిత్రపూర్వ ప్రాముఖ్యతను ఎంపిక a మాత్రమే సరైనంగా చూపిస్తుంది.",
+
+  "elimination_logic_hindi": "विकल्प b गलत है क्योंकि वैदिक अनुष्ठान बहुत बाद के सांस्कृतिक चरण से संबंधित हैं। विकल्प c गलत है क्योंकि अशोक के अभिलेख मौर्य काल से संबंधित हैं। विकल्प d गलत है क्योंकि हड़प्पा सभ्यता की कोई एक स्पष्ट राजधानी नहीं थी। विकल्प a ही मेहरगढ़ के प्रागैतिहासिक महत्व को सही ढंग से बताता है।"
 }
+      }
+}
+]
