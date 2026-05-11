@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+
     body {
       font-family: Arial, sans-serif;
       background: #f5f7fb;
@@ -15,33 +16,34 @@
 
     h1 {
       text-align: center;
-      font-size: 26px;
+      font-size: 28px;
       margin-bottom: 20px;
+      color: #111827;
     }
 
     .box {
       background: white;
-      padding: 18px;
-      border-radius: 14px;
+      padding: 20px;
+      border-radius: 16px;
       box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-      margin-bottom: 16px;
+      margin-bottom: 18px;
     }
 
     .language-buttons {
       display: flex;
       gap: 10px;
-      margin-bottom: 16px;
+      margin-bottom: 18px;
     }
 
     .lang-btn {
       flex: 1;
-      padding: 10px;
+      padding: 11px;
       border: none;
       border-radius: 10px;
       background: #e5e7eb;
       cursor: pointer;
       font-weight: bold;
-      font-size: 14px;
+      font-size: 15px;
     }
 
     .active-lang {
@@ -49,23 +51,31 @@
       color: white;
     }
 
+    label {
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+      margin-top: 10px;
+    }
+
     select {
       width: 100%;
-      padding: 12px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      border-radius: 10px;
-      border: 1px solid #ccc;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid #d1d5db;
       font-size: 16px;
+      margin-bottom: 12px;
+      background: #f9fafb;
     }
 
     .progress-container {
       width: 100%;
+      height: 12px;
       background: #e5e7eb;
       border-radius: 20px;
       overflow: hidden;
-      height: 12px;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .progress-bar {
@@ -75,43 +85,34 @@
       transition: width 0.4s ease;
     }
 
-    .progress-text {
-      font-size: 13px;
-      color: #6b7280;
-      margin-bottom: 12px;
-      font-weight: bold;
-    }
-
-    .question-count {
-      font-size: 14px;
-      color: #6b7280;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
+    .progress-text,
+    .question-count,
     .score {
       font-size: 15px;
-      color: #111827;
-      margin-bottom: 12px;
       font-weight: bold;
+      margin-bottom: 12px;
+      color: #4b5563;
     }
 
     .question {
+      font-size: 21px;
       font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 14px;
-      line-height: 1.6;
+      line-height: 1.9;
+      margin-top: 20px;
+      margin-bottom: 26px;
+      white-space: pre-line;
     }
 
     .option {
       background: #f3f4f6;
-      padding: 12px;
-      border-radius: 10px;
-      margin: 10px 0;
-      font-size: 16px;
-      line-height: 1.5;
-      cursor: pointer;
+      padding: 18px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      font-size: 19px;
+      line-height: 1.8;
       border: 2px solid transparent;
+      cursor: pointer;
+      white-space: pre-line;
     }
 
     .correct {
@@ -126,33 +127,41 @@
 
     .resultBox {
       display: none;
-      margin-top: 16px;
-      padding: 14px;
+      margin-top: 18px;
       background: #f9fafb;
-      border-radius: 10px;
-      line-height: 1.7;
+      padding: 18px;
+      border-radius: 12px;
+      line-height: 1.9;
     }
 
     .resultBox h3 {
       margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+
+    .resultBox p {
+      white-space: pre-line;
       font-size: 17px;
     }
 
     .nav-buttons {
       display: flex;
-      gap: 10px;
-      margin-top: 18px;
+      gap: 12px;
+      margin-top: 22px;
     }
 
-    .nav-buttons button, .retry-btn {
+    .nav-buttons button,
+    .retry-btn {
       flex: 1;
-      padding: 12px;
+      padding: 14px;
       border: none;
-      border-radius: 10px;
+      border-radius: 12px;
       background: #1f2937;
       color: white;
-      font-size: 15px;
+      font-size: 16px;
       cursor: pointer;
+      font-weight: bold;
     }
 
     .nav-buttons button:disabled {
@@ -162,38 +171,56 @@
 
     .final-score {
       text-align: center;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bold;
-      margin-bottom: 12px;
+      margin-bottom: 18px;
+      line-height: 1.7;
     }
 
     .feedback {
       text-align: center;
-      line-height: 1.6;
-      margin-bottom: 18px;
-      color: #374151;
+      font-size: 18px;
+      line-height: 1.9;
+      margin-bottom: 20px;
+      white-space: pre-line;
     }
+
   </style>
 </head>
 
 <body>
 
-<h1>MCQ Practice</h1>
+<h1 id="pageTitle">MCQ Practice</h1>
 
 <div class="box">
 
   <div class="language-buttons">
-    <button class="lang-btn active-lang" onclick="changeLanguage('english', this)">English</button>
-    <button class="lang-btn" onclick="changeLanguage('telugu', this)">తెలుగు</button>
-    <button class="lang-btn" onclick="changeLanguage('hindi', this)">हिन्दी</button>
+
+    <button class="lang-btn active-lang"
+      onclick="changeLanguage('english', this)">
+      English
+    </button>
+
+    <button class="lang-btn"
+      onclick="changeLanguage('telugu', this)">
+      తెలుగు
+    </button>
+
+    <button class="lang-btn"
+      onclick="changeLanguage('hindi', this)">
+      हिन्दी
+    </button>
+
   </div>
 
-  <label>Select Subject</label>
+  <label id="subjectLabel">Select Subject</label>
+
   <select id="subjectSelect">
     <option value="">Select Subject</option>
   </select>
 
-  <label>Select Topic</label>
+  <label id="topicLabel">Select Topic</label>
+
   <select id="topicSelect">
     <option value="">Select Topic</option>
   </select>
@@ -217,324 +244,120 @@
   <div id="optionsBox"></div>
 
   <div id="explanationBox" class="resultBox">
-    <h3>Explanation</h3>
+    <h3 id="explanationHeading">Explanation</h3>
     <p id="explanationText"></p>
   </div>
 
   <div id="eliminationBox" class="resultBox">
-    <h3>Elimination Logic</h3>
+    <h3 id="eliminationHeading">Elimination Logic</h3>
     <p id="eliminationText"></p>
   </div>
 
   <div class="nav-buttons">
-    <button id="prevBtn" onclick="previousQuestion()">Previous</button>
-    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+
+    <button id="prevBtn" onclick="previousQuestion()">
+      Previous
+    </button>
+
+    <button id="nextBtn" onclick="nextQuestion()">
+      Next
+    </button>
+
   </div>
 
 </div>
 
 <div id="finalBox" class="box" style="display:none;">
+
   <div id="finalScore" class="final-score"></div>
+
   <div id="finalFeedback" class="feedback"></div>
-  <button id="retryBtn" class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
+
+  <button id="retryBtn"
+    class="retry-btn"
+    onclick="retryQuiz()">
+    Retry Quiz
+  </button>
+
 </div>
 
 <script>
 
-let mcqData = {};
-let questions = [];
-let currentIndex = 0;
-let score = 0;
-let userAnswers = [];
-let currentLanguage = "english";
-
-function changeLanguage(language, button) {
-
-  currentLanguage = language;
-
-  document.querySelectorAll(".lang-btn").forEach(btn => {
-    btn.classList.remove("active-lang");
-  });
-
-  button.classList.add("active-lang");
-
-  if (questions.length > 0) {
-    showQuestion();
-  }
-}
-
-async function loadMCQs() {
-
-  try {
-
-    const response = await fetch("/static/json/mcqs_history.json");
-
-    mcqData = await response.json();
-
-    const subjectSelect = document.getElementById("subjectSelect");
-
-    Object.keys(mcqData).forEach(subject => {
-
-      const option = document.createElement("option");
-
-      option.value = subject;
-      option.textContent = subject;
-
-      subjectSelect.appendChild(option);
-
-    });
-
-  } catch (error) {
-
-    alert("MCQ JSON loading failed.");
-    console.error(error);
-
-  }
-}
-
-document.getElementById("subjectSelect").addEventListener("change", function () {
-
-  const subject = this.value;
-
-  const topicSelect = document.getElementById("topicSelect");
-
-  topicSelect.innerHTML = '<option value="">Select Topic</option>';
-
-  document.getElementById("mcqBox").style.display = "none";
-
-  document.getElementById("finalBox").style.display = "none";
-
-  if (!subject) return;
-
-  Object.keys(mcqData[subject]).forEach(topic => {
-
-    const option = document.createElement("option");
-
-    option.value = topic;
-    option.textContent = topic;
-
-    topicSelect.appendChild(option);
-
-  });
-
-});
-
-document.getElementById("topicSelect").addEventListener("change", function () {
-
-  const subject = document.getElementById("subjectSelect").value;
-
-  const topic = this.value;
-
-  if (!subject || !topic) return;
-
-  questions = mcqData[subject][topic];
-
-  currentIndex = 0;
-
-  score = 0;
-
-  userAnswers = new Array(questions.length).fill(null);
-
-  document.getElementById("finalBox").style.display = "none";
-
-  document.getElementById("mcqBox").style.display = "block";
-
-  showQuestion();
-
-});
-
-function showQuestion() {
-
-  const currentQuestion = questions[currentIndex];
-
-  const selectedAnswer = userAnswers[currentIndex];
-
-  const progressPercent = Math.round(((currentIndex + 1) / questions.length) * 100);
-
-  document.getElementById("progressBar").style.width = progressPercent + "%";
-
-  document.getElementById("progressText").textContent =
-    "Progress: " + progressPercent + "%";
-
-  document.getElementById("questionCount").textContent =
-    "Question " + (currentIndex + 1) + " of " + questions.length;
-
-  document.getElementById("scoreBox").textContent =
-    "Score: " + score + " / " + questions.length;
-
-  document.getElementById("questionText").textContent =
-    currentQuestion["question_" + currentLanguage];
-
-  document.getElementById("explanationBox").style.display = "none";
-
-  document.getElementById("eliminationBox").style.display = "none";
-
-  const optionsBox = document.getElementById("optionsBox");
-
-  optionsBox.innerHTML = "";
-
-  const currentOptions = currentQuestion["options_" + currentLanguage];
-
-  Object.entries(currentOptions).forEach(([key, value]) => {
-
-    const div = document.createElement("div");
-
-    div.className = "option";
-
-    div.textContent = key + ") " + value;
-
-    if (selectedAnswer !== null) {
-
-      if (key === currentQuestion.correct_answer) {
-        div.classList.add("correct");
-      }
-
-      if (
-        key === selectedAnswer &&
-        selectedAnswer !== currentQuestion.correct_answer
-      ) {
-        div.classList.add("wrong");
-      }
-
-    } else {
-
-      div.onclick = function () {
-        checkAnswer(key);
-      };
-
+const translations = {
+
+  english: {
+    pageTitle: "MCQ Practice",
+    subjectLabel: "Select Subject",
+    topicLabel: "Select Topic",
+    selectSubject: "Select Subject",
+    selectTopic: "Select Topic",
+    progress: "Progress",
+    question: "Question",
+    score: "Score",
+    explanation: "Explanation",
+    elimination: "Elimination Logic",
+    previous: "Previous",
+    next: "Next",
+    finish: "Finish Quiz",
+    retry: "Retry Quiz",
+    accuracy: "Accuracy",
+    subjectNames: {
+      "Ancient History": "Ancient History"
+    },
+    topicNames: {
+      "Prehistoric India": "Prehistoric India"
     }
+  },
 
-    optionsBox.appendChild(div);
+  telugu: {
+    pageTitle: "ఎంసిక్యూ సాధన",
+    subjectLabel: "విషయాన్ని ఎంచుకోండి",
+    topicLabel: "అంశాన్ని ఎంచుకోండి",
+    selectSubject: "విషయాన్ని ఎంచుకోండి",
+    selectTopic: "అంశాన్ని ఎంచుకోండి",
+    progress: "పురోగతి",
+    question: "ప్రశ్న",
+    score: "మార్కులు",
+    explanation: "వివరణ",
+    elimination: "తొలగింపు తర్కం",
+    previous: "మునుపటి",
+    next: "తదుపరి",
+    finish: "క్విజ్ ముగించు",
+    retry: "మళ్లీ ప్రయత్నించండి",
+    accuracy: "ఖచ్చితత్వం",
+    subjectNames: {
+      "Ancient History": "ప్రాచీన భారత చరిత్ర"
+    },
+    topicNames: {
+      "Prehistoric India": "చరిత్రపూర్వ భారతదేశం"
+    }
+  },
 
-  });
-
-  if (selectedAnswer !== null) {
-
-    document.getElementById("explanationText").textContent =
-      currentQuestion["explanation_" + currentLanguage];
-
-    document.getElementById("eliminationText").textContent =
-      currentQuestion["elimination_logic_" + currentLanguage];
-
-    document.getElementById("explanationBox").style.display = "block";
-
-    document.getElementById("eliminationBox").style.display = "block";
+  hindi: {
+    pageTitle: "एमसीक्यू अभ्यास",
+    subjectLabel: "विषय चुनिए",
+    topicLabel: "टॉपिक चुनिए",
+    selectSubject: "विषय चुनिए",
+    selectTopic: "टॉपिक चुनिए",
+    progress: "प्रगति",
+    question: "प्रश्न",
+    score: "अंक",
+    explanation: "व्याख्या",
+    elimination: "उन्मूलन तर्क",
+    previous: "पिछला",
+    next: "अगला",
+    finish: "क्विज समाप्त करें",
+    retry: "पुनः प्रयास करें",
+    accuracy: "सटीकता",
+    subjectNames: {
+      "Ancient History": "प्राचीन भारतीय इतिहास"
+    },
+    topicNames: {
+      "Prehistoric India": "प्रागैतिहासिक भारत"
+    }
   }
 
-  document.getElementById("prevBtn").disabled = currentIndex === 0;
-
-  if (currentIndex === questions.length - 1) {
-    document.getElementById("nextBtn").textContent = "Finish Quiz";
-  } else {
-    document.getElementById("nextBtn").textContent = "Next";
-  }
-}
-
-function checkAnswer(selectedKey) {
-
-  const currentQuestion = questions[currentIndex];
-
-  if (userAnswers[currentIndex] !== null) return;
-
-  userAnswers[currentIndex] = selectedKey;
-
-  if (selectedKey === currentQuestion.correct_answer) {
-    score++;
-  }
-
-  showQuestion();
-}
-
-function previousQuestion() {
-
-  if (currentIndex > 0) {
-
-    currentIndex--;
-
-    showQuestion();
-
-  }
-}
-
-function nextQuestion() {
-
-  if (currentIndex < questions.length - 1) {
-
-    currentIndex++;
-
-    showQuestion();
-
-  } else {
-
-    showFinalResult();
-
-  }
-}
-
-function showFinalResult() {
-
-  const percentage = Math.round((score / questions.length) * 100);
-
-  document.getElementById("mcqBox").style.display = "none";
-
-  document.getElementById("finalBox").style.display = "block";
-
-  document.getElementById("finalScore").textContent =
-    "Score: " + score + " / " + questions.length +
-    " | Accuracy: " + percentage + "%";
-
-  let feedback = "";
-
-  if (percentage === 100) {
-
-    feedback =
-      "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level.";
-
-    document.getElementById("retryBtn").style.display = "none";
-
-  } else if (percentage >= 80) {
-
-    feedback =
-      "Excellent. Your preparation is moving in a strong UPSC direction. Keep practising elimination logic.";
-
-    document.getElementById("retryBtn").style.display = "block";
-
-  } else if (percentage >= 50) {
-
-    feedback =
-      "Good attempt. Revise the concepts and focus more on statement-based traps.";
-
-    document.getElementById("retryBtn").style.display = "block";
-
-  } else {
-
-    feedback =
-      "Needs revision. Go back to notes, understand the basics, and attempt again with elimination logic.";
-
-    document.getElementById("retryBtn").style.display = "block";
-  }
-
-  document.getElementById("finalFeedback").textContent = feedback;
-}
-
-function retryQuiz() {
-
-  currentIndex = 0;
-
-  score = 0;
-
-  userAnswers = new Array(questions.length).fill(null);
-
-  document.getElementById("finalBox").style.display = "none";
-
-  document.getElementById("mcqBox").style.display = "block";
-
-  document.getElementById("retryBtn").style.display = "block";
-
-  showQuestion();
-}
-
-loadMCQs();
+};
 
 </script>
 
