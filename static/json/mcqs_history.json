@@ -133,7 +133,304 @@
           "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే గుహాచిత్రాలు చరిత్రపూర్వ జీవనశైలికి సంబంధించిన స్పష్టమైన ఆధారాలను అందిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
 
           "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि शैलचित्र प्रागैतिहासिक जीवनशैली और गतिविधियों के दृश्य प्रमाण प्रदान करते हैं। इसलिए विकल्प a सही है।"
-        }
+        },
+        ,
+{
+  "question_english": "Consider the following statements regarding the Mesolithic Age in India:\n\n1. Microlithic tools became an important feature of this phase.\n2. Humans continued to depend partly on hunting and gathering.\n3. Permanent urban centres developed during this period.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "భారతదేశంలోని మధ్య శిలాయుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సూక్ష్మ రాతి పరికరాలు ఈ దశలో ముఖ్య లక్షణంగా మారాయి.\n2. మనుషులు కొంతవరకు వేట మరియు ఆహార సేకరణపై ఆధారపడ్డారు.\n3. ఈ కాలంలో శాశ్వత పట్టణ కేంద్రాలు అభివృద్ధి చెందాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "भारत के मध्यपाषाण युग के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सूक्ष्म पाषाण औजार इस चरण की महत्वपूर्ण विशेषता बने।\n2. मानव आंशिक रूप से शिकार और भोजन संग्रह पर निर्भर रहे।\n3. इस काल में स्थायी नगरीय केन्द्र विकसित हुए।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct. The Mesolithic Age is characterized by the use of microlithic tools and continuation of hunting-gathering practices, although some early domestication and semi-settled life began to emerge. Statement 3 is incorrect because urban centres developed much later during the Harappan Civilization.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. మధ్య శిలాయుగం సూక్ష్మ రాతి పరికరాల వినియోగం మరియు వేట-ఆహార సేకరణ కొనసాగింపుకు ప్రసిద్ధి చెందింది. కొంతవరకు జంతు వశీకరణ మరియు అర్ధస్థిర నివాస జీవితం ప్రారంభమైంది. ప్రకటన 3 తప్పు, ఎందుకంటే పట్టణ కేంద్రాలు చాలా తరువాత హరప్పా నాగరికత కాలంలో అభివృద్ధి చెందాయి.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। मध्यपाषाण युग सूक्ष्म पाषाण औजारों के उपयोग और शिकार-संग्रह जीवन की निरंतरता के लिए जाना जाता है। इस चरण में आंशिक पशुपालन और अर्ध-स्थायी जीवन की शुरुआत भी हुई। कथन 3 गलत है क्योंकि नगरीय केन्द्र बहुत बाद में हड़प्पा सभ्यता के दौरान विकसित हुए।",
+
+  "elimination_logic_english": "Statement 3 is the trap because urbanization belongs to a much later stage. Mesolithic culture represents a transitional phase, not an urban civilization. Eliminating Statement 3 leaves option a correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. పట్టణీకరణ చాలా తరువాతి దశకు చెందినది. మధ్య శిలాయుగం ఒక మార్పు దశ మాత్రమే, పట్టణ నాగరికత కాదు. ప్రకటన 3ను తొలగిస్తే ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है क्योंकि नगरीकरण बहुत बाद की अवस्था से संबंधित है। मध्यपाषाण संस्कृति एक संक्रमणकालीन चरण थी, नगरीय सभ्यता नहीं। कथन 3 हटाने पर विकल्प a सही है।"
+},
+{
+  "question_english": "Which one of the following prehistoric sites is especially famous for rock shelters and cave paintings?",
+
+  "options_english": {
+    "a": "Mehrgarh",
+    "b": "Bhimbetka",
+    "c": "Kalibangan",
+    "d": "Lothal"
+  },
+
+  "question_telugu": "గుహా ఆశ్రయాలు మరియు గుహాచిత్రాలకు ప్రత్యేకంగా ప్రసిద్ధి చెందిన చరిత్రపూర్వ స్థలం క్రింది వాటిలో ఏది?",
+
+  "options_telugu": {
+    "a": "మెహర్‌గఢ్",
+    "b": "భీంబేట్కా",
+    "c": "కాలిబంగన్",
+    "d": "లోథల్"
+  },
+
+  "question_hindi": "गुफा आश्रयों और शैलचित्रों के लिए विशेष रूप से प्रसिद्ध प्रागैतिहासिक स्थल निम्नलिखित में से कौन-सा है?",
+
+  "options_hindi": {
+    "a": "मेहरगढ़",
+    "b": "भीमबेटका",
+    "c": "कालीबंगन",
+    "d": "लोथल"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "Bhimbetka, located in present-day Madhya Pradesh, is famous for its rock shelters and prehistoric cave paintings. These paintings provide important evidence regarding prehistoric life, hunting scenes, dances and social activities.",
+
+  "explanation_telugu": "ప్రస్తుతం మధ్యప్రదేశ్‌లో ఉన్న భీంబేట్కా గుహా ఆశ్రయాలు మరియు చరిత్రపూర్వ గుహాచిత్రాలకు ప్రసిద్ధి చెందింది. ఈ చిత్రాలు వేట దృశ్యాలు, నృత్యాలు మరియు సామాజిక కార్యకలాపాలకు సంబంధించిన ముఖ్య ఆధారాలను ఇస్తాయి.",
+
+  "explanation_hindi": "वर्तमान मध्य प्रदेश में स्थित भीमबेटका अपने गुफा आश्रयों और प्रागैतिहासिक शैलचित्रों के लिए प्रसिद्ध है। ये चित्र शिकार दृश्य, नृत्य और सामाजिक गतिविधियों के महत्वपूर्ण प्रमाण प्रदान करते हैं।",
+
+  "elimination_logic_english": "Mehrgarh is associated mainly with early agriculture, while Kalibangan and Lothal are Harappan sites. Bhimbetka alone is internationally known for prehistoric rock art and shelters.",
+
+  "elimination_logic_telugu": "మెహర్‌గఢ్ ప్రధానంగా ప్రారంభ వ్యవసాయానికి సంబంధించినది. కాలిబంగన్ మరియు లోథల్ హరప్పా స్థలాలు. భీంబేట్కా మాత్రమే చరిత్రపూర్వ గుహాచిత్రాలకు ప్రపంచవ్యాప్తంగా ప్రసిద్ధి చెందింది.",
+
+  "elimination_logic_hindi": "मेहरगढ़ मुख्यतः प्रारम्भिक कृषि से संबंधित है, जबकि कालीबंगन और लोथल हड़प्पा स्थल हैं। केवल भीमबेटका प्रागैतिहासिक शैलचित्रों और गुफा आश्रयों के लिए प्रसिद्ध है।"
+},
+{
+  "question_english": "Assertion (A): The Neolithic Age witnessed a gradual shift towards settled life.\n\nReason (R): Agriculture and domestication encouraged humans to remain near cultivation areas.\n\nWhich one of the following is correct?",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is not correct",
+    "d": "A is not correct but R is correct"
+  },
+
+  "question_telugu": "ప్రతిపాదన (A): నూతన శిలాయుగంలో క్రమంగా స్థిర నివాస జీవితం అభివృద్ధి చెందింది.\n\nకారణం (R): వ్యవసాయం మరియు జంతు వశీకరణ మనుషులను సాగు ప్రాంతాల సమీపంలో నివసించేలా చేశాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R సరైనది కాదు",
+    "d": "A సరైనది కాదు కానీ R సరైనది"
+  },
+
+  "question_hindi": "अभिकथन (A): नवपाषाण युग में धीरे-धीरे स्थायी जीवन विकसित हुआ।\n\nकारण (R): कृषि और पशुपालन ने मानव को खेती वाले क्षेत्रों के निकट रहने के लिए प्रेरित किया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+    "c": "A सही है किन्तु R सही नहीं है",
+    "d": "A सही नहीं है किन्तु R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Both Assertion and Reason are correct. The development of agriculture and domestication reduced the need for constant movement in search of food. Humans gradually began to settle near cultivation fields and water sources, leading to village life and permanent settlements.",
+
+  "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. వ్యవసాయం మరియు జంతు వశీకరణ ఆహారం కోసం నిరంతరం సంచరించాల్సిన అవసరాన్ని తగ్గించాయి. మనుషులు క్రమంగా సాగు భూములు మరియు నీటి వనరుల సమీపంలో స్థిర నివాసాలు ఏర్పరచుకున్నారు.",
+
+  "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। कृषि और पशुपालन के विकास से भोजन की खोज में निरंतर घूमने की आवश्यकता कम हो गई। मानव धीरे-धीरे खेती और जल स्रोतों के निकट बसने लगे, जिससे ग्राम जीवन और स्थायी बस्तियों का विकास हुआ।",
+
+  "elimination_logic_english": "The Reason directly explains the Assertion because agriculture naturally encouraged settled life. Therefore, option a is the most accurate answer.",
+
+  "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే వ్యవసాయం సహజంగానే స్థిర నివాస జీవితాన్ని ప్రోత్సహించింది. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि कृषि ने स्वाभाविक रूप से स्थायी जीवन को बढ़ावा दिया। इसलिए विकल्प a सही है।"
+},
+        ,
+{
+  "question_english": "Consider the following statements regarding prehistoric tools:\n\n1. Paleolithic tools were generally large and crude.\n2. Mesolithic culture is associated with microlithic tools.\n3. Neolithic communities exclusively used metal tools.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "చరిత్రపూర్వ పరికరాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పూర్వ శిలాయుగ పరికరాలు సాధారణంగా పెద్దవి మరియు మోటుగా ఉండేవి.\n2. మధ్య శిలాయుగ సంస్కృతి సూక్ష్మ రాతి పరికరాలతో అనుసంధానించబడింది.\n3. నూతన శిలాయుగ సమాజాలు పూర్తిగా లోహ పరికరాలనే ఉపయోగించాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "प्रागैतिहासिक औजारों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पुरापाषाण औजार सामान्यतः बड़े और खुरदरे थे।\n2. मध्यपाषाण संस्कृति सूक्ष्म पाषाण औजारों से संबंधित है।\n3. नवपाषाण समुदाय केवल धातु के औजारों का उपयोग करते थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct. Paleolithic tools were large and rough, while Mesolithic culture is characterized by microlithic tools. Statement 3 is incorrect because Neolithic communities mainly used polished stone tools; widespread metal use came later.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. పూర్వ శిలాయుగ పరికరాలు పెద్దవి మరియు మోటుగా ఉండేవి, మధ్య శిలాయుగం సూక్ష్మ రాతి పరికరాలకు ప్రసిద్ధి చెందింది. ప్రకటన 3 తప్పు, ఎందుకంటే నూతన శిలాయుగ సమాజాలు ప్రధానంగా మెరుగుపరచిన రాతి పరికరాలను ఉపయోగించాయి; లోహ వినియోగం తరువాత విస్తరించింది.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। पुरापाषाण औजार बड़े और खुरदरे थे, जबकि मध्यपाषाण संस्कृति सूक्ष्म पाषाण औजारों के लिए प्रसिद्ध है। कथन 3 गलत है क्योंकि नवपाषाण समुदाय मुख्यतः घिसे हुए पत्थर के औजारों का उपयोग करते थे; धातुओं का व्यापक उपयोग बाद में हुआ।",
+
+  "elimination_logic_english": "Statement 3 is the trap because students may wrongly associate the Neolithic Age with metal technology. Neolithic culture is still primarily a polished stone tool culture. Hence option a is correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. చాలామంది నూతన శిలాయుగాన్ని లోహ సాంకేతికతతో అనుసంధానిస్తారు. కానీ అది ప్రధానంగా మెరుగుపరచిన రాతి పరికరాల సంస్కృతే. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। विद्यार्थी नवपाषाण युग को धातु तकनीक से जोड़ सकते हैं, जबकि यह मुख्यतः घिसे हुए पत्थर के औजारों की संस्कृति थी। इसलिए विकल्प a सही है।"
+},
+{
+  "question_english": "Which one of the following best explains the importance of fire in prehistoric human life?",
+
+  "options_english": {
+    "a": "It helped humans to mint coins.",
+    "b": "It enabled the construction of urban drainage systems.",
+    "c": "It provided warmth, protection and helped in cooking food.",
+    "d": "It directly led to the invention of writing."
+  },
+
+  "question_telugu": "చరిత్రపూర్వ మానవ జీవితంలో అగ్ని ప్రాముఖ్యతను క్రింది వాటిలో ఏది ఉత్తమంగా వివరిస్తుంది?",
+
+  "options_telugu": {
+    "a": "అది మనుషులకు నాణేలు తయారు చేయడంలో సహాయపడింది.",
+    "b": "అది పట్టణ కాలువ వ్యవస్థల నిర్మాణాన్ని సాధ్యంచేసింది.",
+    "c": "అది వేడి, రక్షణ మరియు ఆహారం వండుకోవడంలో సహాయపడింది.",
+    "d": "అది నేరుగా లిపి ఆవిష్కరణకు దారితీసింది."
+  },
+
+  "question_hindi": "प्रागैतिहासिक मानव जीवन में अग्नि के महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+  "options_hindi": {
+    "a": "इसने मानव को सिक्के बनाने में सहायता दी।",
+    "b": "इससे नगरीय जल निकासी व्यवस्था का निर्माण संभव हुआ।",
+    "c": "इसने गर्मी, सुरक्षा और भोजन पकाने में सहायता दी।",
+    "d": "इससे सीधे लेखन कला का आविष्कार हुआ।"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "The discovery and controlled use of fire was a major milestone in prehistoric life. Fire provided warmth in cold conditions, protection from wild animals and helped humans cook food, improving nutrition and survival chances.",
+
+  "explanation_telugu": "అగ్ని ఆవిష్కరణ మరియు దాని నియంత్రిత వినియోగం చరిత్రపూర్వ జీవితంలో ఒక ముఖ్య మైలురాయి. అగ్ని చలిలో వేడిని, అడవి జంతువుల నుండి రక్షణను అందించడంతో పాటు ఆహారం వండుకోవడంలో సహాయపడింది.",
+
+  "explanation_hindi": "अग्नि की खोज और उसका नियंत्रित उपयोग प्रागैतिहासिक जीवन की एक महत्वपूर्ण उपलब्धि थी। अग्नि ने ठंड में गर्मी, जंगली पशुओं से सुरक्षा तथा भोजन पकाने में सहायता प्रदान की।",
+
+  "elimination_logic_english": "Options a, b and d belong to much later stages of civilization. The earliest importance of fire was related to survival, warmth, protection and cooking. Therefore, option c is correct.",
+
+  "elimination_logic_telugu": "ఎంపికలు a, b మరియు d చాలా తరువాతి నాగరిక దశలకు చెందినవి. అగ్ని యొక్క ప్రారంభ ప్రాముఖ్యత జీవన రక్షణ, వేడి మరియు ఆహారం వండుకోవడంలో ఉంది. కాబట్టి ఎంపిక c సరైనది.",
+
+  "elimination_logic_hindi": "विकल्प a, b और d सभ्यता के बहुत बाद के चरणों से संबंधित हैं। अग्नि का प्रारम्भिक महत्व जीवन रक्षा, गर्मी और भोजन पकाने से जुड़ा था। इसलिए विकल्प c सही है।"
+},
+{
+  "question_english": "Assertion (A): The transition from hunting-gathering to agriculture changed prehistoric social life significantly.\n\nReason (R): Agriculture encouraged settled life, surplus production and community organization.\n\nWhich one of the following is correct?",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is not correct",
+    "d": "A is not correct but R is correct"
+  },
+
+  "question_telugu": "ప్రతిపాదన (A): వేట-ఆహార సేకరణ నుండి వ్యవసాయానికి మార్పు చరిత్రపూర్వ సామాజిక జీవితాన్ని గణనీయంగా మార్చింది.\n\nకారణం (R): వ్యవసాయం స్థిర నివాసాలు, మిగులు ఉత్పత్తి మరియు సమాజ వ్యవస్థీకరణను ప్రోత్సహించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R సరైనది కాదు",
+    "d": "A సరైనది కాదు కానీ R సరైనది"
+  },
+
+  "question_hindi": "अभिकथन (A): शिकार-संग्रह से कृषि की ओर परिवर्तन ने प्रागैतिहासिक सामाजिक जीवन को महत्वपूर्ण रूप से बदल दिया।\n\nकारण (R): कृषि ने स्थायी जीवन, अधिशेष उत्पादन और सामुदायिक संगठन को प्रोत्साहित किया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+    "c": "A सही है किन्तु R सही नहीं है",
+    "d": "A सही नहीं है किन्तु R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Both Assertion and Reason are correct. The beginning of agriculture transformed human society by promoting settled life, production of surplus food and development of organized communities. These changes gradually laid the foundation for more complex social and economic structures.",
+
+  "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. వ్యవసాయం ప్రారంభం స్థిర నివాస జీవితం, మిగులు ఆహార ఉత్పత్తి మరియు సంఘటిత సమాజాల అభివృద్ధిని ప్రోత్సహించింది. ఈ మార్పులు తరువాత సంక్లిష్ట సామాజిక మరియు ఆర్థిక వ్యవస్థలకు పునాది వేశాయి.",
+
+  "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। कृषि की शुरुआत ने स्थायी जीवन, अधिशेष भोजन उत्पादन और संगठित समुदायों के विकास को बढ़ावा दिया। इन परिवर्तनों ने आगे चलकर जटिल सामाजिक और आर्थिक संरचनाओं की नींव रखी।",
+
+  "elimination_logic_english": "The Reason directly explains the Assertion because agriculture fundamentally changed how humans lived and organized society. Therefore, option a is correct.",
+
+  "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే వ్యవసాయం మానవ జీవన విధానాన్ని మరియు సమాజ వ్యవస్థను మౌలికంగా మార్చింది. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि कृषि ने मानव जीवन और सामाजिक संगठन को मूल रूप से बदल दिया। इसलिए विकल्प a सही है।"
+},
+        ,
+{
+  "question_english": "With reference to prehistoric human life in India, consider the following statements:\n\n1. Early humans initially lived a nomadic life.\n2. Domestication of animals began before the development of agriculture.\n3. Cave shelters were used by prehistoric communities for protection.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "భారతదేశంలోని చరిత్రపూర్వ మానవ జీవితానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. తొలి మనుషులు ప్రారంభంలో సంచార జీవితం గడిపారు.\n2. వ్యవసాయం అభివృద్ధి చెందకముందే జంతు వశీకరణ ప్రారంభమైంది.\n3. గుహా ఆశ్రయాలు రక్షణ కోసం ఉపయోగించబడ్డాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "भारत के प्रागैतिहासिक मानव जीवन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रारम्भिक मानव आरम्भ में घुमंतू जीवन जीते थे।\n2. कृषि के विकास से पहले पशुपालन प्रारम्भ हो गया था।\n3. गुफा आश्रयों का उपयोग सुरक्षा के लिए किया जाता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "Statements 1 and 3 are correct. Early prehistoric humans lived a nomadic life and frequently moved in search of food and shelter. Cave shelters provided safety from wild animals and harsh weather conditions. Statement 2 is incorrect because systematic domestication of animals is generally associated with the Neolithic phase alongside the development of agriculture.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 3 సరైనవి. తొలి చరిత్రపూర్వ మనుషులు సంచార జీవితం గడిపి ఆహారం మరియు ఆశ్రయం కోసం తరచూ సంచరించేవారు. గుహా ఆశ్రయాలు అడవి జంతువులు మరియు కఠిన వాతావరణం నుండి రక్షణ ఇచ్చేవి. ప్రకటన 2 తప్పు, ఎందుకంటే జంతు వశీకరణ ప్రధానంగా నూతన శిలాయుగంలో వ్యవసాయ అభివృద్ధితో అనుసంధానించబడింది.",
+
+  "explanation_hindi": "कथन 1 और 3 सही हैं। प्रारम्भिक प्रागैतिहासिक मानव घुमंतू जीवन जीते थे और भोजन तथा आश्रय की खोज में घूमते रहते थे। गुफा आश्रय उन्हें जंगली पशुओं और कठोर मौसम से सुरक्षा प्रदान करते थे। कथन 2 गलत है क्योंकि व्यवस्थित पशुपालन मुख्यतः नवपाषाण काल में कृषि विकास के साथ जुड़ा हुआ है।",
+
+  "elimination_logic_english": "Statement 2 is the trap because students may assume domestication happened much earlier independently. In standard prehistoric chronology, organized agriculture and domestication are closely linked with the Neolithic phase. Therefore, only Statements 1 and 3 are correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 2 ప్రధాన ఉచ్చు. చాలామంది జంతు వశీకరణ వ్యవసాయానికి ముందే విస్తృతంగా జరిగిందని భావించవచ్చు. కానీ సాధారణ చరిత్రపూర్వ కాలక్రమంలో వ్యవసాయం మరియు జంతు వశీకరణ నూతన శిలాయుగంతో దగ్గరగా అనుసంధానించబడ్డాయి. కాబట్టి 1 మరియు 3 మాత్రమే సరైనవి.",
+
+  "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है। विद्यार्थी सोच सकते हैं कि पशुपालन कृषि से बहुत पहले विकसित हो गया था। लेकिन सामान्य प्रागैतिहासिक कालक्रम में कृषि और पशुपालन दोनों नवपाषाण चरण से निकटता से जुड़े हैं। इसलिए केवल 1 और 3 सही हैं।"
+}
       ]
     }
   }
