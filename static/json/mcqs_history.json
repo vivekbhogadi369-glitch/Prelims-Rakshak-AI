@@ -429,6 +429,142 @@
   "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है। विद्यार्थी सोच सकते हैं कि पशुपालन कृषि से बहुत पहले विकसित हो गया था। लेकिन सामान्य प्रागैतिहासिक कालक्रम में कृषि और पशुपालन दोनों नवपाषाण चरण से निकटता से जुड़े हैं। इसलिए केवल 1 और 3 सही हैं।"
 }
       ]
+    },
+ "Indus Valley Civilization": {
+      "topic_english": "Indus Valley Civilization",
+      "topic_telugu": "సింధు లోయ నాగరికత",
+      "topic_hindi": "सिंधु घाटी सभ्यता",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Indus Valley Civilization:\n\n1. The civilization is noted for its highly planned urban settlements.\n2. Burnt bricks were widely used in construction.\n3. Iron tools formed the main basis of Harappan technology.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "సింధు లోయ నాగరికతకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఈ నాగరికత అత్యంత ప్రణాళికాబద్ధ పట్టణ నివాసాలకు ప్రసిద్ధి చెందింది.\n2. నిర్మాణాలలో కాల్చిన ఇటుకలు విస్తృతంగా ఉపయోగించబడ్డాయి.\n3. హరప్పా సాంకేతికతకు ఇనుప పరికరాలే ప్రధాన ఆధారం.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सिंधु घाटी सभ्यता के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह सभ्यता अत्यधिक योजनाबद्ध नगरीय बस्तियों के लिए प्रसिद्ध है।\n2. निर्माण कार्यों में पकी हुई ईंटों का व्यापक उपयोग होता था।\n3. लोहे के औजार हड़प्पा तकनीक का मुख्य आधार थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Harappan Civilization is famous for planned cities, drainage systems and extensive use of burnt bricks. Statement 3 is incorrect because the civilization belonged to the Bronze Age and iron was not widely used.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. హరప్పా నాగరికత ప్రణాళికాబద్ధ పట్టణాలు, కాలువ వ్యవస్థలు మరియు కాల్చిన ఇటుకల వినియోగానికి ప్రసిద్ధి చెందింది. ప్రకటన 3 తప్పు, ఎందుకంటే ఇది కాంస్యయుగ నాగరికత; ఇనుప విస్తృతంగా ఉపయోగించబడలేదు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। हड़प्पा सभ्यता योजनाबद्ध नगरों, जल निकासी व्यवस्था और पकी हुई ईंटों के व्यापक उपयोग के लिए प्रसिद्ध है। कथन 3 गलत है क्योंकि यह कांस्य युग की सभ्यता थी और लोहे का व्यापक उपयोग नहीं होता था।",
+
+          "elimination_logic_english": "Statement 3 is the main trap because UPSC often tests whether students confuse Bronze Age Harappan culture with later Iron Age developments. Eliminating Statement 3 leaves option a correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. UPSC తరచుగా కాంస్యయుగ హరప్పా నాగరికతను తరువాతి ఇనుపయుగంతో గందరగోళం చేసేలా ప్రశ్నిస్తుంది. ప్రకటన 3ను తొలగిస్తే ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। UPSC अक्सर कांस्य युगीन हड़प्पा संस्कृति को बाद के लौह युग से मिलाकर पूछता है। कथन 3 हटाने पर विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following Harappan sites is especially associated with a dockyard?",
+
+          "options_english": {
+            "a": "Kalibangan",
+            "b": "Lothal",
+            "c": "Harappa",
+            "d": "Banawali"
+          },
+
+          "question_telugu": "నౌకాశ్రయంతో ప్రత్యేకంగా అనుసంధానించబడిన హరప్పా స్థలం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "కాలిబంగన్",
+            "b": "లోథల్",
+            "c": "హరప్పా",
+            "d": "బనవాలి"
+          },
+
+          "question_hindi": "निम्नलिखित हड़प्पा स्थलों में से कौन-सा विशेष रूप से गोदी (Dockyard) के लिए प्रसिद्ध है?",
+
+          "options_hindi": {
+            "a": "कालीबंगन",
+            "b": "लोथल",
+            "c": "हड़प्पा",
+            "d": "बनावली"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Lothal, located in present-day Gujarat, is famous for its dockyard and maritime trade. It demonstrates the advanced commercial and navigational capabilities of the Harappan Civilization.",
+
+          "explanation_telugu": "ప్రస్తుతం గుజరాత్‌లో ఉన్న లోథల్ నౌకాశ్రయం మరియు సముద్ర వాణిజ్యానికి ప్రసిద్ధి చెందింది. ఇది హరప్పా నాగరికత యొక్క అభివృద్ధి చెందిన వాణిజ్య మరియు నౌకాయాన సామర్థ్యాన్ని చూపిస్తుంది.",
+
+          "explanation_hindi": "वर्तमान गुजरात में स्थित लोथल अपनी गोदी और समुद्री व्यापार के लिए प्रसिद्ध है। यह हड़प्पा सभ्यता की उन्नत व्यापारिक और नौवहन क्षमता को दर्शाता है।",
+
+          "elimination_logic_english": "Lothal-dockyard is a classic UPSC site-feature pair. Kalibangan is associated with fire altars, while Harappa and Banawali are not known for dockyards.",
+
+          "elimination_logic_telugu": "లోథల్-నౌకాశ్రయం జత UPSCలో తరచుగా అడిగే అంశం. కాలిబంగన్ అగ్నివేదికలకు ప్రసిద్ధి చెందింది; హరప్పా మరియు బనవాలి నౌకాశ్రయాలకు ప్రసిద్ధి చెందలేదు.",
+
+          "elimination_logic_hindi": "लोथल-गोदी संयोजन UPSC में बार-बार पूछा जाता है। कालीबंगन अग्निवेदियों के लिए प्रसिद्ध है, जबकि हड़प्पा और बनावली गोदी के लिए प्रसिद्ध नहीं हैं।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Harappan Civilization maintained trade contacts with distant regions.\n\nReason (R): Harappan seals and artefacts have been discovered in regions outside the Indian subcontinent.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): హరప్పా నాగరికత దూర ప్రాంతాలతో వాణిజ్య సంబంధాలు కొనసాగించింది.\n\nకారణం (R): భారత ఉపఖండం వెలుపల ప్రాంతాల్లో హరప్పా ముద్రలు మరియు పురావస్తువులు కనుగొనబడ్డాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): हड़प्पा सभ्यता के दूरस्थ क्षेत्रों के साथ व्यापारिक संबंध थे।\n\nकारण (R): भारतीय उपमहाद्वीप के बाहर के क्षेत्रों में हड़प्पा मुहरें और पुरावशेष प्राप्त हुए हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Archaeological discoveries of Harappan seals and artefacts in Mesopotamia and nearby regions indicate long-distance trade contacts maintained by the Harappans. Therefore, the Reason directly explains the Assertion.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. మెసపొటేమియా మరియు సమీప ప్రాంతాల్లో హరప్పా ముద్రలు మరియు పురావస్తువులు కనుగొనబడటం హరప్పా ప్రజలు దూర ప్రాంతాలతో వాణిజ్య సంబంధాలు కొనసాగించారని సూచిస్తుంది. కాబట్టి కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। मेसोपोटामिया और आसपास के क्षेत्रों में हड़प्पा मुहरों और पुरावशेषों की खोज यह दर्शाती है कि हड़प्पावासियों के दूरस्थ क्षेत्रों के साथ व्यापारिक संबंध थे। अतः कारण अभिकथन की सही व्याख्या करता है।",
+
+          "elimination_logic_english": "The Reason provides direct archaeological evidence supporting the Assertion. Discovery of Harappan artefacts outside India clearly proves long-distance trade links. Hence option a is correct.",
+
+          "elimination_logic_telugu": "కారణం ప్రతిపాదనకు నేరుగా పురావస్తు ఆధారాలు ఇస్తుంది. భారతదేశం వెలుపల హరప్పా పురావస్తువుల కనుగొనిక దూర వాణిజ్య సంబంధాలను స్పష్టంగా నిరూపిస్తుంది. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण अभिकथन के समर्थन में प्रत्यक्ष पुरातात्त्विक प्रमाण देता है। भारत के बाहर हड़प्पा पुरावशेषों की खोज दूरस्थ व्यापारिक संबंधों को स्पष्ट रूप से सिद्ध करती है। इसलिए विकल्प a सही है।"
+        }
+      ]
     }
-  }
+}
 }
