@@ -65,6 +65,19 @@
       background: #f9fafb;
     }
 
+    .back-btn {
+      display: none;
+      margin-bottom: 14px;
+      background: #1f2937;
+      color: white;
+      border: none;
+      padding: 11px 18px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
     .progress-container {
       width: 100%;
       height: 12px;
@@ -181,8 +194,8 @@
 
 <h1 id="pageTitle">MCQ Practice</h1>
 
-<div class="box">
-  <div class="language-buttons">
+<div id="selectionBox" class="box">
+  <div id="languageSection" class="language-buttons">
     <button class="lang-btn active-lang" onclick="changeLanguage('english', this)">English</button>
     <button class="lang-btn" onclick="changeLanguage('telugu', this)">తెలుగు</button>
     <button class="lang-btn" onclick="changeLanguage('hindi', this)">हिन्दी</button>
@@ -194,6 +207,8 @@
   <label id="topicLabel">Select Topic</label>
   <select id="topicSelect"></select>
 </div>
+
+<button id="backButton" class="back-btn" onclick="goBack()">← Back</button>
 
 <div id="mcqBox" class="box" style="display:none;">
   <div class="progress-container">
@@ -253,6 +268,7 @@ const translations = {
     next: "Next",
     finish: "Finish Quiz",
     retry: "Retry Quiz",
+    back: "← Back",
     accuracy: "Accuracy",
     subjectNames: {
       "Ancient History": "Ancient History"
@@ -277,6 +293,7 @@ const translations = {
     next: "తదుపరి",
     finish: "క్విజ్ ముగించు",
     retry: "మళ్లీ ప్రయత్నించండి",
+    back: "← వెనక్కి",
     accuracy: "ఖచ్చితత్వం",
     subjectNames: {
       "Ancient History": "ప్రాచీన భారత చరిత్ర"
@@ -301,6 +318,7 @@ const translations = {
     next: "अगला",
     finish: "क्विज समाप्त करें",
     retry: "पुनः प्रयास करें",
+    back: "← वापस",
     accuracy: "सटीकता",
     subjectNames: {
       "Ancient History": "प्राचीन भारतीय इतिहास"
@@ -331,6 +349,7 @@ function applyLanguageLabels() {
   document.getElementById("eliminationHeading").textContent = t().elimination;
   document.getElementById("prevBtn").textContent = t().previous;
   document.getElementById("retryBtn").textContent = t().retry;
+  document.getElementById("backButton").textContent = t().back;
 
   populateSubjects();
 
@@ -344,6 +363,7 @@ function populateSubjects() {
   const currentValue = subjectSelect.value;
 
   subjectSelect.innerHTML = "";
+
   const defaultOption = document.createElement("option");
   defaultOption.value = "";
   defaultOption.textContent = t().selectSubject;
@@ -366,6 +386,7 @@ function populateTopics() {
   const currentTopic = topicSelect.value;
 
   topicSelect.innerHTML = "";
+
   const defaultOption = document.createElement("option");
   defaultOption.value = "";
   defaultOption.textContent = t().selectTopic;
@@ -422,6 +443,8 @@ document.getElementById("topicSelect").addEventListener("change", function () {
   score = 0;
   userAnswers = new Array(questions.length).fill(null);
 
+  document.getElementById("selectionBox").style.display = "none";
+  document.getElementById("backButton").style.display = "inline-block";
   document.getElementById("finalBox").style.display = "none";
   document.getElementById("mcqBox").style.display = "block";
 
@@ -560,6 +583,21 @@ function retryQuiz() {
   document.getElementById("retryBtn").style.display = "block";
 
   showQuestion();
+}
+
+function goBack() {
+  document.getElementById("selectionBox").style.display = "block";
+  document.getElementById("backButton").style.display = "none";
+  document.getElementById("mcqBox").style.display = "none";
+  document.getElementById("finalBox").style.display = "none";
+
+  document.getElementById("subjectSelect").value = "";
+  populateTopics();
+
+  questions = [];
+  currentIndex = 0;
+  score = 0;
+  userAnswers = [];
 }
 
 loadMCQs();
