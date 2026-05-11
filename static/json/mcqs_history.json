@@ -423,6 +423,140 @@
 
   "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है क्योंकि ताम्रपाषाण समुदायों ने कृषि नहीं छोड़ी थी। UPSC प्रायः संक्रमणकालीन प्रागैतिहासिक चरणों को आदिम शिकार जीवन से जोड़कर भ्रम उत्पन्न करता है। चूँकि कथन 1 और 3 सही हैं, इसलिए विकल्प a सही उत्तर है।"
       }
-    ]
+    ],
+{
+  "topic_english": "Indus Valley Civilization",
+  "topic_telugu": "సింధు లోయ నాగరికత",
+  "topic_hindi": "सिंधु घाटी सभ्यता",
+
+  "questions": [
+    {
+      "question_english": "Consider the following statements regarding the Indus Valley Civilization:\n\n1. The civilization is known for its planned urban settlements.\n2. Standardized weights and measures were used in trade.\n3. Iron was the principal metal used for making tools.\n\nWhich of the statements given above is/are correct?",
+
+      "options_english": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+
+      "question_telugu": "సింధు లోయ నాగరికతకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఈ నాగరికత ప్రణాళికాబద్ధ పట్టణ నివాసాలకు ప్రసిద్ధి చెందింది.\n2. వాణిజ్యంలో ప్రమాణీకృత తూనికలు మరియు కొలతలు ఉపయోగించబడ్డాయి.\n3. పరికరాల తయారీలో ఇనుప ప్రధాన లోహంగా ఉపయోగించబడింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "options_telugu": {
+        "a": "1 మరియు 2 మాత్రమే",
+        "b": "2 మరియు 3 మాత్రమే",
+        "c": "1 మరియు 3 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "question_hindi": "सिंधु घाटी सभ्यता के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह सभ्यता योजनाबद्ध नगरीय बस्तियों के लिए प्रसिद्ध है।\n2. व्यापार में मानकीकृत बाट और माप का उपयोग किया जाता था।\n3. उपकरण बनाने के लिए लोहे का मुख्य रूप से उपयोग होता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_hindi": {
+        "a": "केवल 1 और 2",
+        "b": "केवल 2 और 3",
+        "c": "केवल 1 और 3",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Statements 1 and 2 are correct. The Harappan civilization is known for advanced town planning and organized trade practices involving standardized weights and measures. Statement 3 is incorrect because the civilization belonged to the Bronze Age and iron was not widely used.",
+
+      "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. హరప్పా నాగరికత ఆధునిక పట్టణ ప్రణాళిక మరియు ప్రమాణీకృత తూనికలు, కొలతల ఆధారిత వాణిజ్యానికి ప్రసిద్ధి చెందింది. ప్రకటన 3 తప్పు, ఎందుకంటే ఇది కాంస్యయుగ నాగరికత; ఇనుప విస్తృతంగా ఉపయోగించబడలేదు.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। हड़प्पा सभ्यता उन्नत नगरीय नियोजन तथा मानकीकृत बाट और माप पर आधारित व्यापार के लिए प्रसिद्ध थी। कथन 3 गलत है क्योंकि यह कांस्य युग की सभ्यता थी और लोहे का व्यापक उपयोग नहीं होता था।",
+
+      "elimination_logic_english": "Statement 3 is the trap because UPSC often checks whether students confuse Bronze Age Harappan culture with later Iron Age developments. Eliminating Statement 3 leaves only option a.",
+
+      "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. UPSC తరచుగా కాంస్యయుగ హరప్పా నాగరికతను తరువాతి ఇనుపయుగంతో కలిపి పరీక్షిస్తుంది. ప్రకటన 3 తొలగించగానే ఎంపిక a మాత్రమే మిగులుతుంది.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। UPSC अक्सर कांस्य युगीन हड़प्पा संस्कृति को बाद के लौह युग से मिलाकर पूछता है। कथन 3 हटते ही केवल विकल्प a बचता है।"
+    },
+
+    {
+      "question_english": "Match the following:\n\nList I (Harappan Site)\n1. Mohenjo-daro\n2. Lothal\n3. Kalibangan\n4. Chanhudaro\n\nList II (Feature)\nA. Dockyard\nB. Great Bath\nC. Fire altars\nD. Bead-making centre\n\nSelect the correct answer using the code given below.",
+
+      "options_english": {
+        "a": "1-A, 2-B, 3-C, 4-D",
+        "b": "1-B, 2-D, 3-A, 4-C",
+        "c": "1-B, 2-A, 3-C, 4-D",
+        "d": "1-D, 2-A, 3-B, 4-C"
+      },
+
+      "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (హరప్పా స్థలం)\n1. మొహెంజోదారో\n2. లోథల్\n3. కాలిబంగన్\n4. చాన్హుదారో\n\nజాబితా II (లక్షణం)\nA. నౌకాశ్రయం\nB. మహాస్నానగృహం\nC. అగ్నివేదికలు\nD. మణుల తయారీ కేంద్రం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+      "options_telugu": {
+        "a": "1-A, 2-B, 3-C, 4-D",
+        "b": "1-B, 2-D, 3-A, 4-C",
+        "c": "1-B, 2-A, 3-C, 4-D",
+        "d": "1-D, 2-A, 3-B, 4-C"
+      },
+
+      "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (हड़प्पा स्थल)\n1. मोहनजोदड़ो\n2. लोथल\n3. कालीबंगन\n4. चन्हुदड़ो\n\nसूची II (विशेषता)\nA. गोदी\nB. महान स्नानागार\nC. अग्निवेदियाँ\nD. मनका निर्माण केन्द्र\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+      "options_hindi": {
+        "a": "1-A, 2-B, 3-C, 4-D",
+        "b": "1-B, 2-D, 3-A, 4-C",
+        "c": "1-B, 2-A, 3-C, 4-D",
+        "d": "1-D, 2-A, 3-B, 4-C"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "Mohenjo-daro is associated with the Great Bath. Lothal is famous for its dockyard and maritime trade. Kalibangan provides evidence of fire altars, while Chanhudaro was an important bead-making centre. Therefore, option c is correct.",
+
+      "explanation_telugu": "మొహెంజోదారో మహాస్నానగృహానికి ప్రసిద్ధి చెందింది. లోథల్ నౌకాశ్రయం మరియు సముద్ర వాణిజ్యానికి ప్రసిద్ధి చెందింది. కాలిబంగన్ అగ్నివేదికలకు ఆధారాలు ఇస్తుంది. చాన్హుదారో ముఖ్యమైన మణుల తయారీ కేంద్రం. కాబట్టి ఎంపిక c సరైనది.",
+
+      "explanation_hindi": "मोहनजोदड़ो महान स्नानागार के लिए प्रसिद्ध है। लोथल अपनी गोदी और समुद्री व्यापार के लिए जाना जाता है। कालीबंगन से अग्निवेदियों के प्रमाण मिले हैं जबकि चन्हुदड़ो मनका निर्माण केन्द्र था। इसलिए विकल्प c सही है।",
+
+      "elimination_logic_english": "Great Bath directly points to Mohenjo-daro and dockyard directly points to Lothal. After fixing these two pairs, the remaining matches become straightforward.",
+
+      "elimination_logic_telugu": "మహాస్నానగృహం అంటే మొహెంజోదారో అని వెంటనే గుర్తించాలి. నౌకాశ్రయం అంటే లోథల్ అని స్పష్టంగా తెలుస్తుంది. ఈ రెండు జతలను సరిపోల్చిన తర్వాత మిగతావి సులభమవుతాయి.",
+
+      "elimination_logic_hindi": "महान स्नानागार सीधे मोहनजोदड़ो की ओर संकेत करता है और गोदी लोथल की पहचान है। इन दोनों का मिलान होने के बाद शेष जोड़े सरल हो जाते हैं।"
+    },
+
+    {
+      "question_english": "Assertion (A): The Indus Valley Civilization had trade relations with distant regions.\n\nReason (R): Standardized seals and weights have been discovered from Harappan sites.\n\nWhich one of the following is correct?",
+
+      "options_english": {
+        "a": "Both A and R are correct and R is the correct explanation of A",
+        "b": "Both A and R are correct but R is not the correct explanation of A",
+        "c": "A is correct but R is not correct",
+        "d": "A is not correct but R is correct"
+      },
+
+      "question_telugu": "ప్రతిపాదన (A): సింధు లోయ నాగరికత దూర ప్రాంతాలతో వాణిజ్య సంబంధాలు కలిగి ఉంది.\n\nకారణం (R): హరప్పా స్థలాలలో ప్రమాణీకృత ముద్రలు మరియు తూనికలు కనుగొనబడ్డాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R సరైనది కాదు",
+        "d": "A సరైనది కాదు కానీ R సరైనది"
+      },
+
+      "question_hindi": "अभिकथन (A): सिंधु घाटी सभ्यता के दूरस्थ क्षेत्रों के साथ व्यापारिक संबंध थे।\n\nकारण (R): हड़प्पा स्थलों से मानकीकृत मुहरें और बाट प्राप्त हुए हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+        "c": "A सही है किन्तु R सही नहीं है",
+        "d": "A सही नहीं है किन्तु R सही है"
+      },
+
+      "correct_answer": "b",
+
+      "explanation_english": "Both Assertion and Reason are correct. Standardized seals and weights indicate organized commercial activity in the Harappan civilization. However, the Reason explains trade organization rather than fully explaining long-distance trade relations. Therefore, option b is correct.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ప్రమాణీకృత ముద్రలు మరియు తూనికలు హరప్పా నాగరికతలో సుశ్రుత వాణిజ్య వ్యవస్థను సూచిస్తున్నాయి. అయితే కారణం వాణిజ్య నిర్వహణను మాత్రమే వివరిస్తుంది; దూర వాణిజ్య సంబంధాలకు పూర్తి వివరణ కాదు. కాబట్టి ఎంపిక b సరైనది.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। मानकीकृत मुहरें और बाट हड़प्पा सभ्यता में संगठित व्यापार व्यवस्था को दर्शाते हैं। किन्तु कारण केवल व्यापार संगठन को बताता है, दूरस्थ व्यापार संबंधों की पूर्ण व्याख्या नहीं करता। इसलिए विकल्प b सही है।",
+
+      "elimination_logic_english": "This is a classic UPSC assertion-reason trap. Students may quickly choose option a because both statements are related. But the Reason explains trade organization, not the complete basis of long-distance trade. Hence option b is more accurate.",
+
+      "elimination_logic_telugu": "ఇది సాధారణ UPSC ప్రతిపాదన-కారణం ఉచ్చు. రెండు ప్రకటనలు సంబంధం కలిగి ఉండటంతో చాలామంది వెంటనే ఎంపిక a ఎంచుకుంటారు. కానీ కారణం వాణిజ్య నిర్వహణను మాత్రమే వివరిస్తుంది; దూర వాణిజ్యానికి పూర్తి వివరణ కాదు. కాబట్టి ఎంపిక b మరింత సరైనది.",
+
+      "elimination_logic_hindi": "यह एक सामान्य UPSC अभिकथन-कारण जाल है। दोनों कथन जुड़े होने के कारण विद्यार्थी तुरंत विकल्प a चुन सकते हैं। लेकिन कारण केवल व्यापार संगठन को दर्शाता है, दूरस्थ व्यापार की पूर्ण व्याख्या नहीं करता। इसलिए विकल्प b अधिक उपयुक्त है।"
+    }
+  ]
   }
-}
