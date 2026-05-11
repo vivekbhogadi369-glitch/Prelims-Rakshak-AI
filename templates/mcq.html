@@ -37,6 +37,20 @@
       font-size: 16px;
     }
 
+    .question-count {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .score {
+      font-size: 15px;
+      color: #111827;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
     .question {
       font-weight: bold;
       font-size: 18px;
@@ -52,6 +66,7 @@
       font-size: 16px;
       line-height: 1.4;
       cursor: pointer;
+      border: 2px solid transparent;
     }
 
     .correct {
@@ -77,6 +92,28 @@
       margin-top: 0;
       font-size: 17px;
     }
+
+    .nav-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .nav-buttons button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: #1f2937;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .nav-buttons button:disabled {
+      background: #9ca3af;
+      cursor: not-allowed;
+    }
   </style>
 </head>
 
@@ -97,6 +134,8 @@
   </div>
 
   <div id="mcqBox" class="box" style="display:none;">
+    <div id="questionCount" class="question-count"></div>
+    <div id="scoreBox" class="score"></div>
     <div id="questionText" class="question"></div>
     <div id="optionsBox"></div>
 
@@ -109,12 +148,19 @@
       <h3>Elimination Logic</h3>
       <p id="eliminationText"></p>
     </div>
+
+    <div class="nav-buttons">
+      <button id="prevBtn" onclick="previousQuestion()">Previous</button>
+      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    </div>
   </div>
 
   <script>
     let mcqData = {};
-    let currentQuestion = null;
-    let answered = false;
+    let questions = [];
+    let currentIndex = 0;
+    let score = 0;
+    let userAnswers = [];
 
     async function loadMCQs() {
       try {
@@ -159,10 +205,25 @@
 
       if (!subject || !topic) return;
 
-      currentQuestion = mcqData[subject][topic][0];
-      answered = false;
+      questions = mcqData[subject][topic];
+      currentIndex = 0;
+      score = 0;
+      userAnswers = new Array(questions.length).fill(null);
 
       document.getElementById("mcqBox").style.display = "block";
+      showQuestion();
+    });
+
+    function showQuestion() {
+      const currentQuestion = questions[currentIndex];
+      const selectedAnswer = userAnswers[currentIndex];
+
+      document.getElementById("questionCount").textContent =
+        "Question " + (currentIndex + 1) + " of " + questions.length;
+
+      document.getElementById("scoreBox").textContent =
+        "Score: " + score + " / " + questions.length;
+
       document.getElementById("questionText").textContent = currentQuestion.question;
 
       document.getElementById("explanationBox").style.display = "none";
@@ -175,36 +236,62 @@
         const div = document.createElement("div");
         div.className = "option";
         div.textContent = key + ") " + value;
-        div.onclick = function () {
-          checkAnswer(div, key);
-        };
+
+        if (selectedAnswer !== null) {
+          if (key === currentQuestion.correct_answer) {
+            div.classList.add("correct");
+          }
+
+          if (key === selectedAnswer && selectedAnswer !== currentQuestion.correct_answer) {
+            div.classList.add("wrong");
+          }
+        } else {
+          div.onclick = function () {
+            checkAnswer(key);
+          };
+        }
+
         optionsBox.appendChild(div);
       });
-    });
 
-    function checkAnswer(selectedDiv, selectedKey) {
-      if (answered) return;
+      if (selectedAnswer !== null) {
+        document.getElementById("explanationText").textContent = currentQuestion.explanation;
+        document.getElementById("eliminationText").textContent = currentQuestion.elimination_logic;
 
-      answered = true;
-      const correctKey = currentQuestion.correct_answer;
-
-      const allOptions = document.querySelectorAll(".option");
-
-      allOptions.forEach(optionDiv => {
-        if (optionDiv.textContent.startsWith(correctKey + ")")) {
-          optionDiv.classList.add("correct");
-        }
-      });
-
-      if (selectedKey !== correctKey) {
-        selectedDiv.classList.add("wrong");
+        document.getElementById("explanationBox").style.display = "block";
+        document.getElementById("eliminationBox").style.display = "block";
       }
 
-      document.getElementById("explanationText").textContent = currentQuestion.explanation;
-      document.getElementById("eliminationText").textContent = currentQuestion.elimination_logic;
+      document.getElementById("prevBtn").disabled = currentIndex === 0;
+      document.getElementById("nextBtn").disabled = currentIndex === questions.length - 1;
+    }
 
-      document.getElementById("explanationBox").style.display = "block";
-      document.getElementById("eliminationBox").style.display = "block";
+    function checkAnswer(selectedKey) {
+      const currentQuestion = questions[currentIndex];
+
+      if (userAnswers[currentIndex] !== null) return;
+
+      userAnswers[currentIndex] = selectedKey;
+
+      if (selectedKey === currentQuestion.correct_answer) {
+        score++;
+      }
+
+      showQuestion();
+    }
+
+    function previousQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        showQuestion();
+      }
+    }
+
+    function nextQuestion() {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        showQuestion();
+      }
     }
 
     loadMCQs();
