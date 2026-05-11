@@ -563,8 +563,306 @@
           "elimination_logic_telugu": "కారణం ప్రతిపాదనకు నేరుగా పురావస్తు ఆధారాలు ఇస్తుంది. భారతదేశం వెలుపల హరప్పా పురావస్తువుల కనుగొనిక దూర వాణిజ్య సంబంధాలను స్పష్టంగా నిరూపిస్తుంది. కాబట్టి ఎంపిక a సరైనది.",
 
           "elimination_logic_hindi": "कारण अभिकथन के समर्थन में प्रत्यक्ष पुरातात्त्विक प्रमाण देता है। भारत के बाहर हड़प्पा पुरावशेषों की खोज दूरस्थ व्यापारिक संबंधों को स्पष्ट रूप से सिद्ध करती है। इसलिए विकल्प a सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the economy of the Indus Valley Civilization:\n\n1. Agriculture formed the backbone of the Harappan economy.\n2. Cotton cultivation was known to the Harappans.\n3. Trade was completely absent between Harappan cities.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "సింధు లోయ నాగరికత ఆర్థిక వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వ్యవసాయం హరప్పా ఆర్థిక వ్యవస్థకు ప్రధాన ఆధారం.\n2. హరప్పా ప్రజలకు పత్తి సాగు తెలిసి ఉండేది.\n3. హరప్పా పట్టణాల మధ్య వాణిజ్యం పూర్తిగా లేనిది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सिंधु घाटी सभ्यता की अर्थव्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. कृषि हड़प्पा अर्थव्यवस्था का मुख्य आधार थी।\n2. हड़प्पावासियों को कपास की खेती का ज्ञान था।\n3. हड़प्पा नगरों के बीच व्यापार पूर्णतः अनुपस्थित था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. Agriculture was the foundation of the Harappan economy and cotton cultivation was well known. In fact, the Indus Valley Civilization is among the earliest known civilizations to use cotton textiles. Statement 3 is incorrect because trade networks existed both within Harappan cities and with distant regions.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. వ్యవసాయం హరప్పా ఆర్థిక వ్యవస్థకు ప్రధాన ఆధారం. పత్తి సాగు కూడా వారికి తెలిసి ఉండేది. సింధు నాగరికత ప్రపంచంలోనే తొలిగా పత్తి వస్త్రాలను ఉపయోగించిన నాగరికతలలో ఒకటి. ప్రకటన 3 తప్పు, ఎందుకంటే హరప్పా పట్టణాల మధ్య మరియు దూర ప్రాంతాలతో కూడా వాణిజ్య సంబంధాలు ఉండేవి.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। कृषि हड़प्पा अर्थव्यवस्था का मुख्य आधार थी और उन्हें कपास की खेती का ज्ञान था। सिंधु सभ्यता विश्व की प्रारम्भिक कपास उपयोग करने वाली सभ्यताओं में से एक थी। कथन 3 गलत है क्योंकि हड़प्पा नगरों के बीच तथा दूरस्थ क्षेत्रों के साथ व्यापारिक संबंध मौजूद थे।",
+
+          "elimination_logic_english": "Statement 3 is the trap because of the extreme phrase 'completely absent'. UPSC often uses such wording to test conceptual clarity. Eliminating Statement 3 leaves option b correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3లోని ‘పూర్తిగా లేనిది’ అనే పదమే ప్రధాన ఉచ్చు. UPSC తరచుగా ఇలాంటి అతిశయ పదాలతో భావనాత్మక స్పష్టతను పరీక్షిస్తుంది. ప్రకటన 3ను తొలగిస్తే ఎంపిక b సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 में ‘पूर्णतः अनुपस्थित’ शब्द मुख्य भ्रम है। UPSC अक्सर ऐसे अतिशय शब्दों से अवधारणात्मक स्पष्टता की जाँच करता है। कथन 3 हटाने पर विकल्प b सही है।"
+        },
+
+        {
+          "question_english": "Match the following:\n\nList I (Harappan Site)\n1. Mohenjo-daro\n2. Kalibangan\n3. Chanhudaro\n4. Dholavira\n\nList II (Feature)\nA. Water management system\nB. Great Bath\nC. Fire altars\nD. Bead-making centre\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1-B, 2-C, 3-D, 4-A",
+            "b": "1-C, 2-B, 3-A, 4-D",
+            "c": "1-B, 2-D, 3-C, 4-A",
+            "d": "1-D, 2-A, 3-B, 4-C"
+          },
+
+          "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (హరప్పా స్థలం)\n1. మొహెంజోదారో\n2. కాలిబంగన్\n3. చాన్హుదారో\n4. ధోలవీరా\n\nజాబితా II (లక్షణం)\nA. జల నిర్వహణ వ్యవస్థ\nB. మహాస్నానగృహం\nC. అగ్నివేదికలు\nD. మణుల తయారీ కేంద్రం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1-B, 2-C, 3-D, 4-A",
+            "b": "1-C, 2-B, 3-A, 4-D",
+            "c": "1-B, 2-D, 3-C, 4-A",
+            "d": "1-D, 2-A, 3-B, 4-C"
+          },
+
+          "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (हड़प्पा स्थल)\n1. मोहनजोदड़ो\n2. कालीबंगन\n3. चन्हुदड़ो\n4. धोलावीरा\n\nसूची II (विशेषता)\nA. जल प्रबंधन प्रणाली\nB. महान स्नानागार\nC. अग्निवेदियाँ\nD. मनका निर्माण केन्द्र\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "1-B, 2-C, 3-D, 4-A",
+            "b": "1-C, 2-B, 3-A, 4-D",
+            "c": "1-B, 2-D, 3-C, 4-A",
+            "d": "1-D, 2-A, 3-B, 4-C"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Mohenjo-daro is famous for the Great Bath. Kalibangan is associated with fire altars. Chanhudaro was a major bead-making centre. Dholavira is well known for its sophisticated water management system. Therefore, option a is correct.",
+
+          "explanation_telugu": "మొహెంజోదారో మహాస్నానగృహానికి ప్రసిద్ధి చెందింది. కాలిబంగన్ అగ్నివేదికలకు ప్రసిద్ధి చెందింది. చాన్హుదారో మణుల తయారీ కేంద్రంగా ప్రసిద్ధి చెందింది. ధోలవీరా అభివృద్ధి చెందిన జల నిర్వహణ వ్యవస్థకు ప్రసిద్ధి చెందింది. కాబట్టి ఎంపిక a సరైనది.",
+
+          "explanation_hindi": "मोहनजोदड़ो महान स्नानागार के लिए प्रसिद्ध है। कालीबंगन अग्निवेदियों के लिए जाना जाता है। चन्हुदड़ो मनका निर्माण केन्द्र था। धोलावीरा उन्नत जल प्रबंधन प्रणाली के लिए प्रसिद्ध है। इसलिए विकल्प a सही है।",
+
+          "elimination_logic_english": "Great Bath immediately points to Mohenjo-daro, while Dholavira is strongly linked with water conservation structures. Fixing these two pairs makes the remaining combinations easier.",
+
+          "elimination_logic_telugu": "మహాస్నానగృహం అంటే వెంటనే మొహెంజోదారో గుర్తుకు రావాలి. ధోలవీరా జల సంరక్షణ నిర్మాణాలకు ప్రసిద్ధి చెందింది. ఈ రెండు జతలను సరిపోల్చిన తర్వాత మిగతావి సులభమవుతాయి.",
+
+          "elimination_logic_hindi": "महान स्नानागार सीधे मोहनजोदड़ो की पहचान है, जबकि धोलावीरा जल संरक्षण संरचनाओं के लिए प्रसिद्ध है। इन दोनों का मिलान करने के बाद शेष जोड़े सरल हो जाते हैं।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Harappan Civilization possessed an advanced drainage system.\n\nReason (R): Almost every major house was connected to covered street drains.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): హరప్పా నాగరికత అభివృద్ధి చెందిన కాలువ వ్యవస్థను కలిగి ఉంది.\n\nకారణం (R): దాదాపు ప్రతి ముఖ్య గృహం మూసివేసిన వీధి కాలువలకు అనుసంధానించబడి ఉండేది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): हड़प्पा सभ्यता में उन्नत जल निकासी व्यवस्था थी।\n\nकारण (R): लगभग प्रत्येक प्रमुख घर ढकी हुई सड़क नालियों से जुड़ा हुआ था।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. One of the most remarkable features of Harappan urban planning was its sophisticated drainage system. Houses were connected to covered street drains, showing careful civic planning and concern for sanitation.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. హరప్పా పట్టణ ప్రణాళికలో అత్యంత విశిష్ట లక్షణాలలో ఒకటి అభివృద్ధి చెందిన కాలువ వ్యవస్థ. గృహాలు మూసివేసిన వీధి కాలువలకు అనుసంధానించబడి ఉండటం పరిశుభ్రత మరియు పట్టణ ప్రణాళికపై ఉన్న శ్రద్ధను సూచిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। हड़प्पा नगर योजना की सबसे उल्लेखनीय विशेषताओं में से एक उसकी उन्नत जल निकासी व्यवस्था थी। घर ढकी हुई सड़क नालियों से जुड़े होते थे, जो स्वच्छता और सुव्यवस्थित नगरीय नियोजन को दर्शाता है।",
+
+          "elimination_logic_english": "The Reason directly explains why the drainage system is considered advanced. Connection of houses to covered drains is clear evidence of planned urban sanitation. Hence option a is correct.",
+
+          "elimination_logic_telugu": "కారణం కాలువ వ్యవస్థ ఎందుకు అభివృద్ధి చెందినదో నేరుగా వివరిస్తుంది. గృహాలను మూసివేసిన కాలువలకు అనుసంధానించడం పట్టణ పరిశుభ్రత ప్రణాళికకు స్పష్టమైన ఆధారం. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे बताता है कि जल निकासी व्यवस्था को उन्नत क्यों माना जाता है। घरों का ढकी हुई नालियों से जुड़ना सुव्यवस्थित नगरीय स्वच्छता का स्पष्ट प्रमाण है। इसलिए विकल्प a सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Harappan society:\n\n1. Standardized weights and measures were used in trade.\n2. The script of the Harappans has been completely deciphered.\n3. Craft specialization existed in Harappan cities.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "హరప్పా సమాజానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వాణిజ్యంలో ప్రమాణిత తూకాలు మరియు కొలతలు ఉపయోగించబడ్డాయి.\n2. హరప్పా లిపి పూర్తిగా డీకోడ్ చేయబడింది.\n3. హరప్పా పట్టణాల్లో వృత్తి ప్రత్యేకతలు ఉండేవి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "हड़प्पा समाज के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. व्यापार में मानकीकृत बाट और मापों का उपयोग होता था।\n2. हड़प्पा लिपि का पूर्णतः पठन हो चुका है।\n3. हड़प्पा नगरों में शिल्प विशेषीकरण मौजूद था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 3 are correct. The Harappans used standardized weights and measures, indicating organized trade practices. Craft specialization such as bead-making, pottery and metallurgy also existed. Statement 2 is incorrect because the Harappan script has not yet been fully deciphered.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 3 సరైనవి. హరప్పా ప్రజలు ప్రమాణిత తూకాలు మరియు కొలతలను ఉపయోగించేవారు, ఇది క్రమబద్ధమైన వాణిజ్యాన్ని సూచిస్తుంది. మణుల తయారీ, మట్టిపాత్రలు మరియు లోహకళ వంటి వృత్తి ప్రత్యేకతలు కూడా ఉండేవి. ప్రకటన 2 తప్పు, ఎందుకంటే హరప్పా లిపి ఇప్పటికీ పూర్తిగా డీకోడ్ చేయబడలేదు.",
+
+          "explanation_hindi": "कथन 1 और 3 सही हैं। हड़प्पावासी मानकीकृत बाट और मापों का उपयोग करते थे, जो संगठित व्यापार का संकेत है। मनका निर्माण, मिट्टी के बर्तन और धातुकर्म जैसे शिल्प विशेषीकरण भी मौजूद थे। कथन 2 गलत है क्योंकि हड़प्पा लिपि अभी तक पूर्णतः पढ़ी नहीं जा सकी है।",
+
+          "elimination_logic_english": "Statement 2 is the key trap because UPSC repeatedly tests whether students know that the Harappan script remains undeciphered. Eliminating Statement 2 leaves option c correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 2 ప్రధాన ఉచ్చు. UPSC తరచుగా హరప్పా లిపి ఇంకా డీకోడ్ కాలేదని విద్యార్థులు గుర్తుంచుకున్నారా అని పరీక్షిస్తుంది. ప్రకటన 2ను తొలగిస్తే ఎంపిక c సరైనది.",
+
+          "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है। UPSC बार-बार यह जाँचता है कि विद्यार्थी जानते हैं या नहीं कि हड़प्पा लिपि अभी तक अपठित है। कथन 2 हटाने पर विकल्प c सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following features best distinguishes the Indus Valley Civilization from most contemporary civilizations?",
+
+          "options_english": {
+            "a": "Use of iron weapons",
+            "b": "Highly developed urban sanitation system",
+            "c": "Construction of massive stone temples",
+            "d": "Use of alphabetic script"
+          },
+
+          "question_telugu": "సమకాలీన నాగరికతలతో పోలిస్తే సింధు లోయ నాగరికతను ప్రత్యేకంగా నిలబెట్టిన లక్షణం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఇనుప ఆయుధాల వినియోగం",
+            "b": "అత్యంత అభివృద్ధి చెందిన పట్టణ పరిశుభ్రత వ్యవస్థ",
+            "c": "విపులమైన రాతి దేవాలయాల నిర్మాణం",
+            "d": "అక్షరమాల లిపి వినియోగం"
+          },
+
+          "question_hindi": "समकालीन सभ्यताओं की तुलना में सिंधु घाटी सभ्यता को विशेष बनाने वाली प्रमुख विशेषता निम्नलिखित में से कौन-सी थी?",
+
+          "options_hindi": {
+            "a": "लोहे के हथियारों का उपयोग",
+            "b": "अत्यधिक विकसित नगरीय स्वच्छता व्यवस्था",
+            "c": "विशाल पत्थर मंदिरों का निर्माण",
+            "d": "वर्णमाला आधारित लिपि का उपयोग"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Harappan Civilization is especially noted for its advanced urban sanitation and drainage systems. Planned streets, covered drains and civic cleanliness were remarkable achievements compared to many contemporary civilizations.",
+
+          "explanation_telugu": "హరప్పా నాగరికత అత్యంత అభివృద్ధి చెందిన పట్టణ పరిశుభ్రత మరియు కాలువ వ్యవస్థలకు ప్రసిద్ధి చెందింది. ప్రణాళికాబద్ధ వీధులు, మూసివేసిన కాలువలు మరియు పరిశుభ్రతపై శ్రద్ధ ఇతర సమకాలీన నాగరికతలతో పోలిస్తే విశిష్ట లక్షణాలు.",
+
+          "explanation_hindi": "हड़प्पा सभ्यता अपनी उन्नत नगरीय स्वच्छता और जल निकासी व्यवस्था के लिए विशेष रूप से प्रसिद्ध है। योजनाबद्ध सड़कें, ढकी हुई नालियाँ और स्वच्छता पर ध्यान अन्य समकालीन सभ्यताओं की तुलना में उल्लेखनीय उपलब्धियाँ थीं।",
+
+          "elimination_logic_english": "Iron technology belongs to a later age. Massive stone temples are not characteristic of Harappan culture, and the script was not alphabetic. Thus, urban sanitation is the best distinguishing feature.",
+
+          "elimination_logic_telugu": "ఇనుప సాంకేతికత తరువాతి యుగానికి చెందినది. విపులమైన రాతి దేవాలయాలు హరప్పా సంస్కృతికి ప్రత్యేక లక్షణం కావు. హరప్పా లిపి అక్షరమాల ఆధారితది కాదు. కాబట్టి పట్టణ పరిశుభ్రత వ్యవస్థే సరైన ఎంపిక.",
+
+          "elimination_logic_hindi": "लौह तकनीक बाद के युग से संबंधित है। विशाल पत्थर मंदिर हड़प्पा संस्कृति की विशेषता नहीं थे और उनकी लिपि वर्णमाला आधारित नहीं थी। इसलिए नगरीय स्वच्छता व्यवस्था सही विकल्प है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Dholavira is considered one of the most significant Harappan sites.\n\nReason (R): It provides evidence of an advanced water conservation and reservoir system.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ధోలవీరా అత్యంత ముఖ్యమైన హరప్పా స్థలాలలో ఒకటిగా పరిగణించబడుతుంది.\n\nకారణం (R): అక్కడ అభివృద్ధి చెందిన జల సంరక్షణ మరియు జలాశయ వ్యవస్థలకు ఆధారాలు లభించాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): धोलावीरा को सबसे महत्वपूर्ण हड़प्पा स्थलों में से एक माना जाता है।\n\nकारण (R): वहाँ उन्नत जल संरक्षण और जलाशय प्रणाली के प्रमाण प्राप्त हुए हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Dholavira is an important Harappan site because of its sophisticated water conservation structures, reservoirs and urban planning. These features demonstrate the engineering capabilities of the Harappans.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ధోలవీరా అభివృద్ధి చెందిన జల సంరక్షణ నిర్మాణాలు, జలాశయాలు మరియు పట్టణ ప్రణాళిక కారణంగా ప్రముఖ హరప్పా స్థలంగా పరిగణించబడుతుంది. ఇవి హరప్పా ప్రజల ఇంజినీరింగ్ నైపుణ్యాన్ని చూపిస్తాయి.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। धोलावीरा अपने उन्नत जल संरक्षण ढाँचों, जलाशयों और नगर योजना के कारण महत्वपूर्ण हड़प्पा स्थल माना जाता है। ये विशेषताएँ हड़प्पावासियों की इंजीनियरिंग क्षमता को दर्शाती हैं।",
+
+          "elimination_logic_english": "The Reason directly explains why Dholavira is historically important. Its water management system is one of the finest examples of Harappan engineering. Hence option a is correct.",
+
+          "elimination_logic_telugu": "కారణం ధోలవీరా ఎందుకు ముఖ్యమో నేరుగా వివరిస్తుంది. అక్కడి జల నిర్వహణ వ్యవస్థ హరప్పా ఇంజినీరింగ్‌కు అత్యుత్తమ ఉదాహరణలలో ఒకటి. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे बताता है कि धोलावीरा क्यों महत्वपूर्ण है। वहाँ की जल प्रबंधन प्रणाली हड़प्पा इंजीनियरिंग का उत्कृष्ट उदाहरण है। इसलिए विकल्प a सही है।"
+        },
+        {
+          "question_english": "With reference to the decline of the Indus Valley Civilization, consider the following statements:\n\n1. Environmental changes and shifting river courses are considered possible causes.\n2. The decline appears to have been gradual in several regions.\n3. Historians unanimously agree that foreign invasion alone destroyed the civilization.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1 and 2 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "సింధు లోయ నాగరికత పతనానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పర్యావరణ మార్పులు మరియు నదీ మార్గాల మార్పు సాధ్యమైన కారణాలుగా భావించబడుతున్నాయి.\n2. అనేక ప్రాంతాల్లో పతనం క్రమంగా జరిగినట్లు కనిపిస్తుంది.\n3. విదేశీ దాడి ఒక్కటే నాగరికతను నాశనం చేసిందని చరిత్రకారులందరూ ఏకాభిప్రాయంతో అంగీకరిస్తున్నారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 2 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सिंधु घाटी सभ्यता के पतन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पर्यावरणीय परिवर्तन और नदियों के मार्ग में बदलाव को संभावित कारण माना जाता है।\n2. अनेक क्षेत्रों में पतन क्रमिक प्रतीत होता है।\n3. इतिहासकार सर्वसम्मति से मानते हैं कि केवल विदेशी आक्रमण ने ही इस सभ्यता को नष्ट किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 2",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 2 are correct. Historians generally explain the decline of the Harappan Civilization through multiple factors such as environmental change, river shifts, ecological stress and decline in trade. In many areas, the decline appears gradual rather than sudden. Statement 3 is incorrect because the foreign invasion theory alone is not accepted as the unanimous explanation.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. హరప్పా నాగరికత పతనాన్ని పర్యావరణ మార్పులు, నదీ మార్గాల మార్పు, పర్యావరణ ఒత్తిడి మరియు వాణిజ్య క్షీణత వంటి అనేక కారణాల ద్వారా చరిత్రకారులు వివరిస్తున్నారు. అనేక ప్రాంతాల్లో పతనం ఒక్కసారిగా కాకుండా క్రమంగా జరిగినట్లు కనిపిస్తుంది. ప్రకటన 3 తప్పు, ఎందుకంటే విదేశీ దాడి ఒక్కటే కారణమని అందరూ అంగీకరించరు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। इतिहासकार हड़प्पा सभ्यता के पतन को पर्यावरणीय परिवर्तन, नदियों के मार्ग में बदलाव, पारिस्थितिक दबाव और व्यापार में गिरावट जैसे अनेक कारणों से जोड़ते हैं। कई क्षेत्रों में पतन अचानक नहीं बल्कि क्रमिक प्रतीत होता है। कथन 3 गलत है क्योंकि केवल विदेशी आक्रमण को सर्वमान्य कारण नहीं माना जाता।",
+
+          "elimination_logic_english": "Statement 3 contains extreme words like 'unanimously' and 'alone', which are common UPSC traps. Harappan decline is explained through multiple theories, not a single universally accepted cause. Therefore, option c is correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3లో ‘ఏకాభిప్రాయంతో’ మరియు ‘ఒక్కటే’ వంటి అతిశయ పదాలు ఉన్నాయి. ఇవి సాధారణ UPSC ఉచ్చులు. హరప్పా పతనానికి అనేక సిద్ధాంతాలు ఉన్నాయి; ఒకే కారణం అందరూ అంగీకరించలేదు. కాబట్టి ఎంపిక c సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 में ‘सर्वसम्मति’ और ‘केवल’ जैसे अतिशय शब्द हैं। ये सामान्य UPSC जाल हैं। हड़प्पा पतन के लिए अनेक सिद्धांत हैं; कोई एक कारण सर्वमान्य नहीं है। इसलिए विकल्प c सही है।"
         }
       ]
     }
-}
+  }
 }
