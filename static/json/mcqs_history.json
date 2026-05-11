@@ -1298,6 +1298,441 @@
           "elimination_logic_hindi": "किसी भी कथन में तथ्यात्मक त्रुटि नहीं है। UPSC वैदिक काल के प्रश्नों में सामाजिक, धार्मिक और साहित्यिक पहलुओं को एक साथ पूछता है। तीनों कथन ऐतिहासिक रूप से सही हैं, इसलिए विकल्प d सही है।"
         }
       ]
+  },
+
+    "Buddhism": {
+      "topic_english": "Buddhism",
+      "topic_telugu": "బౌద్ధం",
+      "topic_hindi": "बौद्ध धर्म",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding Gautama Buddha:\n\n1. He was born at Lumbini.\n2. He attained enlightenment at Bodh Gaya.\n3. He delivered his first sermon at Rajagriha.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "గౌతమ బుద్ధునికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఆయన లుంబినిలో జన్మించారు.\n2. బోధ్ గయలో జ్ఞానోదయం పొందారు.\n3. ఆయన మొదటి ఉపదేశాన్ని రాజగృహంలో ఇచ్చారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "गौतम बुद्ध के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. उनका जन्म लुम्बिनी में हुआ था।\n2. उन्हें बोधगया में ज्ञान प्राप्त हुआ।\n3. उन्होंने अपना प्रथम उपदेश राजगृह में दिया था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Gautama Buddha was born at Lumbini and attained enlightenment at Bodh Gaya under the Bodhi tree. Statement 3 is incorrect because his first sermon, known as Dharmachakra Pravartana, was delivered at Sarnath near Varanasi.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. గౌతమ బుద్ధుడు లుంబినిలో జన్మించి బోధ్ గయలో బోధి వృక్షం కింద జ్ఞానోదయం పొందారు. ప్రకటన 3 తప్పు, ఎందుకంటే ఆయన మొదటి ఉపదేశం ధర్మచక్ర ప్రవర్తన సారనాథ్‌లో జరిగింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। गौतम बुद्ध का जन्म लुम्बिनी में हुआ और उन्हें बोधगया में बोधि वृक्ष के नीचे ज्ञान प्राप्त हुआ। कथन 3 गलत है क्योंकि उनका प्रथम उपदेश धर्मचक्र प्रवर्तन सारनाथ में हुआ था।",
+
+          "elimination_logic_english": "Statement 3 is the trap because students often confuse Rajagriha and Sarnath. The first sermon is always associated with Sarnath. Hence option a is correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. చాలామంది రాజగృహం మరియు సారనాథ్‌ను గందరగోళం చేస్తారు. మొదటి ఉపదేశం ఎప్పుడూ సారనాథ్‌తో అనుసంధానించబడుతుంది. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है क्योंकि विद्यार्थी राजगृह और सारनाथ में भ्रमित हो सकते हैं। प्रथम उपदेश सदैव सारनाथ से जुड़ा है। इसलिए विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following represents the core teaching of Buddhism regarding the cause of suffering?",
+
+          "options_english": {
+            "a": "Performance of sacrifices",
+            "b": "Existence of caste divisions",
+            "c": "Desire and attachment",
+            "d": "Absence of trade activities"
+          },
+
+          "question_telugu": "బౌద్ధమతంలో దుఃఖానికి కారణంగా ప్రధానంగా పేర్కొన్నది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "యజ్ఞాల నిర్వహణ",
+            "b": "వర్ణ విభజనలు",
+            "c": "కోరికలు మరియు ఆసక్తి",
+            "d": "వాణిజ్య కార్యకలాపాల లేమి"
+          },
+
+          "question_hindi": "बौद्ध धर्म में दुःख के कारण के रूप में निम्नलिखित में से किसे मुख्य रूप से बताया गया है?",
+
+          "options_hindi": {
+            "a": "यज्ञों का प्रदर्शन",
+            "b": "वर्ण विभाजन का अस्तित्व",
+            "c": "तृष्णा और आसक्ति",
+            "d": "व्यापारिक गतिविधियों का अभाव"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "According to the Four Noble Truths of Buddhism, desire or craving (Trishna) is the primary cause of suffering. Liberation can be achieved by controlling desires through the Eightfold Path.",
+
+          "explanation_telugu": "బౌద్ధమతంలోని నాలుగు ఆర్య సత్యాల ప్రకారం కోరిక లేదా తృష్ణే దుఃఖానికి ప్రధాన కారణం. అష్టాంగ మార్గాన్ని అనుసరించడం ద్వారా కోరికలను నియంత్రించి విముక్తి పొందవచ్చు.",
+
+          "explanation_hindi": "बौद्ध धर्म के चार आर्य सत्यों के अनुसार तृष्णा या इच्छा दुःख का मुख्य कारण है। अष्टांगिक मार्ग का पालन करके इच्छाओं को नियंत्रित कर मुक्ति प्राप्त की जा सकती है।",
+
+          "elimination_logic_english": "The concept of desire causing suffering is central to Buddhist philosophy. Other options may represent social or ritual aspects but are not identified as the primary cause of suffering in Buddhism.",
+
+          "elimination_logic_telugu": "దుఃఖానికి కారణం కోరికలేననే భావన బౌద్ధ తత్వశాస్త్రానికి కేంద్రబిందువు. మిగతా ఎంపికలు సామాజిక లేదా కర్మకాండ అంశాలు మాత్రమే; బౌద్ధంలో అవి ప్రధాన కారణంగా పేర్కొనబడలేదు.",
+
+          "elimination_logic_hindi": "दुःख का कारण तृष्णा होना बौद्ध दर्शन का मूल सिद्धांत है। अन्य विकल्प सामाजिक या अनुष्ठानिक पक्ष हो सकते हैं, परन्तु बौद्ध धर्म में उन्हें दुःख का मुख्य कारण नहीं माना गया।"
+        },
+
+        {
+          "question_english": "Assertion (A): Buddhism gained support from merchant groups in ancient India.\n\nReason (R): Buddhism opposed expensive rituals and encouraged ethical conduct.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ప్రాచీన భారతదేశంలో వ్యాపార వర్గాల నుండి బౌద్ధమతానికి మద్దతు లభించింది.\n\nకారణం (R): బౌద్ధం ఖరీదైన కర్మకాండలను వ్యతిరేకించి నైతిక జీవనాన్ని ప్రోత్సహించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): प्राचीन भारत में व्यापारी वर्गों ने बौद्ध धर्म का समर्थन किया।\n\nकारण (R): बौद्ध धर्म ने महंगे अनुष्ठानों का विरोध किया और नैतिक जीवन पर बल दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. Buddhism attracted merchants and urban groups because it rejected costly Vedic rituals and promoted ethical behaviour, simplicity and social accessibility. Trade routes also helped in the spread of Buddhism.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. బౌద్ధం ఖరీదైన వేద కర్మకాండలను వ్యతిరేకించి నైతిక జీవనం, సరళత మరియు సామాజిక అందుబాటును ప్రోత్సహించడంతో వ్యాపార వర్గాలు దానికి మద్దతు ఇచ్చాయి. వాణిజ్య మార్గాలు కూడా బౌద్ధ వ్యాప్తికి దోహదపడ్డాయి.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। बौद्ध धर्म ने महंगे वैदिक अनुष्ठानों का विरोध किया तथा नैतिक जीवन, सरलता और सामाजिक पहुँच पर बल दिया, जिससे व्यापारी वर्ग आकर्षित हुए। व्यापार मार्गों ने भी बौद्ध धर्म के प्रसार में सहायता की।",
+
+          "elimination_logic_english": "The Reason directly explains why merchants supported Buddhism. Simplicity, ethical conduct and opposition to expensive rituals made Buddhism attractive to urban and trading communities. Hence option c is correct.",
+
+          "elimination_logic_telugu": "కారణం వ్యాపార వర్గాలు బౌద్ధాన్ని ఎందుకు మద్దతు ఇచ్చాయో నేరుగా వివరిస్తుంది. సరళత, నైతిక జీవనం మరియు ఖరీదైన కర్మకాండల వ్యతిరేకత బౌద్ధాన్ని పట్టణ మరియు వ్యాపార వర్గాలకు ఆకర్షణీయంగా చేశాయి. కాబట్టి ఎంపిక c సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि व्यापारी वर्गों ने बौद्ध धर्म का समर्थन क्यों किया। सरलता, नैतिक जीवन और महंगे अनुष्ठानों के विरोध ने बौद्ध धर्म को व्यापारिक समुदायों के लिए आकर्षक बनाया। इसलिए विकल्प c सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Buddhist Councils:\n\n1. The First Buddhist Council was held at Rajagriha.\n2. The Second Buddhist Council was associated with Vaishali.\n3. The Fourth Buddhist Council under Kanishka was held in Pataliputra.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "బౌద్ధ సంఘీతి సభలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మొదటి బౌద్ధ సంఘీతి రాజగృహంలో జరిగింది.\n2. రెండవ బౌద్ధ సంఘీతి వైశాలితో అనుసంధానించబడింది.\n3. కనిష్కుని కాలంలోని నాల్గవ బౌద్ధ సంఘీతి పాటలీపుత్రంలో జరిగింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "बौद्ध संगीति सभाओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रथम बौद्ध संगीति राजगृह में आयोजित हुई थी।\n2. द्वितीय बौद्ध संगीति वैशाली से संबंधित थी।\n3. कनिष्क के समय आयोजित चतुर्थ बौद्ध संगीति पाटलिपुत्र में हुई थी।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The First Buddhist Council was held at Rajagriha after the death of Buddha, while the Second Buddhist Council took place at Vaishali. Statement 3 is incorrect because the Fourth Buddhist Council under Kanishka was held in Kashmir, not Pataliputra.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. బుద్ధుని మరణం తరువాత మొదటి బౌద్ధ సంఘీతి రాజగృహంలో జరిగింది. రెండవ బౌద్ధ సంఘీతి వైశాలిలో జరిగింది. ప్రకటన 3 తప్పు, ఎందుకంటే కనిష్కుని కాలంలోని నాల్గవ బౌద్ధ సంఘీతి కాశ్మీర్‌లో జరిగింది; పాటలీపుత్రంలో కాదు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। बुद्ध के महापरिनिर्वाण के बाद प्रथम बौद्ध संगीति राजगृह में आयोजित हुई थी। द्वितीय बौद्ध संगीति वैशाली में हुई। कथन 3 गलत है क्योंकि कनिष्क के समय चतुर्थ बौद्ध संगीति कश्मीर में आयोजित हुई थी, पाटलिपुत्र में नहीं।",
+
+          "elimination_logic_english": "Statement 3 is the trap because students often confuse major ancient political centres with Buddhist Councils. Kanishka's Fourth Council is associated with Kashmir. Hence option a is correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. చాలామంది ప్రాచీన రాజకీయ కేంద్రాలను బౌద్ధ సంఘీతులతో గందరగోళం చేస్తారు. కనిష్కుని నాల్గవ సంఘీతి కాశ్మీర్‌తో అనుసంధానించబడింది. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। विद्यार्थी प्राचीन राजनीतिक केन्द्रों और बौद्ध संगीतियों में भ्रमित हो सकते हैं। कनिष्क की चतुर्थ संगीति कश्मीर से संबंधित है। इसलिए विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following is correctly matched?",
+
+          "options_english": {
+            "a": "Tripitaka — Sacred texts of Buddhism",
+            "b": "Jataka — Sacred texts of Jainism",
+            "c": "Vinaya Pitaka — Collection of Vedic hymns",
+            "d": "Sutta Pitaka — Manual of architecture"
+          },
+
+          "question_telugu": "క్రింది జతలలో సరైనది ఏది?",
+
+          "options_telugu": {
+            "a": "త్రిపిటకాలు — బౌద్ధ పవిత్ర గ్రంథాలు",
+            "b": "జాతకాలు — జైన మత పవిత్ర గ్రంథాలు",
+            "c": "వినయ పిటకం — వేద స్తోత్రాల సంకలనం",
+            "d": "సుత్త పిటకం — వాస్తుశాస్త్ర గ్రంథం"
+          },
+
+          "question_hindi": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित है?",
+
+          "options_hindi": {
+            "a": "त्रिपिटक — बौद्ध धर्म के पवित्र ग्रंथ",
+            "b": "जातक — जैन धर्म के पवित्र ग्रंथ",
+            "c": "विनय पिटक — वैदिक स्तुतियों का संग्रह",
+            "d": "सुत्त पिटक — वास्तुकला का ग्रंथ"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "The Tripitaka forms the sacred Buddhist canon consisting of Vinaya Pitaka, Sutta Pitaka and Abhidhamma Pitaka. Jataka tales relate to previous births of Buddha. Vinaya Pitaka deals with monastic discipline and Sutta Pitaka contains teachings of Buddha.",
+
+          "explanation_telugu": "త్రిపిటకాలు బౌద్ధమత పవిత్ర గ్రంథాల సమాహారం. వీటిలో వినయ పిటకం, సుత్త పిటకం మరియు అభిధమ్మ పిటకం ఉంటాయి. జాతక కథలు బుద్ధుని పూర్వ జన్మలకు సంబంధించినవి. వినయ పిటకం సంఘ నియమాలను వివరిస్తుంది.",
+
+          "explanation_hindi": "त्रिपिटक बौद्ध धर्म के पवित्र ग्रंथों का संग्रह है, जिसमें विनय पिटक, सुत्त पिटक और अभिधम्म पिटक शामिल हैं। जातक कथाएँ बुद्ध के पूर्व जन्मों से संबंधित हैं। विनय पिटक संघ अनुशासन से संबंधित है।",
+
+          "elimination_logic_english": "Jataka stories belong to Buddhism, not Jainism. Vinaya Pitaka relates to monastic rules and Sutta Pitaka contains Buddha's teachings. Hence only option a is correctly matched.",
+
+          "elimination_logic_telugu": "జాతక కథలు బౌద్ధమతానికి సంబంధించినవి; జైనమతానికి కాదు. వినయ పిటకం సంఘ నియమాలకు సంబంధించినది, సుత్త పిటకం బుద్ధుని బోధనలను కలిగి ఉంటుంది. కాబట్టి ఎంపిక a మాత్రమే సరైనది.",
+
+          "elimination_logic_hindi": "जातक कथाएँ बौद्ध धर्म से संबंधित हैं, जैन धर्म से नहीं। विनय पिटक संघ नियमों से और सुत्त पिटक बुद्ध की शिक्षाओं से संबंधित है। इसलिए केवल विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Buddhism spread rapidly outside India in ancient times.\n\nReason (R): Buddhist monks and merchants actively used trade routes for the spread of the religion.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is not correct but R is correct",
+            "d": "Both A and R are correct and R is the correct explanation of A"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ప్రాచీన కాలంలో బౌద్ధం భారతదేశం వెలుపల వేగంగా వ్యాపించింది.\n\nకారణం (R): బౌద్ధ భిక్షువులు మరియు వ్యాపారులు మత ప్రచారం కోసం వాణిజ్య మార్గాలను విస్తృతంగా ఉపయోగించారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కాదు కానీ R సరైనది",
+            "d": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ"
+          },
+
+          "question_hindi": "अभिकथन (A): प्राचीन काल में बौद्ध धर्म भारत के बाहर तेजी से फैला।\n\nकारण (R): बौद्ध भिक्षुओं और व्यापारियों ने धर्म प्रचार के लिए व्यापार मार्गों का सक्रिय उपयोग किया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही नहीं है किन्तु R सही है",
+            "d": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "Both Assertion and Reason are correct. Buddhist monks travelled along major land and maritime trade routes, while merchants provided patronage and support. This helped Buddhism spread to Sri Lanka, Central Asia, China and Southeast Asia.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. బౌద్ధ భిక్షువులు భూభాగ మరియు సముద్ర వాణిజ్య మార్గాల వెంట ప్రయాణించగా, వ్యాపారులు వారికి మద్దతు ఇచ్చారు. దీని ద్వారా బౌద్ధం శ్రీలంక, మధ్య ఆసియా, చైనా మరియు ఆగ్నేయ ఆసియాకు వ్యాపించింది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। बौद्ध भिक्षु स्थल और समुद्री व्यापार मार्गों के माध्यम से यात्रा करते थे तथा व्यापारियों से संरक्षण प्राप्त करते थे। इससे बौद्ध धर्म श्रीलंका, मध्य एशिया, चीन और दक्षिण-पूर्व एशिया तक फैला।",
+
+          "elimination_logic_english": "The Reason directly explains the rapid spread of Buddhism because trade routes acted as channels for religious and cultural exchange. Hence option d is correct.",
+
+          "elimination_logic_telugu": "వాణిజ్య మార్గాలు మత మరియు సాంస్కృతిక మార్పిడి మార్గాలుగా పనిచేసినందున కారణం బౌద్ధ వ్యాప్తిని నేరుగా వివరిస్తుంది. కాబట్టి ఎంపిక d సరైనది.",
+
+          "elimination_logic_hindi": "व्यापार मार्ग धार्मिक और सांस्कृतिक आदान-प्रदान के माध्यम बने, इसलिए कारण बौद्ध धर्म के तीव्र प्रसार को सीधे स्पष्ट करता है। अतः विकल्प d सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Buddhist literature:\n\n1. The Vinaya Pitaka deals with rules and discipline for the Buddhist Sangha.\n2. The Sutta Pitaka contains the teachings and discourses of Buddha.\n3. The Abhidhamma Pitaka mainly focuses on Vedic sacrificial rituals.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "బౌద్ధ సాహిత్యానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వినయ పిటకం బౌద్ధ సంఘ నియమాలు మరియు క్రమశిక్షణను వివరిస్తుంది.\n2. సుత్త పిటకం బుద్ధుని బోధనలు మరియు ఉపదేశాలను కలిగి ఉంటుంది.\n3. అభిధమ్మ పిటకం ప్రధానంగా వేద యజ్ఞ కర్మకాండలను వివరిస్తుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "बौद्ध साहित्य के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. विनय पिटक बौद्ध संघ के नियमों और अनुशासन से संबंधित है।\n2. सुत्त पिटक में बुद्ध के उपदेश और प्रवचन संकलित हैं।\n3. अभिधम्म पिटक मुख्यतः वैदिक यज्ञ अनुष्ठानों पर केंद्रित है।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Vinaya Pitaka lays down rules, discipline and organizational principles for monks and nuns within the Buddhist Sangha. The Sutta Pitaka contains sermons, dialogues and teachings attributed to Gautama Buddha.\n\nStatement 3 is incorrect because the Abhidhamma Pitaka deals with philosophical and psychological analysis of Buddhist doctrine rather than Vedic rituals. It systematizes Buddhist thought into detailed doctrinal categories.\n\nUnderstanding the distinction among the three Pitakas is important because UPSC frequently tests conceptual clarity regarding Buddhist canonical literature.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. వినయ పిటకం బౌద్ధ సంఘంలోని భిక్షువులు మరియు భిక్షుణీల కోసం నియమాలు, క్రమశిక్షణ మరియు సంస్థాగత విధానాలను వివరిస్తుంది. సుత్త పిటకం గౌతమ బుద్ధునికి ఆపాదించబడిన ఉపదేశాలు మరియు సంభాషణలను కలిగి ఉంటుంది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే అభిధమ్మ పిటకం వేద యజ్ఞ కర్మకాండలపై కాకుండా బౌద్ధ తత్వశాస్త్రం మరియు మానసిక విశ్లేషణపై దృష్టి పెడుతుంది. ఇది బౌద్ధ సిద్ధాంతాలను పద్ధతిగా వర్గీకరిస్తుంది.\n\nమూడు పిటకాల మధ్య తేడాలను అర్థం చేసుకోవడం ముఖ్యము, ఎందుకంటే UPSC బౌద్ధ సాహిత్యంపై భావనాత్మక స్పష్టతను తరచుగా పరీక్షిస్తుంది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। विनय पिटक बौद्ध संघ के भिक्षुओं और भिक्षुणियों के लिए नियम, अनुशासन और संगठनात्मक व्यवस्था निर्धारित करता है। सुत्त पिटक में गौतम बुद्ध के उपदेश, संवाद और प्रवचन संकलित हैं।\n\nकथन 3 गलत है क्योंकि अभिधम्म पिटक वैदिक यज्ञ अनुष्ठानों पर नहीं बल्कि बौद्ध दर्शन और मनोवैज्ञानिक विश्लेषण पर आधारित है। इसमें बौद्ध सिद्धांतों को व्यवस्थित रूप से वर्गीकृत किया गया है।\n\nतीनों पिटकों के बीच अंतर को समझना महत्वपूर्ण है क्योंकि UPSC बौद्ध साहित्य पर वैचारिक स्पष्टता की जाँच बार-बार करता है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap because students may confuse Buddhist literature with Brahmanical ritual texts.\n\nThe word 'Abhidhamma' itself indicates higher philosophical analysis rather than ritual instruction. Vinaya clearly relates to monastic discipline, while Sutta contains Buddha's teachings.\n\nSince Statements 1 and 2 are factually correct and Statement 3 is doctrinally incorrect, option a becomes the correct answer.\n\nUPSC often frames such questions by inserting one culturally misleading statement linked with Vedic practices.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు. చాలామంది బౌద్ధ సాహిత్యాన్ని బ్రాహ్మణిక కర్మకాండ గ్రంథాలతో గందరగోళం చేసే అవకాశం ఉంది.\n\n'అభిధమ్మ' అనే పదమే తత్వశాస్త్రీయ విశ్లేషణను సూచిస్తుంది; కర్మకాండలను కాదు. వినయ పిటకం సంఘ క్రమశిక్షణకు సంబంధించినది, సుత్త పిటకం బుద్ధుని బోధనలను కలిగి ఉంటుంది.\n\nకాబట్టి ప్రకటనలు 1 మరియు 2 సరైనవి, ప్రకటన 3 తప్పు. అందువల్ల ఎంపిక a సరైనది.\n\nUPSC తరచుగా వేద సంప్రదాయాలతో సంబంధం ఉన్న తప్పుదారి పట్టించే ప్రకటనలను చేర్చి ఇలాంటి ప్రశ్నలను అడుగుతుంది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है क्योंकि विद्यार्थी बौद्ध ग्रंथों को ब्राह्मणीय अनुष्ठानिक साहित्य से मिश्रित कर सकते हैं।\n\n'अभिधम्म' शब्द ही उच्च दार्शनिक विश्लेषण को दर्शाता है, न कि यज्ञ अनुष्ठानों को। विनय पिटक संघ अनुशासन से संबंधित है जबकि सुत्त पिटक बुद्ध की शिक्षाओं को प्रस्तुत करता है।\n\nअतः कथन 1 और 2 सही हैं तथा कथन 3 गलत है, इसलिए विकल्प a सही उत्तर है।\n\nUPSC अक्सर ऐसी प्रश्न संरचना अपनाता है जिसमें एक भ्रामक कथन वैदिक परम्पराओं से जोड़ दिया जाता है।"
+        },
+
+        {
+          "question_english": "Which one of the following Buddhist concepts refers to the cycle of birth, death and rebirth?",
+
+          "options_english": {
+            "a": "Nirvana",
+            "b": "Samsara",
+            "c": "Dhamma",
+            "d": "Sangha"
+          },
+
+          "question_telugu": "జననం, మరణం మరియు పునర్జన్మల చక్రాన్ని సూచించే బౌద్ధ భావన క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "నిర్వాణం",
+            "b": "సంసారం",
+            "c": "ధమ్మం",
+            "d": "సంఘం"
+          },
+
+          "question_hindi": "जन्म, मृत्यु और पुनर्जन्म के चक्र को सूचित करने वाली बौद्ध अवधारणा निम्नलिखित में से कौन-सी है?",
+
+          "options_hindi": {
+            "a": "निर्वाण",
+            "b": "संसार",
+            "c": "धम्म",
+            "d": "संघ"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The concept of Samsara in Buddhism refers to the continuous cycle of birth, death and rebirth driven by karma and desire. Liberation from this cycle is achieved through Nirvana.\n\nNirvana represents the cessation of suffering and release from Samsara. Dhamma refers to the teachings or righteous path, while Sangha denotes the monastic community.\n\nThe distinction between these concepts is important because UPSC frequently tests terminological clarity in Buddhism.",
+
+          "explanation_telugu": "బౌద్ధంలో సంసారం అనేది కర్మ మరియు కోరికలచే నడిచే జననం, మరణం మరియు పునర్జన్మల నిరంతర చక్రాన్ని సూచిస్తుంది. ఈ చక్రం నుండి విముక్తి నిర్వాణం ద్వారా లభిస్తుంది.\n\nనిర్వాణం దుఃఖ నివృత్తి మరియు సంసారం నుండి విముక్తిని సూచిస్తుంది. ధమ్మం బుద్ధుని బోధనలను సూచిస్తే, సంఘం భిక్షువుల సమాజాన్ని సూచిస్తుంది.\n\nఈ భావనల మధ్య తేడాలను అర్థం చేసుకోవడం ముఖ్యం, ఎందుకంటే UPSC బౌద్ధ పరిభాషలపై తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "बौद्ध धर्म में संसार जन्म, मृत्यु और पुनर्जन्म के निरंतर चक्र को दर्शाता है, जो कर्म और तृष्णा द्वारा संचालित होता है। इस चक्र से मुक्ति निर्वाण द्वारा प्राप्त होती है।\n\nनिर्वाण दुःख की समाप्ति और संसार से मुक्ति का प्रतीक है। धम्म बुद्ध की शिक्षाओं को तथा संघ भिक्षु समुदाय को दर्शाता है।\n\nइन अवधारणाओं के बीच अंतर को समझना महत्वपूर्ण है क्योंकि UPSC बौद्ध शब्दावली पर बार-बार प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Nirvana and Samsara are commonly confused terms in Buddhism.\n\nNirvana represents liberation from the cycle, whereas Samsara represents the cycle itself. Dhamma refers to doctrine and Sangha to the monastic order.\n\nThus, only option b correctly captures the meaning of birth-death-rebirth.\n\nUPSC frequently designs such questions to test conceptual distinction rather than rote memory.",
+
+          "elimination_logic_telugu": "నిర్వాణం మరియు సంసారం అనే భావనలు చాలామందికి గందరగోళం కలిగిస్తాయి.\n\nనిర్వాణం సంసారం నుండి విముక్తిని సూచిస్తే, సంసారం జనన మరణ చక్రాన్నే సూచిస్తుంది. ధమ్మం బోధనలను, సంఘం భిక్షు సమాజాన్ని సూచిస్తుంది.\n\nఅందువల్ల జనన మరణ పునర్జన్మల చక్రాన్ని సూచించేది ఎంపిక b మాత్రమే.\n\nUPSC ఇలాంటి ప్రశ్నల ద్వారా భావనాత్మక స్పష్టతను పరీక్షిస్తుంది.",
+
+          "elimination_logic_hindi": "निर्वाण और संसार बौद्ध धर्म में अक्सर भ्रमित किए जाने वाले शब्द हैं।\n\nनिर्वाण संसार से मुक्ति को दर्शाता है, जबकि संसार जन्म-मृत्यु के चक्र को। धम्म सिद्धांतों को तथा संघ भिक्षु समुदाय को दर्शाता है।\n\nअतः जन्म-मृत्यु-पुनर्जन्म के चक्र का सही अर्थ केवल विकल्प b में है।\n\nUPSC ऐसे प्रश्नों के माध्यम से वैचारिक स्पष्टता की जाँच करता है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Ashoka played a major role in the spread of Buddhism.\n\nReason (R): Ashoka sent Buddhist missions to different regions after the Kalinga War.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): బౌద్ధమత వ్యాప్తిలో అశోకుడు ప్రధాన పాత్ర పోషించాడు.\n\nకారణం (R): కళింగ యుద్ధం తరువాత అశోకుడు బౌద్ధ మిషన్లను వివిధ ప్రాంతాలకు పంపించాడు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): बौद्ध धर्म के प्रसार में अशोक ने महत्वपूर्ण भूमिका निभाई।\n\nकारण (R): कलिंग युद्ध के बाद अशोक ने विभिन्न क्षेत्रों में बौद्ध धर्म प्रचार मिशन भेजे।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. After the Kalinga War, Ashoka embraced Buddhism and adopted the policy of Dhamma. He actively promoted Buddhist teachings through inscriptions, patronage of monasteries and missionary activities.\n\nBuddhist missions were sent to Sri Lanka, Central Asia and other regions, significantly contributing to the international spread of Buddhism. Ashoka's role transformed Buddhism from a regional religious movement into a major transnational faith.\n\nHis inscriptions remain one of the most important historical sources for understanding Buddhism and Mauryan governance.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. కళింగ యుద్ధం తరువాత అశోకుడు బౌద్ధమతాన్ని స్వీకరించి ధమ్మ విధానాన్ని అనుసరించాడు. శాసనాలు, విహారాలకు మద్దతు మరియు మిషనరీ కార్యక్రమాల ద్వారా బౌద్ధ బోధనలను ప్రచారం చేశాడు.\n\nశ్రీలంక, మధ్య ఆసియా మరియు ఇతర ప్రాంతాలకు బౌద్ధ మిషన్లు పంపబడ్డాయి. దీని ద్వారా బౌద్ధం అంతర్జాతీయ మతంగా విస్తరించింది. అశోకుడి పాత్ర బౌద్ధాన్ని ప్రాంతీయ ఉద్యమం నుండి ప్రపంచవ్యాప్త మతంగా మార్చింది.\n\nబౌద్ధం మరియు మౌర్య పాలనను అర్థం చేసుకోవడంలో అశోక శాసనాలు అత్యంత ముఖ్యమైన చారిత్రక ఆధారాలు.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। कलिंग युद्ध के बाद अशोक ने बौद्ध धर्म को अपनाया और धम्म नीति का अनुसरण किया। उन्होंने शिलालेखों, विहारों के संरक्षण और धर्म प्रचार मिशनों के माध्यम से बौद्ध धर्म को बढ़ावा दिया।\n\nबौद्ध मिशन श्रीलंका, मध्य एशिया तथा अन्य क्षेत्रों में भेजे गए, जिससे बौद्ध धर्म का अंतरराष्ट्रीय प्रसार हुआ। अशोक की भूमिका ने बौद्ध धर्म को क्षेत्रीय आंदोलन से एक विश्वव्यापी धर्म में परिवर्तित कर दिया।\n\nअशोक के अभिलेख बौद्ध धर्म और मौर्य शासन को समझने के लिए अत्यंत महत्वपूर्ण ऐतिहासिक स्रोत हैं।",
+
+          "elimination_logic_english": "The Reason directly explains why Ashoka became central to the spread of Buddhism.\n\nUPSC often tests whether students connect the Kalinga War with Ashoka's ideological transformation. After embracing Buddhism, he institutionalized and internationalized the religion through state-supported missionary activity.\n\nSince the missions themselves explain Buddhism's expansion under Ashoka, the Reason correctly explains the Assertion.\n\nHence option a is the most accurate answer.",
+
+          "elimination_logic_telugu": "కారణం అశోకుడు బౌద్ధ వ్యాప్తిలో ఎందుకు ముఖ్యుడయ్యాడో నేరుగా వివరిస్తుంది.\n\nUPSC తరచుగా కళింగ యుద్ధం తరువాత అశోకుడి భావజాల మార్పును పరీక్షిస్తుంది. బౌద్ధాన్ని స్వీకరించిన తరువాత ఆయన ప్రభుత్వ మద్దతుతో మిషనరీ కార్యక్రమాల ద్వారా బౌద్ధాన్ని అంతర్జాతీయ స్థాయికి తీసుకెళ్లాడు.\n\nమిషన్ల పంపిణీనే బౌద్ధ వ్యాప్తికి ప్రత్యక్ష కారణం కావడంతో కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि अशोक बौद्ध धर्म के प्रसार में क्यों महत्वपूर्ण बने।\n\nUPSC अक्सर कलिंग युद्ध के बाद अशोक के वैचारिक परिवर्तन को प्रश्नों में जोड़ता है। बौद्ध धर्म अपनाने के बाद उन्होंने राज्य संरक्षण के माध्यम से धर्म प्रचार मिशनों को बढ़ावा दिया।\n\nचूँकि मिशनरी गतिविधियाँ ही बौद्ध धर्म के विस्तार का मुख्य कारण थीं, इसलिए कारण अभिकथन की सही व्याख्या करता है।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "With reference to Buddhism, consider the following statements:\n\n1. The Eightfold Path forms an important part of Buddhist teachings.\n2. Buddhism emphasized ethical conduct, meditation and wisdom as the path to liberation.\n3. Mahayana Buddhism regarded Buddha only as a human teacher and not as a divine figure.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "బౌద్ధమతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అష్టాంగ మార్గం బౌద్ధ బోధనలలో ముఖ్య భాగం.\n2. విముక్తికి నైతిక జీవనం, ధ్యానం మరియు జ్ఞానాన్ని బౌద్ధం ప్రాముఖ్యం ఇచ్చింది.\n3. మహాయాన బౌద్ధం బుద్ధునిని కేవలం మానవ గురువుగా మాత్రమే పరిగణించింది; దైవ స్వరూపంగా కాదు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "बौद्ध धर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अष्टांगिक मार्ग बौद्ध शिक्षाओं का महत्वपूर्ण अंग है।\n2. बौद्ध धर्म ने मुक्ति के लिए नैतिक आचरण, ध्यान और ज्ञान पर बल दिया।\n3. महायान बौद्ध धर्म बुद्ध को केवल एक मानव शिक्षक मानता था, दैवी स्वरूप नहीं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Eightfold Path is one of the central teachings of Buddhism and provides the practical path for overcoming suffering. It includes right view, right conduct, right speech, right livelihood, right mindfulness and related principles.\n\nBuddhism emphasized ethical conduct (Sila), meditation (Samadhi) and wisdom (Prajna) as the means to attain liberation from suffering and the cycle of rebirth.\n\nStatement 3 is incorrect because Mahayana Buddhism gradually elevated Buddha into a transcendental and divine figure. It emphasized devotion, Bodhisattvas and elaborate rituals, unlike the comparatively simpler approach of early Buddhism.\n\nThe distinction between Hinayana and Mahayana traditions is a frequently tested conceptual area in UPSC examinations.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. అష్టాంగ మార్గం బౌద్ధమతంలోని ప్రధాన బోధనలలో ఒకటి. ఇది దుఃఖాన్ని అధిగమించడానికి అనుసరించాల్సిన ఆచరణాత్మక మార్గాన్ని సూచిస్తుంది. ఇందులో సమ్యక్ దృష్టి, సమ్యక్ వాక్యం, సమ్యక్ ఆచరణ, సమ్యక్ జీవనం వంటి అంశాలు ఉంటాయి.\n\nబౌద్ధం విముక్తి కోసం నైతిక జీవనం (శీలం), ధ్యానం (సమాధి) మరియు జ్ఞానం (ప్రజ్ఞ) పై దృష్టి పెట్టింది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే మహాయాన బౌద్ధం బుద్ధునిని దైవిక మరియు అతీత స్వరూపంగా పరిగణించింది. ఇది భక్తి, బోధిసత్వ భావన మరియు కర్మకాండలకు ఎక్కువ ప్రాధాన్యం ఇచ్చింది.\n\nహీనయాన మరియు మహాయాన మధ్య తేడాలు UPSCలో తరచుగా పరీక్షించబడే ముఖ్య భావనాత్మక అంశాలు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। अष्टांगिक मार्ग बौद्ध धर्म की प्रमुख शिक्षाओं में से एक है और यह दुःख से मुक्ति का व्यावहारिक मार्ग प्रस्तुत करता है। इसमें सम्यक दृष्टि, सम्यक वाणी, सम्यक आचरण, सम्यक आजीविका आदि सिद्धांत शामिल हैं।\n\nबौद्ध धर्म ने मुक्ति प्राप्त करने के लिए नैतिक आचरण (शील), ध्यान (समाधि) और ज्ञान (प्रज्ञा) पर बल दिया।\n\nकथन 3 गलत है क्योंकि महायान बौद्ध धर्म ने बुद्ध को एक दैवी और अलौकिक स्वरूप प्रदान किया। इसमें भक्ति, बोधिसत्त्व और अनुष्ठानों पर अधिक बल दिया गया।\n\nहीनयान और महायान के बीच का अंतर UPSC में बार-बार पूछा जाने वाला महत्वपूर्ण वैचारिक क्षेत्र है।",
+
+          "elimination_logic_english": "Statement 3 is the key conceptual trap.\n\nMany students incorrectly assume that all Buddhist traditions viewed Buddha only as a human teacher. However, Mahayana Buddhism introduced devotional elements and elevated Buddha to a divine and transcendental status.\n\nStatements 1 and 2 are foundational teachings universally associated with Buddhism and can be confidently retained.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct, making option b the right answer.\n\nUPSC frequently frames Buddhism questions by testing doctrinal distinctions between early Buddhism and Mahayana traditions.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nచాలామంది అన్ని బౌద్ధ సంప్రదాయాలు బుద్ధునిని కేవలం మానవ గురువుగానే పరిగణించాయని అనుకుంటారు. కానీ మహాయాన బౌద్ధం భక్తి భావనలను ప్రవేశపెట్టి బుద్ధునిని దైవిక మరియు అతీత స్థాయికి తీసుకెళ్లింది.\n\nప్రకటనలు 1 మరియు 2 బౌద్ధమతానికి ప్రాథమిక బోధనలు కావడంతో అవి సరైనవిగా గుర్తించవచ్చు.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి. కాబట్టి ఎంపిక b సరైనది.\n\nUPSC తరచుగా ప్రారంభ బౌద్ధం మరియు మహాయాన సంప్రదాయాల మధ్య తేడాలను పరీక్షించే విధంగా ప్రశ్నలు రూపొందిస్తుంది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nकई विद्यार्थी यह मान लेते हैं कि सभी बौद्ध परम्पराएँ बुद्ध को केवल मानव शिक्षक मानती थीं। किन्तु महायान बौद्ध धर्म ने भक्ति तत्वों को विकसित किया और बुद्ध को दैवी तथा अलौकिक स्वरूप प्रदान किया।\n\nकथन 1 और 2 बौद्ध धर्म की मूल शिक्षाएँ हैं और इन्हें सही माना जा सकता है।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं, इसलिए विकल्प b सही उत्तर है।\n\nUPSC प्रायः प्रारम्भिक बौद्ध धर्म और महायान परम्परा के वैचारिक अंतर को जाँचने हेतु ऐसे प्रश्न पूछता है।"
+        }
+      ]
     }
   }
 }
