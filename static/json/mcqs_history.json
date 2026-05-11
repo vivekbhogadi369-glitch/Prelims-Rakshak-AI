@@ -1,1 +1,19 @@
-
+{
+  "Ancient History": {
+    "Prehistoric India": [
+      {
+        "question": "Which of the following is the most important characteristic feature of the Neolithic Age?",
+        "options": {
+          "a": "Use of polished stone tools",
+          "b": "Beginning of agriculture",
+          "c": "Use of iron tools",
+          "d": "Practice of coinage"
+        },
+        "correct_answer": "b",
+        "difficulty": "easy",
+        "explanation": "The Neolithic Age is mainly identified by the beginning of agriculture and food production. This transformed human life from food gathering to settled life.",
+        "elimination_logic": "Eliminate option c because iron tools belong to Iron Age. Eliminate option d because coinage came much later in historical periods. Polished stone tools are important but agriculture is the defining feature."
+      }
+    ]
+  }
+}
