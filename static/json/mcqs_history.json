@@ -3601,8 +3601,13 @@
           "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि इंडो-ग्रीक शासन सांस्कृतिक समन्वय से क्यों जुड़ा है।\n\nUPSC अक्सर राजनीतिक संपर्क और कलात्मक-बौद्धिक विकास के बीच संबंध को परखता है।\n\nकला, धर्म और मुद्रा प्रणाली इंडो-ग्रीक सांस्कृतिक संपर्क के प्रमाण प्रदान करते हैं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
         }
       ]
-  ,
-        {
+      },
+
+    "Sakas": {
+      "topic_english": "Sakas",
+      "topic_telugu": "శకులు",
+      "topic_hindi": "शक",
+   {
           "question_english": "Consider the following statements regarding the Western Kshatrapas:\n\n1. The Western Kshatrapas were associated with the Sakas.\n2. They ruled mainly in western India.\n3. Their rule was completely isolated from maritime trade activities.\n\nWhich of the statements given above is/are correct?",
 
           "options_english": {
@@ -3904,3 +3909,4 @@
 }
 }
 }
+
