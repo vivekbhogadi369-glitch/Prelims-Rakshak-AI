@@ -998,6 +998,304 @@
           "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే వర్ణ వ్యవస్థ కఠినతరం కావడం సామాజిక విభజనలను పెంచింది. కాబట్టి ఎంపిక a సరైనది.",
 
           "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि वर्ण व्यवस्था की कठोरता ने सामाजिक विभाजन को बढ़ाया। इसलिए विकल्प a सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding political organization in the Early Vedic Age:\n\n1. The king was known as 'Rajan'.\n2. Sabha and Samiti were important tribal assemblies.\n3. Kingship was completely absolute and uncontrolled.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ప్రారంభ వేద కాలంలోని రాజకీయ వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. రాజును 'రాజన్' అని పిలిచేవారు.\n2. సభ మరియు సమితి ముఖ్య గోత్ర సభలు.\n3. రాజ్యాధికారం పూర్తిగా నిరంకుశమైనది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "प्रारम्भिक वैदिक काल की राजनीतिक व्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. राजा को 'राजन्' कहा जाता था।\n2. सभा और समिति महत्वपूर्ण जनजातीय संस्थाएँ थीं।\n3. राजसत्ता पूर्णतः निरंकुश थी।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. In the Early Vedic Age, the tribal chief was called Rajan and important assemblies such as Sabha and Samiti participated in governance and decision-making. Statement 3 is incorrect because the king's powers were not fully absolute and were influenced by tribal institutions.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ప్రారంభ వేద కాలంలో గోత్ర నాయకుడిని రాజన్ అని పిలిచేవారు. సభ మరియు సమితి వంటి సంస్థలు పాలన మరియు నిర్ణయాలలో ముఖ్య పాత్ర పోషించేవి. ప్రకటన 3 తప్పు, ఎందుకంటే రాజు అధికారాలు పూర్తిగా నిరంకుశమైనవి కావు; గోత్ర సంస్థల ప్రభావం ఉండేది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। प्रारम्भिक वैदिक काल में जनजातीय प्रमुख को राजन् कहा जाता था। सभा और समिति जैसी संस्थाएँ शासन और निर्णय प्रक्रिया में महत्वपूर्ण भूमिका निभाती थीं। कथन 3 गलत है क्योंकि राजा की शक्तियाँ पूर्णतः निरंकुश नहीं थीं और जनजातीय संस्थाओं का प्रभाव था।",
+
+          "elimination_logic_english": "Statement 3 is the trap because absolute monarchy is associated with later centralized kingdoms. Early Vedic polity still retained tribal and participatory elements. Hence option a is correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. సంపూర్ణ నిరంకుశ రాజ్యవ్యవస్థ తరువాతి కేంద్రీకృత రాజ్యాలకు సంబంధించినది. ప్రారంభ వేద రాజకీయ వ్యవస్థలో గోత్ర మరియు భాగస్వామ్య లక్షణాలు కొనసాగాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। पूर्ण निरंकुश राजसत्ता बाद के केंद्रीकृत राज्यों से जुड़ी है। प्रारम्भिक वैदिक राजनीति में जनजातीय और सहभागी तत्व बने हुए थे। इसलिए विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following best describes the economic transition during the Later Vedic Age?",
+
+          "options_english": {
+            "a": "Complete disappearance of agriculture",
+            "b": "Shift from pastoralism towards settled agriculture",
+            "c": "Exclusive dependence on maritime trade",
+            "d": "Replacement of villages by large industrial cities"
+          },
+
+          "question_telugu": "ఉత్తర వేద కాలంలో జరిగిన ఆర్థిక మార్పును క్రింది వాటిలో ఏది ఉత్తమంగా వివరిస్తుంది?",
+
+          "options_telugu": {
+            "a": "వ్యవసాయం పూర్తిగా అంతరించిపోవడం",
+            "b": "పశుపోషణ నుండి స్థిర వ్యవసాయానికి మార్పు",
+            "c": "పూర్తిగా సముద్ర వాణిజ్యంపై ఆధారపడటం",
+            "d": "గ్రామాల స్థానంలో భారీ పారిశ్రామిక పట్టణాలు రావడం"
+          },
+
+          "question_hindi": "उत्तर वैदिक काल में हुए आर्थिक परिवर्तन को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "कृषि का पूर्णतः समाप्त हो जाना",
+            "b": "पशुपालन से स्थायी कृषि की ओर परिवर्तन",
+            "c": "पूर्णतः समुद्री व्यापार पर निर्भरता",
+            "d": "गाँवों के स्थान पर विशाल औद्योगिक नगरों का विकास"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Later Vedic Age witnessed a gradual shift from a predominantly pastoral economy to settled agriculture. Iron tools, forest clearance and expansion into the Gangetic plains encouraged agricultural growth and permanent settlements.",
+
+          "explanation_telugu": "ఉత్తర వేద కాలంలో ప్రధానంగా పశుపోషణ ఆధారిత ఆర్థిక వ్యవస్థ నుండి స్థిర వ్యవసాయానికి మార్పు జరిగింది. ఇనుప పరికరాలు, అడవుల తొలగింపు మరియు గంగానది మైదానాల విస్తరణ వ్యవసాయ అభివృద్ధికి దోహదపడ్డాయి.",
+
+          "explanation_hindi": "उत्तर वैदिक काल में मुख्यतः पशुपालक अर्थव्यवस्था से स्थायी कृषि की ओर परिवर्तन हुआ। लौह उपकरणों, वनों की सफाई और गंगा मैदानों में विस्तार ने कृषि विकास को बढ़ावा दिया।",
+
+          "elimination_logic_english": "Options a, c and d are extreme or historically inaccurate. The major economic transition of the Later Vedic period was the growth of settled agriculture. Hence option b is correct.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d అతిశయమైనవి లేదా చారిత్రకంగా తప్పు. ఉత్తర వేద కాలంలోని ప్రధాన ఆర్థిక మార్పు స్థిర వ్యవసాయం అభివృద్ధి చెందడం. కాబట్టి ఎంపిక b సరైనది.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d अतिशयोक्तिपूर्ण या ऐतिहासिक रूप से गलत हैं। उत्तर वैदिक काल का मुख्य आर्थिक परिवर्तन स्थायी कृषि का विकास था। इसलिए विकल्प b सही है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Iron technology became increasingly important during the Later Vedic Age.\n\nReason (R): Iron tools helped in clearing forests and expanding agriculture.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఉత్తర వేద కాలంలో ఇనుప సాంకేతికత ప్రాధాన్యం పెరిగింది.\n\nకారణం (R): ఇనుప పరికరాలు అడవులను తొలగించడానికి మరియు వ్యవసాయ విస్తరణకు సహాయపడ్డాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): उत्तर वैदिक काल में लौह तकनीक का महत्व बढ़ गया।\n\nकारण (R): लौह उपकरणों ने वनों की सफाई और कृषि विस्तार में सहायता की।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The increasing use of iron tools during the Later Vedic period enabled large-scale forest clearance and agricultural expansion into the fertile Gangetic plains, contributing to economic and social changes.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ఉత్తర వేద కాలంలో ఇనుప పరికరాల వినియోగం పెరగడం వల్ల విస్తృత స్థాయిలో అడవుల తొలగింపు మరియు గంగానది మైదానాల్లో వ్యవసాయ విస్తరణ సాధ్యమైంది. ఇది ఆర్థిక మరియు సామాజిక మార్పులకు దోహదపడింది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। उत्तर वैदिक काल में लौह उपकरणों के बढ़ते उपयोग ने बड़े पैमाने पर वन सफाई और गंगा मैदानों में कृषि विस्तार को संभव बनाया। इससे आर्थिक और सामाजिक परिवर्तन हुए।",
+
+          "elimination_logic_english": "The Reason directly explains why iron became important in the Later Vedic Age. Agricultural expansion and forest clearance were closely linked to iron technology. Hence option a is correct.",
+
+          "elimination_logic_telugu": "కారణం ఉత్తర వేద కాలంలో ఇనుప సాంకేతికత ఎందుకు ముఖ్యమైందో నేరుగా వివరిస్తుంది. వ్యవసాయ విస్తరణ మరియు అడవుల తొలగింపు ఇనుప పరికరాలతో సన్నిహితంగా అనుసంధానించబడ్డాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि उत्तर वैदिक काल में लौह तकनीक क्यों महत्वपूर्ण बनी। कृषि विस्तार और वन सफाई लौह उपकरणों से निकटता से जुड़े थे। इसलिए विकल्प a सही है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding religion during the Vedic Age:\n\n1. Early Vedic religion mainly revolved around nature worship.\n2. Indra was regarded as an important deity in the Rig Veda.\n3. Idol worship formed the central feature of Early Vedic religion.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 3 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "వేద కాలంలోని మతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్రారంభ వేద మతం ప్రధానంగా ప్రకృతి ఆరాధనపై ఆధారపడి ఉండేది.\n2. ఋగ్వేదంలో ఇంద్రుడు ముఖ్య దేవుడిగా పరిగణించబడ్డాడు.\n3. విగ్రహారాధన ప్రారంభ వేద మతానికి ప్రధాన లక్షణం.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 3 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "वैदिक काल के धर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रारम्भिक वैदिक धर्म मुख्यतः प्रकृति पूजा पर आधारित था।\n2. ऋग्वेद में इन्द्र को महत्वपूर्ण देवता माना गया है।\n3. मूर्ति पूजा प्रारम्भिक वैदिक धर्म की प्रमुख विशेषता थी।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 3",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. Early Vedic religion centered around worship of natural forces such as fire, rain and wind. Indra occupied an important place in the Rig Veda. Statement 3 is incorrect because idol worship was not a central feature of Early Vedic religion.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ప్రారంభ వేద మతం అగ్ని, వర్షం మరియు గాలి వంటి ప్రకృతి శక్తుల ఆరాధనపై ఆధారపడి ఉండేది. ఇంద్రుడు ఋగ్వేదంలో ముఖ్య స్థానాన్ని పొందాడు. ప్రకటన 3 తప్పు, ఎందుకంటే విగ్రహారాధన ప్రారంభ వేద మతంలో ప్రధాన లక్షణం కాదు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। प्रारम्भिक वैदिक धर्म अग्नि, वर्षा और वायु जैसी प्राकृतिक शक्तियों की पूजा पर आधारित था। इन्द्र ऋग्वेद में महत्वपूर्ण स्थान रखते थे। कथन 3 गलत है क्योंकि मूर्ति पूजा प्रारम्भिक वैदिक धर्म की प्रमुख विशेषता नहीं थी।",
+
+          "elimination_logic_english": "Statement 3 is the main trap because idol worship became prominent in later religious traditions, not in the Early Vedic phase. Eliminating Statement 3 leaves option b correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. విగ్రహారాధన తరువాతి మతాచారాల్లో ప్రాముఖ్యం పొందింది; ప్రారంభ వేద దశలో కాదు. ప్రకటన 3ను తొలగిస్తే ఎంపిక b సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है। मूर्ति पूजा बाद की धार्मिक परम्पराओं में प्रमुख बनी, प्रारम्भिक वैदिक काल में नहीं। कथन 3 हटाने पर विकल्प b सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following terms in the Vedic Age referred to a tribal unit or clan?",
+
+          "options_english": {
+            "a": "Vidatha",
+            "b": "Bali",
+            "c": "Nishka",
+            "d": "Jana"
+          },
+
+          "question_telugu": "వేద కాలంలో గోత్రం లేదా తెగను సూచించిన పదం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "విదథ",
+            "b": "బలి",
+            "c": "నిష్క",
+            "d": "జన"
+          },
+
+          "question_hindi": "वैदिक काल में जनजाति या कुल को सूचित करने वाला शब्द निम्नलिखित में से कौन-सा था?",
+
+          "options_hindi": {
+            "a": "विदथ",
+            "b": "बलि",
+            "c": "निष्क",
+            "d": "जन"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "The term 'Jana' referred to a tribe or clan in the Vedic Age. Early Vedic society was organized on tribal lines. Vidatha referred to an assembly, Nishka to a type of ornament or exchange medium, and Bali to tribute or offering.",
+
+          "explanation_telugu": "వేద కాలంలో 'జన' అనే పదం తెగ లేదా గోత్రాన్ని సూచించేది. ప్రారంభ వేద సమాజం గోత్ర ఆధారంగా ఏర్పాటైంది. విదథ సభను, నిష్క ఒక అలంకారాన్ని లేదా మార్పిడి సాధనాన్ని, బలి పన్ను లేదా కానుకను సూచిస్తుంది.",
+
+          "explanation_hindi": "वैदिक काल में 'जन' शब्द जनजाति या कुल के लिए प्रयुक्त होता था। प्रारम्भिक वैदिक समाज जनजातीय आधार पर संगठित था। विदथ सभा को, निष्क आभूषण या विनिमय माध्यम को और बलि कर या भेंट को दर्शाता था।",
+
+          "elimination_logic_english": "Vidatha can confuse students because it was an important assembly. Nishka and Bali relate to economic practices. The tribal unit itself was called Jana. Hence option d is correct.",
+
+          "elimination_logic_telugu": "విదథ ఒక ముఖ్య సభ కావడంతో గందరగోళం కలిగించవచ్చు. నిష్క మరియు బలి ఆర్థిక కార్యకలాపాలకు సంబంధించినవి. గోత్ర యూనిట్‌ను జన అని పిలిచేవారు. కాబట్టి ఎంపిక d సరైనది.",
+
+          "elimination_logic_hindi": "विदथ महत्वपूर्ण सभा होने के कारण भ्रम उत्पन्न कर सकता है। निष्क और बलि आर्थिक गतिविधियों से जुड़े थे। जनजातीय इकाई को जन कहा जाता था। इसलिए विकल्प d सही है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Later Vedic Age witnessed the emergence of larger kingdoms.\n\nReason (R): Expansion into the Gangetic plains increased agricultural surplus and political power.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఉత్తర వేద కాలంలో పెద్ద రాజ్యాలు ఏర్పడ్డాయి.\n\nకారణం (R): గంగానది మైదానాల్లో విస్తరణ వల్ల వ్యవసాయ మిగులు మరియు రాజకీయ శక్తి పెరిగింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): उत्तर वैदिक काल में बड़े राज्यों का उदय हुआ।\n\nकारण (R): गंगा मैदानों में विस्तार से कृषि अधिशेष और राजनीतिक शक्ति में वृद्धि हुई।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. Expansion into the fertile Gangetic plains increased agricultural surplus, strengthened political authority and facilitated the rise of larger kingdoms during the Later Vedic period.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సారవంతమైన గంగానది మైదానాల్లో విస్తరణ వల్ల వ్యవసాయ మిగులు పెరిగి రాజకీయ శక్తి బలపడింది. ఇది ఉత్తర వేద కాలంలో పెద్ద రాజ్యాల ఏర్పాటుకు దోహదపడింది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। उपजाऊ गंगा मैदानों में विस्तार से कृषि अधिशेष बढ़ा और राजनीतिक शक्ति मजबूत हुई। इससे उत्तर वैदिक काल में बड़े राज्यों का उदय हुआ।",
+
+          "elimination_logic_english": "The Reason directly explains the emergence of larger kingdoms because agricultural surplus supported stronger political organization. Hence option c is correct.",
+
+          "elimination_logic_telugu": "వ్యవసాయ మిగులు బలమైన రాజకీయ వ్యవస్థకు ఆధారమైంది కాబట్టి కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది. కాబట్టి ఎంపిక c సరైనది.",
+
+          "elimination_logic_hindi": "कृषि अधिशेष ने मजबूत राजनीतिक संगठन को संभव बनाया, इसलिए कारण सीधे अभिकथन की व्याख्या करता है। अतः विकल्प c सही है।"
+        },
+        {
+          "question_english": "With reference to the Vedic Age, consider the following statements:\n\n1. The Rig Veda is regarded as the oldest Veda.\n2. Women participated in certain religious and intellectual activities during the Early Vedic period.\n3. The practice of elaborate yajnas became more prominent during the Later Vedic Age.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "వేద కాలానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఋగ్వేదం అత్యంత ప్రాచీన వేదంగా పరిగణించబడుతుంది.\n2. ప్రారంభ వేద కాలంలో మహిళలు కొన్ని మత మరియు మేధో కార్యకలాపాల్లో పాల్గొన్నారు.\n3. ఉత్తర వేద కాలంలో విస్తృత యజ్ఞాల ప్రాధాన్యం పెరిగింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "वैदिक काल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. ऋग्वेद को सबसे प्राचीन वेद माना जाता है।\n2. प्रारम्भिक वैदिक काल में महिलाएँ कुछ धार्मिक और बौद्धिक गतिविधियों में भाग लेती थीं।\n3. उत्तर वैदिक काल में विस्तृत यज्ञों का महत्व बढ़ गया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All three statements are correct. The Rig Veda is considered the oldest Veda. Women in the Early Vedic Age enjoyed comparatively better status and participated in intellectual and religious life. During the Later Vedic period, elaborate yajnas and rituals gained increasing importance due to the growing influence of priests and ritualism.",
+
+          "explanation_telugu": "మూడు ప్రకటనలూ సరైనవి. ఋగ్వేదం అత్యంత ప్రాచీన వేదంగా పరిగణించబడుతుంది. ప్రారంభ వేద కాలంలో మహిళలకు తులనాత్మకంగా మెరుగైన స్థానం ఉండేది మరియు వారు మత, మేధో కార్యకలాపాల్లో పాల్గొన్నారు. ఉత్తర వేద కాలంలో యజ్ఞాలు మరియు కర్మకాండల ప్రాధాన్యం పెరిగింది.",
+
+          "explanation_hindi": "तीनों कथन सही हैं। ऋग्वेद को सबसे प्राचीन वेद माना जाता है। प्रारम्भिक वैदिक काल में महिलाओं की स्थिति अपेक्षाकृत बेहतर थी और वे धार्मिक तथा बौद्धिक गतिविधियों में भाग लेती थीं। उत्तर वैदिक काल में यज्ञों और अनुष्ठानों का महत्व बढ़ गया।",
+
+          "elimination_logic_english": "None of the statements contain factual contradictions. UPSC often combines social, religious and literary aspects together in Vedic Age questions. Since all three statements are historically valid, option d is correct.",
+
+          "elimination_logic_telugu": "ఏ ప్రకటనలోనూ వాస్తవపరమైన తప్పు లేదు. UPSC వేద కాల ప్రశ్నల్లో సామాజిక, మత మరియు సాహిత్య అంశాలను కలిపి అడుగుతుంది. మూడు ప్రకటనలూ చారిత్రకంగా సరైనవి కాబట్టి ఎంపిక d సరైనది.",
+
+          "elimination_logic_hindi": "किसी भी कथन में तथ्यात्मक त्रुटि नहीं है। UPSC वैदिक काल के प्रश्नों में सामाजिक, धार्मिक और साहित्यिक पहलुओं को एक साथ पूछता है। तीनों कथन ऐतिहासिक रूप से सही हैं, इसलिए विकल्प d सही है।"
         }
       ]
     }
