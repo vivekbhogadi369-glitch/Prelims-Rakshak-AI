@@ -2,30 +2,94 @@
   "Ancient History": {
     "Prehistoric India": [
       {
-        "question": "Which of the following is the most important characteristic feature of the Neolithic Age?",
-        "options": {
-          "a": "Use of polished stone tools",
-          "b": "Beginning of agriculture",
-          "c": "Use of iron tools",
-          "d": "Practice of coinage"
+        "question_english": "With reference to Prehistoric India, consider the following statements:\n1. The Paleolithic phase was mainly associated with hunting and food gathering.\n2. The Neolithic phase witnessed the beginning of agriculture and settled life.\n3. The Mesolithic phase is generally associated with the complete use of iron tools.\nWhich of the statements given above is/are correct?",
+        "question_telugu": "ప్రాగైతిహాసిక భారతదేశం గురించి క్రింది ప్రకటనలను పరిశీలించండి:\n1. పాత రాతియుగం ప్రధానంగా వేట మరియు ఆహార సేకరణతో సంబంధం కలిగి ఉంది.\n2. కొత్త రాతియుగంలో వ్యవసాయం మరియు స్థిర నివాస జీవనం ప్రారంభమయ్యాయి.\n3. మధ్య రాతియుగం సాధారణంగా ఇనుప పరికరాల పూర్తి వినియోగంతో సంబంధం కలిగి ఉంది.\nపై ప్రకటనలలో ఏవి సరైనవి?",
+        "question_hindi": "प्रागैतिहासिक भारत के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. पुरापाषाण काल मुख्यतः शिकार और खाद्य-संग्रह से संबंधित था।\n2. नवपाषाण काल में कृषि और स्थायी जीवन की शुरुआत हुई।\n3. मध्यपाषाण काल सामान्यतः लोहे के औजारों के पूर्ण उपयोग से संबंधित था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+        "options_english": {
+          "a": "1 only",
+          "b": "1 and 2 only",
+          "c": "2 and 3 only",
+          "d": "1, 2 and 3"
+        },
+        "options_telugu": {
+          "a": "1 మాత్రమే",
+          "b": "1 మరియు 2 మాత్రమే",
+          "c": "2 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+        "options_hindi": {
+          "a": "केवल 1",
+          "b": "केवल 1 और 2",
+          "c": "केवल 2 और 3",
+          "d": "1, 2 और 3"
         },
         "correct_answer": "b",
-        "difficulty": "easy",
-        "explanation": "The Neolithic Age is mainly identified by the beginning of agriculture and food production. This transformed human life from food gathering to settled life.",
-        "elimination_logic": "Eliminate option c because iron tools belong to Iron Age. Eliminate option d because coinage came much later in historical periods. Polished stone tools are important, but agriculture is the defining feature."
+        "explanation_english": "Statement 1 is correct because the Paleolithic people largely depended on hunting, fishing and food gathering.\nTheir tools were mainly crude stone tools used for basic survival activities.\nStatement 2 is correct because the Neolithic phase marks a major transition towards agriculture, domestication of animals and settled life.\nThis change is important because it transformed humans from food gatherers into food producers.\nStatement 3 is incorrect because the Mesolithic phase is mainly associated with microliths, not complete use of iron tools.\nIron technology belongs to a much later stage and should not be confused with Mesolithic developments.",
+        "explanation_telugu": "ప్రకటన 1 సరైనది, ఎందుకంటే పాత రాతియుగ ప్రజలు ప్రధానంగా వేట, చేపల వేట మరియు ఆహార సేకరణపై ఆధారపడ్డారు.\nవారి పరికరాలు ప్రధానంగా జీవన అవసరాల కోసం ఉపయోగించిన సాధారణ రాతి పరికరాలు.\nప్రకటన 2 సరైనది, ఎందుకంటే కొత్త రాతియుగం వ్యవసాయం, జంతు పెంపకం మరియు స్థిర నివాస జీవనానికి మార్పును సూచిస్తుంది.\nఈ మార్పు మనుషులను ఆహార సేకరణ దశ నుండి ఆహార ఉత్పత్తి దశకు తీసుకెళ్లింది.\nప్రకటన 3 తప్పు, ఎందుకంటే మధ్య రాతియుగం ప్రధానంగా సూక్ష్మ రాతి పరికరాలతో సంబంధం కలిగి ఉంటుంది.\nఇనుప సాంకేతికత చాలా తరువాతి దశకు చెందినది; దానిని మధ్య రాతియుగంతో కలపకూడదు.",
+        "explanation_hindi": "कथन 1 सही है क्योंकि पुरापाषाण काल के लोग मुख्यतः शिकार, मछली पकड़ने और खाद्य-संग्रह पर निर्भर थे।\nउनके औजार मुख्यतः जीवन-निर्वाह के लिए प्रयुक्त साधारण पत्थर के औजार थे।\nकथन 2 सही है क्योंकि नवपाषाण काल कृषि, पशुपालन और स्थायी जीवन की ओर बड़े परिवर्तन को दर्शाता है।\nयह परिवर्तन मनुष्य को खाद्य-संग्रहकर्ता से खाद्य-उत्पादक बनाने की दृष्टि से महत्त्वपूर्ण था।\nकथन 3 गलत है क्योंकि मध्यपाषाण काल मुख्यतः सूक्ष्म पाषाण औजारों से संबंधित है, लोहे के पूर्ण उपयोग से नहीं।\nलौह तकनीक बहुत बाद के काल से संबंधित है और इसे मध्यपाषाण विकास से नहीं जोड़ना चाहिए।",
+        "elimination_logic_english": "In UPSC-style questions, terms like 'complete use of iron tools' must be checked carefully.\nPaleolithic and Neolithic features are basic and well-established, so statements 1 and 2 can be retained.\nThe trap lies in statement 3 because Mesolithic is often confused with later technological stages.\nMicroliths are the key marker of the Mesolithic phase, not iron tools.\nOnce statement 3 is eliminated, options c and d are automatically removed.\nBetween a and b, statement 2 is clearly correct, so option b becomes the correct answer.",
+        "elimination_logic_telugu": "UPSC తరహా ప్రశ్నల్లో 'ఇనుప పరికరాల పూర్తి వినియోగం' వంటి పదాలను జాగ్రత్తగా పరిశీలించాలి.\nపాత రాతియుగం మరియు కొత్త రాతియుగం లక్షణాలు ప్రాథమికంగా స్పష్టమైనవి కాబట్టి ప్రకటనలు 1, 2 నిలుస్తాయి.\nప్రకటన 3లోనే ఉచ్చు ఉంది, ఎందుకంటే మధ్య రాతియుగాన్ని తరువాతి సాంకేతిక దశలతో కలిపే అవకాశం ఉంటుంది.\nమధ్య రాతియుగానికి ప్రధాన గుర్తు సూక్ష్మ రాతి పరికరాలు, ఇనుప పరికరాలు కావు.\nప్రకటన 3 తొలగించగానే c మరియు d ఎంపికలు తొలగిపోతాయి.\nప్రకటన 2 స్పష్టంగా సరైనందున a కాకుండా b సరైన సమాధానం అవుతుంది.",
+        "elimination_logic_hindi": "UPSC प्रकार के प्रश्नों में 'लोहे के औजारों का पूर्ण उपयोग' जैसे शब्दों को सावधानी से देखना चाहिए।\nपुरापाषाण और नवपाषाण काल की विशेषताएँ मूलभूत और स्पष्ट हैं, इसलिए कथन 1 और 2 रखे जा सकते हैं।\nमुख्य जाल कथन 3 में है क्योंकि मध्यपाषाण काल को बाद की तकनीकी अवस्थाओं से भ्रमित किया जा सकता है।\nमध्यपाषाण काल की प्रमुख पहचान सूक्ष्म पाषाण औजार हैं, लोहे के औजार नहीं।\nकथन 3 हटाते ही विकल्प c और d समाप्त हो जाते हैं।\nकथन 2 स्पष्ट रूप से सही है, इसलिए a नहीं बल्कि b सही उत्तर है।"
       },
       {
-        "question": "With reference to prehistoric India, consider the following statements: 1. Rock paintings are useful for understanding the life and environment of early humans. 2. Bhimbetka is associated with prehistoric rock shelters. Which of the statements given above is/are correct?",
-        "options": {
-          "a": "1 only",
-          "b": "2 only",
-          "c": "Both 1 and 2",
-          "d": "Neither 1 nor 2"
+        "question_english": "Match the following:\n\nList I (Prehistoric Site) | List II (Important Association)\n1. Bhimbetka | Rock shelters and paintings\n2. Mehrgarh | Early farming and domestication\n3. Hunsgi | Paleolithic tool tradition\n4. Inamgaon | Mesolithic cave paintings\n\nSelect the correct answer using the code given below.",
+        "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (ప్రాగైతిహాసిక స్థలం) | జాబితా II (ముఖ్య సంబంధం)\n1. భీంబేట్కా | రాతి ఆశ్రయాలు మరియు చిత్రాలు\n2. మెహర్‌గఢ్ | ప్రారంభ వ్యవసాయం మరియు జంతు పెంపకం\n3. హున్స్గి | పాత రాతియుగ పరికర సంప్రదాయం\n4. ఇనామ్గావ్ | మధ్య రాతియుగ గుహా చిత్రాలు\n\nక్రింది కోడ్ ఉపయోగించి సరైన సమాధానాన్ని ఎంచుకోండి.",
+        "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (प्रागैतिहासिक स्थल) | सूची II (महत्त्वपूर्ण संबंध)\n1. भीमबेटका | शैलाश्रय और चित्रकारी\n2. मेहरगढ़ | प्रारंभिक कृषि और पशुपालन\n3. हुनस्गी | पुरापाषाण औजार परंपरा\n4. इनामगाँव | मध्यपाषाण गुफा चित्रकारी\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+        "options_english": {
+          "a": "1, 2 and 3 only",
+          "b": "1 and 4 only",
+          "c": "2, 3 and 4 only",
+          "d": "1, 2, 3 and 4"
         },
-        "correct_answer": "c",
-        "difficulty": "moderate",
-        "explanation": "Both statements are correct. Rock paintings help us understand hunting scenes, animals, social life and environment of early humans. Bhimbetka in Madhya Pradesh is one of the most important prehistoric rock shelter sites in India.",
-        "elimination_logic": "Statement 1 is correct because rock paintings are archaeological evidence of prehistoric life. Statement 2 is also correct because Bhimbetka is a famous prehistoric rock shelter site. Therefore, option c is correct."
+        "options_telugu": {
+          "a": "1, 2 మరియు 3 మాత్రమే",
+          "b": "1 మరియు 4 మాత్రమే",
+          "c": "2, 3 మరియు 4 మాత్రమే",
+          "d": "1, 2, 3 మరియు 4"
+        },
+        "options_hindi": {
+          "a": "केवल 1, 2 और 3",
+          "b": "केवल 1 और 4",
+          "c": "केवल 2, 3 और 4",
+          "d": "1, 2, 3 और 4"
+        },
+        "correct_answer": "a",
+        "explanation_english": "Bhimbetka is correctly associated with rock shelters and prehistoric paintings.\nMehrgarh is important for early evidence of farming, herding and settled life in the north-western region.\nHunsgi in Karnataka is associated with Paleolithic tools and prehistoric occupation.\nInamgaon is better known as a Chalcolithic site, especially related to later rural settlement patterns.\nTherefore, pairing 4 is not correct in the given form.\nHence, only 1, 2 and 3 are correctly matched.",
+        "explanation_telugu": "భీంబేట్కా రాతి ఆశ్రయాలు మరియు ప్రాగైతిహాసిక చిత్రాలతో సరైనంగా సంబంధం కలిగి ఉంది.\nమెహర్‌గఢ్ ప్రారంభ వ్యవసాయం, పశుపోషణ మరియు స్థిర నివాస జీవనానికి ముఖ్యమైన ఆధారాలను ఇస్తుంది.\nకర్ణాటకలోని హున్స్గి పాత రాతియుగ పరికరాలు మరియు ప్రాగైతిహాసిక నివాసంతో సంబంధం కలిగి ఉంది.\nఇనామ్గావ్ ప్రధానంగా తామ్రరాతియుగ స్థలంగా ప్రసిద్ధి చెందింది, ముఖ్యంగా తరువాతి గ్రామీణ నివాస నమూనాలకు సంబంధించి.\nకాబట్టి జత 4 ఈ రూపంలో సరైనది కాదు.\nఅందువల్ల 1, 2 మరియు 3 మాత్రమే సరైన జతలు.",
+        "explanation_hindi": "भीमबेटका शैलाश्रयों और प्रागैतिहासिक चित्रों से सही रूप से संबंधित है।\nमेहरगढ़ प्रारंभिक कृषि, पशुपालन और स्थायी जीवन के प्रमाणों के लिए महत्त्वपूर्ण है।\nकर्नाटक का हुनस्गी पुरापाषाण औजारों और प्रागैतिहासिक निवास से संबंधित है।\nइनामगाँव मुख्यतः ताम्रपाषाण स्थल के रूप में जाना जाता है, विशेषकर बाद के ग्रामीण बसावट स्वरूपों से संबंधित।\nइसलिए जोड़ी 4 दिए गए रूप में सही नहीं है।\nअतः केवल 1, 2 और 3 सही रूप से सुमेलित हैं।",
+        "elimination_logic_english": "This question tests whether the student can separate prehistoric, Neolithic and Chalcolithic associations.\nBhimbetka is a very standard rock art site, so pair 1 should be retained.\nMehrgarh is also a standard early farming site, so pair 2 should be retained.\nHunsgi is associated with Paleolithic evidence, so pair 3 is acceptable.\nThe trap is Inamgaon, which should not be loosely treated as a Mesolithic cave-painting centre.\nOnce pair 4 is removed, option a becomes the only correct answer.",
+        "elimination_logic_telugu": "ఈ ప్రశ్న ప్రాగైతిహాసిక, కొత్త రాతియుగ మరియు తామ్రరాతియుగ సంబంధాలను వేరు చేయగలరా అని పరీక్షిస్తుంది.\nభీంబేట్కా ప్రసిద్ధ రాక్ ఆర్ట్ స్థలం కాబట్టి జత 1 నిలుస్తుంది.\nమెహర్‌గఢ్ కూడా ప్రారంభ వ్యవసాయ స్థలం కాబట్టి జత 2 నిలుస్తుంది.\nహున్స్గి పాత రాతియుగ ఆధారాలతో సంబంధం కలిగి ఉంది కాబట్టి జత 3 సరైనది.\nఉచ్చు ఇనామ్గావ్‌లో ఉంది; దానిని సాధారణంగా మధ్య రాతియుగ గుహా చిత్రకళా కేంద్రంగా పరిగణించకూడదు.\nజత 4 తొలగించగానే option a మాత్రమే సరైన సమాధానంగా మిగులుతుంది.",
+        "elimination_logic_hindi": "यह प्रश्न प्रागैतिहासिक, नवपाषाण और ताम्रपाषाण संबंधों को अलग पहचानने की क्षमता जाँचता है।\nभीमबेटका एक मानक शैलचित्र स्थल है, इसलिए जोड़ी 1 रखी जानी चाहिए।\nमेहरगढ़ भी प्रारंभिक कृषि का प्रसिद्ध स्थल है, इसलिए जोड़ी 2 सही है।\nहुनस्गी पुरापाषाण प्रमाणों से संबंधित है, इसलिए जोड़ी 3 स्वीकार्य है।\nमुख्य जाल इनामगाँव में है, जिसे मध्यपाषाण गुफा-चित्र केंद्र मानना सही नहीं है।\nजोड़ी 4 हटाते ही विकल्प a सही उत्तर बनता है।"
+      },
+      {
+        "question_english": "Consider the following Assertion and Reason:\nAssertion (A): The Neolithic phase represents a major turning point in human cultural development.\nReason (R): It introduced food production, domestication of animals and more settled village life.\nWhich one of the following is correct?",
+        "question_telugu": "క్రింది Assertion మరియు Reason ను పరిశీలించండి:\nAssertion (A): కొత్త రాతియుగం మానవ సాంస్కృతిక అభివృద్ధిలో ఒక ముఖ్యమైన మలుపును సూచిస్తుంది.\nReason (R): ఈ దశలో ఆహార ఉత్పత్తి, జంతు పెంపకం మరియు ఎక్కువ స్థిర గ్రామ జీవనం ప్రారంభమయ్యాయి.\nక్రింది వాటిలో ఏది సరైనది?",
+        "question_hindi": "निम्नलिखित अभिकथन और कारण पर विचार कीजिए:\nअभिकथन (A): नवपाषाण काल मानव सांस्कृतिक विकास में एक बड़ा मोड़ दर्शाता है।\nकारण (R): इसने खाद्य उत्पादन, पशुपालन और अधिक स्थायी ग्राम जीवन की शुरुआत की।\nनिम्नलिखित में से कौन-सा सही है?",
+        "options_english": {
+          "a": "Both A and R are true and R is the correct explanation of A",
+          "b": "Both A and R are true but R is not the correct explanation of A",
+          "c": "A is true but R is false",
+          "d": "A is false but R is true"
+        },
+        "options_telugu": {
+          "a": "A మరియు R రెండూ సరైనవి; R అనేది A కు సరైన వివరణ",
+          "b": "A మరియు R రెండూ సరైనవి; కానీ R అనేది A కు సరైన వివరణ కాదు",
+          "c": "A సరైనది కానీ R తప్పు",
+          "d": "A తప్పు కానీ R సరైనది"
+        },
+        "options_hindi": {
+          "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+          "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+          "c": "A सही है लेकिन R गलत है",
+          "d": "A गलत है लेकिन R सही है"
+        },
+        "correct_answer": "a",
+        "explanation_english": "The Assertion is correct because the Neolithic phase changed the basic mode of human life.\nEarlier humans largely depended on hunting and gathering, but Neolithic communities moved towards production.\nThe Reason is also correct because agriculture, animal domestication and settled village life are key Neolithic features.\nThese developments created a foundation for population growth, permanent settlements and social complexity.\nThe Reason directly explains why the Neolithic phase is called a turning point.\nTherefore, both A and R are true and R correctly explains A.",
+        "explanation_telugu": "Assertion సరైనది, ఎందుకంటే కొత్త రాతియుగం మానవ జీవన విధానాన్ని మౌలికంగా మార్చింది.\nముందటి దశల్లో మనుషులు ప్రధానంగా వేట మరియు ఆహార సేకరణపై ఆధారపడ్డారు; కొత్త రాతియుగంలో ఉత్పత్తి వైపు మార్పు జరిగింది.\nReason కూడా సరైనది, ఎందుకంటే వ్యవసాయం, జంతు పెంపకం మరియు స్థిర గ్రామ జీవనం కొత్త రాతియుగానికి ముఖ్య లక్షణాలు.\nఈ పరిణామాలు జనాభా పెరుగుదల, శాశ్వత నివాసాలు మరియు సామాజిక సంక్లిష్టతకు పునాది వేశాయి.\nReason నేరుగా కొత్త రాతియుగం ఎందుకు మలుపు దశగా పరిగణించబడుతుందో వివరిస్తుంది.\nకాబట్టి A మరియు R రెండూ సరైనవి; R అనేది A కు సరైన వివరణ.",
+        "explanation_hindi": "अभिकथन सही है क्योंकि नवपाषाण काल ने मानव जीवन की मूल पद्धति को बदल दिया।\nपहले मनुष्य मुख्यतः शिकार और खाद्य-संग्रह पर निर्भर था, लेकिन नवपाषाण समुदाय उत्पादन की ओर बढ़े।\nकारण भी सही है क्योंकि कृषि, पशुपालन और स्थायी ग्राम जीवन नवपाषाण काल की प्रमुख विशेषताएँ हैं।\nइन विकासों ने जनसंख्या वृद्धि, स्थायी बस्तियों और सामाजिक जटिलता की नींव रखी।\nकारण सीधे बताता है कि नवपाषाण काल को मोड़ क्यों माना जाता है।\nइसलिए A और R दोनों सही हैं तथा R, A की सही व्याख्या है।",
+        "elimination_logic_english": "In Assertion-Reason questions, first test both statements independently.\nThe Assertion is a standard idea because Neolithic life was very different from earlier hunting-gathering phases.\nThe Reason is factually correct since food production and animal domestication are defining Neolithic traits.\nThen check the relationship between the two statements.\nHere the Reason is not merely an extra fact; it explains the turning point mentioned in the Assertion.\nTherefore, option a is stronger than option b.",
+        "elimination_logic_telugu": "Assertion-Reason ప్రశ్నల్లో ముందుగా రెండు ప్రకటనలను విడిగా పరీక్షించాలి.\nAssertion ప్రామాణికమైనది, ఎందుకంటే కొత్త రాతియుగ జీవనం ముందటి వేట-సేకరణ దశలకంటే భిన్నంగా ఉంది.\nReason వాస్తవపరంగా సరైనది, ఎందుకంటే ఆహార ఉత్పత్తి మరియు జంతు పెంపకం కొత్త రాతియుగానికి ప్రధాన లక్షణాలు.\nతర్వాత రెండు ప్రకటనల మధ్య సంబంధాన్ని చూడాలి.\nఇక్కడ Reason అదనపు విషయం మాత్రమే కాదు; Assertion లో చెప్పిన మలుపు ఎందుకు వచ్చిందో వివరిస్తుంది.\nఅందువల్ల option b కంటే option a సరైనది.",
+        "elimination_logic_hindi": "Assertion-Reason प्रश्नों में पहले दोनों कथनों को अलग-अलग जाँचना चाहिए।\nअभिकथन सही है क्योंकि नवपाषाण जीवन पहले के शिकार-संग्रह चरणों से बहुत भिन्न था।\nकारण तथ्यात्मक रूप से सही है क्योंकि खाद्य उत्पादन और पशुपालन नवपाषाण काल की परिभाषित विशेषताएँ हैं।\nफिर दोनों कथनों के संबंध को देखना चाहिए।\nयहाँ कारण केवल अतिरिक्त तथ्य नहीं है; वह अभिकथन में बताए गए मोड़ को स्पष्ट करता है।\nइसलिए विकल्प b की तुलना में विकल्प a सही है।"
       }
     ]
   }
