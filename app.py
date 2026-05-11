@@ -200,6 +200,11 @@ def reports_page():
     return render_template("reports.html")
 
 
+@app.route("/mcq")
+def mcq_page():
+    return render_template("mcq.html")
+
+
 @app.route("/pyq-subjects", methods=["GET"])
 def pyq_subjects():
     return jsonify({"subjects": get_pyq_subjects()})
