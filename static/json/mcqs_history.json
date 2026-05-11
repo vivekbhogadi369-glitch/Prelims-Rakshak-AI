@@ -3166,6 +3166,441 @@
           "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है।\n\nमेगस्थनीज ने पाटलिपुत्र के सुव्यवस्थित प्रशासन की प्रशंसा की थी, उसके अभाव की नहीं।\n\nकथन 1 और 2 सेल्यूकस-मौर्य कूटनीतिक संबंधों से जुड़े मानक ऐतिहासिक तथ्य हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है."
         }
       ]
+    },
+
+    "Indo Greeks": {
+      "topic_english": "Indo Greeks",
+      "topic_telugu": "ఇండో గ్రీకులు",
+      "topic_hindi": "इंडो-ग्रीक",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Indo-Greeks:\n\n1. The Indo-Greeks established their rule in north-western parts of the Indian subcontinent.\n2. Menander is one of the most well-known Indo-Greek rulers.\n3. The Indo-Greeks emerged in India before the Mauryan Empire.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ఇండో-గ్రీకులకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇండో-గ్రీకులు భారత ఉపఖండంలోని వాయవ్య ప్రాంతాలలో తమ పాలనను స్థాపించారు.\n2. మెనాండర్ ప్రసిద్ధ ఇండో-గ్రీకు పాలకుల్లో ఒకడు.\n3. ఇండో-గ్రీకులు మౌర్య సామ్రాజ్యానికి ముందే భారతదేశంలో ఉద్భవించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "इंडो-ग्रीकों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इंडो-ग्रीकों ने भारतीय उपमहाद्वीप के उत्तर-पश्चिमी क्षेत्रों में अपना शासन स्थापित किया।\n2. मेनांडर प्रमुख इंडो-ग्रीक शासकों में से एक था।\n3. इंडो-ग्रीक भारत में मौर्य साम्राज्य से पहले उभरे थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Indo-Greeks established political control over north-western regions of the Indian subcontinent after the decline of Mauryan authority.\n\nMenander, also known as Milinda, was one of the most famous Indo-Greek rulers. Buddhist texts such as the Milinda Panha describe philosophical dialogues between Menander and the Buddhist monk Nagasena.\n\nStatement 3 is incorrect because the Indo-Greeks appeared in India after the Mauryan Empire, not before it.\n\nThe Indo-Greeks played an important role in cultural interaction between the Hellenistic world and ancient India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. మౌర్య సామ్రాజ్య పతనం తరువాత ఇండో-గ్రీకులు భారత ఉపఖండంలోని వాయవ్య ప్రాంతాలలో తమ రాజకీయ ఆధిపత్యాన్ని స్థాపించారు.\n\nమెనాండర్ లేదా మిలిందుడు ప్రసిద్ధ ఇండో-గ్రీకు పాలకుల్లో ఒకడు. మిలిందపఞ్హా అనే బౌద్ధ గ్రంథంలో మెనాండర్ మరియు నాగసేన మధ్య జరిగిన తాత్విక సంభాషణలు వివరించబడ్డాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే ఇండో-గ్రీకులు మౌర్యుల తరువాత భారతదేశంలో ఉద్భవించారు.\n\nఇండో-గ్రీకులు హెలెనిస్టిక్ ప్రపంచం మరియు భారతదేశం మధ్య సాంస్కృతిక పరస్పర సంబంధాలకు ముఖ్య పాత్ర పోషించారు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। मौर्य साम्राज्य के पतन के बाद इंडो-ग्रीकों ने भारतीय उपमहाद्वीप के उत्तर-पश्चिमी क्षेत्रों में अपना राजनीतिक नियंत्रण स्थापित किया।\n\nमेनांडर, जिसे मिलिंद भी कहा जाता है, प्रमुख इंडो-ग्रीक शासकों में से एक था। बौद्ध ग्रंथ 'मिलिंदपन्हा' में मेनांडर और नागसेन के बीच दार्शनिक संवाद का वर्णन मिलता है।\n\nकथन 3 गलत है क्योंकि इंडो-ग्रीक भारत में मौर्यों के बाद आए थे, पहले नहीं।\n\nइंडो-ग्रीकों ने हेलेनिस्टिक विश्व और भारत के बीच सांस्कृतिक संपर्क में महत्वपूर्ण भूमिका निभाई।",
+
+          "elimination_logic_english": "Statement 3 is the chronological trap.\n\nThe Indo-Greeks entered north-western India after the weakening of Mauryan authority.\n\nStatements 1 and 2 are standard historical facts related to Indo-Greek political expansion and Menander.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన కాలక్రమ ఉచ్చు.\n\nమౌర్య సామ్రాజ్యం బలహీనపడిన తరువాతే ఇండో-గ్రీకులు భారతదేశంలోకి ప్రవేశించారు.\n\nప్రకటనలు 1 మరియు 2 ఇండో-గ్రీకుల రాజకీయ విస్తరణ మరియు మెనాండర్‌కు సంబంధించిన ప్రామాణిక చారిత్రక అంశాలు.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य कालानुक्रमिक भ्रम है।\n\nइंडो-ग्रीक मौर्य सत्ता के कमजोर होने के बाद उत्तर-पश्चिम भारत में आए।\n\nकथन 1 और 2 इंडो-ग्रीक विस्तार और मेनांडर से जुड़े मानक ऐतिहासिक तथ्य हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following Indo-Greek rulers is associated with the Buddhist text 'Milinda Panha'?",
+
+          "options_english": {
+            "a": "Demetrius",
+            "b": "Menander",
+            "c": "Antiochus",
+            "d": "Heliodorus"
+          },
+
+          "question_telugu": "'మిలిందపఞ్హా' బౌద్ధ గ్రంథంతో సంబంధం ఉన్న ఇండో-గ్రీకు పాలకుడు క్రింది వారిలో ఎవరు?",
+
+          "options_telugu": {
+            "a": "డెమెట్రియస్",
+            "b": "మెనాండర్",
+            "c": "ఆంటియోకస్",
+            "d": "హెలియోడోరస్"
+          },
+
+          "question_hindi": "'मिलिंदपन्हा' बौद्ध ग्रंथ से संबंधित इंडो-ग्रीक शासक निम्नलिखित में से कौन था?",
+
+          "options_hindi": {
+            "a": "डेमेट्रियस",
+            "b": "मेनांडर",
+            "c": "एंटियोकस",
+            "d": "हेलियोडोरस"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Menander, also known as Milinda, is associated with the Buddhist text Milinda Panha. The text records philosophical discussions between Menander and the Buddhist monk Nagasena.\n\nThe work reflects intellectual interaction between Greek and Indian traditions and is considered an important example of cross-cultural exchange in ancient India.\n\nMenander is also remembered as one of the most successful Indo-Greek rulers and is believed to have shown interest in Buddhism.\n\nUPSC frequently asks personality-text associations in ancient Indian history.",
+
+          "explanation_telugu": "మెనాండర్ లేదా మిలిందుడు 'మిలిందపఞ్హా' బౌద్ధ గ్రంథంతో సంబంధం ఉన్న ఇండో-గ్రీకు పాలకుడు. ఈ గ్రంథంలో మెనాండర్ మరియు బౌద్ధ భిక్షువు నాగసేన మధ్య జరిగిన తాత్విక సంభాషణలు ఉన్నాయి.\n\nఈ గ్రంథం గ్రీకు మరియు భారతీయ ఆలోచనా సంప్రదాయాల మధ్య మేధో పరస్పర సంబంధాన్ని ప్రతిబింబిస్తుంది.\n\nమెనాండర్ విజయవంతమైన ఇండో-గ్రీకు పాలకుల్లో ఒకడిగా గుర్తించబడుతున్నాడు మరియు బౌద్ధమతంపై ఆసక్తి చూపినట్లు భావిస్తారు.\n\nవ్యక్తులు మరియు గ్రంథాల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "मेनांडर, जिसे मिलिंद भी कहा जाता है, 'मिलिंदपन्हा' बौद्ध ग्रंथ से संबंधित इंडो-ग्रीक शासक था। इस ग्रंथ में मेनांडर और बौद्ध भिक्षु नागसेन के बीच दार्शनिक संवाद का वर्णन है।\n\nयह ग्रंथ यूनानी और भारतीय बौद्धिक परंपराओं के बीच सांस्कृतिक संपर्क का महत्वपूर्ण उदाहरण माना जाता है।\n\nमेनांडर को प्रमुख इंडो-ग्रीक शासकों में गिना जाता है और माना जाता है कि उसने बौद्ध धर्म में रुचि दिखाई थी।\n\nUPSC अक्सर व्यक्तियों और ग्रंथों के संबंध पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "The keyword 'Milinda Panha' directly points toward Menander because 'Milinda' is another name for him.\n\nDemetrius and Antiochus were Hellenistic rulers not associated with this Buddhist dialogue text.\n\nHeliodorus is associated with the Heliodorus pillar rather than Milinda Panha.\n\nThus, option b is the correct answer.",
+
+          "elimination_logic_telugu": "'మిలిందపఞ్హా' అనే కీలక పదం నేరుగా మెనాండర్‌ను సూచిస్తుంది, ఎందుకంటే 'మిలింద' అనేది అతని మరో పేరు.\n\nడెమెట్రియస్ మరియు ఆంటియోకస్ ఈ బౌద్ధ గ్రంథంతో సంబంధం లేని హెలెనిస్టిక్ పాలకులు.\n\nహెలియోడోరస్ హెలియోడోరస్ స్తంభంతో సంబంధం కలిగి ఉన్నాడు.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "'मिलिंदपन्हा' शब्द सीधे मेनांडर की ओर संकेत करता है क्योंकि 'मिलिंद' उसका दूसरा नाम था।\n\nडेमेट्रियस और एंटियोकस इस बौद्ध ग्रंथ से संबंधित नहीं हैं।\n\nहेलियोडोरस हेलियोडोरस स्तंभ से संबंधित है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Indo-Greeks contributed to cultural interaction in ancient India.\n\nReason (R): Contacts between Greek and Indian traditions influenced art, coinage and intellectual exchange.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఇండో-గ్రీకులు ప్రాచీన భారతదేశంలో సాంస్కృతిక పరస్పర సంబంధాలకు దోహదపడ్డారు.\n\nకారణం (R): గ్రీకు మరియు భారతీయ సంప్రదాయాల మధ్య సంబంధాలు కళ, నాణేల వ్యవస్థ మరియు మేధో మార్పిడిపై ప్రభావం చూపాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): इंडो-ग्रीकों ने प्राचीन भारत में सांस्कृतिक संपर्क को बढ़ावा दिया।\n\nकारण (R): यूनानी और भारतीय परंपराओं के बीच संपर्क ने कला, मुद्रा प्रणाली और बौद्धिक आदान-प्रदान को प्रभावित किया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Indo-Greek period witnessed important cultural interactions between Hellenistic and Indian traditions.\n\nGreek artistic influence contributed to developments later visible in Gandhara art. Indo-Greek coinage introduced refined portraiture and bilingual inscriptions.\n\nIntellectual exchanges are reflected in works such as Milinda Panha, which records philosophical dialogue between Menander and Nagasena.\n\nThus, the Indo-Greeks played a significant role in promoting cross-cultural exchange in ancient India.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ఇండో-గ్రీకు కాలంలో హెలెనిస్టిక్ మరియు భారతీయ సంప్రదాయాల మధ్య ముఖ్యమైన సాంస్కృతిక పరస్పర సంబంధాలు ఏర్పడ్డాయి.\n\nగ్రీకు కళా ప్రభావం తరువాత గాంధార కళలో కనిపించే అభివృద్ధులకు దోహదపడింది. ఇండో-గ్రీకు నాణేలు మెరుగైన చిత్రలేఖనం మరియు ద్విభాషా శాసనాలను ప్రవేశపెట్టాయి.\n\nమెనాండర్ మరియు నాగసేన మధ్య తాత్విక సంభాషణలను వివరించే మిలిందపఞ్హా వంటి గ్రంథాలు మేధో మార్పిడిని ప్రతిబింబిస్తాయి.\n\nఅందువల్ల ఇండో-గ్రీకులు ప్రాచీన భారతదేశంలో సాంస్కృతిక పరస్పర మార్పిడికి ముఖ్య పాత్ర పోషించారు.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। इंडो-ग्रीक काल में हेलेनिस्टिक और भारतीय परंपराओं के बीच महत्वपूर्ण सांस्कृतिक संपर्क विकसित हुए।\n\nयूनानी कलात्मक प्रभाव बाद में गांधार कला में दिखाई देता है। इंडो-ग्रीक मुद्राओं में उत्कृष्ट चित्रांकन और द्विभाषी अभिलेख मिलते हैं।\n\nमिलिंदपन्हा जैसे ग्रंथ बौद्धिक आदान-प्रदान को दर्शाते हैं, जिनमें मेनांडर और नागसेन के बीच दार्शनिक संवाद वर्णित हैं।\n\nइस प्रकार इंडो-ग्रीकों ने प्राचीन भारत में सांस्कृतिक संपर्क को बढ़ावा देने में महत्वपूर्ण भूमिका निभाई।",
+
+          "elimination_logic_english": "The Reason directly explains the cultural role of the Indo-Greeks.\n\nUPSC often tests whether aspirants can connect political contacts with broader cultural developments.\n\nArtistic styles, coinage systems and intellectual dialogues all reflect Indo-Greek cultural influence.\n\nTherefore, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం ఇండో-గ్రీకుల సాంస్కృతిక పాత్రను నేరుగా వివరిస్తుంది.\n\nరాజకీయ సంబంధాలు మరియు సాంస్కృతిక అభివృద్ధుల మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nకళ, నాణేల వ్యవస్థ మరియు మేధో సంభాషణలు అన్నీ ఇండో-గ్రీకు ప్రభావాన్ని ప్రతిబింబిస్తాయి.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि इंडो-ग्रीकों ने सांस्कृतिक संपर्क को कैसे बढ़ावा दिया।\n\nUPSC अक्सर राजनीतिक संपर्कों और सांस्कृतिक विकास के बीच संबंध को परखता है।\n\nकला, मुद्रा प्रणाली और बौद्धिक संवाद इंडो-ग्रीक प्रभाव को दर्शाते हैं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Indo-Greek coinage:\n\n1. Indo-Greek coins often carried bilingual inscriptions.\n2. Portraits of rulers appeared prominently on many Indo-Greek coins.\n3. Indo-Greek coins completely rejected Hellenistic artistic influence.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ఇండో-గ్రీకు నాణేల గురించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇండో-గ్రీకు నాణేలపై తరచుగా ద్విభాషా శాసనాలు ఉండేవి.\n2. అనేక ఇండో-గ్రీకు నాణేలపై పాలకుల చిత్రాలు కనిపించేవి.\n3. ఇండో-గ్రీకు నాణేలు హెలెనిస్టిక్ కళా ప్రభావాన్ని పూర్తిగా తిరస్కరించాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "इंडो-ग्रीक मुद्राओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इंडो-ग्रीक मुद्राओं पर प्रायः द्विभाषी अभिलेख मिलते हैं।\n2. अनेक इंडो-ग्रीक मुद्राओं पर शासकों के चित्र अंकित थे।\n3. इंडो-ग्रीक मुद्राओं ने हेलेनिस्टिक कलात्मक प्रभाव को पूर्णतः अस्वीकार कर दिया था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Indo-Greek coinage is famous for its artistic quality, bilingual inscriptions and realistic portraits of rulers.\n\nThese coins often carried Greek legends on one side and Prakrit written in Kharosthi script on the other, reflecting interaction between Greek and Indian traditions.\n\nStatement 3 is incorrect because Indo-Greek coinage strongly reflected Hellenistic artistic influence, especially in portraiture and iconography.\n\nIndo-Greek coins are considered highly important historical sources for political chronology, trade and cultural exchange in ancient India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ఇండో-గ్రీకు నాణేలు కళాత్మక నాణ్యత, ద్విభాషా శాసనాలు మరియు పాలకుల వాస్తవిక చిత్రాల కోసం ప్రసిద్ధి చెందాయి.\n\nఈ నాణేల ఒక వైపున గ్రీకు భాషా శాసనాలు మరియు మరో వైపున ఖరోష్ఠి లిపిలో ప్రాకృత శాసనాలు ఉండేవి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే ఇండో-గ్రీకు నాణేలు హెలెనిస్టిక్ కళా ప్రభావాన్ని బలంగా ప్రతిబింబించాయి.\n\nప్రాచీన భారతదేశ రాజకీయ చరిత్ర, వాణిజ్యం మరియు సాంస్కృతిక పరస్పర సంబంధాలను అర్థం చేసుకోవడంలో ఇండో-గ్రీకు నాణేలు ముఖ్య ఆధారాలు.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। इंडो-ग्रीक मुद्राएँ अपनी कलात्मक गुणवत्ता, द्विभाषी अभिलेखों और शासकों के यथार्थवादी चित्रों के लिए प्रसिद्ध हैं।\n\nइन मुद्राओं पर एक ओर यूनानी भाषा और दूसरी ओर खरोष्ठी लिपि में प्राकृत भाषा के अभिलेख मिलते हैं, जो यूनानी और भारतीय परंपराओं के संपर्क को दर्शाते हैं।\n\nकथन 3 गलत है क्योंकि इंडो-ग्रीक मुद्राओं पर हेलेनिस्टिक कलात्मक प्रभाव स्पष्ट रूप से दिखाई देता है।\n\nइंडो-ग्रीक मुद्राएँ प्राचीन भारत की राजनीतिक, आर्थिक और सांस्कृतिक समझ के महत्वपूर्ण स्रोत हैं।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap.\n\nIndo-Greek coinage is actually one of the clearest examples of Hellenistic artistic influence in ancient India.\n\nStatements 1 and 2 correctly describe bilingual inscriptions and ruler portraits.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nఇండో-గ్రీకు నాణేలు ప్రాచీన భారతదేశంలో హెలెనిస్టిక్ కళా ప్రభావానికి స్పష్టమైన ఉదాహరణలు.\n\nప్రకటనలు 1 మరియు 2 ద్విభాషా శాసనాలు మరియు పాలకుల చిత్రాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nइंडो-ग्रीक मुद्राएँ वास्तव में प्राचीन भारत में हेलेनिस्टिक कला प्रभाव का स्पष्ट उदाहरण हैं।\n\nकथन 1 और 2 द्विभाषी अभिलेखों और शासकों के चित्रों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following regions became an important centre of Indo-Greek political activity in ancient India?",
+
+          "options_english": {
+            "a": "Deep South India",
+            "b": "North-western India",
+            "c": "Eastern Coastal India",
+            "d": "Central Deccan Plateau"
+          },
+
+          "question_telugu": "ప్రాచీన భారతదేశంలో ఇండో-గ్రీకు రాజకీయ కార్యకలాపాలకు ముఖ్య కేంద్రంగా మారిన ప్రాంతం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "దక్షిణ భారతదేశం",
+            "b": "వాయవ్య భారతదేశం",
+            "c": "తూర్పు తీర ప్రాంతం",
+            "d": "మధ్య దక్కన్ పీఠభూమి"
+          },
+
+          "question_hindi": "प्राचीन भारत में इंडो-ग्रीक राजनीतिक गतिविधियों का महत्वपूर्ण केंद्र निम्नलिखित में से कौन-सा क्षेत्र था?",
+
+          "options_hindi": {
+            "a": "दक्षिण भारत",
+            "b": "उत्तर-पश्चिम भारत",
+            "c": "पूर्वी तटीय भारत",
+            "d": "मध्य दक्कन पठार"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "North-western India became the principal centre of Indo-Greek political expansion and activity. The region's strategic position connected Central Asia, Afghanistan and the Indian subcontinent.\n\nCities such as Taxila became important centres of administration, trade and cultural interaction.\n\nThe Indo-Greeks established control over territories in present-day Afghanistan, Pakistan and north-western India after the decline of Mauryan authority.\n\nThe north-west served as a gateway for several foreign groups entering India, making it historically significant for UPSC preparation.",
+
+          "explanation_telugu": "వాయవ్య భారతదేశం ఇండో-గ్రీకు రాజకీయ విస్తరణ మరియు కార్యకలాపాల ప్రధాన కేంద్రంగా మారింది. ఈ ప్రాంతం మధ్య ఆసియా, ఆఫ్ఘనిస్తాన్ మరియు భారత ఉపఖండాన్ని అనుసంధానించే వ్యూహాత్మక స్థానం కలిగి ఉంది.\n\nతక్షశిల వంటి నగరాలు పరిపాలన, వాణిజ్యం మరియు సాంస్కృతిక పరస్పర సంబంధాల కేంద్రాలుగా ఎదిగాయి.\n\nమౌర్య సామ్రాజ్య పతనం తరువాత ఇండో-గ్రీకులు ఆఫ్ఘనిస్తాన్, పాకిస్తాన్ మరియు వాయవ్య భారతదేశంలోని ప్రాంతాలపై నియంత్రణ సాధించారు.\n\nభారతదేశంలోకి ప్రవేశించిన అనేక విదేశీ వర్గాలకు వాయవ్య ప్రాంతం ప్రవేశ ద్వారంగా ఉండటం వల్ల ఇది చారిత్రకంగా అత్యంత ముఖ్యమైనది.",
+
+          "explanation_hindi": "उत्तर-पश्चिम भारत इंडो-ग्रीक राजनीतिक विस्तार और गतिविधियों का प्रमुख केंद्र बना। यह क्षेत्र मध्य एशिया, अफगानिस्तान और भारतीय उपमहाद्वीप को जोड़ने वाली रणनीतिक स्थिति में था।\n\nतक्षशिला जैसे नगर प्रशासन, व्यापार और सांस्कृतिक संपर्क के महत्वपूर्ण केंद्र बने।\n\nमौर्य सत्ता के पतन के बाद इंडो-ग्रीकों ने वर्तमान अफगानिस्तान, पाकिस्तान और उत्तर-पश्चिम भारत के क्षेत्रों पर नियंत्रण स्थापित किया।\n\nउत्तर-पश्चिम भारत अनेक विदेशी समूहों के प्रवेश का द्वार था, इसलिए यह UPSC इतिहास में अत्यंत महत्वपूर्ण क्षेत्र माना जाता है।",
+
+          "elimination_logic_english": "The Indo-Greeks historically entered India through the north-western frontier regions.\n\nThe other options do not match the known geographical spread of Indo-Greek political influence.\n\nTaxila, Gandhara and adjoining regions strongly connect Indo-Greek history with north-western India.\n\nThus, option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఇండో-గ్రీకులు చారిత్రకంగా వాయవ్య సరిహద్దు ప్రాంతాల ద్వారా భారతదేశంలోకి ప్రవేశించారు.\n\nఇతర ఎంపికలు ఇండో-గ్రీకు రాజకీయ ప్రభావ పరిధికి సరిపోవు.\n\nతక్షశిల, గాంధార వంటి ప్రాంతాలు ఇండో-గ్రీకు చరిత్రను వాయవ్య భారతదేశంతో బలంగా అనుసంధానిస్తాయి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "इंडो-ग्रीक ऐतिहासिक रूप से उत्तर-पश्चिमी सीमा क्षेत्रों के माध्यम से भारत में प्रवेश किए।\n\nअन्य विकल्प इंडो-ग्रीक राजनीतिक प्रभाव के ज्ञात भौगोलिक विस्तार से मेल नहीं खाते।\n\nतक्षशिला और गांधार जैसे क्षेत्र इंडो-ग्रीक इतिहास को उत्तर-पश्चिम भारत से जोड़ते हैं।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Indo-Greek rule encouraged interaction between Indian and Hellenistic traditions.\n\nReason (R): Political and commercial contacts facilitated cultural exchange in art and religion.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఇండో-గ్రీకు పాలన భారతీయ మరియు హెలెనిస్టిక్ సంప్రదాయాల మధ్య పరస్పర సంబంధాలను ప్రోత్సహించింది.\n\nకారణం (R): రాజకీయ మరియు వాణిజ్య సంబంధాలు కళ మరియు మతంలో సాంస్కృతిక మార్పిడికి దోహదపడ్డాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): इंडो-ग्रीक शासन ने भारतीय और हेलेनिस्टिक परंपराओं के बीच संपर्क को प्रोत्साहित किया।\n\nकारण (R): राजनीतिक और व्यापारिक संपर्कों ने कला और धर्म में सांस्कृतिक आदान-प्रदान को बढ़ावा दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Indo-Greek rule created conditions for sustained interaction between Indian and Hellenistic cultural traditions.\n\nPolitical contacts, trade routes and urban centres enabled exchange in fields such as art, coinage, religion and philosophy.\n\nGreek artistic influence later contributed to Gandhara art, while Indian religious ideas also influenced some Indo-Greek rulers.\n\nThese developments illustrate how political interaction often produces wider cultural synthesis in history.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ఇండో-గ్రీకు పాలన భారతీయ మరియు హెలెనిస్టిక్ సంప్రదాయాల మధ్య దీర్ఘకాలిక పరస్పర సంబంధాలకు అనుకూల పరిస్థితులను సృష్టించింది.\n\nరాజకీయ సంబంధాలు, వాణిజ్య మార్గాలు మరియు పట్టణ కేంద్రాలు కళ, నాణేల వ్యవస్థ, మతం మరియు తాత్విక ఆలోచనల మార్పిడికి దోహదపడ్డాయి.\n\nగ్రీకు కళా ప్రభావం తరువాత గాంధార కళ అభివృద్ధికి సహకరించింది. అలాగే భారతీయ మత భావనలు కొన్ని ఇండో-గ్రీకు పాలకులను ప్రభావితం చేశాయి.\n\nరాజకీయ సంబంధాలు సాంస్కృతిక సమ్మేళనానికి ఎలా దోహదపడతాయో ఈ పరిణామాలు చూపిస్తున్నాయి.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। इंडो-ग्रीक शासन ने भारतीय और हेलेनिस्टिक सांस्कृतिक परंपराओं के बीच निरंतर संपर्क को बढ़ावा दिया।\n\nराजनीतिक संपर्क, व्यापार मार्ग और नगरों ने कला, मुद्रा, धर्म और दर्शन के क्षेत्र में आदान-प्रदान को संभव बनाया।\n\nयूनानी कलात्मक प्रभाव बाद में गांधार कला में दिखाई देता है, जबकि भारतीय धार्मिक विचारों ने कुछ इंडो-ग्रीक शासकों को प्रभावित किया।\n\nये विकास दर्शाते हैं कि राजनीतिक संपर्क अक्सर व्यापक सांस्कृतिक समन्वय को जन्म देते हैं।",
+
+          "elimination_logic_english": "The Reason directly explains how Indo-Greek interaction produced cultural exchange.\n\nUPSC often tests whether aspirants can connect trade and political expansion with cultural developments.\n\nArtistic influence, religious interaction and commercial networks together explain the broader Indo-Greek cultural impact.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం ఇండో-గ్రీకు పరస్పర సంబంధాలు సాంస్కృతిక మార్పిడికి ఎలా దోహదపడ్డాయో నేరుగా వివరిస్తుంది.\n\nవాణిజ్యం, రాజకీయ విస్తరణ మరియు సాంస్కృతిక అభివృద్ధుల మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nకళా ప్రభావం, మత పరస్పర సంబంధాలు మరియు వాణిజ్య మార్గాలు కలిసి ఇండో-గ్రీకు సాంస్కృతిక ప్రభావాన్ని వివరించాయి.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि इंडो-ग्रीक संपर्कों ने सांस्कृतिक आदान-प्रदान को कैसे बढ़ावा दिया।\n\nUPSC अक्सर व्यापार, राजनीतिक विस्तार और सांस्कृतिक विकास के बीच संबंध को परखता है।\n\nकलात्मक प्रभाव, धार्मिक संपर्क और व्यापारिक नेटवर्क मिलकर इंडो-ग्रीक सांस्कृतिक प्रभाव को स्पष्ट करते हैं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the cultural impact of the Indo-Greeks:\n\n1. Indo-Greek interactions influenced the development of Gandhara art.\n2. Greek influence is visible in certain sculptural styles of north-western India.\n3. The Indo-Greeks completely isolated themselves from Indian religious traditions.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ఇండో-గ్రీకుల సాంస్కృతిక ప్రభావానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇండో-గ్రీకు పరస్పర సంబంధాలు గాంధార కళ అభివృద్ధిపై ప్రభావం చూపాయి.\n2. వాయవ్య భారతదేశంలోని కొన్ని శిల్పకళా శైలుల్లో గ్రీకు ప్రభావం కనిపిస్తుంది.\n3. ఇండో-గ్రీకులు భారతీయ మత సంప్రదాయాల నుండి పూర్తిగా వేరుపడ్డారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "इंडो-ग्रीकों के सांस्कृतिक प्रभाव के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इंडो-ग्रीक संपर्कों ने गांधार कला के विकास को प्रभावित किया।\n2. उत्तर-पश्चिम भारत की कुछ मूर्तिकला शैलियों में यूनानी प्रभाव दिखाई देता है।\n3. इंडो-ग्रीकों ने स्वयं को भारतीय धार्मिक परंपराओं से पूर्णतः अलग रखा।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The interaction between Greek and Indian traditions significantly influenced the development of Gandhara art in north-western India.\n\nFeatures such as realistic human forms, drapery styles and sculptural techniques reflect Hellenistic artistic influence.\n\nStatement 3 is incorrect because several Indo-Greek rulers interacted with Indian religious traditions, especially Buddhism. Menander is one prominent example associated with Buddhist philosophical discussions.\n\nThe Indo-Greek period demonstrates how cultural interaction can create hybrid artistic and intellectual traditions.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. గ్రీకు మరియు భారతీయ సంప్రదాయాల పరస్పర సంబంధం వాయవ్య భారతదేశంలోని గాంధార కళ అభివృద్ధిపై గణనీయ ప్రభావం చూపింది.\n\nవాస్తవిక మానవ రూపాలు, వస్త్రాల శైలి మరియు శిల్పకళా పద్ధతుల్లో హెలెనిస్టిక్ కళా ప్రభావం కనిపిస్తుంది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే అనేక ఇండో-గ్రీకు పాలకులు భారతీయ మత సంప్రదాయాలతో, ముఖ్యంగా బౌద్ధమతంతో, సంబంధం కలిగి ఉన్నారు.\n\nఇండో-గ్రీకు కాలం సాంస్కృతిక పరస్పర సంబంధాలు మిశ్రమ కళా మరియు మేధో సంప్రదాయాలను ఎలా సృష్టిస్తాయో చూపిస్తుంది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। यूनानी और भारतीय परंपराओं के संपर्क ने उत्तर-पश्चिम भारत में गांधार कला के विकास को गहराई से प्रभावित किया।\n\nयथार्थवादी मानव आकृतियाँ, वस्त्र शैली और मूर्तिकला तकनीकें हेलेनिस्टिक प्रभाव को दर्शाती हैं।\n\nकथन 3 गलत है क्योंकि कई इंडो-ग्रीक शासकों का भारतीय धार्मिक परंपराओं, विशेषकर बौद्ध धर्म, से संपर्क था। मेनांडर इसका प्रमुख उदाहरण है।\n\nइंडो-ग्रीक काल यह दर्शाता है कि सांस्कृतिक संपर्क मिश्रित कलात्मक और बौद्धिक परंपराओं को जन्म दे सकता है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap.\n\nThe Indo-Greeks did not remain isolated from Indian traditions. Instead, their rule encouraged cultural and religious interaction.\n\nStatements 1 and 2 correctly describe the Hellenistic influence on Gandhara art and sculpture.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nఇండో-గ్రీకులు భారతీయ సంప్రదాయాల నుండి వేరుపడలేదు. వారి పాలన సాంస్కృతిక మరియు మత పరస్పర సంబంధాలను ప్రోత్సహించింది.\n\nప్రకటనలు 1 మరియు 2 గాంధార కళపై హెలెనిస్టిక్ ప్రభావాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nइंडो-ग्रीक भारतीय परंपराओं से अलग नहीं रहे, बल्कि उनके शासन ने सांस्कृतिक और धार्मिक संपर्क को बढ़ावा दिया।\n\nकथन 1 और 2 गांधार कला पर हेलेनिस्टिक प्रभाव का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Which one of the following best explains the historical significance of Indo-Greek coinage?",
+
+          "options_english": {
+            "a": "It avoided the use of inscriptions completely",
+            "b": "It introduced high artistic standards and bilingual legends",
+            "c": "It was used only for religious rituals",
+            "d": "It completely replaced all indigenous coin traditions"
+          },
+
+          "question_telugu": "ఇండో-గ్రీకు నాణేల చారిత్రక ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "వాటిలో ఎలాంటి శాసనాలు ఉండేవి కావు",
+            "b": "అవి ఉన్నత కళాత్మక ప్రమాణాలు మరియు ద్విభాషా శాసనాలను ప్రవేశపెట్టాయి",
+            "c": "అవి కేవలం మత కర్మకాండల కోసం మాత్రమే ఉపయోగించబడ్డాయి",
+            "d": "అవి భారతీయ నాణేల సంప్రదాయాలను పూర్తిగా భర్తీ చేశాయి"
+          },
+
+          "question_hindi": "इंडो-ग्रीक मुद्राओं के ऐतिहासिक महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "इनमें किसी प्रकार के अभिलेख नहीं थे",
+            "b": "इनमें उच्च कलात्मक स्तर और द्विभाषी अभिलेख मिलते हैं",
+            "c": "इनका उपयोग केवल धार्मिक अनुष्ठानों में होता था",
+            "d": "इन्होंने सभी भारतीय मुद्रा परंपराओं को पूर्णतः समाप्त कर दिया"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Indo-Greek coinage is historically significant because of its refined artistic quality, realistic ruler portraits and bilingual inscriptions.\n\nThese coins reflected a fusion of Greek and Indian traditions and became important evidence for political chronology, trade and cultural interaction.\n\nThe use of bilingual legends helped historians understand linguistic and cultural exchanges between Greek and Indian populations.\n\nIndo-Greek coinage also influenced later coin traditions in north-western India.",
+
+          "explanation_telugu": "ఇండో-గ్రీకు నాణేలు ఉన్నత కళాత్మక నాణ్యత, పాలకుల వాస్తవిక చిత్రాలు మరియు ద్విభాషా శాసనాల వల్ల చారిత్రకంగా ఎంతో ప్రాముఖ్యత పొందాయి.\n\nఈ నాణేలు గ్రీకు మరియు భారతీయ సంప్రదాయాల సమ్మేళనాన్ని ప్రతిబింబించాయి మరియు రాజకీయ చరిత్ర, వాణిజ్యం మరియు సాంస్కృతిక పరస్పర సంబంధాలకు ఆధారాలుగా నిలిచాయి.\n\nద్విభాషా శాసనాలు భాషా మరియు సాంస్కృతిక మార్పిడిని అర్థం చేసుకోవడంలో సహాయపడ్డాయి.\n\nఇండో-గ్రీకు నాణేలు తరువాతి నాణేల సంప్రదాయాలపై కూడా ప్రభావం చూపాయి.",
+
+          "explanation_hindi": "इंडो-ग्रीक मुद्राएँ अपनी उत्कृष्ट कलात्मक गुणवत्ता, शासकों के यथार्थवादी चित्रों और द्विभाषी अभिलेखों के कारण ऐतिहासिक रूप से अत्यंत महत्वपूर्ण हैं।\n\nये मुद्राएँ यूनानी और भारतीय परंपराओं के समन्वय को दर्शाती हैं तथा राजनीतिक इतिहास, व्यापार और सांस्कृतिक संपर्क के महत्वपूर्ण स्रोत हैं।\n\nद्विभाषी अभिलेखों ने भाषाई और सांस्कृतिक आदान-प्रदान को समझने में सहायता की।\n\nइंडो-ग्रीक मुद्रा प्रणाली ने बाद की भारतीय मुद्रा परंपराओं को भी प्रभावित किया।",
+
+          "elimination_logic_english": "Options a, c and d are historically incorrect exaggerations.\n\nIndo-Greek coins are actually known for inscriptions and artistic sophistication.\n\nThey were used in economic exchange rather than only in religious rituals.\n\nThey also influenced but did not completely replace indigenous traditions.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d చారిత్రకంగా తప్పు మరియు అతిశయోక్తులు.\n\nఇండో-గ్రీకు నాణేలు శాసనాలు మరియు కళాత్మక నైపుణ్యం కోసం ప్రసిద్ధి చెందాయి.\n\nఅవి కేవలం మత కర్మకాండల కోసం కాకుండా ఆర్థిక లావాదేవీలలో ఉపయోగించబడ్డాయి.\n\nఅవి భారతీయ సంప్రదాయాలను ప్రభావితం చేశాయి కానీ పూర్తిగా భర్తీ చేయలేదు.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत अतिशयोक्तियाँ हैं।\n\nइंडो-ग्रीक मुद्राएँ वास्तव में अभिलेखों और कलात्मक उत्कृष्टता के लिए प्रसिद्ध हैं।\n\nइनका उपयोग आर्थिक लेन-देन में होता था, केवल धार्मिक अनुष्ठानों में नहीं।\n\nउन्होंने भारतीय मुद्रा परंपराओं को प्रभावित किया लेकिन पूरी तरह समाप्त नहीं किया।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Consider the following statements regarding Indo-Greek cultural exchanges:\n\n1. Indo-Greek interactions encouraged artistic synthesis.\n2. Some Indo-Greek rulers adopted Indian religious traditions.\n3. Indo-Greek rule completely eliminated local cultural practices.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ఇండో-గ్రీకు సాంస్కృతిక పరస్పర సంబంధాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇండో-గ్రీకు పరస్పర సంబంధాలు కళాత్మక సమ్మేళనాన్ని ప్రోత్సహించాయి.\n2. కొన్ని ఇండో-గ్రీకు పాలకులు భారతీయ మత సంప్రదాయాలను స్వీకరించారు.\n3. ఇండో-గ్రీకు పాలన స్థానిక సాంస్కృతిక సంప్రదాయాలను పూర్తిగా తొలగించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "इंडो-ग्रीक सांस्कृतिक संपर्कों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इंडो-ग्रीक संपर्कों ने कलात्मक समन्वय को बढ़ावा दिया।\n2. कुछ इंडो-ग्रीक शासकों ने भारतीय धार्मिक परंपराओं को अपनाया।\n3. इंडो-ग्रीक शासन ने स्थानीय सांस्कृतिक परंपराओं को पूर्णतः समाप्त कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Indo-Greek interactions encouraged cultural synthesis in art, religion and intellectual traditions.\n\nGreek artistic styles blended with Indian themes, especially in north-western India. Some Indo-Greek rulers, particularly Menander, are associated with Buddhism and Indian religious thought.\n\nStatement 3 is incorrect because local traditions continued alongside foreign influences. Cultural interaction generally produced synthesis rather than complete replacement.\n\nThe Indo-Greek period is an important example of cross-cultural interaction in ancient India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ఇండో-గ్రీకు పరస్పర సంబంధాలు కళ, మతం మరియు మేధో సంప్రదాయాలలో సాంస్కృతిక సమ్మేళనాన్ని ప్రోత్సహించాయి.\n\nగ్రీకు కళా శైలులు భారతీయ అంశాలతో కలిశాయి, ముఖ్యంగా వాయవ్య భారతదేశంలో. మెనాండర్ వంటి కొన్ని ఇండో-గ్రీకు పాలకులు బౌద్ధమతంతో సంబంధం కలిగి ఉన్నారు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే స్థానిక సంప్రదాయాలు కొనసాగాయి. సాంస్కృతిక పరస్పర సంబంధం సాధారణంగా సమ్మేళనాన్ని సృష్టించింది కానీ సంపూర్ణ మార్పును కాదు.\n\nఇండో-గ్రీకు కాలం ప్రాచీన భారతదేశంలోని సాంస్కృతిక పరస్పర సంబంధాల ముఖ్య ఉదాహరణ.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। इंडो-ग्रीक संपर्कों ने कला, धर्म और बौद्धिक परंपराओं में सांस्कृतिक समन्वय को बढ़ावा दिया।\n\nयूनानी कलात्मक शैलियाँ भारतीय विषयों के साथ मिश्रित हुईं, विशेषकर उत्तर-पश्चिम भारत में। मेनांडर जैसे कुछ इंडो-ग्रीक शासकों का संबंध बौद्ध धर्म से माना जाता है।\n\nकथन 3 गलत है क्योंकि स्थानीय परंपराएँ जारी रहीं। सांस्कृतिक संपर्क ने सामान्यतः समन्वय उत्पन्न किया, पूर्ण प्रतिस्थापन नहीं।\n\nइंडो-ग्रीक काल प्राचीन भारत में सांस्कृतिक संपर्क का महत्वपूर्ण उदाहरण है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap.\n\nHistorical interaction between cultures usually creates synthesis rather than total destruction of local traditions.\n\nStatements 1 and 2 correctly describe Indo-Greek artistic and religious interactions.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nసాంస్కృతిక పరస్పర సంబంధాలు సాధారణంగా స్థానిక సంప్రదాయాల సంపూర్ణ నాశనానికి కాకుండా సమ్మేళనానికి దారితీస్తాయి.\n\nప్రకటనలు 1 మరియు 2 ఇండో-గ్రీకు కళాత్మక మరియు మత పరస్పర సంబంధాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nइतिहास में सांस्कृतिक संपर्क सामान्यतः समन्वय उत्पन्न करते हैं, स्थानीय परंपराओं का पूर्ण विनाश नहीं।\n\nकथन 1 और 2 इंडो-ग्रीक कलात्मक और धार्मिक संपर्कों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Indo-Greek rule is important for understanding cultural fusion in ancient India.\n\nReason (R): Greek and Indian traditions interacted in fields such as art, religion and coinage.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ప్రాచీన భారతదేశంలోని సాంస్కృతిక సమ్మేళనాన్ని అర్థం చేసుకోవడంలో ఇండో-గ్రీకు పాలన ముఖ్యమైనది.\n\nకారణం (R): గ్రీకు మరియు భారతీయ సంప్రదాయాలు కళ, మతం మరియు నాణేల వ్యవస్థ వంటి రంగాల్లో పరస్పర ప్రభావం చూపించాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): प्राचीन भारत में सांस्कृतिक समन्वय को समझने के लिए इंडो-ग्रीक शासन महत्वपूर्ण है।\n\nकारण (R): यूनानी और भारतीय परंपराओं ने कला, धर्म और मुद्रा प्रणाली जैसे क्षेत्रों में परस्पर प्रभाव डाला।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Indo-Greek period is historically important because it demonstrates cultural fusion between Hellenistic and Indian traditions.\n\nInteractions in art produced developments later visible in Gandhara sculpture. Coinage reflected bilingual traditions and advanced artistic standards.\n\nReligious and philosophical exchanges are visible in texts such as Milinda Panha.\n\nThus, the Indo-Greek experience represents a broader process of cultural interaction and synthesis in ancient India.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ఇండో-గ్రీకు కాలం హెలెనిస్టిక్ మరియు భారతీయ సంప్రదాయాల మధ్య సాంస్కృతిక సమ్మేళనాన్ని చూపించే ముఖ్య చారిత్రక దశ.\n\nకళా పరస్పర సంబంధాలు తరువాత గాంధార శిల్పకళలో కనిపించే అభివృద్ధులకు దారితీశాయి. నాణేల వ్యవస్థ ద్విభాషా సంప్రదాయాలు మరియు ఉన్నత కళాత్మక ప్రమాణాలను ప్రతిబింబించింది.\n\nమిలిందపఞ్హా వంటి గ్రంథాలు మత మరియు తాత్విక పరస్పర సంబంధాలను సూచిస్తాయి.\n\nఅందువల్ల ఇండో-గ్రీకు కాలం ప్రాచీన భారతదేశంలోని సాంస్కృతిక సమ్మేళనానికి ముఖ్య ఉదాహరణ.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। इंडो-ग्रीक काल हेलेनिस्टिक और भारतीय परंपराओं के सांस्कृतिक समन्वय का महत्वपूर्ण उदाहरण है।\n\nकलात्मक संपर्कों ने आगे चलकर गांधार मूर्तिकला जैसी शैलियों को प्रभावित किया। मुद्रा प्रणाली में द्विभाषी परंपरा और उच्च कलात्मक गुणवत्ता दिखाई देती है।\n\nमिलिंदपन्हा जैसे ग्रंथ धार्मिक और दार्शनिक संपर्कों को दर्शाते हैं।\n\nइस प्रकार इंडो-ग्रीक काल प्राचीन भारत में सांस्कृतिक समन्वय की व्यापक प्रक्रिया को समझने में अत्यंत महत्वपूर्ण है।",
+
+          "elimination_logic_english": "The Reason directly explains why Indo-Greek rule is associated with cultural fusion.\n\nUPSC often tests whether aspirants can connect political contact with broader artistic and intellectual developments.\n\nArt, religion and coinage all provide evidence of Indo-Greek cultural interaction.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం ఇండో-గ్రీకు పాలన సాంస్కృతిక సమ్మేళనంతో ఎందుకు అనుసంధానించబడిందో నేరుగా వివరిస్తుంది.\n\nరాజకీయ సంబంధాలు మరియు కళాత్మక-మేధో అభివృద్ధుల మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nకళ, మతం మరియు నాణేల వ్యవస్థ అన్నీ ఇండో-గ్రీకు సాంస్కృతిక పరస్పర సంబంధాలకు ఆధారాలు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि इंडो-ग्रीक शासन सांस्कृतिक समन्वय से क्यों जुड़ा है।\n\nUPSC अक्सर राजनीतिक संपर्क और कलात्मक-बौद्धिक विकास के बीच संबंध को परखता है।\n\nकला, धर्म और मुद्रा प्रणाली इंडो-ग्रीक सांस्कृतिक संपर्क के प्रमाण प्रदान करते हैं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        }
+      ]
     }
   }
 }
