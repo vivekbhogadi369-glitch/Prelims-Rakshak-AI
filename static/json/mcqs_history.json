@@ -1733,6 +1733,441 @@
           "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nकई विद्यार्थी यह मान लेते हैं कि सभी बौद्ध परम्पराएँ बुद्ध को केवल मानव शिक्षक मानती थीं। किन्तु महायान बौद्ध धर्म ने भक्ति तत्वों को विकसित किया और बुद्ध को दैवी तथा अलौकिक स्वरूप प्रदान किया।\n\nकथन 1 और 2 बौद्ध धर्म की मूल शिक्षाएँ हैं और इन्हें सही माना जा सकता है।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं, इसलिए विकल्प b सही उत्तर है।\n\nUPSC प्रायः प्रारम्भिक बौद्ध धर्म और महायान परम्परा के वैचारिक अंतर को जाँचने हेतु ऐसे प्रश्न पूछता है।"
         }
       ]
+  },
+
+    "Jainism": {
+      "topic_english": "Jainism",
+      "topic_telugu": "జైనమతం",
+      "topic_hindi": "जैन धर्म",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding Jainism:\n\n1. Vardhamana Mahavira was the twenty-fourth Tirthankara of Jainism.\n2. Jainism rejected the authority of the Vedas.\n3. Jainism strongly emphasized the principle of Ahimsa.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "జైనమతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వర్ధమాన మహావీరుడు జైనమతంలోని ఇరవై నాల్గవ తీర్థంకరుడు.\n2. జైనమతం వేదాల అధికారాన్ని తిరస్కరించింది.\n3. జైనమతం అహింసా సిద్ధాంతానికి అత్యంత ప్రాధాన్యం ఇచ్చింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "जैन धर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. वर्धमान महावीर जैन धर्म के चौबीसवें तीर्थंकर थे।\n2. जैन धर्म ने वेदों की प्रामाणिकता को अस्वीकार किया।\n3. जैन धर्म ने अहिंसा के सिद्धांत पर अत्यधिक बल दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All three statements are correct. Vardhamana Mahavira is regarded as the twenty-fourth Tirthankara in the Jain tradition. Jainism emerged as a heterodox religious movement that rejected the ritual authority of the Vedas and emphasized individual spiritual discipline.\n\nThe principle of Ahimsa or non-violence became the central ethical foundation of Jainism. Jain monks and followers practised strict non-violence not only toward humans but also toward animals, insects and even microscopic life forms.\n\nJainism also stressed asceticism, self-control and liberation through purification of the soul. These ethical and philosophical features distinguish Jainism from Vedic ritual traditions.\n\nUPSC frequently frames conceptual questions around heterodox traditions and their core ethical doctrines.",
+
+          "explanation_telugu": "మూడు ప్రకటనలూ సరైనవి. వర్ధమాన మహావీరుడు జైన సంప్రదాయంలోని ఇరవై నాల్గవ తీర్థంకరుడిగా పరిగణించబడతాడు. జైనమతం వేదాల కర్మకాండ అధికారాన్ని తిరస్కరించిన నాస్తిక మత ఉద్యమంగా అభివృద్ధి చెందింది.\n\nఅహింసా సిద్ధాంతం జైనమతంలోని ప్రధాన నైతిక పునాది. జైన సన్యాసులు మరియు అనుచరులు మనుషులపైనే కాకుండా జంతువులు, పురుగులు మరియు సూక్ష్మ జీవులపైనా హింస చేయకుండా ఉండే కఠిన నియమాలను అనుసరించారు.\n\nజైనమతం తపస్సు, ఆత్మ నియంత్రణ మరియు ఆత్మ శుద్ధి ద్వారా మోక్షాన్ని సాధించడం పై దృష్టి పెట్టింది. ఈ లక్షణాలు జైనమతాన్ని వేద కర్మకాండ సంప్రదాయాల నుండి ప్రత్యేకంగా నిలబెడతాయి.\n\nనాస్తిక సంప్రదాయాలు మరియు వాటి నైతిక సిద్ధాంతాలపై UPSC తరచుగా భావనాత్మక ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "तीनों कथन सही हैं। वर्धमान महावीर को जैन परम्परा में चौबीसवाँ तीर्थंकर माना जाता है। जैन धर्म एक श्रमण परम्परा के रूप में विकसित हुआ जिसने वेदों की अनुष्ठानिक प्रामाणिकता को अस्वीकार किया।\n\nअहिंसा जैन धर्म का केंद्रीय नैतिक सिद्धांत बना। जैन साधु और अनुयायी केवल मनुष्यों ही नहीं बल्कि पशुओं, कीटों और सूक्ष्म जीवों तक के प्रति अहिंसा का पालन करते थे।\n\nजैन धर्म ने तपस्या, आत्मसंयम और आत्मा की शुद्धि के माध्यम से मोक्ष प्राप्ति पर बल दिया। ये विशेषताएँ जैन धर्म को वैदिक अनुष्ठानिक परम्पराओं से अलग करती हैं।\n\nUPSC प्रायः श्रमण परम्पराओं और उनके नैतिक सिद्धांतों पर आधारित वैचारिक प्रश्न पूछता है।",
+
+          "elimination_logic_english": "This is a classic UPSC conceptual question where all statements appear independently factual.\n\nStatement 1 is a direct factual association between Mahavira and the twenty-fourth Tirthankara tradition. Statement 2 can be retained because Jainism is categorized as a heterodox (Nastika) tradition that rejected Vedic ritual authority.\n\nStatement 3 reflects the defining ethical feature of Jainism — extreme emphasis on Ahimsa.\n\nSince none of the statements contain conceptual contradictions or exaggerations, elimination does not remove any statement.\n\nTherefore, all three statements are correct and option d becomes the right answer.",
+
+          "elimination_logic_telugu": "ఇది UPSC తరచుగా అడిగే భావనాత్మక ప్రశ్నలలో ఒకటి, ఇందులో ప్రతి ప్రకటన వాస్తవపరంగా సరైనదిగా కనిపిస్తుంది.\n\nప్రకటన 1 మహావీరుడు మరియు ఇరవై నాల్గవ తీర్థంకర సంప్రదాయం మధ్య ప్రత్యక్ష సంబంధాన్ని సూచిస్తుంది. ప్రకటన 2ను సరైనదిగా గుర్తించవచ్చు, ఎందుకంటే జైనమతం వేద కర్మకాండ అధికారాన్ని తిరస్కరించిన నాస్తిక సంప్రదాయం.\n\nప్రకటన 3 జైనమతంలోని ప్రధాన నైతిక లక్షణమైన అహింసను సూచిస్తుంది.\n\nఏ ప్రకటనలోనూ భావనాత్మక విరుద్ధత లేకపోవడంతో ఏదీ తొలగించబడదు.\n\nకాబట్టి మూడు ప్రకటనలూ సరైనవి; ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "यह UPSC शैली का वैचारिक प्रश्न है जिसमें सभी कथन तथ्यात्मक रूप से सही प्रतीत होते हैं।\n\nकथन 1 महावीर और चौबीसवें तीर्थंकर परम्परा के बीच प्रत्यक्ष संबंध को दर्शाता है। कथन 2 सही है क्योंकि जैन धर्म को वेदों की प्रामाणिकता अस्वीकार करने वाली श्रमण परम्परा माना जाता है।\n\nकथन 3 जैन धर्म की मूल नैतिक विशेषता अर्थात् अहिंसा को दर्शाता है।\n\nकिसी भी कथन में वैचारिक त्रुटि या अतिशयोक्ति नहीं है, इसलिए कोई कथन हटाया नहीं जा सकता।\n\nअतः तीनों कथन सही हैं और विकल्प d सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following correctly represents the 'Three Jewels' (Triratnas) of Jainism?",
+
+          "options_english": {
+            "a": "Right Faith, Right Knowledge and Right Conduct",
+            "b": "Right Speech, Right Action and Right Livelihood",
+            "c": "Buddha, Dhamma and Sangha",
+            "d": "Ahimsa, Aparigraha and Karma"
+          },
+
+          "question_telugu": "జైనమతంలోని 'త్రిరత్నాలు'ను సరైనంగా సూచించేది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "సమ్యక్ దర్శనం, సమ్యక్ జ్ఞానం మరియు సమ్యక్ చరిత్ర",
+            "b": "సమ్యక్ వాక్యం, సమ్యక్ కర్మ మరియు సమ్యక్ జీవనం",
+            "c": "బుద్ధుడు, ధమ్మం మరియు సంఘం",
+            "d": "అహింస, అపరిగ్రహం మరియు కర్మ"
+          },
+
+          "question_hindi": "जैन धर्म के 'त्रिरत्न' को निम्नलिखित में से कौन-सा सही रूप में दर्शाता है?",
+
+          "options_hindi": {
+            "a": "सम्यक दर्शन, सम्यक ज्ञान और सम्यक चरित्र",
+            "b": "सम्यक वाणी, सम्यक कर्म और सम्यक आजीविका",
+            "c": "बुद्ध, धम्म और संघ",
+            "d": "अहिंसा, अपरिग्रह और कर्म"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "The Three Jewels or Triratnas of Jainism are Right Faith (Samyak Darshana), Right Knowledge (Samyak Jnana) and Right Conduct (Samyak Charitra). These three principles together form the path toward spiritual liberation in Jain philosophy.\n\nJainism teaches that liberation can only be achieved through proper understanding of reality, correct knowledge and disciplined ethical conduct.\n\nOption b represents ideas associated more closely with the Buddhist Eightfold Path. Option c refers to the Buddhist Triple Gem, while option d contains important Jain ethical ideas but not the formal Triratnas.\n\nUPSC frequently asks comparative religion questions where Buddhist and Jain doctrines are intentionally mixed to test conceptual precision.",
+
+          "explanation_telugu": "జైనమతంలోని త్రిరత్నాలు సమ్యక్ దర్శనం, సమ్యక్ జ్ఞానం మరియు సమ్యక్ చరిత్ర. ఈ మూడు సిద్ధాంతాలు కలిసి మోక్షానికి దారితీసే మార్గాన్ని సూచిస్తాయి.\n\nజైన తత్వశాస్త్రం ప్రకారం సరైన విశ్వాసం, సరైన జ్ఞానం మరియు నియంత్రిత నైతిక ప్రవర్తన ద్వారా మాత్రమే విముక్తి సాధ్యమవుతుంది.\n\nఎంపిక b బౌద్ధ అష్టాంగ మార్గానికి దగ్గరగా ఉంటుంది. ఎంపిక c బౌద్ధ త్రిరత్నాలను సూచిస్తుంది. ఎంపిక d జైన నైతిక భావనలను కలిగి ఉన్నప్పటికీ అధికారిక త్రిరత్నాలు కావు.\n\nబౌద్ధ మరియు జైన సిద్ధాంతాలను కలిపి UPSC తరచుగా తులనాత్మక మత ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "जैन धर्म के त्रिरत्न हैं — सम्यक दर्शन, सम्यक ज्ञान और सम्यक चरित्र। ये तीनों सिद्धांत मिलकर मोक्ष प्राप्ति का मार्ग बनाते हैं।\n\nजैन दर्शन के अनुसार सही दृष्टिकोण, सही ज्ञान और अनुशासित नैतिक आचरण के माध्यम से ही मुक्ति प्राप्त की जा सकती है।\n\nविकल्प b बौद्ध अष्टांगिक मार्ग से अधिक संबंधित है। विकल्प c बौद्ध त्रिरत्न को दर्शाता है। विकल्प d में जैन नैतिक सिद्धांत हैं लेकिन वे औपचारिक त्रिरत्न नहीं हैं।\n\nUPSC अक्सर बौद्ध और जैन सिद्धांतों को मिलाकर वैचारिक स्पष्टता की जाँच करता है।",
+
+          "elimination_logic_english": "Options b and c are deliberate doctrinal traps.\n\nOption b resembles Buddhist ethical principles connected with the Eightfold Path, while option c is the Buddhist Triple Gem.\n\nAspirants who rely only on superficial memory may confuse Buddhist and Jain philosophical terminology.\n\nThe formal Triratnas of Jainism specifically consist of Right Faith, Right Knowledge and Right Conduct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు b మరియు c ఉద్దేశపూర్వక భావనాత్మక ఉచ్చులు.\n\nఎంపిక b బౌద్ధ అష్టాంగ మార్గంలోని భావనలకు దగ్గరగా ఉంటుంది. ఎంపిక c బౌద్ధ త్రిరత్నాలను సూచిస్తుంది.\n\nపరిమిత జ్ఞాపకశక్తిపై ఆధారపడే విద్యార్థులు బౌద్ధ మరియు జైన పరిభాషలను గందరగోళం చేసే అవకాశం ఉంది.\n\nజైనమతంలోని అధికారిక త్రిరత్నాలు సమ్యక్ దర్శనం, సమ్యక్ జ్ఞానం మరియు సమ్యక్ చరిత్ర.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प b और c जानबूझकर बनाए गए वैचारिक भ्रम हैं।\n\nविकल्प b बौद्ध अष्टांगिक मार्ग से मिलता-जुलता है, जबकि विकल्प c बौद्ध त्रिरत्न को दर्शाता है।\n\nजो विद्यार्थी केवल सतही स्मृति पर निर्भर रहते हैं वे बौद्ध और जैन शब्दावली में भ्रमित हो सकते हैं।\n\nजैन धर्म के औपचारिक त्रिरत्न सम्यक दर्शन, सम्यक ज्ञान और सम्यक चरित्र हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Jainism received support from trading communities in ancient India.\n\nReason (R): Jainism promoted ethical conduct, non-violence and disciplined social behaviour.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ప్రాచీన భారతదేశంలో వ్యాపార వర్గాల నుండి జైనమతానికి మద్దతు లభించింది.\n\nకారణం (R): జైనమతం నైతిక జీవనం, అహింస మరియు క్రమశిక్షణతో కూడిన సామాజిక ప్రవర్తనను ప్రోత్సహించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): प्राचीन भारत में व्यापारी वर्गों ने जैन धर्म का समर्थन किया।\n\nकारण (R): जैन धर्म ने नैतिक आचरण, अहिंसा और अनुशासित सामाजिक व्यवहार को बढ़ावा दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. Jainism received strong patronage from merchant and urban trading communities in ancient India. Its emphasis on honesty, ethical conduct, discipline and non-violence appealed to commercial groups engaged in long-distance trade.\n\nJain teachings discouraged unnecessary violence and encouraged moral accountability, which helped create trust within commercial networks.\n\nThe relatively simple organizational structure of Jain communities and their urban presence also facilitated the spread of Jainism in trade centres.\n\nThis relationship between heterodox religions and urban-commercial growth is an important analytical theme in ancient Indian history.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ప్రాచీన భారతదేశంలో జైనమతానికి వ్యాపార మరియు పట్టణ వర్గాల నుండి బలమైన మద్దతు లభించింది. నిజాయితీ, నైతిక జీవనం, క్రమశిక్షణ మరియు అహింసపై జైనమతం పెట్టిన దృష్టి వాణిజ్య వర్గాలను ఆకర్షించింది.\n\nజైన బోధనలు అనవసర హింసను నిరుత్సాహపరిచి నైతిక బాధ్యతను ప్రోత్సహించాయి. ఇది వాణిజ్య సంబంధాలలో పరస్పర నమ్మకాన్ని పెంచింది.\n\nజైన సమాజాల సరళమైన నిర్మాణం మరియు పట్టణ కేంద్రాల్లో వాటి ఉనికి జైనమత వ్యాప్తికి దోహదపడింది.\n\nనాస్తిక మతాలు మరియు పట్టణ-వాణిజ్య అభివృద్ధి మధ్య సంబంధం ప్రాచీన భారత చరిత్రలో ముఖ్య విశ్లేషణాత్మక అంశం.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। प्राचीन भारत में जैन धर्म को व्यापारी और नगरीय समुदायों से व्यापक संरक्षण प्राप्त हुआ। ईमानदारी, नैतिक आचरण, अनुशासन और अहिंसा पर जैन धर्म के बल ने व्यापारिक वर्गों को आकर्षित किया।\n\nजैन शिक्षाओं ने अनावश्यक हिंसा को हतोत्साहित किया और नैतिक उत्तरदायित्व को बढ़ावा दिया, जिससे व्यापारिक नेटवर्क में विश्वास बढ़ा।\n\nजैन समुदायों की अपेक्षाकृत सरल संरचना और नगरों में उनकी उपस्थिति ने भी जैन धर्म के प्रसार में सहायता की।\n\nश्रमण धर्मों और नगरीय-व्यापारिक विकास के बीच संबंध प्राचीन भारतीय इतिहास का महत्वपूर्ण विश्लेषणात्मक विषय है।",
+
+          "elimination_logic_english": "The Reason directly explains why merchant groups were attracted toward Jainism.\n\nUPSC often frames assertion-reason questions by linking religious ethics with socio-economic developments.\n\nTrading communities valued stability, trust, ethical discipline and non-violence, all of which were strongly emphasized in Jain teachings.\n\nThus, the ethical framework of Jainism became one of the reasons behind its support among merchants.\n\nTherefore, the Reason correctly explains the Assertion, making option c the correct answer.",
+
+          "elimination_logic_telugu": "కారణం వ్యాపార వర్గాలు జైనమతాన్ని ఎందుకు మద్దతు ఇచ్చాయో నేరుగా వివరిస్తుంది.\n\nUPSC తరచుగా మత నైతికతలను సామాజిక-ఆర్థిక అభివృద్ధులతో అనుసంధానిస్తూ assertion-reason ప్రశ్నలను రూపొందిస్తుంది.\n\nవ్యాపార వర్గాలు స్థిరత్వం, నమ్మకం, నైతిక క్రమశిక్షణ మరియు అహింసకు ప్రాధాన్యం ఇచ్చాయి; ఇవన్నీ జైన బోధనల్లో ప్రధానంగా ఉన్నాయి.\n\nఅందువల్ల జైన నైతిక వ్యవస్థ వ్యాపార వర్గాల మద్దతుకు ఒక ముఖ్య కారణమైంది.\n\nకాబట్టి కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది; ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि व्यापारी वर्ग जैन धर्म की ओर क्यों आकर्षित हुए।\n\nUPSC प्रायः धार्मिक नैतिकता और सामाजिक-आर्थिक विकास को जोड़कर assertion-reason प्रश्न पूछता है।\n\nव्यापारी समुदाय स्थिरता, विश्वास, नैतिक अनुशासन और अहिंसा को महत्व देते थे, और ये सभी जैन शिक्षाओं में प्रमुख थे।\n\nइस प्रकार जैन धर्म की नैतिक संरचना व्यापारिक वर्गों के समर्थन का महत्वपूर्ण कारण बनी।\n\nअतः कारण अभिकथन की सही व्याख्या करता है और विकल्प c सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Jain philosophy:\n\n1. Jainism believed that every living being possesses a soul.\n2. The doctrine of Aparigraha emphasized non-possession and detachment.\n3. Jainism completely rejected the concept of Karma.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "జైన తత్వశాస్త్రానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్రతి జీవిలో ఆత్మ ఉంటుందని జైనమతం విశ్వసించింది.\n2. అపరిగ్రహ సిద్ధాంతం అసక్తి మరియు స్వామ్యరాహిత్యాన్ని ప్రోత్సహించింది.\n3. జైనమతం కర్మ సిద్ధాంతాన్ని పూర్తిగా తిరస్కరించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "जैन दर्शन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. जैन धर्म के अनुसार प्रत्येक जीव में आत्मा होती है।\n2. अपरिग्रह का सिद्धांत अनासक्ति और गैर-संग्रह पर बल देता है।\n3. जैन धर्म ने कर्म सिद्धांत को पूर्णतः अस्वीकार किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Jain philosophy believed that every living being, including plants and microscopic organisms, possesses a soul (Jiva). This belief formed the philosophical basis of the strict Jain practice of non-violence.\n\nThe doctrine of Aparigraha emphasized non-possession, detachment from material objects and limitation of desires. It was considered essential for spiritual purification and liberation.\n\nStatement 3 is incorrect because Jainism strongly accepted the doctrine of Karma. According to Jain philosophy, Karma binds the soul to the cycle of birth and rebirth, and liberation can be achieved only through ethical conduct, austerity and purification.\n\nUPSC frequently asks conceptual questions distinguishing Buddhist and Jain views regarding soul, karma and liberation.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. మొక్కలు మరియు సూక్ష్మ జీవులు సహా ప్రతి జీవిలో ఆత్మ (జీవ) ఉంటుందని జైన తత్వశాస్త్రం విశ్వసించింది. ఈ భావనే జైనమతంలోని కఠిన అహింసా ఆచరణకు తాత్విక పునాదిగా నిలిచింది.\n\nఅపరిగ్రహ సిద్ధాంతం స్వామ్యరాహిత్యం, భౌతిక వస్తువులపై అసక్తి మరియు కోరికల నియంత్రణను ప్రోత్సహించింది. ఇది ఆత్మ శుద్ధి మరియు మోక్షానికి అవసరమని భావించారు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే జైనమతం కర్మ సిద్ధాంతాన్ని బలంగా అంగీకరించింది. జైన తత్వం ప్రకారం కర్మ ఆత్మను జనన మరణ చక్రానికి బంధిస్తుంది; తపస్సు, నైతిక జీవనం మరియు ఆత్మ శుద్ధి ద్వారా మాత్రమే విముక్తి సాధ్యమవుతుంది.\n\nఆత్మ, కర్మ మరియు మోక్షంపై బౌద్ధ మరియు జైన అభిప్రాయాల మధ్య తేడాలను UPSC తరచుగా పరీక్షిస్తుంది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। जैन दर्शन के अनुसार प्रत्येक जीव, यहाँ तक कि पौधों और सूक्ष्म जीवों में भी आत्मा (जीव) होती है। यही विचार जैन धर्म में कठोर अहिंसा के सिद्धांत का दार्शनिक आधार बना।\n\nअपरिग्रह का सिद्धांत गैर-संग्रह, भौतिक वस्तुओं से अनासक्ति और इच्छाओं के नियंत्रण पर बल देता है। इसे आत्मशुद्धि और मोक्ष के लिए आवश्यक माना गया।\n\nकथन 3 गलत है क्योंकि जैन धर्म कर्म सिद्धांत को दृढ़ता से स्वीकार करता है। जैन दर्शन के अनुसार कर्म आत्मा को जन्म-मृत्यु के चक्र से बाँधता है और तपस्या, नैतिक जीवन तथा आत्मशुद्धि के माध्यम से ही मुक्ति प्राप्त की जा सकती है।\n\nUPSC प्रायः आत्मा, कर्म और मोक्ष के संदर्भ में बौद्ध तथा जैन विचारों के बीच अंतर पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Statement 3 is the major conceptual trap.\n\nMany aspirants confuse Buddhism and Jainism while answering questions related to soul and karma. Buddhism rejected the idea of a permanent soul, but Jainism strongly accepted both soul and karma doctrines.\n\nStatement 1 can be retained because Jainism extended the concept of soul to all forms of life. Statement 2 directly reflects the Jain ethical principle of Aparigraha.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nఆత్మ మరియు కర్మకు సంబంధించిన ప్రశ్నల్లో చాలామంది బౌద్ధం మరియు జైనమతాన్ని గందరగోళం చేస్తారు. బౌద్ధం శాశ్వత ఆత్మ భావనను తిరస్కరించగా, జైనమతం ఆత్మ మరియు కర్మ సిద్ధాంతాలను బలంగా అంగీకరించింది.\n\nప్రకటన 1ను సరైనదిగా గుర్తించవచ్చు, ఎందుకంటే జైనమతం అన్ని జీవరాశులకూ ఆత్మ ఉందని భావించింది. ప్రకటన 2 జైన నైతిక సిద్ధాంతమైన అపరిగ్రహాన్ని సూచిస్తుంది.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nआत्मा और कर्म से जुड़े प्रश्नों में विद्यार्थी अक्सर बौद्ध और जैन विचारों को मिश्रित कर देते हैं। बौद्ध धर्म ने स्थायी आत्मा की अवधारणा को अस्वीकार किया, जबकि जैन धर्म आत्मा और कर्म दोनों को दृढ़ता से स्वीकार करता है।\n\nकथन 1 सही है क्योंकि जैन धर्म सभी जीवों में आत्मा को मानता है। कथन 2 जैन धर्म के अपरिग्रह सिद्धांत को दर्शाता है।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following was associated with the Jain practice of extreme austerity and renunciation?",
+
+          "options_english": {
+            "a": "Bhakti",
+            "b": "Sallekhana",
+            "c": "Yajna",
+            "d": "Mahaparinirvana"
+          },
+
+          "question_telugu": "జైనమతంలోని కఠిన తపస్సు మరియు సంపూర్ణ విరక్తి ఆచారంతో సంబంధం ఉన్నది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "భక్తి",
+            "b": "సల్లేఖన",
+            "c": "యజ్ఞం",
+            "d": "మహాపరినిర్వాణం"
+          },
+
+          "question_hindi": "जैन धर्म की कठोर तपस्या और पूर्ण त्याग की परम्परा से निम्नलिखित में से कौन-सा संबंधित है?",
+
+          "options_hindi": {
+            "a": "भक्ति",
+            "b": "सल्लेखना",
+            "c": "यज्ञ",
+            "d": "महापरिनिर्वाण"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Sallekhana was a Jain religious practice associated with voluntary and gradual fasting undertaken under strict spiritual discipline, usually at the end of life. It symbolized detachment from worldly desires and complete renunciation.\n\nJainism placed extraordinary emphasis on austerity, self-control and purification of the soul. Sallekhana was viewed not as an act of despair but as a disciplined spiritual practice performed under ethical and religious guidelines.\n\nOption a relates more closely to devotional traditions, option c refers to Vedic sacrificial rituals, and option d is associated with Buddhism, particularly the passing away of Buddha.\n\nUPSC frequently frames comparative religion questions using terminologies from different traditions.",
+
+          "explanation_telugu": "సల్లేఖన అనేది జైనమతంలోని ఒక ప్రత్యేక ఆచారం. ఇందులో కఠిన ఆధ్యాత్మిక నియమాల ప్రకారం జీవితాంతంలో క్రమంగా ఉపవాసం ఆచరించబడుతుంది. ఇది భౌతిక కోరికల నుండి విరక్తిని మరియు సంపూర్ణ త్యాగాన్ని సూచిస్తుంది.\n\nజైనమతం తపస్సు, ఆత్మ నియంత్రణ మరియు ఆత్మ శుద్ధికి అత్యంత ప్రాధాన్యం ఇచ్చింది. సల్లేఖనను నిరాశ చర్యగా కాకుండా నియంత్రిత ఆధ్యాత్మిక సాధనగా పరిగణించారు.\n\nఎంపిక a భక్తి సంప్రదాయాలకు సంబంధించినది. ఎంపిక c వేద యజ్ఞ కర్మకాండలను సూచిస్తుంది. ఎంపిక d బౌద్ధమతంతో, ముఖ్యంగా బుద్ధుని పరినిర్వాణంతో సంబంధం కలిగి ఉంది.\n\nవివిధ మత సంప్రదాయాల పరిభాషలను కలిపి UPSC తరచుగా తులనాత్మక ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "सल्लेखना जैन धर्म की एक विशेष धार्मिक प्रथा थी जिसमें जीवन के अंतिम चरण में कठोर आध्यात्मिक अनुशासन के अंतर्गत क्रमिक उपवास किया जाता था। यह सांसारिक इच्छाओं से विरक्ति और पूर्ण त्याग का प्रतीक था।\n\nजैन धर्म ने तपस्या, आत्मसंयम और आत्मशुद्धि पर अत्यधिक बल दिया। सल्लेखना को निराशा का कार्य नहीं बल्कि नियंत्रित आध्यात्मिक साधना माना जाता था।\n\nविकल्प a भक्ति परम्पराओं से, विकल्प c वैदिक यज्ञों से तथा विकल्प d बौद्ध धर्म विशेषकर बुद्ध के महापरिनिर्वाण से संबंधित है।\n\nUPSC अक्सर विभिन्न धार्मिक परम्पराओं की शब्दावली को मिलाकर तुलनात्मक प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Option d is the main trap because Mahaparinirvana is strongly associated with Buddhism.\n\nOption c belongs to Vedic ritual tradition, while option a is connected with devotional Bhakti traditions.\n\nSallekhana alone reflects the Jain emphasis on extreme austerity, detachment and disciplined renunciation.\n\nAspirants should identify the keyword 'extreme austerity' as directly linked with Jain ascetic practices.\n\nTherefore, option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపిక d ప్రధాన ఉచ్చు, ఎందుకంటే మహాపరినిర్వాణం బౌద్ధమతంతో బలంగా అనుసంధానించబడింది.\n\nఎంపిక c వేద కర్మకాండ సంప్రదాయానికి చెందినది. ఎంపిక a భక్తి సంప్రదాయాలకు సంబంధించినది.\n\nసల్లేఖన మాత్రమే జైనమతంలోని కఠిన తపస్సు, విరక్తి మరియు నియంత్రిత త్యాగాన్ని ప్రతిబింబిస్తుంది.\n\n'కఠిన తపస్సు' అనే కీలక పదాన్ని జైన సన్యాస సంప్రదాయంతో అనుసంధానించాలి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प d मुख्य भ्रम है क्योंकि महापरिनिर्वाण बौद्ध धर्म से गहराई से जुड़ा है।\n\nविकल्प c वैदिक अनुष्ठान परम्परा से संबंधित है, जबकि विकल्प a भक्ति परम्पराओं से जुड़ा है।\n\nकेवल सल्लेखना ही जैन धर्म की कठोर तपस्या, विरक्ति और अनुशासित त्याग की परम्परा को दर्शाती है।\n\nअभ्यर्थियों को 'कठोर तपस्या' शब्द को जैन संन्यासी परम्पराओं से जोड़कर पहचानना चाहिए।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Jainism did not spread as widely across Asia as Buddhism.\n\nReason (R): Jainism maintained stricter ascetic practices and organizational limitations compared to Buddhism.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): జైనమతం బౌద్ధమతంలా ఆసియా అంతటా విస్తృతంగా వ్యాపించలేదు.\n\nకారణం (R): బౌద్ధమతంతో పోలిస్తే జైనమతం మరింత కఠిన తపస్సు మరియు పరిమిత సంస్థాగత వ్యవస్థను కొనసాగించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): जैन धर्म बौद्ध धर्म की तरह पूरे एशिया में व्यापक रूप से नहीं फैल सका।\n\nकारण (R): बौद्ध धर्म की तुलना में जैन धर्म ने अधिक कठोर तपस्या और सीमित संगठनात्मक संरचना बनाए रखी।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Jainism remained comparatively limited in geographical spread when compared to Buddhism. Although Jainism gained importance in several regions of India, it did not become a major transnational religion across Asia.\n\nOne important reason was the stricter ascetic discipline followed by Jain monks and followers. Practices related to severe austerity, non-violence and renunciation made mass expansion comparatively difficult.\n\nIn contrast, Buddhism developed flexible monastic institutions, missionary traditions and state patronage under rulers like Ashoka, which enabled wider international expansion.\n\nUPSC often asks analytical questions comparing the historical spread of heterodox religious traditions.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. బౌద్ధమతంతో పోలిస్తే జైనమతం భౌగోళికంగా పరిమిత స్థాయిలోనే వ్యాపించింది. భారతదేశంలోని కొన్ని ప్రాంతాల్లో జైనమతం ప్రభావం పెరిగినప్పటికీ, అది ఆసియా అంతటా విస్తరించిన అంతర్జాతీయ మతంగా మారలేదు.\n\nదీనికి ముఖ్య కారణాలలో ఒకటి జైన సన్యాసులు అనుసరించిన కఠిన తపస్సు. తీవ్రమైన ఉపవాసం, అహింస మరియు విరక్తి వంటి ఆచారాలు సామూహిక విస్తరణను కష్టతరం చేశాయి.\n\nఇతరవైపు బౌద్ధమతం సులభమైన మఠ వ్యవస్థ, మిషనరీ సంప్రదాయం మరియు అశోకుడు వంటి పాలకుల మద్దతు పొందడంతో అంతర్జాతీయంగా విస్తరించింది.\n\nనాస్తిక మతాల చారిత్రక వ్యాప్తిని తులనాత్మకంగా విశ్లేషిస్తూ UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। बौद्ध धर्म की तुलना में जैन धर्म का भौगोलिक प्रसार सीमित रहा। यद्यपि जैन धर्म भारत के अनेक क्षेत्रों में प्रभावशाली बना, फिर भी यह पूरे एशिया में व्यापक अंतरराष्ट्रीय धर्म नहीं बन सका।\n\nइसका एक प्रमुख कारण जैन साधुओं द्वारा अपनाई गई कठोर तपस्या थी। अत्यधिक उपवास, अहिंसा और त्याग की परम्पराओं ने इसके व्यापक जन-प्रसार को अपेक्षाकृत कठिन बनाया।\n\nइसके विपरीत बौद्ध धर्म ने लचीली संघ व्यवस्था, मिशनरी परम्परा और अशोक जैसे शासकों का संरक्षण प्राप्त किया, जिससे उसका अंतरराष्ट्रीय प्रसार संभव हुआ।\n\nUPSC अक्सर श्रमण धर्मों के ऐतिहासिक प्रसार की तुलनात्मक व्याख्या पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "The Reason directly explains the limited spread of Jainism in comparison with Buddhism.\n\nUPSC frequently tests historical analysis rather than simple factual recall. Buddhism's flexible missionary character and political patronage allowed wider expansion, whereas Jainism retained stricter ascetic requirements.\n\nThe stricter ethical and monastic practices reduced its adaptability across diverse societies and regions.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం జైనమతం బౌద్ధమతంలా విస్తరించకపోవడానికి నేరుగా వివరణ ఇస్తుంది.\n\nUPSC సాధారణ వాస్తవాలకన్నా చారిత్రక విశ్లేషణను ఎక్కువగా పరీక్షిస్తుంది. బౌద్ధమతం సులభమైన మిషనరీ స్వభావం మరియు రాజకీయ మద్దతుతో విస్తరించగా, జైనమతం కఠిన తపస్సు నియమాలను కొనసాగించింది.\n\nఈ కఠిన నియమాలు వివిధ ప్రాంతాల్లో దాని అనుకూలతను పరిమితం చేశాయి.\n\nకాబట్టి కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nఅందువల్ల ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि जैन धर्म का प्रसार बौद्ध धर्म जितना व्यापक क्यों नहीं हुआ।\n\nUPSC अक्सर केवल तथ्य नहीं बल्कि ऐतिहासिक विश्लेषण की भी जाँच करता है। बौद्ध धर्म के लचीले मिशनरी स्वरूप और राजनीतिक संरक्षण ने उसके विस्तार को संभव बनाया, जबकि जैन धर्म ने कठोर तपस्या पर बल बनाए रखा।\n\nइन कठोर नियमों ने विभिन्न क्षेत्रों में इसकी अनुकूलता को सीमित किया।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "With reference to Jainism, consider the following statements:\n\n1. Digambaras believed that complete renunciation included giving up clothing.\n2. Svetambaras accepted that women could attain liberation.\n3. Both Digambaras and Svetambaras completely rejected idol worship.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "జైనమతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. దిగంబరులు సంపూర్ణ త్యాగంలో వస్త్రాలను కూడా త్యజించడం అవసరమని నమ్మారు.\n2. శ్వేతాంబరులు మహిళలు మోక్షాన్ని పొందగలరని అంగీకరించారు.\n3. దిగంబరులు మరియు శ్వేతాంబరులు ఇద్దరూ విగ్రహారాధనను పూర్తిగా తిరస్కరించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "जैन धर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. दिगंबरों के अनुसार पूर्ण त्याग में वस्त्रों का परित्याग भी शामिल था।\n2. श्वेतांबर मानते थे कि महिलाएँ मोक्ष प्राप्त कर सकती हैं।\n3. दिगंबर और श्वेतांबर दोनों ने मूर्ति पूजा को पूर्णतः अस्वीकार किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. Digambaras believed that complete renunciation required abandoning all possessions, including clothing, and therefore their monks traditionally remained unclothed. Svetambaras, on the other hand, permitted white clothing for monks and accepted that women were capable of attaining liberation.\n\nStatement 3 is incorrect because both sects developed traditions of image worship, though differences existed in iconography, rituals and monastic practices.\n\nThe division between Digambaras and Svetambaras emerged gradually due to differences in interpretation of ascetic practices, scriptural traditions and monastic discipline.\n\nUPSC frequently frames questions comparing doctrinal and practical differences within Jain sects.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. దిగంబరుల అభిప్రాయం ప్రకారం సంపూర్ణ త్యాగం కోసం వస్త్రాలను సహా అన్ని భౌతిక వస్తువులను విడిచిపెట్టాలి. అందువల్ల వారి సన్యాసులు సాధారణంగా నిర్భోగంగా ఉండేవారు. శ్వేతాంబరులు మాత్రం తెల్లని వస్త్రాలను అనుమతించారు మరియు మహిళలు మోక్షాన్ని పొందగలరని అంగీకరించారు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే రెండు వర్గాలు కూడా విగ్రహారాధన సంప్రదాయాలను అభివృద్ధి చేశాయి. అయితే ఆచారాలు, ప్రతిమల రూపకల్పన మరియు మఠ నియమాలలో తేడాలు ఉన్నాయి.\n\nదిగంబర మరియు శ్వేతాంబర విభజన తపస్సు, గ్రంథ సంప్రదాయం మరియు మఠ నియమాలపై అభిప్రాయ భేదాల వల్ల క్రమంగా ఏర్పడింది.\n\nజైన వర్గాల మధ్య సిద్ధాంత మరియు ఆచరణాత్మక తేడాలపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। दिगंबर मानते थे कि पूर्ण त्याग के लिए वस्त्रों सहित सभी सांसारिक वस्तुओं का परित्याग आवश्यक है, इसलिए उनके साधु परंपरागत रूप से निर्वस्त्र रहते थे। श्वेतांबर संप्रदाय सफेद वस्त्रों की अनुमति देता था और यह मानता था कि महिलाएँ भी मोक्ष प्राप्त कर सकती हैं।\n\nकथन 3 गलत है क्योंकि दोनों संप्रदायों में मूर्ति पूजा की परम्पराएँ विकसित हुईं, यद्यपि उनकी प्रतिमाओं, अनुष्ठानों और मठीय परम्पराओं में अंतर था।\n\nदिगंबर और श्वेतांबर विभाजन तपस्या, शास्त्रीय परम्परा और मठीय अनुशासन की भिन्न व्याख्याओं के कारण विकसित हुआ।\n\nUPSC अक्सर जैन संप्रदायों के बीच वैचारिक और व्यवहारिक अंतरों पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap.\n\nMany aspirants wrongly assume that image worship was absent in all heterodox traditions. However, both Digambara and Svetambara traditions evolved idol worship practices over time.\n\nStatement 1 is a well-known distinguishing feature of Digambara asceticism. Statement 2 reflects the comparatively liberal doctrinal position of the Svetambaras regarding women's liberation.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nచాలామంది అన్ని నాస్తిక సంప్రదాయాల్లో విగ్రహారాధన ఉండదని భావిస్తారు. కానీ దిగంబర మరియు శ్వేతాంబర సంప్రదాయాలు రెండూ కాలక్రమేణా విగ్రహారాధన ఆచారాలను అభివృద్ధి చేశాయి.\n\nప్రకటన 1 దిగంబర తపస్సులో ప్రసిద్ధ లక్షణం. ప్రకటన 2 మహిళల మోక్షంపై శ్వేతాంబరుల సడలింపు భావనను సూచిస్తుంది.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nकई अभ्यर्थी मान लेते हैं कि सभी श्रमण परम्पराओं में मूर्ति पूजा अनुपस्थित थी। किन्तु दिगंबर और श्वेतांबर दोनों परम्पराओं में समय के साथ मूर्ति पूजा विकसित हुई।\n\nकथन 1 दिगंबर तपस्या की प्रमुख विशेषता है। कथन 2 महिलाओं की मुक्ति के विषय में श्वेतांबरों के अपेक्षाकृत उदार दृष्टिकोण को दर्शाता है।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प b सही उत्तर है."
+        },
+        {
+          "question_english": "Consider the following statements regarding the spread of Jainism in ancient India:\n\n1. Jainism received patronage from several ruling dynasties in western and southern India.\n2. Chandragupta Maurya is traditionally associated with Jainism in later life.\n3. Jainism became the dominant religion across Central Asia during ancient times.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ప్రాచీన భారతదేశంలో జైనమత వ్యాప్తికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పశ్చిమ మరియు దక్షిణ భారతదేశంలోని అనేక రాజవంశాలు జైనమతానికి మద్దతు ఇచ్చాయి.\n2. చంద్రగుప్త మౌర్యుడు జీవితాంతంలో జైనమతంతో అనుసంధానించబడ్డాడు.\n3. జైనమతం ప్రాచీన కాలంలో మధ్య ఆసియాలో ప్రధాన మతంగా మారింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "प्राचीन भारत में जैन धर्म के प्रसार के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पश्चिमी और दक्षिणी भारत के अनेक राजवंशों ने जैन धर्म को संरक्षण दिया।\n2. चन्द्रगुप्त मौर्य का जीवन के अंतिम चरण में जैन धर्म से संबंध माना जाता है।\n3. प्राचीन काल में जैन धर्म मध्य एशिया का प्रमुख धर्म बन गया था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. Jainism received patronage from several dynasties such as the Gangas, Rashtrakutas and others in western and southern India. These rulers supported Jain monasteries, temples and scholars.\n\nAccording to Jain tradition, Chandragupta Maurya accepted Jainism under the guidance of Bhadrabahu and later migrated to Shravanabelagola in Karnataka.\n\nStatement 3 is incorrect because Jainism largely remained confined to the Indian subcontinent and did not become a dominant religion in Central Asia like Buddhism.\n\nThe geographical spread of Jainism compared to Buddhism is an important analytical area in ancient Indian history.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. గంగులు, రాష్ట్రకూటులు వంటి అనేక రాజవంశాలు పశ్చిమ మరియు దక్షిణ భారతదేశంలో జైనమతానికి మద్దతు ఇచ్చాయి. వారు జైన బసదులు, దేవాలయాలు మరియు పండితులను ప్రోత్సహించారు.\n\nజైన సంప్రదాయం ప్రకారం చంద్రగుప్త మౌర్యుడు భద్రబాహు ప్రభావంతో జైనమతాన్ని స్వీకరించి తరువాత కర్ణాటకలోని శ్రవణబెలగోలాకు వెళ్లాడు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే జైనమతం ప్రధానంగా భారత ఉపఖండానికే పరిమితమైంది; బౌద్ధమతంలా మధ్య ఆసియాలో ప్రధాన మతంగా మారలేదు.\n\nజైన మరియు బౌద్ధ మతాల భౌగోళిక వ్యాప్తి మధ్య తేడా ప్రాచీన భారత చరిత్రలో ముఖ్య విశ్లేషణాత్మక అంశం.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। गंग, राष्ट्रकूट आदि अनेक राजवंशों ने पश्चिमी और दक्षिणी भारत में जैन धर्म को संरक्षण दिया। उन्होंने जैन मंदिरों, मठों और विद्वानों को प्रोत्साहन प्रदान किया।\n\nजैन परम्परा के अनुसार चन्द्रगुप्त मौर्य ने भद्रबाहु के प्रभाव में जैन धर्म अपनाया और बाद में श्रवणबेलगोला चले गए।\n\nकथन 3 गलत है क्योंकि जैन धर्म मुख्यतः भारतीय उपमहाद्वीप तक सीमित रहा और बौद्ध धर्म की तरह मध्य एशिया में प्रमुख धर्म नहीं बन सका।\n\nजैन और बौद्ध धर्म के भौगोलिक प्रसार का तुलनात्मक अध्ययन UPSC में महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the major trap.\n\nStudents often generalize the international spread of Buddhism to all heterodox religions. However, Jainism remained largely confined within India.\n\nStatements 1 and 2 are historically associated with the regional growth of Jainism and the Jain tradition related to Chandragupta Maurya.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు.\n\nచాలామంది బౌద్ధమతం అంతర్జాతీయంగా వ్యాపించినట్లే అన్ని నాస్తిక మతాలు కూడా వ్యాపించాయని భావిస్తారు. కానీ జైనమతం ప్రధానంగా భారతదేశానికే పరిమితమైంది.\n\nప్రకటనలు 1 మరియు 2 జైనమత ప్రాంతీయ అభివృద్ధి మరియు చంద్రగుప్త మౌర్యుడితో సంబంధం ఉన్న జైన సంప్రదాయానికి చారిత్రకంగా సంబంధించినవి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है।\n\nकई विद्यार्थी बौद्ध धर्म के अंतरराष्ट्रीय प्रसार को सभी श्रमण धर्मों पर लागू कर देते हैं। किन्तु जैन धर्म मुख्यतः भारत तक सीमित रहा।\n\nकथन 1 और 2 जैन धर्म के क्षेत्रीय विकास तथा चन्द्रगुप्त मौर्य से जुड़ी जैन परम्परा से संबंधित हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the Jain concept of 'Anekantavada'?",
+
+          "options_english": {
+            "a": "Belief in complete ritual sacrifice",
+            "b": "Doctrine of multiple viewpoints and relativity of truth",
+            "c": "Theory of divine kingship",
+            "d": "Rejection of ascetic practices"
+          },
+
+          "question_telugu": "జైనమతంలోని 'అనేకాంతవాదం' భావనను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "పూర్తి యజ్ఞ కర్మకాండల విశ్వాసం",
+            "b": "అనేక దృక్కోణాలు మరియు సత్య సాపేక్షత సిద్ధాంతం",
+            "c": "దైవ రాజ్యాధికార సిద్ధాంతం",
+            "d": "తపస్సును తిరస్కరించడం"
+          },
+
+          "question_hindi": "जैन धर्म की 'अनेकांतवाद' अवधारणा को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "पूर्ण यज्ञ परम्परा में विश्वास",
+            "b": "अनेक दृष्टिकोणों और सत्य की सापेक्षता का सिद्धांत",
+            "c": "दैवी राजसत्ता का सिद्धांत",
+            "d": "तपस्या का विरोध"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Anekantavada is an important philosophical doctrine of Jainism which states that reality and truth can be understood from multiple perspectives. According to this principle, no single viewpoint can completely capture the entire truth.\n\nThis doctrine encouraged intellectual tolerance, dialogue and philosophical flexibility. It became one of the distinctive contributions of Jain philosophy to Indian thought.\n\nOption a relates to ritual traditions, option c concerns political theory, and option d is contrary to Jainism because Jainism strongly supported ascetic discipline.\n\nUPSC frequently asks philosophical terminology questions where conceptual clarity becomes more important than factual memorization.",
+
+          "explanation_telugu": "అనేకాంతవాదం జైనమతంలోని ముఖ్య తాత్విక సిద్ధాంతం. దీని ప్రకారం వాస్తవం మరియు సత్యాన్ని అనేక దృక్కోణాల నుండి అర్థం చేసుకోవాలి. ఏ ఒక్క అభిప్రాయం కూడా సంపూర్ణ సత్యాన్ని పూర్తిగా వివరించలేదని ఈ సిద్ధాంతం చెబుతుంది.\n\nఈ భావన మేధో సహనం, సంభాషణ మరియు తాత్విక సౌలభ్యాన్ని ప్రోత్సహించింది. ఇది భారత తత్వశాస్త్రానికి జైనమతం చేసిన ప్రత్యేక కృషిగా పరిగణించబడుతుంది.\n\nఎంపిక a కర్మకాండ సంప్రదాయాలకు సంబంధించినది. ఎంపిక c రాజకీయ సిద్ధాంతానికి సంబంధించినది. ఎంపిక d జైనమతానికి విరుద్ధం, ఎందుకంటే జైనమతం తపస్సుకు అత్యంత ప్రాధాన్యం ఇచ్చింది.\n\nతాత్విక పరిభాషలపై UPSC తరచుగా భావనాత్మక స్పష్టత ఆధారిత ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "अनेकांतवाद जैन धर्म का एक महत्वपूर्ण दार्शनिक सिद्धांत है जिसके अनुसार सत्य और वास्तविकता को अनेक दृष्टिकोणों से समझा जा सकता है। कोई एक दृष्टिकोण सम्पूर्ण सत्य को पूर्णतः व्यक्त नहीं कर सकता।\n\nइस सिद्धांत ने बौद्धिक सहिष्णुता, संवाद और दार्शनिक लचीलापन को प्रोत्साहित किया। इसे भारतीय दर्शन में जैन धर्म का महत्वपूर्ण योगदान माना जाता है।\n\nविकल्प a अनुष्ठानिक परम्पराओं से, विकल्प c राजनीतिक सिद्धांत से तथा विकल्प d जैन धर्म के विपरीत है क्योंकि जैन धर्म तपस्या का समर्थन करता है।\n\nUPSC अक्सर दार्शनिक शब्दावली पर आधारित प्रश्न पूछता है जहाँ वैचारिक स्पष्टता अत्यंत महत्वपूर्ण होती है।",
+
+          "elimination_logic_english": "The keyword 'Anekanta' itself indicates multiplicity.\n\nOption b alone reflects the Jain philosophical idea that truth may have multiple dimensions and perspectives.\n\nOptions a and c belong to unrelated ritual and political ideas, while option d directly contradicts the ascetic foundation of Jainism.\n\nAspirants should identify Anekantavada as a doctrine of intellectual pluralism and relativity.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "'అనేకాంత' అనే పదమే అనేక దృక్కోణాలను సూచిస్తుంది.\n\nఎంపిక b మాత్రమే సత్యానికి అనేక కోణాలు ఉంటాయని చెప్పే జైన తాత్విక భావనను సరైనంగా ప్రతిబింబిస్తుంది.\n\nఎంపికలు a మరియు c సంబంధం లేని కర్మకాండ మరియు రాజకీయ భావనలు. ఎంపిక d జైనమతంలోని తపస్సు పునాదికి విరుద్ధం.\n\nఅనేకాంతవాదాన్ని మేధో బహుముఖత్వ సిద్ధాంతంగా గుర్తించాలి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "'अनेकांत' शब्द स्वयं अनेक दृष्टिकोणों की ओर संकेत करता है।\n\nकेवल विकल्प b ही उस जैन दार्शनिक विचार को दर्शाता है जिसके अनुसार सत्य के अनेक आयाम हो सकते हैं।\n\nविकल्प a और c असंबंधित अनुष्ठानिक तथा राजनीतिक विचार हैं, जबकि विकल्प d जैन धर्म की तपस्या पर आधारित परम्परा के विपरीत है।\n\nअनेकांतवाद को बौद्धिक बहुलता और सत्य की सापेक्षता के सिद्धांत के रूप में पहचानना चाहिए।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Jain monks often adopted rigorous measures to avoid harming living beings.\n\nReason (R): Jainism believed that even microscopic organisms possess life and soul.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): జైన సన్యాసులు జీవులకు హాని కలగకుండా కఠిన నియమాలను అనుసరించేవారు.\n\nకారణం (R): సూక్ష్మ జీవుల్లో కూడా ప్రాణం మరియు ఆత్మ ఉంటాయని జైనమతం విశ్వసించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): जैन साधु जीवों को हानि पहुँचाने से बचने के लिए कठोर नियमों का पालन करते थे।\n\nकारण (R): जैन धर्म मानता था कि सूक्ष्म जीवों में भी जीवन और आत्मा होती है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Jain monks followed extremely rigorous practices such as wearing cloth masks, sweeping the ground before walking and avoiding unnecessary movement in order to minimize harm to living beings.\n\nThese practices emerged from the Jain philosophical belief that life exists not only in humans and animals but also in plants and microscopic organisms.\n\nThe doctrine of Ahimsa in Jainism therefore extended far beyond ordinary non-violence and became one of the strictest ethical systems in world religious history.\n\nUPSC frequently asks analytical questions connecting Jain philosophy with practical ascetic behaviour.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. జైన సన్యాసులు జీవులకు హాని జరగకుండా ఉండేందుకు నోటి ముసుగులు ధరించడం, నడిచే ముందు నేలను ఊడవేయడం మరియు అనవసర కదలికలను నివారించడం వంటి కఠిన నియమాలను అనుసరించేవారు.\n\nఈ ఆచారాలు మనుషులు, జంతువులు మాత్రమే కాకుండా మొక్కలు మరియు సూక్ష్మ జీవుల్లో కూడా ప్రాణం ఉందనే జైన తాత్విక విశ్వాసం నుండి వచ్చాయి.\n\nఅందువల్ల జైన అహింసా సిద్ధాంతం సాధారణ హింసా నిరాకరణకన్నా చాలా విస్తృతంగా అభివృద్ధి చెందింది.\n\nజైన తత్వశాస్త్రాన్ని ఆచరణాత్మక తపస్సుతో అనుసంధానిస్తూ UPSC తరచుగా విశ్లేషణాత్మక ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। जैन साधु जीवों को हानि से बचाने हेतु मुखावरण पहनना, चलने से पहले भूमि साफ करना तथा अनावश्यक गतिविधियों से बचना जैसे कठोर नियमों का पालन करते थे।\n\nये प्रथाएँ जैन दर्शन की उस मान्यता से उत्पन्न हुईं जिसके अनुसार केवल मनुष्य और पशु ही नहीं बल्कि पौधों और सूक्ष्म जीवों में भी जीवन होता है।\n\nइस प्रकार जैन धर्म में अहिंसा का सिद्धांत सामान्य अहिंसा से कहीं अधिक व्यापक और कठोर रूप में विकसित हुआ।\n\nUPSC प्रायः जैन दर्शन और उसके व्यावहारिक तपस्वी आचरण को जोड़कर विश्लेषणात्मक प्रश्न पूछता है।",
+
+          "elimination_logic_english": "The Reason directly explains the extreme ascetic practices of Jain monks.\n\nUPSC often tests whether aspirants understand the philosophical basis behind religious practices.\n\nSince Jainism believed that even microscopic organisms possess life, monks adopted rigorous behavioural restrictions to avoid violence.\n\nThus, the doctrinal belief itself explains the ascetic conduct mentioned in the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం జైన సన్యాసుల కఠిన తపస్సు ఆచారాలకు నేరుగా వివరణ ఇస్తుంది.\n\nమత ఆచారాల వెనుక ఉన్న తాత్విక పునాదిని విద్యార్థులు అర్థం చేసుకున్నారా లేదా అనే విషయాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nసూక్ష్మ జీవుల్లో కూడా ప్రాణం ఉందని జైనమతం విశ్వసించినందున, సన్యాసులు హింస నివారించేందుకు కఠిన నియమాలను అనుసరించారు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण जैन साधुओं की कठोर तपस्वी प्रथाओं की सीधी व्याख्या करता है।\n\nUPSC प्रायः यह जाँचता है कि अभ्यर्थी धार्मिक आचरणों के पीछे के दार्शनिक आधार को समझते हैं या नहीं।\n\nचूँकि जैन धर्म सूक्ष्म जीवों में भी जीवन मानता था, इसलिए साधुओं ने हिंसा से बचने हेतु कठोर नियम अपनाए।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        }
+      ]
     }
   }
 }
