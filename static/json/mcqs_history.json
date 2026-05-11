@@ -552,7 +552,301 @@
         "elimination_logic_telugu": "కారణం దూర వాణిజ్యానికి నేరుగా ఆధారాలు అందిస్తుంది. ముద్రలు, తూనికలు మరియు నౌకాశ్రయాలు వాణిజ్య వ్యవస్థ ఎలా పనిచేసిందో వివరిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
 
         "elimination_logic_hindi": "कारण दूरस्थ व्यापार के प्रत्यक्ष प्रमाण प्रस्तुत करता है। मुहरें, बाट और गोदी संगठित व्यापार व्यवस्था को स्पष्ट करते हैं। इसलिए विकल्प a सही है।"
+      },
+      {
+  "question_english": "Consider the following statements regarding the town planning of the Indus Valley Civilization:\n\n1. Streets were generally laid out in a grid pattern.\n2. Houses commonly had access to drainage facilities.\n3. Public buildings and granaries were absent in the cities.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "సింధు లోయ నాగరికత పట్టణ ప్రణాళికకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వీధులు సాధారణంగా గ్రిడ్ ఆకారంలో నిర్మించబడ్డాయి.\n2. ఇళ్లకు సాధారణంగా కాలువ సౌకర్యం ఉండేది.\n3. నగరాల్లో ప్రజా భవనాలు మరియు ధాన్యాగారాలు లేవు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "सिंधु घाटी सभ्यता की नगरीय योजना के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सड़कों का विन्यास सामान्यतः ग्रिड प्रणाली में था।\n2. घरों में प्रायः जल निकासी की सुविधा थी।\n3. नगरों में सार्वजनिक भवन और अन्नागार अनुपस्थित थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct because Indus cities were carefully planned with grid-pattern streets and sophisticated drainage systems connected to houses. Statement 3 is incorrect because archaeological evidence clearly shows the presence of public structures such as granaries, assembly halls and the Great Bath.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి, ఎందుకంటే సింధు నగరాలు గ్రిడ్ ఆకార వీధులు మరియు ఆధునిక కాలువ వ్యవస్థలతో ప్రణాళికాబద్ధంగా నిర్మించబడ్డాయి. ప్రకటన 3 తప్పు, ఎందుకంటే ధాన్యాగారాలు, సభాభవనాలు మరియు మహాస్నానగృహం వంటి ప్రజా నిర్మాణాలకు ఆధారాలు ఉన్నాయి.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं क्योंकि सिंधु नगर सुव्यवस्थित ग्रिड प्रणाली वाली सड़कों तथा उन्नत जल निकासी व्यवस्था से युक्त थे। कथन 3 गलत है क्योंकि अन्नागार, सभा भवन और महान स्नानागार जैसे सार्वजनिक भवनों के प्रमाण प्राप्त हुए हैं।",
+
+  "elimination_logic_english": "Statement 3 is the trap because public architecture is one of the defining features of the civilization. Once Statement 3 is eliminated, options b, c and d become incorrect.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు, ఎందుకంటే ప్రజా నిర్మాణాలు ఈ నాగరికత ముఖ్య లక్షణాలలో ఒకటి. ప్రకటన 3ను తొలగించిన వెంటనే b, c, d ఎంపికలు తప్పవుతాయి.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है क्योंकि सार्वजनिक वास्तुकला इस सभ्यता की प्रमुख विशेषताओं में से एक थी। कथन 3 हटाते ही विकल्प b, c और d गलत हो जाते हैं।"
+},
+{
+  "question_english": "With reference to the economic life of the Indus Valley Civilization, consider the following statements:\n\n1. Agriculture formed an important part of the economy.\n2. Standardized weights and measures were used.\n3. Trade was carried out only within the Indian subcontinent.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "సింధు లోయ నాగరికత ఆర్థిక జీవితానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వ్యవసాయం ఆర్థిక వ్యవస్థలో ముఖ్య భాగం.\n2. ప్రమాణీకృత తూనికలు మరియు కొలతలు ఉపయోగించబడ్డాయి.\n3. వాణిజ్యం భారత ఉపఖండం లోపల మాత్రమే జరిగేది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "सिंधु घाटी सभ्यता के आर्थिक जीवन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. कृषि अर्थव्यवस्था का महत्वपूर्ण भाग थी।\n2. मानकीकृत बाट और माप का उपयोग होता था।\n3. व्यापार केवल भारतीय उपमहाद्वीप के भीतर ही होता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct because agriculture, trade and craft production formed the economic foundation of the civilization. Standardized weights reflect organized commercial practices. Statement 3 is incorrect because archaeological evidence suggests trade relations with regions such as Mesopotamia.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి, ఎందుకంటే వ్యవసాయం, వాణిజ్యం మరియు వృత్తులు ఈ నాగరికత ఆర్థిక పునాదులు. ప్రమాణీకృత తూనికలు సుశ్రుత వాణిజ్య వ్యవస్థను సూచిస్తాయి. ప్రకటన 3 తప్పు, ఎందుకంటే మెసపొటేమియా వంటి ప్రాంతాలతో వాణిజ్య సంబంధాలకు ఆధారాలు ఉన్నాయి.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं क्योंकि कृषि, व्यापार और शिल्प उत्पादन इस सभ्यता की आर्थिक नींव थे। मानकीकृत बाट संगठित व्यापार व्यवस्था को दर्शाते हैं। कथन 3 गलत है क्योंकि मेसोपोटामिया जैसे क्षेत्रों के साथ व्यापारिक संबंधों के प्रमाण प्राप्त हुए हैं।",
+
+  "elimination_logic_english": "The word 'only' in Statement 3 makes it incorrect. UPSC frequently uses restrictive wording to test whether students remember external trade links of the civilization.",
+
+  "elimination_logic_telugu": "ప్రకటన 3లోని ‘మాత్రమే’ అనే పదం దానిని తప్పుగా చేస్తుంది. నాగరికత బాహ్య వాణిజ్య సంబంధాలను విద్యార్థులు గుర్తుంచుకున్నారా లేదా అనే విషయాన్ని UPSC ఇలాంటి పరిమిత పదాలతో పరీక్షిస్తుంది.",
+
+  "elimination_logic_hindi": "कथन 3 में ‘केवल’ शब्द इसे गलत बनाता है। UPSC प्रायः ऐसे सीमित शब्दों का उपयोग करके बाह्य व्यापार संबंधों की समझ को परखता है।"
+},
+{
+  "question_english": "Assertion (A): The script of the Indus Valley Civilization has not been fully deciphered.\n\nReason (R): No long bilingual inscription of the civilization has yet been discovered.\n\nWhich one of the following is correct?",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is not correct",
+    "d": "A is not correct but R is correct"
+  },
+
+  "question_telugu": "ప్రతిపాదన (A): సింధు లోయ నాగరికత లిపి ఇప్పటికీ పూర్తిగా అర్థం కాలేదు.\n\nకారణం (R): ఈ నాగరికతకు చెందిన దీర్ఘ ద్విభాషా శాసనం ఇప్పటివరకు కనుగొనబడలేదు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R సరైనది కాదు",
+    "d": "A సరైనది కాదు కానీ R సరైనది"
+  },
+
+  "question_hindi": "अभिकथन (A): सिंधु घाटी सभ्यता की लिपि अब तक पूर्णतः पढ़ी नहीं जा सकी है।\n\nकारण (R): इस सभ्यता का कोई लंबा द्विभाषीय अभिलेख अभी तक प्राप्त नहीं हुआ है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+    "c": "A सही है किन्तु R सही नहीं है",
+    "d": "A सही नहीं है किन्तु R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The script of the Indus Valley Civilization remains undeciphered despite extensive research. One major reason is the absence of long bilingual inscriptions like the Rosetta Stone, which helped decipher Egyptian hieroglyphs. Most Indus inscriptions are short and symbolic, making interpretation difficult.",
+
+  "explanation_telugu": "సింధు లోయ నాగరికత లిపి ఇప్పటికీ పూర్తిగా అర్థం కాలేదు. ప్రధాన కారణాలలో ఒకటి రోసెట్టా శిలాఫలకం వంటి దీర్ఘ ద్విభాషా శాసనాలు కనుగొనబడకపోవడం. చాలా శాసనాలు చిన్నవిగా మరియు సంకేతాత్మకంగా ఉండటం వల్ల అర్థం చేసుకోవడం కష్టమవుతోంది.",
+
+  "explanation_hindi": "सिंधु घाटी सभ्यता की लिपि अभी तक पूर्णतः पढ़ी नहीं जा सकी है। इसका एक प्रमुख कारण रोसेटा शिला जैसे लंबे द्विभाषीय अभिलेखों का अभाव है। अधिकांश सिंधु अभिलेख छोटे और सांकेतिक हैं, जिससे उनका अर्थ समझना कठिन हो जाता है।",
+
+  "elimination_logic_english": "The Reason directly explains why the script remains undeciphered. Without a bilingual reference inscription, linguistic comparison becomes extremely difficult. Therefore, option a is correct.",
+
+  "elimination_logic_telugu": "లిపి ఎందుకు అర్థం కాలేదో కారణం నేరుగా వివరిస్తుంది. ద్విభాషా ఆధార శాసనం లేకపోవడం వల్ల భాషాత్మక పోలిక చాలా కష్టమవుతోంది. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कारण सीधे यह स्पष्ट करता है कि लिपि अब तक क्यों नहीं पढ़ी जा सकी। द्विभाषीय अभिलेख के अभाव में भाषाई तुलना अत्यंत कठिन हो जाती है। इसलिए विकल्प a सही है।"
+},
+      {
+  "question_english": "Consider the following statements regarding religion in the Indus Valley Civilization:\n\n1. Terracotta female figurines are often associated with mother goddess worship.\n2. Seals depicting animals and a horned deity have been discovered.\n3. Large stone temples similar to later Hindu temples have been found in major cities.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "సింధు లోయ నాగరికత మతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మట్టి మహిళా విగ్రహాలు తల్లి దేవత ఆరాధనతో సంబంధం కలిగి ఉన్నట్లు భావిస్తారు.\n2. జంతువులు మరియు కొమ్ములున్న దేవత చిత్రాలతో ముద్రలు కనుగొనబడ్డాయి.\n3. తరువాతి హిందూ దేవాలయాల వంటి పెద్ద రాతి దేవాలయాలు ప్రధాన నగరాల్లో కనుగొనబడ్డాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "सिंधु घाटी सभ्यता के धर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. मिट्टी की स्त्री मूर्तियों को प्रायः मातृदेवी पूजा से जोड़ा जाता है।\n2. पशुओं और सींगयुक्त देवता वाली मुहरें प्राप्त हुई हैं।\n3. बाद के हिन्दू मंदिरों जैसे विशाल पत्थर मंदिर प्रमुख नगरों में पाए गए हैं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct. Archaeologists often associate terracotta female figurines with fertility or mother goddess worship. Seals depicting animals and a horned deity, sometimes linked to proto-Shiva or Pashupati, have also been found. Statement 3 is incorrect because no massive stone temples comparable to later Hindu temple architecture have been discovered in Indus cities.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. మట్టి మహిళా విగ్రహాలను తల్లి దేవత లేదా సంతానోత్పత్తి ఆరాధనతో పురావస్తు శాస్త్రవేత్తలు అనుసంధానిస్తారు. జంతువులు మరియు కొమ్ములున్న దేవత చిత్రాలతో ముద్రలు కూడా కనుగొనబడ్డాయి. ప్రకటన 3 తప్పు, ఎందుకంటే తరువాతి హిందూ దేవాలయాల వంటి భారీ రాతి దేవాలయాలు సింధు నగరాల్లో కనుగొనబడలేదు.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। मिट्टी की स्त्री मूर्तियों को प्रायः मातृदेवी अथवा उर्वरता पूजा से जोड़ा जाता है। पशुओं और सींगयुक्त देवता वाली मुहरें भी प्राप्त हुई हैं, जिन्हें कभी-कभी आदि-शिव या पशुपति से जोड़ा जाता है। कथन 3 गलत है क्योंकि सिंधु नगरों में बाद के हिन्दू मंदिरों जैसे विशाल पत्थर मंदिर नहीं मिले हैं।",
+
+  "elimination_logic_english": "Statement 3 is the trap because students may project later temple architecture backward into the Indus period. The civilization shows religious symbols and ritual evidence, but not grand temple structures.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు, ఎందుకంటే తరువాతి దేవాలయ నిర్మాణాలను సింధు కాలానికి అన్వయించే అవకాశం ఉంటుంది. ఈ నాగరికతలో మత చిహ్నాలు మరియు ఆచారాలకు ఆధారాలు ఉన్నప్పటికీ భారీ దేవాలయ నిర్మాణాలు లేవు.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है क्योंकि विद्यार्थी बाद की मंदिर वास्तुकला को सिंधु काल पर लागू कर सकते हैं। इस सभ्यता में धार्मिक प्रतीक और अनुष्ठानिक प्रमाण तो मिलते हैं, परन्तु विशाल मंदिर संरचनाएँ नहीं।"
+},
+{
+  "question_english": "Match the following:\n\nList I (Indus Valley Site)\n1. Dholavira\n2. Chanhudaro\n3. Banawali\n4. Rakhigarhi\n\nList II (Feature)\nA. Bead-making centre\nB. One of the largest Harappan sites in India\nC. Water management system\nD. Fortified settlement in Haryana region\n\nSelect the correct answer using the code given below.",
+
+  "options_english": {
+    "a": "1-C, 2-A, 3-D, 4-B",
+    "b": "1-A, 2-C, 3-B, 4-D",
+    "c": "1-D, 2-B, 3-A, 4-C",
+    "d": "1-C, 2-D, 3-B, 4-A"
+  },
+
+  "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (సింధు నాగరికత స్థలం)\n1. ధోలవీరా\n2. చాన్హుదారో\n3. బనావలి\n4. రాఖీగఢి\n\nజాబితా II (లక్షణం)\nA. మణుల తయారీ కేంద్రం\nB. భారతదేశంలోని అతిపెద్ద హరప్పా స్థలాలలో ఒకటి\nC. జల నిర్వహణ వ్యవస్థ\nD. హర్యానా ప్రాంతంలోని కోటబద్ధ నివాసం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "options_telugu": {
+    "a": "1-C, 2-A, 3-D, 4-B",
+    "b": "1-A, 2-C, 3-B, 4-D",
+    "c": "1-D, 2-B, 3-A, 4-C",
+    "d": "1-C, 2-D, 3-B, 4-A"
+  },
+
+  "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (सिंधु सभ्यता स्थल)\n1. धोलावीरा\n2. चन्हुदड़ो\n3. बनावली\n4. राखीगढ़ी\n\nसूची II (विशेषता)\nA. मनका निर्माण केन्द्र\nB. भारत के सबसे बड़े हड़प्पा स्थलों में से एक\nC. जल प्रबंधन प्रणाली\nD. हरियाणा क्षेत्र की दुर्गयुक्त बस्ती\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_hindi": {
+    "a": "1-C, 2-A, 3-D, 4-B",
+    "b": "1-A, 2-C, 3-B, 4-D",
+    "c": "1-D, 2-B, 3-A, 4-C",
+    "d": "1-C, 2-D, 3-B, 4-A"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Dholavira is famous for its advanced water management system. Chanhudaro was an important bead-making and craft production centre. Banawali in Haryana was a fortified settlement. Rakhigarhi is one of the largest Harappan sites discovered in India. Therefore, option a is correctly matched.",
+
+  "explanation_telugu": "ధోలవీరా ఆధునిక జల నిర్వహణ వ్యవస్థకు ప్రసిద్ధి చెందింది. చాన్హుదారో మణుల తయారీ మరియు వృత్తి కేంద్రంగా ప్రసిద్ధి చెందింది. హర్యానాలోని బనావలి కోటబద్ధ నివాసం. రాఖీగఢి భారతదేశంలోని అతిపెద్ద హరప్పా స్థలాలలో ఒకటి. కాబట్టి ఎంపిక a సరైన జత.",
+
+  "explanation_hindi": "धोलावीरा अपनी उन्नत जल प्रबंधन प्रणाली के लिए प्रसिद्ध है। चन्हुदड़ो मनका निर्माण और शिल्प उत्पादन केन्द्र था। हरियाणा का बनावली एक दुर्गयुक्त बस्ती थी। राखीगढ़ी भारत के सबसे बड़े हड़प्पा स्थलों में से एक है। अतः विकल्प a सही मिलान है।",
+
+  "elimination_logic_english": "Dholavira is strongly associated with reservoirs and water conservation, while Chanhudaro is known for bead-making. Once these two are fixed, Banawali and Rakhigarhi can be matched easily.",
+
+  "elimination_logic_telugu": "ధోలవీరా జలాశయాలు మరియు నీటి సంరక్షణతో ప్రసిద్ధి చెందింది. చాన్హుదారో మణుల తయారీకి ప్రసిద్ధి చెందింది. ఈ రెండింటిని సరిపోల్చిన తర్వాత బనావలి మరియు రాఖీగఢిని సులభంగా గుర్తించవచ్చు.",
+
+  "elimination_logic_hindi": "धोलावीरा जलाशयों और जल संरक्षण प्रणाली से जुड़ा है जबकि चन्हुदड़ो मनका निर्माण के लिए प्रसिद्ध है। इन दोनों का मिलान होने पर बनावली और राखीगढ़ी का मिलान सरल हो जाता है।"
+},
+{
+  "question_english": "Assertion (A): Standardized bricks were widely used in the Indus Valley Civilization.\n\nReason (R): Uniform brick proportions indicate a high degree of urban planning and administrative control.\n\nWhich one of the following is correct?",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is not correct",
+    "d": "A is not correct but R is correct"
+  },
+
+  "question_telugu": "ప్రతిపాదన (A): సింధు లోయ నాగరికతలో ప్రమాణీకృత ఇటుకలు విస్తృతంగా ఉపయోగించబడ్డాయి.\n\nకారణం (R): ఇటుకల సమాన నిష్పత్తులు ఉన్నత స్థాయి పట్టణ ప్రణాళిక మరియు పరిపాలనా నియంత్రణను సూచిస్తాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R సరైనది కాదు",
+    "d": "A సరైనది కాదు కానీ R సరైనది"
+  },
+
+  "question_hindi": "अभिकथन (A): सिंधु घाटी सभ्यता में मानकीकृत ईंटों का व्यापक उपयोग होता था।\n\nकारण (R): ईंटों के समान अनुपात उन्नत नगरीय नियोजन और प्रशासनिक नियंत्रण को दर्शाते हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+    "c": "A सही है किन्तु R सही नहीं है",
+    "d": "A सही नहीं है किन्तु R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The Indus Valley Civilization used standardized baked bricks across different cities. The uniformity in brick ratios reflects systematic planning, technical knowledge and possibly centralized administrative practices. This standardization helped maintain consistency in construction and urban design. Therefore, both the Assertion and Reason are correct, and the Reason properly explains the Assertion.",
+
+  "explanation_telugu": "సింధు లోయ నాగరికతలో వివిధ నగరాల్లో ప్రమాణీకృత కాల్చిన ఇటుకలు ఉపయోగించబడ్డాయి. ఇటుకల సమాన నిష్పత్తులు ప్రణాళికాబద్ధ నిర్మాణం, సాంకేతిక పరిజ్ఞానం మరియు పరిపాలనా నియంత్రణను సూచిస్తాయి. ఈ ప్రమాణీకరణ పట్టణ నిర్మాణంలో ఏకరూపతను కల్పించింది. కాబట్టి ప్రతిపాదన మరియు కారణం రెండూ సరైనవి మరియు కారణం ప్రతిపాదనను వివరిస్తుంది.",
+
+  "explanation_hindi": "सिंधु घाटी सभ्यता में विभिन्न नगरों में मानकीकृत पकी हुई ईंटों का उपयोग होता था। ईंटों के समान अनुपात सुव्यवस्थित नियोजन, तकनीकी दक्षता और संभवतः प्रशासनिक नियंत्रण को दर्शाते हैं। इस मानकीकरण ने निर्माण कार्य में एकरूपता बनाए रखी। अतः अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है।",
+
+  "elimination_logic_english": "The Reason directly explains why standardization mattered in the civilization. Uniform bricks were not accidental; they reflected organized planning and civic management. Hence option a is correct.",
+
+  "elimination_logic_telugu": "ప్రమాణీకరణ ఎందుకు ముఖ్యమో కారణం నేరుగా వివరిస్తుంది. సమాన ఇటుకలు యాదృచ్ఛికం కాదు; అవి ప్రణాళికాబద్ధ పట్టణ నిర్వహణను సూచిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+  "elimination_logic_hindi": "कारण सीधे यह स्पष्ट करता है कि मानकीकरण क्यों महत्वपूर्ण था। समान ईंटें संयोग नहीं थीं बल्कि संगठित नगरीय नियोजन और प्रशासन का संकेत थीं। इसलिए विकल्प a सही है।"
+},
+      {
+  "question_english": "Consider the following statements regarding the decline of the Indus Valley Civilization:\n\n1. Environmental changes and shifting river systems are considered possible factors.\n2. There is complete archaeological agreement that a foreign invasion alone destroyed the civilization.\n3. Decline occurred gradually in many regions rather than suddenly everywhere.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 3 only",
+    "b": "2 only",
+    "c": "1, 2 and 3",
+    "d": "1 only"
+  },
+
+  "question_telugu": "సింధు లోయ నాగరికత పతనానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పర్యావరణ మార్పులు మరియు నదీ మార్గాల మార్పు కారణాలలో ఒకటిగా భావిస్తారు.\n2. విదేశీ దాడి ఒక్కటే ఈ నాగరికతను నాశనం చేసిందని పూర్తి పురావస్తు ఏకాభిప్రాయం ఉంది.\n3. పతనం అన్ని ప్రాంతాల్లో ఒక్కసారిగా కాకుండా అనేక ప్రాంతాల్లో క్రమంగా జరిగింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 3 మాత్రమే",
+    "b": "2 మాత్రమే",
+    "c": "1, 2 మరియు 3",
+    "d": "1 మాత్రమే"
+  },
+
+  "question_hindi": "सिंधु घाटी सभ्यता के पतन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पर्यावरणीय परिवर्तन और नदी मार्गों में बदलाव को संभावित कारण माना जाता है।\n2. इस बात पर पूर्ण पुरातात्त्विक सहमति है कि केवल विदेशी आक्रमण ने ही सभ्यता को नष्ट किया।\n3. अनेक क्षेत्रों में पतन अचानक न होकर धीरे-धीरे हुआ।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 3",
+    "b": "केवल 2",
+    "c": "1, 2 और 3",
+    "d": "केवल 1"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 3 are correct. Scholars suggest multiple factors for the decline of the civilization, including climate change, drying rivers, ecological stress and economic decline. Statement 2 is incorrect because there is no complete agreement that foreign invasion alone caused the collapse. Modern research generally supports a gradual and multi-causal decline rather than a single dramatic event.",
+
+  "explanation_telugu": "ప్రకటనలు 1 మరియు 3 సరైనవి. వాతావరణ మార్పులు, ఎండిపోయిన నదులు, పర్యావరణ ఒత్తిడి మరియు ఆర్థిక క్షీణత వంటి అనేక కారణాలను పండితులు సూచిస్తున్నారు. ప్రకటన 2 తప్పు, ఎందుకంటే విదేశీ దాడి ఒక్కటే పతనానికి కారణమని పూర్తి ఏకాభిప్రాయం లేదు. ఆధునిక పరిశోధనలు క్రమంగా మరియు అనేక కారణాలతో పతనం జరిగిందని సూచిస్తున్నాయి.",
+
+  "explanation_hindi": "कथन 1 और 3 सही हैं। विद्वान जलवायु परिवर्तन, नदियों के सूखने, पर्यावरणीय दबाव और आर्थिक गिरावट जैसे अनेक कारणों को सभ्यता के पतन से जोड़ते हैं। कथन 2 गलत है क्योंकि केवल विदेशी आक्रमण को ही पतन का कारण मानने पर पूर्ण सहमति नहीं है। आधुनिक शोध क्रमिक और बहु-कारकीय पतन का समर्थन करता है।",
+
+  "elimination_logic_english": "Statement 2 contains the extreme phrase 'complete agreement' and 'alone', making it incorrect. UPSC often tests balanced historical interpretation rather than outdated single-cause theories.",
+
+  "elimination_logic_telugu": "ప్రకటన 2లోని ‘పూర్తి ఏకాభిప్రాయం’ మరియు ‘ఒక్కటే’ అనే అతిశయ పదాలు దానిని తప్పుగా చేస్తాయి. UPSC పాత ఒక్క కారణ సిద్ధాంతాల కంటే సమతుల్య చారిత్రక విశ్లేషణను పరీక్షిస్తుంది.",
+
+  "elimination_logic_hindi": "कथन 2 में ‘पूर्ण सहमति’ और ‘केवल’ जैसे अतिशयोक्तिपूर्ण शब्द हैं, जिससे यह गलत हो जाता है। UPSC प्रायः एकल कारण सिद्धांतों के बजाय संतुलित ऐतिहासिक व्याख्या को परखता है।"
       }
     ]
   }
-  }
+}
