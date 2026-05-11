@@ -863,6 +863,143 @@
           "elimination_logic_hindi": "कथन 3 में ‘सर्वसम्मति’ और ‘केवल’ जैसे अतिशय शब्द हैं। ये सामान्य UPSC जाल हैं। हड़प्पा पतन के लिए अनेक सिद्धांत हैं; कोई एक कारण सर्वमान्य नहीं है। इसलिए विकल्प c सही है।"
         }
       ]
+  },
+
+    "Vedic Age": {
+      "topic_english": "Vedic Age",
+      "topic_telugu": "వేద కాలం",
+      "topic_hindi": "वैदिक काल",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Early Vedic Age:\n\n1. The society was predominantly pastoral in nature.\n2. Cattle wealth occupied an important place in the economy.\n3. Large urban centres formed the basis of political life.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "ప్రారంభ వేద కాలానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సమాజం ప్రధానంగా పశుపోషణ ఆధారంగా ఉండేది.\n2. పశుసంపద ఆర్థిక వ్యవస్థలో ముఖ్య స్థానాన్ని ఆక్రమించింది.\n3. పెద్ద పట్టణ కేంద్రాలు రాజకీయ జీవితానికి ఆధారంగా ఉండేవి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "प्रारम्भिक वैदिक काल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. समाज मुख्यतः पशुपालक प्रकृति का था।\n2. पशुधन अर्थव्यवस्था में महत्वपूर्ण स्थान रखता था।\n3. बड़े नगरीय केन्द्र राजनीतिक जीवन का आधार थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Early Vedic society was predominantly pastoral, and cattle wealth was regarded as a major indicator of prosperity. Statement 3 is incorrect because the Early Vedic Age did not witness large urban centres; society was mainly rural and tribal.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ప్రారంభ వేద సమాజం ప్రధానంగా పశుపోషణ ఆధారంగా ఉండేది మరియు పశుసంపదను సంపదకు ప్రధాన సూచికగా పరిగణించేవారు. ప్రకటన 3 తప్పు, ఎందుకంటే ప్రారంభ వేద కాలంలో పెద్ద పట్టణ కేంద్రాలు లేవు; సమాజం ప్రధానంగా గ్రామీణ మరియు గోత్ర ఆధారంగా ఉండేది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। प्रारम्भिक वैदिक समाज मुख्यतः पशुपालक था और पशुधन को समृद्धि का प्रमुख संकेत माना जाता था। कथन 3 गलत है क्योंकि प्रारम्भिक वैदिक काल में बड़े नगरीय केन्द्र नहीं थे; समाज मुख्यतः ग्रामीण और जनजातीय था।",
+
+          "elimination_logic_english": "Statement 3 is the trap because urbanization is associated with later historical phases. Early Vedic society was pastoral and tribal, not urban. Hence option a is correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఉచ్చు. పట్టణీకరణ తరువాతి చారిత్రక దశలకు సంబంధించినది. ప్రారంభ వేద సమాజం పశుపోషణ మరియు గోత్ర ఆధారితంగా ఉండేది, పట్టణ ఆధారితంగా కాదు. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भ्रम है क्योंकि नगरीकरण बाद की ऐतिहासिक अवस्थाओं से जुड़ा है। प्रारम्भिक वैदिक समाज पशुपालक और जनजातीय था, नगरीय नहीं। इसलिए विकल्प a सही है।"
+        },
+
+        {
+          "question_english": "Which one of the following Vedas is mainly associated with sacrificial formulas and rituals?",
+
+          "options_english": {
+            "a": "Rig Veda",
+            "b": "Sama Veda",
+            "c": "Yajur Veda",
+            "d": "Atharva Veda"
+          },
+
+          "question_telugu": "యజ్ఞ మంత్రాలు మరియు కర్మకాండలతో ప్రధానంగా సంబంధం ఉన్న వేదం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఋగ్వేదం",
+            "b": "సామవేదం",
+            "c": "యజుర్వేదం",
+            "d": "అథర్వవేదం"
+          },
+
+          "question_hindi": "यज्ञ संबंधी मंत्रों और अनुष्ठानों से मुख्यतः संबंधित वेद निम्नलिखित में से कौन-सा है?",
+
+          "options_hindi": {
+            "a": "ऋग्वेद",
+            "b": "सामवेद",
+            "c": "यजुर्वेद",
+            "d": "अथर्ववेद"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "The Yajur Veda mainly deals with sacrificial formulas and ritual practices associated with yajnas. Rig Veda contains hymns, Sama Veda is associated with melodies and chants, while Atharva Veda includes magical charms and everyday prayers.",
+
+          "explanation_telugu": "యజుర్వేదం ప్రధానంగా యజ్ఞాలు మరియు కర్మకాండలకు సంబంధించిన మంత్రాలు మరియు విధానాలను వివరిస్తుంది. ఋగ్వేదం స్తోత్రాలను కలిగి ఉంటుంది; సామవేదం గానాలు మరియు స్వరాలతో సంబంధం కలిగి ఉంటుంది; అథర్వవేదం మంత్రాలు మరియు దైనందిన ప్రార్థనలను కలిగి ఉంటుంది.",
+
+          "explanation_hindi": "यजुर्वेद मुख्यतः यज्ञों और अनुष्ठानों से संबंधित मंत्रों और विधियों का वर्णन करता है। ऋग्वेद में स्तुतियाँ हैं, सामवेद संगीत और गायन से जुड़ा है, जबकि अथर्ववेद में जादुई मंत्र और दैनिक प्रार्थनाएँ मिलती हैं।",
+
+          "elimination_logic_english": "Rig Veda is primarily hymn-based, Sama Veda is musical, and Atharva Veda focuses on charms and prayers. The Veda specifically connected with sacrificial rituals is Yajur Veda.",
+
+          "elimination_logic_telugu": "ఋగ్వేదం ప్రధానంగా స్తోత్రాలకు సంబంధించినది, సామవేదం సంగీతంతో సంబంధం కలిగి ఉంటుంది, అథర్వవేదం మంత్రాలు మరియు ప్రార్థనలకు సంబంధించినది. యజ్ఞ కర్మకాండలకు ప్రత్యేకంగా సంబంధించిన వేదం యజుర్వేదం.",
+
+          "elimination_logic_hindi": "ऋग्वेद मुख्यतः स्तुतियों से संबंधित है, सामवेद संगीत से जुड़ा है और अथर्ववेद मंत्रों तथा प्रार्थनाओं से संबंधित है। यज्ञ अनुष्ठानों से विशेष रूप से जुड़ा वेद यजुर्वेद है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Later Vedic Age witnessed increasing social stratification.\n\nReason (R): The varna system became more rigid during this phase.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఉత్తర వేద కాలంలో సామాజిక విభజనలు పెరిగాయి.\n\nకారణం (R): ఈ దశలో వర్ణ వ్యవస్థ మరింత కఠినంగా మారింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): उत्तर वैदिक काल में सामाजिक विभाजन बढ़ गया।\n\nकारण (R): इस चरण में वर्ण व्यवस्था अधिक कठोर हो गई।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. During the Later Vedic Age, society became more stratified and hierarchical. The varna system, which was relatively flexible earlier, became increasingly rigid and hereditary.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ఉత్తర వేద కాలంలో సమాజం మరింత శ్రేణీకృత మరియు అసమానతలతో కూడినదిగా మారింది. ముందుగా కొంత సడలింపు ఉన్న వర్ణ వ్యవస్థ ఈ దశలో మరింత కఠినమైన మరియు వారసత్వ ఆధారితమైనదిగా మారింది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। उत्तर वैदिक काल में समाज अधिक स्तरीकृत और श्रेणीबद्ध हो गया। पहले अपेक्षाकृत लचीली वर्ण व्यवस्था इस चरण में अधिक कठोर और वंशानुगत बन गई।",
+
+          "elimination_logic_english": "The Reason directly explains the Assertion because rigidity of the varna system led to sharper social divisions in the Later Vedic Age. Hence option a is correct.",
+
+          "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే వర్ణ వ్యవస్థ కఠినతరం కావడం సామాజిక విభజనలను పెంచింది. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि वर्ण व्यवस्था की कठोरता ने सामाजिक विभाजन को बढ़ाया। इसलिए विकल्प a सही है।"
+        }
+      ]
     }
   }
 }
