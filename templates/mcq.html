@@ -27,20 +27,14 @@
       margin-bottom: 16px;
     }
 
-    select, button {
+    select {
       width: 100%;
       padding: 12px;
       margin-top: 10px;
+      margin-bottom: 10px;
       border-radius: 10px;
       border: 1px solid #ccc;
       font-size: 16px;
-    }
-
-    button {
-      background: #1f2937;
-      color: white;
-      border: none;
-      cursor: pointer;
     }
 
     .question {
@@ -57,6 +51,31 @@
       margin: 10px 0;
       font-size: 16px;
       line-height: 1.4;
+      cursor: pointer;
+    }
+
+    .correct {
+      background: #dcfce7;
+      border: 2px solid #16a34a;
+    }
+
+    .wrong {
+      background: #fee2e2;
+      border: 2px solid #dc2626;
+    }
+
+    .resultBox {
+      display: none;
+      margin-top: 16px;
+      padding: 14px;
+      background: #f9fafb;
+      border-radius: 10px;
+      line-height: 1.6;
+    }
+
+    .resultBox h3 {
+      margin-top: 0;
+      font-size: 17px;
     }
   </style>
 </head>
@@ -80,10 +99,22 @@
   <div id="mcqBox" class="box" style="display:none;">
     <div id="questionText" class="question"></div>
     <div id="optionsBox"></div>
+
+    <div id="explanationBox" class="resultBox">
+      <h3>Explanation</h3>
+      <p id="explanationText"></p>
+    </div>
+
+    <div id="eliminationBox" class="resultBox">
+      <h3>Elimination Logic</h3>
+      <p id="eliminationText"></p>
+    </div>
   </div>
 
   <script>
     let mcqData = {};
+    let currentQuestion = null;
+    let answered = false;
 
     async function loadMCQs() {
       try {
@@ -128,22 +159,53 @@
 
       if (!subject || !topic) return;
 
-      const questions = mcqData[subject][topic];
-      const firstQuestion = questions[0];
+      currentQuestion = mcqData[subject][topic][0];
+      answered = false;
 
       document.getElementById("mcqBox").style.display = "block";
-      document.getElementById("questionText").textContent = firstQuestion.question;
+      document.getElementById("questionText").textContent = currentQuestion.question;
+
+      document.getElementById("explanationBox").style.display = "none";
+      document.getElementById("eliminationBox").style.display = "none";
 
       const optionsBox = document.getElementById("optionsBox");
       optionsBox.innerHTML = "";
 
-      Object.entries(firstQuestion.options).forEach(([key, value]) => {
+      Object.entries(currentQuestion.options).forEach(([key, value]) => {
         const div = document.createElement("div");
         div.className = "option";
         div.textContent = key + ") " + value;
+        div.onclick = function () {
+          checkAnswer(div, key);
+        };
         optionsBox.appendChild(div);
       });
     });
+
+    function checkAnswer(selectedDiv, selectedKey) {
+      if (answered) return;
+
+      answered = true;
+      const correctKey = currentQuestion.correct_answer;
+
+      const allOptions = document.querySelectorAll(".option");
+
+      allOptions.forEach(optionDiv => {
+        if (optionDiv.textContent.startsWith(correctKey + ")")) {
+          optionDiv.classList.add("correct");
+        }
+      });
+
+      if (selectedKey !== correctKey) {
+        selectedDiv.classList.add("wrong");
+      }
+
+      document.getElementById("explanationText").textContent = currentQuestion.explanation;
+      document.getElementById("eliminationText").textContent = currentQuestion.elimination_logic;
+
+      document.getElementById("explanationBox").style.display = "block";
+      document.getElementById("eliminationBox").style.display = "block";
+    }
 
     loadMCQs();
   </script>
