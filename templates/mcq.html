@@ -272,9 +272,6 @@ const translations = {
     accuracy: "Accuracy",
     subjectNames: {
       "Ancient History": "Ancient History"
-    },
-    topicNames: {
-      "Prehistoric India": "Prehistoric India"
     }
   },
 
@@ -297,9 +294,6 @@ const translations = {
     accuracy: "ఖచ్చితత్వం",
     subjectNames: {
       "Ancient History": "ప్రాచీన భారత చరిత్ర"
-    },
-    topicNames: {
-      "Prehistoric India": "చరిత్రపూర్వ భారతదేశం"
     }
   },
 
@@ -322,9 +316,6 @@ const translations = {
     accuracy: "सटीकता",
     subjectNames: {
       "Ancient History": "प्राचीन भारतीय इतिहास"
-    },
-    topicNames: {
-      "Prehistoric India": "प्रागैतिहासिक भारत"
     }
   }
 };
@@ -349,8 +340,7 @@ function cleanExamTerms(text) {
       .replaceAll("Which one of the following is correct?", "క్రింది వాటిలో ఏది సరైనది?")
       .replaceAll("Which of the statements given above is/are correct?", "పై ప్రకటనలలో ఏవి సరైనవి?")
       .replaceAll("consider the following statements", "క్రింది ప్రకటనలను పరిశీలించండి")
-      .replaceAll("With reference to", "సంబంధించి")
-      .replaceAll("Prehistoric India", "చరిత్రపూర్వ భారతదేశం");
+      .replaceAll("With reference to", "సంబంధించి");
   }
 
   if (currentLanguage === "hindi") {
@@ -366,8 +356,7 @@ function cleanExamTerms(text) {
       .replaceAll("Which one of the following is correct?", "निम्नलिखित में से कौन-सा सही है?")
       .replaceAll("Which of the statements given above is/are correct?", "उपर्युक्त कथनों में से कौन-सा/से सही है/हैं?")
       .replaceAll("consider the following statements", "निम्नलिखित कथनों पर विचार कीजिए")
-      .replaceAll("With reference to", "के संदर्भ में")
-      .replaceAll("Prehistoric India", "प्रागैतिहासिक भारत");
+      .replaceAll("With reference to", "के संदर्भ में");
   }
 
   return text;
@@ -377,8 +366,18 @@ function getSubjectName(subject) {
   return t().subjectNames[subject] || subject;
 }
 
-function getTopicName(topic) {
-  return t().topicNames[topic] || topic;
+function getTopicName(subject, topic) {
+  const topicData = mcqData?.[subject]?.[topic];
+
+  if (currentLanguage === "telugu") {
+    return topicData?.topic_telugu || topic;
+  }
+
+  if (currentLanguage === "hindi") {
+    return topicData?.topic_hindi || topic;
+  }
+
+  return topicData?.topic_english || topic;
 }
 
 function applyLanguageLabels() {
@@ -435,9 +434,11 @@ function populateTopics() {
   if (!subject || !mcqData[subject]) return;
 
   Object.keys(mcqData[subject]).forEach(topic => {
+    if (topic.startsWith("_")) return;
+
     const option = document.createElement("option");
     option.value = topic;
-    option.textContent = getTopicName(topic);
+    option.textContent = getTopicName(subject, topic);
     topicSelect.appendChild(option);
   });
 
@@ -478,7 +479,10 @@ document.getElementById("topicSelect").addEventListener("change", function () {
 
   if (!subject || !topic) return;
 
-  questions = mcqData[subject][topic];
+  const topicData = mcqData[subject][topic];
+
+  questions = topicData.questions || topicData;
+
   currentIndex = 0;
   score = 0;
   userAnswers = new Array(questions.length).fill(null);
