@@ -5341,6 +5341,878 @@
           "elimination_logic_hindi": "UPSC अक्सर ऐसे प्रश्नों में किसी आर्थिक या सांस्कृतिक बिंदु को संदेहास्पद बनाकर प्रस्तुत करता है।\n\nकिन्तु ये चारों विशेषताएँ सातवाहन काल की स्थापित विशेषताएँ हैं।\n\nव्यापार विस्तार, प्राकृत अभिलेख, रोमन व्यापार और दक्कन का राजनीतिक एकीकरण सभी महत्वपूर्ण विकास थे।\n\nअतः सभी कथन सही हैं, इसलिए विकल्प d सही उत्तर है।"
         }
       ]
-      }
+  },
+
+    "Sangam Age": {
+      "topic_english": "Sangam Age",
+      "topic_telugu": "సంగం యుగం",
+      "topic_hindi": "संगम युग",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Sangam Age:\n\n1. Sangam literature is an important source for early South Indian history.\n2. The Sangam Age is associated mainly with the Tamil region.\n3. Sangam texts completely ignore trade and economic activities.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "సంగం యుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సంగం సాహిత్యం ప్రారంభ దక్షిణ భారత చరిత్రకు ముఖ్య ఆధారం.\n2. సంగం యుగం ప్రధానంగా తమిళ ప్రాంతంతో సంబంధం కలిగి ఉంది.\n3. సంగం గ్రంథాలు వాణిజ్యం మరియు ఆర్థిక కార్యకలాపాలను పూర్తిగా నిర్లక్ష్యం చేశాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "संगम युग के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. संगम साहित्य प्रारम्भिक दक्षिण भारतीय इतिहास का महत्वपूर्ण स्रोत है।\n2. संगम युग मुख्यतः तमिल क्षेत्र से संबंधित है।\n3. संगम ग्रंथ व्यापार और आर्थिक गतिविधियों की पूर्णतः उपेक्षा करते हैं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Sangam literature is one of the most important sources for understanding early historic South India, especially the Tamil region.\n\nThe texts provide valuable information about society, polity, economy, warfare, trade and cultural life.\n\nStatement 3 is incorrect because Sangam texts contain extensive references to inland trade, maritime trade, merchants and commercial prosperity.\n\nThe Sangam Age is historically significant for early Tamil culture, urban centres and overseas trade connections.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. సంగం సాహిత్యం ప్రారంభ దక్షిణ భారత చరిత్రను, ముఖ్యంగా తమిళ ప్రాంత చరిత్రను అర్థం చేసుకోవడానికి అత్యంత ముఖ్య ఆధారాలలో ఒకటి.\n\nఈ గ్రంథాలు సమాజం, రాజకీయాలు, ఆర్థిక వ్యవస్థ, యుద్ధాలు, వాణిజ్యం మరియు సాంస్కృతిక జీవితంపై విలువైన సమాచారాన్ని అందిస్తాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే సంగం గ్రంథాల్లో అంతర్గత వాణిజ్యం, సముద్ర వాణిజ్యం, వ్యాపారులు మరియు ఆర్థికాభివృద్ధిపై విస్తృత ప్రస్తావనలు ఉన్నాయి.\n\nసంగం యుగం ప్రారంభ తమిళ సంస్కృతి, పట్టణ కేంద్రాలు మరియు విదేశీ వాణిజ్య సంబంధాల కోసం చారిత్రకంగా ఎంతో ముఖ్యమైనది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। संगम साहित्य प्रारम्भिक दक्षिण भारत, विशेषकर तमिल क्षेत्र, को समझने के सबसे महत्वपूर्ण स्रोतों में से एक है।\n\nइन ग्रंथों में समाज, राजनीति, अर्थव्यवस्था, युद्ध, व्यापार और सांस्कृतिक जीवन के बारे में महत्वपूर्ण जानकारी मिलती है।\n\nकथन 3 गलत है क्योंकि संगम ग्रंथों में आंतरिक व्यापार, समुद्री व्यापार, व्यापारियों और आर्थिक समृद्धि का व्यापक उल्लेख मिलता है।\n\nसंगम युग प्रारम्भिक तमिल संस्कृति, नगरीय केंद्रों और विदेशी व्यापारिक संपर्कों के लिए ऐतिहासिक रूप से अत्यंत महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the economic trap.\n\nSangam literature actually contains rich references to trade, ports and merchant activity.\n\nStatements 1 and 2 correctly describe the importance of Sangam literature and its Tamil association.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఆర్థిక ఉచ్చు.\n\nసంగం సాహిత్యంలో వాణిజ్యం, నౌకాశ్రయాలు మరియు వ్యాపార కార్యకలాపాలపై విస్తృత సమాచారం ఉంది.\n\nప్రకటనలు 1 మరియు 2 సంగం సాహిత్య ప్రాముఖ్యత మరియు తమిళ సంబంధాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य आर्थिक भ्रम है।\n\nसंगम साहित्य में व्यापार, बंदरगाहों और व्यापारी गतिविधियों का समृद्ध विवरण मिलता है।\n\nकथन 1 और 2 संगम साहित्य के महत्व और उसके तमिल संबंध का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following is considered an important source for the Sangam Age?",
+
+          "options_english": {
+            "a": "Rig Veda",
+            "b": "Sangam Literature",
+            "c": "Rajatarangini",
+            "d": "Arthashastra"
+          },
+
+          "question_telugu": "సంగం యుగానికి ముఖ్య ఆధారంగా పరిగణించబడేది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఋగ్వేదం",
+            "b": "సంగం సాహిత్యం",
+            "c": "రాజతరంగిణి",
+            "d": "అర్థశాస్త్రం"
+          },
+
+          "question_hindi": "संगम युग के लिए निम्नलिखित में से कौन-सा एक महत्वपूर्ण स्रोत माना जाता है?",
+
+          "options_hindi": {
+            "a": "ऋग्वेद",
+            "b": "संगम साहित्य",
+            "c": "राजतरंगिणी",
+            "d": "अर्थशास्त्र"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Sangam Literature is the most important literary source for understanding the Sangam Age and early Tamil society.\n\nIt includes collections of poems describing political life, warfare, trade, social customs and cultural practices.\n\nThe literature provides insights into the Chera, Chola and Pandya kingdoms of early South India.\n\nIt also reflects maritime trade, urban centres and interaction with foreign merchants.\n\nThus, Sangam Literature occupies a central place in reconstructing early historic South India.",
+
+          "explanation_telugu": "సంగం సాహిత్యం సంగం యుగం మరియు ప్రారంభ తమిళ సమాజాన్ని అర్థం చేసుకోవడానికి అత్యంత ముఖ్యమైన సాహిత్య ఆధారం.\n\nఇందులో రాజకీయ జీవితం, యుద్ధాలు, వాణిజ్యం, సామాజిక ఆచారాలు మరియు సాంస్కృతిక సంప్రదాయాలను వివరిస్తూ కవితా సంకలనాలు ఉన్నాయి.\n\nఈ సాహిత్యం ప్రారంభ దక్షిణ భారతంలోని చెర, చోళ మరియు పాండ్య రాజ్యాల గురించి సమాచారం అందిస్తుంది.\n\nఇది సముద్ర వాణిజ్యం, పట్టణ కేంద్రాలు మరియు విదేశీ వ్యాపారులతో సంబంధాలను కూడా ప్రతిబింబిస్తుంది.\n\nఅందువల్ల సంగం సాహిత్యం ప్రారంభ దక్షిణ భారత చరిత్ర పునర్నిర్మాణంలో కేంద్రస్థానం పొందింది.",
+
+          "explanation_hindi": "संगम साहित्य संगम युग और प्रारम्भिक तमिल समाज को समझने का सबसे महत्वपूर्ण साहित्यिक स्रोत है।\n\nइसमें राजनीतिक जीवन, युद्ध, व्यापार, सामाजिक परंपराओं और सांस्कृतिक गतिविधियों का वर्णन करने वाली कविताओं के संग्रह शामिल हैं।\n\nयह साहित्य प्रारम्भिक दक्षिण भारत के चेर, चोल और पांड्य राज्यों के बारे में जानकारी देता है।\n\nयह समुद्री व्यापार, नगरीय केंद्रों और विदेशी व्यापारियों से संपर्क को भी दर्शाता है।\n\nअतः संगम साहित्य प्रारम्भिक दक्षिण भारतीय इतिहास के पुनर्निर्माण में केंद्रीय स्थान रखता है।",
+
+          "elimination_logic_english": "Rig Veda belongs to the Vedic period, Rajatarangini relates to Kashmir history and Arthashastra is associated with statecraft and Mauryan administration.\n\nOnly Sangam Literature directly relates to the Sangam Age.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఋగ్వేదం వేద కాలానికి, రాజతరంగిణి కాశ్మీర్ చరిత్రకు మరియు అర్థశాస్త్రం రాజనీతికి మరియు మౌర్య పరిపాలనకు సంబంధించినవి.\n\nసంగం యుగంతో నేరుగా సంబంధం ఉన్నది సంగం సాహిత్యం మాత్రమే.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "ऋग्वेद वैदिक काल से, राजतरंगिणी कश्मीर के इतिहास से और अर्थशास्त्र राज्यशास्त्र तथा मौर्य प्रशासन से संबंधित है।\n\nकेवल संगम साहित्य ही सीधे संगम युग से संबंधित है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Overseas trade occupied an important place during the Sangam Age.\n\nReason (R): Sangam texts refer to ports, merchants and trade with foreign regions.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): సంగం యుగంలో విదేశీ వాణిజ్యానికి ముఖ్య స్థానం ఉంది.\n\nకారణం (R): సంగం గ్రంథాలు నౌకాశ్రయాలు, వ్యాపారులు మరియు విదేశీ ప్రాంతాలతో వాణిజ్యాన్ని ప్రస్తావిస్తాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): संगम युग में विदेशी व्यापार का महत्वपूर्ण स्थान था।\n\nकारण (R): संगम ग्रंथों में बंदरगाहों, व्यापारियों और विदेशी क्षेत्रों के साथ व्यापार का उल्लेख मिलता है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Overseas trade was an important feature of the Sangam Age economy.\n\nSangam texts contain references to ports, merchants, ships and foreign trade connections, especially with the Roman world.\n\nCommercial activity encouraged urban growth and prosperity in the Tamil region.\n\nPorts on the eastern and western coasts became important centres of exchange and interaction.\n\nThus, literary references to trade directly explain the importance of overseas commerce during the Sangam period.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సంగం యుగ ఆర్థిక వ్యవస్థలో విదేశీ వాణిజ్యం ముఖ్య లక్షణంగా నిలిచింది.\n\nసంగం గ్రంథాల్లో నౌకాశ్రయాలు, వ్యాపారులు, నౌకలు మరియు ముఖ్యంగా రోమన ప్రపంచంతో వాణిజ్య సంబంధాల ప్రస్తావనలు ఉన్నాయి.\n\nవాణిజ్య కార్యకలాపాలు తమిళ ప్రాంతంలో పట్టణాభివృద్ధి మరియు ఆర్థికాభివృద్ధికి దోహదపడ్డాయి.\n\nతూర్పు మరియు పశ్చిమ తీర ప్రాంత నౌకాశ్రయాలు ముఖ్య వాణిజ్య కేంద్రాలుగా ఎదిగాయి.\n\nఅందువల్ల వాణిజ్యంపై ఉన్న సాహిత్య ప్రస్తావనలు సంగం యుగంలోని విదేశీ వాణిజ్య ప్రాముఖ్యతను నేరుగా వివరిస్తున్నాయి.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। विदेशी व्यापार संगम युग की अर्थव्यवस्था की एक महत्वपूर्ण विशेषता था।\n\nसंगम ग्रंथों में बंदरगाहों, व्यापारियों, जहाजों और विशेष रूप से रोमन विश्व के साथ व्यापारिक संबंधों का उल्लेख मिलता है।\n\nव्यापारिक गतिविधियों ने तमिल क्षेत्र में नगरीय विकास और आर्थिक समृद्धि को बढ़ावा दिया।\n\nपूर्वी और पश्चिमी तटों के बंदरगाह महत्वपूर्ण व्यापारिक केंद्र बन गए।\n\nअतः व्यापार संबंधी साहित्यिक उल्लेख संगम युग में विदेशी व्यापार के महत्व की प्रत्यक्ष व्याख्या करते हैं।",
+
+          "elimination_logic_english": "The Reason directly explains why overseas trade became important during the Sangam Age.\n\nUPSC frequently links literary references with economic history.\n\nSangam texts themselves provide evidence for maritime trade and commercial activity.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం సంగం యుగంలో విదేశీ వాణిజ్యం ఎందుకు ముఖ్యమైందో నేరుగా వివరిస్తుంది.\n\nసాహిత్య ఆధారాలు మరియు ఆర్థిక చరిత్ర మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nసంగం గ్రంథాలే సముద్ర వాణిజ్యం మరియు వ్యాపార కార్యకలాపాలకు ఆధారాలను అందిస్తున్నాయి.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि संगम युग में विदेशी व्यापार क्यों महत्वपूर्ण था।\n\nUPSC अक्सर साहित्यिक स्रोतों और आर्थिक इतिहास के संबंध को परखता है।\n\nसंगम ग्रंथ स्वयं समुद्री व्यापार और वाणिज्यिक गतिविधियों के प्रमाण प्रदान करते हैं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Sangam society:\n\n1. Sangam literature provides information about the Chera, Chola and Pandya kingdoms.\n2. The Sangam Age witnessed active maritime trade.\n3. Urban centres were completely absent during the Sangam Age.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 3 only",
+            "b": "2 and 3 only",
+            "c": "1 and 2 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "సంగం సమాజానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సంగం సాహిత్యం చెర, చోళ మరియు పాండ్య రాజ్యాల గురించి సమాచారం అందిస్తుంది.\n2. సంగం యుగంలో సముద్ర వాణిజ్యం చురుకుగా అభివృద్ధి చెందింది.\n3. సంగం యుగంలో పట్టణ కేంద్రాలు పూర్తిగా లేవు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 3 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 2 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "संगम समाज के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. संगम साहित्य चेर, चोल और पांड्य राज्यों के बारे में जानकारी देता है।\n2. संगम युग में समुद्री व्यापार सक्रिय था।\n3. संगम युग में नगरीय केंद्र पूर्णतः अनुपस्थित थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 3",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 2",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 2 are correct. Sangam literature contains valuable information about the political and social life of the Chera, Chola and Pandya kingdoms.\n\nThe Sangam Age also witnessed flourishing maritime trade, especially with the Roman world through coastal ports.\n\nStatement 3 is incorrect because several urban and commercial centres developed during this period due to expanding trade networks.\n\nThe Sangam Age is historically important for urbanisation, trade and the growth of early Tamil polities.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. సంగం సాహిత్యం చెర, చోళ మరియు పాండ్య రాజ్యాల రాజకీయ మరియు సామాజిక జీవితంపై విలువైన సమాచారాన్ని అందిస్తుంది.\n\nసంగం యుగంలో ముఖ్యంగా తీర నౌకాశ్రయాల ద్వారా రోమన ప్రపంచంతో సముద్ర వాణిజ్యం అభివృద్ధి చెందింది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే విస్తరించిన వాణిజ్య వ్యవస్థల వల్ల ఈ కాలంలో అనేక పట్టణ మరియు వ్యాపార కేంద్రాలు అభివృద్ధి చెందాయి.\n\nసంగం యుగం పట్టణీకరణ, వాణిజ్యం మరియు ప్రారంభ తమిళ రాజ్యాల అభివృద్ధి కోసం చారిత్రకంగా ఎంతో ముఖ్యమైనది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। संगम साहित्य चेर, चोल और पांड्य राज्यों के राजनीतिक तथा सामाजिक जीवन के बारे में महत्वपूर्ण जानकारी देता है।\n\nसंगम युग में विशेष रूप से तटीय बंदरगाहों के माध्यम से रोमन विश्व के साथ समुद्री व्यापार फला-फूला।\n\nकथन 3 गलत है क्योंकि विस्तृत व्यापारिक नेटवर्क के कारण इस काल में अनेक नगरीय और वाणिज्यिक केंद्र विकसित हुए।\n\nसंगम युग नगरीकरण, व्यापार और प्रारम्भिक तमिल राज्यों के विकास के लिए ऐतिहासिक रूप से अत्यंत महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the urbanisation trap.\n\nThe Sangam Age is actually associated with developing towns, ports and commercial centres.\n\nStatements 1 and 2 correctly describe the Tamil kingdoms and maritime trade.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన పట్టణీకరణ ఉచ్చు.\n\nసంగం యుగం పట్టణాలు, నౌకాశ్రయాలు మరియు వ్యాపార కేంద్రాల అభివృద్ధికి ప్రసిద్ధి చెందింది.\n\nప్రకటనలు 1 మరియు 2 తమిళ రాజ్యాలు మరియు సముద్ర వాణిజ్యాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य नगरीकरण संबंधी भ्रम है।\n\nसंगम युग वास्तव में नगरों, बंदरगाहों और व्यापारिक केंद्रों के विकास से जुड़ा हुआ है।\n\nकथन 1 और 2 तमिल राज्यों और समुद्री व्यापार का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर कथन 1 और 2 सही बचते हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following kingdoms is NOT commonly associated with the Sangam Age?",
+
+          "options_english": {
+            "a": "Chera",
+            "b": "Pandya",
+            "c": "Chola",
+            "d": "Pallava"
+          },
+
+          "question_telugu": "సంగం యుగంతో సాధారణంగా సంబంధం లేని రాజ్యం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "చేర",
+            "b": "పాండ్య",
+            "c": "చోళ",
+            "d": "పల్లవ"
+          },
+
+          "question_hindi": "निम्नलिखित में से कौन-सा राज्य सामान्यतः संगम युग से संबंधित नहीं माना जाता है?",
+
+          "options_hindi": {
+            "a": "चेर",
+            "b": "पांड्य",
+            "c": "चोल",
+            "d": "पल्लव"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "The Chera, Chola and Pandya kingdoms are the three major Tamil powers commonly associated with the Sangam Age.\n\nSangam literature contains extensive references to these dynasties and their political, economic and military activities.\n\nThe Pallavas rose to prominence later and are generally associated with the post-Sangam period.\n\nThus, Pallavas are not considered one of the principal Sangam Age kingdoms.\n\nUnderstanding chronology between dynasties is important for UPSC ancient history preparation.",
+
+          "explanation_telugu": "చేర, చోళ మరియు పాండ్య రాజ్యాలు సంగం యుగంతో సంబంధం కలిగిన ప్రధాన తమిళ శక్తులు.\n\nసంగం సాహిత్యంలో ఈ వంశాల రాజకీయ, ఆర్థిక మరియు సైనిక కార్యకలాపాలపై విస్తృత ప్రస్తావనలు ఉన్నాయి.\n\nపల్లవులు తరువాత కాలంలో ప్రముఖులై, సాధారణంగా సంగానంతర కాలంతో సంబంధం కలిగి ఉన్నారు.\n\nఅందువల్ల పల్లవులు ప్రధాన సంగం యుగ రాజ్యాలుగా పరిగణించబడరు.\n\nవంశాల మధ్య కాలక్రమాన్ని అర్థం చేసుకోవడం UPSC ప్రాచీన చరిత్రలో ముఖ్యమైనది.",
+
+          "explanation_hindi": "चेर, चोल और पांड्य राज्य संगम युग से संबंधित तीन प्रमुख तमिल शक्तियाँ थीं।\n\nसंगम साहित्य में इन वंशों की राजनीतिक, आर्थिक और सैन्य गतिविधियों का व्यापक उल्लेख मिलता है।\n\nपल्लव बाद में प्रमुख बने और सामान्यतः उत्तर-संगम काल से संबंधित माने जाते हैं।\n\nअतः पल्लव संगम युग के प्रमुख राज्यों में शामिल नहीं माने जाते।\n\nवंशों के कालक्रम को समझना UPSC प्राचीन इतिहास के लिए महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Chera, Chola and Pandya are the classic Sangam Age Tamil kingdoms.\n\nThe Pallavas belong to a later historical phase.\n\nUPSC often asks chronology-based dynasty elimination questions.\n\nAfter identifying the three Sangam powers, Pallava becomes the correct answer.\n\nHence option d is the correct answer.",
+
+          "elimination_logic_telugu": "చేర, చోళ మరియు పాండ్య రాజ్యాలు సంగం యుగానికి చెందిన ప్రసిద్ధ తమిళ శక్తులు.\n\nపల్లవులు తరువాతి చారిత్రక దశకు చెందినవారు.\n\nకాలక్రమ ఆధారిత వంశ ప్రశ్నలను UPSC తరచుగా అడుగుతుంది.\n\nమూడు సంగం రాజ్యాలను గుర్తించిన తరువాత పల్లవులు సరైన సమాధానంగా నిలుస్తారు.\n\nకాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "चेर, चोल और पांड्य संगम युग के प्रसिद्ध तमिल राज्य हैं।\n\nपल्लव बाद के ऐतिहासिक काल से संबंधित हैं।\n\nUPSC अक्सर कालक्रम आधारित वंश प्रश्न पूछता है।\n\nतीनों संगम शक्तियों की पहचान करने पर पल्लव सही उत्तर बनता है।\n\nअतः विकल्प d सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Sangam literature is an important source for reconstructing early Tamil history.\n\nReason (R): Sangam texts contain information about polity, economy, warfare and social life.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct but R is not the correct explanation of A",
+            "b": "Both A and R are correct and R is the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ప్రారంభ తమిళ చరిత్ర పునర్నిర్మాణానికి సంగం సాహిత్యం ముఖ్య ఆధారం.\n\nకారణం (R): సంగం గ్రంథాల్లో రాజకీయాలు, ఆర్థిక వ్యవస్థ, యుద్ధాలు మరియు సామాజిక జీవితం గురించి సమాచారం ఉంది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "b": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): प्रारम्भिक तमिल इतिहास के पुनर्निर्माण के लिए संगम साहित्य एक महत्वपूर्ण स्रोत है।\n\nकारण (R): संगम ग्रंथों में राजनीति, अर्थव्यवस्था, युद्ध और सामाजिक जीवन के बारे में जानकारी मिलती है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "b": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Both Assertion and Reason are correct. Sangam literature is indispensable for reconstructing early Tamil history because it contains detailed references to political institutions, economy, warfare, trade and social customs.\n\nThe texts provide evidence regarding kingship, merchants, agriculture, ports and social organisation.\n\nThey also help historians understand regional interactions and cultural traditions in early South India.\n\nThus, the wide range of information contained in Sangam texts directly explains their historical importance.\n\nUPSC frequently asks source-based questions linking literature with historical reconstruction.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. ప్రారంభ తమిళ చరిత్ర పునర్నిర్మాణానికి సంగం సాహిత్యం అత్యంత ముఖ్యమైనది, ఎందుకంటే ఇందులో రాజకీయ వ్యవస్థలు, ఆర్థిక వ్యవస్థ, యుద్ధాలు, వాణిజ్యం మరియు సామాజిక ఆచారాలపై విస్తృత సమాచారం ఉంది.\n\nఈ గ్రంథాలు రాజ్య వ్యవస్థ, వ్యాపారులు, వ్యవసాయం, నౌకాశ్రయాలు మరియు సామాజిక నిర్మాణంపై ఆధారాలను అందిస్తాయి.\n\nఇవి ప్రారంభ దక్షిణ భారత ప్రాంతీయ సంబంధాలు మరియు సాంస్కృతిక సంప్రదాయాలను అర్థం చేసుకోవడంలో కూడా సహాయపడతాయి.\n\nఅందువల్ల సంగం గ్రంథాలలోని విస్తృత సమాచారం వాటి చారిత్రక ప్రాముఖ్యతను నేరుగా వివరిస్తుంది.\n\nసాహిత్య ఆధారాలు మరియు చరిత్ర పునర్నిర్మాణాన్ని అనుసంధానిస్తూ UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। प्रारम्भिक तमिल इतिहास के पुनर्निर्माण के लिए संगम साहित्य अत्यंत महत्वपूर्ण है क्योंकि इसमें राजनीतिक संस्थाओं, अर्थव्यवस्था, युद्ध, व्यापार और सामाजिक परंपराओं का विस्तृत वर्णन मिलता है।\n\nइन ग्रंथों से राजसत्ता, व्यापारियों, कृषि, बंदरगाहों और सामाजिक संगठन के बारे में जानकारी प्राप्त होती है।\n\nये प्रारम्भिक दक्षिण भारत की क्षेत्रीय अंतःक्रियाओं और सांस्कृतिक परंपराओं को समझने में भी सहायक हैं।\n\nअतः संगम ग्रंथों में निहित व्यापक जानकारी ही उनकी ऐतिहासिक महत्ता की प्रत्यक्ष व्याख्या करती है।\n\nUPSC अक्सर साहित्यिक स्रोतों और ऐतिहासिक पुनर्निर्माण से संबंधित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "The Reason directly explains why Sangam literature is historically important.\n\nThe texts provide multidimensional information covering polity, economy, warfare and society.\n\nUPSC often tests whether a source merely exists or actually explains historical reconstruction.\n\nHere, the Reason fully explains the Assertion.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం సంగం సాహిత్యం చారిత్రకంగా ఎందుకు ముఖ్యమో నేరుగా వివరిస్తుంది.\n\nఈ గ్రంథాలు రాజకీయాలు, ఆర్థిక వ్యవస్థ, యుద్ధాలు మరియు సమాజంపై విస్తృత సమాచారాన్ని అందిస్తున్నాయి.\n\nచారిత్రక పునర్నిర్మాణంలో ఒక ఆధారం ఎంత ముఖ్యమో UPSC తరచుగా పరీక్షిస్తుంది.\n\nఇక్కడ కారణం ప్రతిపాదనను పూర్తిగా వివరిస్తోంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि संगम साहित्य ऐतिहासिक रूप से क्यों महत्वपूर्ण है।\n\nइन ग्रंथों में राजनीति, अर्थव्यवस्था, युद्ध और समाज से संबंधित बहुआयामी जानकारी मिलती है।\n\nUPSC अक्सर यह परखता है कि कोई स्रोत केवल अस्तित्व में है या वास्तव में ऐतिहासिक पुनर्निर्माण में सहायक भी है।\n\nयहाँ कारण अभिकथन की पूर्ण व्याख्या करता है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the economy of the Sangam Age:\n\n1. Agriculture occupied an important place in the Sangam economy.\n2. Ports and maritime trade flourished during the Sangam Age.\n3. Roman trade contacts were completely absent in the Tamil region.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1 and 2 only"
+          },
+
+          "question_telugu": "సంగం యుగ ఆర్థిక వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సంగం ఆర్థిక వ్యవస్థలో వ్యవసాయానికి ముఖ్య స్థానం ఉంది.\n2. సంగం యుగంలో నౌకాశ్రయాలు మరియు సముద్ర వాణిజ్యం అభివృద్ధి చెందాయి.\n3. తమిళ ప్రాంతంలో రోమన వాణిజ్య సంబంధాలు పూర్తిగా లేవు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1 మరియు 2 మాత్రమే"
+          },
+
+          "question_hindi": "संगम युग की अर्थव्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. संगम अर्थव्यवस्था में कृषि का महत्वपूर्ण स्थान था।\n2. संगम युग में बंदरगाह और समुद्री व्यापार विकसित हुए।\n3. तमिल क्षेत्र में रोमन व्यापारिक संपर्क पूर्णतः अनुपस्थित थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "केवल 1 और 2"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "Statements 1 and 2 are correct. Agriculture formed the economic foundation of Sangam society, while ports and maritime trade contributed greatly to prosperity.\n\nSangam literature contains references to trade centres, merchants, ships and overseas commercial contacts.\n\nStatement 3 is incorrect because Roman trade contacts were highly significant during the Sangam Age, especially through Tamil coastal ports.\n\nArchaeological evidence including Roman coins further confirms these commercial relations.\n\nThe Sangam economy combined agriculture, trade and craft production in a dynamic regional system.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. సంగం సమాజ ఆర్థిక వ్యవస్థకు వ్యవసాయం పునాది కాగా, నౌకాశ్రయాలు మరియు సముద్ర వాణిజ్యం ఆర్థికాభివృద్ధికి దోహదపడ్డాయి.\n\nసంగం సాహిత్యంలో వాణిజ్య కేంద్రాలు, వ్యాపారులు, నౌకలు మరియు విదేశీ వ్యాపార సంబంధాలపై ప్రస్తావనలు ఉన్నాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే సంగం యుగంలో ముఖ్యంగా తమిళ తీర ప్రాంత నౌకాశ్రయాల ద్వారా రోమన వాణిజ్య సంబంధాలు ఎంతో ముఖ్యమైనవి.\n\nరోమన నాణేలు వంటి పురావస్తు ఆధారాలు కూడా ఈ వాణిజ్య సంబంధాలను నిర్ధారిస్తున్నాయి.\n\nసంగం ఆర్థిక వ్యవస్థ వ్యవసాయం, వాణిజ్యం మరియు చేతివృత్తుల సమ్మేళనంగా అభివృద్ధి చెందింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। कृषि संगम समाज की अर्थव्यवस्था का आधार थी, जबकि बंदरगाहों और समुद्री व्यापार ने आर्थिक समृद्धि को बढ़ावा दिया।\n\nसंगम साहित्य में व्यापारिक केंद्रों, व्यापारियों, जहाजों और विदेशी व्यापारिक संपर्कों का उल्लेख मिलता है।\n\nकथन 3 गलत है क्योंकि संगम युग में विशेष रूप से तमिल तटीय बंदरगाहों के माध्यम से रोमन व्यापारिक संबंध अत्यंत महत्वपूर्ण थे।\n\nरोमन सिक्कों सहित पुरातात्विक प्रमाण भी इन व्यापारिक संबंधों की पुष्टि करते हैं।\n\nसंगम अर्थव्यवस्था कृषि, व्यापार और शिल्प उत्पादन के समन्वय पर आधारित थी।",
+
+          "elimination_logic_english": "Statement 3 is the foreign-trade trap.\n\nRoman trade was actually a major feature of the Sangam Age economy.\n\nStatements 1 and 2 correctly describe agriculture and maritime trade.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option d is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన విదేశీ వాణిజ్య ఉచ్చు.\n\nరోమన వాణిజ్యం సంగం యుగ ఆర్థిక వ్యవస్థలో ముఖ్య లక్షణంగా నిలిచింది.\n\nప్రకటనలు 1 మరియు 2 వ్యవసాయం మరియు సముద్ర వాణిజ్యాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य विदेशी व्यापार संबंधी भ्रम है।\n\nरोमन व्यापार वास्तव में संगम युग की अर्थव्यवस्था की एक प्रमुख विशेषता था।\n\nकथन 1 और 2 कृषि तथा समुद्री व्यापार का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प d सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the importance of Sangam literature?",
+
+          "options_english": {
+            "a": "It describes only religious rituals",
+            "b": "It provides information about early Tamil society and polity",
+            "c": "It focuses exclusively on Gupta administration",
+            "d": "It was composed during the Mughal period"
+          },
+
+          "question_telugu": "సంగం సాహిత్య ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఇది కేవలం మతపరమైన ఆచారాలను మాత్రమే వివరిస్తుంది",
+            "b": "ఇది ప్రారంభ తమిళ సమాజం మరియు రాజకీయ వ్యవస్థపై సమాచారం అందిస్తుంది",
+            "c": "ఇది పూర్తిగా గుప్త పరిపాలనపై దృష్టి పెడుతుంది",
+            "d": "ఇది మొఘల్ కాలంలో రచించబడింది"
+          },
+
+          "question_hindi": "संगम साहित्य के महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "यह केवल धार्मिक अनुष्ठानों का वर्णन करता है",
+            "b": "यह प्रारम्भिक तमिल समाज और राजनीतिक व्यवस्था के बारे में जानकारी देता है",
+            "c": "यह केवल गुप्त प्रशासन पर केंद्रित है",
+            "d": "यह मुगल काल में रचित हुआ था"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Sangam literature is historically important because it provides extensive information about early Tamil society, polity, economy and culture.\n\nThe texts discuss kingship, warfare, agriculture, trade, social customs and maritime activities.\n\nThey also provide valuable insights into the Chera, Chola and Pandya kingdoms.\n\nThe literature reflects urban growth, overseas trade and cultural traditions in early South India.\n\nThus, Sangam literature forms the foundation for reconstructing early historic Tamil society.",
+
+          "explanation_telugu": "సంగం సాహిత్యం ప్రారంభ తమిళ సమాజం, రాజకీయాలు, ఆర్థిక వ్యవస్థ మరియు సంస్కృతి గురించి విస్తృత సమాచారాన్ని అందించడం వల్ల చారిత్రకంగా ఎంతో ముఖ్యమైనది.\n\nఈ గ్రంథాలు రాజ్య వ్యవస్థ, యుద్ధాలు, వ్యవసాయం, వాణిజ్యం, సామాజిక ఆచారాలు మరియు సముద్ర కార్యకలాపాలను వివరిస్తాయి.\n\nఇవి చెర, చోళ మరియు పాండ్య రాజ్యాలపై కూడా విలువైన సమాచారాన్ని అందిస్తాయి.\n\nసాహిత్యం ప్రారంభ దక్షిణ భారత పట్టణాభివృద్ధి, విదేశీ వాణిజ్యం మరియు సాంస్కృతిక సంప్రదాయాలను ప్రతిబింబిస్తుంది.\n\nఅందువల్ల సంగం సాహిత్యం ప్రారంభ తమిళ చరిత్ర పునర్నిర్మాణానికి పునాదిగా నిలుస్తుంది.",
+
+          "explanation_hindi": "संगम साहित्य ऐतिहासिक रूप से इसलिए महत्वपूर्ण है क्योंकि यह प्रारम्भिक तमिल समाज, राजनीति, अर्थव्यवस्था और संस्कृति के बारे में विस्तृत जानकारी प्रदान करता है।\n\nइन ग्रंथों में राजसत्ता, युद्ध, कृषि, व्यापार, सामाजिक परंपराओं और समुद्री गतिविधियों का वर्णन मिलता है।\n\nये चेर, चोल और पांड्य राज्यों के बारे में भी महत्वपूर्ण जानकारी देते हैं।\n\nयह साहित्य प्रारम्भिक दक्षिण भारत के नगरीय विकास, विदेशी व्यापार और सांस्कृतिक परंपराओं को प्रतिबिंबित करता है।\n\nअतः संगम साहित्य प्रारम्भिक तमिल इतिहास के पुनर्निर्माण की आधारशिला है।",
+
+          "elimination_logic_english": "Options a, c and d are historically incorrect.\n\nSangam literature is not limited to rituals and has no connection with Mughal or Gupta administration.\n\nIts significance lies in describing early Tamil society, polity and economy.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d చారిత్రకంగా తప్పు.\n\nసంగం సాహిత్యం కేవలం మతపరమైన ఆచారాలకు పరిమితం కాదు మరియు మొఘల్ లేదా గుప్త పరిపాలనతో సంబంధం లేదు.\n\nదాని ప్రధాన ప్రాముఖ్యత ప్రారంభ తమిళ సమాజం, రాజకీయాలు మరియు ఆర్థిక వ్యవస్థను వివరించడంలో ఉంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत हैं।\n\nसंगम साहित्य केवल धार्मिक अनुष्ठानों तक सीमित नहीं है और इसका मुगल या गुप्त प्रशासन से कोई संबंध नहीं है।\n\nइसका महत्व प्रारम्भिक तमिल समाज, राजनीति और अर्थव्यवस्था का वर्णन करने में है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Ports occupied an important position during the Sangam Age.\n\nReason (R): Maritime trade contributed significantly to the prosperity of the Tamil region.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): సంగం యుగంలో నౌకాశ్రయాలు ముఖ్య స్థానం పొందాయి.\n\nకారణం (R): సముద్ర వాణిజ్యం తమిళ ప్రాంత ఆర్థికాభివృద్ధికి గణనీయంగా దోహదపడింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): संगम युग में बंदरगाहों का महत्वपूर्ण स्थान था।\n\nकारण (R): समुद्री व्यापार ने तमिल क्षेत्र की आर्थिक समृद्धि में महत्वपूर्ण योगदान दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Ports became major economic centres during the Sangam Age because maritime trade played a vital role in regional prosperity.\n\nSangam literature and archaeological evidence refer to commercial exchange with foreign regions, especially the Roman world.\n\nThe movement of goods, merchants and ships strengthened urban growth and economic development.\n\nPorts on the Tamil coast emerged as important centres of political and commercial activity.\n\nThus, maritime trade directly explains the importance of ports during the Sangam period.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సముద్ర వాణిజ్యం ప్రాంతీయ ఆర్థికాభివృద్ధిలో కీలక పాత్ర పోషించినందున సంగం యుగంలో నౌకాశ్రయాలు ప్రధాన ఆర్థిక కేంద్రాలుగా ఎదిగాయి.\n\nసంగం సాహిత్యం మరియు పురావస్తు ఆధారాలు ముఖ్యంగా రోమన ప్రపంచంతో వాణిజ్య మార్పిడులను సూచిస్తున్నాయి.\n\nవస్తువులు, వ్యాపారులు మరియు నౌకల రాకపోకలు పట్టణాభివృద్ధి మరియు ఆర్థికాభివృద్ధిని బలోపేతం చేశాయి.\n\nతమిళ తీర ప్రాంత నౌకాశ్రయాలు రాజకీయ మరియు వాణిజ్య కార్యకలాపాల ముఖ్య కేంద్రాలుగా అభివృద్ధి చెందాయి.\n\nఅందువల్ల సముద్ర వాణిజ్యమే సంగం యుగంలో నౌకాశ్రయాల ప్రాముఖ్యతకు నేరుగా కారణం.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। समुद्री व्यापार ने क्षेत्रीय समृद्धि में महत्वपूर्ण भूमिका निभाई, इसलिए संगम युग में बंदरगाह प्रमुख आर्थिक केंद्र बन गए।\n\nसंगम साहित्य और पुरातात्विक प्रमाण विदेशी क्षेत्रों, विशेषकर रोमन विश्व, के साथ व्यापारिक संपर्कों का उल्लेख करते हैं।\n\nवस्तुओं, व्यापारियों और जहाजों की आवाजाही ने नगरीय विकास और आर्थिक समृद्धि को बढ़ावा दिया।\n\nतमिल तट के बंदरगाह राजनीतिक और वाणिज्यिक गतिविधियों के महत्वपूर्ण केंद्र बनकर उभरे।\n\nअतः समुद्री व्यापार ही संगम काल में बंदरगाहों के महत्व की प्रत्यक्ष व्याख्या करता है।",
+
+          "elimination_logic_english": "The Reason directly explains why ports became important during the Sangam Age.\n\nUPSC frequently links economic activity with urban and port development.\n\nMaritime trade created prosperity and strengthened the importance of coastal centres.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం సంగం యుగంలో నౌకాశ్రయాలు ఎందుకు ముఖ్యమయ్యాయో నేరుగా వివరిస్తుంది.\n\nఆర్థిక కార్యకలాపాలు మరియు నౌకాశ్రయాల అభివృద్ధి మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nసముద్ర వాణిజ్యం ఆర్థికాభివృద్ధిని తీసుకువచ్చి తీర ప్రాంత కేంద్రాల ప్రాముఖ్యతను పెంచింది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि संगम युग में बंदरगाह क्यों महत्वपूर्ण बने।\n\nUPSC अक्सर आर्थिक गतिविधियों और बंदरगाह विकास के संबंध को परखता है।\n\nसमुद्री व्यापार ने समृद्धि उत्पन्न की और तटीय केंद्रों के महत्व को बढ़ाया।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which of the following features are associated with the Sangam Age?\n\n1. Maritime trade\n2. Urban centres and ports\n3. References to Chera, Chola and Pandya rulers\n4. Literary evidence for early Tamil society\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "1, 2 and 3 only",
+            "c": "2, 3 and 4 only",
+            "d": "1, 2, 3 and 4"
+          },
+
+          "question_telugu": "సంగం యుగానికి సంబంధించిన లక్షణాలు క్రింది వాటిలో ఏవి?\n\n1. సముద్ర వాణిజ్యం\n2. పట్టణ కేంద్రాలు మరియు నౌకాశ్రయాలు\n3. చెర, చోళ మరియు పాండ్య పాలకుల ప్రస్తావనలు\n4. ప్రారంభ తమిళ సమాజంపై సాహిత్య ఆధారాలు\n\nక్రింది కోడ్‌ను ఉపయోగించి సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "1, 2 మరియు 3 మాత్రమే",
+            "c": "2, 3 మరియు 4 మాత్రమే",
+            "d": "1, 2, 3 మరియు 4"
+          },
+
+          "question_hindi": "संगम युग से निम्नलिखित में से कौन-सी विशेषताएँ संबंधित हैं?\n\n1. समुद्री व्यापार\n2. नगरीय केंद्र और बंदरगाह\n3. चेर, चोल और पांड्य शासकों के उल्लेख\n4. प्रारम्भिक तमिल समाज के साहित्यिक प्रमाण\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 1, 2 और 3",
+            "c": "केवल 2, 3 और 4",
+            "d": "1, 2, 3 and 4"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All the given features are associated with the Sangam Age.\n\nSangam literature provides detailed information about early Tamil society and references to the Chera, Chola and Pandya rulers.\n\nThe period witnessed flourishing maritime trade, development of ports and emergence of urban centres.\n\nCommercial exchange with foreign regions, especially the Roman world, contributed to prosperity.\n\nThus, all four statements correctly describe important political, economic and cultural features of the Sangam Age.",
+
+          "explanation_telugu": "ఇచ్చిన అన్ని లక్షణాలు సంగం యుగానికి సంబంధించినవే.\n\nసంగం సాహిత్యం ప్రారంభ తమిళ సమాజం గురించి విస్తృత సమాచారాన్ని అందిస్తూ చెర, చోళ మరియు పాండ్య పాలకుల ప్రస్తావనలను కలిగి ఉంది.\n\nఈ కాలంలో సముద్ర వాణిజ్యం, నౌకాశ్రయాల అభివృద్ధి మరియు పట్టణ కేంద్రాల ఎదుగుదల జరిగింది.\n\nప్రత్యేకంగా రోమన ప్రపంచంతో వాణిజ్య సంబంధాలు ఆర్థికాభివృద్ధికి దోహదపడ్డాయి.\n\nఅందువల్ల ఈ నాలుగు ప్రకటనలన్నీ సంగం యుగ రాజకీయ, ఆర్థిక మరియు సాంస్కృతిక లక్షణాలను సరైనంగా వివరిస్తున్నాయి.",
+
+          "explanation_hindi": "दिए गए सभी बिंदु संगम युग से संबंधित हैं।\n\nसंगम साहित्य प्रारम्भिक तमिल समाज के बारे में विस्तृत जानकारी देता है और चेर, चोल तथा पांड्य शासकों का उल्लेख करता है।\n\nइस काल में समुद्री व्यापार, बंदरगाहों का विकास और नगरीय केंद्रों का उदय हुआ।\n\nविशेष रूप से रोमन विश्व के साथ व्यापारिक संपर्कों ने आर्थिक समृद्धि को बढ़ावा दिया।\n\nअतः सभी चार कथन संगम युग की महत्वपूर्ण राजनीतिक, आर्थिक और सांस्कृतिक विशेषताओं का सही वर्णन करते हैं।",
+
+          "elimination_logic_english": "UPSC often creates doubt around economic or literary features in multi-statement questions.\n\nHowever, all four features are well-established characteristics of the Sangam Age.\n\nMaritime trade, urban centres, Tamil dynasties and literary evidence are all central to Sangam history.\n\nSince all statements are correct, option d is the correct answer.",
+
+          "elimination_logic_telugu": "బహుళ ప్రకటనల ప్రశ్నల్లో UPSC తరచుగా ఆర్థిక లేదా సాహిత్య అంశాలపై సందేహం కలిగిస్తుంది.\n\nఅయితే ఈ నాలుగు లక్షణాలన్నీ సంగం యుగానికి చెందిన స్థిరమైన లక్షణాలే.\n\nసముద్ర వాణిజ్యం, పట్టణ కేంద్రాలు, తమిళ రాజ్యాలు మరియు సాహిత్య ఆధారాలు సంగం చరిత్రలో కేంద్రస్థానం కలిగి ఉన్నాయి.\n\nఅందువల్ల అన్ని ప్రకటనలు సరైనవి కాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "बहु-कथन प्रश्नों में UPSC अक्सर आर्थिक या साहित्यिक विशेषताओं को संदेहास्पद बनाकर प्रस्तुत करता है।\n\nकिन्तु ये चारों विशेषताएँ संगम युग की स्थापित विशेषताएँ हैं।\n\nसमुद्री व्यापार, नगरीय केंद्र, तमिल राजवंश और साहित्यिक प्रमाण संगम इतिहास के मुख्य अंग हैं।\n\nअतः सभी कथन सही हैं, इसलिए विकल्प d सही उत्तर है।"
+        }
+      ]
+      },
+
+    "Gupta Empire": {
+      "topic_english": "Gupta Empire",
+      "topic_telugu": "గుప్త సామ్రాజ్యం",
+      "topic_hindi": "गुप्त साम्राज्य",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Gupta Empire:\n\n1. The Gupta period is often described as a classical age in Indian history.\n2. Samudragupta is known for his military campaigns and expansion.\n3. The Guptas completely discouraged literature and scientific learning.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "గుప్త సామ్రాజ్యానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. గుప్త కాలాన్ని భారత చరిత్రలో శాస్త్రీయ స్వర్ణయుగంగా పేర్కొంటారు.\n2. సముద్రగుప్తుడు తన సైనిక యాత్రలు మరియు విస్తరణకు ప్రసిద్ధి చెందాడు.\n3. గుప్తులు సాహిత్యం మరియు శాస్త్రీయ విద్యను పూర్తిగా నిరుత్సాహపరిచారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "गुप्त साम्राज्य के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. गुप्त काल को भारतीय इतिहास का एक शास्त्रीय स्वर्णयुग कहा जाता है।\n2. समुद्रगुप्त अपने सैन्य अभियानों और विस्तार के लिए प्रसिद्ध है।\n3. गुप्तों ने साहित्य और वैज्ञानिक शिक्षा को पूर्णतः हतोत्साहित किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Gupta period is widely regarded as a classical or golden age because of major achievements in literature, science, mathematics, art and political consolidation.\n\nSamudragupta is especially known for his extensive military campaigns and territorial expansion, details of which are recorded in the Allahabad Pillar Inscription.\n\nStatement 3 is incorrect because the Gupta rulers actively patronised scholars, poets and scientific learning.\n\nThe period witnessed contributions from figures such as Kalidasa, Aryabhata and other scholars.\n\nThus, the Gupta age represents an important phase of cultural and intellectual development in ancient India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. సాహిత్యం, శాస్త్రం, గణితం, కళలు మరియు రాజకీయ ఏకీకరణలో జరిగిన విశేష అభివృద్ధి కారణంగా గుప్త కాలాన్ని భారత చరిత్రలో స్వర్ణయుగంగా పరిగణిస్తారు.\n\nసముద్రగుప్తుడు విస్తృత సైనిక యాత్రలు మరియు సామ్రాజ్య విస్తరణకు ప్రసిద్ధి చెందాడు. వీటి వివరాలు అలహాబాద్ స్తంభ శాసనంలో లభిస్తాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే గుప్త పాలకులు పండితులు, కవులు మరియు శాస్త్రీయ విద్యకు ప్రోత్సాహం అందించారు.\n\nఈ కాలంలో కాళిదాసు, ఆర్యభటుడు వంటి పండితులు విశేష కృషి చేశారు.\n\nఅందువల్ల గుప్త యుగం ప్రాచీన భారత సాంస్కృతిక మరియు మేధో అభివృద్ధిలో ముఖ్య దశగా నిలిచింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। साहित्य, विज्ञान, गणित, कला और राजनीतिक एकीकरण में महत्वपूर्ण उपलब्धियों के कारण गुप्त काल को भारतीय इतिहास का स्वर्णयुग माना जाता है।\n\nसमुद्रगुप्त अपने व्यापक सैन्य अभियानों और साम्राज्य विस्तार के लिए विशेष रूप से प्रसिद्ध है, जिनका विवरण इलाहाबाद स्तंभ अभिलेख में मिलता है।\n\nकथन 3 गलत है क्योंकि गुप्त शासकों ने विद्वानों, कवियों और वैज्ञानिक शिक्षा को संरक्षण दिया।\n\nइस काल में कालिदास, आर्यभट्ट और अन्य विद्वानों ने महत्वपूर्ण योगदान दिया।\n\nअतः गुप्त युग प्राचीन भारत के सांस्कृतिक और बौद्धिक विकास का महत्वपूर्ण चरण था।",
+
+          "elimination_logic_english": "Statement 3 is the cultural trap.\n\nThe Gupta age is actually famous for patronage of literature, science and learning.\n\nStatements 1 and 2 correctly describe the classical nature of the Gupta period and Samudragupta's military achievements.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన సాంస్కృతిక ఉచ్చు.\n\nగుప్త యుగం సాహిత్యం, శాస్త్రం మరియు విద్యకు ప్రోత్సాహం ఇచ్చిన కాలంగా ప్రసిద్ధి చెందింది.\n\nప్రకటనలు 1 మరియు 2 గుప్త కాల స్వర్ణయుగ స్వభావాన్ని మరియు సముద్రగుప్తుడి సైనిక విజయాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य सांस्कृतिक भ्रम है।\n\nगुप्त युग वास्तव में साहित्य, विज्ञान और शिक्षा के संरक्षण के लिए प्रसिद्ध है।\n\nकथन 1 और 2 गुप्त काल की शास्त्रीय प्रकृति और समुद्रगुप्त की सैन्य उपलब्धियों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर कथन 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following inscriptions is an important source for the achievements of Samudragupta?",
+
+          "options_english": {
+            "a": "Junagadh Inscription",
+            "b": "Allahabad Pillar Inscription",
+            "c": "Hathigumpha Inscription",
+            "d": "Nasik Inscription"
+          },
+
+          "question_telugu": "సముద్రగుప్తుడి విజయాలకు ముఖ్య ఆధారంగా పరిగణించబడే శాసనం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "జునాగఢ్ శాసనం",
+            "b": "అలహాబాద్ స్తంభ శాసనం",
+            "c": "హాథిగుం్ఫా శాసనం",
+            "d": "నాసిక్ శాసనం"
+          },
+
+          "question_hindi": "समुद्रगुप्त की उपलब्धियों के लिए निम्नलिखित में से कौन-सा अभिलेख महत्वपूर्ण स्रोत माना जाता है?",
+
+          "options_hindi": {
+            "a": "जूनागढ़ अभिलेख",
+            "b": "इलाहाबाद स्तंभ अभिलेख",
+            "c": "हाथीगुम्फा अभिलेख",
+            "d": "नासिक अभिलेख"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Allahabad Pillar Inscription, composed by Harisena, is one of the most important sources for the reign and achievements of Samudragupta.\n\nIt describes his military campaigns, political expansion and relations with various rulers.\n\nThe inscription presents Samudragupta as a powerful conqueror and explains the nature of Gupta imperial authority.\n\nIt is also valuable for understanding political geography and interstate relations in ancient India.\n\nUPSC frequently asks inscription-ruler associations from ancient Indian history.",
+
+          "explanation_telugu": "హరిసేనుడు రచించిన అలహాబాద్ స్తంభ శాసనం సముద్రగుప్తుడి పాలన మరియు విజయాలకు అత్యంత ముఖ్య ఆధారాలలో ఒకటి.\n\nఇందులో అతని సైనిక యాత్రలు, రాజకీయ విస్తరణ మరియు వివిధ రాజులతో సంబంధాలు వివరించబడ్డాయి.\n\nఈ శాసనం సముద్రగుప్తుడిని శక్తివంతమైన విజేతగా చిత్రిస్తూ గుప్త సామ్రాజ్య అధికార స్వభావాన్ని వివరిస్తుంది.\n\nఇది ప్రాచీన భారత రాజకీయ భౌగోళికత మరియు అంతర్రాష్ట్ర సంబంధాలను అర్థం చేసుకోవడంలో కూడా ముఖ్యమైనది.\n\nశాసనాలు మరియు పాలకుల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "हरिषेण द्वारा रचित इलाहाबाद स्तंभ अभिलेख समुद्रगुप्त के शासन और उपलब्धियों का सबसे महत्वपूर्ण स्रोतों में से एक है।\n\nइसमें उसके सैन्य अभियानों, राजनीतिक विस्तार और विभिन्न शासकों के साथ संबंधों का वर्णन मिलता है।\n\nयह अभिलेख समुद्रगुप्त को एक शक्तिशाली विजेता के रूप में प्रस्तुत करता है और गुप्त साम्राज्य की राजनीतिक प्रकृति को स्पष्ट करता है।\n\nयह प्राचीन भारत की राजनीतिक भूगोल और अंतर-राज्य संबंधों को समझने में भी महत्वपूर्ण है।\n\nUPSC अक्सर अभिलेख और शासकों के संबंध पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Junagadh inscription is associated with Rudradaman, Hathigumpha with Kharavela and Nasik inscription with the Satavahanas.\n\nOnly the Allahabad Pillar Inscription is directly associated with Samudragupta.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "జునాగఢ్ శాసనం రుద్రదామన్‌కు, హాథిగుం్ఫా శాసనం ఖారవేలుడికి మరియు నాసిక్ శాసనం శాతవాహనులకు సంబంధించినవి.\n\nసముద్రగుప్తుడితో నేరుగా సంబంధం ఉన్నది అలహాబాద్ స్తంభ శాసనం మాత్రమే.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "जूनागढ़ अभिलेख रुद्रदामन से, हाथीगुम्फा अभिलेख खारवेल से और नासिक अभिलेख सातवाहनों से संबंधित है।\n\nकेवल इलाहाबाद स्तंभ अभिलेख ही समुद्रगुप्त से सीधे जुड़ा हुआ है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Gupta period witnessed major advances in science and mathematics.\n\nReason (R): Scholars such as Aryabhata made important contributions during the Gupta Age.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): గుప్త కాలంలో శాస్త్రం మరియు గణితంలో విశేష అభివృద్ధి జరిగింది.\n\nకారణం (R): ఆర్యభటుడు వంటి పండితులు గుప్త యుగంలో ముఖ్యమైన కృషి చేశారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): गुप्त काल में विज्ञान और गणित में महत्वपूर्ण प्रगति हुई।\n\nकारण (R): आर्यभट्ट जैसे विद्वानों ने गुप्त युग में महत्वपूर्ण योगदान दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Gupta period is widely recognised for remarkable advances in science, mathematics and astronomy.\n\nScholars such as Aryabhata contributed significantly to mathematical and astronomical knowledge during this period.\n\nThe age also witnessed intellectual growth in literature, medicine and philosophy.\n\nRoyal patronage and a stable political environment encouraged scholarly activities.\n\nThus, the contributions of scholars like Aryabhata directly explain the scientific achievements of the Gupta Age.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. గుప్త కాలం శాస్త్రం, గణితం మరియు ఖగోళ శాస్త్రంలో విశేష అభివృద్ధికి ప్రసిద్ధి చెందింది.\n\nఆర్యభటుడు వంటి పండితులు ఈ కాలంలో గణిత మరియు ఖగోళ శాస్త్రానికి ముఖ్యమైన కృషి చేశారు.\n\nఈ యుగంలో సాహిత్యం, వైద్యం మరియు తత్వశాస్త్రం కూడా అభివృద్ధి చెందాయి.\n\nరాజ పరిరక్షణ మరియు స్థిరమైన రాజకీయ పరిస్థితులు పండిత కార్యకలాపాలకు ప్రోత్సాహం ఇచ్చాయి.\n\nఅందువల్ల ఆర్యభటుడు వంటి పండితుల కృషి గుప్త యుగ శాస్త్రీయ విజయాలను నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। गुप्त काल विज्ञान, गणित और खगोलशास्त्र में उल्लेखनीय प्रगति के लिए प्रसिद्ध है।\n\nआर्यभट्ट जैसे विद्वानों ने इस काल में गणित और खगोलशास्त्र में महत्वपूर्ण योगदान दिया।\n\nइस युग में साहित्य, चिकित्सा और दर्शन का भी विकास हुआ।\n\nराजकीय संरक्षण और स्थिर राजनीतिक वातावरण ने विद्वत गतिविधियों को प्रोत्साहित किया।\n\nअतः आर्यभट्ट जैसे विद्वानों का योगदान गुप्त युग की वैज्ञानिक उपलब्धियों की प्रत्यक्ष व्याख्या करता है।",
+
+          "elimination_logic_english": "The Reason directly explains the scientific progress of the Gupta Age.\n\nUPSC frequently connects scholars with broader civilisational achievements.\n\nAryabhata's contributions are central to understanding Gupta scientific advancement.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం గుప్త యుగ శాస్త్రీయ అభివృద్ధిని నేరుగా వివరిస్తుంది.\n\nపండితుల కృషిని నాగరికత అభివృద్ధితో UPSC తరచుగా అనుసంధానిస్తుంది.\n\nఆర్యభటుడి కృషి గుప్త శాస్త్రీయ పురోగతిని అర్థం చేసుకోవడంలో కీలకం.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे गुप्त युग की वैज्ञानिक प्रगति को स्पष्ट करता है।\n\nUPSC अक्सर विद्वानों के योगदान को व्यापक सभ्यतागत उपलब्धियों से जोड़ता है।\n\nआर्यभट्ट का योगदान गुप्त वैज्ञानिक प्रगति को समझने में केंद्रीय है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the Gupta Empire:\n\n1. Chandragupta II is associated with the title Vikramaditya.\n2. The Gupta period witnessed important developments in art and literature.\n3. The Gupta rulers completely abolished gold coinage.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "గుప్త సామ్రాజ్యానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. చంద్రగుప్తుడు II విక్రమాదిత్య బిరుదుతో సంబంధం కలిగి ఉన్నాడు.\n2. గుప్త కాలంలో కళలు మరియు సాహిత్యంలో ముఖ్య అభివృద్ధి జరిగింది.\n3. గుప్త పాలకులు బంగారు నాణేల వినియోగాన్ని పూర్తిగా రద్దు చేశారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "गुप्त साम्राज्य के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. चन्द्रगुप्त द्वितीय विक्रमादित्य की उपाधि से संबंधित है।\n2. गुप्त काल में कला और साहित्य में महत्वपूर्ण विकास हुआ।\n3. गुप्त शासकों ने स्वर्ण मुद्राओं को पूर्णतः समाप्त कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Chandragupta II is widely associated with the title Vikramaditya and is considered one of the most powerful Gupta rulers.\n\nThe Gupta period witnessed remarkable achievements in literature, sculpture, temple architecture and classical Sanskrit culture.\n\nStatement 3 is incorrect because the Guptas issued impressive gold coins, which are important sources for understanding Gupta economy and political authority.\n\nTheir coinage reflects artistic refinement and economic prosperity.\n\nThe Gupta Age is therefore remembered for cultural brilliance and imperial strength.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. చంద్రగుప్తుడు II విక్రమాదిత్య బిరుదుతో ప్రసిద్ధి చెందాడు మరియు అతన్ని గొప్ప గుప్త పాలకులలో ఒకడిగా పరిగణిస్తారు.\n\nగుప్త కాలంలో సాహిత్యం, శిల్పకళ, దేవాలయ నిర్మాణం మరియు సంస్కృత సాహిత్యంలో విశేష అభివృద్ధి జరిగింది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే గుప్తులు అద్భుతమైన బంగారు నాణేలను జారీ చేశారు. ఇవి గుప్త ఆర్థిక వ్యవస్థ మరియు రాజకీయ అధికారాన్ని అర్థం చేసుకోవడంలో ముఖ్య ఆధారాలు.\n\nవారి నాణేలు కళాత్మక నైపుణ్యం మరియు ఆర్థికాభివృద్ధిని ప్రతిబింబిస్తాయి.\n\nఅందువల్ల గుప్త యుగం సాంస్కృతిక వైభవం మరియు సామ్రాజ్య శక్తికి ప్రసిద్ధి చెందింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। चन्द्रगुप्त द्वितीय विक्रमादित्य की उपाधि से प्रसिद्ध है और उसे महान गुप्त शासकों में गिना जाता है।\n\nगुप्त काल में साहित्य, मूर्तिकला, मंदिर वास्तुकला और संस्कृत संस्कृति में उल्लेखनीय विकास हुआ।\n\nकथन 3 गलत है क्योंकि गुप्तों ने उत्कृष्ट स्वर्ण मुद्राएँ जारी कीं, जो गुप्त अर्थव्यवस्था और राजनीतिक शक्ति को समझने के महत्वपूर्ण स्रोत हैं।\n\nउनकी मुद्राएँ कलात्मक उत्कृष्टता और आर्थिक समृद्धि को दर्शाती हैं।\n\nअतः गुप्त युग सांस्कृतिक वैभव और साम्राज्यिक शक्ति के लिए प्रसिद्ध है।",
+
+          "elimination_logic_english": "Statement 3 is the coinage trap.\n\nThe Gupta rulers are actually famous for issuing high-quality gold coins.\n\nStatements 1 and 2 correctly describe Chandragupta II and Gupta cultural achievements.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన నాణేల ఉచ్చు.\n\nగుప్తులు అత్యున్నత స్థాయి బంగారు నాణేలను జారీ చేసిన వంశంగా ప్రసిద్ధి చెందారు.\n\nప్రకటనలు 1 మరియు 2 చంద్రగుప్తుడు II మరియు గుప్త సాంస్కృతిక విజయాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य मुद्रा संबंधी भ्रम है।\n\nगुप्त शासक वास्तव में उच्च गुणवत्ता वाली स्वर्ण मुद्राओं के लिए प्रसिद्ध हैं।\n\nकथन 1 और 2 चन्द्रगुप्त द्वितीय और गुप्त सांस्कृतिक उपलब्धियों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following scholars is closely associated with the Gupta Age?",
+
+          "options_english": {
+            "a": "Kalidasa",
+            "b": "Banabhatta",
+            "c": "Al-Biruni",
+            "d": "Amir Khusrau"
+          },
+
+          "question_telugu": "గుప్త యుగంతో సన్నిహిత సంబంధం కలిగిన పండితుడు క్రింది వారిలో ఎవరు?",
+
+          "options_telugu": {
+            "a": "కాళిదాసు",
+            "b": "బాణభట్టుడు",
+            "c": "అల్-బిరుని",
+            "d": "అమీర్ ఖుస్రూ"
+          },
+
+          "question_hindi": "निम्नलिखित में से कौन-सा विद्वान गुप्त युग से निकटता से संबंधित है?",
+
+          "options_hindi": {
+            "a": "कालिदास",
+            "b": "बाणभट्ट",
+            "c": "अल-बिरूनी",
+            "d": "अमीर खुसरो"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Kalidasa is one of the greatest Sanskrit poets and dramatists associated with the Gupta Age.\n\nHis literary works such as Abhijnanasakuntalam and Meghadutam are regarded as masterpieces of classical Sanskrit literature.\n\nThe Gupta period witnessed extensive royal patronage of scholars, poets and intellectual traditions.\n\nKalidasa's contributions symbolise the literary and cultural achievements of the Gupta era.\n\nUPSC frequently asks scholar-period associations from ancient and medieval history.",
+
+          "explanation_telugu": "కాళిదాసు గుప్త యుగంతో సంబంధం కలిగిన గొప్ప సంస్కృత కవి మరియు నాటకకర్తలలో ఒకడు.\n\nఅభిజ్ఞాన శాకుంతలం మరియు మేఘదూతం వంటి అతని రచనలు శాస్త్రీయ సంస్కృత సాహిత్యంలోని మహాకృతులుగా పరిగణించబడుతున్నాయి.\n\nగుప్త కాలంలో పండితులు, కవులు మరియు మేధో సంప్రదాయాలకు విశేష రాజ పరిరక్షణ లభించింది.\n\nకాళిదాసు కృషి గుప్త యుగ సాహిత్య మరియు సాంస్కృతిక వైభవాన్ని ప్రతిబింబిస్తుంది.\n\nపండితులు మరియు వారి కాలాల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "कालिदास गुप्त युग से संबंधित महान संस्कृत कवि और नाटककारों में से एक है।\n\nउसकी रचनाएँ जैसे अभिज्ञानशाकुंतलम् और मेघदूतम् संस्कृत साहित्य की महान कृतियाँ मानी जाती हैं।\n\nगुप्त काल में विद्वानों, कवियों और बौद्धिक परंपराओं को व्यापक राजकीय संरक्षण मिला।\n\nकालिदास का योगदान गुप्त युग की साहित्यिक और सांस्कृतिक उपलब्धियों का प्रतीक है।\n\nUPSC अक्सर विद्वानों और ऐतिहासिक कालों के संबंध पर आधारित प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Banabhatta is associated mainly with Harsha's period, Al-Biruni with the medieval Islamic period and Amir Khusrau with the Delhi Sultanate.\n\nOnly Kalidasa is strongly associated with the Gupta Age.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "బాణభట్టుడు హర్షవర్ధన కాలంతో, అల్-బిరుని మధ్యయుగ ఇస్లామిక్ కాలంతో మరియు అమీర్ ఖుస్రూ ఢిల్లీ సుల్తానతుతో సంబంధం కలిగి ఉన్నారు.\n\nగుప్త యుగంతో బలమైన సంబంధం ఉన్నది కాళిదాసు మాత్రమే.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "बाणभट्ट मुख्यतः हर्षकाल से, अल-बिरूनी मध्यकालीन इस्लामी काल से और अमीर खुसरो दिल्ली सल्तनत से संबंधित हैं।\n\nकेवल कालिदास ही गुप्त युग से गहराई से जुड़ा हुआ है।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Gupta Empire is regarded as an important phase of cultural development in ancient India.\n\nReason (R): The period witnessed advances in literature, science, art and mathematics.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): గుప్త సామ్రాజ్య కాలం ప్రాచీన భారత సాంస్కృతిక అభివృద్ధిలో ముఖ్య దశగా పరిగణించబడుతుంది.\n\nకారణం (R): ఈ కాలంలో సాహిత్యం, శాస్త్రం, కళలు మరియు గణితంలో అభివృద్ధి జరిగింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): गुप्त साम्राज्य का काल प्राचीन भारत के सांस्कृतिक विकास का महत्वपूर्ण चरण माना जाता है।\n\nकारण (R): इस काल में साहित्य, विज्ञान, कला और गणित में प्रगति हुई।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Gupta Age is regarded as a major phase of cultural and intellectual growth in ancient India.\n\nThe period witnessed remarkable achievements in literature, Sanskrit learning, science, mathematics, astronomy and art.\n\nScholars such as Kalidasa and Aryabhata flourished during this era.\n\nTemple architecture, sculpture and coinage also displayed high artistic refinement.\n\nThus, the broad advances in intellectual and cultural fields directly explain the historical importance of the Gupta period.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. గుప్త యుగం ప్రాచీన భారత సాంస్కృతిక మరియు మేధో అభివృద్ధిలో ప్రధాన దశగా పరిగణించబడుతుంది.\n\nఈ కాలంలో సాహిత్యం, సంస్కృత విద్య, శాస్త్రం, గణితం, ఖగోళ శాస్త్రం మరియు కళల్లో విశేష అభివృద్ధి జరిగింది.\n\nకాళిదాసు మరియు ఆర్యభటుడు వంటి పండితులు ఈ యుగంలో వెలుగొందారు.\n\nదేవాలయ నిర్మాణం, శిల్పకళ మరియు నాణేలు కూడా అత్యున్నత కళాత్మక నైపుణ్యాన్ని ప్రదర్శించాయి.\n\nఅందువల్ల మేధో మరియు సాంస్కృతిక రంగాల్లో జరిగిన విస్తృత అభివృద్ధే గుప్త యుగ చారిత్రక ప్రాముఖ్యతను నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। गुप्त युग प्राचीन भारत के सांस्कृतिक और बौद्धिक विकास का प्रमुख चरण माना जाता है।\n\nइस काल में साहित्य, संस्कृत शिक्षा, विज्ञान, गणित, खगोलशास्त्र और कला में उल्लेखनीय प्रगति हुई।\n\nकालिदास और आर्यभट्ट जैसे विद्वान इसी युग में विकसित हुए।\n\nमंदिर वास्तुकला, मूर्तिकला और मुद्राएँ भी उच्च कलात्मक उत्कृष्टता को प्रदर्शित करती हैं।\n\nअतः बौद्धिक और सांस्कृतिक क्षेत्रों में हुई व्यापक प्रगति ही गुप्त काल की ऐतिहासिक महत्ता की प्रत्यक्ष व्याख्या करती है।",
+
+          "elimination_logic_english": "The Reason directly explains why the Gupta Age is regarded as culturally significant.\n\nUPSC often connects cultural importance with concrete achievements in literature, science and art.\n\nThe Gupta period is famous precisely because of these multidimensional advancements.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం గుప్త యుగం సాంస్కృతికంగా ఎందుకు ముఖ్యమో నేరుగా వివరిస్తుంది.\n\nసాహిత్యం, శాస్త్రం మరియు కళల్లోని విజయాలను సాంస్కృతిక ప్రాముఖ్యతతో UPSC తరచుగా అనుసంధానిస్తుంది.\n\nఈ విస్తృత అభివృద్ధుల కారణంగానే గుప్త యుగం ప్రసిద్ధి చెందింది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि गुप्त युग सांस्कृतिक दृष्टि से क्यों महत्वपूर्ण माना जाता है।\n\nUPSC अक्सर सांस्कृतिक महत्व को साहित्य, विज्ञान और कला की उपलब्धियों से जोड़कर प्रश्न पूछता है।\n\nगुप्त काल इन्हीं बहुआयामी उपलब्धियों के कारण प्रसिद्ध है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प c सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the Gupta administration and economy:\n\n1. The Gupta rulers issued gold coins in significant numbers.\n2. Trade and urban centres continued during the Gupta period.\n3. The Gupta Empire completely lacked provincial administration.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "గుప్త పరిపాలన మరియు ఆర్థిక వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. గుప్త పాలకులు గణనీయమైన సంఖ్యలో బంగారు నాణేలను జారీ చేశారు.\n2. గుప్త కాలంలో వాణిజ్యం మరియు పట్టణ కేంద్రాలు కొనసాగాయి.\n3. గుప్త సామ్రాజ్యంలో ప్రাদেশిక పరిపాలన పూర్తిగా లేదు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "गुप्त प्रशासन और अर्थव्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. गुप्त शासकों ने बड़ी संख्या में स्वर्ण मुद्राएँ जारी कीं।\n2. गुप्त काल में व्यापार और नगरीय केंद्र बने रहे।\n3. गुप्त साम्राज्य में प्रांतीय प्रशासन पूर्णतः अनुपस्थित था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Gupta rulers issued impressive gold coinage, which reflected imperial authority, economic prosperity and artistic refinement.\n\nTrade networks and urban centres continued during the Gupta period, although historians debate the extent of urban decline in some regions.\n\nStatement 3 is incorrect because the Gupta Empire possessed a structured provincial administration with governors and local administrative units.\n\nThe administrative system combined central authority with regional governance.\n\nThus, the Gupta state represented an organised imperial structure with economic vitality.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. గుప్త పాలకులు అద్భుతమైన బంగారు నాణేలను జారీ చేశారు. ఇవి సామ్రాజ్య అధికారాన్ని, ఆర్థికాభివృద్ధిని మరియు కళాత్మక నైపుణ్యాన్ని ప్రతిబింబించాయి.\n\nగుప్త కాలంలో వాణిజ్య వ్యవస్థలు మరియు పట్టణ కేంద్రాలు కొనసాగాయి, అయితే కొన్ని ప్రాంతాల్లో పట్టణ క్షీణత స్థాయిపై చరిత్రకారుల మధ్య చర్చ ఉంది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే గుప్త సామ్రాజ్యంలో గవర్నర్లు మరియు స్థానిక పరిపాలనా విభాగాలతో కూడిన ప్రাদেশిక పరిపాలన వ్యవస్థ ఉంది.\n\nఈ పరిపాలన కేంద్రీకృత అధికారాన్ని మరియు ప్రాంతీయ పాలనను సమన్వయపరిచింది.\n\nఅందువల్ల గుప్త రాజ్యం సుశ్రద్ధ పరిపాలన మరియు ఆర్థిక చైతన్యాన్ని కలిగిన సామ్రాజ్యంగా నిలిచింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। गुप्त शासकों ने उत्कृष्ट स्वर्ण मुद्राएँ जारी कीं, जो साम्राज्यिक शक्ति, आर्थिक समृद्धि और कलात्मक उत्कृष्टता को दर्शाती हैं।\n\nगुप्त काल में व्यापारिक नेटवर्क और नगरीय केंद्र बने रहे, यद्यपि कुछ क्षेत्रों में नगरीय पतन की सीमा पर इतिहासकारों में मतभेद है।\n\nकथन 3 गलत है क्योंकि गुप्त साम्राज्य में राज्यपालों और स्थानीय प्रशासनिक इकाइयों सहित एक संगठित प्रांतीय प्रशासन था।\n\nयह प्रशासनिक व्यवस्था केंद्रीय सत्ता और क्षेत्रीय शासन का समन्वय करती थी।\n\nअतः गुप्त राज्य एक संगठित साम्राज्यिक संरचना और आर्थिक सक्रियता का प्रतिनिधित्व करता है।",
+
+          "elimination_logic_english": "Statement 3 is the administrative trap.\n\nThe Gupta Empire did possess provincial and local administrative mechanisms.\n\nStatements 1 and 2 correctly describe Gupta gold coinage and continuing economic activity.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన పరిపాలనా ఉచ్చు.\n\nగుప్త సామ్రాజ్యంలో ప్రादेशిక మరియు స్థానిక పరిపాలనా వ్యవస్థలు ఉన్నాయి.\n\nప్రకటనలు 1 మరియు 2 గుప్త బంగారు నాణేలు మరియు ఆర్థిక కార్యకలాపాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य प्रशासनिक भ्रम है।\n\nगुप्त साम्राज्य में प्रांतीय और स्थानीय प्रशासनिक व्यवस्था मौजूद थी।\n\nकथन 1 और 2 गुप्त स्वर्ण मुद्राओं और आर्थिक गतिविधियों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the importance of the Gupta Age in Indian history?",
+
+          "options_english": {
+            "a": "It marked the beginning of European rule in India",
+            "b": "It witnessed major cultural, scientific and literary achievements",
+            "c": "It abolished Sanskrit learning completely",
+            "d": "It was entirely isolated from economic activities"
+          },
+
+          "question_telugu": "భారత చరిత్రలో గుప్త యుగ ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఇది భారతదేశంలో యూరోపియన్ పాలన ఆరంభాన్ని సూచించింది",
+            "b": "ఇది సాంస్కృతిక, శాస్త్రీయ మరియు సాహిత్య రంగాల్లో విశేష విజయాలను సాధించింది",
+            "c": "ఇది సంస్కృత విద్యను పూర్తిగా రద్దు చేసింది",
+            "d": "ఇది ఆర్థిక కార్యకలాపాల నుండి పూర్తిగా వేరుపడింది"
+          },
+
+          "question_hindi": "भारतीय इतिहास में गुप्त युग के महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "इसने भारत में यूरोपीय शासन की शुरुआत की",
+            "b": "इस काल में सांस्कृतिक, वैज्ञानिक और साहित्यिक उपलब्धियाँ हुईं",
+            "c": "इसने संस्कृत शिक्षा को पूर्णतः समाप्त कर दिया",
+            "d": "यह आर्थिक गतिविधियों से पूर्णतः पृथक था"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Gupta Age is historically important because it witnessed remarkable achievements in culture, literature, science, mathematics, art and political organisation.\n\nThe period saw the flourishing of Sanskrit literature, temple architecture and scientific learning.\n\nScholars such as Kalidasa and Aryabhata symbolise the intellectual vitality of the era.\n\nThe Gupta rulers also established a powerful imperial structure across large parts of northern India.\n\nFor these reasons, the Gupta Age is often described as a classical or golden age in Indian history.",
+
+          "explanation_telugu": "సాంస్కృతికం, సాహిత్యం, శాస్త్రం, గణితం, కళలు మరియు రాజకీయ వ్యవస్థలలో విశేష విజయాలు సాధించినందుకు గుప్త యుగం చారిత్రకంగా ఎంతో ముఖ్యమైనది.\n\nఈ కాలంలో సంస్కృత సాహిత్యం, దేవాలయ నిర్మాణం మరియు శాస్త్రీయ విద్య అభివృద్ధి చెందాయి.\n\nకాళిదాసు మరియు ఆర్యభటుడు వంటి పండితులు ఈ యుగ మేధో వైభవానికి ప్రతీకలుగా నిలిచారు.\n\nగుప్త పాలకులు ఉత్తర భారతదేశంలోని విశాల ప్రాంతాలపై శక్తివంతమైన సామ్రాజ్యాన్ని నిర్మించారు.\n\nఈ కారణాల వల్ల గుప్త యుగాన్ని భారత చరిత్రలో స్వర్ణయుగంగా పేర్కొంటారు.",
+
+          "explanation_hindi": "गुप्त युग ऐतिहासिक रूप से इसलिए महत्वपूर्ण है क्योंकि इस काल में संस्कृति, साहित्य, विज्ञान, गणित, कला और राजनीतिक संगठन में उल्लेखनीय उपलब्धियाँ प्राप्त हुईं।\n\nइस काल में संस्कृत साहित्य, मंदिर वास्तुकला और वैज्ञानिक शिक्षा का विकास हुआ।\n\nकालिदास और आर्यभट्ट जैसे विद्वान इस युग की बौद्धिक जीवंतता के प्रतीक हैं।\n\nगुप्त शासकों ने उत्तर भारत के विशाल भागों पर एक शक्तिशाली साम्राज्य स्थापित किया।\n\nइन्हीं कारणों से गुप्त युग को भारतीय इतिहास का स्वर्णयुग कहा जाता है।",
+
+          "elimination_logic_english": "Options a, c and d are historically incorrect.\n\nThe Gupta Age is known for intellectual and cultural advancement rather than decline or isolation.\n\nIts historical importance lies in achievements across multiple fields.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d చారిత్రకంగా తప్పు.\n\nగుప్త యుగం మేధో మరియు సాంస్కృతిక అభివృద్ధికి ప్రసిద్ధి చెందింది.\n\nదాని చారిత్రక ప్రాముఖ్యత అనేక రంగాల్లో సాధించిన విజయాల్లో ఉంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत हैं।\n\nगुप्त युग बौद्धिक और सांस्कृतिक प्रगति के लिए प्रसिद्ध है, न कि पतन या अलगाव के लिए।\n\nइसका ऐतिहासिक महत्व अनेक क्षेत्रों की उपलब्धियों में निहित है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Samudragupta is often called the ‘Napoleon of India’.\n\nReason (R): He conducted extensive military campaigns across different regions.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct but R is not the correct explanation of A",
+            "b": "Both A and R are correct and R is the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): సముద్రగుప్తుడిని తరచుగా ‘భారత నెపోలియన్’ అని పిలుస్తారు.\n\nకారణం (R): అతను విభిన్న ప్రాంతాల్లో విస్తృత సైనిక యాత్రలు నిర్వహించాడు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "b": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): समुद्रगुप्त को अक्सर ‘भारत का नेपोलियन’ कहा जाता है।\n\nकारण (R): उसने विभिन्न क्षेत्रों में व्यापक सैन्य अभियान चलाए।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "b": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Both Assertion and Reason are correct. Samudragupta earned the title ‘Napoleon of India’ because of his remarkable military ability and extensive conquests.\n\nThe Allahabad Pillar Inscription describes campaigns against numerous rulers across northern and southern India.\n\nHis military successes greatly expanded Gupta political authority.\n\nAt the same time, he followed flexible policies toward conquered rulers in different regions.\n\nThus, his extensive campaigns directly explain why historians compare him with Napoleon.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సముద్రగుప్తుడు తన అసాధారణ సైనిక ప్రతిభ మరియు విస్తృత విజయాల కారణంగా ‘భారత నెపోలియన్’గా ప్రసిద్ధి చెందాడు.\n\nఅలహాబాద్ స్తంభ శాసనం ఉత్తర మరియు దక్షిణ భారతంలోని అనేక రాజులపై అతని సైనిక యాత్రలను వివరిస్తుంది.\n\nఅతని విజయాలు గుప్త రాజకీయ అధికారాన్ని విశేషంగా విస్తరించాయి.\n\nఅలాగే, జయించిన రాజుల పట్ల అతను సౌకర్యవంతమైన విధానాన్ని అనుసరించాడు.\n\nఅందువల్ల అతని విస్తృత సైనిక యాత్రలే చరిత్రకారులు అతన్ని నెపోలియన్‌తో పోల్చడానికి కారణం.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। समुद्रगुप्त को उसकी असाधारण सैन्य क्षमता और व्यापक विजयों के कारण ‘भारत का नेपोलियन’ कहा जाता है।\n\nइलाहाबाद स्तंभ अभिलेख में उत्तर और दक्षिण भारत के अनेक शासकों के विरुद्ध उसके अभियानों का वर्णन मिलता है।\n\nउसकी सैन्य सफलताओं ने गुप्त साम्राज्य की राजनीतिक शक्ति का व्यापक विस्तार किया।\n\nसाथ ही उसने विजित शासकों के प्रति लचीली नीति भी अपनाई।\n\nअतः उसके व्यापक सैन्य अभियान ही उसे नेपोलियन से तुलना करने का प्रत्यक्ष कारण हैं।",
+
+          "elimination_logic_english": "The Reason directly explains the title associated with Samudragupta.\n\nUPSC often tests ruler-titles and the basis for historical comparisons.\n\nSamudragupta's extensive conquests are precisely why he is compared with Napoleon.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం సముద్రగుప్తుడికి సంబంధించిన బిరుదును నేరుగా వివరిస్తుంది.\n\nపాలకుల బిరుదులు మరియు వాటి చారిత్రక ఆధారాలను UPSC తరచుగా పరీక్షిస్తుంది.\n\nసముద్రగుప్తుడి విస్తృత విజయాల కారణంగానే అతన్ని నెపోలియన్‌తో పోల్చారు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे समुद्रगुप्त से संबंधित उपाधि की व्याख्या करता है।\n\nUPSC अक्सर शासकों की उपाधियों और उनके ऐतिहासिक आधार पर प्रश्न पूछता है।\n\nसमुद्रगुप्त की व्यापक विजयों के कारण ही उसकी तुलना नेपोलियन से की जाती है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which of the following features are associated with the Gupta Age?\n\n1. Growth of Sanskrit literature\n2. Advances in science and mathematics\n3. Development of temple architecture\n4. Issuance of gold coinage\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "1, 2 and 3 only",
+            "c": "2, 3 and 4 only",
+            "d": "1, 2, 3 and 4"
+          },
+
+          "question_telugu": "గుప్త యుగానికి సంబంధించిన లక్షణాలు క్రింది వాటిలో ఏవి?\n\n1. సంస్కృత సాహిత్య అభివృద్ధి\n2. శాస్త్రం మరియు గణితంలో పురోగతి\n3. దేవాలయ నిర్మాణ కళ అభివృద్ధి\n4. బంగారు నాణేల జారీ\n\nక్రింది కోడ్‌ను ఉపయోగించి సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "1, 2 మరియు 3 మాత్రమే",
+            "c": "2, 3 మరియు 4 మాత్రమే",
+            "d": "1, 2, 3 మరియు 4"
+          },
+
+          "question_hindi": "गुप्त युग से निम्नलिखित में से कौन-सी विशेषताएँ संबंधित हैं?\n\n1. संस्कृत साहित्य का विकास\n2. विज्ञान और गणित में प्रगति\n3. मंदिर वास्तुकला का विकास\n4. स्वर्ण मुद्राओं का प्रचलन\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 1, 2 और 3",
+            "c": "केवल 2, 3 और 4",
+            "d": "1, 2, 3 और 4"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All the given features are associated with the Gupta Age.\n\nThe Gupta period witnessed flourishing Sanskrit literature represented by scholars such as Kalidasa.\n\nImportant advances occurred in mathematics, astronomy and science through scholars like Aryabhata.\n\nTemple architecture and sculpture developed significantly during this period.\n\nThe Guptas also issued impressive gold coinage reflecting economic strength and artistic refinement.\n\nThus, all four statements correctly describe important characteristics of the Gupta Age.",
+
+          "explanation_telugu": "ఇచ్చిన అన్ని లక్షణాలు గుప్త యుగానికి సంబంధించినవే.\n\nకాళిదాసు వంటి పండితుల ద్వారా సంస్కృత సాహిత్యం గుప్త కాలంలో విశేషంగా అభివృద్ధి చెందింది.\n\nఆర్యభటుడు వంటి పండితుల ద్వారా గణితం, ఖగోళ శాస్త్రం మరియు శాస్త్రంలో ముఖ్య పురోగతి జరిగింది.\n\nఈ కాలంలో దేవాలయ నిర్మాణ కళ మరియు శిల్పకళ కూడా అభివృద్ధి చెందాయి.\n\nగుప్తులు ఆర్థిక శక్తి మరియు కళాత్మక నైపుణ్యాన్ని ప్రతిబింబించే అద్భుతమైన బంగారు నాణేలను జారీ చేశారు.\n\nఅందువల్ల ఈ నాలుగు ప్రకటనలన్నీ గుప్త యుగ ప్రధాన లక్షణాలను సరైనంగా వివరిస్తున్నాయి.",
+
+          "explanation_hindi": "दिए गए सभी बिंदु गुप्त युग से संबंधित हैं।\n\nकालिदास जैसे विद्वानों के माध्यम से संस्कृत साहित्य का व्यापक विकास हुआ।\n\nआर्यभट्ट जैसे विद्वानों ने गणित, खगोलशास्त्र और विज्ञान में महत्वपूर्ण प्रगति की।\n\nइस काल में मंदिर वास्तुकला और मूर्तिकला का भी उल्लेखनीय विकास हुआ।\n\nगुप्त शासकों ने आर्थिक शक्ति और कलात्मक उत्कृष्टता को दर्शाने वाली उत्कृष्ट स्वर्ण मुद्राएँ जारी कीं।\n\nअतः सभी चार कथन गुप्त युग की महत्वपूर्ण विशेषताओं का सही वर्णन करते हैं।",
+
+          "elimination_logic_english": "UPSC often introduces doubt around one cultural or economic feature in multi-statement questions.\n\nHowever, all four features are well-established characteristics of the Gupta Age.\n\nSanskrit literature, science, temple architecture and gold coinage all flourished during this period.\n\nSince all statements are correct, option d is the correct answer.",
+
+          "elimination_logic_telugu": "బహుళ ప్రకటనల ప్రశ్నల్లో UPSC తరచుగా సాంస్కృతిక లేదా ఆర్థిక అంశంపై సందేహం కలిగిస్తుంది.\n\nఅయితే ఈ నాలుగు లక్షణాలన్నీ గుప్త యుగానికి చెందిన స్థిరమైన లక్షణాలే.\n\nసంస్కృత సాహిత్యం, శాస్త్రం, దేవాలయ నిర్మాణ కళ మరియు బంగారు నాణేలు ఈ కాలంలో అభివృద్ధి చెందాయి.\n\nఅందువల్ల అన్ని ప్రకటనలు సరైనవి కాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "बहु-कथन प्रश्नों में UPSC अक्सर किसी सांस्कृतिक या आर्थिक विशेषता को संदेहास्पद बनाकर प्रस्तुत करता है।\n\nकिन्तु ये चारों विशेषताएँ गुप्त युग की स्थापित विशेषताएँ हैं।\n\nसंस्कृत साहित्य, विज्ञान, मंदिर वास्तुकला और स्वर्ण मुद्राएँ सभी इस काल में विकसित हुईं।\n\nअतः सभी कथन सही हैं, इसलिए विकल्प d सही उत्तर है।"
+        }
+      ]
+    }
   }
 }
