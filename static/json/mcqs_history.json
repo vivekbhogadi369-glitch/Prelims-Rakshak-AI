@@ -4470,8 +4470,879 @@
           "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nकुषाण वास्तव में विभिन्न क्षेत्रों के बीच सांस्कृतिक संपर्क को बढ़ावा देने के लिए प्रसिद्ध हैं।\n\nकथन 1 और 2 सिल्क रूट व्यापार तथा गांधार कला का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है."
         }
       ]
+    },
+
+    "Kalinga Kharavela": {
+      "topic_english": "Kalinga Kharavela",
+      "topic_telugu": "కళింగ ఖారవేలుడు",
+      "topic_hindi": "कलिंग खारवेल",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding Kharavela of Kalinga:\n\n1. Kharavela is associated with the Hathigumpha inscription.\n2. The Hathigumpha inscription is located in present-day Odisha.\n3. Kharavela belonged to the Kushana dynasty.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "కళింగ ఖారవేలుడికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఖారవేలుడు హాథిగుం్ఫా శాసనంతో సంబంధం కలిగి ఉన్నాడు.\n2. హాథిగుం్ఫా శాసనం ప్రస్తుత ఒడిశాలో ఉంది.\n3. ఖారవేలుడు కుషాణ వంశానికి చెందినవాడు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "कलिंग के खारवेल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. खारवेल हाथीगुम्फा अभिलेख से संबंधित है।\n2. हाथीगुम्फा अभिलेख वर्तमान ओडिशा में स्थित है।\n3. खारवेल कुषाण वंश से संबंधित था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Kharavela, the ruler of Kalinga, is known mainly through the Hathigumpha inscription located at Udayagiri near Bhubaneswar in present-day Odisha.\n\nThe inscription records his military expeditions, public works and patronage activities.\n\nStatement 3 is incorrect because Kharavela did not belong to the Kushana dynasty. He ruled Kalinga independently during the post-Mauryan period.\n\nThe Hathigumpha inscription is an important source for understanding regional powers in ancient eastern India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. కళింగ పాలకుడైన ఖారవేలుడు ప్రస్తుత ఒడిశాలోని భువనేశ్వర్ సమీపంలోని ఉదయగిరిలో ఉన్న హాథిగుం్ఫా శాసనం ద్వారా ప్రసిద్ధి చెందాడు.\n\nఈ శాసనం అతని సైనిక యాత్రలు, ప్రజా పనులు మరియు పరిరక్షణ కార్యక్రమాలను వివరిస్తుంది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే ఖారవేలుడు కుషాణ వంశానికి చెందినవాడు కాదు. అతను మౌర్యానంతర కాలంలో కళింగాన్ని స్వతంత్రంగా పాలించాడు.\n\nతూర్పు భారతదేశంలోని ప్రాంతీయ శక్తులను అర్థం చేసుకోవడంలో హాథిగుం్ఫా శాసనం ముఖ్య ఆధారం.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। कलिंग के शासक खारवेल के बारे में मुख्य जानकारी हाथीगुम्फा अभिलेख से मिलती है, जो वर्तमान ओडिशा के भुवनेश्वर के निकट उदयगिरि में स्थित है।\n\nइस अभिलेख में उसकी सैन्य विजयों, सार्वजनिक निर्माण कार्यों और संरक्षण गतिविधियों का वर्णन है।\n\nकथन 3 गलत है क्योंकि खारवेल कुषाण वंश से संबंधित नहीं था। वह मौर्योत्तर काल में स्वतंत्र कलिंग शासक था।\n\nहाथीगुम्फा अभिलेख प्राचीन पूर्वी भारत की क्षेत्रीय शक्तियों को समझने का महत्वपूर्ण स्रोत है।",
+
+          "elimination_logic_english": "Statement 3 is the dynastic trap.\n\nKharavela belonged to Kalinga and has no connection with the Kushana dynasty.\n\nStatements 1 and 2 correctly describe the Hathigumpha inscription and its location.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన వంశ సంబంధిత ఉచ్చు.\n\nఖారవేలుడు కళింగ పాలకుడు మరియు కుషాణ వంశంతో అతనికి సంబంధం లేదు.\n\nప్రకటనలు 1 మరియు 2 హాథిగుం్ఫా శాసనం మరియు దాని స్థలాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वंशगत भ्रम है।\n\nखारवेल कलिंग का शासक था और उसका कुषाण वंश से कोई संबंध नहीं था।\n\nकथन 1 और 2 हाथीगुम्फा अभिलेख तथा उसके स्थान का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following inscriptions is the principal source of information about Kharavela?",
+
+          "options_english": {
+            "a": "Allahabad Pillar Inscription",
+            "b": "Junagadh Inscription",
+            "c": "Hathigumpha Inscription",
+            "d": "Aihole Inscription"
+          },
+
+          "question_telugu": "ఖారవేలుడి గురించి ప్రధాన సమాచారాన్ని అందించే శాసనం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "అల్లాహాబాద్ స్తంభ శాసనం",
+            "b": "జునాగఢ్ శాసనం",
+            "c": "హాథిగుం్ఫా శాసనం",
+            "d": "ఐహోళే శాసనం"
+          },
+
+          "question_hindi": "खारवेल के बारे में जानकारी का प्रमुख स्रोत निम्नलिखित में से कौन-सा अभिलेख है?",
+
+          "options_hindi": {
+            "a": "इलाहाबाद स्तंभ अभिलेख",
+            "b": "जूनागढ़ अभिलेख",
+            "c": "हाथीगुम्फा अभिलेख",
+            "d": "ऐहोल अभिलेख"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "The Hathigumpha inscription is the principal source of information about Kharavela.\n\nIt is engraved in a cave at Udayagiri in present-day Odisha and records the achievements of Kharavela, including military campaigns, irrigation works and cultural activities.\n\nThe inscription is historically important for understanding the political history of Kalinga after the Mauryan period.\n\nIt also reflects the emergence of strong regional powers in ancient India.",
+
+          "explanation_telugu": "ఖారవేలుడి గురించి ప్రధాన సమాచారాన్ని అందించే శాసనం హాథిగుం్ఫా శాసనం.\n\nఇది ప్రస్తుత ఒడిశాలోని ఉదయగిరి గుహలో చెక్కబడి ఉంది మరియు ఖారవేలుడి సైనిక యాత్రలు, సాగునీటి పనులు మరియు సాంస్కృతిక కార్యక్రమాలను వివరిస్తుంది.\n\nమౌర్యానంతర కాలంలోని కళింగ రాజకీయ చరిత్రను అర్థం చేసుకోవడంలో ఇది ఎంతో ముఖ్యమైనది.\n\nఇది ప్రాచీన భారతదేశంలో ప్రాంతీయ శక్తుల ఎదుగుదలను కూడా ప్రతిబింబిస్తుంది.",
+
+          "explanation_hindi": "हाथीगुम्फा अभिलेख खारवेल के बारे में जानकारी का प्रमुख स्रोत है।\n\nयह वर्तमान ओडिशा के उदयगिरि की गुफा में उत्कीर्ण है और इसमें खारवेल की सैन्य विजयों, सिंचाई कार्यों तथा सांस्कृतिक गतिविधियों का वर्णन है।\n\nयह अभिलेख मौर्योत्तर काल में कलिंग के राजनीतिक इतिहास को समझने के लिए अत्यंत महत्वपूर्ण है।\n\nयह प्राचीन भारत में क्षेत्रीय शक्तियों के उदय को भी दर्शाता है।",
+
+          "elimination_logic_english": "The Allahabad Pillar inscription is associated with Samudragupta, the Junagadh inscription with Rudradaman I and the Aihole inscription with Pulakeshin II.\n\nOnly the Hathigumpha inscription is associated with Kharavela.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "అల్లాహాబాద్ స్తంభ శాసనం సముద్రగుప్తుడికి, జునాగఢ్ శాసనం రుద్రదామన్ I కి మరియు ఐహోళే శాసనం పులకేశి II కి సంబంధించినవి.\n\nఖారవేలుడికి సంబంధించినది హాథిగుం్ఫా శాసనం మాత్రమే.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "इलाहाबाद स्तंभ अभिलेख समुद्रगुप्त से, जूनागढ़ अभिलेख रुद्रदामन प्रथम से तथा ऐहोल अभिलेख पुलकेशिन द्वितीय से संबंधित है।\n\nकेवल हाथीगुम्फा अभिलेख खारवेल से संबंधित है।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Kharavela emerged as an important regional ruler in post-Mauryan India.\n\nReason (R): The Hathigumpha inscription records his military achievements and public works.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): మౌర్యానంతర భారతదేశంలో ఖారవేలుడు ముఖ్య ప్రాంతీయ పాలకుడిగా ఎదిగాడు.\n\nకారణం (R): హాథిగుం్ఫా శాసనం అతని సైనిక విజయాలు మరియు ప్రజా పనులను నమోదు చేసింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): मौर्योत्तर भारत में खारवेल एक महत्वपूर्ण क्षेत्रीय शासक के रूप में उभरा।\n\nकारण (R): हाथीगुम्फा अभिलेख में उसकी सैन्य उपलब्धियों और सार्वजनिक निर्माण कार्यों का उल्लेख मिलता है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Kharavela became an important regional ruler of Kalinga during the post-Mauryan period.\n\nThe Hathigumpha inscription records his military campaigns, irrigation projects, cultural patronage and administrative activities.\n\nThese achievements reflect the political revival of Kalinga after the decline of Mauryan authority.\n\nThe inscription also highlights the emergence of regional kingdoms in different parts of ancient India after the Mauryan Empire.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. మౌర్యానంతర కాలంలో ఖారవేలుడు కళింగానికి ముఖ్య ప్రాంతీయ పాలకుడిగా ఎదిగాడు.\n\nహాథిగుం్ఫా శాసనం అతని సైనిక యాత్రలు, సాగునీటి పనులు, సాంస్కృతిక పరిరక్షణ మరియు పరిపాలనా కార్యక్రమాలను వివరిస్తుంది.\n\nఈ విజయాలు మౌర్య అధికార పతనం తరువాత కళింగ పునరుజ్జీవనాన్ని ప్రతిబింబిస్తాయి.\n\nఈ శాసనం మౌర్య సామ్రాజ్యం తరువాత భారతదేశంలోని ప్రాంతీయ రాజ్యాల ఎదుగుదలను కూడా సూచిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। मौर्योत्तर काल में खारवेल कलिंग का एक महत्वपूर्ण क्षेत्रीय शासक बनकर उभरा।\n\nहाथीगुम्फा अभिलेख में उसकी सैन्य विजयों, सिंचाई परियोजनाओं, सांस्कृतिक संरक्षण और प्रशासनिक गतिविधियों का उल्लेख मिलता है।\n\nये उपलब्धियाँ मौर्य सत्ता के पतन के बाद कलिंग के पुनरुत्थान को दर्शाती हैं।\n\nयह अभिलेख मौर्य साम्राज्य के बाद विभिन्न क्षेत्रीय राज्यों के उदय को भी स्पष्ट करता है।",
+
+          "elimination_logic_english": "The Reason directly explains why Kharavela became historically important.\n\nMilitary achievements, public works and inscriptional evidence demonstrate his political significance.\n\nUPSC frequently links inscriptions with the rise of regional powers in post-Mauryan India.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం ఖారవేలుడు చారిత్రకంగా ఎందుకు ముఖ్యుడయ్యాడో నేరుగా వివరిస్తుంది.\n\nసైనిక విజయాలు, ప్రజా పనులు మరియు శాసన ఆధారాలు అతని రాజకీయ ప్రాముఖ్యతను సూచిస్తాయి.\n\nమౌర్యానంతర కాలంలో ప్రాంతీయ శక్తుల ఎదుగుదలతో శాసనాలను UPSC తరచుగా అనుసంధానిస్తుంది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि खारवेल ऐतिहासिक रूप से क्यों महत्वपूर्ण बना।\n\nसैन्य उपलब्धियाँ, सार्वजनिक निर्माण कार्य और अभिलेखीय प्रमाण उसकी राजनीतिक महत्ता को दर्शाते हैं।\n\nUPSC अक्सर मौर्योत्तर भारत में क्षेत्रीय शक्तियों के उदय को अभिलेखों से जोड़कर प्रश्न पूछता है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the Hathigumpha inscription:\n\n1. It provides information about the achievements of Kharavela.\n2. It is an important source for the history of post-Mauryan Kalinga.\n3. It was issued by Samudragupta.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1 and 2 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "హాథిగుం్ఫా శాసనానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది ఖారవేలుడి విజయాల గురించి సమాచారం అందిస్తుంది.\n2. ఇది మౌర్యానంతర కళింగ చరిత్రకు ముఖ్య ఆధారం.\n3. ఇది సముద్రగుప్తుడిచే జారీ చేయబడింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 2 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "हाथीगुम्फा अभिलेख के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह खारवेल की उपलब्धियों के बारे में जानकारी देता है।\n2. यह मौर्योत्तर कलिंग इतिहास का महत्वपूर्ण स्रोत है।\n3. इसे समुद्रगुप्त ने जारी किया था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 2",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Hathigumpha inscription records the achievements of Kharavela and is one of the most important sources for the history of post-Mauryan Kalinga.\n\nIt contains references to military campaigns, irrigation works, administration and cultural patronage.\n\nStatement 3 is incorrect because the inscription is associated with Kharavela, not Samudragupta.\n\nThe inscription highlights the rise of regional powers after the decline of the Mauryan Empire.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. హాథిగుం్ఫా శాసనం ఖారవేలుడి విజయాలను వివరిస్తూ మౌర్యానంతర కళింగ చరిత్రకు ముఖ్య ఆధారంగా నిలుస్తుంది.\n\nఇందులో సైనిక యాత్రలు, సాగునీటి పనులు, పరిపాలన మరియు సాంస్కృతిక పరిరక్షణ గురించి ప్రస్తావనలు ఉన్నాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే ఈ శాసనం సముద్రగుప్తుడికి కాదు, ఖారవేలుడికి సంబంధించినది.\n\nఈ శాసనం మౌర్య సామ్రాజ్య పతనం తరువాత ప్రాంతీయ శక్తుల ఎదుగుదలను ప్రతిబింబిస్తుంది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। हाथीगुम्फा अभिलेख खारवेल की उपलब्धियों का वर्णन करता है और मौर्योत्तर कलिंग इतिहास का एक महत्वपूर्ण स्रोत है।\n\nइसमें सैन्य अभियानों, सिंचाई कार्यों, प्रशासन तथा सांस्कृतिक संरक्षण का उल्लेख मिलता है।\n\nकथन 3 गलत है क्योंकि यह अभिलेख समुद्रगुप्त से नहीं बल्कि खारवेल से संबंधित है।\n\nयह अभिलेख मौर्य साम्राज्य के पतन के बाद क्षेत्रीय शक्तियों के उदय को दर्शाता है।",
+
+          "elimination_logic_english": "Statement 3 is the ruler-identification trap.\n\nSamudragupta is associated with the Allahabad Pillar inscription, not Hathigumpha.\n\nStatements 1 and 2 correctly describe the historical importance of the Hathigumpha inscription.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన పాలకుడి గుర్తింపు ఉచ్చు.\n\nసముద్రగుప్తుడు అల్లాహాబాద్ స్తంభ శాసనంతో సంబంధం కలిగి ఉన్నాడు, హాథిగుం్ఫా శాసనంతో కాదు.\n\nప్రకటనలు 1 మరియు 2 హాథిగుం్ఫా శాసన చారిత్రక ప్రాముఖ్యతను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य शासक-पहचान भ्रम है।\n\nसमुद्रगुप्त इलाहाबाद स्तंभ अभिलेख से संबंधित है, हाथीगुम्फा अभिलेख से नहीं।\n\nकथन 1 और 2 हाथीगुम्फा अभिलेख के ऐतिहासिक महत्व का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर कथन 1 और 2 सही बचते हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the historical importance of Kharavela?",
+
+          "options_english": {
+            "a": "He established the Gupta Empire",
+            "b": "He revived the political importance of Kalinga after the Mauryas",
+            "c": "He introduced Persian administration into India",
+            "d": "He abolished regional kingdoms in eastern India"
+          },
+
+          "question_telugu": "ఖారవేలుడి చారిత్రక ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "అతను గుప్త సామ్రాజ్యాన్ని స్థాపించాడు",
+            "b": "అతను మౌర్యుల తరువాత కళింగ రాజకీయ ప్రాముఖ్యతను పునరుద్ధరించాడు",
+            "c": "అతను భారతదేశంలో పర్షియన్ పరిపాలనను ప్రవేశపెట్టాడు",
+            "d": "అతను తూర్పు భారతదేశంలోని ప్రాంతీయ రాజ్యాలను రద్దు చేశాడు"
+          },
+
+          "question_hindi": "खारवेल के ऐतिहासिक महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "उसने गुप्त साम्राज्य की स्थापना की",
+            "b": "उसने मौर्यों के बाद कलिंग की राजनीतिक महत्ता को पुनर्जीवित किया",
+            "c": "उसने भारत में फारसी प्रशासन की शुरुआत की",
+            "d": "उसने पूर्वी भारत के क्षेत्रीय राज्यों को समाप्त कर दिया"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Kharavela is historically important because he revived the political importance of Kalinga after the decline of Mauryan authority.\n\nThe Hathigumpha inscription presents him as an energetic ruler engaged in military campaigns, irrigation works and public welfare activities.\n\nHis reign reflects the rise of strong regional kingdoms during the post-Mauryan period.\n\nKharavela's rule demonstrates how eastern India regained political prominence after the Mauryan Empire.",
+
+          "explanation_telugu": "మౌర్య అధికార పతనం తరువాత కళింగ రాజకీయ ప్రాముఖ్యతను పునరుద్ధరించినందుకు ఖారవేలుడు చారిత్రకంగా ఎంతో ముఖ్యుడు.\n\nహాథిగుం్ఫా శాసనం అతన్ని సైనిక యాత్రలు, సాగునీటి పనులు మరియు ప్రజా సంక్షేమ కార్యక్రమాలలో చురుకైన పాలకుడిగా చూపిస్తుంది.\n\nఅతని పాలన మౌర్యానంతర కాలంలో శక్తివంతమైన ప్రాంతీయ రాజ్యాల ఎదుగుదలను ప్రతిబింబిస్తుంది.\n\nఖారవేలుడి పాలన తూర్పు భారతదేశం మళ్లీ రాజకీయ ప్రాముఖ్యతను పొందిన విధానాన్ని చూపిస్తుంది.",
+
+          "explanation_hindi": "खारवेल ऐतिहासिक रूप से इसलिए महत्वपूर्ण है क्योंकि उसने मौर्य सत्ता के पतन के बाद कलिंग की राजनीतिक महत्ता को पुनर्जीवित किया।\n\nहाथीगुम्फा अभिलेख उसे सैन्य अभियानों, सिंचाई कार्यों और लोककल्याण गतिविधियों में सक्रिय शासक के रूप में प्रस्तुत करता है।\n\nउसका शासन मौर्योत्तर काल में शक्तिशाली क्षेत्रीय राज्यों के उदय को दर्शाता है।\n\nखारवेल का शासन यह दिखाता है कि पूर्वी भारत ने मौर्य साम्राज्य के बाद पुनः राजनीतिक महत्व प्राप्त किया।",
+
+          "elimination_logic_english": "Options a, c and d are historically incorrect.\n\nKharavela neither founded the Gupta Empire nor introduced Persian administration.\n\nHe is remembered mainly for restoring Kalinga's political importance.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d చారిత్రకంగా తప్పు.\n\nఖారవేలుడు గుప్త సామ్రాజ్యాన్ని స్థాపించలేదు మరియు పర్షియన్ పరిపాలనను కూడా ప్రవేశపెట్టలేదు.\n\nఅతను ప్రధానంగా కళింగ రాజకీయ ప్రాముఖ్యతను పునరుద్ధరించినందుకు ప్రసిద్ధి చెందాడు.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत हैं।\n\nखारवेल ने न तो गुप्त साम्राज्य की स्थापना की और न ही फारसी प्रशासन की शुरुआत की।\n\nवह मुख्यतः कलिंग की राजनीतिक महत्ता को पुनर्जीवित करने के लिए प्रसिद्ध है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Kharavela is regarded as an important post-Mauryan regional ruler.\n\nReason (R): His reign reflects the emergence of strong regional powers after the decline of Mauryan authority.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct but R is not the correct explanation of A",
+            "b": "Both A and R are correct and R is the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): ఖారవేలుడు మౌర్యానంతర కాలంలోని ముఖ్య ప్రాంతీయ పాలకుడిగా పరిగణించబడుతున్నాడు.\n\nకారణం (R): అతని పాలన మౌర్య అధికార పతనం తరువాత శక్తివంతమైన ప్రాంతీయ శక్తుల ఎదుగుదలను ప్రతిబింబిస్తుంది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "b": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): खारवेल को मौर्योत्तर काल का एक महत्वपूर्ण क्षेत्रीय शासक माना जाता है।\n\nकारण (R): उसका शासन मौर्य सत्ता के पतन के बाद शक्तिशाली क्षेत्रीय राज्यों के उदय को दर्शाता है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "b": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Both Assertion and Reason are correct. Kharavela emerged as a major regional ruler of Kalinga during the post-Mauryan period.\n\nAfter the decline of Mauryan central authority, several regional kingdoms gained political prominence across India.\n\nThe Hathigumpha inscription highlights Kharavela's military campaigns, public works and administrative activities, demonstrating the strength of regional powers.\n\nThus, the rise of regional kingdoms directly explains Kharavela's historical importance.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. మౌర్యానంతర కాలంలో ఖారవేలుడు కళింగానికి ప్రధాన ప్రాంతీయ పాలకుడిగా ఎదిగాడు.\n\nమౌర్య కేంద్ర అధికార పతనం తరువాత భారతదేశంలో అనేక ప్రాంతీయ రాజ్యాలు రాజకీయ ప్రాముఖ్యతను పొందాయి.\n\nహాథిగుం్ఫా శాసనం ఖారవేలుడి సైనిక యాత్రలు, ప్రజా పనులు మరియు పరిపాలనా కార్యక్రమాలను వివరిస్తూ ప్రాంతీయ శక్తుల బలాన్ని చూపిస్తుంది.\n\nఅందువల్ల ప్రాంతీయ రాజ్యాల ఎదుగుదల ఖారవేలుడి చారిత్రక ప్రాముఖ్యతను నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। मौर्योत्तर काल में खारवेल कलिंग का एक प्रमुख क्षेत्रीय शासक बनकर उभरा।\n\nमौर्य केंद्रीय सत्ता के पतन के बाद भारत में अनेक क्षेत्रीय राज्यों ने राजनीतिक महत्व प्राप्त किया।\n\nहाथीगुम्फा अभिलेख खारवेल की सैन्य उपलब्धियों, सार्वजनिक निर्माण कार्यों और प्रशासनिक गतिविधियों का उल्लेख करता है, जो क्षेत्रीय शक्तियों की मजबूती को दर्शाता है।\n\nइस प्रकार क्षेत्रीय राज्यों का उदय खारवेल के ऐतिहासिक महत्व की प्रत्यक्ष व्याख्या करता है।",
+
+          "elimination_logic_english": "The Reason directly explains why Kharavela became historically important.\n\nThe decline of Mauryan central authority created opportunities for strong regional rulers.\n\nUPSC frequently tests the connection between political fragmentation and the rise of regional kingdoms.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం ఖారవేలుడు చారిత్రకంగా ఎందుకు ముఖ్యుడయ్యాడో నేరుగా వివరిస్తుంది.\n\nమౌర్య కేంద్ర అధికార పతనం శక్తివంతమైన ప్రాంతీయ పాలకుల ఎదుగుదలకు అవకాశాలు కల్పించింది.\n\nరాజకీయ విభజన మరియు ప్రాంతీయ రాజ్యాల ఎదుగుదల మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि खारवेल ऐतिहासिक रूप से क्यों महत्वपूर्ण बना।\n\nमौर्य केंद्रीय सत्ता के पतन ने शक्तिशाली क्षेत्रीय शासकों के उदय का मार्ग प्रशस्त किया।\n\nUPSC अक्सर राजनीतिक विखंडन और क्षेत्रीय राज्यों के उदय के संबंध को परखता है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प b सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Kharavela:\n\n1. Kharavela undertook public welfare and irrigation works.\n2. He is associated with the political revival of Kalinga.\n3. The Hathigumpha inscription belongs to the Gupta period.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 3 only",
+            "b": "2 and 3 only",
+            "c": "1, 2 and 3",
+            "d": "1 and 2 only"
+          },
+
+          "question_telugu": "ఖారవేలుడికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఖారవేలుడు ప్రజా సంక్షేమ మరియు సాగునీటి పనులు చేపట్టాడు.\n2. అతను కళింగ రాజకీయ పునరుజ్జీవనంతో సంబంధం కలిగి ఉన్నాడు.\n3. హాథిగుం్ఫా శాసనం గుప్త కాలానికి చెందినది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 3 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1, 2 మరియు 3",
+            "d": "1 మరియు 2 మాత్రమే"
+          },
+
+          "question_hindi": "खारवेल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. खारवेल ने लोककल्याण और सिंचाई कार्य करवाए।\n2. वह कलिंग के राजनीतिक पुनरुत्थान से संबंधित है।\n3. हाथीगुम्फा अभिलेख गुप्त काल का है।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 3",
+            "b": "केवल 2 और 3",
+            "c": "1, 2 और 3",
+            "d": "केवल 1 और 2"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Hathigumpha inscription mentions public welfare measures, irrigation activities and administrative works undertaken by Kharavela.\n\nKharavela is historically remembered for restoring the political importance of Kalinga after the decline of Mauryan authority.\n\nStatement 3 is incorrect because the Hathigumpha inscription belongs to the post-Mauryan period, not the Gupta period.\n\nThe inscription is an important source for understanding eastern Indian regional politics.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. హాథిగుం్ఫా శాసనం ఖారవేలుడు చేపట్టిన ప్రజా సంక్షేమ కార్యక్రమాలు, సాగునీటి పనులు మరియు పరిపాలనా చర్యలను ప్రస్తావిస్తుంది.\n\nమౌర్య అధికార పతనం తరువాత కళింగ రాజకీయ ప్రాముఖ్యతను పునరుద్ధరించిన పాలకుడిగా ఖారవేలుడు గుర్తించబడుతున్నాడు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే హాథిగుం్ఫా శాసనం గుప్త కాలానికి కాదు, మౌర్యానంతర కాలానికి చెందినది.\n\nఈ శాసనం తూర్పు భారత ప్రాంతీయ రాజకీయాలను అర్థం చేసుకోవడంలో ముఖ్య ఆధారం.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। हाथीगुम्फा अभिलेख में खारवेल द्वारा किए गए लोककल्याण, सिंचाई तथा प्रशासनिक कार्यों का उल्लेख मिलता है।\n\nमौर्य सत्ता के पतन के बाद कलिंग की राजनीतिक महत्ता को पुनर्जीवित करने वाले शासक के रूप में खारवेल को याद किया जाता है।\n\nकथन 3 गलत है क्योंकि हाथीगुम्फा अभिलेख गुप्त काल का नहीं बल्कि मौर्योत्तर काल का है।\n\nयह अभिलेख पूर्वी भारत की क्षेत्रीय राजनीति को समझने का महत्वपूर्ण स्रोत है।",
+
+          "elimination_logic_english": "Statement 3 is the chronology trap.\n\nThe Hathigumpha inscription predates the Gupta period and belongs to post-Mauryan India.\n\nStatements 1 and 2 correctly describe Kharavela's welfare activities and political role.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option d is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన కాలక్రమ ఉచ్చు.\n\nహాథిగుం్ఫా శాసనం గుప్త కాలానికి ముందు మౌర్యానంతర కాలానికి చెందినది.\n\nప్రకటనలు 1 మరియు 2 ఖారవేలుడి సంక్షేమ కార్యక్రమాలు మరియు రాజకీయ పాత్రను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य कालानुक्रमिक भ्रम है।\n\nहाथीगुम्फा अभिलेख गुप्त काल से पहले मौर्योत्तर काल का है।\n\nकथन 1 और 2 खारवेल की लोककल्याण गतिविधियों और राजनीतिक भूमिका का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर कथन 1 और 2 सही बचते हैं।\n\nअतः विकल्प d सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the importance of the Hathigumpha inscription?",
+
+          "options_english": {
+            "a": "It provides information about Kharavela and post-Mauryan Kalinga",
+            "b": "It describes the foundation of the Mughal Empire",
+            "c": "It records Ashoka's conversion to Buddhism",
+            "d": "It was issued during the Delhi Sultanate period"
+          },
+
+          "question_telugu": "హాథిగుం్ఫా శాసన ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "ఇది ఖారవేలుడు మరియు మౌర్యానంతర కళింగం గురించి సమాచారం అందిస్తుంది",
+            "b": "ఇది మొఘల్ సామ్రాజ్య స్థాపనను వివరిస్తుంది",
+            "c": "ఇది అశోకుడి బౌద్ధమత స్వీకరణను నమోదు చేస్తుంది",
+            "d": "ఇది ఢిల్లీ సుల్తానుల కాలంలో జారీ చేయబడింది"
+          },
+
+          "question_hindi": "हाथीगुम्फा अभिलेख के महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "यह खारवेल और मौर्योत्तर कलिंग के बारे में जानकारी देता है",
+            "b": "यह मुगल साम्राज्य की स्थापना का वर्णन करता है",
+            "c": "यह अशोक के बौद्ध धर्म ग्रहण करने का उल्लेख करता है",
+            "d": "यह दिल्ली सल्तनत काल में जारी किया गया था"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "The Hathigumpha inscription is historically important because it provides valuable information about Kharavela and the political history of post-Mauryan Kalinga.\n\nIt records military expeditions, public welfare works, irrigation projects and administrative activities.\n\nThe inscription reflects the rise of regional powers after the decline of Mauryan authority.\n\nIt is one of the most important inscriptional sources for eastern India in ancient history.",
+
+          "explanation_telugu": "హాథిగుం్ఫా శాసనం ఖారవేలుడు మరియు మౌర్యానంతర కళింగ రాజకీయ చరిత్ర గురించి ముఖ్యమైన సమాచారాన్ని అందించడం వల్ల చారిత్రకంగా ఎంతో ప్రాముఖ్యత కలిగి ఉంది.\n\nఇందులో సైనిక యాత్రలు, ప్రజా సంక్షేమ కార్యక్రమాలు, సాగునీటి పనులు మరియు పరిపాలనా చర్యలు నమోదు చేయబడ్డాయి.\n\nఈ శాసనం మౌర్య అధికార పతనం తరువాత ప్రాంతీయ శక్తుల ఎదుగుదలను ప్రతిబింబిస్తుంది.\n\nఇది ప్రాచీన తూర్పు భారత చరిత్రకు అత్యంత ముఖ్యమైన శాసన ఆధారాలలో ఒకటి.",
+
+          "explanation_hindi": "हाथीगुम्फा अभिलेख ऐतिहासिक रूप से इसलिए महत्वपूर्ण है क्योंकि यह खारवेल और मौर्योत्तर कलिंग के राजनीतिक इतिहास के बारे में महत्वपूर्ण जानकारी प्रदान करता है।\n\nइसमें सैन्य अभियानों, लोककल्याण कार्यों, सिंचाई परियोजनाओं और प्रशासनिक गतिविधियों का उल्लेख है।\n\nयह अभिलेख मौर्य सत्ता के पतन के बाद क्षेत्रीय शक्तियों के उदय को दर्शाता है।\n\nयह प्राचीन पूर्वी भारत के सबसे महत्वपूर्ण अभिलेखीय स्रोतों में से एक है।",
+
+          "elimination_logic_english": "Options b, c and d are historically unrelated to the Hathigumpha inscription.\n\nThe inscription is specifically associated with Kharavela and post-Mauryan Kalinga.\n\nIts importance lies in providing historical information about regional politics and administration.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు b, c మరియు d హాథిగుం్ఫా శాసనంతో చారిత్రకంగా సంబంధం లేనివి.\n\nఈ శాసనం ప్రత్యేకంగా ఖారవేలుడు మరియు మౌర్యానంతర కళింగంతో సంబంధం కలిగి ఉంది.\n\nదాని ప్రాముఖ్యత ప్రాంతీయ రాజకీయాలు మరియు పరిపాలనపై చారిత్రక సమాచారాన్ని అందించడంలో ఉంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प b, c और d हाथीगुम्फा अभिलेख से ऐतिहासिक रूप से संबंधित नहीं हैं।\n\nयह अभिलेख विशेष रूप से खारवेल और मौर्योत्तर कलिंग से संबंधित है।\n\nइसका महत्व क्षेत्रीय राजनीति और प्रशासन के बारे में ऐतिहासिक जानकारी प्रदान करने में है।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Hathigumpha inscription is an important source for post-Mauryan history.\n\nReason (R): It records the activities and achievements of Kharavela of Kalinga.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): హాథిగుం్ఫా శాసనం మౌర్యానంతర చరిత్రకు ముఖ్య ఆధారం.\n\nకారణం (R): ఇది కళింగ ఖారవేలుడి కార్యకలాపాలు మరియు విజయాలను నమోదు చేస్తుంది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): हाथीगुम्फा अभिलेख मौर्योत्तर इतिहास का महत्वपूर्ण स्रोत है।\n\nकारण (R): इसमें कलिंग के खारवेल की गतिविधियों और उपलब्धियों का उल्लेख मिलता है।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Hathigumpha inscription is one of the most important sources for understanding post-Mauryan eastern India.\n\nIts historical importance comes from the detailed description of Kharavela's military campaigns, welfare activities and political achievements.\n\nThe inscription demonstrates the emergence of strong regional powers after the decline of Mauryan authority.\n\nThus, the activities of Kharavela directly explain why the inscription is historically significant.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. హాథిగుం్ఫా శాసనం మౌర్యానంతర తూర్పు భారత చరిత్రను అర్థం చేసుకోవడానికి అత్యంత ముఖ్య ఆధారాలలో ఒకటి.\n\nఖారవేలుడి సైనిక యాత్రలు, సంక్షేమ కార్యక్రమాలు మరియు రాజకీయ విజయాల వివరణ వల్ల ఈ శాసనం చారిత్రక ప్రాముఖ్యతను పొందింది.\n\nఇది మౌర్య అధికార పతనం తరువాత శక్తివంతమైన ప్రాంతీయ శక్తుల ఎదుగుదలను సూచిస్తుంది.\n\nఅందువల్ల ఖారవేలుడి కార్యకలాపాలే ఈ శాసన ప్రాముఖ్యతకు నేరుగా కారణం.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। हाथीगुम्फा अभिलेख मौर्योत्तर पूर्वी भारत को समझने के सबसे महत्वपूर्ण स्रोतों में से एक है।\n\nइसका ऐतिहासिक महत्व खारवेल की सैन्य विजयों, लोककल्याण कार्यों और राजनीतिक उपलब्धियों के विस्तृत वर्णन के कारण है।\n\nयह अभिलेख मौर्य सत्ता के पतन के बाद शक्तिशाली क्षेत्रीय राज्यों के उदय को दर्शाता है।\n\nअतः खारवेल की गतिविधियाँ ही इस अभिलेख की ऐतिहासिक महत्ता को प्रत्यक्ष रूप से स्पष्ट करती हैं।",
+
+          "elimination_logic_english": "The Reason directly explains why the Hathigumpha inscription is historically important.\n\nThe inscription derives significance from the detailed account of Kharavela's activities.\n\nUPSC often links inscriptions with political and administrative history.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం హాథిగుం్ఫా శాసనం చారిత్రకంగా ఎందుకు ముఖ్యమో నేరుగా వివరిస్తుంది.\n\nఖారవేలుడి కార్యకలాపాల వివరాల వల్ల ఈ శాసనం ప్రాముఖ్యతను పొందింది.\n\nశాసనాలను రాజకీయ మరియు పరిపాలనా చరిత్రతో UPSC తరచుగా అనుసంధానిస్తుంది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि हाथीगुम्फा अभिलेख ऐतिहासिक रूप से क्यों महत्वपूर्ण है।\n\nयह अभिलेख खारवेल की गतिविधियों के विस्तृत विवरण के कारण महत्वपूर्ण माना जाता है।\n\nUPSC अक्सर अभिलेखों को राजनीतिक और प्रशासनिक इतिहास से जोड़कर प्रश्न पूछता है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which of the following features are associated with the reign of Kharavela?\n\n1. Military campaigns\n2. Public welfare activities\n3. Irrigation works\n4. Expansion of Kalinga's regional influence\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "1, 2 and 3 only",
+            "c": "2, 3 and 4 only",
+            "d": "1, 2, 3 and 4"
+          },
+
+          "question_telugu": "ఖారవేలుడి పాలనకు సంబంధించిన లక్షణాలు క్రింది వాటిలో ఏవి?\n\n1. సైనిక యాత్రలు\n2. ప్రజా సంక్షేమ కార్యక్రమాలు\n3. సాగునీటి పనులు\n4. కళింగ ప్రాంతీయ ప్రభావ విస్తరణ\n\nక్రింది కోడ్‌ను ఉపయోగించి సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "1, 2 మరియు 3 మాత్రమే",
+            "c": "2, 3 మరియు 4 మాత్రమే",
+            "d": "1, 2, 3 మరియు 4"
+          },
+
+          "question_hindi": "खारवेल के शासन से निम्नलिखित में से कौन-सी विशेषताएँ संबंधित हैं?\n\n1. सैन्य अभियान\n2. लोककल्याण गतिविधियाँ\n3. सिंचाई कार्य\n4. कलिंग के क्षेत्रीय प्रभाव का विस्तार\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 1, 2 और 3",
+            "c": "केवल 2, 3 और 4",
+            "d": "1, 2, 3 और 4"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All the given features are associated with the reign of Kharavela.\n\nThe Hathigumpha inscription records military campaigns and expansion of Kalinga's influence.\n\nIt also mentions irrigation works, public welfare measures and administrative activities undertaken during his reign.\n\nKharavela emerged as one of the most important regional rulers in post-Mauryan eastern India.\n\nHis reign reflects political revival, administrative capability and regional assertion.",
+
+          "explanation_telugu": "ఇచ్చిన అన్ని లక్షణాలు ఖారవేలుడి పాలనకు సంబంధించినవే.\n\nహాథిగుం్ఫా శాసనం సైనిక యాత్రలు మరియు కళింగ ప్రభావ విస్తరణను ప్రస్తావిస్తుంది.\n\nఇందులో సాగునీటి పనులు, ప్రజా సంక్షేమ కార్యక్రమాలు మరియు పరిపాలనా చర్యల గురించి కూడా సమాచారం ఉంది.\n\nఖారవేలుడు మౌర్యానంతర తూర్పు భారతదేశంలోని ముఖ్య ప్రాంతీయ పాలకుల్లో ఒకడిగా ఎదిగాడు.\n\nఅతని పాలన రాజకీయ పునరుజ్జీవనం మరియు పరిపాలనా సామర్థ్యాన్ని ప్రతిబింబిస్తుంది.",
+
+          "explanation_hindi": "दिए गए सभी बिंदु खारवेल के शासन से संबंधित हैं।\n\nहाथीगुम्फा अभिलेख में सैन्य अभियानों और कलिंग के प्रभाव विस्तार का उल्लेख मिलता है।\n\nइसमें सिंचाई कार्यों, लोककल्याण गतिविधियों और प्रशासनिक कार्यों का भी वर्णन है।\n\nखारवेल मौर्योत्तर पूर्वी भारत के सबसे महत्वपूर्ण क्षेत्रीय शासकों में से एक बनकर उभरा।\n\nउसका शासन राजनीतिक पुनरुत्थान और प्रशासनिक क्षमता को दर्शाता है।",
+
+          "elimination_logic_english": "The Hathigumpha inscription contains references to all four features.\n\nUPSC often frames such questions by excluding one seemingly doubtful administrative or welfare feature.\n\nHowever, Kharavela's reign combined military, welfare and regional expansion activities.\n\nSince all statements are correct, option d is the correct answer.",
+
+          "elimination_logic_telugu": "హాథిగుం్ఫా శాసనం ఈ నాలుగు లక్షణాలన్నింటినీ ప్రస్తావిస్తుంది.\n\nUPSC ఇలాంటి ప్రశ్నల్లో పరిపాలన లేదా సంక్షేమ అంశాన్ని సందేహాస్పదంగా చూపిస్తుంది.\n\nఅయితే ఖారవేలుడి పాలనలో సైనిక, సంక్షేమ మరియు ప్రాంతీయ విస్తరణ కార్యక్రమాలు అన్నీ ఉన్నాయి.\n\nఅందువల్ల అన్ని ప్రకటనలు సరైనవి కాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "हाथीगुम्फा अभिलेख में इन चारों विशेषताओं का उल्लेख मिलता है।\n\nUPSC अक्सर ऐसे प्रश्नों में किसी प्रशासनिक या लोककल्याण संबंधी बिंदु को संदेहास्पद बनाकर प्रस्तुत करता है।\n\nकिन्तु खारवेल के शासन में सैन्य, लोककल्याण और क्षेत्रीय विस्तार सभी शामिल थे।\n\nअतः सभी कथन सही हैं, इसलिए विकल्प d सही उत्तर है।"
+        }
+      ]
+    },
+    },
+
+    "Satavahanas": {
+      "topic_english": "Satavahanas",
+      "topic_telugu": "శాతవాహనులు",
+      "topic_hindi": "सातवाहन",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Satavahanas:\n\n1. The Satavahanas emerged as an important power in the Deccan region.\n2. Gautamiputra Satakarni was one of the prominent Satavahana rulers.\n3. The Satavahanas completely rejected maritime trade activities.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 3 only",
+            "b": "2 and 3 only",
+            "c": "1 and 2 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "శాతవాహనులకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. శాతవాహనులు దక్కన్ ప్రాంతంలో ముఖ్య శక్తిగా ఎదిగారు.\n2. గౌతమీపుత్ర శాతకర్ణి ప్రముఖ శాతవాహన పాలకుల్లో ఒకడు.\n3. శాతవాహనులు సముద్ర వాణిజ్య కార్యకలాపాలను పూర్తిగా తిరస్కరించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 3 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 2 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सातवाहनों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सातवाहन दक्कन क्षेत्र में एक महत्वपूर्ण शक्ति के रूप में उभरे।\n2. गौतमीपुत्र सातकर्णि प्रमुख सातवाहन शासकों में से एक था।\n3. सातवाहनों ने समुद्री व्यापार गतिविधियों को पूर्णतः अस्वीकार कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 3",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 2",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Satavahanas emerged as one of the most important dynasties in the Deccan after the decline of Mauryan authority.\n\nGautamiputra Satakarni is regarded as one of the greatest Satavahana rulers because of his military achievements and his success against the Sakas.\n\nStatement 3 is incorrect because the Satavahanas actively participated in inland and maritime trade. Their rule coincided with flourishing trade networks connecting the Deccan with western coastal regions and foreign markets.\n\nThe Satavahana period is historically significant for trade, administration, Prakrit inscriptions and regional state formation in peninsular India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. మౌర్య అధికార పతనం తరువాత దక్కన్ ప్రాంతంలో శాతవాహనులు ముఖ్యమైన వంశంగా ఎదిగారు.\n\nగౌతమీపుత్ర శాతకర్ణి శకులపై విజయాలు మరియు సైనిక ప్రతిభ వల్ల గొప్ప శాతవాహన పాలకుడిగా గుర్తించబడుతున్నాడు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే శాతవాహనులు అంతర్గత మరియు సముద్ర వాణిజ్యంలో చురుకుగా పాల్గొన్నారు. వారి కాలంలో దక్కన్ ప్రాంతం పశ్చిమ తీర ప్రాంతాలు మరియు విదేశీ మార్కెట్లతో అనుసంధానమైన వాణిజ్య వ్యవస్థ అభివృద్ధి చెందింది.\n\nశాతవాహన కాలం వాణిజ్యం, పరిపాలన, ప్రాకృత శాసనాలు మరియు దక్షిణ భారత ప్రాంతీయ రాజ్య నిర్మాణం కోసం చారిత్రకంగా ఎంతో ముఖ్యమైనది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। मौर्य सत्ता के पतन के बाद सातवाहन दक्कन क्षेत्र की सबसे महत्वपूर्ण शक्तियों में से एक बनकर उभरे।\n\nगौतमीपुत्र सातकर्णि को उसकी सैन्य उपलब्धियों और शकों पर विजय के कारण महान सातवाहन शासकों में गिना जाता है।\n\nकथन 3 गलत है क्योंकि सातवाहन आंतरिक तथा समुद्री व्यापार में सक्रिय रूप से भाग लेते थे। उनके काल में दक्कन का पश्चिमी तटीय क्षेत्रों और विदेशी बाज़ारों से व्यापारिक संपर्क विकसित हुआ।\n\nसातवाहन काल व्यापार, प्रशासन, प्राकृत अभिलेखों और दक्षिण भारत में क्षेत्रीय राज्य निर्माण के लिए ऐतिहासिक रूप से अत्यंत महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual trap.\n\nThe Satavahanas are actually associated with flourishing trade networks and commercial expansion.\n\nStatements 1 and 2 correctly identify their Deccan base and the importance of Gautamiputra Satakarni.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భావనాత్మక ఉచ్చు.\n\nశాతవాహనులు వాణిజ్య అభివృద్ధి మరియు వ్యాపార సంబంధాల కోసం ప్రసిద్ధి చెందారు.\n\nప్రకటనలు 1 మరియు 2 వారి దక్కన్ ఆధారం మరియు గౌతమీపుత్ర శాతకర్ణి ప్రాముఖ్యతను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक भ्रम है।\n\nसातवाहन वास्तव में व्यापारिक विस्तार और वाणिज्यिक संपर्कों के लिए प्रसिद्ध हैं।\n\nकथन 1 और 2 उनके दक्कन आधार तथा गौतमीपुत्र सातकर्णि के महत्व का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following Satavahana rulers is especially known for defeating the Sakas?",
+
+          "options_english": {
+            "a": "Simuka",
+            "b": "Gautamiputra Satakarni",
+            "c": "Kanishka",
+            "d": "Kharavela"
+          },
+
+          "question_telugu": "శకులను ఓడించినందుకు ప్రత్యేకంగా ప్రసిద్ధి చెందిన శాతవాహన పాలకుడు క్రింది వారిలో ఎవరు?",
+
+          "options_telugu": {
+            "a": "సిముకుడు",
+            "b": "గౌతమీపుత్ర శాతకర్ణి",
+            "c": "కనిష్కుడు",
+            "d": "ఖారవేలుడు"
+          },
+
+          "question_hindi": "शकों को पराजित करने के लिए विशेष रूप से प्रसिद्ध सातवाहन शासक निम्नलिखित में से कौन था?",
+
+          "options_hindi": {
+            "a": "सिमुक",
+            "b": "गौतमीपुत्र सातकर्णि",
+            "c": "कनिष्क",
+            "d": "खारवेल"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Gautamiputra Satakarni is especially known for defeating the Sakas and restoring Satavahana political strength in the Deccan.\n\nThe Nasik inscription of Gautami Balashri praises his military achievements and presents him as a powerful ruler.\n\nHis reign is considered a major phase in Satavahana political consolidation.\n\nHe also played an important role in controlling trade routes and maintaining regional authority in peninsular India.\n\nUPSC frequently asks ruler-dynasty and ruler-achievement associations from ancient history.",
+
+          "explanation_telugu": "శకులను ఓడించి దక్కన్ ప్రాంతంలో శాతవాహన రాజకీయ శక్తిని పునరుద్ధరించినందుకు గౌతమీపుత్ర శాతకర్ణి ప్రత్యేకంగా ప్రసిద్ధి చెందాడు.\n\nగౌతమీ బాలశ్రీ నాసిక్ శాసనం అతని సైనిక విజయాలను ప్రశంసిస్తూ అతన్ని శక్తివంతమైన పాలకుడిగా చిత్రిస్తుంది.\n\nఅతని పాలన శాతవాహన రాజకీయ ఏకీకరణలో ముఖ్య దశగా పరిగణించబడుతుంది.\n\nఅతను వాణిజ్య మార్గాల నియంత్రణ మరియు ప్రాంతీయ అధికార పరిరక్షణలో కూడా ముఖ్య పాత్ర పోషించాడు.\n\nప్రాచీన చరిత్రలో పాలకులు మరియు వారి విజయాల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "गौतमीपुत्र सातकर्णि शकों को पराजित करने और दक्कन में सातवाहन शक्ति को पुनर्स्थापित करने के लिए विशेष रूप से प्रसिद्ध है।\n\nगौतमी बालश्री का नासिक अभिलेख उसकी सैन्य उपलब्धियों की प्रशंसा करता है और उसे एक शक्तिशाली शासक के रूप में प्रस्तुत करता है।\n\nउसका शासन सातवाहन राजनीतिक एकीकरण का महत्वपूर्ण चरण माना जाता है।\n\nउसने व्यापार मार्गों पर नियंत्रण और दक्षिण भारत में क्षेत्रीय सत्ता बनाए रखने में भी महत्वपूर्ण भूमिका निभाई।\n\nUPSC प्राचीन इतिहास में शासक और उनकी उपलब्धियों से संबंधित प्रश्न अक्सर पूछता है।",
+
+          "elimination_logic_english": "Kanishka belonged to the Kushanas and Kharavela belonged to Kalinga.\n\nSimuka is regarded as an early Satavahana ruler, but he is not especially associated with defeating the Sakas.\n\nOnly Gautamiputra Satakarni is strongly associated with victories against the Sakas.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "కనిష్కుడు కుషాణులకు మరియు ఖారవేలుడు కళింగానికి చెందినవారు.\n\nసిముకుడు ప్రారంభ శాతవాహన పాలకుడిగా గుర్తించబడుతున్నప్పటికీ, శకులపై విజయాలతో అతనికి ప్రత్యేక సంబంధం లేదు.\n\nశకులను ఓడించిన పాలకుడిగా గౌతమీపుత్ర శాతకర్ణి మాత్రమే బలంగా గుర్తించబడుతున్నాడు.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कनिष्क कुषाण वंश से और खारवेल कलिंग से संबंधित था।\n\nसिमुक प्रारम्भिक सातवाहन शासक माना जाता है, किन्तु वह शकों की पराजय के लिए विशेष रूप से प्रसिद्ध नहीं है।\n\nकेवल गौतमीपुत्र सातकर्णि ही शकों पर विजय से गहराई से जुड़ा हुआ है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Satavahanas played an important role in Deccan trade and economy.\n\nReason (R): Their territories were connected with inland and maritime trade routes.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): శాతవాహనులు దక్కన్ వాణిజ్యం మరియు ఆర్థిక వ్యవస్థలో ముఖ్య పాత్ర పోషించారు.\n\nకారణం (R): వారి ప్రాంతాలు అంతర్గత మరియు సముద్ర వాణిజ్య మార్గాలతో అనుసంధానించబడి ఉండేవి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): सातवाहनों ने दक्कन की व्यापारिक और आर्थिक व्यवस्था में महत्वपूर्ण भूमिका निभाई।\n\nकारण (R): उनके क्षेत्र आंतरिक और समुद्री व्यापार मार्गों से जुड़े हुए थे।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Satavahanas controlled important territories in the Deccan connected with inland trade routes and western coastal ports.\n\nThese commercial links encouraged economic prosperity, urban growth and circulation of coinage.\n\nTrade with the Roman world and western coastal regions became particularly significant during the Satavahana period.\n\nThe dynasty also supported craft production and regional commercial centres.\n\nThus, control over trade networks directly contributed to the economic importance of the Satavahanas.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. శాతవాహనులు అంతర్గత వాణిజ్య మార్గాలు మరియు పశ్చిమ తీర నౌకాశ్రయాలతో అనుసంధానమైన దక్కన్ ప్రాంతాలను నియంత్రించారు.\n\nఈ వాణిజ్య సంబంధాలు ఆర్థికాభివృద్ధి, పట్టణాల పెరుగుదల మరియు నాణేల చలామణికి దోహదపడ్డాయి.\n\nరోమన ప్రపంచం మరియు పశ్చిమ తీర ప్రాంతాలతో వాణిజ్యం శాతవాహనుల కాలంలో ప్రత్యేక ప్రాముఖ్యతను పొందింది.\n\nఈ వంశం కళాకారులు మరియు ప్రాంతీయ వాణిజ్య కేంద్రాలకు కూడా మద్దతు ఇచ్చింది.\n\nఅందువల్ల వాణిజ్య మార్గాలపై నియంత్రణ శాతవాహనుల ఆర్థిక ప్రాముఖ్యతకు నేరుగా కారణమైంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। सातवाहनों ने दक्कन के उन महत्वपूर्ण क्षेत्रों पर नियंत्रण स्थापित किया जो आंतरिक व्यापार मार्गों और पश्चिमी तटीय बंदरगाहों से जुड़े थे।\n\nइन व्यापारिक संपर्कों ने आर्थिक समृद्धि, नगरीय विकास और मुद्रा प्रचलन को बढ़ावा दिया।\n\nसातवाहन काल में रोमन विश्व और पश्चिमी तटीय क्षेत्रों के साथ व्यापार विशेष रूप से महत्वपूर्ण बन गया।\n\nइस वंश ने शिल्प उत्पादन और क्षेत्रीय व्यापारिक केंद्रों को भी समर्थन दिया।\n\nअतः व्यापार मार्गों पर नियंत्रण ने सातवाहनों की आर्थिक महत्ता को प्रत्यक्ष रूप से बढ़ाया।",
+
+          "elimination_logic_english": "The Reason directly explains why the Satavahanas became economically important.\n\nUPSC frequently links trade routes with political and economic prosperity.\n\nControl over inland and maritime trade networks strengthened Satavahana authority and commercial growth.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం శాతవాహనులు ఆర్థికంగా ఎందుకు ముఖ్యమైనవారయ్యారో నేరుగా వివరిస్తుంది.\n\nవాణిజ్య మార్గాలు మరియు ఆర్థికాభివృద్ధి మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nఅంతర్గత మరియు సముద్ర వాణిజ్య మార్గాలపై నియంత్రణ శాతవాహన అధికారాన్ని మరియు వాణిజ్యాభివృద్ధిని బలోపేతం చేసింది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि सातवाहन आर्थिक दृष्टि से क्यों महत्वपूर्ण बने।\n\nUPSC अक्सर व्यापार मार्गों और आर्थिक समृद्धि के संबंध को परखता है।\n\nआंतरिक और समुद्री व्यापार नेटवर्क पर नियंत्रण ने सातवाहन सत्ता और वाणिज्यिक विकास को मजबूत किया।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding the Satavahanas:\n\n1. The Satavahanas issued coins in large numbers.\n2. Prakrit language was widely used in their inscriptions.\n3. The Satavahanas ruled mainly from the Gangetic plains.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "శాతవాహనులకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. శాతవాహనులు పెద్ద సంఖ్యలో నాణేలను జారీ చేశారు.\n2. వారి శాసనాలలో ప్రాకృత భాష విస్తృతంగా ఉపయోగించబడింది.\n3. శాతవాహనులు ప్రధానంగా గంగానది మైదాన ప్రాంతాలను పాలించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सातवाहनों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सातवाहनों ने बड़ी संख्या में मुद्राएँ जारी कीं।\n2. उनके अभिलेखों में प्राकृत भाषा का व्यापक उपयोग हुआ।\n3. सातवाहन मुख्यतः गंगा के मैदानों पर शासन करते थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Satavahanas issued a large number of coins, reflecting commercial expansion and active trade networks in the Deccan.\n\nTheir inscriptions were predominantly written in Prakrit, which became an important administrative and cultural language during their rule.\n\nStatement 3 is incorrect because the Satavahanas were primarily associated with the Deccan region rather than the Gangetic plains.\n\nThe Satavahana period is historically significant for regional political integration, trade and inscriptional culture in peninsular India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. శాతవాహనులు పెద్ద సంఖ్యలో నాణేలను జారీ చేయడం ద్వారా దక్కన్ ప్రాంతంలో వాణిజ్యాభివృద్ధి మరియు వ్యాపార సంబంధాల చురుకుదనాన్ని ప్రతిబింబించారు.\n\nవారి శాసనాలు ప్రధానంగా ప్రాకృత భాషలో రాయబడ్డాయి. వారి కాలంలో ప్రాకృతం ముఖ్య పరిపాలనా మరియు సాంస్కృతిక భాషగా అభివృద్ధి చెందింది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే శాతవాహనులు ప్రధానంగా దక్కన్ ప్రాంతానికి చెందినవారు, గంగానది మైదానాలకు కాదు.\n\nశాతవాహన కాలం ప్రాంతీయ రాజకీయ ఏకీకరణ, వాణిజ్యం మరియు శాసన సంస్కృతికి చారిత్రకంగా ఎంతో ముఖ్యమైనది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। सातवाहनों ने बड़ी संख्या में मुद्राएँ जारी कीं, जो दक्कन में व्यापारिक विस्तार और सक्रिय वाणिज्यिक नेटवर्क को दर्शाती हैं।\n\nउनके अभिलेख मुख्यतः प्राकृत भाषा में लिखे गए थे। उनके शासनकाल में प्राकृत एक महत्वपूर्ण प्रशासनिक और सांस्कृतिक भाषा बन गई।\n\nकथन 3 गलत है क्योंकि सातवाहन मुख्यतः दक्कन क्षेत्र से संबंधित थे, न कि गंगा के मैदानों से।\n\nसातवाहन काल क्षेत्रीय राजनीतिक एकीकरण, व्यापार और अभिलेखीय संस्कृति के लिए ऐतिहासिक रूप से अत्यंत महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the geographical trap.\n\nThe Satavahanas are strongly associated with the Deccan region and peninsular India.\n\nStatements 1 and 2 correctly describe Satavahana coinage and the use of Prakrit inscriptions.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన భౌగోళిక ఉచ్చు.\n\nశాతవాహనులు దక్కన్ మరియు దక్షిణ భారత ప్రాంతాలతో బలమైన సంబంధం కలిగి ఉన్నారు.\n\nప్రకటనలు 1 మరియు 2 శాతవాహన నాణేలు మరియు ప్రాకృత శాసనాల వినియోగాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य भौगोलिक भ्रम है।\n\nसातवाहन दक्कन और दक्षिण भारत से गहराई से जुड़े हुए थे।\n\nकथन 1 और 2 सातवाहन मुद्राओं तथा प्राकृत अभिलेखों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following inscriptions is closely associated with Gautamiputra Satakarni?",
+
+          "options_english": {
+            "a": "Junagadh Inscription",
+            "b": "Nasik Inscription of Gautami Balashri",
+            "c": "Hathigumpha Inscription",
+            "d": "Aihole Inscription"
+          },
+
+          "question_telugu": "గౌతమీపుత్ర శాతకర్ణితో సన్నిహిత సంబంధం ఉన్న శాసనం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "జునాగఢ్ శాసనం",
+            "b": "గౌతమీ బాలశ్రీ నాసిక్ శాసనం",
+            "c": "హాథిగుం్ఫా శాసనం",
+            "d": "ఐహోళే శాసనం"
+          },
+
+          "question_hindi": "गौतमीपुत्र सातकर्णि से निकटता से संबंधित अभिलेख निम्नलिखित में से कौन-सा है?",
+
+          "options_hindi": {
+            "a": "जूनागढ़ अभिलेख",
+            "b": "गौतमी बालश्री का नासिक अभिलेख",
+            "c": "हाथीगुम्फा अभिलेख",
+            "d": "ऐहोल अभिलेख"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Nasik inscription of Gautami Balashri is closely associated with Gautamiputra Satakarni.\n\nThe inscription praises his military achievements, especially his victories over the Sakas, and presents him as a powerful Satavahana ruler.\n\nIt is an important source for understanding Satavahana political history and Deccan regional power during the post-Mauryan period.\n\nThe inscription also reflects the role of royal women in preserving dynastic memory and legitimacy.",
+
+          "explanation_telugu": "గౌతమీ బాలశ్రీ నాసిక్ శాసనం గౌతమీపుత్ర శాతకర్ణితో సన్నిహిత సంబంధం కలిగి ఉంది.\n\nఈ శాసనం అతని సైనిక విజయాలను, ముఖ్యంగా శకులపై విజయాలను ప్రశంసిస్తూ అతన్ని శక్తివంతమైన శాతవాహన పాలకుడిగా చిత్రిస్తుంది.\n\nమౌర్యానంతర కాలంలోని శాతవాహన రాజకీయ చరిత్ర మరియు దక్కన్ ప్రాంతీయ శక్తిని అర్థం చేసుకోవడంలో ఇది ముఖ్య ఆధారం.\n\nఈ శాసనం రాజ కుటుంబ మహిళల పాత్రను కూడా ప్రతిబింబిస్తుంది.",
+
+          "explanation_hindi": "गौतमी बालश्री का नासिक अभिलेख गौतमीपुत्र सातकर्णि से निकटता से संबंधित है।\n\nयह अभिलेख उसकी सैन्य उपलब्धियों, विशेषकर शकों पर विजय, की प्रशंसा करता है और उसे एक शक्तिशाली सातवाहन शासक के रूप में प्रस्तुत करता है।\n\nयह मौर्योत्तर काल में सातवाहन राजनीतिक इतिहास और दक्कन की क्षेत्रीय शक्ति को समझने का महत्वपूर्ण स्रोत है।\n\nयह अभिलेख राजपरिवार की महिलाओं की भूमिका को भी दर्शाता है।",
+
+          "elimination_logic_english": "The Junagadh inscription is associated with Rudradaman I, Hathigumpha with Kharavela and Aihole with Pulakeshin II.\n\nOnly the Nasik inscription of Gautami Balashri is directly associated with Gautamiputra Satakarni.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "జునాగఢ్ శాసనం రుద్రదామన్ I కి, హాథిగుం్ఫా శాసనం ఖారవేలుడికి మరియు ఐహోళే శాసనం పులకేశి II కి సంబంధించినవి.\n\nగౌతమీపుత్ర శాతకర్ణితో నేరుగా సంబంధం ఉన్నది గౌతమీ బాలశ్రీ నాసిక్ శాసనం మాత్రమే.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "जूनागढ़ अभिलेख रुद्रदामन प्रथम से, हाथीगुम्फा अभिलेख खारवेल से और ऐहोल अभिलेख पुलकेशिन द्वितीय से संबंधित है।\n\nकेवल गौतमी बालश्री का नासिक अभिलेख गौतमीपुत्र सातकर्णि से सीधे जुड़ा हुआ है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Satavahanas became an important regional power in peninsular India.\n\nReason (R): They controlled important trade routes and commercial centres in the Deccan.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): శాతవాహనులు దక్షిణ భారతదేశంలో ముఖ్య ప్రాంతీయ శక్తిగా ఎదిగారు.\n\nకారణం (R): వారు దక్కన్ ప్రాంతంలోని ముఖ్య వాణిజ్య మార్గాలు మరియు వ్యాపార కేంద్రాలను నియంత్రించారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): सातवाहन दक्षिण भारत में एक महत्वपूर्ण क्षेत्रीय शक्ति बन गए।\n\nकारण (R): उन्होंने दक्कन के महत्वपूर्ण व्यापार मार्गों और वाणिज्यिक केंद्रों पर नियंत्रण स्थापित किया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Satavahanas emerged as a major regional dynasty in peninsular India during the post-Mauryan period.\n\nTheir control over inland trade routes, western coastal connections and commercial centres strengthened their economic and political power.\n\nTrade revenues contributed to urban development, coin circulation and administrative consolidation.\n\nThe Satavahana state benefited greatly from the flourishing Deccan economy and long-distance trade.\n\nThus, control over commercial networks directly explains their rise as a regional power.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. మౌర్యానంతర కాలంలో శాతవాహనులు దక్షిణ భారతదేశంలోని ప్రధాన ప్రాంతీయ వంశంగా ఎదిగారు.\n\nఅంతర్గత వాణిజ్య మార్గాలు, పశ్చిమ తీర సంబంధాలు మరియు వ్యాపార కేంద్రాలపై వారి నియంత్రణ ఆర్థిక మరియు రాజకీయ శక్తిని బలోపేతం చేసింది.\n\nవాణిజ్య ఆదాయాలు పట్టణాభివృద్ధి, నాణేల చలామణి మరియు పరిపాలనా ఏకీకరణకు దోహదపడ్డాయి.\n\nదక్కన్ ఆర్థికాభివృద్ధి మరియు దీర్ఘదూర వాణిజ్యం శాతవాహన రాజ్యానికి ఎంతో ప్రయోజనం కలిగించాయి.\n\nఅందువల్ల వాణిజ్య మార్గాలపై నియంత్రణ వారి ప్రాంతీయ శక్తి ఎదుగుదలకు నేరుగా కారణమైంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। मौर्योत्तर काल में सातवाहन दक्षिण भारत के प्रमुख क्षेत्रीय वंश के रूप में उभरे।\n\nआंतरिक व्यापार मार्गों, पश्चिमी तटीय संपर्कों और वाणिज्यिक केंद्रों पर नियंत्रण ने उनकी आर्थिक और राजनीतिक शक्ति को मजबूत किया।\n\nव्यापारिक आय ने नगरीय विकास, मुद्रा प्रचलन और प्रशासनिक एकीकरण को बढ़ावा दिया।\n\nदक्कन की समृद्ध अर्थव्यवस्था और दूरगामी व्यापार से सातवाहन राज्य को अत्यधिक लाभ हुआ।\n\nअतः व्यापार नेटवर्क पर नियंत्रण उनकी क्षेत्रीय शक्ति के उदय की प्रत्यक्ष व्याख्या करता है।",
+
+          "elimination_logic_english": "The Reason directly explains the rise of the Satavahanas as a regional power.\n\nUPSC frequently links economic control and trade routes with political expansion.\n\nThe Satavahanas strengthened their authority through commercial prosperity in the Deccan.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం శాతవాహనులు ప్రాంతీయ శక్తిగా ఎలా ఎదిగారో నేరుగా వివరిస్తుంది.\n\nఆర్థిక నియంత్రణ మరియు వాణిజ్య మార్గాలను రాజకీయ విస్తరణతో UPSC తరచుగా అనుసంధానిస్తుంది.\n\nదక్కన్ ప్రాంతంలోని వాణిజ్యాభివృద్ధి ద్వారా శాతవాహనులు తమ అధికారాన్ని బలోపేతం చేసుకున్నారు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि सातवाहन क्षेत्रीय शक्ति के रूप में कैसे उभरे।\n\nUPSC अक्सर आर्थिक नियंत्रण और व्यापार मार्गों को राजनीतिक विस्तार से जोड़कर प्रश्न पूछता है।\n\nसातवाहनों ने दक्कन की व्यापारिक समृद्धि के माध्यम से अपनी सत्ता को मजबूत किया।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प c सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Satavahana administration and society:\n\n1. The Satavahanas supported trade and urban centres in the Deccan.\n2. Their inscriptions frequently used Prakrit language.\n3. The Satavahanas completely prohibited foreign trade contacts.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1 and 2 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "శాతవాహన పరిపాలన మరియు సమాజానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. శాతవాహనులు దక్కన్ ప్రాంతంలో వాణిజ్యం మరియు పట్టణ కేంద్రాలను ప్రోత్సహించారు.\n2. వారి శాసనాలలో ప్రాకృత భాష తరచుగా ఉపయోగించబడింది.\n3. శాతవాహనులు విదేశీ వాణిజ్య సంబంధాలను పూర్తిగా నిషేధించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మరియు 2 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "सातवाहन प्रशासन और समाज के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सातवाहनों ने दक्कन में व्यापार और नगरीय केंद्रों को प्रोत्साहन दिया।\n2. उनके अभिलेखों में प्राकृत भाषा का व्यापक उपयोग हुआ।\n3. सातवाहनों ने विदेशी व्यापारिक संपर्कों को पूर्णतः प्रतिबंधित कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1 और 2",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Statements 1 and 2 are correct. The Satavahanas promoted trade, commercial centres and urban growth across the Deccan region.\n\nTheir inscriptions were largely composed in Prakrit, reflecting the administrative and cultural importance of the language during their period.\n\nStatement 3 is incorrect because the Satavahanas actively participated in foreign trade, especially with the Roman world through western coastal ports.\n\nThe Satavahana period witnessed significant economic and cultural interaction in peninsular India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. శాతవాహనులు దక్కన్ ప్రాంతంలో వాణిజ్యం, వ్యాపార కేంద్రాలు మరియు పట్టణాభివృద్ధిని ప్రోత్సహించారు.\n\nవారి శాసనాలు ప్రధానంగా ప్రాకృత భాషలో ఉండి ఆ కాలంలో ఆ భాష పరిపాలనా మరియు సాంస్కృతిక ప్రాముఖ్యతను సూచిస్తున్నాయి.\n\nప్రకటన 3 తప్పు, ఎందుకంటే శాతవాహనులు పశ్చిమ తీర నౌకాశ్రయాల ద్వారా రోమన ప్రపంచంతో సహా విదేశీ వాణిజ్యంలో చురుకుగా పాల్గొన్నారు.\n\nశాతవాహన కాలం దక్షిణ భారతదేశంలో ఆర్థిక మరియు సాంస్కృతిక పరస్పర సంబంధాల అభివృద్ధికి ప్రసిద్ధి చెందింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। सातवाहनों ने दक्कन क्षेत्र में व्यापार, वाणिज्यिक केंद्रों और नगरीय विकास को प्रोत्साहन दिया।\n\nउनके अभिलेख मुख्यतः प्राकृत भाषा में थे, जो उस समय प्रशासनिक और सांस्कृतिक दृष्टि से महत्वपूर्ण थी।\n\nकथन 3 गलत है क्योंकि सातवाहन पश्चिमी तटीय बंदरगाहों के माध्यम से रोमन विश्व सहित विदेशी व्यापार में सक्रिय रूप से भाग लेते थे।\n\nसातवाहन काल दक्षिण भारत में आर्थिक और सांस्कृतिक संपर्कों के विस्तार के लिए प्रसिद्ध है।",
+
+          "elimination_logic_english": "Statement 3 is the conceptual and economic trap.\n\nThe Satavahanas are known for commercial prosperity and foreign trade links rather than isolation.\n\nStatements 1 and 2 correctly describe urban growth and Prakrit inscriptions.\n\nAfter eliminating Statement 3, only Statements 1 and 2 remain correct.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన ఆర్థిక భావనాత్మక ఉచ్చు.\n\nశాతవాహనులు వాణిజ్యాభివృద్ధి మరియు విదేశీ వ్యాపార సంబంధాల కోసం ప్రసిద్ధి చెందారు.\n\nప్రకటనలు 1 మరియు 2 పట్టణాభివృద్ధి మరియు ప్రాకృత శాసనాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य आर्थिक और वैचारिक भ्रम है।\n\nसातवाहन व्यापारिक समृद्धि और विदेशी संपर्कों के लिए प्रसिद्ध हैं, न कि अलगाव के लिए।\n\nकथन 1 और 2 नगरीय विकास और प्राकृत अभिलेखों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following best explains the historical significance of the Satavahanas?",
+
+          "options_english": {
+            "a": "They isolated the Deccan from trade networks",
+            "b": "They strengthened regional political integration and trade in the Deccan",
+            "c": "They established the Delhi Sultanate",
+            "d": "They abolished coinage in peninsular India"
+          },
+
+          "question_telugu": "శాతవాహనుల చారిత్రక ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తుంది క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "వారు దక్కన్ ప్రాంతాన్ని వాణిజ్య మార్గాల నుండి వేరుచేశారు",
+            "b": "వారు దక్కన్ ప్రాంతంలో ప్రాంతీయ రాజకీయ ఏకీకరణ మరియు వాణిజ్యాన్ని బలోపేతం చేశారు",
+            "c": "వారు ఢిల్లీ సుల్తానతును స్థాపించారు",
+            "d": "వారు దక్షిణ భారతదేశంలో నాణేల వినియోగాన్ని రద్దు చేశారు"
+          },
+
+          "question_hindi": "सातवाहनों के ऐतिहासिक महत्व को निम्नलिखित में से कौन-सा सबसे अच्छी तरह स्पष्ट करता है?",
+
+          "options_hindi": {
+            "a": "उन्होंने दक्कन को व्यापारिक नेटवर्क से अलग कर दिया",
+            "b": "उन्होंने दक्कन में क्षेत्रीय राजनीतिक एकीकरण और व्यापार को मजबूत किया",
+            "c": "उन्होंने दिल्ली सल्तनत की स्थापना की",
+            "d": "उन्होंने दक्षिण भारत में मुद्रा प्रचलन समाप्त कर दिया"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "The Satavahanas are historically significant because they strengthened regional political integration and commercial expansion in the Deccan.\n\nThey controlled important trade routes linking inland regions with western coastal ports and foreign markets.\n\nTheir administration, inscriptions and coinage reflect the growth of regional state systems in peninsular India.\n\nThe Satavahana period also witnessed urban development, craft production and flourishing trade with the Roman world.\n\nThus, the Satavahanas played a major role in shaping the political and economic history of the Deccan.",
+
+          "explanation_telugu": "శాతవాహనులు దక్కన్ ప్రాంతంలో ప్రాంతీయ రాజకీయ ఏకీకరణ మరియు వాణిజ్యాభివృద్ధిని బలోపేతం చేసినందుకు చారిత్రకంగా ఎంతో ముఖ్యమైనవారు.\n\nవారు అంతర్గత ప్రాంతాలను పశ్చిమ తీర నౌకాశ్రయాలు మరియు విదేశీ మార్కెట్లతో అనుసంధానించే ముఖ్య వాణిజ్య మార్గాలను నియంత్రించారు.\n\nవారి పరిపాలన, శాసనాలు మరియు నాణేలు దక్షిణ భారతదేశంలో ప్రాంతీయ రాజ్య వ్యవస్థల అభివృద్ధిని ప్రతిబింబిస్తున్నాయి.\n\nశాతవాహన కాలంలో పట్టణాభివృద్ధి, చేతివృత్తులు మరియు రోమన ప్రపంచంతో వాణిజ్యం కూడా అభివృద్ధి చెందాయి.\n\nఅందువల్ల శాతవాహనులు దక్కన్ రాజకీయ మరియు ఆర్థిక చరిత్ర రూపకల్పనలో ముఖ్య పాత్ర పోషించారు.",
+
+          "explanation_hindi": "सातवाहन ऐतिहासिक रूप से इसलिए महत्वपूर्ण हैं क्योंकि उन्होंने दक्कन में क्षेत्रीय राजनीतिक एकीकरण और व्यापारिक विस्तार को मजबूत किया।\n\nउन्होंने आंतरिक क्षेत्रों को पश्चिमी तटीय बंदरगाहों और विदेशी बाज़ारों से जोड़ने वाले महत्वपूर्ण व्यापार मार्गों पर नियंत्रण रखा।\n\nउनका प्रशासन, अभिलेख और मुद्राएँ दक्षिण भारत में क्षेत्रीय राज्य व्यवस्था के विकास को दर्शाती हैं।\n\nसातवाहन काल में नगरीय विकास, शिल्प उत्पादन और रोमन विश्व के साथ व्यापार भी फला-फूला।\n\nइस प्रकार सातवाहनों ने दक्कन के राजनीतिक और आर्थिक इतिहास को आकार देने में महत्वपूर्ण भूमिका निभाई।",
+
+          "elimination_logic_english": "Options a, c and d are historically incorrect.\n\nThe Satavahanas promoted trade, coinage and political integration rather than isolation or decline.\n\nTheir significance lies in Deccan state formation and commercial growth.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ఎంపికలు a, c మరియు d చారిత్రకంగా తప్పు.\n\nశాతవాహనులు వాణిజ్యం, నాణేల చలామణి మరియు రాజకీయ ఏకీకరణను ప్రోత్సహించారు.\n\nవారి ప్రధాన ప్రాముఖ్యత దక్కన్ ప్రాంతీయ రాజ్య నిర్మాణం మరియు వాణిజ్యాభివృద్ధిలో ఉంది.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत हैं।\n\nसातवाहनों ने व्यापार, मुद्रा प्रचलन और राजनीतिक एकीकरण को बढ़ावा दिया, न कि अलगाव या पतन को।\n\nउनका महत्व दक्कन में राज्य निर्माण और व्यापारिक विकास में निहित है।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): The Satavahana state benefited from flourishing trade in the Deccan.\n\nReason (R): The Satavahanas controlled routes connecting inland Deccan regions with western coastal ports.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): దక్కన్ ప్రాంతంలోని అభివృద్ధి చెందిన వాణిజ్యం వల్ల శాతవాహన రాజ్యం ప్రయోజనం పొందింది.\n\nకారణం (R): శాతవాహనులు అంతర్గత దక్కన్ ప్రాంతాలను పశ్చిమ తీర నౌకాశ్రయాలతో అనుసంధానించే మార్గాలను నియంత్రించారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): दक्कन में विकसित व्यापार से सातवाहन राज्य को लाभ हुआ।\n\nकारण (R): सातवाहनों ने आंतरिक दक्कन क्षेत्रों को पश्चिमी तटीय बंदरगाहों से जोड़ने वाले मार्गों पर नियंत्रण रखा।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. The Satavahana state derived considerable economic strength from flourishing trade networks in the Deccan.\n\nTheir control over routes connecting inland regions with western coastal ports facilitated internal and overseas trade.\n\nCommercial prosperity encouraged urban growth, craft production and coin circulation.\n\nTrade with the Roman world and western coastal regions became especially important during this period.\n\nThus, strategic control over trade routes directly explains the economic prosperity of the Satavahanas.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. దక్కన్ ప్రాంతంలోని అభివృద్ధి చెందిన వాణిజ్య వ్యవస్థల ద్వారా శాతవాహన రాజ్యం గణనీయమైన ఆర్థిక శక్తిని పొందింది.\n\nఅంతర్గత ప్రాంతాలను పశ్చిమ తీర నౌకాశ్రయాలతో అనుసంధానించే మార్గాలపై వారి నియంత్రణ అంతర్గత మరియు విదేశీ వాణిజ్యాన్ని సులభతరం చేసింది.\n\nవాణిజ్యాభివృద్ధి పట్టణాల పెరుగుదల, చేతివృత్తులు మరియు నాణేల చలామణికి దోహదపడింది.\n\nరోమన ప్రపంచం మరియు పశ్చిమ తీర ప్రాంతాలతో వాణిజ్యం ఈ కాలంలో ప్రత్యేక ప్రాముఖ్యతను పొందింది.\n\nఅందువల్ల వాణిజ్య మార్గాలపై వ్యూహాత్మక నియంత్రణ శాతవాహనుల ఆర్థికాభివృద్ధికి నేరుగా కారణమైంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। दक्कन के विकसित व्यापारिक नेटवर्क से सातवाहन राज्य को पर्याप्त आर्थिक शक्ति प्राप्त हुई।\n\nआंतरिक क्षेत्रों को पश्चिमी तटीय बंदरगाहों से जोड़ने वाले मार्गों पर नियंत्रण ने आंतरिक तथा विदेशी व्यापार को बढ़ावा दिया।\n\nव्यापारिक समृद्धि ने नगरीय विकास, शिल्प उत्पादन और मुद्रा प्रचलन को प्रोत्साहित किया।\n\nइस काल में रोमन विश्व और पश्चिमी तटीय क्षेत्रों के साथ व्यापार विशेष रूप से महत्वपूर्ण था।\n\nअतः व्यापार मार्गों पर रणनीतिक नियंत्रण ने सातवाहनों की आर्थिक समृद्धि को प्रत्यक्ष रूप से बढ़ाया।",
+
+          "elimination_logic_english": "The Reason directly explains the economic prosperity of the Satavahanas.\n\nUPSC frequently links trade routes with political and economic strength.\n\nThe Satavahanas benefited from controlling commercial networks connecting the Deccan with coastal trade centres.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం శాతవాహనుల ఆర్థికాభివృద్ధిని నేరుగా వివరిస్తుంది.\n\nవాణిజ్య మార్గాలు మరియు రాజకీయ-ఆర్థిక శక్తి మధ్య సంబంధాన్ని UPSC తరచుగా పరీక్షిస్తుంది.\n\nదక్కన్ ప్రాంతాన్ని తీర వాణిజ్య కేంద్రాలతో అనుసంధానించే వ్యాపార మార్గాలపై నియంత్రణ వల్ల శాతవాహనులు ప్రయోజనం పొందారు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे सातवाहनों की आर्थिक समृद्धि को स्पष्ट करता है।\n\nUPSC अक्सर व्यापार मार्गों और राजनीतिक-आर्थिक शक्ति के संबंध को परखता है।\n\nदक्कन को तटीय व्यापारिक केंद्रों से जोड़ने वाले नेटवर्क पर नियंत्रण से सातवाहनों को लाभ हुआ।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which of the following features are associated with the Satavahana period?\n\n1. Growth of trade and urban centres\n2. Extensive use of Prakrit inscriptions\n3. Commercial links with the Roman world\n4. Political consolidation in the Deccan\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "1, 2 and 3 only",
+            "c": "2, 3 and 4 only",
+            "d": "1, 2, 3 and 4"
+          },
+
+          "question_telugu": "శాతవాహన కాలానికి సంబంధించిన లక్షణాలు క్రింది వాటిలో ఏవి?\n\n1. వాణిజ్యం మరియు పట్టణ కేంద్రాల అభివృద్ధి\n2. ప్రాకృత శాసనాల విస్తృత వినియోగం\n3. రోమన ప్రపంచంతో వాణిజ్య సంబంధాలు\n4. దక్కన్ ప్రాంతంలో రాజకీయ ఏకీకరణ\n\nక్రింది కోడ్‌ను ఉపయోగించి సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "1, 2 మరియు 3 మాత్రమే",
+            "c": "2, 3 మరియు 4 మాత్రమే",
+            "d": "1, 2, 3 మరియు 4"
+          },
+
+          "question_hindi": "सातवाहन काल से निम्नलिखित में से कौन-सी विशेषताएँ संबंधित हैं?\n\n1. व्यापार और नगरीय केंद्रों का विकास\n2. प्राकृत अभिलेखों का व्यापक उपयोग\n3. रोमन विश्व के साथ व्यापारिक संबंध\n4. दक्कन में राजनीतिक एकीकरण\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 1, 2 और 3",
+            "c": "केवल 2, 3 और 4",
+            "d": "1, 2, 3 और 4"
+          },
+
+          "correct_answer": "d",
+
+          "explanation_english": "All the given features are associated with the Satavahana period.\n\nThe Satavahanas promoted trade, urban development and commercial expansion across the Deccan.\n\nTheir inscriptions were predominantly written in Prakrit, reflecting regional administrative culture.\n\nTrade with the Roman world became important through western coastal ports.\n\nThe dynasty also played a major role in political consolidation and state formation in peninsular India.\n\nThus, all four statements correctly describe important features of the Satavahana age.",
+
+          "explanation_telugu": "ఇచ్చిన అన్ని లక్షణాలు శాతవాహన కాలానికి సంబంధించినవే.\n\nశాతవాహనులు దక్కన్ ప్రాంతంలో వాణిజ్యం, పట్టణాభివృద్ధి మరియు వ్యాపార విస్తరణను ప్రోత్సహించారు.\n\nవారి శాసనాలు ప్రధానంగా ప్రాకృత భాషలో ఉండి ప్రాంతీయ పరిపాలనా సంస్కృతిని ప్రతిబింబించాయి.\n\nపశ్చిమ తీర నౌకాశ్రయాల ద్వారా రోమన ప్రపంచంతో వాణిజ్యం ముఖ్యమైంది.\n\nఈ వంశం దక్షిణ భారతదేశంలో రాజకీయ ఏకీకరణ మరియు రాజ్య నిర్మాణంలో కూడా ప్రధాన పాత్ర పోషించింది.\n\nఅందువల్ల ఈ నాలుగు ప్రకటనలన్నీ శాతవాహన యుగానికి చెందిన ముఖ్య లక్షణాలను సరైనంగా వివరిస్తున్నాయి.",
+
+          "explanation_hindi": "दिए गए सभी बिंदु सातवाहन काल से संबंधित हैं।\n\nसातवाहनों ने दक्कन में व्यापार, नगरीय विकास और वाणिज्यिक विस्तार को प्रोत्साहित किया।\n\nउनके अभिलेख मुख्यतः प्राकृत भाषा में थे, जो क्षेत्रीय प्रशासनिक संस्कृति को दर्शाते हैं।\n\nपश्चिमी तटीय बंदरगाहों के माध्यम से रोमन विश्व के साथ व्यापार महत्वपूर्ण बन गया।\n\nइस वंश ने दक्षिण भारत में राजनीतिक एकीकरण और राज्य निर्माण में भी महत्वपूर्ण भूमिका निभाई।\n\nअतः सभी चार कथन सातवाहन युग की महत्वपूर्ण विशेषताओं का सही वर्णन करते हैं।",
+
+          "elimination_logic_english": "UPSC often frames such questions by making one economic or cultural statement appear doubtful.\n\nHowever, all four features are well-established characteristics of the Satavahana period.\n\nTrade expansion, Prakrit inscriptions, Roman trade and Deccan political integration were all significant developments.\n\nSince all statements are correct, option d is the correct answer.",
+
+          "elimination_logic_telugu": "UPSC ఇలాంటి ప్రశ్నల్లో ఆర్థిక లేదా సాంస్కృతిక అంశాన్ని సందేహాస్పదంగా చూపించే ప్రయత్నం చేస్తుంది.\n\nఅయితే ఈ నాలుగు లక్షణాలన్నీ శాతవాహన కాలానికి చెందిన ప్రామాణిక లక్షణాలే.\n\nవాణిజ్య విస్తరణ, ప్రాకృత శాసనాలు, రోమన వాణిజ్యం మరియు దక్కన్ రాజకీయ ఏకీకరణ అన్నీ ముఖ్య అభివృద్ధులు.\n\nఅందువల్ల అన్ని ప్రకటనలు సరైనవి కాబట్టి ఎంపిక d సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "UPSC अक्सर ऐसे प्रश्नों में किसी आर्थिक या सांस्कृतिक बिंदु को संदेहास्पद बनाकर प्रस्तुत करता है।\n\nकिन्तु ये चारों विशेषताएँ सातवाहन काल की स्थापित विशेषताएँ हैं।\n\nव्यापार विस्तार, प्राकृत अभिलेख, रोमन व्यापार और दक्कन का राजनीतिक एकीकरण सभी महत्वपूर्ण विकास थे।\n\nअतः सभी कथन सही हैं, इसलिए विकल्प d सही उत्तर है।"
+        }
+      ]
     }
-  }
 }
-           
-    
+}
