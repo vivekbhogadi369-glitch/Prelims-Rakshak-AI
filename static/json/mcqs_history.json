@@ -254,8 +254,175 @@
   "elimination_logic_telugu": "ఎంపిక b తప్పు, ఎందుకంటే వేద యజ్ఞాలు చాలా తర్వాతి సంస్కృతిక దశకు చెందినవి. ఎంపిక c తప్పు, ఎందుకంటే అశోక శాసనాలు మౌర్య కాలానికి చెందినవి. ఎంపిక d తప్పు, ఎందుకంటే హరప్పా నాగరికతకు ఒకే స్పష్టమైన రాజధాని నగరం లేదు. మెహర్‌గఢ్ చరిత్రపూర్వ ప్రాముఖ్యతను ఎంపిక a మాత్రమే సరైనంగా చూపిస్తుంది.",
 
   "elimination_logic_hindi": "विकल्प b गलत है क्योंकि वैदिक अनुष्ठान बहुत बाद के सांस्कृतिक चरण से संबंधित हैं। विकल्प c गलत है क्योंकि अशोक के अभिलेख मौर्य काल से संबंधित हैं। विकल्प d गलत है क्योंकि हड़प्पा सभ्यता की कोई एक स्पष्ट राजधानी नहीं थी। विकल्प a ही मेहरगढ़ के प्रागैतिहासिक महत्व को सही ढंग से बताता है।"
-}
-       ]
+},
+      {
+  "question_english": "Consider the following statements regarding the Neolithic Age in India:\n\n1. Polished stone tools became an important feature of this period.\n2. Permanent settlements emerged during this phase.\n3. Pottery was completely absent in Neolithic communities.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "question_telugu": "భారతదేశంలోని నూతన శిలాయుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మెరుగుపరచిన రాతి సాధనాలు ఈ కాలపు ముఖ్య లక్షణం.\n2. ఈ దశలో స్థిర నివాసాలు అభివృద్ధి చెందాయి.\n3. నూతన శిలాయుగ సమాజాల్లో మట్టి పాత్రలు పూర్తిగా లేవు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "question_hindi": "भारत में नवपाषाण काल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. चमकदार एवं घिसे हुए पत्थर उपकरण इस काल की महत्वपूर्ण विशेषता थे।\n2. इस चरण में स्थायी बस्तियाँ विकसित हुईं।\n3. नवपाषाण समुदायों में मिट्टी के बर्तन पूर्णतः अनुपस्थित थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statement 1 is correct because polished stone tools are a defining feature of the Neolithic Age. Statement 2 is also correct because agriculture and domestication encouraged permanent settlements and village life. Statement 3 is incorrect because pottery emerged and became important during the Neolithic phase for storage and cooking purposes.",
+
+  "explanation_telugu": "ప్రకటన 1 సరైనది, ఎందుకంటే మెరుగుపరచిన రాతి సాధనాలు నూతన శిలాయుగ ముఖ్య లక్షణం. ప్రకటన 2 కూడా సరైనది, ఎందుకంటే వ్యవసాయం మరియు పశుపోషణ స్థిర గ్రామీణ నివాసాల అభివృద్ధికి దారితీశాయి. ప్రకటన 3 తప్పు, ఎందుకంటే నిల్వ మరియు వంట అవసరాల కోసం మట్టి పాత్రలు ఈ కాలంలో అభివృద్ధి చెందాయి.",
+
+  "explanation_hindi": "कथन 1 सही है क्योंकि घिसे और चमकदार पत्थर उपकरण नवपाषाण काल की प्रमुख विशेषता थे। कथन 2 भी सही है क्योंकि कृषि और पशुपालन ने स्थायी ग्राम जीवन को बढ़ावा दिया। कथन 3 गलत है क्योंकि मिट्टी के बर्तनों का विकास इसी काल में हुआ और उनका उपयोग भंडारण एवं भोजन पकाने में किया गया।",
+
+  "elimination_logic_english": "Statement 3 is factually incorrect because pottery is closely associated with settled Neolithic life. UPSC often uses extreme words such as 'completely absent' to create traps. Once Statement 3 is eliminated, option a becomes correct.",
+
+  "elimination_logic_telugu": "ప్రకటన 3 వాస్తవపరంగా తప్పు, ఎందుకంటే మట్టి పాత్రలు స్థిర నూతన శిలాయుగ జీవనంతో దగ్గర సంబంధం కలిగి ఉన్నాయి. UPSC 'పూర్తిగా లేవు' వంటి అతిశయ పదాలను ఉచ్చులుగా ఉపయోగిస్తుంది. ప్రకటన 3 తొలగించిన వెంటనే ఎంపిక a సరైనదవుతుంది.",
+
+  "elimination_logic_hindi": "कथन 3 तथ्यात्मक रूप से गलत है क्योंकि मिट्टी के बर्तन स्थायी नवपाषाण जीवन से जुड़े हुए थे। UPSC प्रायः 'पूर्णतः अनुपस्थित' जैसे अतिशयोक्तिपूर्ण शब्दों का प्रयोग भ्रम उत्पन्न करने हेतु करता है। कथन 3 हटते ही विकल्प a सही हो जाता है।"
+},
+{
+  "question_english": "Match the following:\n\nList I (Prehistoric Age)\n1. Paleolithic Age\n2. Mesolithic Age\n3. Neolithic Age\n4. Chalcolithic Age\n\nList II (Characteristic Feature)\nA. Use of copper along with stone tools\nB. Hunting and food gathering with crude stone tools\nC. Beginning of agriculture and settled life\nD. Dominance of microlithic tools\n\nSelect the correct answer using the code given below.",
+
+  "options_english": {
+    "a": "1-B, 2-D, 3-C, 4-A",
+    "b": "1-D, 2-B, 3-A, 4-C",
+    "c": "1-B, 2-C, 3-D, 4-A",
+    "d": "1-A, 2-D, 3-C, 4-B"
+  },
+
+  "question_telugu": "క్రింది వాటిని జతపరచండి:\n\nజాబితా I (చరిత్రపూర్వ యుగం)\n1. పూర్వ శిలాయుగం\n2. మధ్య శిలాయుగం\n3. నూతన శిలాయుగం\n4. తామ్రశిలాయుగం\n\nజాబితా II (ప్రధాన లక్షణం)\nA. రాతి సాధనాలతో పాటు రాగి వినియోగం\nB. మోటు రాతి సాధనాలతో వేట మరియు ఆహార సేకరణ\nC. వ్యవసాయం మరియు స్థిర జీవన ప్రారంభం\nD. సూక్ష్మ శిలాయుధాల ఆధిక్యం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "options_telugu": {
+    "a": "1-B, 2-D, 3-C, 4-A",
+    "b": "1-D, 2-B, 3-A, 4-C",
+    "c": "1-B, 2-C, 3-D, 4-A",
+    "d": "1-A, 2-D, 3-C, 4-B"
+  },
+
+  "question_hindi": "निम्नलिखित का मिलान कीजिए:\n\nसूची I (प्रागैतिहासिक युग)\n1. पुरापाषाण काल\n2. मध्यपाषाण काल\n3. नवपाषाण काल\n4. ताम्रपाषाण काल\n\nसूची II (मुख्य विशेषता)\nA. पत्थर उपकरणों के साथ ताँबे का उपयोग\nB. खुरदरे पत्थर उपकरणों से शिकार और भोजन संग्रह\nC. कृषि और स्थायी जीवन का प्रारम्भ\nD. सूक्ष्म पाषाण उपकरणों का प्रभुत्व\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_hindi": {
+    "a": "1-B, 2-D, 3-C, 4-A",
+    "b": "1-D, 2-B, 3-A, 4-C",
+    "c": "1-B, 2-C, 3-D, 4-A",
+    "d": "1-A, 2-D, 3-C, 4-B"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The Paleolithic Age is associated with crude stone tools and food gathering. The Mesolithic Age is known for microliths. The Neolithic Age marks the beginning of agriculture and settled village life. The Chalcolithic Age witnessed the use of copper along with stone tools. Therefore, option a is correctly matched.",
+
+  "explanation_telugu": "పూర్వ శిలాయుగం మోటు రాతి సాధనాలు మరియు ఆహార సేకరణతో సంబంధం కలిగి ఉంది. మధ్య శిలాయుగం సూక్ష్మ శిలాయుధాలకు ప్రసిద్ధి చెందింది. నూతన శిలాయుగం వ్యవసాయం మరియు స్థిర గ్రామీణ జీవన ప్రారంభాన్ని సూచిస్తుంది. తామ్రశిలాయుగంలో రాతి సాధనాలతో పాటు రాగి వినియోగం కనిపిస్తుంది. కాబట్టి ఎంపిక a సరైన జత.",
+
+  "explanation_hindi": "पुरापाषाण काल खुरदरे पत्थर उपकरणों और भोजन संग्रह से संबंधित है। मध्यपाषाण काल सूक्ष्म पाषाण उपकरणों के लिए प्रसिद्ध है। नवपाषाण काल कृषि और स्थायी ग्राम जीवन की शुरुआत को दर्शाता है। ताम्रपाषाण काल में पत्थर उपकरणों के साथ ताँबे का उपयोग हुआ। इसलिए विकल्प a सही मिलान है।",
+
+  "elimination_logic_english": "Microliths are a direct clue for the Mesolithic Age. Agriculture clearly belongs to the Neolithic phase, while copper use belongs to the Chalcolithic Age. Once these are fixed, Paleolithic automatically matches with crude stone tools and food gathering.",
+
+  "elimination_logic_telugu": "సూక్ష్మ శిలాయుధాలు అంటే మధ్య శిలాయుగం అని వెంటనే గుర్తించాలి. వ్యవసాయం నూతన శిలాయుగానికి చెందినది, రాగి వినియోగం తామ్రశిలాయుగానికి చెందినది. ఇవి సరిపోల్చిన వెంటనే పూర్వ శిలాయుగం మోటు రాతి సాధనాలు మరియు ఆహార సేకరణతో సరిపోతుంది.",
+
+  "elimination_logic_hindi": "सूक्ष्म पाषाण उपकरण मध्यपाषाण काल का सीधा संकेत हैं। कृषि नवपाषाण काल से जुड़ी है जबकि ताँबे का उपयोग ताम्रपाषाण काल से। इनका मिलान होते ही पुरापाषाण काल स्वतः खुरदरे पत्थर उपकरणों और भोजन संग्रह से जुड़ जाता है।"
+},
+{
+  "question_english": "Assertion (A): The invention of agriculture gradually reduced the complete dependence of humans on nature.\n\nReason (R): Agriculture enabled humans to produce food instead of depending entirely on hunting and gathering.\n\nWhich one of the following is correct?",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is not correct",
+    "d": "A is not correct but R is correct"
+  },
+
+  "question_telugu": "ప్రతిపాదన (A): వ్యవసాయం ఆవిష్కరణ మానవులను ప్రకృతిపై సంపూర్ణ ఆధారపడటం నుంచి క్రమంగా తగ్గించింది.\n\nకారణం (R): వ్యవసాయం వేట మరియు ఆహార సేకరణపై పూర్తిగా ఆధారపడకుండా మానవులకు ఆహారాన్ని ఉత్పత్తి చేసే అవకాశం కల్పించింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R సరైనది కాదు",
+    "d": "A సరైనది కాదు కానీ R సరైనది"
+  },
+
+  "question_hindi": "अभिकथन (A): कृषि के आविष्कार ने मानव की प्रकृति पर पूर्ण निर्भरता को धीरे-धीरे कम किया।\n\nकारण (R): कृषि ने मानव को केवल शिकार और भोजन संग्रह पर निर्भर रहने के बजाय स्वयं भोजन उत्पादन करने में सक्षम बनाया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+    "c": "A सही है किन्तु R सही नहीं है",
+    "d": "A सही नहीं है किन्तु R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The development of agriculture was one of the most significant turning points in human history. Earlier humans depended entirely on naturally available food resources through hunting and gathering. Agriculture enabled planned food production, storage and settlement, thereby reducing complete dependence on nature. Hence both the Assertion and Reason are correct, and the Reason properly explains the Assertion.",
+
+  "explanation_telugu": "వ్యవసాయం అభివృద్ధి మానవ చరిత్రలో అత్యంత ముఖ్యమైన మార్పులలో ఒకటి. ప్రారంభ మానవులు వేట మరియు ఆహార సేకరణ ద్వారా సహజ వనరులపై పూర్తిగా ఆధారపడ్డారు. వ్యవసాయం ప్రణాళికాబద్ధమైన ఆహార ఉత్పత్తి, నిల్వ మరియు స్థిర నివాసాలకు దారితీసింది. అందువల్ల ప్రతిపాదన మరియు కారణం రెండూ సరైనవి మరియు కారణం ప్రతిపాదనను సరైన విధంగా వివరిస్తుంది.",
+
+  "explanation_hindi": "कृषि का विकास मानव इतिहास के सबसे महत्वपूर्ण परिवर्तनों में से एक था। प्रारम्भिक मानव शिकार और भोजन संग्रह द्वारा प्राकृतिक संसाधनों पर पूर्णतः निर्भर था। कृषि ने नियोजित भोजन उत्पादन, भंडारण और स्थायी जीवन को संभव बनाया। इसलिए अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है।",
+
+  "elimination_logic_english": "The Reason directly explains why dependence on nature reduced after agriculture. Food production gave humans greater control over survival. Therefore, this is not merely a related statement; it is the exact explanation of the Assertion.",
+
+  "elimination_logic_telugu": "వ్యవసాయం తర్వాత ప్రకృతిపై ఆధారపడటం ఎందుకు తగ్గిందో కారణం నేరుగా వివరిస్తుంది. ఆహార ఉత్పత్తి మానవులకు జీవనంపై ఎక్కువ నియంత్రణ ఇచ్చింది. కాబట్టి ఇది కేవలం సంబంధిత ప్రకటన కాదు; ప్రతిపాదనకు సరైన వివరణ.",
+
+  "elimination_logic_hindi": "कारण सीधे यह स्पष्ट करता है कि कृषि के बाद प्रकृति पर निर्भरता क्यों कम हुई। भोजन उत्पादन ने मानव को जीवन पर अधिक नियंत्रण दिया। अतः यह केवल संबंधित कथन नहीं बल्कि अभिकथन की सटीक व्याख्या है।"
+},
+      {
+  "question_english": "With reference to the Chalcolithic cultures of the Indian subcontinent, consider the following statements:\n\n1. The Chalcolithic phase is characterised by the use of both copper and stone tools.\n2. Most Chalcolithic communities completely abandoned agriculture and returned to hunting.\n3. Many Chalcolithic settlements were located near river valleys and fertile regions.\n\nWhich of the statements given above is/are correct?",
+
+  "options_english": {
+    "a": "1 and 3 only",
+    "b": "2 only",
+    "c": "1, 2 and 3",
+    "d": "1 only"
+  },
+
+  "question_telugu": "భారత ఉపఖండంలోని తామ్రశిలాయుగ సంస్కృతులకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. తామ్రశిలాయుగ దశలో రాగి మరియు రాతి సాధనాలు రెండూ ఉపయోగించబడ్డాయి.\n2. ఎక్కువ తామ్రశిలాయుగ సమాజాలు వ్యవసాయాన్ని పూర్తిగా విడిచిపెట్టి మళ్లీ వేటపై ఆధారపడ్డాయి.\n3. అనేక తామ్రశిలాయుగ నివాసాలు నదీ లోయలు మరియు సారవంతమైన ప్రాంతాల సమీపంలో ఉన్నాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "options_telugu": {
+    "a": "1 మరియు 3 మాత్రమే",
+    "b": "2 మాత్రమే",
+    "c": "1, 2 మరియు 3",
+    "d": "1 మాత్రమే"
+  },
+
+  "question_hindi": "भारतीय उपमहाद्वीप की ताम्रपाषाण संस्कृतियों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. ताम्रपाषाण चरण में ताँबे और पत्थर दोनों उपकरणों का उपयोग होता था।\n2. अधिकांश ताम्रपाषाण समुदायों ने कृषि को पूर्णतः छोड़कर पुनः शिकार अपनाया।\n3. अनेक ताम्रपाषाण बस्तियाँ नदी घाटियों और उपजाऊ क्षेत्रों के निकट स्थित थीं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_hindi": {
+    "a": "केवल 1 और 3",
+    "b": "केवल 2",
+    "c": "1, 2 और 3",
+    "d": "केवल 1"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statement 1 is correct because the Chalcolithic Age literally means the Copper-Stone Age, where copper tools were used along with stone implements. Statement 2 is incorrect because agriculture continued to remain an important occupation during this phase. In fact, many Chalcolithic settlements show evidence of farming, pottery and animal domestication. Statement 3 is correct because fertile river valleys supported agriculture and permanent settlements.",
+
+  "explanation_telugu": "ప్రకటన 1 సరైనది, ఎందుకంటే తామ్రశిలాయుగం అంటే రాగి-రాతి యుగం, ఇందులో రాగి మరియు రాతి సాధనాలు రెండూ ఉపయోగించబడ్డాయి. ప్రకటన 2 తప్పు, ఎందుకంటే ఈ దశలో వ్యవసాయం ముఖ్యమైన వృత్తిగా కొనసాగింది. అనేక తామ్రశిలాయుగ నివాసాల్లో వ్యవసాయం, మట్టి పాత్రలు మరియు జంతు పశుపోషణకు ఆధారాలు కనిపిస్తాయి. ప్రకటన 3 సరైనది, ఎందుకంటే సారవంతమైన నదీ లోయలు వ్యవసాయం మరియు స్థిర నివాసాలకు అనుకూలంగా ఉన్నాయి.",
+
+  "explanation_hindi": "कथन 1 सही है क्योंकि ताम्रपाषाण काल का अर्थ ही ताँबा-पत्थर युग है, जिसमें ताँबे और पत्थर दोनों उपकरणों का उपयोग होता था। कथन 2 गलत है क्योंकि इस चरण में कृषि एक महत्वपूर्ण व्यवसाय बनी रही। अनेक ताम्रपाषाण स्थलों पर कृषि, मिट्टी के बर्तन और पशुपालन के प्रमाण मिलते हैं। कथन 3 सही है क्योंकि उपजाऊ नदी घाटियाँ कृषि और स्थायी बस्तियों के लिए अनुकूल थीं।",
+
+  "elimination_logic_english": "Statement 2 is the clear trap because Chalcolithic communities did not abandon agriculture. UPSC often tests whether students confuse transitional prehistoric phases with a return to primitive hunting life. Since Statements 1 and 3 are correct, option a is the right answer.",
+
+  "elimination_logic_telugu": "ప్రకటన 2 ప్రధాన ఉచ్చు, ఎందుకంటే తామ్రశిలాయుగ సమాజాలు వ్యవసాయాన్ని విడిచిపెట్టలేదు. చరిత్రపూర్వ మార్పు దశలను మళ్లీ ప్రాథమిక వేట జీవనంతో కలిపి UPSC ప్రశ్నలు అడగవచ్చు. ప్రకటనలు 1 మరియు 3 సరైనవి కాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है क्योंकि ताम्रपाषाण समुदायों ने कृषि नहीं छोड़ी थी। UPSC प्रायः संक्रमणकालीन प्रागैतिहासिक चरणों को आदिम शिकार जीवन से जोड़कर भ्रम उत्पन्न करता है। चूँकि कथन 1 और 3 सही हैं, इसलिए विकल्प a सही उत्तर है।"
+      }
+    ]
   }
 }
-    
