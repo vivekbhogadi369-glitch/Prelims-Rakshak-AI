@@ -229,7 +229,7 @@
   <div id="finalBox" class="box" style="display:none;">
     <div id="finalScore" class="final-score"></div>
     <div id="finalFeedback" class="feedback"></div>
-    <button class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
+    <button id="retryBtn" class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
   </div>
 
   <script>
@@ -408,12 +408,18 @@
 
       let feedback = "";
 
-      if (percentage >= 80) {
+      if (percentage === 100) {
+        feedback = "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level.";
+        document.getElementById("retryBtn").style.display = "none";
+      } else if (percentage >= 80) {
         feedback = "Excellent. Your preparation is moving in a strong UPSC direction. Keep practising elimination logic.";
+        document.getElementById("retryBtn").style.display = "block";
       } else if (percentage >= 50) {
         feedback = "Good attempt. Revise the concepts and focus more on statement-based traps.";
+        document.getElementById("retryBtn").style.display = "block";
       } else {
         feedback = "Needs revision. Go back to notes, understand the basics, and attempt again with elimination logic.";
+        document.getElementById("retryBtn").style.display = "block";
       }
 
       document.getElementById("finalFeedback").textContent = feedback;
@@ -426,6 +432,7 @@
 
       document.getElementById("finalBox").style.display = "none";
       document.getElementById("mcqBox").style.display = "block";
+      document.getElementById("retryBtn").style.display = "block";
 
       showQuestion();
     }
