@@ -7,34 +7,132 @@
 
       "questions": [
         {
-          "question_english": "Consider the following statements regarding the Paleolithic Age in India:\n\n1. Humans mainly depended on hunting and food gathering.\n2. Polished stone tools were widely used in this period.\n3. Agriculture was not practised during this period.\n\nWhich of the statements given above is/are correct?",
+          "question_english": "Consider the following statements regarding the Paleolithic Age in India:\n\n1. Humans mainly depended on hunting and food gathering.\n2. Polished stone tools were widely used during this period.\n3. Agriculture was not practised during this phase.\n\nWhich of the statements given above is/are correct?",
+
           "options_english": {
             "a": "1 and 3 only",
             "b": "2 and 3 only",
             "c": "1 and 2 only",
             "d": "1, 2 and 3"
           },
-          "question_telugu": "భారతదేశంలోని పూర్వ శిలాయుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మనుషులు ప్రధానంగా వేట మరియు ఆహార సేకరణపై ఆధారపడ్డారు.\n2. మెరుగుపరచిన రాతి పరికరాలు ఈ కాలంలో విస్తృతంగా ఉపయోగించబడ్డాయి.\n3. ఈ కాలంలో వ్యవసాయం చేయబడలేదు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "question_telugu": "భారతదేశంలోని పూర్వ శిలాయుగానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మనుషులు ప్రధానంగా వేట మరియు ఆహార సేకరణపై ఆధారపడ్డారు.\n2. మెరుగుపరచిన రాతి పరికరాలు ఈ కాలంలో విస్తృతంగా ఉపయోగించబడ్డాయి.\n3. ఈ దశలో వ్యవసాయం చేయబడలేదు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
           "options_telugu": {
             "a": "1 మరియు 3 మాత్రమే",
             "b": "2 మరియు 3 మాత్రమే",
             "c": "1 మరియు 2 మాత్రమే",
             "d": "1, 2 మరియు 3"
           },
-          "question_hindi": "भारत के पुरापाषाण युग के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. मानव मुख्यतः शिकार और भोजन संग्रह पर निर्भर था।\n2. इस काल में घिसे हुए पत्थर के औजारों का व्यापक उपयोग होता था।\n3. इस काल में कृषि का अभ्यास नहीं किया जाता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "question_hindi": "भारत के पुरापाषाण युग के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. मानव मुख्यतः शिकार और भोजन संग्रह पर निर्भर था।\n2. इस काल में घिसे हुए पत्थर के औजारों का व्यापक उपयोग होता था।\n3. इस चरण में कृषि नहीं की जाती थी।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
           "options_hindi": {
             "a": "केवल 1 और 3",
             "b": "केवल 2 और 3",
             "c": "केवल 1 और 2",
             "d": "1, 2 और 3"
           },
+
           "correct_answer": "a",
-          "explanation_english": "Statements 1 and 3 are correct. Paleolithic humans were hunter-gatherers and depended on naturally available food. Agriculture was not practised during this phase. Statement 2 is incorrect because polished stone tools are mainly associated with the Neolithic Age, not the Paleolithic Age.",
-          "explanation_telugu": "ప్రకటనలు 1 మరియు 3 సరైనవి. పూర్వ శిలాయుగ మనుషులు వేట మరియు ఆహార సేకరణపై ఆధారపడి జీవించారు. ఈ దశలో వ్యవసాయం చేయబడలేదు. ప్రకటన 2 తప్పు, ఎందుకంటే మెరుగుపరచిన రాతి పరికరాలు ప్రధానంగా నూతన శిలాయుగానికి చెందినవి.",
-          "explanation_hindi": "कथन 1 और 3 सही हैं। पुरापाषाण मानव शिकारी-संग्रहकर्ता था और प्राकृतिक रूप से उपलब्ध भोजन पर निर्भर था। इस चरण में कृषि नहीं की जाती थी। कथन 2 गलत है क्योंकि घिसे हुए पत्थर के औजार मुख्यतः नवपाषाण युग से संबंधित हैं।",
-          "elimination_logic_english": "Statement 2 is the main trap. UPSC often tests the difference between Paleolithic crude tools and Neolithic polished tools. Once Statement 2 is removed, only option a remains correct.",
-          "elimination_logic_telugu": "ప్రకటన 2 ప్రధాన ఉచ్చు. UPSC పూర్వ శిలాయుగపు మోటు పరికరాలు మరియు నూతన శిలాయుగపు మెరుగుపరచిన పరికరాల మధ్య తేడాను పరీక్షిస్తుంది. ప్రకటన 2ను తొలగిస్తే ఎంపిక a మాత్రమే సరైనది.",
-          "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है। UPSC पुरापाषाण काल के खुरदरे औजारों और नवपाषाण काल के घिसे हुए औजारों के अंतर को पूछता है। कथन 2 हटाने पर केवल विकल्प a सही रहता है।"
+
+          "explanation_english": "Statements 1 and 3 are correct. Paleolithic humans survived mainly through hunting animals and gathering naturally available food resources. Agriculture had not yet developed during this stage. Statement 2 is incorrect because polished stone tools are associated mainly with the Neolithic Age, whereas Paleolithic tools were crude and chipped.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 3 సరైనవి. పూర్వ శిలాయుగ మనుషులు ప్రధానంగా వేట మరియు సహజ ఆహార సేకరణపై ఆధారపడి జీవించారు. ఈ దశలో వ్యవసాయం అభివృద్ధి చెందలేదు. ప్రకటన 2 తప్పు, ఎందుకంటే మెరుగుపరచిన రాతి పరికరాలు ప్రధానంగా నూతన శిలాయుగానికి చెందినవి.",
+
+          "explanation_hindi": "कथन 1 और 3 सही हैं। पुरापाषाण मानव मुख्यतः शिकार और प्राकृतिक भोजन संग्रह पर निर्भर था। इस चरण में कृषि विकसित नहीं हुई थी। कथन 2 गलत है क्योंकि घिसे हुए पत्थर के औजार मुख्यतः नवपाषाण युग से संबंधित हैं।",
+
+          "elimination_logic_english": "Statement 2 is the key trap. UPSC frequently distinguishes Paleolithic chipped tools from Neolithic polished tools. Once Statement 2 is eliminated, only option a remains correct.",
+
+          "elimination_logic_telugu": "ప్రకటన 2 ప్రధాన ఉచ్చు. UPSC తరచుగా పూర్వ శిలాయుగపు మోటు పరికరాలు మరియు నూతన శిలాయుగపు మెరుగుపరచిన పరికరాల మధ్య తేడాను పరీక్షిస్తుంది. ప్రకటన 2ను తొలగిస్తే ఎంపిక a మాత్రమే సరైనది.",
+
+          "elimination_logic_hindi": "कथन 2 मुख्य भ्रम है। UPSC पुरापाषाण काल के खुरदरे औजारों और नवपाषाण काल के घिसे हुए औजारों के बीच अंतर पूछता है। कथन 2 हटाने पर केवल विकल्प a सही रहता है।"
+        },
+
+        {
+          "question_english": "Which one of the following is considered the most significant development of the Neolithic Age?",
+
+          "options_english": {
+            "a": "Beginning of large-scale maritime trade",
+            "b": "Use of iron technology",
+            "c": "Beginning of food production through agriculture and domestication",
+            "d": "Construction of planned urban centres"
+          },
+
+          "question_telugu": "నూతన శిలాయుగపు అత్యంత ముఖ్యమైన అభివృద్ధిగా క్రింది వాటిలో ఏది పరిగణించబడుతుంది?",
+
+          "options_telugu": {
+            "a": "విపులమైన సముద్ర వాణిజ్య ప్రారంభం",
+            "b": "ఇనుప సాంకేతికత వినియోగం",
+            "c": "వ్యవసాయం మరియు జంతు వశీకరణ ద్వారా ఆహార ఉత్పత్తి ప్రారంభం",
+            "d": "ప్రణాళికాబద్ధ పట్టణాల నిర్మాణం"
+          },
+
+          "question_hindi": "नवपाषाण युग की सबसे महत्वपूर्ण उपलब्धि निम्नलिखित में से कौन-सी मानी जाती है?",
+
+          "options_hindi": {
+            "a": "वृहद समुद्री व्यापार की शुरुआत",
+            "b": "लोहे की तकनीक का उपयोग",
+            "c": "कृषि और पशुपालन द्वारा खाद्य उत्पादन की शुरुआत",
+            "d": "योजनाबद्ध नगरों का निर्माण"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "The Neolithic Age is marked by the transition from food gathering to food production. Agriculture and domestication of animals transformed human life by encouraging settled life, surplus production and village communities. The other options belong mainly to later historical phases.",
+
+          "explanation_telugu": "నూతన శిలాయుగపు ప్రధాన లక్షణం ఆహార సేకరణ నుండి ఆహార ఉత్పత్తికి మార్పు. వ్యవసాయం మరియు జంతు వశీకరణ స్థిర నివాసాలు, మిగులు ఉత్పత్తి మరియు గ్రామ సమాజాల అభివృద్ధికి దారితీసాయి. మిగతా ఎంపికలు తరువాతి చారిత్రక దశలకు చెందినవి.",
+
+          "explanation_hindi": "नवपाषाण युग की मुख्य विशेषता भोजन संग्रह से भोजन उत्पादन की ओर परिवर्तन था। कृषि और पशुपालन ने स्थायी जीवन, अधिशेष उत्पादन और ग्राम समुदायों के विकास को बढ़ावा दिया। अन्य विकल्प बाद के ऐतिहासिक चरणों से संबंधित हैं।",
+
+          "elimination_logic_english": "Option b belongs to the Iron Age, while option d is associated with urban civilizations like the Harappans. Large-scale maritime trade also emerged later. Therefore, food production is the defining Neolithic feature.",
+
+          "elimination_logic_telugu": "ఎంపిక b ఇనుపయుగానికి చెందినది, ఎంపిక d హరప్పా వంటి పట్టణ నాగరికతలకు సంబంధించినది. విస్తృత సముద్ర వాణిజ్యం కూడా తరువాతి దశలో అభివృద్ధి చెందింది. కాబట్టి ఆహార ఉత్పత్తే నూతన శిలాయుగపు ప్రధాన లక్షణం.",
+
+          "elimination_logic_hindi": "विकल्प b लौह युग से संबंधित है, जबकि विकल्प d हड़प्पा जैसी नगरीय सभ्यताओं से जुड़ा है। वृहद समुद्री व्यापार भी बाद में विकसित हुआ। इसलिए खाद्य उत्पादन नवपाषाण युग की मुख्य पहचान है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Rock paintings are valuable sources for understanding prehistoric societies.\n\nReason (R): They provide evidence regarding hunting scenes, animals and social activities.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): గుహాచిత్రాలు చరిత్రపూర్వ సమాజాలను అర్థం చేసుకోవడానికి విలువైన ఆధారాలు.\n\nకారణం (R): అవి వేట దృశ్యాలు, జంతువులు మరియు సామాజిక కార్యకలాపాలకు సంబంధించిన ఆధారాలను ఇస్తాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): शैलचित्र प्रागैतिहासिक समाजों को समझने के मूल्यवान स्रोत हैं।\n\nकारण (R): वे शिकार दृश्यों, पशुओं और सामाजिक गतिविधियों के प्रमाण प्रदान करते हैं।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Rock paintings found at sites such as Bhimbetka provide important evidence regarding prehistoric human life. These paintings depict hunting scenes, animals, dances and collective activities, helping historians reconstruct prehistoric culture and society.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. భీంబేట్కా వంటి స్థలాల్లో లభించిన గుహాచిత్రాలు చరిత్రపూర్వ మానవ జీవితానికి సంబంధించిన ముఖ్య ఆధారాలు అందిస్తాయి. వేట దృశ్యాలు, జంతువులు, నృత్యాలు మరియు సామూహిక కార్యకలాపాలను చూపించడం ద్వారా అవి చరిత్రపూర్వ సంస్కృతిని అర్థం చేసుకోవడానికి సహాయపడతాయి.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। भीमबेटका जैसे स्थलों से प्राप्त शैलचित्र प्रागैतिहासिक मानव जीवन के महत्वपूर्ण प्रमाण प्रदान करते हैं। वे शिकार दृश्य, पशु, नृत्य और सामूहिक गतिविधियों को दर्शाते हैं, जिससे इतिहासकार प्रागैतिहासिक संस्कृति और समाज को समझ पाते हैं।",
+
+          "elimination_logic_english": "The Reason directly explains the Assertion because rock paintings visually preserve evidence of prehistoric lifestyle and activities. Therefore, option a is the correct choice.",
+
+          "elimination_logic_telugu": "కారణం ప్రతిపాదనను నేరుగా వివరిస్తుంది, ఎందుకంటే గుహాచిత్రాలు చరిత్రపూర్వ జీవనశైలికి సంబంధించిన స్పష్టమైన ఆధారాలను అందిస్తాయి. కాబట్టి ఎంపిక a సరైనది.",
+
+          "elimination_logic_hindi": "कारण सीधे अभिकथन की व्याख्या करता है क्योंकि शैलचित्र प्रागैतिहासिक जीवनशैली और गतिविधियों के दृश्य प्रमाण प्रदान करते हैं। इसलिए विकल्प a सही है।"
         }
       ]
     }
