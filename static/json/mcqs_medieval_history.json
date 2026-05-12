@@ -1,1 +1,444 @@
+{
+  "subject_english": "Medieval Indian History",
+  "subject_telugu": "మధ్యయుగ భారత చరిత్ర",
+  "subject_hindi": "मध्यकालीन भारतीय इतिहास",
 
+  "topics": {
+
+    "Rajput Kingdoms": {
+      "topic_english": "Rajput Kingdoms",
+      "topic_telugu": "రాజపుత్ర రాజ్యాలు",
+      "topic_hindi": "राजपूत राज्य",
+
+      "questions": [
+        {
+          "question_english": "Consider the following statements regarding the Rajput kingdoms:\n\n1. Rajput kingdoms emerged prominently in northern and western India during the early medieval period.\n2. The Rajputs were known for clan-based political organization.\n3. All Rajput kingdoms were permanently united under a single empire.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "2 and 3 only",
+            "c": "1 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "రాజపుత్ర రాజ్యాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్రారంభ మధ్యయుగ కాలంలో ఉత్తర మరియు పశ్చిమ భారతదేశంలో రాజపుత్ర రాజ్యాలు ప్రముఖంగా ఎదిగాయి.\n2. రాజపుత్రులు వంశాధారిత రాజకీయ వ్యవస్థకు ప్రసిద్ధి చెందారు.\n3. అన్ని రాజపుత్ర రాజ్యాలు శాశ్వతంగా ఒకే సామ్రాజ్యంగా ఏకీకృతమయ్యాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "2 మరియు 3 మాత్రమే",
+            "c": "1 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "राजपूत राज्यों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रारम्भिक मध्यकाल में उत्तर और पश्चिम भारत में राजपूत राज्यों का प्रमुख उदय हुआ।\n2. राजपूत कुल-आधारित राजनीतिक संगठन के लिए प्रसिद्ध थे।\n3. सभी राजपूत राज्य स्थायी रूप से एक ही साम्राज्य के अंतर्गत एकीकृत थे।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 2 और 3",
+            "c": "केवल 1",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Rajput kingdoms became prominent during the early medieval period, especially in regions such as Rajasthan, Gujarat and parts of northern India.\n\nRajput political organization was generally clan-based, with loyalty centred around ruling lineages and warrior traditions.\n\nStatement 3 is incorrect because Rajput kingdoms remained politically fragmented and frequently engaged in conflicts among themselves.\n\nThe absence of lasting political unity weakened collective resistance against external invasions in several periods.\n\nRajput history is important for understanding regional kingdoms and warrior culture in medieval India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. ప్రారంభ మధ్యయుగ కాలంలో ముఖ్యంగా రాజస్థాన్, గుజరాత్ మరియు ఉత్తర భారతదేశంలోని కొన్ని ప్రాంతాల్లో రాజపుత్ర రాజ్యాలు ప్రముఖంగా ఎదిగాయి.\n\nరాజపుత్ర రాజకీయ వ్యవస్థ సాధారణంగా వంశాధారితంగా ఉండేది మరియు పాలక వంశాలు, యోధ సంప్రదాయాలపై ఆధారపడేది.\n\nప్రకటన 3 తప్పు, ఎందుకంటే రాజపుత్ర రాజ్యాలు రాజకీయంగా విభజించబడి ఉండి పరస్పరం యుద్ధాలు చేసేవి.\n\nదీర్ఘకాలిక రాజకీయ ఐక్యత లేకపోవడం వల్ల విదేశీ దాడులకు వ్యతిరేకంగా సమిష్టి ప్రతిఘటన బలహీనపడింది.\n\nమధ్యయుగ భారతదేశంలోని ప్రాంతీయ రాజ్యాలు మరియు యోధ సంస్కృతిని అర్థం చేసుకోవడానికి రాజపుత్ర చరిత్ర ముఖ్యమైనది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। प्रारम्भिक मध्यकाल में विशेष रूप से राजस्थान, गुजरात तथा उत्तर भारत के कुछ भागों में राजपूत राज्यों का उदय हुआ।\n\nराजपूत राजनीतिक संगठन सामान्यतः कुल-आधारित था और शासक वंशों तथा योद्धा परंपराओं पर आधारित था।\n\nकथन 3 गलत है क्योंकि राजपूत राज्य राजनीतिक रूप से विभाजित रहे और अक्सर आपसी संघर्षों में लगे रहे।\n\nस्थायी राजनीतिक एकता के अभाव ने कई कालों में बाहरी आक्रमणों के विरुद्ध सामूहिक प्रतिरोध को कमजोर किया।\n\nमध्यकालीन भारत के क्षेत्रीय राज्यों और योद्धा संस्कृति को समझने में राजपूत इतिहास महत्वपूर्ण है।",
+
+          "elimination_logic_english": "Statement 3 is the political unity trap.\n\nRajput kingdoms were not permanently united under one empire.\n\nStatements 1 and 2 correctly describe the rise and clan-based nature of Rajput states.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 ప్రధాన రాజకీయ ఐక్యత ఉచ్చు.\n\nరాజపుత్ర రాజ్యాలు శాశ్వతంగా ఒకే సామ్రాజ్యంగా ఏకీకృతం కాలేదు.\n\nప్రకటనలు 1 మరియు 2 రాజపుత్ర రాజ్యాల ఎదుగుదల మరియు వంశాధారిత స్వభావాన్ని సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 मुख्य राजनीतिक एकता संबंधी भ्रम है।\n\nराजपूत राज्य स्थायी रूप से एक साम्राज्य के अधीन एकीकृत नहीं थे।\n\nकथन 1 और 2 राजपूत राज्यों के उदय और कुल-आधारित स्वरूप का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Which one of the following dynasties is most closely associated with the Rajput period of medieval India?",
+
+          "options_english": {
+            "a": "Satavahanas",
+            "b": "Cholas",
+            "c": "Chauhans",
+            "d": "Kushanas"
+          },
+
+          "question_telugu": "మధ్యయుగ భారతదేశంలోని రాజపుత్ర కాలంతో అత్యంత సన్నిహిత సంబంధం కలిగిన వంశం క్రింది వాటిలో ఏది?",
+
+          "options_telugu": {
+            "a": "శాతవాహనులు",
+            "b": "చోళులు",
+            "c": "చౌహాన్లు",
+            "d": "కుషాణులు"
+          },
+
+          "question_hindi": "मध्यकालीन भारत के राजपूत काल से निम्नलिखित में से कौन-सा वंश सबसे अधिक संबंधित है?",
+
+          "options_hindi": {
+            "a": "सातवाहन",
+            "b": "चोल",
+            "c": "चौहान",
+            "d": "कुषाण"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "The Chauhans were one of the prominent Rajput dynasties of medieval northern India.\n\nThey ruled parts of Rajasthan and Delhi regions and are especially associated with rulers such as Prithviraj Chauhan.\n\nThe Satavahanas and Kushanas belonged to ancient Indian history, while the Cholas were a major South Indian dynasty.\n\nRajput dynasties such as the Chauhans, Paramaras and Solankis played an important role in regional politics during the early medieval period.\n\nUPSC frequently asks dynasty-region and dynasty-period associations.",
+
+          "explanation_telugu": "చౌహాన్లు మధ్యయుగ ఉత్తర భారతదేశంలోని ప్రముఖ రాజపుత్ర వంశాలలో ఒకటి.\n\nవారు రాజస్థాన్ మరియు ఢిల్లీ ప్రాంతాలను పాలించారు మరియు ముఖ్యంగా పృథ్వీరాజ్ చౌహాన్ వంటి పాలకులతో సంబంధం కలిగి ఉన్నారు.\n\nశాతవాహనులు మరియు కుషాణులు ప్రాచీన భారత చరిత్రకు చెందినవారు కాగా, చోళులు దక్షిణ భారతదేశంలోని ప్రధాన వంశం.\n\nచౌహాన్లు, పరమారులు మరియు సోలంకీలు వంటి రాజపుత్ర వంశాలు ప్రారంభ మధ్యయుగ ప్రాంతీయ రాజకీయాల్లో ముఖ్య పాత్ర పోషించాయి.\n\nవంశాలు-ప్రాంతాలు మరియు వంశాలు-కాలాల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "चौहान मध्यकालीन उत्तर भारत के प्रमुख राजपूत राजवंशों में से एक थे।\n\nउन्होंने राजस्थान और दिल्ली क्षेत्र के भागों पर शासन किया और विशेष रूप से पृथ्वीराज चौहान जैसे शासकों से संबंधित हैं।\n\nसातवाहन और कुषाण प्राचीन भारतीय इतिहास से संबंधित थे, जबकि चोल दक्षिण भारत का प्रमुख राजवंश था।\n\nचौहान, परमार और सोलंकी जैसे राजपूत राजवंशों ने प्रारम्भिक मध्यकालीन क्षेत्रीय राजनीति में महत्वपूर्ण भूमिका निभाई।\n\nUPSC अक्सर राजवंश-क्षेत्र और राजवंश-काल संबंधी प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Satavahanas and Kushanas belong to ancient India, while the Cholas belong mainly to South Indian history.\n\nThe Chauhans are directly associated with Rajput political history.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "శాతవాహనులు మరియు కుషాణులు ప్రాచీన భారతదేశానికి చెందినవారు, చోళులు ప్రధానంగా దక్షిణ భారత చరిత్రకు చెందినవారు.\n\nచౌహాన్లు నేరుగా రాజపుత్ర రాజకీయ చరిత్రతో సంబంధం కలిగి ఉన్నారు.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "सातवाहन और कुषाण प्राचीन भारत से संबंधित हैं, जबकि चोल मुख्यतः दक्षिण भारतीय इतिहास से संबंधित हैं।\n\nचौहान सीधे राजपूत राजनीतिक इतिहास से संबंधित हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Rajput rulers are often associated with ideals of bravery and warrior ethics.\n\nReason (R): Rajput political culture emphasized military valor, clan honour and loyalty.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct but R is not the correct explanation of A",
+            "b": "A is correct but R is not correct",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): రాజపుత్ర పాలకులు ధైర్యం మరియు యోధ ధర్మాల ఆదర్శాలతో తరచుగా అనుసంధానించబడుతారు.\n\nకారణం (R): రాజపుత్ర రాజకీయ సంస్కృతి సైనిక వీరత్వం, వంశ గౌరవం మరియు విశ్వాసాన్ని ప్రాముఖ్యతనిచ్చింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "b": "A సరైనది కానీ R సరైనది కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): राजपूत शासकों को प्रायः वीरता और योद्धा आदर्शों से जोड़ा जाता है।\n\nकारण (R): राजपूत राजनीतिक संस्कृति में सैन्य पराक्रम, कुल सम्मान और निष्ठा पर बल दिया जाता था।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "b": "A सही है किन्तु R सही नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. Rajput political and social traditions strongly emphasized martial values, personal courage and clan honour.\n\nRajput rulers cultivated ideals of warfare, loyalty and sacrifice which became central themes in regional traditions and literature.\n\nThese warrior ethics influenced medieval political culture in many Rajput-ruled regions.\n\nMilitary valor and defence of honour became defining features associated with Rajput identity.\n\nThus, the Reason directly explains why Rajput rulers are remembered for bravery and warrior ideals.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. రాజపుత్ర రాజకీయ మరియు సామాజిక సంప్రదాయాలు యోధ విలువలు, వ్యక్తిగత ధైర్యం మరియు వంశ గౌరవాన్ని బలంగా ప్రాముఖ్యతనిచ్చాయి.\n\nరాజపుత్ర పాలకులు యుద్ధం, విశ్వాసం మరియు త్యాగం వంటి ఆదర్శాలను పెంపొందించారు, ఇవి ప్రాంతీయ సంప్రదాయాలు మరియు సాహిత్యంలో ప్రధాన అంశాలుగా మారాయి.\n\nఈ యోధ ధర్మాలు అనేక రాజపుత్ర పాలిత ప్రాంతాల మధ్యయుగ రాజకీయ సంస్కృతిని ప్రభావితం చేశాయి.\n\nసైనిక వీరత్వం మరియు గౌరవ రక్షణ రాజపుత్ర గుర్తింపుకు ముఖ్య లక్షణాలుగా మారాయి.\n\nఅందువల్ల కారణం రాజపుత్ర పాలకులు ఎందుకు ధైర్యానికి ప్రసిద్ధి చెందారో నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। राजपूत राजनीतिक और सामाजिक परंपराओं में योद्धा मूल्यों, व्यक्तिगत साहस और कुल सम्मान पर विशेष बल दिया जाता था।\n\nराजपूत शासकों ने युद्ध, निष्ठा और बलिदान के आदर्शों को विकसित किया, जो क्षेत्रीय परंपराओं और साहित्य में प्रमुख विषय बन गए।\n\nइन योद्धा आदर्शों ने अनेक राजपूत-शासित क्षेत्रों की मध्यकालीन राजनीतिक संस्कृति को प्रभावित किया।\n\nसैन्य पराक्रम और सम्मान की रक्षा राजपूत पहचान की प्रमुख विशेषताएँ बन गईं।\n\nअतः कारण सीधे स्पष्ट करता है कि राजपूत शासकों को वीरता और योद्धा आदर्शों से क्यों जोड़ा जाता है।",
+
+          "elimination_logic_english": "The Reason directly explains the martial image associated with Rajput rulers.\n\nUPSC frequently asks assertion-reason questions based on political culture and social values.\n\nMilitary valor, clan honour and loyalty were central features of Rajput traditions.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం రాజపుత్ర పాలకులతో అనుసంధానించబడిన యోధ ప్రతిమను నేరుగా వివరిస్తుంది.\n\nరాజకీయ సంస్కృతి మరియు సామాజిక విలువలపై ఆధారపడిన ప్రతిపాదన-కారణం ప్రశ్నలను UPSC తరచుగా అడుగుతుంది.\n\nసైనిక వీరత్వం, వంశ గౌరవం మరియు విశ్వాసం రాజపుత్ర సంప్రదాయాల ప్రధాన లక్షణాలు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे राजपूत शासकों की योद्धा छवि की व्याख्या करता है।\n\nUPSC अक्सर राजनीतिक संस्कृति और सामाजिक मूल्यों पर आधारित अभिकथन-कारण प्रश्न पूछता है।\n\nसैन्य पराक्रम, कुल सम्मान और निष्ठा राजपूत परंपराओं की प्रमुख विशेषताएँ थीं।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प c सही उत्तर है।"
+        },
+        {
+          "question_english": "Consider the following statements regarding Rajput polity:\n\n1. Many Rajput states followed a feudal pattern of administration.\n2. Local chiefs and samantas played an important role in Rajput politics.\n3. Rajput kingdoms completely eliminated regional identities.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 and 2 only",
+            "b": "1 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "రాజపుత్ర రాజకీయ వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అనేక రాజపుత్ర రాజ్యాలు సామంత పరిపాలనా విధానాన్ని అనుసరించాయి.\n2. స్థానిక నాయకులు మరియు సామంతులు రాజపుత్ర రాజకీయాల్లో ముఖ్య పాత్ర పోషించారు.\n3. రాజపుత్ర రాజ్యాలు ప్రాంతీయ గుర్తింపులను పూర్తిగా తొలగించాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మరియు 2 మాత్రమే",
+            "b": "1 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "राजपूत शासन व्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अनेक राजपूत राज्यों में सामंती प्रशासनिक व्यवस्था प्रचलित थी।\n2. स्थानीय सरदारों और सामंतों की राजपूत राजनीति में महत्वपूर्ण भूमिका थी।\n3. राजपूत राज्यों ने क्षेत्रीय पहचानों को पूर्णतः समाप्त कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1 और 2",
+            "b": "केवल 1",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Statements 1 and 2 are correct. Rajput administration often reflected feudal characteristics where local chiefs and samantas exercised considerable authority.\n\nThese subordinate rulers maintained military obligations and loyalty towards larger Rajput kings.\n\nStatement 3 is incorrect because regional identities remained strong in medieval India.\n\nDifferent Rajput clans ruled distinct territories with their own political and cultural traditions.\n\nThe feudal and clan-based nature of Rajput polity is an important feature of early medieval Indian history.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. రాజపుత్ర పరిపాలనలో సామంత లక్షణాలు కనిపించేవి మరియు స్థానిక నాయకులు, సామంతులు గణనీయమైన అధికారాన్ని వినియోగించేవారు.\n\nఈ ఆధీన పాలకులు పెద్ద రాజపుత్ర రాజుల పట్ల సైనిక బాధ్యతలు మరియు విశ్వాసాన్ని కొనసాగించేవారు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే మధ్యయుగ భారతదేశంలో ప్రాంతీయ గుర్తింపులు బలంగా కొనసాగాయి.\n\nవివిధ రాజపుత్ర వంశాలు తమ ప్రత్యేక రాజకీయ మరియు సాంస్కృతిక సంప్రదాయాలతో వేర్వేరు ప్రాంతాలను పాలించాయి.\n\nరాజపుత్ర రాజకీయ వ్యవస్థలో సామంత మరియు వంశాధారిత స్వభావం ప్రారంభ మధ్యయుగ భారత చరిత్రలో ఒక ముఖ్య లక్షణం.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। राजपूत प्रशासन में सामंती विशेषताएँ दिखाई देती थीं जहाँ स्थानीय सरदारों और सामंतों के पास पर्याप्त अधिकार होते थे।\n\nये अधीनस्थ शासक बड़े राजपूत राजाओं के प्रति सैन्य दायित्व और निष्ठा बनाए रखते थे।\n\nकथन 3 गलत है क्योंकि मध्यकालीन भारत में क्षेत्रीय पहचानें मजबूत बनी रहीं।\n\nविभिन्न राजपूत कुलों ने अपनी विशिष्ट राजनीतिक और सांस्कृतिक परंपराओं के साथ अलग-अलग क्षेत्रों पर शासन किया।\n\nराजपूत शासन की सामंती और कुल-आधारित प्रकृति प्रारम्भिक मध्यकालीन भारतीय इतिहास की महत्वपूर्ण विशेषता है।",
+
+          "elimination_logic_english": "Statement 3 is the exaggeration trap.\n\nRajput kingdoms did not erase regional identities.\n\nStatements 1 and 2 correctly describe the feudal and samanta-based political system.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 అతిశయోక్తి ఉచ్చు.\n\nరాజపుత్ర రాజ్యాలు ప్రాంతీయ గుర్తింపులను తొలగించలేదు.\n\nప్రకటనలు 1 మరియు 2 సామంత మరియు సమంతాధారిత రాజకీయ వ్యవస్థను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 अतिशयोक्ति संबंधी भ्रम है।\n\nराजपूत राज्यों ने क्षेत्रीय पहचानों को समाप्त नहीं किया।\n\nकथन 1 और 2 सामंती तथा सामंत-आधारित राजनीतिक व्यवस्था का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following Rajput rulers is most closely associated with the Second Battle of Tarain?",
+
+          "options_english": {
+            "a": "Rana Kumbha",
+            "b": "Prithviraj Chauhan",
+            "c": "Rana Sanga",
+            "d": "Bhoja"
+          },
+
+          "question_telugu": "తరైన్ రెండవ యుద్ధంతో అత్యంత సన్నిహిత సంబంధం కలిగిన రాజపుత్ర పాలకుడు క్రింది వారిలో ఎవరు?",
+
+          "options_telugu": {
+            "a": "రాణా కుంభా",
+            "b": "పృథ్వీరాజ్ చౌహాన్",
+            "c": "రాణా సంగా",
+            "d": "భోజుడు"
+          },
+
+          "question_hindi": "तराइन के द्वितीय युद्ध से निम्नलिखित में से कौन-सा राजपूत शासक सबसे अधिक संबंधित है?",
+
+          "options_hindi": {
+            "a": "राणा कुम्भा",
+            "b": "पृथ्वीराज चौहान",
+            "c": "राणा सांगा",
+            "d": "भोज"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Prithviraj Chauhan is closely associated with the Second Battle of Tarain fought in 1192 CE against Muhammad Ghori.\n\nThe defeat of Prithviraj Chauhan is considered an important turning point in the political history of northern India.\n\nThe battle contributed to the expansion of Turkish political power in the region.\n\nRajput resistance continued in different regions even after the battle.\n\nUPSC frequently asks battles and ruler associations from medieval Indian history.",
+
+          "explanation_telugu": "పృథ్వీరాజ్ చౌహాన్ 1192 CEలో మహమ్మద్ ఘోరితో జరిగిన తరైన్ రెండవ యుద్ధంతో సన్నిహిత సంబంధం కలిగి ఉన్నాడు.\n\nపృథ్వీరాజ్ చౌహాన్ పరాజయం ఉత్తర భారత రాజకీయ చరిత్రలో ఒక ముఖ్య మలుపుగా పరిగణించబడుతుంది.\n\nఈ యుద్ధం ప్రాంతంలో టర్కీ రాజకీయ శక్తి విస్తరణకు దోహదపడింది.\n\nఈ యుద్ధం తరువాత కూడా వివిధ ప్రాంతాల్లో రాజపుత్ర ప్రతిఘటన కొనసాగింది.\n\nమధ్యయుగ భారత చరిత్రలో యుద్ధాలు మరియు పాలకుల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "पृथ्वीराज चौहान 1192 ईस्वी में मुहम्मद गौरी के विरुद्ध लड़े गए तराइन के द्वितीय युद्ध से निकटता से संबंधित हैं।\n\nपृथ्वीराज चौहान की पराजय को उत्तर भारत के राजनीतिक इतिहास का महत्वपूर्ण मोड़ माना जाता है।\n\nइस युद्ध ने क्षेत्र में तुर्की राजनीतिक शक्ति के विस्तार में योगदान दिया।\n\nयुद्ध के बाद भी विभिन्न क्षेत्रों में राजपूत प्रतिरोध जारी रहा।\n\nUPSC अक्सर मध्यकालीन भारतीय इतिहास से युद्ध और शासक संबंधी प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Rana Sanga is associated with the Battle of Khanwa, while Rana Kumbha and Bhoja belong to different regional contexts.\n\nPrithviraj Chauhan is directly linked with the Second Battle of Tarain.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "రాణా సంగా ఖాన్వా యుద్ధంతో సంబంధం కలిగి ఉన్నాడు, రాణా కుంభా మరియు భోజుడు వేర్వేరు ప్రాంతీయ సందర్భాలకు చెందినవారు.\n\nపృథ్వీరాజ్ చౌహాన్ నేరుగా తరైన్ రెండవ యుద్ధంతో అనుసంధానించబడ్డాడు.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "राणा सांगा खानवा के युद्ध से संबंधित हैं, जबकि राणा कुम्भा और भोज अलग क्षेत्रीय संदर्भों से संबंधित हैं।\n\nपृथ्वीराज चौहान सीधे तराइन के द्वितीय युद्ध से जुड़े हैं।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Rajput kingdoms contributed significantly to temple construction and regional culture.\n\nReason (R): Rajput rulers patronized art, literature and religious institutions.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "Both A and R are correct and R is the correct explanation of A",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "A is correct but R is not correct",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): రాజపుత్ర రాజ్యాలు దేవాలయ నిర్మాణం మరియు ప్రాంతీయ సంస్కృతికి విశేష కృషి చేశాయి.\n\nకారణం (R): రాజపుత్ర పాలకులు కళ, సాహిత్యం మరియు మత సంస్థలను పరిరక్షించారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A సరైనది కానీ R సరైనది కాదు",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): राजपूत राज्यों ने मंदिर निर्माण और क्षेत्रीय संस्कृति में महत्वपूर्ण योगदान दिया।\n\nकारण (R): राजपूत शासकों ने कला, साहित्य और धार्मिक संस्थाओं को संरक्षण दिया।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A सही है किन्तु R सही नहीं है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "Both Assertion and Reason are correct. Rajput rulers made important contributions to temple architecture and regional cultural traditions.\n\nMany Rajput courts supported poets, scholars, temples and religious institutions.\n\nTemple construction became an important expression of political legitimacy and cultural patronage.\n\nRegional artistic traditions flourished under different Rajput dynasties.\n\nThus, the patronage of art, literature and religion directly explains the Rajput contribution to regional culture and architecture.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. రాజపుత్ర పాలకులు దేవాలయ నిర్మాణ కళ మరియు ప్రాంతీయ సాంస్కృతిక సంప్రదాయాలకు ముఖ్యమైన కృషి చేశారు.\n\nఅనేక రాజపుత్ర రాజదర్బార్లు కవులు, పండితులు, దేవాలయాలు మరియు మత సంస్థలను ప్రోత్సహించాయి.\n\nదేవాలయ నిర్మాణం రాజకీయ చట్టబద్ధత మరియు సాంస్కృతిక పరిరక్షణకు ముఖ్యమైన వ్యక్తీకరణగా మారింది.\n\nవివిధ రాజపుత్ర వంశాల పాలనలో ప్రాంతీయ కళాత్మక సంప్రదాయాలు అభివృద్ధి చెందాయి.\n\nఅందువల్ల కళ, సాహిత్యం మరియు మత పరిరక్షణే ప్రాంతీయ సంస్కృతి మరియు నిర్మాణ కళలో రాజపుత్ర కృషిని నేరుగా వివరిస్తుంది.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। राजपूत शासकों ने मंदिर वास्तुकला और क्षेत्रीय सांस्कृतिक परंपराओं में महत्वपूर्ण योगदान दिया।\n\nअनेक राजपूत दरबारों ने कवियों, विद्वानों, मंदिरों और धार्मिक संस्थाओं को संरक्षण दिया।\n\nमंदिर निर्माण राजनीतिक वैधता और सांस्कृतिक संरक्षण का महत्वपूर्ण माध्यम बन गया।\n\nविभिन्न राजपूत राजवंशों के अधीन क्षेत्रीय कलात्मक परंपराएँ विकसित हुईं।\n\nअतः कला, साहित्य और धर्म के संरक्षण ने ही क्षेत्रीय संस्कृति और स्थापत्य में राजपूत योगदान को प्रत्यक्ष रूप से संभव बनाया।",
+
+          "elimination_logic_english": "The Reason directly explains the cultural and architectural contributions of Rajput kingdoms.\n\nUPSC often links cultural development with royal patronage.\n\nRajput rulers supported temples, literature and regional arts.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం రాజపుత్ర రాజ్యాల సాంస్కృతిక మరియు నిర్మాణ కళా కృషిని నేరుగా వివరిస్తుంది.\n\nసాంస్కృతిక అభివృద్ధిని రాజపరిరక్షణతో UPSC తరచుగా అనుసంధానిస్తుంది.\n\nరాజపుత్ర పాలకులు దేవాలయాలు, సాహిత్యం మరియు ప్రాంతీయ కళలను ప్రోత్సహించారు.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे राजपूत राज्यों के सांस्कृतिक और स्थापत्य योगदान की व्याख्या करता है।\n\nUPSC अक्सर सांस्कृतिक विकास को शाही संरक्षण से जोड़ता है।\n\nराजपूत शासकों ने मंदिरों, साहित्य और क्षेत्रीय कलाओं को संरक्षण दिया।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प a सही उत्तर है।"
+        },
+        {
+          "question_english": "Match the following Rajput dynasties with their associated regions:\n\nList I\n1. Chauhans\n2. Solankis\n3. Paramaras\n4. Gahadavalas\n\nList II\nA. Gujarat\nB. Ajmer and Delhi\nC. Kannauj\nD. Malwa\n\nSelect the correct answer using the code given below.",
+
+          "options_english": {
+            "a": "1-B, 2-A, 3-D, 4-C",
+            "b": "1-A, 2-B, 3-C, 4-D",
+            "c": "1-B, 2-D, 3-A, 4-C",
+            "d": "1-C, 2-A, 3-B, 4-D"
+          },
+
+          "question_telugu": "క్రింది రాజపుత్ర వంశాలను వాటి సంబంధిత ప్రాంతాలతో జతపరచండి:\n\nజాబితా I\n1. చౌహాన్లు\n2. సోలంకీలు\n3. పరమారులు\n4. గహడవాలులు\n\nజాబితా II\nA. గుజరాత్\nB. అజ్మీర్ మరియు ఢిల్లీ\nC. కన్నౌజ్\nD. మాల్వా\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+          "options_telugu": {
+            "a": "1-B, 2-A, 3-D, 4-C",
+            "b": "1-A, 2-B, 3-C, 4-D",
+            "c": "1-B, 2-D, 3-A, 4-C",
+            "d": "1-C, 2-A, 3-B, 4-D"
+          },
+
+          "question_hindi": "निम्नलिखित राजपूत राजवंशों का उनके संबंधित क्षेत्रों से मिलान कीजिए:\n\nसूची I\n1. चौहान\n2. सोलंकी\n3. परमार\n4. गाहड़वाल\n\nसूची II\nA. गुजरात\nB. अजमेर और दिल्ली\nC. कन्नौज\nD. मालवा\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+          "options_hindi": {
+            "a": "1-B, 2-A, 3-D, 4-C",
+            "b": "1-A, 2-B, 3-C, 4-D",
+            "c": "1-B, 2-D, 3-A, 4-C",
+            "d": "1-C, 2-A, 3-B, 4-D"
+          },
+
+          "correct_answer": "a",
+
+          "explanation_english": "The Chauhans were associated with Ajmer and Delhi, especially under Prithviraj Chauhan.\n\nThe Solankis ruled parts of Gujarat, while the Paramaras were associated with the Malwa region.\n\nThe Gahadavalas ruled around Kannauj in northern India.\n\nRegional dynasties and their territorial associations are highly important for UPSC medieval history preparation.\n\nSuch match-the-following questions test conceptual clarity and regional mapping.",
+
+          "explanation_telugu": "చౌహాన్లు ముఖ్యంగా పృథ్వీరాజ్ చౌహాన్ కాలంలో అజ్మీర్ మరియు ఢిల్లీ ప్రాంతాలతో సంబంధం కలిగి ఉన్నారు.\n\nసోలంకీలు గుజరాత్ ప్రాంతాన్ని పాలించగా, పరమారులు మాల్వా ప్రాంతంతో అనుసంధానించబడ్డారు.\n\nగహడవాలులు ఉత్తర భారతదేశంలోని కన్నౌజ్ ప్రాంతాన్ని పాలించారు.\n\nప్రాంతీయ వంశాలు మరియు వాటి ప్రాంతీయ అనుసంధానాలు UPSC మధ్యయుగ చరిత్రలో అత్యంత ముఖ్యమైనవి.\n\nఇలాంటి జతపరచే ప్రశ్నలు భావనాత్మక స్పష్టత మరియు ప్రాంతీయ అవగాహనను పరీక్షిస్తాయి.",
+
+          "explanation_hindi": "चौहान विशेष रूप से पृथ्वीराज चौहान के काल में अजमेर और दिल्ली से संबंधित थे।\n\nसोलंकी गुजरात के भागों पर शासन करते थे, जबकि परमार मालवा क्षेत्र से संबंधित थे।\n\nगाहड़वाल उत्तर भारत के कन्नौज क्षेत्र पर शासन करते थे।\n\nक्षेत्रीय राजवंश और उनके क्षेत्रीय संबंध UPSC मध्यकालीन इतिहास की दृष्टि से अत्यंत महत्वपूर्ण हैं।\n\nऐसे मिलान संबंधी प्रश्न अवधारणात्मक स्पष्टता और क्षेत्रीय समझ की परीक्षा लेते हैं।",
+
+          "elimination_logic_english": "Chauhans are strongly linked with Ajmer and Delhi, while Solankis are linked with Gujarat.\n\nParamaras are associated with Malwa and Gahadavalas with Kannauj.\n\nOnly option a correctly matches all dynasties and regions.\n\nHence option a is the correct answer.",
+
+          "elimination_logic_telugu": "చౌహాన్లు అజ్మీర్ మరియు ఢిల్లీతో బలమైన సంబంధం కలిగి ఉన్నారు, సోలంకీలు గుజరాత్‌తో అనుసంధానించబడ్డారు.\n\nపరమారులు మాల్వాతో, గహడవాలులు కన్నౌజ్‌తో సంబంధం కలిగి ఉన్నారు.\n\nఅన్ని సరైన జతలను కేవలం ఎంపిక a మాత్రమే చూపిస్తుంది.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "चौहान अजमेर और दिल्ली से दृढ़ता से जुड़े हैं, जबकि सोलंकी गुजरात से संबंधित हैं।\n\nपरमार मालवा तथा गाहड़वाल कन्नौज से संबंधित हैं।\n\nकेवल विकल्प a सभी राजवंशों और क्षेत्रों का सही मिलान करता है।\n\nअतः विकल्प a सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Consider the following statements regarding the military system of Rajput kingdoms:\n\n1. Cavalry and warrior traditions formed an important component of Rajput warfare.\n2. Rajput rulers attached importance to personal heroism in battle.\n3. Rajput armies relied exclusively on naval warfare.\n\nWhich of the statements given above is/are correct?",
+
+          "options_english": {
+            "a": "1 only",
+            "b": "1 and 2 only",
+            "c": "2 and 3 only",
+            "d": "1, 2 and 3"
+          },
+
+          "question_telugu": "రాజపుత్ర రాజ్యాల సైనిక వ్యవస్థకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. గుర్రపు దళం మరియు యోధ సంప్రదాయాలు రాజపుత్ర యుద్ధ విధానంలో ముఖ్య భాగాలు.\n2. రాజపుత్ర పాలకులు యుద్ధంలో వ్యక్తిగత వీరత్వానికి ప్రాముఖ్యత ఇచ్చారు.\n3. రాజపుత్ర సైన్యాలు పూర్తిగా నౌకాదళ యుద్ధాలపై ఆధారపడ్డాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+          "options_telugu": {
+            "a": "1 మాత్రమే",
+            "b": "1 మరియు 2 మాత్రమే",
+            "c": "2 మరియు 3 మాత్రమే",
+            "d": "1, 2 మరియు 3"
+          },
+
+          "question_hindi": "राजपूत राज्यों की सैन्य व्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. घुड़सवार सेना और योद्धा परंपराएँ राजपूत युद्ध प्रणाली का महत्वपूर्ण भाग थीं।\n2. राजपूत शासक युद्ध में व्यक्तिगत वीरता को महत्व देते थे।\n3. राजपूत सेनाएँ पूर्णतः नौसैनिक युद्ध पर निर्भर थीं।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+          "options_hindi": {
+            "a": "केवल 1",
+            "b": "केवल 1 और 2",
+            "c": "केवल 2 और 3",
+            "d": "1, 2 और 3"
+          },
+
+          "correct_answer": "b",
+
+          "explanation_english": "Statements 1 and 2 are correct. Rajput military traditions emphasized cavalry warfare, martial honour and personal bravery.\n\nRajput rulers often celebrated heroism and battlefield courage as part of warrior ethics.\n\nStatement 3 is incorrect because Rajput warfare was primarily land-based rather than dependent on naval warfare.\n\nRegional geography and political conditions shaped the military organization of Rajput kingdoms.\n\nMilitary culture formed an important component of Rajput identity in medieval India.",
+
+          "explanation_telugu": "ప్రకటనలు 1 మరియు 2 సరైనవి. రాజపుత్ర సైనిక సంప్రదాయాలు గుర్రపు దళ యుద్ధం, యోధ గౌరవం మరియు వ్యక్తిగత వీరత్వాన్ని ప్రాముఖ్యతనిచ్చాయి.\n\nరాజపుత్ర పాలకులు యోధ ధర్మంలో భాగంగా వీరత్వాన్ని మరియు యుద్ధ ధైర్యాన్ని గొప్పగా భావించేవారు.\n\nప్రకటన 3 తప్పు, ఎందుకంటే రాజపుత్ర యుద్ధ వ్యవస్థ ప్రధానంగా భూభాగ యుద్ధాలపై ఆధారపడి ఉండేది.\n\nప్రాంతీయ భౌగోళిక పరిస్థితులు మరియు రాజకీయ పరిస్థితులు రాజపుత్ర సైనిక వ్యవస్థను ప్రభావితం చేశాయి.\n\nమధ్యయుగ భారతదేశంలో సైనిక సంస్కృతి రాజపుత్ర గుర్తింపులో ఒక ముఖ్య భాగంగా నిలిచింది.",
+
+          "explanation_hindi": "कथन 1 और 2 सही हैं। राजपूत सैन्य परंपराएँ घुड़सवार युद्ध, योद्धा सम्मान और व्यक्तिगत वीरता पर आधारित थीं।\n\nराजपूत शासक वीरता और युद्धक्षेत्र के साहस को योद्धा आदर्शों का महत्वपूर्ण भाग मानते थे।\n\nकथन 3 गलत है क्योंकि राजपूत युद्ध प्रणाली मुख्यतः स्थल-आधारित थी, न कि नौसैनिक युद्ध पर आधारित।\n\nक्षेत्रीय भौगोलिक और राजनीतिक परिस्थितियों ने राजपूत सैन्य संगठन को प्रभावित किया।\n\nमध्यकालीन भारत में सैन्य संस्कृति राजपूत पहचान का महत्वपूर्ण अंग थी।",
+
+          "elimination_logic_english": "Statement 3 is clearly incorrect because Rajput warfare was not based exclusively on naval strength.\n\nStatements 1 and 2 correctly describe cavalry traditions and warrior ethics.\n\nAfter eliminating Statement 3, Statements 1 and 2 remain correct.\n\nHence option b is the correct answer.",
+
+          "elimination_logic_telugu": "ప్రకటన 3 స్పష్టంగా తప్పు, ఎందుకంటే రాజపుత్ర యుద్ధ వ్యవస్థ పూర్తిగా నౌకాదళ శక్తిపై ఆధారపడలేదు.\n\nప్రకటనలు 1 మరియు 2 గుర్రపు దళ సంప్రదాయాలు మరియు యోధ ధర్మాలను సరైనంగా వివరిస్తున్నాయి.\n\nప్రకటన 3ను తొలగించిన తరువాత 1 మరియు 2 మాత్రమే సరైనవి.\n\nకాబట్టి ఎంపిక b సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कथन 3 स्पष्ट रूप से गलत है क्योंकि राजपूत युद्ध प्रणाली पूर्णतः नौसैनिक शक्ति पर आधारित नहीं थी।\n\nकथन 1 और 2 घुड़सवार परंपराओं और योद्धा आदर्शों का सही वर्णन करते हैं।\n\nकथन 3 हटाने पर केवल 1 और 2 सही बचते हैं।\n\nअतः विकल्प b सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Which one of the following Rajput rulers is associated with the kingdom of Mewar and resistance against the Mughal Empire?",
+
+          "options_english": {
+            "a": "Rana Sanga",
+            "b": "Prithviraj Chauhan",
+            "c": "Rana Pratap",
+            "d": "Bhoja"
+          },
+
+          "question_telugu": "మేవార్ రాజ్యం మరియు మొఘల్ సామ్రాజ్యానికి వ్యతిరేక ప్రతిఘటనతో సంబంధం కలిగిన రాజపుత్ర పాలకుడు ఎవరు?",
+
+          "options_telugu": {
+            "a": "రాణా సంగా",
+            "b": "పృథ్వీరాజ్ చౌహాన్",
+            "c": "రాణా ప్రతాప్",
+            "d": "భోజుడు"
+          },
+
+          "question_hindi": "मेवाड़ राज्य तथा मुगल साम्राज्य के विरुद्ध प्रतिरोध से संबंधित राजपूत शासक कौन था?",
+
+          "options_hindi": {
+            "a": "राणा सांगा",
+            "b": "पृथ्वीराज चौहान",
+            "c": "राणा प्रताप",
+            "d": "भोज"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Rana Pratap of Mewar is famous for his resistance against the Mughal Empire, particularly during the reign of Akbar.\n\nHe is especially associated with the Battle of Haldighati fought in 1576 CE.\n\nRana Pratap became a symbol of Rajput resistance and regional independence.\n\nMewar remained an important centre of Rajput political identity.\n\nUPSC frequently asks ruler-battle and ruler-region associations from medieval India.",
+
+          "explanation_telugu": "మేవార్‌కు చెందిన రాణా ప్రతాప్ ముఖ్యంగా అక్బర్ కాలంలో మొఘల్ సామ్రాజ్యానికి వ్యతిరేకంగా చేసిన ప్రతిఘటనకు ప్రసిద్ధి చెందాడు.\n\nఅతను ముఖ్యంగా 1576 CEలో జరిగిన హల్దీఘాటి యుద్ధంతో సంబంధం కలిగి ఉన్నాడు.\n\nరాణా ప్రతాప్ రాజపుత్ర ప్రతిఘటన మరియు ప్రాంతీయ స్వాతంత్ర్యానికి ప్రతీకగా నిలిచాడు.\n\nమేవార్ రాజపుత్ర రాజకీయ గుర్తింపులో ఒక ముఖ్య కేంద్రంగా నిలిచింది.\n\nమధ్యయుగ భారతదేశంలో పాలకులు-యుద్ధాలు మరియు పాలకులు-ప్రాంతాల అనుసంధానంపై UPSC తరచుగా ప్రశ్నలు అడుగుతుంది.",
+
+          "explanation_hindi": "मेवाड़ के राणा प्रताप विशेष रूप से अकबर के शासनकाल में मुगल साम्राज्य के विरुद्ध अपने प्रतिरोध के लिए प्रसिद्ध हैं।\n\nवे विशेष रूप से 1576 ईस्वी में लड़े गए हल्दीघाटी के युद्ध से संबंधित हैं।\n\nराणा प्रताप राजपूत प्रतिरोध और क्षेत्रीय स्वतंत्रता के प्रतीक बन गए।\n\nमेवाड़ राजपूत राजनीतिक पहचान का महत्वपूर्ण केंद्र बना रहा।\n\nUPSC अक्सर मध्यकालीन भारत से शासक-युद्ध और शासक-क्षेत्र संबंधी प्रश्न पूछता है।",
+
+          "elimination_logic_english": "Prithviraj Chauhan is associated with Tarain, while Rana Sanga is associated with the Battle of Khanwa.\n\nRana Pratap is directly associated with Mewar and resistance against Akbar.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "పృథ్వీరాజ్ చౌహాన్ తరైన్ యుద్ధంతో సంబంధం కలిగి ఉండగా, రాణా సంగా ఖాన్వా యుద్ధంతో అనుసంధానించబడ్డాడు.\n\nరాణా ప్రతాప్ నేరుగా మేవార్ మరియు అక్బర్‌కు వ్యతిరేక ప్రతిఘటనతో సంబంధం కలిగి ఉన్నాడు.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "पृथ्वीराज चौहान तराइन के युद्ध से संबंधित हैं, जबकि राणा सांगा खानवा के युद्ध से संबंधित हैं।\n\nराणा प्रताप सीधे मेवाड़ और अकबर के विरुद्ध प्रतिरोध से जुड़े हैं।\n\nअतः विकल्प c सही उत्तर है।"
+        },
+
+        {
+          "question_english": "Assertion (A): Political fragmentation among Rajput kingdoms affected collective resistance against invasions.\n\nReason (R): Rajput rulers frequently engaged in inter-clan rivalries and regional conflicts.\n\nWhich one of the following is correct?",
+
+          "options_english": {
+            "a": "A is correct but R is not correct",
+            "b": "Both A and R are correct but R is not the correct explanation of A",
+            "c": "Both A and R are correct and R is the correct explanation of A",
+            "d": "A is not correct but R is correct"
+          },
+
+          "question_telugu": "ప్రతిపాదన (A): రాజపుత్ర రాజ్యాల మధ్య రాజకీయ విభజన దాడులకు వ్యతిరేకంగా సమిష్టి ప్రతిఘటనను ప్రభావితం చేసింది.\n\nకారణం (R): రాజపుత్ర పాలకులు తరచుగా వంశీయ పోటీలు మరియు ప్రాంతీయ యుద్ధాల్లో పాల్గొన్నారు.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+          "options_telugu": {
+            "a": "A సరైనది కానీ R సరైనది కాదు",
+            "b": "A మరియు R రెండూ సరైనవి కానీ R, A కి సరైన వివరణ కాదు",
+            "c": "A మరియు R రెండూ సరైనవి మరియు R, A కి సరైన వివరణ",
+            "d": "A సరైనది కాదు కానీ R సరైనది"
+          },
+
+          "question_hindi": "अभिकथन (A): राजपूत राज्यों के बीच राजनीतिक विखंडन ने आक्रमणों के विरुद्ध सामूहिक प्रतिरोध को प्रभावित किया।\n\nकारण (R): राजपूत शासक अक्सर कुलीय प्रतिस्पर्धा और क्षेत्रीय संघर्षों में लगे रहते थे।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+          "options_hindi": {
+            "a": "A सही है किन्तु R सही नहीं है",
+            "b": "A और R दोनों सही हैं किन्तु R, A की सही व्याख्या नहीं है",
+            "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+            "d": "A सही नहीं है किन्तु R सही है"
+          },
+
+          "correct_answer": "c",
+
+          "explanation_english": "Both Assertion and Reason are correct. Rajput kingdoms often remained politically fragmented and were divided into several competing clans and regional powers.\n\nFrequent rivalries among Rajput rulers weakened broader political unity.\n\nThis fragmentation affected the ability to organize sustained collective resistance against powerful external invasions.\n\nHowever, Rajput resistance continued regionally in different phases of medieval Indian history.\n\nThe political structure of Rajput kingdoms is an important analytical theme in UPSC medieval history.",
+
+          "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. రాజపుత్ర రాజ్యాలు రాజకీయంగా విభజించబడి అనేక పోటీ వంశాలు మరియు ప్రాంతీయ శక్తులుగా ఉండేవి.\n\nరాజపుత్ర పాలకుల మధ్య తరచూ జరిగిన పోటీలు విస్తృత రాజకీయ ఐక్యతను బలహీనపరిచాయి.\n\nఈ విభజన శక్తివంతమైన విదేశీ దాడులకు వ్యతిరేకంగా దీర్ఘకాలిక సమిష్టి ప్రతిఘటనను ఏర్పాటు చేయడాన్ని ప్రభావితం చేసింది.\n\nఅయినప్పటికీ మధ్యయుగ భారత చరిత్రలో వివిధ దశల్లో ప్రాంతీయ రాజపుత్ర ప్రతిఘటన కొనసాగింది.\n\nరాజపుత్ర రాజకీయ నిర్మాణం UPSC మధ్యయుగ చరిత్రలో ఒక ముఖ్య విశ్లేషణాత్మక అంశం.",
+
+          "explanation_hindi": "अभिकथन और कारण दोनों सही हैं। राजपूत राज्य राजनीतिक रूप से विभाजित थे और अनेक प्रतिस्पर्धी कुलों तथा क्षेत्रीय शक्तियों में बँटे हुए थे।\n\nराजपूत शासकों के बीच निरंतर प्रतिस्पर्धा ने व्यापक राजनीतिक एकता को कमजोर किया।\n\nइस विखंडन ने शक्तिशाली बाहरी आक्रमणों के विरुद्ध दीर्घकालिक सामूहिक प्रतिरोध की क्षमता को प्रभावित किया।\n\nफिर भी मध्यकालीन भारतीय इतिहास के विभिन्न चरणों में क्षेत्रीय राजपूत प्रतिरोध जारी रहा।\n\nराजपूत राज्यों की राजनीतिक संरचना UPSC मध्यकालीन इतिहास का महत्वपूर्ण विश्लेषणात्मक विषय है।",
+
+          "elimination_logic_english": "The Reason directly explains why political fragmentation affected collective resistance.\n\nInter-clan rivalries weakened broader unity among Rajput states.\n\nUPSC frequently asks analytical assertion-reason questions from medieval polity.\n\nThus, the Reason correctly explains the Assertion.\n\nHence option c is the correct answer.",
+
+          "elimination_logic_telugu": "కారణం రాజకీయ విభజన సమిష్టి ప్రతిఘటనను ఎందుకు ప్రభావితం చేసిందో నేరుగా వివరిస్తుంది.\n\nవంశీయ పోటీలు రాజపుత్ర రాజ్యాల మధ్య విస్తృత ఐక్యతను బలహీనపరిచాయి.\n\nమధ్యయుగ రాజకీయ వ్యవస్థపై ఆధారపడిన విశ్లేషణాత్మక ప్రతిపాదన-కారణం ప్రశ్నలను UPSC తరచుగా అడుగుతుంది.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+          "elimination_logic_hindi": "कारण सीधे स्पष्ट करता है कि राजनीतिक विखंडन ने सामूहिक प्रतिरोध को क्यों प्रभावित किया।\n\nकुलीय प्रतिस्पर्धाओं ने राजपूत राज्यों के बीच व्यापक एकता को कमजोर किया।\n\nUPSC अक्सर मध्यकालीन राजनीति से विश्लेषणात्मक अभिकथन-कारण प्रश्न पूछता है।\n\nअतः कारण अभिकथन की सही व्याख्या करता है।\n\nइसलिए विकल्प c सही उत्तर है।"
+        }
+      ]
+    }
+  }
+}
+    
