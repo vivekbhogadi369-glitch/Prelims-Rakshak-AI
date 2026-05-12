@@ -16,6 +16,14 @@ def serve_static(filename):
     return send_from_directory('static', filename)
 
 
+def load_json_file(path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
 def load_pyqs_json():
     try:
         with open("pyqs.json", "r", encoding="utf-8") as f:
@@ -25,6 +33,10 @@ def load_pyqs_json():
 
 
 PYQS_DATA = load_pyqs_json()
+
+# ✅ NEW MCQ JSON LOADERS
+ANCIENT_MCQS_DATA = load_json_file("static/json/mcqs_ancient_history.json")
+MEDIEVAL_MCQS_DATA = load_json_file("static/json/mcqs_medieval_history.json")
 
 
 def get_pyq_subjects():
