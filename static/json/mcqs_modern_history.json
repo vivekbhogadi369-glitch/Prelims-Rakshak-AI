@@ -550,5 +550,394 @@
       "elimination_logic_hindi": "युग्म 3 मुख्य ट्रैप है। वॉरेन हेस्टिंग्स और कॉर्नवालिस दोनों प्रारंभिक ब्रिटिश प्रशासन से जुड़े थे, इसलिए UPSC भ्रम उत्पन्न करती है। युग्म 3 गलत होने पर विकल्प 'c' सही उत्तर बनता है।"
     }
   ]
+  },
+  "British Conquests": {
+  "topic_english": "British Conquests",
+  "topic_telugu": "బ్రిటిష్ ఆక్రమణలు",
+  "topic_hindi": "ब्रिटिश विजय अभियान",
+
+  "questions": [
+
+    {
+      "question_english": "With reference to the Battle of Plassey (1757), consider the following statements:\n\n1. Mir Jafar supported the British against Siraj-ud-Daulah.\n2. The battle established British political dominance in Bengal.\n3. The French directly fought on the side of Siraj-ud-Daulah during the battle.\n\nWhich of the statements given above is/are correct?",
+
+      "question_telugu": "1757 ప్లాసీ యుద్ధానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మీర్ జాఫర్ సిరాజుద్దౌలాకు వ్యతిరేకంగా బ్రిటిష్ వారికి మద్దతు ఇచ్చాడు.\n2. ఈ యుద్ధం బెంగాల్‌లో బ్రిటిష్ రాజకీయ ఆధిపత్యానికి పునాది వేసింది.\n3. ఈ యుద్ధంలో ఫ్రెంచ్ వారు నేరుగా సిరాజుద్దౌలాకు మద్దతుగా యుద్ధం చేశారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "question_hindi": "1757 के प्लासी के युद्ध के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. मीर जाफर ने सिराजुद्दौला के विरुद्ध अंग्रेजों का समर्थन किया।\n2. इस युद्ध ने बंगाल में ब्रिटिश राजनीतिक प्रभुत्व की नींव रखी।\n3. इस युद्ध में फ्रांसीसियों ने सीधे सिराजुद्दौला की ओर से युद्ध किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_english": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మరియు 2 మాత్రమే",
+        "b": "2 మరియు 3 మాత్రమే",
+        "c": "1 మరియు 3 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1 और 2",
+        "b": "केवल 2 और 3",
+        "c": "केवल 1 और 3",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Statements 1 and 2 are correct. Mir Jafar betrayed Siraj-ud-Daulah and secretly cooperated with Robert Clive, which became decisive in the British victory at Plassey. The battle marked the beginning of British political supremacy in Bengal and later in India.\n\nStatement 3 is incorrect because although the French had influence in Bengal, they did not directly participate as a decisive military force in the Battle of Plassey. UPSC often frames traps by exaggerating French military involvement.",
+
+      "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. మీర్ జాఫర్ సిరాజుద్దౌలాను ద్రోహం చేసి రాబర్ట్ క్లైవ్‌తో రహస్యంగా సహకరించాడు. ఇది ప్లాసీ యుద్ధంలో బ్రిటిష్ విజయానికి కీలకమైంది. ఈ యుద్ధం బెంగాల్‌లో మరియు తరువాత భారతదేశంలో బ్రిటిష్ రాజకీయ ఆధిపత్యానికి ప్రారంభం అయింది.\n\n3వ ప్రకటన తప్పు. ఫ్రెంచ్ ప్రభావం ఉన్నప్పటికీ, ప్లాసీ యుద్ధంలో వారు ప్రధాన సైనిక శక్తిగా నేరుగా పాల్గొనలేదు.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। मीर जाफर ने सिराजुद्दौला के साथ विश्वासघात किया और रॉबर्ट क्लाइव से गुप्त सहयोग किया। यही प्लासी में अंग्रेजों की विजय का मुख्य कारण बना। इस युद्ध ने बंगाल तथा आगे चलकर भारत में ब्रिटिश राजनीतिक प्रभुत्व की शुरुआत की।\n\nकथन 3 गलत है क्योंकि फ्रांसीसी प्रभाव अवश्य था, परंतु उन्होंने प्लासी के युद्ध में निर्णायक प्रत्यक्ष सैन्य भूमिका नहीं निभाई।",
+
+      "elimination_logic_english": "Statement 3 is the key trap. UPSC frequently adds extreme wording such as 'directly fought' to confuse students. If statement 3 is eliminated, only option 'a' remains. Historical analysis shows that the decisive factor was betrayal within the Nawab’s camp, not French intervention.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ట్రాప్. UPSC సాధారణంగా 'నేరుగా యుద్ధం చేశారు' వంటి పదాలను ఉపయోగించి విద్యార్థులను గందరగోళానికి గురిచేస్తుంది. 3వ ప్రకటనను తొలగిస్తే సరైన సమాధానం 'a' మాత్రమే మిగులుతుంది.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य ट्रैप है। UPSC अक्सर 'सीधे युद्ध किया' जैसे शब्दों का उपयोग करके भ्रम पैदा करती है। यदि कथन 3 हटाया जाए तो केवल विकल्प 'a' बचता है।"
+    },
+
+    {
+      "question_english": "Which one of the following events enabled the English East India Company to secure the Diwani rights of Bengal, Bihar and Orissa?",
+
+      "question_telugu": "క్రింది సంఘటనలలో ఏది ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీకి బెంగాల్, బీహార్ మరియు ఒడిశా దివానీ హక్కులను పొందడానికి దారి తీసింది?",
+
+      "question_hindi": "निम्नलिखित में से किस घटना ने अंग्रेजी ईस्ट इंडिया कंपनी को बंगाल, बिहार और उड़ीसा की दीवानी प्राप्त करने में सक्षम बनाया?",
+
+      "options_english": {
+        "a": "Battle of Buxar",
+        "b": "Battle of Plassey",
+        "c": "Treaty of Allahabad",
+        "d": "Regulating Act"
+      },
+
+      "options_telugu": {
+        "a": "బక్సర్ యుద్ధం",
+        "b": "ప్లాసీ యుద్ధం",
+        "c": "అల్లాహాబాద్ ఒప్పందం",
+        "d": "రెగ్యులేటింగ్ చట్టం"
+      },
+
+      "options_hindi": {
+        "a": "बक्सर का युद्ध",
+        "b": "प्लासी का युद्ध",
+        "c": "इलाहाबाद की संधि",
+        "d": "रेगुलेटिंग एक्ट"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "The Diwani rights were formally granted to the English East India Company through the Treaty of Allahabad (1765), signed by Mughal Emperor Shah Alam II after the Battle of Buxar. These rights allowed the Company to collect revenue from Bengal, Bihar and Orissa.\n\nThe Battle of Buxar created the conditions for British dominance, but the legal transfer of Diwani occurred through the treaty. UPSC often differentiates between military victory and formal administrative authority.",
+
+      "explanation_telugu": "1765 అల్లాహాబాద్ ఒప్పందం ద్వారా మొఘల్ చక్రవర్తి షా ఆలమ్ II ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీకి బెంగాల్, బీహార్ మరియు ఒడిశా దివానీ హక్కులను ఇచ్చాడు. దీని ద్వారా కంపెనీకి ఆదాయ సేకరణ హక్కు లభించింది.\n\nబక్సర్ యుద్ధం బ్రిటిష్ ఆధిపత్యానికి మార్గం సుగమం చేసినప్పటికీ, దివానీ హక్కుల అధికారిక బదిలీ ఒప్పందం ద్వారా జరిగింది.",
+
+      "explanation_hindi": "1765 की इलाहाबाद संधि के माध्यम से मुगल सम्राट शाह आलम द्वितीय ने अंग्रेजी ईस्ट इंडिया कंपनी को बंगाल, बिहार और उड़ीसा की दीवानी प्रदान की। इससे कंपनी को राजस्व वसूली का अधिकार मिला।\n\nबक्सर का युद्ध ब्रिटिश प्रभुत्व के लिए निर्णायक था, परंतु दीवानी का औपचारिक हस्तांतरण संधि के माध्यम से हुआ।",
+
+      "elimination_logic_english": "Many students incorrectly choose Battle of Buxar because it created British military supremacy. However, the question specifically asks about securing Diwani rights. The legal authority came through the Treaty of Allahabad. Therefore, option 'c' is correct.",
+
+      "elimination_logic_telugu": "చాలామంది విద్యార్థులు బక్సర్ యుద్ధాన్ని ఎంచుకుంటారు, ఎందుకంటే అది బ్రిటిష్ సైనిక ఆధిపత్యాన్ని స్థాపించింది. కానీ ప్రశ్న దివానీ హక్కుల గురించి అడుగుతోంది. ఆ హక్కులు అధికారికంగా అల్లాహాబాద్ ఒప్పందం ద్వారా లభించాయి.",
+
+      "elimination_logic_hindi": "कई विद्यार्थी बक्सर के युद्ध को चुनते हैं क्योंकि उसने अंग्रेजों की सैन्य श्रेष्ठता स्थापित की। लेकिन प्रश्न दीवानी अधिकारों के बारे में है। उनका औपचारिक हस्तांतरण इलाहाबाद संधि द्वारा हुआ था।"
+    },
+
+    {
+      "question_english": "Consider the following pairs:\n\n1. Subsidiary Alliance — Lord Wellesley\n2. Doctrine of Lapse — Lord Dalhousie\n3. Permanent Settlement — Warren Hastings\n\nWhich of the pairs given above is/are correctly matched?",
+
+      "question_telugu": "క్రింది జంటలను పరిశీలించండి:\n\n1. సబ్సిడియరీ అలయన్స్ — లార్డ్ వెల్లెస్లీ\n2. డాక్ట్రిన్ ఆఫ్ లాప్స్ — లార్డ్ డల్హౌసీ\n3. శాశ్వత భూవ్యవస్థ — వారెన్ హేస్టింగ్స్\n\nపై జంటలలో ఏవి సరైనవి?",
+
+      "question_hindi": "निम्नलिखित युग्मों पर विचार कीजिए:\n\n1. सहायक संधि — लॉर्ड वेलेजली\n2. लैप्स का सिद्धांत — लॉर्ड डलहौजी\n3. स्थायी बंदोबस्त — वॉरेन हेस्टिंग्स\n\nउपर्युक्त युग्मों में से कौन-सा/से सही सुमेलित है/हैं?",
+
+      "options_english": {
+        "a": "1 and 3 only",
+        "b": "2 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మరియు 3 మాత్రమే",
+        "b": "2 మరియు 3 మాత్రమే",
+        "c": "1 మరియు 2 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1 और 3",
+        "b": "केवल 2 और 3",
+        "c": "केवल 1 और 2",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "Pairs 1 and 2 are correctly matched. Lord Wellesley introduced the Subsidiary Alliance system to expand British control over Indian princely states. Lord Dalhousie implemented the Doctrine of Lapse to annex states without natural heirs.\n\nPair 3 is incorrect because the Permanent Settlement was introduced by Lord Cornwallis in 1793, not Warren Hastings. UPSC frequently asks governor-general-policy matching questions.",
+
+      "explanation_telugu": "1 మరియు 2 జంటలు సరైనవి. లార్డ్ వెల్లెస్లీ సబ్సిడియరీ అలయన్స్ విధానాన్ని ప్రవేశపెట్టి భారతీయ సంస్థానాలపై బ్రిటిష్ నియంత్రణను పెంచాడు. లార్డ్ డల్హౌసీ డాక్ట్రిన్ ఆఫ్ లాప్స్ విధానాన్ని అమలు చేశాడు.\n\n3వ జంట తప్పు. శాశ్వత భూవ్యవస్థను 1793లో లార్డ్ కార్న్వాలిస్ ప్రవేశపెట్టాడు, వారెన్ హేస్టింగ్స్ కాదు.",
+
+      "explanation_hindi": "युग्म 1 और 2 सही हैं। लॉर्ड वेलेजली ने सहायक संधि प्रणाली लागू की, जबकि लॉर्ड डलहौजी ने लैप्स का सिद्धांत लागू किया।\n\nयुग्म 3 गलत है क्योंकि स्थायी बंदोबस्त 1793 में लॉर्ड कॉर्नवालिस द्वारा लागू किया गया था, न कि वॉरेन हेस्टिंग्स द्वारा।",
+
+      "elimination_logic_english": "Pair 3 is the trap. UPSC often confuses students between Warren Hastings and Cornwallis because both were associated with early British administration. Once pair 3 is identified as incorrect, option 'c' becomes the answer.",
+
+      "elimination_logic_telugu": "3వ జంట ప్రధాన ట్రాప్. వారెన్ హేస్టింగ్స్ మరియు కార్న్వాలిస్ ఇద్దరూ ప్రారంభ బ్రిటిష్ పాలనతో సంబంధం కలిగి ఉండటం వల్ల UPSC గందరగోళం సృష్టిస్తుంది. 3వ జంట తప్పు అని గుర్తిస్తే 'c' సరైన సమాధానం అవుతుంది.",
+
+      "elimination_logic_hindi": "युग्म 3 मुख्य ट्रैप है। वॉरेन हेस्टिंग्स और कॉर्नवालिस दोनों प्रारंभिक ब्रिटिश प्रशासन से जुड़े थे, इसलिए UPSC भ्रम उत्पन्न करती है। युग्म 3 गलत होने पर विकल्प 'c' सही उत्तर बनता है।"
+    },
+    {
+  "question_english": "With reference to the Anglo-Mysore Wars, consider the following statements:\n\n1. Haider Ali was the founder of the Kingdom of Mysore.\n2. Tipu Sultan introduced a new system of coinage and calendar in Mysore.\n3. The Fourth Anglo-Mysore War resulted in the death of Tipu Sultan.\n\nWhich of the statements given above is/are correct?",
+
+  "question_telugu": "ఆంగ్లో-మైసూర్ యుద్ధాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. హైదర్ అలీ మైసూర్ రాజ్య స్థాపకుడు.\n2. టిప్పు సుల్తాన్ మైసూరులో కొత్త నాణేల మరియు క్యాలెండర్ వ్యవస్థలను ప్రవేశపెట్టాడు.\n3. నాలుగవ ఆంగ్లో-మైసూర్ యుద్ధంలో టిప్పు సుల్తాన్ మరణించాడు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "आंग्ल-मैसूर युद्धों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. हैदर अली मैसूर राज्य का संस्थापक था।\n2. टीपू सुल्तान ने मैसूर में नई मुद्रा और पंचांग प्रणाली शुरू की।\n3. चतुर्थ आंग्ल-मैसूर युद्ध में टीपू सुल्तान की मृत्यु हुई।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "Statements 2 and 3 are correct. Tipu Sultan introduced administrative innovations including a new coinage system, Mauludi calendar and efforts toward state modernization. He died in 1799 during the Fourth Anglo-Mysore War while defending Srirangapatna.\n\nStatement 1 is incorrect because Haider Ali was not the founder of Mysore. The Wodeyar dynasty had already established the kingdom earlier. Haider Ali merely emerged as the de facto ruler through military power.",
+
+  "explanation_telugu": "2 మరియు 3 ప్రకటనలు సరైనవి. టిప్పు సుల్తాన్ కొత్త నాణేల వ్యవస్థ, మౌలూది క్యాలెండర్ వంటి పరిపాలనా సంస్కరణలను ప్రవేశపెట్టాడు. 1799లో నాలుగవ ఆంగ్లో-మైసూర్ యుద్ధంలో శ్రీరంగపట్టణాన్ని రక్షిస్తూ మరణించాడు.\n\n1వ ప్రకటన తప్పు. మైసూర్ రాజ్యాన్ని వోడేయార్ వంశం ముందుగానే స్థాపించింది. హైదర్ అలీ తరువాత సైనిక శక్తితో వాస్తవ పాలకుడిగా ఎదిగాడు.",
+
+  "explanation_hindi": "कथन 2 और 3 सही हैं। टीपू सुल्तान ने नई मुद्रा प्रणाली, मौलूदी पंचांग तथा प्रशासनिक सुधारों को लागू किया। 1799 में चतुर्थ आंग्ल-मैसूर युद्ध के दौरान श्रीरंगपट्टनम की रक्षा करते हुए उसकी मृत्यु हुई।\n\nकथन 1 गलत है क्योंकि मैसूर राज्य की स्थापना पहले ही वोडेयार वंश द्वारा की जा चुकी थी। हैदर अली बाद में वास्तविक शासक के रूप में उभरा।",
+
+  "elimination_logic_english": "Statement 1 is the major trap. UPSC often confuses between 'founder of a dynasty' and 'powerful ruler'. Once statement 1 is eliminated, option 'b' becomes correct. Historical chronology is important in such questions.",
+
+  "elimination_logic_telugu": "1వ ప్రకటన ప్రధాన ట్రాప్. UPSC సాధారణంగా 'స్థాపకుడు' మరియు 'శక్తివంతమైన పాలకుడు' మధ్య గందరగోళం సృష్టిస్తుంది. 1వ ప్రకటనను తొలగిస్తే 'b' సరైన సమాధానం అవుతుంది.",
+
+  "elimination_logic_hindi": "कथन 1 मुख्य ट्रैप है। UPSC अक्सर 'संस्थापक' और 'शक्तिशाली शासक' के बीच भ्रम उत्पन्न करती है। कथन 1 हटाने पर विकल्प 'b' सही उत्तर बनता है।"
+},
+{
+  "question_english": "Which one of the following correctly explains the significance of the Battle of Buxar (1764)?",
+
+  "question_telugu": "1764 బక్సర్ యుద్ధ ప్రాముఖ్యతను క్రింది వాటిలో ఏది సరైనంగా వివరిస్తుంది?",
+
+  "question_hindi": "1764 के बक्सर युद्ध के महत्व को निम्नलिखित में से कौन सही प्रकार से स्पष्ट करता है?",
+
+  "options_english": {
+    "a": "It ended French political influence in India",
+    "b": "It established British naval supremacy in India",
+    "c": "It confirmed British military superiority over major Indian powers in eastern India",
+    "d": "It led to the introduction of the Subsidiary Alliance"
+  },
+
+  "options_telugu": {
+    "a": "ఇది భారతదేశంలో ఫ్రెంచ్ రాజకీయ ప్రభావాన్ని ముగించింది",
+    "b": "ఇది భారతదేశంలో బ్రిటిష్ నౌకాదళ ఆధిపత్యాన్ని స్థాపించింది",
+    "c": "ఇది తూర్పు భారతదేశంలోని ప్రధాన భారతీయ శక్తులపై బ్రిటిష్ సైనిక ఆధిపత్యాన్ని నిర్ధారించింది",
+    "d": "ఇది సబ్సిడియరీ అలయన్స్ ప్రవేశానికి దారి తీసింది"
+  },
+
+  "options_hindi": {
+    "a": "इसने भारत में फ्रांसीसी राजनीतिक प्रभाव समाप्त कर दिया",
+    "b": "इसने भारत में ब्रिटिश नौसैनिक प्रभुत्व स्थापित किया",
+    "c": "इसने पूर्वी भारत की प्रमुख भारतीय शक्तियों पर ब्रिटिश सैन्य श्रेष्ठता स्थापित की",
+    "d": "इससे सहायक संधि प्रणाली की शुरुआत हुई"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "The Battle of Buxar (1764) was fought between the British East India Company and the combined forces of Mir Qasim, Shuja-ud-Daulah and Shah Alam II. The British victory established their military superiority in eastern India.\n\nThis victory enabled the Company to gain Diwani rights later through the Treaty of Allahabad. Unlike Plassey, Buxar represented victory against a broader political coalition, making it more decisive in consolidating British power.",
+
+  "explanation_telugu": "1764 బక్సర్ యుద్ధం బ్రిటిష్ ఈస్ట్ ఇండియా కంపెనీ మరియు మీర్ ఖాసిం, షుజా-ఉద్-దౌలా, షా ఆలమ్ II సంయుక్త బలగాల మధ్య జరిగింది. ఈ యుద్ధంలో బ్రిటిష్ విజయం తూర్పు భారతదేశంలో వారి సైనిక ఆధిపత్యాన్ని స్థాపించింది.\n\nఈ విజయం తరువాత అల్లాహాబాద్ ఒప్పందం ద్వారా దివానీ హక్కులు పొందడానికి దారి తీసింది.",
+
+  "explanation_hindi": "1764 का बक्सर युद्ध अंग्रेजी ईस्ट इंडिया कंपनी और मीर कासिम, शुजाउद्दौला तथा शाह आलम द्वितीय की संयुक्त सेनाओं के बीच लड़ा गया। इस युद्ध में अंग्रेजों की विजय ने पूर्वी भारत में उनकी सैन्य श्रेष्ठता स्थापित कर दी।\n\nइसके बाद इलाहाबाद संधि के माध्यम से कंपनी को दीवानी अधिकार प्राप्त हुए।",
+
+  "elimination_logic_english": "Option 'a' relates more closely to the Carnatic Wars. Option 'd' belongs to Lord Wellesley’s later period. Option 'b' is unrelated to Buxar. Thus, option 'c' is the only historically accurate answer.",
+
+  "elimination_logic_telugu": "‘a’ ఎంపిక కర్నాటిక్ యుద్ధాలకు సంబంధించినది. ‘d’ ఎంపిక లార్డ్ వెల్లెస్లీ కాలానికి సంబంధించినది. ‘b’ ఎంపిక బక్సర్ యుద్ధంతో సంబంధం లేదు. కాబట్టి ‘c’ మాత్రమే సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "विकल्प 'a' कर्नाटक युद्धों से अधिक संबंधित है। विकल्प 'd' लॉर्ड वेलेजली के बाद के काल से जुड़ा है। विकल्प 'b' का बक्सर युद्ध से संबंध नहीं है। इसलिए विकल्प 'c' सही उत्तर है।"
+},
+{
+  "question_english": "Assertion (A): The Subsidiary Alliance system weakened the sovereignty of Indian princely states.\n\nReason (R): Under the Subsidiary Alliance, Indian rulers were required to maintain British troops at their own expense.\n\nSelect the correct answer using the code given below.",
+
+  "question_telugu": "ప్రతిపాదన (A): సబ్సిడియరీ అలయన్స్ విధానం భారతీయ సంస్థానాల సార్వభౌమాధికారాన్ని బలహీనపరిచింది.\n\nకారణం (R): సబ్సిడియరీ అలయన్స్ కింద భారతీయ పాలకులు తమ ఖర్చుతో బ్రిటిష్ సైన్యాన్ని నిర్వహించాల్సి వచ్చేది.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "अभिकथन (A): सहायक संधि प्रणाली ने भारतीय रियासतों की संप्रभुता को कमजोर किया।\n\nकारण (R): सहायक संधि के अंतर्गत भारतीय शासकों को अपने खर्च पर ब्रिटिश सेना रखनी पड़ती थी।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is incorrect",
+    "d": "A is incorrect but R is correct"
+  },
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R తప్పు",
+    "d": "A తప్పు కానీ R సరైనది"
+  },
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+    "c": "A सही है लेकिन R गलत है",
+    "d": "A गलत है लेकिन R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Both Assertion and Reason are correct, and R correctly explains A. Under the Subsidiary Alliance introduced by Lord Wellesley, Indian rulers had to maintain British troops within their territories and pay for them.\n\nThis increased financial dependence on the British and reduced the military independence of Indian states. Over time, rulers lost effective sovereignty and became subordinate allies of the Company.",
+
+  "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. లార్డ్ వెల్లెస్లీ ప్రవేశపెట్టిన సబ్సిడియరీ అలయన్స్ విధానం ప్రకారం భారతీయ పాలకులు తమ భూభాగంలో బ్రిటిష్ సైన్యాన్ని ఉంచి దాని ఖర్చును భరించాల్సి వచ్చేది.\n\nదీంతో వారు ఆర్థికంగా మరియు సైనికంగా బ్రిటిష్‌పై ఆధారపడాల్సి వచ్చింది. ఫలితంగా సంస్థానాల సార్వభౌమాధికారం బలహీనపడింది.",
+
+  "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण, अभिकथन की सही व्याख्या करता है। लॉर्ड वेलेजली द्वारा लागू सहायक संधि प्रणाली के अंतर्गत भारतीय शासकों को अपने राज्य में ब्रिटिश सेना रखनी पड़ती थी तथा उसका खर्च भी उठाना पड़ता था।\n\nइससे उनकी आर्थिक और सैन्य स्वतंत्रता समाप्त होने लगी तथा वे कंपनी पर निर्भर हो गए।",
+
+  "elimination_logic_english": "This is a conceptual Assertion-Reason question. If R directly explains how sovereignty weakened, then option 'a' becomes correct. UPSC often tests understanding of indirect colonial control mechanisms.",
+
+  "elimination_logic_telugu": "ఇది భావనాత్మక Assertion-Reason ప్రశ్న. కారణం నేరుగా సార్వభౌమాధికారం ఎలా బలహీనపడిందో వివరిస్తోంది. కాబట్టి 'a' సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "यह एक अवधारणात्मक Assertion-Reason प्रश्न है। कारण सीधे बताता है कि संप्रभुता कैसे कमजोर हुई। इसलिए विकल्प 'a' सही उत्तर है।"
+},
+    {
+  "question_english": "Consider the following statements regarding the Anglo-Maratha Wars:\n\n1. The First Anglo-Maratha War ended with the Treaty of Salbai.\n2. The Third Anglo-Maratha War abolished the office of the Peshwa.\n3. The Maratha Confederacy remained politically united throughout the wars.\n\nWhich of the statements given above is/are correct?",
+
+  "question_telugu": "ఆంగ్లో-మరాఠా యుద్ధాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మొదటి ఆంగ్లో-మరాఠా యుద్ధం సాల్బాయి ఒప్పందంతో ముగిసింది.\n2. మూడవ ఆంగ్లో-మరాఠా యుద్ధం పేష్వా పదవికి ముగింపు పలికింది.\n3. యుద్ధాలంతటా మరాఠా సమాఖ్య రాజకీయంగా ఐక్యంగా కొనసాగింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "आंग्ल-मराठा युद्धों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रथम आंग्ल-मराठा युद्ध सालबाई की संधि से समाप्त हुआ।\n2. तृतीय आंग्ल-मराठा युद्ध ने पेशवा पद को समाप्त कर दिया।\n3. युद्धों के दौरान मराठा महासंघ राजनीतिक रूप से एकजुट बना रहा।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Statements 1 and 2 are correct. The First Anglo-Maratha War concluded with the Treaty of Salbai in Seventeen Eighty Two, which temporarily restored political balance between the British and the Marathas. The Third Anglo-Maratha War decisively ended Maratha political supremacy and abolished the office of the Peshwa.\n\nStatement 3 is incorrect because the Maratha Confederacy suffered from serious internal divisions. Rivalries among the Holkars, Scindias, Bhonsles and the Peshwa prevented coordinated resistance against the British. This political fragmentation became one of the major reasons for British success in western India.",
+
+  "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. మొదటి ఆంగ్లో-మరాఠా యుద్ధం సాల్బాయి ఒప్పందంతో ముగిసింది. మూడవ ఆంగ్లో-మరాఠా యుద్ధం మరాఠా రాజకీయ ఆధిపత్యానికి ముగింపు పలికి పేష్వా పదవిని రద్దు చేసింది.\n\n3వ ప్రకటన తప్పు. హోల్కర్, సింధియా, భోంస్లే మరియు పేష్వాల మధ్య తీవ్రమైన అంతర్గత విభేదాలు ఉండేవి. ఈ ఐక్యతలేమి బ్రిటిష్ విజయానికి ప్రధాన కారణంగా మారింది.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। प्रथम आंग्ल-मराठा युद्ध सालबाई की संधि से समाप्त हुआ। तृतीय आंग्ल-मराठा युद्ध ने मराठा राजनीतिक प्रभुत्व को समाप्त कर पेशवा पद का अंत कर दिया।\n\nकथन 3 गलत है क्योंकि मराठा महासंघ आंतरिक संघर्षों से ग्रस्त था। होल्कर, सिंधिया, भोंसले और पेशवा के बीच प्रतिद्वंद्विता ने अंग्रेजों के विरुद्ध संयुक्त प्रतिरोध को कमजोर कर दिया।",
+
+  "elimination_logic_english": "Statement 3 is the core elimination point. UPSC frequently tests whether students understand that British expansion succeeded not merely because of military strength but also because Indian regional powers lacked unity.\n\nIf statement 3 is identified as incorrect, option 'a' becomes the only logically sustainable answer. Students who vaguely associate the Marathas with a strong confederacy often incorrectly retain statement 3.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. బ్రిటిష్ విజయం కేవలం సైనిక శక్తి వల్ల మాత్రమే కాకుండా భారతీయ శక్తుల ఐక్యతలేమి వల్ల కూడా సాధ్యమైందని UPSC తరచుగా పరీక్షిస్తుంది.\n\n3వ ప్రకటన తప్పు అని గుర్తిస్తే 'a' మాత్రమే సరైన సమాధానంగా మిగులుతుంది.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है। UPSC अक्सर यह परीक्षण करती है कि विद्यार्थी समझते हैं या नहीं कि अंग्रेजों की सफलता का कारण केवल सैन्य शक्ति नहीं बल्कि भारतीय शक्तियों की आंतरिक विभाजित स्थिति भी थी।\n\nयदि कथन 3 को गलत पहचान लिया जाए तो विकल्प 'a' स्वतः सही उत्तर बन जाता है।"
+},
+{
+  "question_english": "Which one of the following best explains the Doctrine of Lapse introduced by Lord Dalhousie?",
+
+  "question_telugu": "లార్డ్ డల్హౌసీ ప్రవేశపెట్టిన డాక్ట్రిన్ ఆఫ్ లాప్స్‌ను క్రింది వాటిలో ఏది అత్యుత్తమంగా వివరిస్తుంది?",
+
+  "question_hindi": "लॉर्ड डलहौजी द्वारा लागू किए गए लैप्स के सिद्धांत को निम्नलिखित में से कौन सबसे सही प्रकार से स्पष्ट करता है?",
+
+  "options_english": {
+    "a": "It encouraged representative institutions in princely states",
+    "b": "It authorised annexation of states without a natural male heir",
+    "c": "It guaranteed complete autonomy to Indian rulers",
+    "d": "It created defensive military alliances with Indian states"
+  },
+
+  "options_telugu": {
+    "a": "ఇది సంస్థానాలలో ప్రతినిధి పాలనను ప్రోత్సహించింది",
+    "b": "సహజ పురుష వారసుడు లేని సంస్థానాలను విలీనం చేయడానికి అనుమతించింది",
+    "c": "ఇది భారతీయ పాలకులకు సంపూర్ణ స్వయం ప్రతిపత్తి ఇచ్చింది",
+    "d": "ఇది భారతీయ సంస్థానాలతో రక్షణాత్మక సైనిక కూటములను ఏర్పరచింది"
+  },
+
+  "options_hindi": {
+    "a": "इसने रियासतों में प्रतिनिधिक शासन को प्रोत्साहित किया",
+    "b": "इसने प्राकृतिक पुरुष उत्तराधिकारी न होने पर राज्यों के विलय की अनुमति दी",
+    "c": "इसने भारतीय शासकों को पूर्ण स्वायत्तता प्रदान की",
+    "d": "इसने भारतीय राज्यों के साथ रक्षात्मक सैन्य गठबंधन बनाए"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Doctrine of Lapse was an expansionist policy followed by Lord Dalhousie. According to this doctrine, if a ruler died without a natural male heir, the British refused to automatically recognise an adopted successor and annexed the state.\n\nThis policy was used against states such as Satara, Jhansi and Nagpur. Although Dalhousie justified it on administrative grounds, Indian rulers viewed it as a direct attack on traditional rights and political sovereignty. The policy therefore intensified anti-British resentment before the Revolt of Eighteen Fifty Seven.",
+
+  "explanation_telugu": "డాక్ట్రిన్ ఆఫ్ లాప్స్ లార్డ్ డల్హౌసీ అమలు చేసిన విస్తరణవాద విధానం. సహజ పురుష వారసుడు లేకపోతే దత్తపుత్రుని స్వయంచాలక వారసుడిగా బ్రిటిష్ గుర్తించకుండా ఆ సంస్థానాన్ని విలీనం చేసుకునేవారు.\n\nసతారా, ఝాన్సీ, నాగ్‌పూర్ వంటి సంస్థానాలు ఈ విధానం ద్వారా ఆక్రమించబడ్డాయి. భారతీయ పాలకులు దీనిని తమ సంప్రదాయ హక్కులపై దాడిగా భావించారు.",
+
+  "explanation_hindi": "लैप्स का सिद्धांत लॉर्ड डलहौजी की विस्तारवादी नीति थी। इसके अनुसार यदि किसी शासक का प्राकृतिक पुरुष उत्तराधिकारी नहीं होता था, तो अंग्रेज दत्तक उत्तराधिकारी को स्वतः मान्यता नहीं देते थे और राज्य का विलय कर लेते थे।\n\nसतारा, झांसी और नागपुर जैसी रियासतों का विलय इसी नीति के अंतर्गत किया गया। भारतीय शासकों ने इसे अपने पारंपरिक अधिकारों और राजनीतिक संप्रभुता पर सीधा आघात माना।",
+
+  "elimination_logic_english": "Options 'a' and 'c' suggest reform or autonomy, which completely contradict the annexationist nature of Dalhousie's policy. Option 'd' relates more closely to Subsidiary Alliance.\n\nUPSC often frames confusion between Subsidiary Alliance and Doctrine of Lapse. The key distinction is:\n• Subsidiary Alliance → indirect control\n• Doctrine of Lapse → direct annexation\n\nTherefore, option 'b' is correct.",
+
+  "elimination_logic_telugu": "‘a’ మరియు ‘c’ సంస్కరణలు లేదా స్వయం ప్రతిపత్తిని సూచిస్తున్నాయి. ఇవి డల్హౌసీ విస్తరణవాద విధానానికి విరుద్ధం. ‘d’ సబ్సిడియరీ అలయన్స్‌కు సంబంధించినది.\n\nUPSC తరచుగా సబ్సిడియరీ అలయన్స్ మరియు డాక్ట్రిన్ ఆఫ్ లాప్స్ మధ్య గందరగోళం సృష్టిస్తుంది.\n\nసబ్సిడియరీ అలయన్స్ → పరోక్ష నియంత్రణ\nడాక్ట్రిన్ ఆఫ్ లాప్స్ → ప్రత్యక్ష విలీనం\n\nకాబట్టి 'b' సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "‘a’ और ‘c’ सुधार तथा स्वायत्तता का संकेत देते हैं, जो डलहौजी की विस्तारवादी नीति के विपरीत हैं। ‘d’ अधिकतर सहायक संधि से संबंधित है।\n\nUPSC अक्सर सहायक संधि और लैप्स के सिद्धांत के बीच भ्रम उत्पन्न करती है। मुख्य अंतर है:\n• सहायक संधि → अप्रत्यक्ष नियंत्रण\n• लैप्स का सिद्धांत → प्रत्यक्ष विलय\n\nअतः विकल्प 'b' सही उत्तर है।"
+},
+{
+  "question_english": "Assertion (A): The British expanded their political control in India partly because of superior military organisation.\n\nReason (R): Indian regional powers generally lacked sustained political unity and coordinated resistance.\n\nSelect the correct answer using the code given below.",
+
+  "question_telugu": "ప్రతిపాదన (A): మెరుగైన సైనిక వ్యవస్థ కారణంగా బ్రిటిష్ వారు భారతదేశంలో తమ రాజకీయ ఆధిపత్యాన్ని విస్తరించగలిగారు.\n\nకారణం (R): భారతీయ ప్రాంతీయ శక్తులలో దీర్ఘకాలిక రాజకీయ ఐక్యత మరియు సమన్వయ ప్రతిఘటన సాధారణంగా లోపించింది.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "अभिकथन (A): श्रेष्ठ सैन्य संगठन के कारण अंग्रेज भारत में अपना राजनीतिक नियंत्रण बढ़ाने में सफल हुए।\n\nकारण (R): भारतीय क्षेत्रीय शक्तियों में दीर्घकालिक राजनीतिक एकता तथा समन्वित प्रतिरोध का अभाव था।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is incorrect",
+    "d": "A is incorrect but R is correct"
+  },
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R తప్పు",
+    "d": "A తప్పు కానీ R సరైనది"
+  },
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+    "c": "A सही है लेकिन R गलत है",
+    "d": "A गलत है लेकिन R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Both Assertion and Reason are correct, and the Reason directly explains the Assertion. British military success depended not only on better weapons but also on disciplined armies, centralized command and financial resources.\n\nAt the same time, most Indian powers resisted separately rather than collectively. Rivalries among the Marathas, Mysore, Hyderabad and other regional states prevented the emergence of a unified anti-British front. This combination of British organisational strength and Indian political fragmentation enabled gradual colonial expansion.",
+
+  "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. కారణం ప్రతిపాదనను నేరుగా వివరిస్తోంది. బ్రిటిష్ విజయానికి కేవలం ఆధునిక ఆయుధాలు మాత్రమే కాకుండా క్రమశిక్షణ గల సైన్యం, కేంద్రీకృత సైనిక వ్యవస్థ మరియు ఆర్థిక వనరులు కూడా కారణమయ్యాయి.\n\nఅదే సమయంలో భారతీయ శక్తులు ఐక్యంగా కాకుండా విడివిడిగా ప్రతిఘటించాయి. మరాఠాలు, మైసూర్, హైదరాబాద్ వంటి శక్తుల మధ్య విభేదాలు బ్రిటిష్ విస్తరణకు అనుకూలించాయి.",
+
+  "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण, अभिकथन की सही व्याख्या करता है। अंग्रेजों की सफलता केवल आधुनिक हथियारों पर आधारित नहीं थी, बल्कि अनुशासित सेना, केंद्रीकृत सैन्य व्यवस्था और आर्थिक संसाधनों पर भी आधारित थी।\n\nदूसरी ओर भारतीय शक्तियाँ संयुक्त रूप से संघर्ष नहीं कर सकीं। मराठों, मैसूर, हैदराबाद तथा अन्य क्षेत्रीय शक्तियों के बीच प्रतिस्पर्धा ने अंग्रेजों के विरुद्ध एक संयुक्त मोर्चा बनने नहीं दिया।",
+
+  "elimination_logic_english": "This is a classic UPSC cause-and-effect question. The Reason is not an independent statement; it directly explains why British military organisation became decisive in India.\n\nStudents sometimes choose option 'b' by treating the two statements separately. However, the lack of Indian unity was one of the central structural reasons behind British expansion.\n\nHence, option 'a' is correct.",
+
+  "elimination_logic_telugu": "ఇది UPSC తరచుగా అడిగే కారణ-ఫలిత ప్రశ్న. కారణం ప్రతిపాదనకు నేర వివరణ ఇస్తోంది.\n\nకొంతమంది విద్యార్థులు రెండు ప్రకటనలను వేర్వేరుగా చూసి 'b' ఎంచుకునే అవకాశం ఉంది. కానీ భారతీయ శక్తుల ఐక్యతలేమి బ్రిటిష్ విస్తరణకు ప్రధాన కారణం.\n\nకాబట్టి 'a' సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "यह UPSC का एक क्लासिक कारण-परिणाम प्रश्न है। कारण सीधे बताता है कि अंग्रेजी सैन्य संगठन भारत में क्यों निर्णायक सिद्ध हुआ।\n\nकई विद्यार्थी दोनों कथनों को अलग-अलग मानकर विकल्प 'b' चुन लेते हैं। किंतु भारतीय शक्तियों की आंतरिक विभाजित स्थिति वास्तव में अंग्रेजी विस्तार का प्रमुख कारण थी।\n\nअतः विकल्प 'a' सही उत्तर है।"
+}
+  ]
   }
 }
