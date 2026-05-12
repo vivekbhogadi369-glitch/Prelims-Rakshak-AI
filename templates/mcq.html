@@ -271,7 +271,8 @@ const translations = {
     back: "← Back",
     accuracy: "Accuracy",
     subjectNames: {
-      "Ancient History": "Ancient History"
+      "Ancient History": "Ancient History",
+      "Medieval History": "Medieval Indian History"
     }
   },
 
@@ -293,7 +294,8 @@ const translations = {
     back: "← వెనక్కి",
     accuracy: "ఖచ్చితత్వం",
     subjectNames: {
-      "Ancient History": "ప్రాచీన భారత చరిత్ర"
+      "Ancient History": "ప్రాచీన భారత చరిత్ర",
+      "Medieval History": "మధ్యయుగ భారత చరిత్ర"
     }
   },
 
@@ -315,7 +317,8 @@ const translations = {
     back: "← वापस",
     accuracy: "सटीकता",
     subjectNames: {
-      "Ancient History": "प्राचीन भारतीय इतिहास"
+      "Ancient History": "प्राचीन भारतीय इतिहास",
+      "Medieval History": "मध्यकालीन भारतीय इतिहास"
     }
   }
 };
@@ -335,12 +338,7 @@ function cleanExamTerms(text) {
       .replaceAll("Reason", "కారణం")
       .replaceAll("Match the following", "క్రింది వాటిని జతపరచండి")
       .replaceAll("List I", "జాబితా I")
-      .replaceAll("List II", "జాబితా II")
-      .replaceAll("Select the correct answer using the code given below.", "క్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.")
-      .replaceAll("Which one of the following is correct?", "క్రింది వాటిలో ఏది సరైనది?")
-      .replaceAll("Which of the statements given above is/are correct?", "పై ప్రకటనలలో ఏవి సరైనవి?")
-      .replaceAll("consider the following statements", "క్రింది ప్రకటనలను పరిశీలించండి")
-      .replaceAll("With reference to", "సంబంధించి");
+      .replaceAll("List II", "జాబితా II");
   }
 
   if (currentLanguage === "hindi") {
@@ -351,12 +349,7 @@ function cleanExamTerms(text) {
       .replaceAll("Reason", "कारण")
       .replaceAll("Match the following", "निम्नलिखित का मिलान कीजिए")
       .replaceAll("List I", "सूची I")
-      .replaceAll("List II", "सूची II")
-      .replaceAll("Select the correct answer using the code given below.", "नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।")
-      .replaceAll("Which one of the following is correct?", "निम्नलिखित में से कौन-सा सही है?")
-      .replaceAll("Which of the statements given above is/are correct?", "उपर्युक्त कथनों में से कौन-सा/से सही है/हैं?")
-      .replaceAll("consider the following statements", "निम्नलिखित कथनों पर विचार कीजिए")
-      .replaceAll("With reference to", "के संदर्भ में");
+      .replaceAll("List II", "सूची II");
   }
 
   return text;
@@ -458,9 +451,20 @@ function changeLanguage(language, button) {
 
 async function loadMCQs() {
   try {
-    const response = await fetch("/static/json/mcqs_history.json");
-    mcqData = await response.json();
+
+    const ancientResponse = await fetch("/static/json/mcqs_ancient_history.json");
+    const ancientData = await ancientResponse.json();
+
+    const medievalResponse = await fetch("/static/json/mcqs_medieval_history.json");
+    const medievalData = await medievalResponse.json();
+
+    mcqData = {
+      "Ancient History": ancientData.topics || {},
+      "Medieval History": medievalData.topics || {}
+    };
+
     applyLanguageLabels();
+
   } catch (error) {
     alert("MCQ JSON loading failed.");
     console.error(error);
