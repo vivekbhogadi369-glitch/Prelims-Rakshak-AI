@@ -34,9 +34,10 @@ def load_pyqs_json():
 
 PYQS_DATA = load_pyqs_json()
 
-# ✅ NEW MCQ JSON LOADERS
+# ✅ MCQ JSON LOADERS
 ANCIENT_MCQS_DATA = load_json_file("static/json/mcqs_ancient_history.json")
 MEDIEVAL_MCQS_DATA = load_json_file("static/json/mcqs_medieval_history.json")
+MODERN_MCQS_DATA = load_json_file("static/json/mcqs_modern_history.json")
 
 
 def get_pyq_subjects():
