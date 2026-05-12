@@ -440,7 +440,12 @@ function populateTopics() {
   if (!subject || !mcqData[subject]) return;
 
   Object.keys(mcqData[subject]).forEach(topic => {
-    if (topic.startsWith("_")) return;
+    if (
+      topic.startsWith("_") ||
+      topic === "subject_english" ||
+      topic === "subject_telugu" ||
+      topic === "subject_hindi"
+    ) return;
 
     const option = document.createElement("option");
     option.value = topic;
