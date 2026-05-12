@@ -1,5 +1,247 @@
 {
   "subject_english": "Modern Indian History",
   "subject_telugu": "ఆధునిక భారత చరిత్ర",
-  "subject_hindi": "आधुनिक भारतीय इतिहास"
+  "subject_hindi": "आधुनिक भारतीय इतिहास",
+
+  "Advent of Europeans": {
+    "topic_english": "Advent of Europeans",
+    "topic_telugu": "యూరోపియన్ల ఆగమనం",
+    "topic_hindi": "यूरोपियों का आगमन",
+
+    "questions": [
+      {
+        "question_english": "With reference to the arrival of Europeans in India, consider the following statements:\n\n1. The Portuguese were the first Europeans to establish a strong maritime and trading presence in India.\n2. Vasco da Gama reached Calicut in 1498.\n3. The Dutch East India Company was established before the English East India Company.\n\nWhich of the statements given above is/are correct?",
+        "question_telugu": "భారతదేశానికి యూరోపియన్ల ఆగమనానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. భారతదేశంలో బలమైన సముద్ర మరియు వాణిజ్య ఆధిపత్యాన్ని ఏర్పరచిన తొలి యూరోపియన్లు పోర్చుగీసువారు.\n2. వాస్కో డ గామా 1498లో కాలికట్ చేరుకున్నాడు.\n3. డచ్ ఈస్ట్ ఇండియా కంపెనీ, ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ కంటే ముందే స్థాపించబడింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+        "question_hindi": "भारत में यूरोपियों के आगमन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. भारत में मजबूत समुद्री और व्यापारिक उपस्थिति स्थापित करने वाले प्रथम यूरोपीय पुर्तगाली थे।\n2. वास्को द गामा 1498 में कालीकट पहुँचा।\n3. डच ईस्ट इंडिया कंपनी की स्थापना अंग्रेजी ईस्ट इंडिया कंपनी से पहले हुई थी।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Statements 1 and 2 are correct. The Portuguese were the first European power to establish a durable maritime and commercial presence in India after Vasco da Gama reached Calicut in 1498.\n\nTheir early advantage came from control over the Cape route, naval strength, and fortified coastal settlements such as Cochin and Goa.\n\nStatement 3 is incorrect. The English East India Company was established in 1600, while the Dutch East India Company was established in 1602.\n\nSo, the correct answer is 1 and 2 only.",
+        "explanation_telugu": "1 మరియు 2వ ప్రకటనలు సరైనవి. 1498లో వాస్కో డ గామా కాలికట్ చేరుకున్న తర్వాత భారతదేశంలో స్థిరమైన సముద్ర మరియు వాణిజ్య ఆధిపత్యాన్ని ఏర్పరచిన తొలి యూరోపియన్ శక్తి పోర్చుగీసువారు.\n\nకేప్ మార్గంపై నియంత్రణ, నౌకాదళ బలం, కొచ్చిన్ మరియు గోవా వంటి తీర కోటల వల్ల వారికి ప్రారంభ ఆధిక్యం లభించింది.\n\n3వ ప్రకటన తప్పు. ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ 1600లో స్థాపించబడగా, డచ్ ఈస్ట్ ఇండియా కంపెనీ 1602లో స్థాపించబడింది.\n\nకాబట్టి సరైన సమాధానం 1 మరియు 2 మాత్రమే.",
+        "explanation_hindi": "कथन 1 और 2 सही हैं। 1498 में वास्को द गामा के कालीकट पहुँचने के बाद भारत में स्थायी समुद्री और व्यापारिक उपस्थिति स्थापित करने वाली पहली यूरोपीय शक्ति पुर्तगाली थे।\n\nकेप मार्ग पर नियंत्रण, नौसैनिक शक्ति और कोचीन तथा गोवा जैसे तटीय केन्द्रों के कारण उन्हें प्रारंभिक बढ़त मिली।\n\nकथन 3 गलत है। अंग्रेजी ईस्ट इंडिया कंपनी की स्थापना 1600 में हुई, जबकि डच ईस्ट इंडिया कंपनी 1602 में स्थापित हुई।\n\nअतः सही उत्तर केवल 1 और 2 है।",
+
+        "elimination_logic_english": "Statement 3 is the main trap. Many students confuse the commercial strength of the Dutch with chronological priority.\n\nChronology is decisive here:\n\nEnglish East India Company → 1600\nDutch East India Company → 1602\n\nOnce statement 3 is eliminated, options b, c and d are removed.\n\nStatement 1 is correct because the Portuguese came first among European maritime powers. Statement 2 is a core factual marker of modern Indian history.\n\nHence option a is correct.",
+        "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఉచ్చు. డచ్‌వారి వాణిజ్య బలాన్ని వారి కాలక్రమ ప్రాధాన్యంగా కొందరు తప్పుగా భావిస్తారు.\n\nకాలక్రమం ఇలా గుర్తుంచుకోవాలి:\n\nఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ → 1600\nడచ్ ఈస్ట్ ఇండియా కంపెనీ → 1602\n\n3వ ప్రకటన తప్పు అని తెలిసిన వెంటనే b, c, d ఎంపికలు తొలగిపోతాయి.\n\n1వ ప్రకటన సరైనది, ఎందుకంటే యూరోపియన్ సముద్ర శక్తులలో పోర్చుగీసువారే మొదటివారు. 2వ ప్రకటన ఆధునిక భారత చరిత్రలో ప్రాథమిక వాస్తవం.\n\nకాబట్టి ఎంపిక a సరైనది.",
+        "elimination_logic_hindi": "कथन 3 मुख्य ट्रैप है। कई विद्यार्थी डचों की व्यापारिक शक्ति को कालक्रम की प्राथमिकता समझ लेते हैं।\n\nकालक्रम निर्णायक है:\n\nअंग्रेजी ईस्ट इंडिया कंपनी → 1600\nडच ईस्ट इंडिया कंपनी → 1602\n\nकथन 3 हटते ही विकल्प b, c और d समाप्त हो जाते हैं।\n\nकथन 1 सही है क्योंकि यूरोपीय समुद्री शक्तियों में पुर्तगाली पहले आए। कथन 2 आधुनिक भारतीय इतिहास का मूल तथ्य है।\n\nअतः विकल्प a सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following correctly matches the European power with its important trading centre in India?",
+        "question_telugu": "క్రింది వాటిలో యూరోపియన్ శక్తి మరియు భారతదేశంలోని దాని ముఖ్య వాణిజ్య కేంద్రం సరైనంగా జతపరచబడినది ఏది?",
+        "question_hindi": "निम्नलिखित में से कौन-सा यूरोपीय शक्ति और भारत में उसके महत्वपूर्ण व्यापारिक केन्द्र का सही मिलान है?",
+
+        "options_english": {
+          "a": "Portuguese – Pulicat",
+          "b": "French – Pondicherry",
+          "c": "Dutch – Calicut",
+          "d": "English – Goa"
+        },
+        "options_telugu": {
+          "a": "పోర్చుగీసువారు – పులికాట్",
+          "b": "ఫ్రెంచువారు – పుదుచ్చేరి",
+          "c": "డచ్‌వారు – కాలికట్",
+          "d": "ఇంగ్లీషువారు – గోవా"
+        },
+        "options_hindi": {
+          "a": "पुर्तगाली – पुलीकट",
+          "b": "फ्रांसीसी – पांडिचेरी",
+          "c": "डच – कालीकट",
+          "d": "अंग्रेज – गोवा"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Pondicherry was the most important French settlement in India and later became the centre of French political ambitions in south India.\n\nPulicat is associated mainly with the Dutch on the Coromandel Coast, not the Portuguese.\n\nCalicut is associated with Vasco da Gama’s arrival and early Portuguese contact, not as a principal Dutch centre.\n\nGoa became the chief Portuguese centre in India, not an English centre.\n\nTherefore, French – Pondicherry is the correct match.",
+        "explanation_telugu": "పుదుచ్చేరి భారతదేశంలోని ఫ్రెంచువారి అత్యంత ముఖ్యమైన స్థావరం. తరువాత ఇది దక్షిణ భారతదేశంలో ఫ్రెంచ్ రాజకీయ ఆశయాలకు కేంద్రంగా మారింది.\n\nపులికాట్ ప్రధానంగా కోరమండల్ తీరంలోని డచ్‌వారితో సంబంధం కలిగి ఉంది, పోర్చుగీసువారితో కాదు.\n\nకాలికట్ వాస్కో డ గామా రాక మరియు ప్రారంభ పోర్చుగీసు సంబంధాలతో ప్రసిద్ధి చెందింది, కానీ అది ప్రధాన డచ్ కేంద్రం కాదు.\n\nగోవా భారతదేశంలోని ప్రధాన పోర్చుగీసు కేంద్రం, ఇంగ్లీషువారి కేంద్రం కాదు.\n\nకాబట్టి French – Pondicherry సరైన జత.",
+        "explanation_hindi": "पांडिचेरी भारत में फ्रांसीसियों का सबसे महत्वपूर्ण केन्द्र था और बाद में दक्षिण भारत में फ्रांसीसी राजनीतिक महत्वाकांक्षाओं का केन्द्र बना।\n\nपुलीकट मुख्यतः कोरोमंडल तट पर डचों से संबंधित था, पुर्तगालियों से नहीं।\n\nकालीकट वास्को द गामा के आगमन और प्रारंभिक पुर्तगाली संपर्क से जुड़ा था, परंतु यह प्रमुख डच केन्द्र नहीं था।\n\nगोवा भारत में पुर्तगालियों का मुख्य केन्द्र था, अंग्रेजों का नहीं।\n\nअतः फ्रांसीसी – पांडिचेरी सही मिलान है।",
+
+        "elimination_logic_english": "This is an association-based UPSC question. The fastest elimination method is to remember fixed pairs:\n\nPortuguese → Goa / Cochin\nDutch → Pulicat\nEnglish → Surat / Madras / Bombay / Calcutta\nFrench → Pondicherry / Chandernagore\n\nOption a is wrong because Pulicat belongs to the Dutch.\nOption c is wrong because Calicut is linked to early Portuguese contact.\nOption d is wrong because Goa was the Portuguese headquarters.\n\nOnly option b survives.",
+        "elimination_logic_telugu": "ఇది అనుసంధానంపై ఆధారపడిన UPSC తరహా ప్రశ్న. వేగంగా తొలగించడానికి ఈ జతలను గుర్తుంచుకోవాలి:\n\nపోర్చుగీసువారు → గోవా / కొచ్చిన్\nడచ్‌వారు → పులికాట్\nఇంగ్లీషువారు → సూరత్ / మద్రాస్ / బొంబాయి / కలకత్తా\nఫ్రెంచువారు → పుదుచ్చేరి / చందనగర్\n\nఎంపిక a తప్పు, ఎందుకంటే పులికాట్ డచ్‌వారికి చెందింది.\nఎంపిక c తప్పు, ఎందుకంటే కాలికట్ ప్రారంభ పోర్చుగీసు సంబంధంతో ప్రసిద్ధి చెందింది.\nఎంపిక d తప్పు, ఎందుకంటే గోవా పోర్చుగీసువారి ప్రధాన కేంద్రం.\n\nకాబట్టి ఎంపిక b మాత్రమే సరైనది.",
+        "elimination_logic_hindi": "यह संबद्धता-आधारित UPSC प्रश्न है। तेज़ी से हल करने के लिए ये स्थायी जोड़े याद रखें:\n\nपुर्तगाली → गोवा / कोचीन\nडच → पुलीकट\nअंग्रेज → सूरत / मद्रास / बंबई / कलकत्ता\nफ्रांसीसी → पांडिचेरी / चंद्रनगर\n\nविकल्प a गलत है क्योंकि पुलीकट डचों से संबंधित है।\nविकल्प c गलत है क्योंकि कालीकट प्रारंभिक पुर्तगाली संपर्क से जुड़ा है।\nविकल्प d गलत है क्योंकि गोवा पुर्तगालियों का मुख्यालय था।\n\nकेवल विकल्प b सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding the decline of Portuguese power in India:\n\n1. Religious intolerance and missionary excesses weakened Portuguese relations with local powers.\n2. The rise of the Dutch and the English challenged Portuguese naval and commercial monopoly.\n3. The Portuguese possessed a stronger joint-stock company structure than the Dutch and the English.\n\nWhich of the statements given above is/are incorrect?",
+        "question_telugu": "భారతదేశంలో పోర్చుగీసు శక్తి పతనానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మత అసహనం మరియు మిషనరీ దుర్వినియోగాలు స్థానిక శక్తులతో పోర్చుగీసు సంబంధాలను బలహీనపరిచాయి.\n2. డచ్ మరియు ఇంగ్లీషువారి ఎదుగుదల పోర్చుగీసు నౌకాదళ మరియు వాణిజ్య ఏకాధిపత్యాన్ని సవాలు చేసింది.\n3. డచ్ మరియు ఇంగ్లీషువారితో పోలిస్తే పోర్చుగీసువారికి బలమైన జాయింట్ స్టాక్ కంపెనీ నిర్మాణం ఉండేది.\n\nపై ప్రకటనలలో ఏవి తప్పు?",
+        "question_hindi": "भारत में पुर्तगाली शक्ति के पतन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. धार्मिक असहिष्णुता और मिशनरी अतिरेक ने स्थानीय शक्तियों के साथ पुर्तगाली संबंधों को कमजोर किया।\n2. डच और अंग्रेजों के उदय ने पुर्तगाली नौसैनिक और व्यापारिक एकाधिकार को चुनौती दी।\n3. पुर्तगालियों के पास डच और अंग्रेजों की तुलना में अधिक मजबूत संयुक्त पूँजी कंपनी संरचना थी।\n\nउपर्युक्त कथनों में से कौन-सा/से गलत है/हैं?",
+
+        "options_english": {
+          "a": "1 only",
+          "b": "1 and 2 only",
+          "c": "2 and 3 only",
+          "d": "3 only"
+        },
+        "options_telugu": {
+          "a": "1 మాత్రమే",
+          "b": "1 మరియు 2 మాత్రమే",
+          "c": "2 మరియు 3 మాత్రమే",
+          "d": "3 మాత్రమే"
+        },
+        "options_hindi": {
+          "a": "केवल 1",
+          "b": "केवल 1 और 2",
+          "c": "केवल 2 और 3",
+          "d": "केवल 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Statements 1 and 2 are correct, so they are not to be selected as incorrect.\n\nPortuguese religious intolerance, missionary pressure, and the Goa Inquisition created resentment among local rulers and communities. This weakened their political acceptability.\n\nThe Dutch and the English also challenged Portuguese dominance through stronger naval power, better commercial organisation, and joint-stock company systems.\n\nStatement 3 is incorrect. The Portuguese did not possess a stronger joint-stock company model than the Dutch VOC or English East India Company. Their commercial structure was weaker and more state-controlled compared to these corporate trading companies.\n\nSince the question asks for the incorrect statement, the answer is 3 only.",
+        "explanation_telugu": "1 మరియు 2వ ప్రకటనలు సరైనవి. కాబట్టి అవి తప్పు ప్రకటనలుగా ఎంచుకోవాల్సినవి కావు.\n\nపోర్చుగీసు మత అసహనం, మిషనరీ ఒత్తిడి, గోవా ఇంక్విజిషన్ స్థానిక పాలకులు మరియు సమాజాల్లో వ్యతిరేకతను కలిగించాయి. దీని వల్ల వారి రాజకీయ అంగీకారం తగ్గింది.\n\nడచ్ మరియు ఇంగ్లీషువారు బలమైన నౌకాదళ శక్తి, మెరుగైన వాణిజ్య నిర్వహణ, జాయింట్ స్టాక్ కంపెనీ వ్యవస్థల ద్వారా పోర్చుగీసు ఆధిపత్యాన్ని సవాలు చేశారు.\n\n3వ ప్రకటన తప్పు. డచ్ VOC లేదా ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీతో పోలిస్తే పోర్చుగీసువారికి బలమైన జాయింట్ స్టాక్ కంపెనీ నిర్మాణం లేదు. వారి వాణిజ్య వ్యవస్థ బలహీనంగా మరియు ప్రభుత్వ నియంత్రణకు ఎక్కువగా లోబడి ఉండేది.\n\nప్రశ్న తప్పు ప్రకటనను అడుగుతున్నందున సమాధానం 3 మాత్రమే.",
+        "explanation_hindi": "कथन 1 और 2 सही हैं, इसलिए इन्हें गलत कथन के रूप में नहीं चुना जाएगा।\n\nपुर्तगाली धार्मिक असहिष्णुता, मिशनरी दबाव और गोवा इन्क्विज़िशन ने स्थानीय शासकों और समाजों में असंतोष पैदा किया। इससे उनकी राजनीतिक स्वीकृति कमजोर हुई।\n\nडच और अंग्रेजों ने अधिक मजबूत नौसैनिक शक्ति, बेहतर व्यापारिक संगठन और संयुक्त पूँजी कंपनी व्यवस्था के माध्यम से पुर्तगाली प्रभुत्व को चुनौती दी।\n\nकथन 3 गलत है। पुर्तगालियों के पास डच VOC या अंग्रेजी ईस्ट इंडिया कंपनी जैसी मजबूत संयुक्त पूँजी कंपनी संरचना नहीं थी। उनकी व्यापारिक व्यवस्था अपेक्षाकृत कमजोर और अधिक राज्य-नियंत्रित थी।\n\nक्योंकि प्रश्न गलत कथन पूछ रहा है, उत्तर केवल 3 है।",
+
+        "elimination_logic_english": "This question is deliberately framed in the negative: it asks for the incorrect statement. Such wording is a common UPSC trap.\n\nStatement 1 cannot be incorrect because religious intolerance and the Goa Inquisition are standard decline factors.\n\nStatement 2 cannot be incorrect because Dutch and English naval-commercial competition was central to Portuguese decline.\n\nStatement 3 reverses the actual historical position. The Dutch and English had more effective joint-stock company structures, while the Portuguese model remained comparatively weaker.\n\nTherefore, only statement 3 is incorrect, making option d correct.",
+        "elimination_logic_telugu": "ఈ ప్రశ్నను ఉద్దేశపూర్వకంగా negative రూపంలో అడిగారు: తప్పు ప్రకటన ఏది అని అడుగుతోంది. ఇది UPSCలో సాధారణ ఉచ్చు.\n\n1వ ప్రకటన తప్పు కాదు, ఎందుకంటే మత అసహనం మరియు గోవా ఇంక్విజిషన్ పోర్చుగీసు పతనానికి సాధారణ కారణాలు.\n\n2వ ప్రకటన కూడా తప్పు కాదు, ఎందుకంటే డచ్ మరియు ఇంగ్లీష్ నౌకాదళ-వాణిజ్య పోటీ పోర్చుగీసు పతనంలో ప్రధాన పాత్ర పోషించింది.\n\n3వ ప్రకటన అసలు చారిత్రక పరిస్థితిని తలకిందులు చేస్తుంది. డచ్ మరియు ఇంగ్లీషువారికి బలమైన జాయింట్ స్టాక్ కంపెనీ వ్యవస్థలు ఉండగా, పోర్చుగీసు నమూనా బలహీనంగా ఉండేది.\n\nకాబట్టి 3వ ప్రకటన మాత్రమే తప్పు. అందువల్ల option d సరైనది.",
+        "elimination_logic_hindi": "यह प्रश्न जानबूझकर नकारात्मक रूप में पूछा गया है: गलत कथन चुनना है। यह UPSC का सामान्य ट्रैप है।\n\nकथन 1 गलत नहीं हो सकता क्योंकि धार्मिक असहिष्णुता और गोवा इन्क्विज़िशन पुर्तगाली पतन के मानक कारण हैं।\n\nकथन 2 गलत नहीं हो सकता क्योंकि डच और अंग्रेजों की नौसैनिक-व्यापारिक प्रतिस्पर्धा पुर्तगाली पतन का मुख्य कारण थी।\n\nकथन 3 वास्तविक इतिहास को उलट देता है। डच और अंग्रेजों के पास अधिक प्रभावी संयुक्त पूँजी कंपनी संरचनाएँ थीं, जबकि पुर्तगाली मॉडल अपेक्षाकृत कमजोर था।\n\nइसलिए केवल कथन 3 गलत है और विकल्प d सही है।"
+      },
+  {
+    "question_english": "Consider the following statements regarding the Portuguese administration in India:\n\n1. The Cartaz system was used by the Portuguese to regulate maritime trade in the Indian Ocean.\n2. Albuquerque encouraged intermarriage between Portuguese settlers and local populations.\n3. The headquarters of Portuguese administration in India was permanently shifted from Cochin to Bombay.\n\nWhich of the statements given above are correct?",
+
+    "question_telugu": "భారతదేశంలోని పోర్చుగీసు పరిపాలనకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. భారత మహాసముద్ర వాణిజ్యాన్ని నియంత్రించడానికి పోర్చుగీసువారు కార్టాజ్ వ్యవస్థను ఉపయోగించారు.\n2. అల్బుకర్క్ పోర్చుగీసు వలసదారులు మరియు స్థానిక ప్రజల మధ్య అంతర్వివాహాలను ప్రోత్సహించాడు.\n3. భారతదేశంలోని పోర్చుగీసు పరిపాలనా ప్రధాన కేంద్రం కొచ్చిన్ నుండి బొంబాయికి శాశ్వతంగా మార్చబడింది.\n\nపై ప్రకటనలలో సరైనవి ఏవి?",
+
+    "question_hindi": "भारत में पुर्तगाली प्रशासन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. हिंद महासागर व्यापार को नियंत्रित करने के लिए पुर्तगालियों ने कार्टाज प्रणाली का उपयोग किया।\n2. अल्बुकर्क ने पुर्तगाली बसने वालों और स्थानीय जनसंख्या के बीच अंतर्विवाह को प्रोत्साहित किया।\n3. भारत में पुर्तगाली प्रशासन का मुख्यालय स्थायी रूप से कोचीन से बंबई स्थानांतरित कर दिया गया था।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+    "options_english": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+
+    "options_telugu": {
+      "a": "1 మాత్రమే",
+      "b": "1 మరియు 2 మాత్రమే",
+      "c": "2 మరియు 3 మాత్రమే",
+      "d": "1, 2 మరియు 3"
+    },
+
+    "options_hindi": {
+      "a": "केवल 1",
+      "b": "केवल 1 और 2",
+      "c": "केवल 2 और 3",
+      "d": "1, 2 और 3"
+    },
+
+    "correct_answer": "b",
+
+    "explanation_english": "Statements 1 and 2 are correct. The Cartaz system was a naval permit mechanism imposed by the Portuguese to control maritime commerce in the Indian Ocean. Ships without Cartaz passes could be seized.\n\nAfonso de Albuquerque realised that a permanent Portuguese presence in India required social integration. Therefore, he encouraged intermarriage between Portuguese settlers and local women.\n\nStatement 3 is incorrect. Goa, not Bombay, eventually became the headquarters of Portuguese administration in India after replacing Cochin.\n\nThe question tests understanding of Portuguese administrative and naval policies rather than mere chronology.",
+
+    "explanation_telugu": "1 మరియు 2వ ప్రకటనలు సరైనవి. భారత మహాసముద్ర వాణిజ్యాన్ని నియంత్రించడానికి పోర్చుగీసువారు కార్టాజ్ అనే నౌకా అనుమతి వ్యవస్థను అమలు చేశారు. కార్టాజ్ లేకుండా ప్రయాణించే నౌకలను స్వాధీనం చేసుకునే అధికారం వారికి ఉండేది.\n\nఅల్బుకర్క్ భారతదేశంలో శాశ్వత పోర్చుగీసు స్థావరాన్ని ఏర్పరచడానికి సామాజిక సమన్వయం అవసరమని భావించాడు. అందుకే అతను పోర్చుగీసు వలసదారులు మరియు స్థానిక మహిళల మధ్య వివాహాలను ప్రోత్సహించాడు.\n\n3వ ప్రకటన తప్పు. కొచ్చిన్ స్థానంలో గోవా పోర్చుగీసు పరిపాలనా ప్రధాన కేంద్రంగా మారింది, బొంబాయి కాదు.",
+
+    "explanation_hindi": "कथन 1 और 2 सही हैं। कार्टाज प्रणाली हिंद महासागर व्यापार को नियंत्रित करने के लिए पुर्तगालियों द्वारा लागू की गई नौसैनिक अनुमति व्यवस्था थी। कार्टाज के बिना चलने वाले जहाजों को जब्त किया जा सकता था।\n\nअल्बुकर्क ने समझा कि भारत में स्थायी पुर्तगाली उपस्थिति के लिए सामाजिक समन्वय आवश्यक है। इसलिए उसने पुर्तगाली बसने वालों और स्थानीय महिलाओं के बीच विवाह को प्रोत्साहित किया।\n\nकथन 3 गलत है। कोचीन के स्थान पर गोवा पुर्तगाली प्रशासन का मुख्यालय बना, बंबई नहीं।",
+
+    "elimination_logic_english": "Statement 3 is the key trap. Bombay became important under the English, not the Portuguese administrative system.\n\nThe Cartaz system is a repeatedly asked UPSC theme connected with Portuguese naval monopoly.\n\nAlbuquerque’s marriage policy is also a standard conceptual area because it reflects the Portuguese attempt at long-term settlement rather than temporary trade.\n\nOnce statement 3 is identified as incorrect, options c and d are eliminated immediately. Statement 1 is historically certain, making option b correct.",
+
+    "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఉచ్చు. బొంబాయి ఇంగ్లీషువారి ఆధీనంలో ముఖ్య కేంద్రంగా ఎదిగింది, పోర్చుగీసు పరిపాలనా కేంద్రంగా కాదు.\n\nకార్టాజ్ వ్యవస్థ UPSCలో తరచుగా అడిగే అంశం. ఇది పోర్చుగీసు నౌకాదళ ఏకాధిపత్యాన్ని సూచిస్తుంది.\n\nఅల్బుకర్క్ వివాహ విధానం కూడా దీర్ఘకాలిక స్థిర నివాస విధానాన్ని ప్రతిబింబించే ముఖ్య భావన.\n\n3వ ప్రకటన తప్పు అని గుర్తించిన వెంటనే c మరియు d తొలగిపోతాయి. 1వ ప్రకటన ఖచ్చితంగా సరైనది కాబట్టి option b సరైనది.",
+
+    "elimination_logic_hindi": "कथन 3 मुख्य ट्रैप है। बंबई अंग्रेजों के अधीन महत्वपूर्ण केन्द्र बना, पुर्तगाली प्रशासनिक केन्द्र नहीं।\n\nकार्टाज प्रणाली UPSC में बार-बार पूछी जाने वाली अवधारणा है और यह पुर्तगाली नौसैनिक एकाधिकार को दर्शाती है।\n\nअल्बुकर्क की विवाह नीति भी महत्वपूर्ण है क्योंकि यह दीर्घकालिक पुर्तगाली बसावट की नीति को दर्शाती है।\n\nकथन 3 गलत सिद्ध होते ही विकल्प c और d समाप्त हो जाते हैं। कथन 1 निश्चित रूप से सही है, इसलिए विकल्प b सही है।"
+  },
+
+  {
+    "question_english": "Which one of the following European powers was the first to challenge Portuguese naval supremacy in the Indian Ocean on a large scale?",
+
+    "question_telugu": "భారత మహాసముద్రంలో పోర్చుగీసు నౌకాదళ ఆధిపత్యాన్ని విస్తృత స్థాయిలో తొలిసారిగా సవాలు చేసిన యూరోపియన్ శక్తి ఏది?",
+
+    "question_hindi": "भारतीय महासागर में पुर्तगाली नौसैनिक प्रभुत्व को व्यापक स्तर पर सबसे पहले चुनौती देने वाली यूरोपीय शक्ति कौन-सी थी?",
+
+    "options_english": {
+      "a": "French",
+      "b": "English",
+      "c": "Dutch",
+      "d": "Danish"
+    },
+
+    "options_telugu": {
+      "a": "ఫ్రెంచువారు",
+      "b": "ఇంగ్లీషువారు",
+      "c": "డచ్‌వారు",
+      "d": "డానిష్‌వారు"
+    },
+
+    "options_hindi": {
+      "a": "फ्रांसीसी",
+      "b": "अंग्रेज",
+      "c": "डच",
+      "d": "डेनिश"
+    },
+
+    "correct_answer": "c",
+
+    "explanation_english": "The Dutch were the first European power to seriously challenge Portuguese naval and commercial supremacy in the Indian Ocean during the seventeenth century.\n\nThe Dutch East India Company (VOC), established in 1602, possessed a strong financial base, advanced naval capabilities and an organised joint-stock structure.\n\nThey gradually displaced the Portuguese from several important trade centres in Southeast Asia and weakened their spice trade monopoly.\n\nAlthough the English later emerged as the dominant colonial power in India, the earliest large-scale challenge to Portuguese dominance came from the Dutch.",
+
+    "explanation_telugu": "పదిహేడవ శతాబ్దంలో భారత మహాసముద్రంలో పోర్చుగీసు నౌకాదళ మరియు వాణిజ్య ఆధిపత్యాన్ని తీవ్రంగా సవాలు చేసిన తొలి యూరోపియన్ శక్తి డచ్‌వారు.\n\n1602లో స్థాపించబడిన డచ్ VOC బలమైన ఆర్థిక నిర్మాణం, ఆధునిక నౌకాదళ శక్తి మరియు క్రమబద్ధమైన జాయింట్ స్టాక్ వ్యవస్థను కలిగి ఉంది.\n\nవారు ఆగ్నేయాసియాలోని అనేక ముఖ్య వాణిజ్య కేంద్రాల నుండి పోర్చుగీసువారిని తొలగించి మసాలా వాణిజ్య ఏకాధిపత్యాన్ని బలహీనపరిచారు.\n\nఇంగ్లీషువారు తరువాత భారతదేశంలో ప్రధాన వలస శక్తిగా ఎదిగినా, పోర్చుగీసు ఆధిపత్యాన్ని తొలిసారిగా పెద్ద స్థాయిలో సవాలు చేసిన వారు డచ్‌వారే.",
+
+    "explanation_hindi": "सत्रहवीं शताब्दी में भारतीय महासागर में पुर्तगाली नौसैनिक और व्यापारिक प्रभुत्व को गंभीर चुनौती देने वाली पहली यूरोपीय शक्ति डच थे।\n\n1602 में स्थापित डच VOC के पास मजबूत वित्तीय आधार, उन्नत नौसैनिक क्षमता तथा संगठित संयुक्त पूँजी संरचना थी।\n\nउन्होंने दक्षिण-पूर्व एशिया के कई महत्वपूर्ण व्यापारिक केन्द्रों से पुर्तगालियों को हटाकर मसाला व्यापार के उनके एकाधिकार को कमजोर किया।\n\nयद्यपि बाद में अंग्रेज भारत में प्रमुख औपनिवेशिक शक्ति बने, परंतु पुर्तगाली प्रभुत्व को प्रारंभिक व्यापक चुनौती डचों ने दी।",
+
+    "elimination_logic_english": "The French entered Indian politics comparatively later, mainly in the eighteenth century.\n\nThe Danish never possessed sufficient naval-commercial power to challenge Portuguese supremacy at a large scale.\n\nThe English did challenge Portuguese influence, but the earliest organised and systematic commercial challenge came from the Dutch VOC.\n\nUPSC often tests the distinction between:\n• earliest challenger → Dutch\n• eventual dominant colonial power → English\n\nHence option c is correct.",
+
+    "elimination_logic_telugu": "ఫ్రెంచువారు భారత రాజకీయాలలో తరువాత, ముఖ్యంగా పద్దెనిమిదవ శతాబ్దంలో ప్రవేశించారు.\n\nడానిష్‌వారికి పోర్చుగీసు ఆధిపత్యాన్ని సవాలు చేసే స్థాయి నౌకాదళ-వాణిజ్య శక్తి లేదు.\n\nఇంగ్లీషువారు కూడా పోర్చుగీసువారిని సవాలు చేసినప్పటికీ, మొదటి క్రమబద్ధమైన మరియు వ్యవస్థీకృత వాణిజ్య సవాలు డచ్ VOC నుంచే వచ్చింది.\n\nUPSC తరచుగా ఈ తేడాను పరీక్షిస్తుంది:\n• తొలి సవాలు → డచ్\n• తుది ప్రధాన వలస శక్తి → ఇంగ్లీషువారు\n\nకాబట్టి option c సరైనది.",
+
+    "elimination_logic_hindi": "फ्रांसीसी अपेक्षाकृत बाद में, मुख्यतः अठारहवीं शताब्दी में भारतीय राजनीति में सक्रिय हुए।\n\nडेनिशों के पास पुर्तगाली प्रभुत्व को बड़े स्तर पर चुनौती देने की क्षमता नहीं थी।\n\nअंग्रेजों ने भी पुर्तगाली प्रभाव को चुनौती दी, किन्तु सबसे प्रारंभिक संगठित और व्यवस्थित चुनौती डच VOC ने दी।\n\nUPSC प्रायः यह अंतर पूछता है:\n• प्रारंभिक चुनौतीकर्ता → डच\n• अंतिम प्रमुख औपनिवेशिक शक्ति → अंग्रेज\n\nअतः विकल्प c सही है।"
+  },
+
+  {
+    "question_english": "Assertion (A): The English East India Company initially preferred Surat over Bombay as its major western Indian trading centre.\n\nReason (R): Surat already possessed established commercial links with the Mughal Empire and the Red Sea trade.\n\nSelect the correct answer using the code given below.",
+
+    "question_telugu": "ప్రతిపాదన (A): ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ ప్రారంభంలో పశ్చిమ భారతదేశంలోని ప్రధాన వాణిజ్య కేంద్రంగా బొంబాయి కంటే సూరత్‌ను ఎక్కువగా ప్రాధాన్యం ఇచ్చింది.\n\nకారణం (R): సూరత్‌కు మొఘల్ సామ్రాజ్యం మరియు ఎర్ర సముద్ర వాణిజ్యంతో ఇప్పటికే బలమైన వాణిజ్య సంబంధాలు ఉండేవి.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+    "question_hindi": "अभिकथन (A): अंग्रेजी ईस्ट इंडिया कंपनी ने प्रारंभ में पश्चिमी भारत के प्रमुख व्यापारिक केन्द्र के रूप में बंबई की अपेक्षा सूरत को अधिक महत्व दिया।\n\nकारण (R): सूरत के मुगल साम्राज्य तथा लाल सागर व्यापार से पहले से स्थापित व्यापारिक संबंध थे।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+    "options_english": {
+      "a": "Both A and R are correct and R is the correct explanation of A",
+      "b": "Both A and R are correct but R is not the correct explanation of A",
+      "c": "A is correct but R is incorrect",
+      "d": "A is incorrect but R is correct"
+    },
+
+    "options_telugu": {
+      "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+      "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+      "c": "A సరైనది కానీ R తప్పు",
+      "d": "A తప్పు కానీ R సరైనది"
+    },
+
+    "options_hindi": {
+      "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+      "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+      "c": "A सही है लेकिन R गलत है",
+      "d": "A गलत है लेकिन R सही है"
+    },
+
+    "correct_answer": "a",
+
+    "explanation_english": "Both Assertion and Reason are correct, and the Reason correctly explains the Assertion.\n\nDuring the early phase of English commercial expansion in India, Surat emerged as the most attractive western Indian port because it was already integrated into the Mughal imperial economy and international maritime trade networks.\n\nSurat maintained active commercial relations with West Asia, particularly through the Red Sea and Persian Gulf routes. Pilgrimage traffic to Mecca also increased its economic importance.\n\nBombay gained prominence only later after its transfer to the English crown by the Portuguese and subsequent leasing to the East India Company.\n\nThus, the English initially preferred Surat due to its established commercial infrastructure and Mughal connections.",
+
+    "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. అలాగే కారణం ప్రతిపాదనకు సరైన వివరణ ఇస్తుంది.\n\nభారతదేశంలో ఇంగ్లీష్ వాణిజ్య విస్తరణ ప్రారంభ దశలో సూరత్ పశ్చిమ భారతదేశంలోని అత్యంత ముఖ్యమైన నౌకాశ్రయంగా ఎదిగింది, ఎందుకంటే అది ఇప్పటికే మొఘల్ సామ్రాజ్య ఆర్థిక వ్యవస్థ మరియు అంతర్జాతీయ సముద్ర వాణిజ్యంతో అనుసంధానమై ఉండేది.\n\nసూరత్‌కు ఎర్ర సముద్రం మరియు పర్షియన్ గల్ఫ్ మార్గాల ద్వారా పశ్చిమ ఆసియాతో బలమైన వాణిజ్య సంబంధాలు ఉండేవి. మక్కా యాత్రికుల రాకపోకల వల్ల కూడా దాని ప్రాముఖ్యత పెరిగింది.\n\nపోర్చుగీసువారి నుండి ఇంగ్లీషువారికి బొంబాయి బదిలీ అయిన తర్వాత మాత్రమే అది ప్రముఖత సాధించింది.\n\nఅందువల్ల ప్రారంభంలో ఇంగ్లీషువారు సూరత్‌ను ఎక్కువగా ప్రాధాన్యం ఇచ్చారు.",
+
+    "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है।\n\nभारत में अंग्रेजी व्यापारिक विस्तार के प्रारंभिक चरण में सूरत पश्चिमी भारत का सबसे आकर्षक बंदरगाह था क्योंकि वह पहले से मुगल साम्राज्य की अर्थव्यवस्था तथा अंतरराष्ट्रीय समुद्री व्यापार नेटवर्क से जुड़ा हुआ था।\n\nसूरत के पश्चिम एशिया से लाल सागर और फारस की खाड़ी मार्गों द्वारा सक्रिय व्यापारिक संबंध थे। मक्का की तीर्थयात्राओं के कारण भी इसका महत्व बढ़ा।\n\nबंबई को महत्व बाद में मिला जब वह पुर्तगालियों से अंग्रेजों को हस्तांतरित हुई और ईस्ट इंडिया कंपनी को पट्टे पर दी गई।\n\nअतः अंग्रेजों ने प्रारंभ में सूरत को अधिक महत्व दिया।",
+
+    "elimination_logic_english": "This is a causation-based Assertion–Reason question.\n\nUPSC frequently frames questions where one historical-economic factor directly explains another administrative or commercial choice.\n\nSurat’s importance rested on:\n• Mughal imperial trade\n• Red Sea commerce\n• Hajj pilgrimage traffic\n• Existing merchant networks\n\nTherefore the Reason directly explains why the English initially preferred Surat.\n\nStudents often incorrectly choose option b when both statements are individually correct but analytically linked.\n\nHence option a is correct.",
+
+    "elimination_logic_telugu": "ఇది కారణ-ఫలిత సంబంధంపై ఆధారపడిన Assertion–Reason ప్రశ్న.\n\nఒక ఆర్థిక-చారిత్రక అంశం మరో వాణిజ్య నిర్ణయాన్ని ఎలా ప్రభావితం చేసిందో UPSC తరచుగా పరీక్షిస్తుంది.\n\nసూరత్ ప్రాముఖ్యతకు కారణాలు:\n• మొఘల్ వాణిజ్య వ్యవస్థ\n• ఎర్ర సముద్ర వాణిజ్యం\n• హజ్ యాత్రికుల రాకపోకలు\n• స్థిరమైన వ్యాపార నెట్వర్క్‌లు\n\nకాబట్టి కారణం ప్రతిపాదనకు నేరుగా వివరణ ఇస్తుంది.\n\nఇలాంటి ప్రశ్నల్లో విద్యార్థులు చాలాసార్లు తప్పుగా option b ఎంచుకుంటారు.\n\nఅందువల్ల option a సరైనది.",
+
+    "elimination_logic_hindi": "यह कारण-परिणाम संबंध पर आधारित अभिकथन–कारण प्रश्न है।\n\nUPSC अक्सर ऐसे प्रश्न पूछता है जहाँ कोई आर्थिक-ऐतिहासिक कारक किसी प्रशासनिक या व्यापारिक निर्णय की व्याख्या करता है।\n\nसूरत का महत्व आधारित था:\n• मुगल व्यापारिक संरचना\n• लाल सागर व्यापार\n• हज यात्री यातायात\n• स्थापित व्यापारी नेटवर्क\n\nअतः कारण सीधे अभिकथन की व्याख्या करता है।\n\nविद्यार्थी प्रायः विकल्प b चुन लेते हैं जबकि यहाँ स्पष्ट कारणात्मक संबंध मौजूद है।\n\nइसलिए विकल्प a सही है।"
+  }
+    ]
+  }
+}
 }
