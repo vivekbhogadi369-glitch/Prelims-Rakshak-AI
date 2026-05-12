@@ -937,7 +937,49 @@
   "elimination_logic_telugu": "ఇది UPSC తరచుగా అడిగే కారణ-ఫలిత ప్రశ్న. కారణం ప్రతిపాదనకు నేర వివరణ ఇస్తోంది.\n\nకొంతమంది విద్యార్థులు రెండు ప్రకటనలను వేర్వేరుగా చూసి 'b' ఎంచుకునే అవకాశం ఉంది. కానీ భారతీయ శక్తుల ఐక్యతలేమి బ్రిటిష్ విస్తరణకు ప్రధాన కారణం.\n\nకాబట్టి 'a' సరైన సమాధానం.",
 
   "elimination_logic_hindi": "यह UPSC का एक क्लासिक कारण-परिणाम प्रश्न है। कारण सीधे बताता है कि अंग्रेजी सैन्य संगठन भारत में क्यों निर्णायक सिद्ध हुआ।\n\nकई विद्यार्थी दोनों कथनों को अलग-अलग मानकर विकल्प 'b' चुन लेते हैं। किंतु भारतीय शक्तियों की आंतरिक विभाजित स्थिति वास्तव में अंग्रेजी विस्तार का प्रमुख कारण थी।\n\nअतः विकल्प 'a' सही उत्तर है।"
-}
+},
+    {
+  "question_english": "With reference to the Carnatic Wars, consider the following statements:\n\n1. The Carnatic Wars were fought mainly between the British and the French.\n2. The Third Carnatic War ended French political ambitions in India.\n3. The Battle of Wandiwash was won by the French.\n\nWhich of the statements given above is/are correct?",
+
+  "question_telugu": "కర్నాటిక్ యుద్ధాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. కర్నాటిక్ యుద్ధాలు ప్రధానంగా బ్రిటిష్ మరియు ఫ్రెంచ్ మధ్య జరిగాయి.\n2. మూడవ కర్నాటిక్ యుద్ధం భారతదేశంలో ఫ్రెంచ్ రాజకీయ ఆశయాలకు ముగింపు పలికింది.\n3. వాండివాష్ యుద్ధంలో ఫ్రెంచ్ విజయం సాధించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "कर्नाटक युद्धों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. कर्नाटक युद्ध मुख्यतः अंग्रेजों और फ्रांसीसियों के बीच लड़े गए थे।\n2. तृतीय कर्नाटक युद्ध ने भारत में फ्रांसीसी राजनीतिक महत्वाकांक्षाओं का अंत कर दिया।\n3. वांडीवाश का युद्ध फ्रांसीसियों ने जीता था।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_english": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 2 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 2 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 2",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "Statements 1 and 2 are correct. The Carnatic Wars were a series of conflicts fought mainly between the British East India Company and the French East India Company in south India during the eighteenth century.\n\nThe Third Carnatic War decisively ended French political influence in India after the British victory at the Battle of Wandiwash in Seventeen Sixty. Although the French retained a few trading settlements, they could no longer challenge British political dominance.\n\nStatement 3 is incorrect because the Battle of Wandiwash was won by the British under Sir Eyre Coote, not by the French.",
+
+  "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. కర్నాటిక్ యుద్ధాలు ప్రధానంగా బ్రిటిష్ ఈస్ట్ ఇండియా కంపెనీ మరియు ఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ మధ్య దక్షిణ భారతదేశంలో జరిగాయి.\n\nమూడవ కర్నాటిక్ యుద్ధం భారతదేశంలో ఫ్రెంచ్ రాజకీయ ఆశయాలకు ముగింపు పలికింది. వాండివాష్ యుద్ధంలో బ్రిటిష్ విజయం సాధించారు.\n\n3వ ప్రకటన తప్పు. వాండివాష్ యుద్ధంలో ఫ్రెంచ్ కాదు, బ్రిటిష్ విజయం సాధించారు.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। कर्नाटक युद्ध मुख्यतः अंग्रेजी ईस्ट इंडिया कंपनी और फ्रांसीसी ईस्ट इंडिया कंपनी के बीच दक्षिण भारत में लड़े गए थे।\n\nतृतीय कर्नाटक युद्ध ने भारत में फ्रांसीसी राजनीतिक महत्वाकांक्षाओं का अंत कर दिया। वांडीवाश के युद्ध में अंग्रेजों की निर्णायक विजय हुई।\n\nकथन 3 गलत है क्योंकि वांडीवाश का युद्ध अंग्रेजों ने जीता था, फ्रांसीसियों ने नहीं।",
+
+  "elimination_logic_english": "Statement 3 is the decisive elimination point. UPSC frequently tests whether students can distinguish between British and French outcomes in the Carnatic Wars.\n\nOnce it is recalled that the Battle of Wandiwash established British supremacy and destroyed French political ambitions, statement 3 becomes incorrect.\n\nTherefore, option 'c' is the correct answer.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. కర్నాటిక్ యుద్ధాలలో బ్రిటిష్ మరియు ఫ్రెంచ్ ఫలితాల మధ్య తేడాను UPSC తరచుగా పరీక్షిస్తుంది.\n\nవాండివాష్ యుద్ధం బ్రిటిష్ ఆధిపత్యాన్ని స్థాపించిందని గుర్తిస్తే 3వ ప్రకటన తప్పు అవుతుంది.\n\nకాబట్టి 'c' సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है। UPSC अक्सर कर्नाटक युद्धों में अंग्रेजों और फ्रांसीसियों की भूमिका को लेकर भ्रम उत्पन्न करती है।\n\nयदि विद्यार्थी याद रखे कि वांडीवाश की विजय ने अंग्रेजी प्रभुत्व स्थापित किया था, तो कथन 3 गलत सिद्ध होगा।\n\nअतः विकल्प 'c' सही उत्तर है।"
+    }
   ]
   }
 }
