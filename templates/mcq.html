@@ -272,7 +272,8 @@ const translations = {
     accuracy: "Accuracy",
     subjectNames: {
       "Ancient History": "Ancient History",
-      "Medieval History": "Medieval Indian History"
+      "Medieval History": "Medieval Indian History",
+      "Modern Indian History": "Modern Indian History"
     }
   },
 
@@ -295,7 +296,8 @@ const translations = {
     accuracy: "ఖచ్చితత్వం",
     subjectNames: {
       "Ancient History": "ప్రాచీన భారత చరిత్ర",
-      "Medieval History": "మధ్యయుగ భారత చరిత్ర"
+      "Medieval History": "మధ్యయుగ భారత చరిత్ర",
+      "Modern Indian History": "ఆధునిక భారత చరిత్ర"
     }
   },
 
@@ -318,7 +320,8 @@ const translations = {
     accuracy: "सटीकता",
     subjectNames: {
       "Ancient History": "प्राचीन भारतीय इतिहास",
-      "Medieval History": "मध्यकालीन भारतीय इतिहास"
+      "Medieval History": "मध्यकालीन भारतीय इतिहास",
+      "Modern Indian History": "आधुनिक भारतीय इतिहास"
     }
   }
 };
@@ -459,6 +462,14 @@ function changeLanguage(language, button) {
   applyLanguageLabels();
 }
 
+function extractTopics(data, subjectKey) {
+  if (!data) return {};
+  if (data.topics) return data.topics;
+  if (data[subjectKey]?.topics) return data[subjectKey].topics;
+  if (data[subjectKey]) return data[subjectKey];
+  return data;
+}
+
 async function loadMCQs() {
   try {
     const ancientResponse = await fetch("/static/json/mcqs_ancient_history.json");
@@ -469,9 +480,14 @@ async function loadMCQs() {
     if (!medievalResponse.ok) throw new Error("Medieval History JSON not found");
     const medievalData = await medievalResponse.json();
 
+    const modernResponse = await fetch("/static/json/mcqs_modern_history.json");
+    if (!modernResponse.ok) throw new Error("Modern History JSON not found");
+    const modernData = await modernResponse.json();
+
     mcqData = {
-      "Ancient History": ancientData.topics || ancientData || {},
-      "Medieval History": medievalData.topics || medievalData || {}
+      "Ancient History": extractTopics(ancientData, "Ancient History"),
+      "Medieval History": extractTopics(medievalData, "Medieval History"),
+      "Modern Indian History": extractTopics(modernData, "Modern Indian History")
     };
 
     applyLanguageLabels();
