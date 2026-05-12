@@ -845,6 +845,7 @@
     }
   ]
   },
+  "Administrative Policies of British" : {
   "topic_english": "Administrative Policies of British",
   "topic_telugu": "బ్రిటిష్ పరిపాలనా విధానాలు",
   "topic_hindi": "ब्रिटिश प्रशासनिक नीतियाँ",
@@ -1270,7 +1271,7 @@
 }
 ]
 },
-
+"Social Policies of British" : {
   "topic_english": "Social Policies of British",
   "topic_telugu": "బ్రిటిష్ సామాజిక విధానాలు",
   "topic_hindi": "ब्रिटिश सामाजिक नीतियाँ",
@@ -1696,6 +1697,7 @@
 }
 ]
 },
+"Economic Policies of British" : {
   "topic_english": "Economic Policies of British",
   "topic_telugu": "బ్రిటిష్ ఆర్థిక విధానాలు",
   "topic_hindi": "ब्रिटिश आर्थिक नीतियाँ",
@@ -2121,6 +2123,7 @@
 }
 ]
 },
+"Revolt of 1857" : {
   "topic_english": "Revolt of 1857",
   "topic_telugu": "1857 తిరుగుబాటు",
   "topic_hindi": "1857 का विद्रोह",
@@ -2546,6 +2549,7 @@
 }
 ]
 },
+"Peasant Movements" : {
   "topic_english": "Peasant Movements",
   "topic_telugu": "రైతాంగ ఉద్యమాలు",
   "topic_hindi": "किसान आंदोलन",
@@ -2971,6 +2975,7 @@
 }
 ]
 },
+"Tribal Revolts" : {
   "topic_english": "Tribal Revolts",
   "topic_telugu": "గిరిజన తిరుగుబాట్లు",
   "topic_hindi": "जनजातीय विद्रोह",
@@ -3396,6 +3401,7 @@
 }
 ]
 },
+"Caste Movements in British India" : {
   "topic_english": "Caste Movements in British India",
   "topic_telugu": "బ్రిటిష్ భారతదేశంలోని కుల ఉద్యమాలు",
   "topic_hindi": "ब्रिटिश भारत में जाति आंदोलन",
@@ -3821,6 +3827,7 @@
 }
 ]
 },
+"Socio-Religious Reform Movements in British India" : {
   "topic_english": "Socio-Religious Reform Movements in British India",
   "topic_telugu": "బ్రిటిష్ భారతదేశంలోని సామాజిక-మత సంస్కరణ ఉద్యమాలు",
   "topic_hindi": "ब्रिटिश भारत में सामाजिक-धार्मिक सुधार आंदोलन",
@@ -4247,6 +4254,7 @@
 }
 ]
 },
+"Moddrate Phase (1885-1905)" : {
   "topic_english": "Moderate Phase (1885–1905)",
   "topic_telugu": "మితవాద దశ (1885–1905)",
   "topic_hindi": "उदारवादी चरण (1885–1905)",
@@ -4672,6 +4680,7 @@
 }
 ]
 },
+"Extremist Phase (1905-1917)" : {
   "topic_english": "Extremist Phase (1905–1917)",
   "topic_telugu": "తీవ్రవాద దశ (1905–1917)",
   "topic_hindi": "उग्रवादी चरण (1905–1917)",
@@ -5097,6 +5106,7 @@
 }
 ]
 },
+"Swadeshi Movement" : {
   "topic_english": "Swadeshi Movement",
   "topic_telugu": "స్వదేశీ ఉద్యమం",
   "topic_hindi": "स्वदेशी आंदोलन",
@@ -5522,6 +5532,7 @@
 }
 ]
 },
+"Lucknow Session of INC (1916)" : {
   "topic_english": "Lucknow Session of INC (1916)",
   "topic_telugu": "లక్నో కాంగ్రెస్ సమావేశం (1916)",
   "topic_hindi": "कांग्रेस का लखनऊ अधिवेशन (1916)",
@@ -5947,6 +5958,7 @@
 }
 ]
 },
+"Home Rule Movement" : {
   "topic_english": "Home Rule Movement",
   "topic_telugu": "హోమ్ రూల్ ఉద్యమం",
   "topic_hindi": "होम रूल आंदोलन",
@@ -6371,5 +6383,4 @@
   "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि यह आंदोलन की उपलब्धियों को बढ़ा-चढ़ाकर प्रस्तुत करता है।\n\nहोम रूल आंदोलन ने राष्ट्रवाद को मजबूत किया लेकिन सीधे ब्रिटिश शासन समाप्त नहीं किया।\n\n1, 2 और 4 सही हैं। अतः c सही उत्तर है।"
 }
 ]
-}
 }
