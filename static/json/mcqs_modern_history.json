@@ -851,6 +851,7 @@
   "topic_hindi": "ब्रिटिश प्रशासनिक नीतियाँ",
     
 "questions": [
+  {
   
   "question_english": "With reference to the Regulating Act of Seventeen Seventy Three, consider the following statements:\n\n1. It made the Governor of Bengal the Governor-General of Bengal.\n2. It established a Supreme Court at Calcutta.\n3. It completely ended the political influence of the East India Company in India.\n\nWhich of the statements given above is/are correct?",
 
@@ -1279,6 +1280,7 @@
   "topic_hindi": "ब्रिटिश सामाजिक नीतियाँ",
   
 "questions": [
+  {
   
   "question_english": "With reference to the abolition of Sati in British India, consider the following statements:\n\n1. Lord William Bentinck abolished Sati in Eighteen Twenty Nine.\n2. Raja Ram Mohan Roy strongly supported the abolition of Sati.\n3. The practice of Sati was abolished throughout India immediately after the regulation.\n\nWhich of the statements given above is/are correct?",
 
@@ -1707,6 +1709,7 @@
   "topic_hindi": "ब्रिटिश आर्थिक नीतियाँ",
   
 "questions": [
+  {
   
   "question_english": "With reference to the Drain of Wealth theory, consider the following statements:\n\n1. Dadabhai Naoroji was one of the earliest leaders to explain the economic drain from India.\n2. The theory argued that British rule led to a continuous transfer of Indian wealth to Britain.\n3. The Drain Theory claimed that Indian agriculture greatly prospered under colonial rule.\n\nWhich of the statements given above is/are correct?",
 
@@ -2135,6 +2138,7 @@
   "topic_hindi": "1857 का विद्रोह",
 
   "questions": [
+    {
 
   "question_english": "With reference to the Revolt of Eighteen Fifty Seven, consider the following statements:\n\n1. The introduction of greased cartridges became an immediate cause for the revolt.\n2. The revolt remained completely confined to Bengal Presidency.\n3. Both soldiers and civilians participated in different regions during the revolt.\n\nWhich of the statements given above is/are correct?",
 
@@ -2563,7 +2567,7 @@
   "topic_hindi": "किसान आंदोलन",
   
 "questions": [
-  
+  {
   "question_english": "With reference to peasant movements during British rule in India, consider the following statements:\n\n1. Excessive land revenue demands were one of the major causes of peasant unrest.\n2. Indigo cultivators in Bengal protested against exploitative plantation practices.\n3. All peasant movements demanded the immediate end of monarchy in India.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారతదేశంలో బ్రిటిష్ పాలన కాలంలోని రైతాంగ ఉద్యమాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అధిక భూమి పన్ను రైతుల అసంతృప్తికి ప్రధాన కారణాలలో ఒకటి.\n2. బెంగాల్‌లోని నీలి రైతులు దోపిడీ తోటల విధానాలకు వ్యతిరేకంగా నిరసన వ్యక్తం చేశారు.\n3. అన్ని రైతాంగ ఉద్యమాలు భారతదేశంలో రాజ్య వ్యవస్థను తక్షణమే రద్దు చేయాలని డిమాండ్ చేశాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -2991,6 +2995,7 @@
   "topic_hindi": "जनजातीय विद्रोह",
 
 "questions": [
+  {
   
   "question_english": "With reference to tribal revolts during British rule in India, consider the following statements:\n\n1. Colonial forest policies affected the traditional rights of tribal communities.\n2. Tribal revolts often emerged against exploitation by moneylenders and outsiders.\n3. All tribal revolts were completely urban in character.\n\nWhich of the statements given above is/are correct?",
 
@@ -3419,6 +3424,7 @@
   "topic_hindi": "ब्रिटिश भारत में जाति आंदोलन",
   
 "questions": [
+  {
   
   "question_english": "With reference to caste movements in British India, consider the following statements:\n\n1. Many caste movements demanded social equality and access to education.\n2. Several reformers challenged caste discrimination and untouchability.\n3. All caste movements supported the continuation of rigid social hierarchy.\n\nWhich of the statements given above is/are correct?",
 
@@ -3847,6 +3853,7 @@
   "topic_hindi": "ब्रिटिश भारत में सामाजिक-धार्मिक सुधार आंदोलन",
 
   "questions": [
+    {
 
   "question_english": "With reference to socio-religious reform movements in British India, consider the following statements:\n\n1. Many reform movements attempted to remove social evils and religious orthodoxies.\n2. Reformers often promoted modern education and rational thinking.\n3. All reform movements completely rejected Indian cultural traditions.\n\nWhich of the statements given above is/are correct?",
 
@@ -4276,6 +4283,7 @@
   "topic_hindi": "उदारवादी चरण (1885–1905)",
 
   "questions": [
+    {
     
   "question_english": "With reference to the Moderate phase of the Indian National Congress, consider the following statements:\n\n1. The Moderates believed in constitutional and peaceful methods of agitation.\n2. They frequently used petitions, resolutions and meetings to present demands.\n3. They supported violent revolution against British rule from the beginning.\n\nWhich of the statements given above is/are correct?",
 
@@ -4702,7 +4710,9 @@
   "topic_english": "Extremist Phase (1905–1917)",
   "topic_telugu": "తీవ్రవాద దశ (1905–1917)",
   "topic_hindi": "उग्रवादी चरण (1905–1917)",
-
+  
+"questions": [
+  {
   "question_english": "With reference to the Extremist phase of the Indian National Movement, consider the following statements:\n\n1. Extremist leaders emphasised self-reliance and mass participation.\n2. They promoted methods such as boycott and Swadeshi.\n3. They fully relied only on petitions and constitutional appeals.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారత జాతీయోద్యమంలోని తీవ్రవాద దశకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. తీవ్రవాద నాయకులు స్వావలంబన మరియు సామూహిక భాగస్వామ్యాన్ని ప్రాముఖ్యంగా భావించారు.\n2. వారు బహిష్కరణ మరియు స్వదేశీ వంటి పద్ధతులను ప్రోత్సహించారు.\n3. వారు పూర్తిగా వినతిపత్రాలు మరియు రాజ్యాంగబద్ధ విజ్ఞప్తులపైనే ఆధారపడ్డారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -5130,6 +5140,7 @@
   "topic_hindi": "स्वदेशी आंदोलन",
 
   "questions": [
+    {
 
   "question_english": "With reference to the Swadeshi Movement, consider the following statements:\n\n1. It combined economic nationalism with political mobilisation.\n2. It encouraged the boycott of British goods and promotion of indigenous industries.\n3. It remained confined only to Bengal without influencing other regions of India.\n\nWhich of the statements given above is/are correct?",
 
@@ -5558,6 +5569,7 @@
   "topic_hindi": "कांग्रेस का लखनऊ अधिवेशन (1916)",
 
   "questions": [
+    {
 
   "question_english": "With reference to the Lucknow Session of the Indian National Congress in 1916, consider the following statements:\n\n1. It marked the reunion of the Moderates and Extremists within the Congress.\n2. It witnessed the Congress-League agreement known as the Lucknow Pact.\n3. It rejected all forms of constitutional reforms proposed within the British Empire.\n\nWhich of the statements given above is/are correct?",
 
@@ -5986,6 +5998,7 @@
   "topic_hindi": "होम रूल आंदोलन",
 
   "questions": [
+    {
     
   "question_english": "With reference to the Home Rule Movement in India, consider the following statements:\n\n1. It demanded self-government for Indians within the British Empire.\n2. It was associated with leaders such as Bal Gangadhar Tilak and Annie Besant.\n3. It aimed at immediate complete independence from British rule.\n\nWhich of the statements given above is/are correct?",
 
