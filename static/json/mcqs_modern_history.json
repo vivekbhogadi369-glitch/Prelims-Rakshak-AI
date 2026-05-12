@@ -849,7 +849,9 @@
   "topic_english": "Administrative Policies of British",
   "topic_telugu": "బ్రిటిష్ పరిపాలనా విధానాలు",
   "topic_hindi": "ब्रिटिश प्रशासनिक नीतियाँ",
-
+    
+"questions": [
+  
   "question_english": "With reference to the Regulating Act of Seventeen Seventy Three, consider the following statements:\n\n1. It made the Governor of Bengal the Governor-General of Bengal.\n2. It established a Supreme Court at Calcutta.\n3. It completely ended the political influence of the East India Company in India.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "1773 రెగ్యులేటింగ్ చట్టానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది బెంగాల్ గవర్నర్‌ను బెంగాల్ గవర్నర్ జనరల్‌గా మార్చింది.\n2. ఇది కలకత్తాలో సుప్రీంకోర్టును స్థాపించింది.\n3. ఇది భారతదేశంలో ఈస్ట్ ఇండియా కంపెనీ రాజకీయ ప్రభావాన్ని పూర్తిగా ముగించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -1275,7 +1277,9 @@
   "topic_english": "Social Policies of British",
   "topic_telugu": "బ్రిటిష్ సామాజిక విధానాలు",
   "topic_hindi": "ब्रिटिश सामाजिक नीतियाँ",
-
+  
+"questions": [
+  
   "question_english": "With reference to the abolition of Sati in British India, consider the following statements:\n\n1. Lord William Bentinck abolished Sati in Eighteen Twenty Nine.\n2. Raja Ram Mohan Roy strongly supported the abolition of Sati.\n3. The practice of Sati was abolished throughout India immediately after the regulation.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "బ్రిటిష్ భారతదేశంలో సతి నిర్మూలనకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. లార్డ్ విలియం బెంటింక్ 1829లో సతిని రద్దు చేశాడు.\n2. రాజా రామ్ మోహన్ రాయ్ సతి నిర్మూలనకు బలమైన మద్దతు ఇచ్చాడు.\n3. ఈ నియమం వచ్చిన వెంటనే భారతదేశమంతటా సతి పూర్తిగా రద్దు చేయబడింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -1701,7 +1705,9 @@
   "topic_english": "Economic Policies of British",
   "topic_telugu": "బ్రిటిష్ ఆర్థిక విధానాలు",
   "topic_hindi": "ब्रिटिश आर्थिक नीतियाँ",
-
+  
+"questions": [
+  
   "question_english": "With reference to the Drain of Wealth theory, consider the following statements:\n\n1. Dadabhai Naoroji was one of the earliest leaders to explain the economic drain from India.\n2. The theory argued that British rule led to a continuous transfer of Indian wealth to Britain.\n3. The Drain Theory claimed that Indian agriculture greatly prospered under colonial rule.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "సంపద నిష్క్రమణ సిద్ధాంతానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. భారతదేశం నుండి సంపద నిష్క్రమణను వివరించిన తొలి నాయకుల్లో దాదాభాయ్ నౌరోజీ ఒకరు.\n2. బ్రిటిష్ పాలన భారత సంపదను నిరంతరం బ్రిటన్‌కు తరలించిందని ఈ సిద్ధాంతం పేర్కొంది.\n3. వలస పాలనలో భారత వ్యవసాయం విపరీతంగా అభివృద్ధి చెందిందని ఈ సిద్ధాంతం పేర్కొంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -2128,6 +2134,8 @@
   "topic_telugu": "1857 తిరుగుబాటు",
   "topic_hindi": "1857 का विद्रोह",
 
+  "questions": [
+
   "question_english": "With reference to the Revolt of Eighteen Fifty Seven, consider the following statements:\n\n1. The introduction of greased cartridges became an immediate cause for the revolt.\n2. The revolt remained completely confined to Bengal Presidency.\n3. Both soldiers and civilians participated in different regions during the revolt.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "1857 తిరుగుబాటుకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. కొవ్వుతో పూసిన కార్ట్రిడ్జ్‌ల ప్రవేశపెట్టడం తిరుగుబాటుకు తక్షణ కారణమైంది.\n2. ఈ తిరుగుబాటు పూర్తిగా బెంగాల్ ప్రెసిడెన్సీకి మాత్రమే పరిమితమైంది.\n3. వివిధ ప్రాంతాల్లో సైనికులతో పాటు సామాన్య ప్రజలు కూడా పాల్గొన్నారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -2553,7 +2561,9 @@
   "topic_english": "Peasant Movements",
   "topic_telugu": "రైతాంగ ఉద్యమాలు",
   "topic_hindi": "किसान आंदोलन",
-
+  
+"questions": [
+  
   "question_english": "With reference to peasant movements during British rule in India, consider the following statements:\n\n1. Excessive land revenue demands were one of the major causes of peasant unrest.\n2. Indigo cultivators in Bengal protested against exploitative plantation practices.\n3. All peasant movements demanded the immediate end of monarchy in India.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారతదేశంలో బ్రిటిష్ పాలన కాలంలోని రైతాంగ ఉద్యమాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అధిక భూమి పన్ను రైతుల అసంతృప్తికి ప్రధాన కారణాలలో ఒకటి.\n2. బెంగాల్‌లోని నీలి రైతులు దోపిడీ తోటల విధానాలకు వ్యతిరేకంగా నిరసన వ్యక్తం చేశారు.\n3. అన్ని రైతాంగ ఉద్యమాలు భారతదేశంలో రాజ్య వ్యవస్థను తక్షణమే రద్దు చేయాలని డిమాండ్ చేశాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -2980,6 +2990,8 @@
   "topic_telugu": "గిరిజన తిరుగుబాట్లు",
   "topic_hindi": "जनजातीय विद्रोह",
 
+"questions": [
+  
   "question_english": "With reference to tribal revolts during British rule in India, consider the following statements:\n\n1. Colonial forest policies affected the traditional rights of tribal communities.\n2. Tribal revolts often emerged against exploitation by moneylenders and outsiders.\n3. All tribal revolts were completely urban in character.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారతదేశంలో బ్రిటిష్ పాలన కాలంలోని గిరిజన తిరుగుబాట్లకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. వలస అటవీ విధానాలు గిరిజనుల సాంప్రదాయ హక్కులను ప్రభావితం చేశాయి.\n2. సాహుకారులు మరియు బాహ్యుల దోపిడీకి వ్యతిరేకంగా అనేక గిరిజన తిరుగుబాట్లు ఉద్భవించాయి.\n3. అన్ని గిరిజన తిరుగుబాట్లు పూర్తిగా పట్టణ స్వభావం కలిగినవే.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -3405,7 +3417,9 @@
   "topic_english": "Caste Movements in British India",
   "topic_telugu": "బ్రిటిష్ భారతదేశంలోని కుల ఉద్యమాలు",
   "topic_hindi": "ब्रिटिश भारत में जाति आंदोलन",
-
+  
+"questions": [
+  
   "question_english": "With reference to caste movements in British India, consider the following statements:\n\n1. Many caste movements demanded social equality and access to education.\n2. Several reformers challenged caste discrimination and untouchability.\n3. All caste movements supported the continuation of rigid social hierarchy.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "బ్రిటిష్ భారతదేశంలోని కుల ఉద్యమాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అనేక కుల ఉద్యమాలు సామాజిక సమానత్వం మరియు విద్యా అవకాశాలను డిమాండ్ చేశాయి.\n2. అనేక సంస్కరణవాదులు కుల వివక్ష మరియు అశ్పృశ్యతను సవాలు చేశారు.\n3. అన్ని కుల ఉద్యమాలు కఠినమైన సామాజిక శ్రేణి వ్యవస్థ కొనసాగింపును సమర్థించాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -3831,6 +3845,8 @@
   "topic_english": "Socio-Religious Reform Movements in British India",
   "topic_telugu": "బ్రిటిష్ భారతదేశంలోని సామాజిక-మత సంస్కరణ ఉద్యమాలు",
   "topic_hindi": "ब्रिटिश भारत में सामाजिक-धार्मिक सुधार आंदोलन",
+
+  "questions": [
 
   "question_english": "With reference to socio-religious reform movements in British India, consider the following statements:\n\n1. Many reform movements attempted to remove social evils and religious orthodoxies.\n2. Reformers often promoted modern education and rational thinking.\n3. All reform movements completely rejected Indian cultural traditions.\n\nWhich of the statements given above is/are correct?",
 
@@ -4259,6 +4275,8 @@
   "topic_telugu": "మితవాద దశ (1885–1905)",
   "topic_hindi": "उदारवादी चरण (1885–1905)",
 
+  "questions": [
+    
   "question_english": "With reference to the Moderate phase of the Indian National Congress, consider the following statements:\n\n1. The Moderates believed in constitutional and peaceful methods of agitation.\n2. They frequently used petitions, resolutions and meetings to present demands.\n3. They supported violent revolution against British rule from the beginning.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారత జాతీయ కాంగ్రెస్ మితవాద దశకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మితవాదులు రాజ్యాంగబద్ధ మరియు శాంతియుత ఆందోళన పద్ధతులను విశ్వసించారు.\n2. వారు వినతిపత్రాలు, తీర్మానాలు మరియు సమావేశాల ద్వారా తమ డిమాండ్లను వ్యక్తపరిచారు.\n3. వారు ప్రారంభం నుంచే బ్రిటిష్ పాలనకు వ్యతిరేకంగా హింసాత్మక విప్లవాన్ని సమర్థించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -5111,6 +5129,8 @@
   "topic_telugu": "స్వదేశీ ఉద్యమం",
   "topic_hindi": "स्वदेशी आंदोलन",
 
+  "questions": [
+
   "question_english": "With reference to the Swadeshi Movement, consider the following statements:\n\n1. It combined economic nationalism with political mobilisation.\n2. It encouraged the boycott of British goods and promotion of indigenous industries.\n3. It remained confined only to Bengal without influencing other regions of India.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "స్వదేశీ ఉద్యమానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది ఆర్థిక జాతీయవాదాన్ని రాజకీయ చైతన్యంతో కలిపింది.\n2. ఇది బ్రిటిష్ వస్తువుల బహిష్కరణ మరియు స్వదేశీ పరిశ్రమల ప్రోత్సాహాన్ని ప్రేరేపించింది.\n3. ఇది కేవలం బెంగాల్‌కే పరిమితమై భారతదేశంలోని ఇతర ప్రాంతాలపై ప్రభావం చూపలేదు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
@@ -5536,6 +5556,8 @@
   "topic_english": "Lucknow Session of INC (1916)",
   "topic_telugu": "లక్నో కాంగ్రెస్ సమావేశం (1916)",
   "topic_hindi": "कांग्रेस का लखनऊ अधिवेशन (1916)",
+
+  "questions": [
 
   "question_english": "With reference to the Lucknow Session of the Indian National Congress in 1916, consider the following statements:\n\n1. It marked the reunion of the Moderates and Extremists within the Congress.\n2. It witnessed the Congress-League agreement known as the Lucknow Pact.\n3. It rejected all forms of constitutional reforms proposed within the British Empire.\n\nWhich of the statements given above is/are correct?",
 
@@ -5963,6 +5985,8 @@
   "topic_telugu": "హోమ్ రూల్ ఉద్యమం",
   "topic_hindi": "होम रूल आंदोलन",
 
+  "questions": [
+    
   "question_english": "With reference to the Home Rule Movement in India, consider the following statements:\n\n1. It demanded self-government for Indians within the British Empire.\n2. It was associated with leaders such as Bal Gangadhar Tilak and Annie Besant.\n3. It aimed at immediate complete independence from British rule.\n\nWhich of the statements given above is/are correct?",
 
   "question_telugu": "భారతదేశంలోని హోమ్ రూల్ ఉద్యమానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది బ్రిటిష్ సామ్రాజ్యంలో భారతీయులకు స్వపరిపాలనను డిమాండ్ చేసింది.\n2. ఇది బాల గంగాధర్ తిలక్ మరియు అన్నీ బిసెంట్ వంటి నాయకులతో సంబంధం కలిగి ఉంది.\n3. ఇది వెంటనే పూర్తి స్వాతంత్ర్యాన్ని లక్ష్యంగా పెట్టుకుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
