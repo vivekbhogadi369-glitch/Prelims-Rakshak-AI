@@ -240,7 +240,179 @@
     "elimination_logic_telugu": "ఇది కారణ-ఫలిత సంబంధంపై ఆధారపడిన Assertion–Reason ప్రశ్న.\n\nఒక ఆర్థిక-చారిత్రక అంశం మరో వాణిజ్య నిర్ణయాన్ని ఎలా ప్రభావితం చేసిందో UPSC తరచుగా పరీక్షిస్తుంది.\n\nసూరత్ ప్రాముఖ్యతకు కారణాలు:\n• మొఘల్ వాణిజ్య వ్యవస్థ\n• ఎర్ర సముద్ర వాణిజ్యం\n• హజ్ యాత్రికుల రాకపోకలు\n• స్థిరమైన వ్యాపార నెట్వర్క్‌లు\n\nకాబట్టి కారణం ప్రతిపాదనకు నేరుగా వివరణ ఇస్తుంది.\n\nఇలాంటి ప్రశ్నల్లో విద్యార్థులు చాలాసార్లు తప్పుగా option b ఎంచుకుంటారు.\n\nఅందువల్ల option a సరైనది.",
 
     "elimination_logic_hindi": "यह कारण-परिणाम संबंध पर आधारित अभिकथन–कारण प्रश्न है।\n\nUPSC अक्सर ऐसे प्रश्न पूछता है जहाँ कोई आर्थिक-ऐतिहासिक कारक किसी प्रशासनिक या व्यापारिक निर्णय की व्याख्या करता है।\n\nसूरत का महत्व आधारित था:\n• मुगल व्यापारिक संरचना\n• लाल सागर व्यापार\n• हज यात्री यातायात\n• स्थापित व्यापारी नेटवर्क\n\nअतः कारण सीधे अभिकथन की व्याख्या करता है।\n\nविद्यार्थी प्रायः विकल्प b चुन लेते हैं जबकि यहाँ स्पष्ट कारणात्मक संबंध मौजूद है।\n\nइसलिए विकल्प a सही है।"
+  },
+  {
+    "question_english": "With reference to the European trading companies in India, consider the following statements:\n\n1. The Dutch concentrated more on the spice trade in Southeast Asia than on territorial expansion in India.\n2. The French East India Company was established under the patronage of Jean-Baptiste Colbert.\n3. The English East India Company obtained Bombay directly from the Mughal emperor.\n\nWhich of the statements given above are correct?",
+
+    "question_telugu": "భారతదేశంలోని యూరోపియన్ వాణిజ్య కంపెనీలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. డచ్‌వారు భారతదేశంలో భూవిస్తరణ కంటే ఆగ్నేయాసియాలో మసాలా వాణిజ్యంపై ఎక్కువ దృష్టి పెట్టారు.\n2. ఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ జీన్-బాప్టిస్టే కోల్బర్ట్ ఆధ్వర్యంలో స్థాపించబడింది.\n3. ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ బొంబాయిని నేరుగా మొఘల్ చక్రవర్తి నుండి పొందింది.\n\nపై ప్రకటనలలో సరైనవి ఏవి?",
+
+    "question_hindi": "भारत में यूरोपीय व्यापारिक कंपनियों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. डचों ने भारत में क्षेत्रीय विस्तार की अपेक्षा दक्षिण-पूर्व एशिया के मसाला व्यापार पर अधिक ध्यान दिया।\n2. फ्रांसीसी ईस्ट इंडिया कंपनी की स्थापना जीन-बैप्टिस्ट कोलबर्ट के संरक्षण में हुई थी।\n3. अंग्रेजी ईस्ट इंडिया कंपनी ने बंबई सीधे मुगल सम्राट से प्राप्त की थी।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+    "options_english": {
+      "a": "1 only",
+      "b": "1 and 2 only",
+      "c": "2 and 3 only",
+      "d": "1, 2 and 3"
+    },
+
+    "options_telugu": {
+      "a": "1 మాత్రమే",
+      "b": "1 మరియు 2 మాత్రమే",
+      "c": "2 మరియు 3 మాత్రమే",
+      "d": "1, 2 మరియు 3"
+    },
+
+    "options_hindi": {
+      "a": "केवल 1",
+      "b": "केवल 1 और 2",
+      "c": "केवल 2 और 3",
+      "d": "1, 2 और 3"
+    },
+
+    "correct_answer": "b",
+
+    "explanation_english": "Statements 1 and 2 are correct.\n\nThe Dutch commercial strategy focused primarily on monopolising the lucrative spice trade of Indonesia and Southeast Asia. Unlike the English, they showed comparatively less long-term interest in territorial empire-building within India.\n\nStatement 2 is also correct. The French East India Company was established in 1664 during the reign of Louis XIV under the guidance of Jean-Baptiste Colbert, the French finance minister.\n\nStatement 3 is incorrect. Bombay came into English possession through the marriage treaty between Charles II of England and Catherine of Braganza of Portugal. It was later leased to the English East India Company.\n\nThus, only statements 1 and 2 are correct.",
+
+    "explanation_telugu": "1 మరియు 2వ ప్రకటనలు సరైనవి.\n\nడచ్‌వారి వాణిజ్య వ్యూహం ప్రధానంగా ఇండోనేషియా మరియు ఆగ్నేయాసియాలోని లాభదాయకమైన మసాలా వాణిజ్యంపై కేంద్రీకృతమై ఉండేది. ఇంగ్లీషువారితో పోలిస్తే భారతదేశంలో భూసామ్రాజ్య నిర్మాణంపై వారు తక్కువ ఆసక్తి చూపారు.\n\n2వ ప్రకటన కూడా సరైనది. ఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ 1664లో లూయిస్ XIV కాలంలో ఫ్రెంచ్ ఆర్థిక మంత్రి జీన్-బాప్టిస్టే కోల్బర్ట్ ఆధ్వర్యంలో స్థాపించబడింది.\n\n3వ ప్రకటన తప్పు. బొంబాయి ఇంగ్లాండ్ రాజు చార్ల్స్-II మరియు పోర్చుగీసు యువరాణి కేథరిన్ ఆఫ్ బ్రగాంజా వివాహ ఒప్పందం ద్వారా ఇంగ్లీషువారికి వచ్చింది.\n\nకాబట్టి 1 మరియు 2 మాత్రమే సరైనవి.",
+
+    "explanation_hindi": "कथन 1 और 2 सही हैं।\n\nडचों की व्यापारिक नीति मुख्यतः इंडोनेशिया और दक्षिण-पूर्व एशिया के लाभदायक मसाला व्यापार पर केंद्रित थी। अंग्रेजों की तुलना में उन्होंने भारत में क्षेत्रीय साम्राज्य निर्माण में कम रुचि दिखाई।\n\nकथन 2 भी सही है। फ्रांसीसी ईस्ट इंडिया कंपनी की स्थापना 1664 में लुई चौदहवें के शासनकाल में फ्रांसीसी वित्त मंत्री जीन-बैप्टिस्ट कोलबर्ट के मार्गदर्शन में हुई थी।\n\nकथन 3 गलत है। बंबई अंग्रेजों को इंग्लैंड के चार्ल्स द्वितीय और पुर्तगाल की कैथरीन ऑफ ब्रेगेंज़ा के विवाह समझौते के माध्यम से प्राप्त हुई थी। बाद में इसे ईस्ट इंडिया कंपनी को पट्टे पर दिया गया।\n\nअतः केवल 1 और 2 सही हैं।",
+
+    "elimination_logic_english": "Statement 3 is the major trap. UPSC frequently tests Bombay’s transfer because students confuse Mughal grants with Portuguese-English treaties.\n\nRemember:\n• Surat → Mughal permission\n• Bombay → Portuguese marriage treaty\n\nStatement 1 reflects the Dutch commercial mindset focused on spices rather than Indian territorial politics.\n\nStatement 2 is a standard factual area related to French mercantilism under Colbert.\n\nOnce statement 3 is identified as incorrect, options c and d are eliminated. Since statements 1 and 2 are correct, option b becomes the answer.",
+
+    "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఉచ్చు. బొంబాయి బదిలీ విషయంలో మొఘల్ అనుమతులను పోర్చుగీసు-ఇంగ్లీష్ ఒప్పందాలతో విద్యార్థులు కలపడం UPSC తరచుగా పరీక్షిస్తుంది.\n\nగుర్తుంచుకోవాలి:\n• సూరత్ → మొఘల్ అనుమతి\n• బొంబాయి → పోర్చుగీసు వివాహ ఒప్పందం\n\n1వ ప్రకటన డచ్‌వారి మసాలా వాణిజ్య కేంద్రీకృత వ్యూహాన్ని సూచిస్తుంది.\n\n2వ ప్రకటన కోల్బర్ట్ ఆధ్వర్యంలోని ఫ్రెంచ్ వాణిజ్య విధానానికి సంబంధించిన ప్రామాణిక వాస్తవం.\n\n3వ ప్రకటన తప్పు కాబట్టి c మరియు d తొలగిపోతాయి. 1 మరియు 2 సరైనవి కాబట్టి option b సరైనది.",
+
+    "elimination_logic_hindi": "कथन 3 मुख्य ट्रैप है। UPSC अक्सर बंबई के हस्तांतरण को पूछता है क्योंकि विद्यार्थी मुगल अनुमति और पुर्तगाली-अंग्रेजी संधियों में भ्रमित हो जाते हैं।\n\nयाद रखें:\n• सूरत → मुगल अनुमति\n• बंबई → पुर्तगाली विवाह संधि\n\nकथन 1 डचों की मसाला-केंद्रित व्यापारिक नीति को दर्शाता है।\n\nकथन 2 कोलबर्ट के अधीन फ्रांसीसी वाणिज्यवाद से जुड़ा मानक तथ्य है।\n\nकथन 3 गलत होने से c और d हट जाते हैं। चूँकि 1 और 2 सही हैं, इसलिए विकल्प b सही है।"
+  },
+
+  {
+    "question_english": "Which one of the following factors gave the English East India Company a decisive long-term advantage over other European trading companies in India?",
+
+    "question_telugu": "భారతదేశంలోని ఇతర యూరోపియన్ వాణిజ్య కంపెనీలతో పోలిస్తే ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీకి దీర్ఘకాలిక నిర్ణాయక ఆధిక్యాన్ని కల్పించిన అంశం ఏది?",
+
+    "question_hindi": "भारत में अन्य यूरोपीय व्यापारिक कंपनियों की तुलना में अंग्रेजी ईस्ट इंडिया कंपनी को दीर्घकालिक निर्णायक बढ़त किस कारण से मिली?",
+
+    "options_english": {
+      "a": "Exclusive control over Red Sea trade",
+      "b": "Direct military alliance with the Ottoman Empire",
+      "c": "Strong naval power combined with an organised joint-stock corporate structure",
+      "d": "Complete support from all Indian rulers"
+    },
+
+    "options_telugu": {
+      "a": "ఎర్ర సముద్ర వాణిజ్యంపై సంపూర్ణ నియంత్రణ",
+      "b": "ఒట్టోమన్ సామ్రాజ్యంతో ప్రత్యక్ష సైనిక కూటమి",
+      "c": "బలమైన నౌకాదళ శక్తి మరియు క్రమబద్ధమైన జాయింట్ స్టాక్ కంపెనీ నిర్మాణం",
+      "d": "అన్ని భారతీయ పాలకుల సంపూర్ణ మద్దతు"
+    },
+
+    "options_hindi": {
+      "a": "लाल सागर व्यापार पर पूर्ण नियंत्रण",
+      "b": "उस्मानी साम्राज्य के साथ प्रत्यक्ष सैन्य गठबंधन",
+      "c": "सशक्त नौसैनिक शक्ति तथा संगठित संयुक्त पूँजी कंपनी संरचना",
+      "d": "सभी भारतीय शासकों का पूर्ण समर्थन"
+    },
+
+    "correct_answer": "c",
+
+    "explanation_english": "The English East India Company gradually emerged as the dominant European power in India because it combined naval superiority, financial resources and an efficient joint-stock corporate structure.\n\nIts ability to mobilise capital from investors, maintain permanent armed forces and sustain long-distance maritime trade gave it advantages over rivals such as the Portuguese and the French.\n\nThe English also benefited from political flexibility, strategic diplomacy and the decline of centralized Indian powers in the eighteenth century.\n\nOptions a and b are historically incorrect because the English never enjoyed exclusive Red Sea control or Ottoman military alliance. Option d is unrealistic because many Indian rulers actively resisted English expansion.",
+
+    "explanation_telugu": "ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీ నౌకాదళ ఆధిక్యం, ఆర్థిక వనరులు మరియు క్రమబద్ధమైన జాయింట్ స్టాక్ కంపెనీ నిర్మాణం వల్ల భారతదేశంలో ప్రధాన యూరోపియన్ శక్తిగా ఎదిగింది.\n\nపెట్టుబడిదారుల నుంచి మూలధనం సమీకరించడం, శాశ్వత సైన్యాన్ని నిర్వహించడం మరియు దీర్ఘదూర సముద్ర వాణిజ్యాన్ని కొనసాగించడం వల్ల పోర్చుగీసు మరియు ఫ్రెంచ్ ప్రత్యర్థులపై వారికి ఆధిక్యం లభించింది.\n\nఅదనంగా రాజకీయ సౌలభ్యం, వ్యూహాత్మక రాజనీతీ మరియు భారతీయ కేంద్రీకృత శక్తుల క్షీణత కూడా వారికి సహాయపడ్డాయి.\n\nఎంపికలు a మరియు b చారిత్రకంగా తప్పు. d కూడా తప్పు, ఎందుకంటే అనేక భారతీయ పాలకులు ఇంగ్లీష్ విస్తరణకు వ్యతిరేకంగా పోరాడారు.",
+
+    "explanation_hindi": "अंग्रेजी ईस्ट इंडिया कंपनी नौसैनिक श्रेष्ठता, वित्तीय संसाधनों तथा संगठित संयुक्त पूँजी कंपनी संरचना के कारण भारत में प्रमुख यूरोपीय शक्ति के रूप में उभरी।\n\nनिवेशकों से पूँजी जुटाने, स्थायी सेना बनाए रखने और लंबी दूरी के समुद्री व्यापार को संचालित करने की क्षमता ने उसे पुर्तगालियों और फ्रांसीसियों पर बढ़त दी।\n\nअंग्रेजों को राजनीतिक लचीलापन, रणनीतिक कूटनीति तथा अठारहवीं शताब्दी में भारतीय केंद्रीय शक्तियों के पतन का भी लाभ मिला।\n\nविकल्प a और b ऐतिहासिक रूप से गलत हैं। विकल्प d भी अवास्तविक है क्योंकि अनेक भारतीय शासकों ने अंग्रेजी विस्तार का विरोध किया।",
+
+    "elimination_logic_english": "Option d can be eliminated immediately because English expansion faced continuous resistance from Indian powers such as Mysore, the Marathas and the Sikhs.\n\nOption b is factually incorrect because no permanent Ottoman-English military alliance existed for Indian expansion.\n\nOption a confuses West Asian maritime trade with English imperial growth.\n\nUPSC often tests structural reasons behind colonial success:\n• naval strength\n• finance capitalism\n• joint-stock companies\n• military organisation\n\nHence option c is the most analytical and historically accurate answer.",
+
+    "elimination_logic_telugu": "ఎంపిక dను వెంటనే తొలగించవచ్చు, ఎందుకంటే మైసూరు, మరాఠాలు, సిక్కులు వంటి భారతీయ శక్తులు ఇంగ్లీష్ విస్తరణకు నిరంతరం ప్రతిఘటించాయి.\n\nఎంపిక b చారిత్రకంగా తప్పు. భారత విస్తరణ కోసం శాశ్వత ఒట్టోమన్-ఇంగ్లీష్ సైనిక కూటమి లేదు.\n\nఎంపిక a పశ్చిమ ఆసియా సముద్ర వాణిజ్యాన్ని ఇంగ్లీష్ సామ్రాజ్య విస్తరణతో గందరగోళం చేస్తుంది.\n\nUPSC సాధారణంగా వలస విజయానికి కారణమైన నిర్మాణాత్మక అంశాలను పరీక్షిస్తుంది:\n• నౌకాదళ శక్తి\n• ఆర్థిక పెట్టుబడి వ్యవస్థ\n• జాయింట్ స్టాక్ కంపెనీలు\n• సైనిక నిర్వహణ\n\nకాబట్టి option c అత్యంత సరైన సమాధానం.",
+
+    "elimination_logic_hindi": "विकल्प d को तुरंत हटाया जा सकता है क्योंकि अंग्रेजी विस्तार का मैसूर, मराठों और सिखों जैसी भारतीय शक्तियों ने लगातार विरोध किया।\n\nविकल्प b तथ्यात्मक रूप से गलत है क्योंकि भारतीय विस्तार हेतु कोई स्थायी उस्मानी-अंग्रेजी सैन्य गठबंधन नहीं था।\n\nविकल्प a पश्चिम एशियाई समुद्री व्यापार को अंग्रेजी साम्राज्यवादी विस्तार से भ्रमित करता है।\n\nUPSC अक्सर औपनिवेशिक सफलता के संरचनात्मक कारण पूछता है:\n• नौसैनिक शक्ति\n• वित्तीय पूँजीवाद\n• संयुक्त पूँजी कंपनियाँ\n• सैन्य संगठन\n\nअतः विकल्प c सबसे विश्लेषणात्मक और ऐतिहासिक रूप से सही उत्तर है।"
+  },
+
+  {
+    "question_english": "Consider the following statements:\n\n1. The Battle of Swally strengthened English naval prestige in India.\n2. The Mughal emperor Jahangir granted trading privileges to the English after observing their naval strength against the Portuguese.\n3. Sir Thomas Roe came to India during the reign of Aurangzeb.\n\nWhich of the statements given above is/are correct?",
+
+    "question_telugu": "క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. స్వాలీ యుద్ధం భారతదేశంలో ఇంగ్లీషువారి నౌకాదళ ప్రతిష్ఠను పెంచింది.\n2. పోర్చుగీసువారిపై ఇంగ్లీషువారి నౌకాదళ శక్తిని గమనించిన తర్వాత మొఘల్ చక్రవర్తి జహంగీర్ వారికి వాణిజ్య హక్కులను ఇచ్చాడు.\n3. సర్ థామస్ రో ఔరంగజేబు కాలంలో భారతదేశానికి వచ్చాడు.\n\nపై ప్రకటనలలో సరైనవి ఏవి?",
+
+    "question_hindi": "निम्नलिखित कथनों पर विचार कीजिए:\n\n1. स्वाली के युद्ध ने भारत में अंग्रेजों की नौसैनिक प्रतिष्ठा को मजबूत किया।\n2. पुर्तगालियों के विरुद्ध अंग्रेजों की नौसैनिक शक्ति देखकर मुगल सम्राट जहाँगीर ने उन्हें व्यापारिक सुविधाएँ प्रदान कीं।\n3. सर थॉमस रो भारत में औरंगज़ेब के शासनकाल में आए थे।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+    "options_english": {
+      "a": "1 and 2 only",
+      "b": "2 and 3 only",
+      "c": "1 and 3 only",
+      "d": "1, 2 and 3"
+    },
+
+    "options_telugu": {
+      "a": "1 మరియు 2 మాత్రమే",
+      "b": "2 మరియు 3 మాత్రమే",
+      "c": "1 మరియు 3 మాత్రమే",
+      "d": "1, 2 మరియు 3"
+    },
+
+    "options_hindi": {
+      "a": "केवल 1 और 2",
+      "b": "केवल 2 और 3",
+      "c": "केवल 1 और 3",
+      "d": "1, 2 और 3"
+    },
+
+    "correct_answer": "a",
+
+    "explanation_english": "Statements 1 and 2 are correct.\n\nThe Battle of Swally (1612), fought near Surat between the English and the Portuguese, significantly enhanced English naval reputation in western India.\n\nThe Mughal emperor Jahangir realised that the English could counterbalance Portuguese influence in maritime trade. Consequently, the English received important commercial privileges.\n\nStatement 3 is incorrect. Sir Thomas Roe came to Jahangir’s court during Jahangir’s reign, not during Aurangzeb’s period.\n\nThus, only statements 1 and 2 are correct.",
+
+    "explanation_telugu": "1 మరియు 2వ ప్రకటనలు సరైనవి.\n\n1612లో సూరత్ సమీపంలో జరిగిన స్వాలీ యుద్ధం ఇంగ్లీషువారి నౌకాదళ ప్రతిష్ఠను గణనీయంగా పెంచింది.\n\nపోర్చుగీసువారిని సముద్ర వాణిజ్యంలో ఎదుర్కొనే శక్తి ఇంగ్లీషువారికి ఉందని జహంగీర్ గ్రహించాడు. ఫలితంగా వారికి ముఖ్యమైన వాణిజ్య హక్కులు లభించాయి.\n\n3వ ప్రకటన తప్పు. సర్ థామస్ రో జహంగీర్ ఆస్థానానికి వచ్చాడు, ఔరంగజేబు కాలానికి కాదు.\n\nకాబట్టి 1 మరియు 2 మాత్రమే సరైనవి.",
+
+    "explanation_hindi": "कथन 1 और 2 सही हैं।\n\n1612 में सूरत के निकट लड़ा गया स्वाली का युद्ध अंग्रेजों और पुर्तगालियों के बीच हुआ था और इससे पश्चिमी भारत में अंग्रेजों की नौसैनिक प्रतिष्ठा बढ़ी।\n\nजहाँगीर ने समझा कि अंग्रेज समुद्री व्यापार में पुर्तगाली प्रभाव का संतुलन बना सकते हैं। परिणामस्वरूप अंग्रेजों को महत्वपूर्ण व्यापारिक सुविधाएँ मिलीं।\n\nकथन 3 गलत है। सर थॉमस रो जहाँगीर के दरबार में आए थे, औरंगज़ेब के काल में नहीं।\n\nअतः केवल 1 और 2 सही हैं।",
+
+    "elimination_logic_english": "Statement 3 is the chronological trap.\n\nSir Thomas Roe → Jahangir\nAurangzeb → much later Mughal phase\n\nUPSC frequently tests ambassador chronology.\n\nStatement 1 is historically important because the Battle of Swally marked the decline of Portuguese maritime dominance.\n\nStatement 2 logically follows because Mughal authorities preferred balancing European powers rather than allowing Portuguese monopoly.\n\nTherefore option a is correct.",
+
+    "elimination_logic_telugu": "3వ ప్రకటన కాలక్రమ ఉచ్చు.\n\nసర్ థామస్ రో → జహంగీర్ కాలం\nఔరంగజేబు → చాలా తరువాతి మొఘల్ దశ\n\nUPSC తరచుగా రాయబారుల కాలక్రమాన్ని పరీక్షిస్తుంది.\n\n1వ ప్రకటన ముఖ్యమైనది, ఎందుకంటే స్వాలీ యుద్ధం పోర్చుగీసు సముద్ర ఆధిపత్య క్షీణతకు సంకేతంగా నిలిచింది.\n\n2వ ప్రకటన కూడా తార్కికంగా సరైనది, ఎందుకంటే మొఘల్ పాలకులు యూరోపియన్ శక్తుల మధ్య సమతుల్యత కోరుకున్నారు.\n\nకాబట్టి option a సరైనది.",
+
+    "elimination_logic_hindi": "कथन 3 कालक्रम संबंधी ट्रैप है।\n\nसर थॉमस रो → जहाँगीर काल\nऔरंगज़ेब → बहुत बाद का मुगल चरण\n\nUPSC प्रायः राजदूतों की कालानुक्रमिक स्थिति पूछता है।\n\nकथन 1 महत्वपूर्ण है क्योंकि स्वाली का युद्ध पुर्तगाली समुद्री प्रभुत्व के पतन का संकेत था।\n\nकथन 2 भी तार्किक है क्योंकि मुगल शासक यूरोपीय शक्तियों के बीच संतुलन चाहते थे।\n\nअतः विकल्प a सही है।"
+  },
+
+  {
+    "question_english": "Assertion (A): The French ultimately failed to establish a lasting colonial empire in India.\n\nReason (R): The French East India Company suffered from weak naval support and excessive dependence on the French state.\n\nSelect the correct answer using the code given below.",
+
+    "question_telugu": "ప్రతిపాదన (A): ఫ్రెంచువారు భారతదేశంలో శాశ్వత వలస సామ్రాజ్యాన్ని స్థాపించడంలో చివరకు విఫలమయ్యారు.\n\nకారణం (R): ఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ బలహీన నౌకాదళ మద్దతు మరియు ఫ్రెంచ్ ప్రభుత్వంపై అధిక ఆధారపడుదల వల్ల నష్టపోయింది.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+    "question_hindi": "अभिकथन (A): फ्रांसीसी भारत में स्थायी औपनिवेशिक साम्राज्य स्थापित करने में अंततः विफल रहे।\n\nकारण (R): फ्रांसीसी ईस्ट इंडिया कंपनी कमजोर नौसैनिक समर्थन तथा फ्रांसीसी राज्य पर अत्यधिक निर्भरता से प्रभावित थी।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+    "options_english": {
+      "a": "Both A and R are correct and R is the correct explanation of A",
+      "b": "Both A and R are correct but R is not the correct explanation of A",
+      "c": "A is correct but R is incorrect",
+      "d": "A is incorrect but R is correct"
+    },
+
+    "options_telugu": {
+      "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+      "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+      "c": "A సరైనది కానీ R తప్పు",
+      "d": "A తప్పు కానీ R సరైనది"
+    },
+
+    "options_hindi": {
+      "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+      "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+      "c": "A सही है लेकिन R गलत है",
+      "d": "A गलत है लेकिन R सही है"
+    },
+
+    "correct_answer": "a",
+
+    "explanation_english": "Both Assertion and Reason are correct.\n\nAlthough the French under Dupleix briefly emerged as serious competitors to the English in south India, they ultimately failed to establish a durable colonial empire.\n\nA major structural weakness of the French East India Company was its heavy dependence on the French monarchy and state finances. Unlike the English East India Company, it lacked sustained private commercial backing.\n\nAdditionally, British naval superiority disrupted French communications, reinforcements and supplies during the Carnatic conflicts.\n\nTherefore, the Reason directly explains the French failure in India.",
+
+    "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి.\n\nడూప్లెక్స్ నాయకత్వంలో ఫ్రెంచువారు కొంతకాలం దక్షిణ భారతదేశంలో ఇంగ్లీషువారికి తీవ్రమైన ప్రత్యర్థులుగా ఎదిగినా, చివరకు శాశ్వత వలస సామ్రాజ్యాన్ని స్థాపించడంలో విఫలమయ్యారు.\n\nఫ్రెంచ్ ఈస్ట్ ఇండియా కంపెనీ యొక్క ప్రధాన బలహీనత ఫ్రెంచ్ రాజ్యంపై మరియు ప్రభుత్వ ఆర్థిక సహాయంపై అధిక ఆధారపడుదల. ఇంగ్లీష్ ఈస్ట్ ఇండియా కంపెనీలా దీర్ఘకాలిక ప్రైవేట్ పెట్టుబడి మద్దతు వారికి లేదు.\n\nఅదనంగా బ్రిటిష్ నౌకాదళ ఆధిక్యం కర్నాటక యుద్ధాల సమయంలో ఫ్రెంచ్ సరఫరాలు మరియు బలగాల రాకను దెబ్బతీసింది.\n\nఅందువల్ల కారణం ఫ్రెంచ్ వైఫల్యాన్ని నేరుగా వివరిస్తుంది.",
+
+    "explanation_hindi": "अभिकथन और कारण दोनों सही हैं।\n\nडुप्ले के नेतृत्व में फ्रांसीसी कुछ समय के लिए दक्षिण भारत में अंग्रेजों के गंभीर प्रतिद्वंद्वी बने, किन्तु वे स्थायी औपनिवेशिक साम्राज्य स्थापित करने में विफल रहे।\n\nफ्रांसीसी ईस्ट इंडिया कंपनी की एक बड़ी कमजोरी फ्रांसीसी राजसत्ता और सरकारी वित्त पर उसकी अत्यधिक निर्भरता थी। अंग्रेजी ईस्ट इंडिया कंपनी की तरह उसे दीर्घकालिक निजी वाणिज्यिक समर्थन प्राप्त नहीं था।\n\nइसके अतिरिक्त ब्रिटिश नौसैनिक श्रेष्ठता ने कर्नाटक युद्धों के दौरान फ्रांसीसी आपूर्ति और सहायता को बाधित किया।\n\nअतः कारण सीधे फ्रांसीसी विफलता की व्याख्या करता है।",
+
+    "elimination_logic_english": "This is a structural-analysis question rather than a simple factual one.\n\nUPSC often asks why one European power succeeded while another failed.\n\nKey comparative framework:\n• English → stronger navy + private capital + autonomous company structure\n• French → excessive state dependence + weaker naval support\n\nSince the Reason directly explains the French inability to sustain imperial expansion, option a is correct.\n\nStudents choosing option b fail to recognise the direct causal linkage.",
+
+    "elimination_logic_telugu": "ఇది సాధారణ వాస్తవ ప్రశ్న కాదు; నిర్మాణాత్మక విశ్లేషణ ప్రశ్న.\n\nఒక యూరోపియన్ శక్తి ఎందుకు విజయం సాధించింది మరియు మరొకటి ఎందుకు విఫలమైందో UPSC తరచుగా పరీక్షిస్తుంది.\n\nతులనాత్మక నిర్మాణం:\n• ఇంగ్లీషువారు → బలమైన నౌకాదళం + ప్రైవేట్ పెట్టుబడి + స్వతంత్ర కంపెనీ నిర్మాణం\n• ఫ్రెంచువారు → ప్రభుత్వంపై అధిక ఆధారపడుదల + బలహీన నౌకాదళ మద్దతు\n\nకారణం ఫ్రెంచ్ వైఫల్యాన్ని నేరుగా వివరిస్తుంది కాబట్టి option a సరైనది.",
+
+    "elimination_logic_hindi": "यह केवल तथ्यात्मक नहीं बल्कि संरचनात्मक-विश्लेषणात्मक प्रश्न है।\n\nUPSC प्रायः पूछता है कि एक यूरोपीय शक्ति क्यों सफल हुई और दूसरी क्यों असफल रही।\n\nतुलनात्मक ढाँचा:\n• अंग्रेज → मजबूत नौसेना + निजी पूँजी + स्वायत्त कंपनी संरचना\n• फ्रांसीसी → अत्यधिक राज्य निर्भरता + कमजोर नौसैनिक समर्थन\n\nचूँकि कारण सीधे फ्रांसीसी विफलता की व्याख्या करता है, इसलिए विकल्प a सही है।\n\nजो विद्यार्थी विकल्प b चुनते हैं वे कारणात्मक संबंध को नहीं पहचानते।"
   }
     ]
   }
 }
+      
