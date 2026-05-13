@@ -6848,5 +6848,442 @@
   "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि क्रांतिकारी राष्ट्रवाद ने अन्य राष्ट्रवादी धाराओं को समाप्त नहीं किया।\n\nभारत में कई राष्ट्रवादी धाराएँ साथ-साथ विकसित हुईं।\n\n1, 2 और 4 सही हैं। अतः c सही उत्तर है।"
 }
   ]
-  }
+  },
+  "Non Cooperation Movement": {
+  "topic_english": "Non Cooperation Movement",
+  "topic_telugu": "సహాయ నిరాకరణ ఉద్యమం",
+  "topic_hindi": "असहयोग आंदोलन",
+
+  "questions": [
+    {
+      "question_english": "With reference to the Non Cooperation Movement, consider the following statements:\n\n1. The movement was launched under the leadership of Mahatma Gandhi.\n2. It aimed at withdrawing Indian cooperation from colonial institutions.\n3. The movement supported participation in legislative councils under colonial administration.\n\nWhich of the statements given above is/are correct?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఈ ఉద్యమం మహాత్మా గాంధీ నాయకత్వంలో ప్రారంభమైంది.\n2. ఇది వలస పాలనా సంస్థల నుండి భారతీయుల సహకారాన్ని ఉపసంహరించుకోవడాన్ని లక్ష్యంగా పెట్టుకుంది.\n3. ఈ ఉద్యమం వలస శాసన మండళ్లలో పాల్గొనడాన్ని సమర్థించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "question_hindi": "असहयोग आंदोलन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह आंदोलन महात्मा गांधी के नेतृत्व में प्रारंभ हुआ।\n2. इसका उद्देश्य औपनिवेशिक संस्थाओं से भारतीय सहयोग वापस लेना था।\n3. इस आंदोलन ने औपनिवेशिक विधान परिषदों में भागीदारी का समर्थन किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_english": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మాత్రమే",
+        "b": "1 మరియు 2 మాత్రమే",
+        "c": "2 మరియు 3 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1",
+        "b": "केवल 1 और 2",
+        "c": "केवल 2 और 3",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "b",
+
+      "explanation_english": "Statements 1 and 2 are correct. The Non Cooperation Movement was launched by Mahatma Gandhi in 1920 as part of a nationwide anti-colonial struggle.\n\nIts objective was to weaken colonial authority by withdrawing Indian cooperation from government institutions, schools, courts and titles.\n\nStatement 3 is incorrect because the movement advocated boycott rather than participation in legislative councils.",
+
+      "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. సహాయ నిరాకరణ ఉద్యమం 1920లో మహాత్మా గాంధీ నాయకత్వంలో ప్రారంభమైంది.\n\nఇది ప్రభుత్వ సంస్థలు, పాఠశాలలు, న్యాయస్థానాలు మరియు బిరుదుల నుండి సహకారాన్ని ఉపసంహరించుకోవడాన్ని లక్ష్యంగా పెట్టుకుంది.\n\n3వ ప్రకటన తప్పు. ఈ ఉద్యమం శాసన మండళ్ల బహిష్కరణను ప్రోత్సహించింది.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। असहयोग आंदोलन 1920 में महात्मा गांधी के नेतृत्व में प्रारंभ हुआ।\n\nइसका उद्देश्य सरकारी संस्थाओं, विद्यालयों, न्यायालयों और उपाधियों से भारतीय सहयोग वापस लेना था।\n\nकथन 3 गलत है क्योंकि आंदोलन ने विधान परिषदों के बहिष्कार का समर्थन किया।",
+
+      "elimination_logic_english": "Statement 3 is the key elimination point because the Non Cooperation Movement was based on boycott of colonial institutions.\n\nUPSC often frames questions around participation versus boycott in nationalist movements.\n\nStatements 1 and 2 correctly reflect the leadership and objectives of the movement. Therefore, option b is correct.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. సహాయ నిరాకరణ ఉద్యమం వలస సంస్థల బహిష్కరణపై ఆధారపడింది.\n\nUPSC జాతీయోద్యమాల్లో పాల్గొనడం మరియు బహిష్కరణ మధ్య తేడాను పరీక్షిస్తుంది.\n\n1 మరియు 2 సరైనవి. కాబట్టి b సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि असहयोग आंदोलन औपनिवेशिक संस्थाओं के बहिष्कार पर आधारित था।\n\nUPSC अक्सर भागीदारी और बहिष्कार के बीच अंतर पूछती है।\n\n1 और 2 सही हैं। अतः b सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Which one of the following best explains the political significance of the Non Cooperation Movement?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమం యొక్క రాజకీయ ప్రాముఖ్యతను అత్యుత్తమంగా వివరించేది ఏది?",
+
+      "question_hindi": "असहयोग आंदोलन के राजनीतिक महत्व को निम्नलिखित में से कौन सबसे बेहतर स्पष्ट करता है?",
+
+      "options_english": {
+        "a": "It immediately ended British rule in India.",
+        "b": "It transformed Indian nationalism into a broader mass movement.",
+        "c": "It permanently abolished colonial administrative institutions.",
+        "d": "It established armed revolutionary rule across India."
+      },
+
+      "options_telugu": {
+        "a": "ఇది వెంటనే బ్రిటిష్ పాలనను ముగించింది.",
+        "b": "ఇది భారత జాతీయోద్యమాన్ని విస్తృత సామూహిక ఉద్యమంగా మార్చింది.",
+        "c": "ఇది వలస పరిపాలనా సంస్థలను శాశ్వతంగా రద్దు చేసింది.",
+        "d": "ఇది దేశవ్యాప్తంగా సాయుధ విప్లవ పాలనను స్థాపించింది."
+      },
+
+      "options_hindi": {
+        "a": "इसने तुरंत ब्रिटिश शासन समाप्त कर दिया।",
+        "b": "इसने भारतीय राष्ट्रवाद को व्यापक जन आंदोलन में परिवर्तित किया।",
+        "c": "इसने औपनिवेशिक प्रशासनिक संस्थाओं को स्थायी रूप से समाप्त कर दिया।",
+        "d": "इसने पूरे भारत में सशस्त्र क्रांतिकारी शासन स्थापित किया।"
+      },
+
+      "correct_answer": "b",
+
+      "explanation_english": "The Non Cooperation Movement marked a major turning point because it transformed Indian nationalism into a mass-based movement involving students, peasants, workers and the urban middle class.\n\nIt expanded political participation beyond elite politics and strengthened anti-colonial mobilisation across India.\n\nAlthough it did not immediately end colonial rule, its political impact was enormous.",
+
+      "explanation_telugu": "సహాయ నిరాకరణ ఉద్యమం భారత జాతీయోద్యమాన్ని సామూహిక ఉద్యమంగా మార్చిన కీలక మలుపు.\n\nఇది విద్యార్థులు, రైతులు, కార్మికులు మరియు మధ్యతరగతిని జాతీయోద్యమంలో భాగస్వామ్యం చేసింది.\n\nతక్షణ ఫలితాలు రాకపోయినా దీని రాజకీయ ప్రభావం విశాలంగా ఉంది.",
+
+      "explanation_hindi": "असहयोग आंदोलन भारतीय राष्ट्रवाद को जन-आधारित आंदोलन में बदलने वाला महत्वपूर्ण मोड़ था।\n\nइसने छात्रों, किसानों, मजदूरों और मध्यम वर्ग को आंदोलन से जोड़ा।\n\nयद्यपि इससे तुरंत स्वतंत्रता नहीं मिली, फिर भी इसका राजनीतिक प्रभाव अत्यंत व्यापक था।",
+
+      "elimination_logic_english": "Options a, c and d are exaggerated and historically incorrect.\n\nThe real significance of the movement lay in mass mobilisation and expansion of nationalist participation.\n\nUPSC often asks about the broader political transformation caused by Gandhian movements. Therefore, option b is correct.",
+
+      "elimination_logic_telugu": "a, c మరియు d చారిత్రకంగా తప్పు మరియు అతిశయ ప్రకటనలు.\n\nఈ ఉద్యమం యొక్క ప్రధాన ప్రాముఖ్యత సామూహిక రాజకీయ చైతన్యంలో ఉంది.\n\nUPSC గాంధీయ ఉద్యమాల విస్తృత రాజకీయ ప్రభావాన్ని ప్రశ్నిస్తుంది. కాబట్టి b సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत और अतिशयोक्तिपूर्ण हैं।\n\nइस आंदोलन का मुख्य महत्व जन-आधारित राष्ट्रवादी राजनीति का विस्तार था।\n\nUPSC गांधीवादी आंदोलनों के व्यापक राजनीतिक प्रभाव पर प्रश्न पूछती है। अतः b सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Assertion (A): The Non Cooperation Movement represented a new phase in Indian nationalism.\n\nReason (R): It introduced large-scale mass participation under Gandhian leadership using non-violent methods.\n\nSelect the correct answer using the code given below.",
+
+      "question_telugu": "ప్రతిపాదన (A): సహాయ నిరాకరణ ఉద్యమం భారత జాతీయోద్యమంలో కొత్త దశను సూచించింది.\n\nకారణం (R): ఇది గాంధీయ నాయకత్వంలో అహింసా పద్ధతుల ద్వారా విస్తృత ప్రజా భాగస్వామ్యాన్ని ప్రవేశపెట్టింది.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+      "question_hindi": "अभिकथन (A): असहयोग आंदोलन भारतीय राष्ट्रवाद का एक नया चरण था।\n\nकारण (R): इसने गांधीवादी नेतृत्व में अहिंसात्मक पद्धतियों द्वारा व्यापक जनभागीदारी को प्रस्तुत किया।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+      "options_english": {
+        "a": "Both A and R are correct and R is the correct explanation of A",
+        "b": "Both A and R are correct but R is not the correct explanation of A",
+        "c": "A is correct but R is incorrect",
+        "d": "A is incorrect but R is correct"
+      },
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R తప్పు",
+        "d": "A తప్పు కానీ R సరైనది"
+      },
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+        "c": "A सही है लेकिन R गलत है",
+        "d": "A गलत है लेकिन R सही है"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Both Assertion and Reason are correct, and the Reason explains the Assertion. The Non Cooperation Movement marked a new phase because nationalism became deeply connected with mass mobilisation under Gandhian leadership.\n\nThe movement used non-violent resistance, boycott and public participation as major political tools.\n\nThis transformed the character of the Indian freedom struggle.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సహాయ నిరాకరణ ఉద్యమం ద్వారా గాంధీయ నాయకత్వంలో సామూహిక రాజకీయ చైతన్యం పెరిగింది.\n\nఅహింస, బహిష్కరణ మరియు ప్రజా భాగస్వామ్యం ప్రధాన రాజకీయ ఆయుధాలుగా మారాయి.\n\nదీంతో స్వాతంత్ర్యోద్యమ స్వభావం మారింది.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की व्याख्या करता है। असहयोग आंदोलन ने गांधीवादी नेतृत्व में राष्ट्रवाद को जन-आधारित रूप दिया।\n\nअहिंसा, बहिष्कार और जनभागीदारी इसके प्रमुख राजनीतिक साधन बने।\n\nइससे स्वतंत्रता संघर्ष का स्वरूप बदल गया।",
+
+      "elimination_logic_english": "This is a conceptual Assertion-Reason question focused on the transformation brought by the Non Cooperation Movement.\n\nThe Reason directly explains why the movement represented a new phase in nationalism.\n\nMass participation and non-violent mobilisation became central to Indian politics. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "ఇది సహాయ నిరాకరణ ఉద్యమం తెచ్చిన మార్పుపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\nజాతీయోద్యమంలో ఇది ఎందుకు కొత్త దశగా మారిందో కారణం నేరుగా వివరిస్తోంది.\n\nసామూహిక ప్రజా భాగస్వామ్యం మరియు అహింస ప్రధాన లక్షణాలుగా మారాయి. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "यह असहयोग आंदोलन द्वारा लाए गए परिवर्तन पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि यह आंदोलन राष्ट्रवाद का नया चरण क्यों बना।\n\nजनभागीदारी और अहिंसात्मक आंदोलन भारतीय राजनीति के केंद्र में आ गए। अतः a सही उत्तर है।"
+    },
+  "questions": [
+    {
+      "question_english": "With reference to the programmes of the Non Cooperation Movement, consider the following statements:\n\n1. The movement encouraged boycott of government schools and colleges.\n2. It promoted surrender of honorary titles granted by the colonial government.\n3. It supported active recruitment into the colonial army during the movement.\n\nWhich of the statements given above is/are correct?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమ కార్యక్రమాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఈ ఉద్యమం ప్రభుత్వ పాఠశాలలు మరియు కళాశాలల బహిష్కరణను ప్రోత్సహించింది.\n2. ఇది వలస ప్రభుత్వం ఇచ్చిన గౌరవ బిరుదులను తిరిగి ఇవ్వాలని కోరింది.\n3. ఉద్యమ సమయంలో వలస సైన్యంలో నియామకాన్ని ఇది సమర్థించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "question_hindi": "असहयोग आंदोलन के कार्यक्रमों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इस आंदोलन ने सरकारी विद्यालयों और महाविद्यालयों के बहिष्कार को प्रोत्साहित किया।\n2. इसने औपनिवेशिक सरकार द्वारा प्रदान की गई उपाधियों को लौटाने का समर्थन किया।\n3. आंदोलन के दौरान इसने औपनिवेशिक सेना में भर्ती का समर्थन किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_english": {
+        "a": "1 and 2 only",
+        "b": "1 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మరియు 2 మాత్రమే",
+        "b": "1 మాత్రమే",
+        "c": "2 మరియు 3 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1 और 2",
+        "b": "केवल 1",
+        "c": "केवल 2 और 3",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Statements 1 and 2 are correct. The Non Cooperation Movement encouraged boycott of colonial educational institutions and surrender of honorary titles as forms of non-violent resistance.\n\nThese measures aimed to reduce Indian cooperation with colonial authority.\n\nStatement 3 is incorrect because the movement opposed strengthening colonial rule through such participation.",
+
+      "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. సహాయ నిరాకరణ ఉద్యమం ప్రభుత్వ విద్యాసంస్థల బహిష్కరణను మరియు గౌరవ బిరుదుల త్యాగాన్ని ప్రోత్సహించింది.\n\nఇవి వలస పాలనకు సహకారాన్ని తగ్గించడానికి ఉపయోగించబడ్డాయి.\n\n3వ ప్రకటన తప్పు. ఈ ఉద్యమం వలస పాలన బలపడే చర్యలను వ్యతిరేకించింది.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। असहयोग आंदोलन ने सरकारी शिक्षण संस्थाओं के बहिष्कार और उपाधियों की वापसी को प्रोत्साहित किया।\n\nइनका उद्देश्य औपनिवेशिक शासन के साथ भारतीय सहयोग को कम करना था।\n\nकथन 3 गलत है क्योंकि आंदोलन औपनिवेशिक शासन को मजबूत करने वाले कार्यों के विरुद्ध था।",
+
+      "elimination_logic_english": "Statement 3 is the elimination point because the Non Cooperation Movement sought to weaken, not strengthen, colonial authority.\n\nBoycott and withdrawal of cooperation formed the core strategy of the movement.\n\nStatements 1 and 2 correctly reflect important programmes of the movement. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. సహాయ నిరాకరణ ఉద్యమం వలస పాలనను బలహీనపరచడమే లక్ష్యంగా పెట్టుకుంది.\n\nబహిష్కరణ మరియు సహకార ఉపసంహరణ ఉద్యమం యొక్క ప్రధాన వ్యూహాలు.\n\n1 మరియు 2 సరైనవి. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि असहयोग आंदोलन का उद्देश्य औपनिवेशिक शासन को कमजोर करना था।\n\nबहिष्कार और असहयोग इसकी प्रमुख रणनीतियाँ थीं।\n\n1 और 2 सही हैं। अतः a सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Which one of the following best explains the role of non-violence in the Non Cooperation Movement?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమంలో అహింస యొక్క పాత్రను అత్యుత్తమంగా వివరించేది ఏది?",
+
+      "question_hindi": "असहयोग आंदोलन में अहिंसा की भूमिका को निम्नलिखित में से कौन सबसे बेहतर स्पष्ट करता है?",
+
+      "options_english": {
+        "a": "It aimed at replacing political mobilisation with passive loyalty.",
+        "b": "It functioned as a disciplined method of mass resistance against colonial rule.",
+        "c": "It rejected all forms of public participation in politics.",
+        "d": "It supported violent overthrow of colonial institutions."
+      },
+
+      "options_telugu": {
+        "a": "ఇది రాజకీయ చైతన్యాన్ని నిష్క్రియ విధేయతతో భర్తీ చేయాలని లక్ష్యంగా పెట్టుకుంది.",
+        "b": "ఇది వలస పాలనకు వ్యతిరేకంగా క్రమబద్ధమైన సామూహిక ప్రతిఘటన పద్ధతిగా పనిచేసింది.",
+        "c": "ఇది ప్రజల రాజకీయ భాగస్వామ్యాన్ని పూర్తిగా తిరస్కరించింది.",
+        "d": "ఇది వలస సంస్థల హింసాత్మక కూల్చివేతను సమర్థించింది."
+      },
+
+      "options_hindi": {
+        "a": "इसका उद्देश्य राजनीतिक जागरूकता को निष्क्रिय निष्ठा से बदलना था।",
+        "b": "यह औपनिवेशिक शासन के विरुद्ध अनुशासित जन-प्रतिरोध की पद्धति थी।",
+        "c": "इसने राजनीति में जनभागीदारी को पूर्णतः अस्वीकार किया।",
+        "d": "इसने औपनिवेशिक संस्थाओं के हिंसात्मक उन्मूलन का समर्थन किया।"
+      },
+
+      "correct_answer": "b",
+
+      "explanation_english": "Non-violence in the Non Cooperation Movement was not passive inactivity but an organised political strategy under Gandhian leadership.\n\nIt enabled large-scale public participation while maintaining discipline and moral legitimacy.\n\nThrough boycott, protest and peaceful resistance, it challenged colonial authority on a mass scale.",
+
+      "explanation_telugu": "సహాయ నిరాకరణ ఉద్యమంలోని అహింస నిష్క్రియత కాదు; అది గాంధీయ నాయకత్వంలోని క్రమబద్ధమైన రాజకీయ వ్యూహం.\n\nఇది క్రమశిక్షణతో కూడిన విస్తృత ప్రజా భాగస్వామ్యాన్ని సాధ్యంచేసింది.\n\nబహిష్కరణ మరియు శాంతియుత ప్రతిఘటన ద్వారా వలస పాలనను సవాలు చేసింది.",
+
+      "explanation_hindi": "असहयोग आंदोलन में अहिंसा निष्क्रियता नहीं बल्कि गांधीवादी नेतृत्व की संगठित राजनीतिक रणनीति थी।\n\nइसने अनुशासित जनभागीदारी और नैतिक वैधता प्रदान की।\n\nबहिष्कार और शांतिपूर्ण प्रतिरोध के माध्यम से इसने औपनिवेशिक शासन को चुनौती दी।",
+
+      "elimination_logic_english": "Options a, c and d misrepresent the Gandhian idea of non-violence.\n\nNon-violence was an active and disciplined method of political resistance rather than passivity or violent revolution.\n\nTherefore, option b correctly captures its role in the movement.",
+
+      "elimination_logic_telugu": "a, c మరియు d గాంధీయ అహింస భావనను తప్పుగా చూపుతున్నాయి.\n\nఅహింస నిష్క్రియత కాదు; అది క్రమబద్ధమైన రాజకీయ ప్రతిఘటన.\n\nకాబట్టి b సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "विकल्प a, c और d गांधीवादी अहिंसा की अवधारणा को गलत रूप में प्रस्तुत करते हैं।\n\nअहिंसा निष्क्रियता नहीं बल्कि अनुशासित राजनीतिक प्रतिरोध थी।\n\nअतः b सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Assertion (A): The Non Cooperation Movement expanded the social base of Indian nationalism.\n\nReason (R): The movement involved participation from students, peasants, traders and sections of the urban middle class.\n\nSelect the correct answer using the code given below.",
+
+      "question_telugu": "ప్రతిపాదన (A): సహాయ నిరాకరణ ఉద్యమం భారత జాతీయోద్యమం యొక్క సామాజిక పునాదిని విస్తరించింది.\n\nకారణం (R): ఈ ఉద్యమంలో విద్యార్థులు, రైతులు, వ్యాపారులు మరియు పట్టణ మధ్యతరగతి వర్గాలు పాల్గొన్నాయి.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+      "question_hindi": "अभिकथन (A): असहयोग आंदोलन ने भारतीय राष्ट्रवाद के सामाजिक आधार का विस्तार किया।\n\nकारण (R): इस आंदोलन में छात्र, किसान, व्यापारी तथा शहरी मध्यम वर्ग के अनेक वर्ग शामिल हुए।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+      "options_english": {
+        "a": "Both A and R are correct and R is the correct explanation of A",
+        "b": "Both A and R are correct but R is not the correct explanation of A",
+        "c": "A is correct but R is incorrect",
+        "d": "A is incorrect but R is correct"
+      },
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R తప్పు",
+        "d": "A తప్పు కానీ R సరైనది"
+      },
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+        "c": "A सही है लेकिन R गलत है",
+        "d": "A गलत है लेकिन R सही है"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Both Assertion and Reason are correct, and the Reason explains the Assertion. The Non Cooperation Movement broadened nationalism beyond elite politics by involving diverse social groups.\n\nParticipation of students, peasants, traders and middle-class groups transformed nationalism into a mass movement.\n\nThis significantly changed the nature and reach of the Indian freedom struggle.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సహాయ నిరాకరణ ఉద్యమం జాతీయోద్యమాన్ని ఉన్నత వర్గాల పరిమితి నుండి బయటకు తీసుకువచ్చింది.\n\nవిద్యార్థులు, రైతులు మరియు మధ్యతరగతి వర్గాల భాగస్వామ్యం దీన్ని సామూహిక ఉద్యమంగా మార్చింది.\n\nదీంతో స్వాతంత్ర్యోద్యమ విస్తృతి పెరిగింది.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की व्याख्या करता है। असहयोग आंदोलन ने राष्ट्रवाद को अभिजात वर्ग की राजनीति से आगे बढ़ाया।\n\nछात्रों, किसानों और मध्यम वर्ग की भागीदारी ने इसे जन आंदोलन बना दिया।\n\nइससे स्वतंत्रता संघर्ष का स्वरूप और विस्तार दोनों बदल गए।",
+
+      "elimination_logic_english": "This is a conceptual Assertion-Reason question focused on the social expansion of nationalism.\n\nThe Reason directly explains how participation from multiple social groups broadened the nationalist movement.\n\nUPSC frequently tests understanding of mass mobilisation under Gandhian politics. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "ఇది జాతీయోద్యమ సామాజిక విస్తరణపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\nవివిధ సామాజిక వర్గాల భాగస్వామ్యం జాతీయోద్యమాన్ని ఎలా విస్తరించిందో కారణం నేరుగా వివరిస్తోంది.\n\nUPSC గాంధీయ సామూహిక రాజకీయాల అవగాహనను పరీక్షిస్తుంది. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "यह राष्ट्रवाद के सामाजिक विस्तार पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि विभिन्न सामाजिक वर्गों की भागीदारी ने आंदोलन को कैसे व्यापक बनाया।\n\nUPSC गांधीवादी जन राजनीति की समझ को परखती है। अतः a सही उत्तर है।"
+    },
+  "questions": [
+    {
+      "question_english": "Consider the following statements regarding the Non Cooperation Movement:\n\n1. The movement linked nationalist politics with the Khilafat issue during its early phase.\n2. It encouraged boycott of foreign cloth and promotion of swadeshi.\n3. It permanently rejected all future constitutional negotiations with the British.\n\nWhich of the statements given above is/are correct?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్రారంభ దశలో ఈ ఉద్యమం ఖిలాఫత్ సమస్యతో జాతీయ రాజకీయాలను అనుసంధానించింది.\n2. ఇది విదేశీ వస్త్రాల బహిష్కరణ మరియు స్వదేశీ ప్రోత్సాహాన్ని ప్రోత్సహించింది.\n3. ఇది భవిష్యత్తులో బ్రిటిష్‌లతో జరిగే అన్ని రాజ్యాంగపరమైన చర్చలను శాశ్వతంగా తిరస్కరించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "question_hindi": "असहयोग आंदोलन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रारंभिक चरण में इस आंदोलन ने खिलाफत मुद्दे को राष्ट्रवादी राजनीति से जोड़ा।\n2. इसने विदेशी वस्त्रों के बहिष्कार और स्वदेशी के प्रचार को प्रोत्साहित किया।\n3. इसने भविष्य में ब्रिटिशों के साथ सभी संवैधानिक वार्ताओं को स्थायी रूप से अस्वीकार कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_english": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మాత్రమే",
+        "b": "2 మరియు 3 మాత్రమే",
+        "c": "1 మరియు 2 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1",
+        "b": "केवल 2 और 3",
+        "c": "केवल 1 और 2",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "Statements 1 and 2 are correct. The Non Cooperation Movement initially combined nationalist mobilisation with the Khilafat issue to widen anti-colonial unity.\n\nIt also promoted boycott of foreign goods and encouraged swadeshi practices.\n\nStatement 3 is incorrect because constitutional negotiations continued to remain part of Indian politics in later years.",
+
+      "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. సహాయ నిరాకరణ ఉద్యమం ప్రారంభంలో ఖిలాఫత్ సమస్యను జాతీయోద్యమంతో అనుసంధానించింది.\n\nఇది విదేశీ వస్త్రాల బహిష్కరణ మరియు స్వదేశీ ప్రోత్సాహాన్ని కూడా పెంచింది.\n\n3వ ప్రకటన తప్పు. తరువాత కూడా రాజ్యాంగపరమైన చర్చలు కొనసాగాయి.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। असहयोग आंदोलन ने प्रारंभिक चरण में खिलाफत प्रश्न को राष्ट्रवादी आंदोलन से जोड़ा।\n\nइसने विदेशी वस्त्रों के बहिष्कार और स्वदेशी के प्रचार को भी प्रोत्साहित किया।\n\nकथन 3 गलत है क्योंकि आगे भी संवैधानिक वार्ताएँ जारी रहीं।",
+
+      "elimination_logic_english": "Statement 3 is the elimination point because the nationalist movement did not permanently abandon constitutional negotiations.\n\nUPSC often uses extreme words like 'permanently' to create traps.\n\nStatements 1 and 2 correctly reflect important features of the movement. Therefore, option c is correct.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. జాతీయోద్యమం రాజ్యాంగపరమైన చర్చలను శాశ్వతంగా వదిలిపెట్టలేదు.\n\nUPSC 'శాశ్వతంగా' వంటి పదాలను ట్రాప్‌లుగా ఉపయోగిస్తుంది.\n\n1 మరియు 2 సరైనవి. కాబట్టి c సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि राष्ट्रवादी आंदोलन ने संवैधानिक वार्ताओं को स्थायी रूप से नहीं छोड़ा था।\n\nUPSC अक्सर 'स्थायी रूप से' जैसे शब्दों का प्रयोग भ्रम पैदा करने के लिए करती है।\n\n1 और 2 सही हैं। अतः c सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Which one of the following developments most directly reflected the mass character of the Non Cooperation Movement?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమం యొక్క సామూహిక స్వభావాన్ని అత్యంత ప్రత్యక్షంగా ప్రతిబింబించిన పరిణామం ఏది?",
+
+      "question_hindi": "असहयोग आंदोलन के जन-आधारित स्वरूप को निम्नलिखित में से कौन-सा विकास सबसे प्रत्यक्ष रूप से दर्शाता है?",
+
+      "options_english": {
+        "a": "Participation of diverse social groups across different regions",
+        "b": "Exclusive dependence on elite constitutional debates",
+        "c": "Restriction of the movement only to legislative politics",
+        "d": "Complete withdrawal of peasants and workers from politics"
+      },
+
+      "options_telugu": {
+        "a": "వివిధ ప్రాంతాల నుండి అనేక సామాజిక వర్గాల భాగస్వామ్యం",
+        "b": "ఉన్నత వర్గ రాజ్యాంగ చర్చలపై మాత్రమే ఆధారపడటం",
+        "c": "ఉద్యమాన్ని కేవలం శాసన రాజకీయాలకు పరిమితం చేయడం",
+        "d": "రైతులు మరియు కార్మికులు రాజకీయాల నుండి పూర్తిగా వైదొలగడం"
+      },
+
+      "options_hindi": {
+        "a": "विभिन्न क्षेत्रों से अनेक सामाजिक वर्गों की भागीदारी",
+        "b": "केवल अभिजात संवैधानिक बहसों पर निर्भरता",
+        "c": "आंदोलन को केवल विधायी राजनीति तक सीमित रखना",
+        "d": "किसानों और मजदूरों का राजनीति से पूर्णतः हट जाना"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "The Non Cooperation Movement became the first major nationwide mass movement under Gandhian leadership.\n\nStudents, peasants, traders, workers and middle-class groups participated across different regions.\n\nThis broad participation transformed the movement into a powerful anti-colonial mobilisation.",
+
+      "explanation_telugu": "సహాయ నిరాకరణ ఉద్యమం గాంధీయ నాయకత్వంలోని మొదటి పెద్ద సామూహిక జాతీయోద్యమంగా మారింది.\n\nవిద్యార్థులు, రైతులు, వ్యాపారులు మరియు కార్మికులు వివిధ ప్రాంతాల నుండి పాల్గొన్నారు.\n\nఈ విస్తృత భాగస్వామ్యం ఉద్యమాన్ని శక్తివంతమైన వలస వ్యతిరేక ఉద్యమంగా మార్చింది.",
+
+      "explanation_hindi": "असहयोग आंदोलन गांधीवादी नेतृत्व के अंतर्गत पहला बड़ा जन आंदोलन बना।\n\nछात्रों, किसानों, व्यापारियों और मजदूरों ने विभिन्न क्षेत्रों से भाग लिया।\n\nइस व्यापक भागीदारी ने इसे शक्तिशाली औपनिवेशिक-विरोधी आंदोलन बना दिया।",
+
+      "elimination_logic_english": "Options b, c and d contradict the historical reality of mass mobilisation.\n\nThe defining feature of the movement was the participation of diverse social groups across India.\n\nTherefore, option a correctly reflects its mass character.",
+
+      "elimination_logic_telugu": "b, c మరియు d సామూహిక రాజకీయ వాస్తవానికి విరుద్ధమైనవి.\n\nఈ ఉద్యమం యొక్క ప్రధాన లక్షణం విస్తృత ప్రజా భాగస్వామ్యం.\n\nకాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "विकल्प b, c और d जन-आधारित आंदोलन की ऐतिहासिक वास्तविकता के विपरीत हैं।\n\nइस आंदोलन की मुख्य विशेषता व्यापक जनभागीदारी थी।\n\nअतः a सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Assertion (A): The Non Cooperation Movement demonstrated the political potential of organised boycott.\n\nReason (R): The movement attempted to weaken colonial authority by withdrawing cooperation from British institutions.\n\nSelect the correct answer using the code given below.",
+
+      "question_telugu": "ప్రతిపాదన (A): సహాయ నిరాకరణ ఉద్యమం సంఘటిత బహిష్కరణ యొక్క రాజకీయ శక్తిని చూపించింది.\n\nకారణం (R): ఈ ఉద్యమం బ్రిటిష్ సంస్థల నుండి సహకారాన్ని ఉపసంహరించుకోవడం ద్వారా వలస పాలనను బలహీనపరచాలని ప్రయత్నించింది.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+      "question_hindi": "अभिकथन (A): असहयोग आंदोलन ने संगठित बहिष्कार की राजनीतिक क्षमता को प्रदर्शित किया।\n\nकारण (R): इस आंदोलन ने ब्रिटिश संस्थाओं से सहयोग वापस लेकर औपनिवेशिक सत्ता को कमजोर करने का प्रयास किया।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+      "options_english": {
+        "a": "Both A and R are correct and R is the correct explanation of A",
+        "b": "Both A and R are correct but R is not the correct explanation of A",
+        "c": "A is correct but R is incorrect",
+        "d": "A is incorrect but R is correct"
+      },
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R తప్పు",
+        "d": "A తప్పు కానీ R సరైనది"
+      },
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+        "c": "A सही है लेकिन R गलत है",
+        "d": "A गलत है लेकिन R सही है"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Both Assertion and Reason are correct, and the Reason explains the Assertion. The Non Cooperation Movement relied heavily on organised boycott as a political weapon.\n\nBy withdrawing cooperation from schools, courts, titles and foreign goods, the movement attempted to undermine colonial legitimacy.\n\nThis demonstrated the effectiveness of mass non-cooperation in anti-colonial politics.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సహాయ నిరాకరణ ఉద్యమం సంఘటిత బహిష్కరణను ప్రధాన రాజకీయ ఆయుధంగా ఉపయోగించింది.\n\nపాఠశాలలు, న్యాయస్థానాలు మరియు విదేశీ వస్తువుల నుండి సహకారాన్ని ఉపసంహరించుకోవడం ద్వారా వలస పాలనను బలహీనపరచాలని ప్రయత్నించింది.\n\nదీంతో సామూహిక అహింసా రాజకీయాల శక్తి బయటపడింది.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की व्याख्या करता है। असहयोग आंदोलन ने संगठित बहिष्कार को प्रमुख राजनीतिक हथियार बनाया।\n\nविद्यालयों, न्यायालयों और विदेशी वस्तुओं के बहिष्कार द्वारा औपनिवेशिक शासन की वैधता को चुनौती दी गई।\n\nइससे जन-आधारित असहयोग की राजनीतिक शक्ति स्पष्ट हुई।",
+
+      "elimination_logic_english": "This is a conceptual Assertion-Reason question focused on boycott as a political strategy.\n\nThe Reason directly explains how withdrawal of cooperation demonstrated the political strength of organised boycott.\n\nUPSC frequently tests Gandhian methods in conceptual terms. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "ఇది బహిష్కరణ రాజకీయ వ్యూహంపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\nసహకార ఉపసంహరణ ద్వారా బహిష్కరణ శక్తి ఎలా బయటపడిందో కారణం నేరుగా వివరిస్తోంది.\n\nUPSC గాంధీయ పద్ధతులను భావనాత్మకంగా ప్రశ్నిస్తుంది. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "यह बहिष्कार की राजनीतिक रणनीति पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि असहयोग ने संगठित बहिष्कार की शक्ति को कैसे प्रदर्शित किया।\n\nUPSC गांधीवादी पद्धतियों को वैचारिक रूप से पूछती है। अतः a सही उत्तर है।"
+    },
+
+    {
+      "question_english": "With reference to the historical impact of the Non Cooperation Movement, consider the following statements:\n\n1. It strengthened anti-colonial political consciousness in India.\n2. It expanded Gandhian influence within the nationalist movement.\n3. It permanently ended all ideological differences within Indian nationalism.\n4. It demonstrated the effectiveness of mass mobilisation in anti-colonial politics.\n\nWhich of the statements given above are correct?",
+
+      "question_telugu": "సహాయ నిరాకరణ ఉద్యమం యొక్క చారిత్రక ప్రభావానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది భారతదేశంలో వలస వ్యతిరేక రాజకీయ చైతన్యాన్ని బలపరిచింది.\n2. ఇది జాతీయోద్యమంలో గాంధీయ ప్రభావాన్ని విస్తరించింది.\n3. ఇది భారత జాతీయోద్యమంలోని అన్ని భావజాల భేదాలను శాశ్వతంగా తొలగించింది.\n4. ఇది వలస వ్యతిరేక రాజకీయాల్లో సామూహిక చైతన్య శక్తిని చూపించింది.\n\nపై ప్రకటనలలో సరైనవి ఏవి?",
+
+      "question_hindi": "असहयोग आंदोलन के ऐतिहासिक प्रभाव के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इसने भारत में औपनिवेशिक-विरोधी राजनीतिक चेतना को मजबूत किया।\n2. इसने राष्ट्रवादी आंदोलन में गांधीवादी प्रभाव का विस्तार किया।\n3. इसने भारतीय राष्ट्रवाद के भीतर सभी वैचारिक मतभेदों को स्थायी रूप से समाप्त कर दिया।\n4. इसने औपनिवेशिक-विरोधी राजनीति में जन आंदोलन की शक्ति को प्रदर्शित किया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+      "options_english": {
+        "a": "1 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1, 2 and 4 only",
+        "d": "1, 2, 3 and 4"
+      },
+
+      "options_telugu": {
+        "a": "1 మరియు 3 మాత్రమే",
+        "b": "2 మరియు 4 మాత్రమే",
+        "c": "1, 2 మరియు 4 మాత్రమే",
+        "d": "1, 2, 3 మరియు 4"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1 और 3",
+        "b": "केवल 2 और 4",
+        "c": "केवल 1, 2 और 4",
+        "d": "1, 2, 3 और 4"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "Statements 1, 2 and 4 are correct. The Non Cooperation Movement strengthened anti-colonial sentiment and greatly expanded Gandhian leadership within Indian nationalism.\n\nIt also demonstrated the political power of organised mass mobilisation.\n\nStatement 3 is incorrect because ideological differences within nationalism continued even after the movement.",
+
+      "explanation_telugu": "1, 2 మరియు 4 ప్రకటనలు సరైనవి. సహాయ నిరాకరణ ఉద్యమం వలస వ్యతిరేక భావజాలాన్ని బలపరిచింది మరియు గాంధీయ నాయకత్వాన్ని విస్తరించింది.\n\nఇది సామూహిక రాజకీయ శక్తిని కూడా చూపించింది.\n\n3వ ప్రకటన తప్పు. భావజాల భేదాలు తరువాత కూడా కొనసాగాయి.",
+
+      "explanation_hindi": "कथन 1, 2 और 4 सही हैं। असहयोग आंदोलन ने औपनिवेशिक-विरोधी भावना को मजबूत किया और गांधीवादी नेतृत्व का विस्तार किया।\n\nइसने जन आंदोलन की राजनीतिक शक्ति को भी प्रदर्शित किया।\n\nकथन 3 गलत है क्योंकि वैचारिक मतभेद आगे भी बने रहे।",
+
+      "elimination_logic_english": "Statement 3 is the elimination point because nationalist politics continued to contain multiple ideological strands.\n\nUPSC frequently uses absolute terms like 'permanently ended' as traps.\n\nStatements 1, 2 and 4 correctly capture the broader impact of the movement. Therefore, option c is correct.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. జాతీయోద్యమంలో భావజాల వైవిధ్యం కొనసాగింది.\n\nUPSC 'శాశ్వతంగా ముగిసింది' వంటి పదాలను ట్రాప్‌లుగా ఉపయోగిస్తుంది.\n\n1, 2 మరియు 4 సరైనవి. కాబట్టి c సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि राष्ट्रवादी आंदोलन में वैचारिक विविधता आगे भी बनी रही।\n\nUPSC अक्सर 'स्थायी रूप से समाप्त' जैसे शब्दों का उपयोग भ्रम उत्पन्न करने के लिए करती है।\n\n1, 2 और 4 सही हैं। अतः c सही उत्तर है।"
+    }
+  ]
+}
 }
