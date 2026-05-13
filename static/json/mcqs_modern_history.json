@@ -7283,5 +7283,434 @@
       "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि राष्ट्रवादी आंदोलन में वैचारिक विविधता आगे भी बनी रही।\n\nUPSC अक्सर 'स्थायी रूप से समाप्त' जैसे शब्दों का उपयोग भ्रम उत्पन्न करने के लिए करती है।\n\n1, 2 और 4 सही हैं। अतः c सही उत्तर है।"
     }
   ]
+},
+  "Swaraj Party (1923)": {
+  "topic_english": "Swaraj Party (1923)",
+  "topic_telugu": "స్వరాజ్ పార్టీ (1923)",
+  "topic_hindi": "स्वराज पार्टी (1923)",
+
+  "questions": [
+    {
+      "question_english": "With reference to the Swaraj Party, consider the following statements:\n\n1. The party was formed after the suspension of the Non Cooperation Movement.\n2. Its leaders advocated entry into legislative councils to obstruct colonial governance from within.\n3. The party completely rejected all participation in constitutional politics.\n\nWhich of the statements given above is/are correct?",
+
+      "question_telugu": "స్వరాజ్ పార్టీకి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సహాయ నిరాకరణ ఉద్యమం నిలిపివేయబడిన తరువాత ఈ పార్టీ స్థాపించబడింది.\n2. వలస పాలనను లోపల నుంచే అడ్డుకోవడానికి శాసన మండళ్లలో ప్రవేశించాలని నాయకులు వాదించారు.\n3. ఈ పార్టీ రాజ్యాంగపరమైన రాజకీయాల్లో అన్ని విధాల పాల్గొనడాన్ని పూర్తిగా తిరస్కరించింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+      "question_hindi": "स्वराज पार्टी के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यह पार्टी असहयोग आंदोलन के स्थगन के बाद स्थापित हुई।\n2. इसके नेताओं ने औपनिवेशिक शासन को भीतर से बाधित करने के लिए विधान परिषदों में प्रवेश का समर्थन किया।\n3. इस पार्टी ने संवैधानिक राजनीति में सभी प्रकार की भागीदारी को पूर्णतः अस्वीकार कर दिया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+      "options_english": {
+        "a": "1 and 2 only",
+        "b": "1 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+
+      "options_telugu": {
+        "a": "1 మరియు 2 మాత్రమే",
+        "b": "1 మాత్రమే",
+        "c": "2 మరియు 3 మాత్రమే",
+        "d": "1, 2 మరియు 3"
+      },
+
+      "options_hindi": {
+        "a": "केवल 1 और 2",
+        "b": "केवल 1",
+        "c": "केवल 2 और 3",
+        "d": "1, 2 और 3"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Statements 1 and 2 are correct. The Swaraj Party was formed in 1923 after the suspension of the Non Cooperation Movement, when debates emerged within the nationalist movement regarding future political strategy.\n\nLeaders such as C.R. Das and Motilal Nehru argued that nationalist representatives should enter legislative councils and obstruct colonial governance through constitutional means from within.\n\nStatement 3 is incorrect because the Swarajists supported participation in legislative institutions as a tactical political strategy rather than rejecting constitutional politics altogether.",
+
+      "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. సహాయ నిరాకరణ ఉద్యమం నిలిపివేయబడిన తరువాత 1923లో స్వరాజ్ పార్టీ ఏర్పడింది.\n\nసి.ఆర్.దాస్ మరియు మోతీలాల్ నెహ్రూ వంటి నాయకులు శాసన మండళ్లలో ప్రవేశించి వలస పాలనను లోపల నుంచే అడ్డుకోవాలని భావించారు.\n\n3వ ప్రకటన తప్పు. స్వరాజ్ పార్టీ రాజ్యాంగపరమైన రాజకీయాలను పూర్తిగా తిరస్కరించలేదు.",
+
+      "explanation_hindi": "कथन 1 और 2 सही हैं। असहयोग आंदोलन के स्थगन के बाद 1923 में स्वराज पार्टी की स्थापना हुई।\n\nसी.आर. दास और मोतीलाल नेहरू जैसे नेताओं ने विधान परिषदों में प्रवेश कर औपनिवेशिक शासन को भीतर से बाधित करने का समर्थन किया।\n\nकथन 3 गलत है क्योंकि स्वराजवादी संवैधानिक संस्थाओं में भागीदारी के पक्षधर थे।",
+
+      "elimination_logic_english": "Statement 3 is the decisive elimination point because the Swaraj Party emerged precisely over the issue of council entry.\n\nUPSC often frames questions around the strategic difference between boycott and participation within nationalist politics.\n\nSince the Swarajists believed in entering councils to expose and obstruct colonial rule, statement 3 becomes incorrect. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. స్వరాజ్ పార్టీ శాసన మండళ్లలో ప్రవేశం అంశంపైనే ఏర్పడింది.\n\nUPSC బహిష్కరణ మరియు పాల్గొనడం మధ్య వ్యూహాత్మక తేడాను ప్రశ్నిస్తుంది.\n\nస్వరాజిస్టులు మండళ్లలో ప్రవేశించి వలస పాలనను అడ్డుకోవాలని భావించారు. కాబట్టి 3 తప్పు మరియు a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि स्वराज पार्टी का उदय ही परिषद प्रवेश के प्रश्न पर हुआ था।\n\nUPSC अक्सर बहिष्कार और भागीदारी के बीच रणनीतिक अंतर पूछती है।\n\nस्वराजवादी परिषदों में प्रवेश कर औपनिवेशिक शासन को बाधित करना चाहते थे। अतः कथन 3 गलत है और a सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Which one of the following best explains the political objective of the Swaraj Party?",
+
+      "question_telugu": "స్వరాజ్ పార్టీ యొక్క రాజకీయ లక్ష్యాన్ని అత్యుత్తమంగా వివరించేది ఏది?",
+
+      "question_hindi": "स्वराज पार्टी के राजनीतिक उद्देश्य को निम्नलिखित में से कौन सबसे बेहतर स्पष्ट करता है?",
+
+      "options_english": {
+        "a": "Complete withdrawal from all political institutions",
+        "b": "Establishment of revolutionary armed rule in India",
+        "c": "Use of legislative councils to challenge and obstruct colonial administration",
+        "d": "Permanent cooperation with colonial constitutional reforms"
+      },
+
+      "options_telugu": {
+        "a": "అన్ని రాజకీయ సంస్థల నుండి పూర్తిగా వైదొలగడం",
+        "b": "భారతదేశంలో విప్లవ సాయుధ పాలన స్థాపన",
+        "c": "శాసన మండళ్లను ఉపయోగించి వలస పరిపాలనను సవాలు చేసి అడ్డుకోవడం",
+        "d": "వలస రాజ్యాంగ సంస్కరణలతో శాశ్వత సహకారం"
+      },
+
+      "options_hindi": {
+        "a": "सभी राजनीतिक संस्थाओं से पूर्णतः अलग हो जाना",
+        "b": "भारत में क्रांतिकारी सशस्त्र शासन की स्थापना",
+        "c": "विधान परिषदों का उपयोग कर औपनिवेशिक प्रशासन को चुनौती देना और बाधित करना",
+        "d": "औपनिवेशिक संवैधानिक सुधारों के साथ स्थायी सहयोग"
+      },
+
+      "correct_answer": "c",
+
+      "explanation_english": "The Swaraj Party aimed to enter legislative councils and use them as platforms to expose the limitations of colonial governance.\n\nRather than accepting colonial reforms passively, Swarajists intended to obstruct official functioning, criticise government policies and strengthen nationalist politics from within the constitutional framework.\n\nThis strategy represented a tactical shift within the Indian nationalist movement after the suspension of mass civil resistance.",
+
+      "explanation_telugu": "స్వరాజ్ పార్టీ శాసన మండళ్లలో ప్రవేశించి వలస పాలన పరిమితులను బయటపెట్టాలని లక్ష్యంగా పెట్టుకుంది.\n\nస్వరాజిస్టులు ప్రభుత్వ విధానాలను విమర్శిస్తూ వలస పరిపాలనను అడ్డుకోవాలని ప్రయత్నించారు.\n\nఇది సహాయ నిరాకరణ ఉద్యమం తరువాత జాతీయోద్యమ వ్యూహంలో వచ్చిన మార్పును సూచించింది.",
+
+      "explanation_hindi": "स्वराज पार्टी का उद्देश्य विधान परिषदों में प्रवेश कर औपनिवेशिक शासन की सीमाओं को उजागर करना था।\n\nस्वराजवादी सरकारी नीतियों की आलोचना करते हुए परिषदों के भीतर से औपनिवेशिक शासन को बाधित करना चाहते थे।\n\nयह असहयोग आंदोलन के बाद राष्ट्रवादी रणनीति में एक महत्वपूर्ण परिवर्तन था।",
+
+      "elimination_logic_english": "Options a and b are extreme and historically inaccurate because the Swarajists neither abandoned politics nor adopted revolutionary armed methods.\n\nOption d is also incorrect because the party did not seek permanent cooperation with colonial reforms.\n\nIts central strategy was council entry for obstruction and nationalist pressure. Therefore, option c is correct.",
+
+      "elimination_logic_telugu": "a మరియు b చారిత్రకంగా తప్పు మరియు అతిశయ ప్రకటనలు.\n\nస్వరాజిస్టులు రాజకీయాలను వదిలిపెట్టలేదు మరియు సాయుధ విప్లవాన్ని కూడా అనుసరించలేదు.\n\nd కూడా తప్పు ఎందుకంటే వారు శాశ్వత సహకారం కోరలేదు.\n\nవారి ప్రధాన వ్యూహం మండళ్లలో ప్రవేశించి వలస పాలనను అడ్డుకోవడం. కాబట్టి c సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "विकल्प a और b ऐतिहासिक रूप से गलत और अतिशयोक्तिपूर्ण हैं।\n\nस्वराजवादियों ने राजनीति नहीं छोड़ी और न ही सशस्त्र क्रांति का मार्ग अपनाया।\n\nविकल्प d भी गलत है क्योंकि वे स्थायी सहयोग के पक्षधर नहीं थे।\n\nउनकी मुख्य रणनीति परिषद प्रवेश द्वारा औपनिवेशिक शासन को चुनौती देना थी। अतः c सही उत्तर है।"
+    },
+
+    {
+      "question_english": "Assertion (A): The formation of the Swaraj Party reflected strategic differences within the nationalist movement after 1922.\n\nReason (R): Some nationalist leaders believed that participation in legislative councils could be used as a political weapon against colonial rule.\n\nSelect the correct answer using the code given below.",
+
+      "question_telugu": "ప్రతిపాదన (A): 1922 తరువాత స్వరాజ్ పార్టీ ఏర్పాటులో జాతీయోద్యమంలోని వ్యూహాత్మక భేదాలు ప్రతిబింబించాయి.\n\nకారణం (R): కొంతమంది జాతీయ నాయకులు శాసన మండళ్లలో పాల్గొనడం వలస పాలనకు వ్యతిరేక రాజకీయ ఆయుధంగా ఉపయోగపడుతుందని నమ్మారు.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+      "question_hindi": "अभिकथन (A): 1922 के बाद स्वराज पार्टी का गठन राष्ट्रवादी आंदोलन के भीतर रणनीतिक मतभेदों को दर्शाता था।\n\nकारण (R): कुछ राष्ट्रवादी नेताओं का विश्वास था कि विधान परिषदों में भागीदारी को औपनिवेशिक शासन के विरुद्ध राजनीतिक हथियार के रूप में प्रयोग किया जा सकता है।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+      "options_english": {
+        "a": "Both A and R are correct and R is the correct explanation of A",
+        "b": "Both A and R are correct but R is not the correct explanation of A",
+        "c": "A is correct but R is incorrect",
+        "d": "A is incorrect but R is correct"
+      },
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R తప్పు",
+        "d": "A తప్పు కానీ R సరైనది"
+      },
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+        "c": "A सही है लेकिन R गलत है",
+        "d": "A गलत है लेकिन R सही है"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Both Assertion and Reason are correct, and the Reason correctly explains the Assertion. After the suspension of the Non Cooperation Movement, nationalist leaders differed on the future direction of political struggle.\n\nOne group favoured continuing boycott of councils, while Swarajists argued that legislative participation could be tactically used to obstruct colonial governance and expose constitutional limitations.\n\nThus, the formation of the Swaraj Party reflected an important strategic debate within Indian nationalism.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. సహాయ నిరాకరణ ఉద్యమం నిలిపివేయబడిన తరువాత జాతీయ నాయకుల మధ్య వ్యూహాత్మక భేదాలు ఉద్భవించాయి.\n\nఒక వర్గం మండళ్ల బహిష్కరణను కొనసాగించాలని భావించగా, స్వరాజిస్టులు మండళ్లలో ప్రవేశించి వలస పాలనను అడ్డుకోవచ్చని నమ్మారు.\n\nఅందువల్ల స్వరాజ్ పార్టీ ఏర్పాటులో ఈ వ్యూహాత్మక భేదాలు ప్రతిబింబించాయి.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है। असहयोग आंदोलन के स्थगन के बाद राष्ट्रवादी नेताओं के बीच आगे की रणनीति पर मतभेद उत्पन्न हुए।\n\nएक पक्ष परिषद बहिष्कार जारी रखना चाहता था, जबकि स्वराजवादी परिषदों में प्रवेश कर औपनिवेशिक शासन को चुनौती देना चाहते थे।\n\nइस प्रकार स्वराज पार्टी का गठन राष्ट्रवादी आंदोलन के भीतर रणनीतिक बहस को दर्शाता है।",
+
+      "elimination_logic_english": "This is a conceptual Assertion-Reason question focusing on internal strategic debates within nationalism.\n\nThe Reason directly explains why the Swaraj Party emerged after 1922.\n\nUPSC frequently asks about ideological and tactical differences among nationalist leaders rather than merely factual events. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "ఇది జాతీయోద్యమంలోని అంతర్గత వ్యూహాత్మక భేదాలపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\n1922 తరువాత స్వరాజ్ పార్టీ ఎందుకు ఏర్పడిందో కారణం నేరుగా వివరిస్తోంది.\n\nUPSC జాతీయ నాయకుల వ్యూహాత్మక భేదాలను కూడా ప్రశ్నిస్తుంది. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "यह राष्ट्रवादी आंदोलन के भीतर रणनीतिक मतभेदों पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि 1922 के बाद स्वराज पार्टी क्यों बनी।\n\nUPSC केवल घटनाएँ ही नहीं बल्कि राष्ट्रवादी नेतृत्व के वैचारिक और रणनीतिक मतभेद भी पूछती है। अतः a सही उत्तर है।"
+    },{
+  "question_english": "With reference to the functioning of the Swaraj Party in legislative councils, consider the following statements:\n\n1. Swarajists used council debates to criticise colonial policies and expose administrative limitations.\n2. The party attempted to obstruct certain government measures within the councils.\n3. Swarajists accepted colonial constitutional reforms as fully satisfactory for Indian self-government.\n\nWhich of the statements given above is/are correct?",
+
+  "question_telugu": "శాసన మండళ్లలో స్వరాజ్ పార్టీ కార్యకలాపాలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. స్వరాజిస్టులు మండళ్ల చర్చలను ఉపయోగించి వలస ప్రభుత్వ విధానాలను విమర్శించారు.\n2. మండళ్లలో ప్రభుత్వ చర్యలను అడ్డుకోవడానికి పార్టీ ప్రయత్నించింది.\n3. భారత స్వపరిపాలనకు వలస రాజ్యాంగ సంస్కరణలు పూర్తిగా సరిపోతాయని స్వరాజిస్టులు అంగీకరించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "विधान परिषदों में स्वराज पार्टी की कार्यप्रणाली के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. स्वराजवादियों ने परिषद बहसों का उपयोग औपनिवेशिक नीतियों की आलोचना हेतु किया।\n2. पार्टी ने परिषदों के भीतर कुछ सरकारी उपायों को बाधित करने का प्रयास किया।\n3. स्वराजवादियों ने औपनिवेशिक संवैधानिक सुधारों को भारतीय स्वशासन के लिए पूर्णतः पर्याप्त माना।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_english": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మాత్రమే",
+    "b": "1 మరియు 2 మాత్రమే",
+    "c": "2 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1",
+    "b": "केवल 1 और 2",
+    "c": "केवल 2 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "Statements 1 and 2 are correct. Swarajists entered legislative councils not to cooperate passively with colonial governance, but to challenge official policies and expose the weaknesses of colonial administration.\n\nThey used debates, procedural obstruction and political criticism to resist government measures within constitutional institutions.\n\nStatement 3 is incorrect because Swarajists considered existing colonial reforms inadequate for genuine self-government in India.",
+
+  "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. స్వరాజిస్టులు వలస ప్రభుత్వ విధానాలను విమర్శించి పరిపాలనా పరిమితులను బయటపెట్టడానికి మండళ్లను ఉపయోగించారు.\n\nవారు ప్రభుత్వ చర్యలను అడ్డుకోవడానికి రాజకీయ మరియు ప్రక్రియాత్మక వ్యూహాలను అనుసరించారు.\n\n3వ ప్రకటన తప్పు. వలస సంస్కరణలు భారత స్వపరిపాలనకు సరిపోవని స్వరాజిస్టులు భావించారు.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। स्वराजवादियों ने परिषदों का उपयोग औपनिवेशिक शासन की आलोचना और उसकी सीमाओं को उजागर करने के लिए किया।\n\nउन्होंने बहसों और प्रक्रियात्मक अवरोधों के माध्यम से सरकारी नीतियों का विरोध किया।\n\nकथन 3 गलत है क्योंकि स्वराजवादी औपनिवेशिक सुधारों को अपर्याप्त मानते थे।",
+
+  "elimination_logic_english": "Statement 3 is the key elimination point because the Swaraj Party was formed precisely due to dissatisfaction with limited colonial reforms.\n\nUPSC often frames questions around whether nationalists accepted or strategically challenged colonial constitutional arrangements.\n\nSince Swarajists entered councils to criticise and obstruct colonial governance, statements 1 and 2 are correct. Therefore, option b is correct.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. పరిమిత వలస సంస్కరణల పట్ల అసంతృప్తి కారణంగానే స్వరాజ్ పార్టీ ఏర్పడింది.\n\nUPSC జాతీయ నాయకులు వలస రాజ్యాంగాన్ని అంగీకరించారా లేక వ్యూహాత్మకంగా సవాలు చేశారా అన్న అంశాన్ని ప్రశ్నిస్తుంది.\n\nస్వరాజిస్టులు మండళ్లను విమర్శ మరియు అడ్డంకి సాధనంగా ఉపయోగించారు. కాబట్టి b సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि सीमित औपनिवेशिक सुधारों से असंतोष के कारण ही स्वराज पार्टी बनी थी।\n\nUPSC अक्सर पूछती है कि राष्ट्रवादियों ने औपनिवेशिक संवैधानिक व्यवस्था को स्वीकार किया या रणनीतिक रूप से चुनौती दी।\n\nस्वराजवादी परिषदों का उपयोग आलोचना और अवरोध के लिए करते थे। अतः b सही उत्तर है।"
+},
+{
+  "question_english": "Which one of the following best explains the significance of the Swaraj Party in the evolution of Indian nationalism?",
+
+  "question_telugu": "భారత జాతీయోద్యమ వికాసంలో స్వరాజ్ పార్టీ ప్రాముఖ్యతను అత్యుత్తమంగా వివరించేది ఏది?",
+
+  "question_hindi": "भारतीय राष्ट्रवाद के विकास में स्वराज पार्टी के महत्व को निम्नलिखित में से कौन सबसे बेहतर स्पष्ट करता है?",
+
+  "options_english": {
+    "a": "It introduced armed revolutionary politics into legislative institutions.",
+    "b": "It demonstrated an alternative nationalist strategy based on council entry and constitutional obstruction.",
+    "c": "It permanently replaced Gandhian mass movements within nationalism.",
+    "d": "It supported unrestricted cooperation with colonial administration."
+  },
+
+  "options_telugu": {
+    "a": "ఇది శాసన మండళ్లలో సాయుధ విప్లవ రాజకీయాలను ప్రవేశపెట్టింది.",
+    "b": "ఇది మండళ్లలో ప్రవేశం మరియు రాజ్యాంగపరమైన అడ్డంకుల ఆధారంగా ప్రత్యామ్నాయ జాతీయ వ్యూహాన్ని చూపించింది.",
+    "c": "ఇది గాంధీయ సామూహిక ఉద్యమాలను శాశ్వతంగా భర్తీ చేసింది.",
+    "d": "ఇది వలస పరిపాలనతో పరిమితిలేని సహకారాన్ని సమర్థించింది."
+  },
+
+  "options_hindi": {
+    "a": "इसने विधान परिषदों में सशस्त्र क्रांतिकारी राजनीति को प्रवेश कराया।",
+    "b": "इसने परिषद प्रवेश और संवैधानिक अवरोध पर आधारित वैकल्पिक राष्ट्रवादी रणनीति प्रस्तुत की।",
+    "c": "इसने गांधीवादी जन आंदोलनों को स्थायी रूप से प्रतिस्थापित कर दिया।",
+    "d": "इसने औपनिवेशिक प्रशासन के साथ असीमित सहयोग का समर्थन किया।"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Swaraj Party became significant because it represented a different tactical approach within Indian nationalism after the suspension of the Non Cooperation Movement.\n\nInstead of complete boycott, Swarajists advocated council entry and constitutional obstruction as political tools against colonial rule.\n\nThis demonstrated the flexibility and strategic diversity within the nationalist movement.",
+
+  "explanation_telugu": "స్వరాజ్ పార్టీ జాతీయోద్యమంలో ఒక భిన్న వ్యూహాత్మక దిశను సూచించింది.\n\nసహాయ నిరాకరణ ఉద్యమం తరువాత స్వరాజిస్టులు మండళ్లలో ప్రవేశించి వలస పాలనను రాజ్యాంగపరంగా అడ్డుకోవాలని భావించారు.\n\nదీంతో జాతీయోద్యమ వ్యూహాలలో వైవిధ్యం స్పష్టమైంది.",
+
+  "explanation_hindi": "स्वराज पार्टी राष्ट्रवादी आंदोलन के भीतर एक भिन्न रणनीतिक दिशा का प्रतिनिधित्व करती थी।\n\nअसहयोग आंदोलन के बाद स्वराजवादियों ने परिषद प्रवेश और संवैधानिक अवरोध को राजनीतिक साधन बनाया।\n\nइससे राष्ट्रवादी आंदोलन की रणनीतिक विविधता स्पष्ट हुई।",
+
+  "elimination_logic_english": "Options a, c and d are historically incorrect and exaggerated.\n\nThe Swaraj Party neither adopted revolutionary violence nor replaced Gandhian politics permanently.\n\nIts real significance lay in presenting council entry as an alternative nationalist strategy. Therefore, option b is correct.",
+
+  "elimination_logic_telugu": "a, c మరియు d చారిత్రకంగా తప్పు మరియు అతిశయ ప్రకటనలు.\n\nస్వరాజ్ పార్టీ సాయుధ విప్లవాన్ని అనుసరించలేదు మరియు గాంధీయ రాజకీయాలను శాశ్వతంగా భర్తీ చేయలేదు.\n\nదాని ప్రధాన ప్రాముఖ్యత మండళ్లలో ప్రవేశాన్ని ప్రత్యామ్నాయ జాతీయ వ్యూహంగా చూపడంలో ఉంది. కాబట్టి b సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत और अतिशयोक्तिपूर्ण हैं।\n\nस्वराज पार्टी ने न तो सशस्त्र क्रांति अपनाई और न ही गांधीवादी राजनीति को स्थायी रूप से प्रतिस्थापित किया।\n\nइसका वास्तविक महत्व परिषद प्रवेश को वैकल्पिक राष्ट्रवादी रणनीति के रूप में प्रस्तुत करना था। अतः b सही उत्तर है।"
+},
+{
+  "question_english": "Assertion (A): The Swaraj Party reflected the adaptability of Indian nationalism during the colonial period.\n\nReason (R): Nationalist leaders modified their political methods according to changing circumstances after the suspension of mass movements.\n\nSelect the correct answer using the code given below.",
+
+  "question_telugu": "ప్రతిపాదన (A): స్వరాజ్ పార్టీ వలస కాలంలో భారత జాతీయోద్యమం యొక్క అనుకూలన సామర్థ్యాన్ని ప్రతిబింబించింది.\n\nకారణం (R): సామూహిక ఉద్యమాలు నిలిపివేయబడిన తరువాత జాతీయ నాయకులు పరిస్థితులకు అనుగుణంగా తమ రాజకీయ పద్ధతులను మార్చుకున్నారు.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "अभिकथन (A): स्वराज पार्टी औपनिवेशिक काल में भारतीय राष्ट्रवाद की अनुकूलन क्षमता को दर्शाती थी।\n\nकारण (R): जन आंदोलनों के स्थगन के बाद राष्ट्रवादी नेताओं ने परिस्थितियों के अनुसार अपनी राजनीतिक पद्धतियों में परिवर्तन किया।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is incorrect",
+    "d": "A is incorrect but R is correct"
+  },
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+    "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+    "c": "A సరైనది కానీ R తప్పు",
+    "d": "A తప్పు కానీ R సరైనది"
+  },
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+    "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+    "c": "A सही है लेकिन R गलत है",
+    "d": "A गलत है लेकिन R सही है"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "Both Assertion and Reason are correct, and the Reason correctly explains the Assertion. The emergence of the Swaraj Party showed that Indian nationalism was not rigid but capable of adapting its methods according to political conditions.\n\nAfter the suspension of the Non Cooperation Movement, some leaders shifted from boycott politics to council entry while still remaining committed to anti-colonial nationalism.\n\nThis reflected the tactical flexibility and evolving character of the nationalist movement.",
+
+  "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. స్వరాజ్ పార్టీ ఏర్పాటుతో భారత జాతీయోద్యమం పరిస్థితులకు అనుగుణంగా తన వ్యూహాలను మార్చుకునే సామర్థ్యం కలిగి ఉందని స్పష్టమైంది.\n\nసహాయ నిరాకరణ ఉద్యమం నిలిపివేయబడిన తరువాత కొంతమంది నాయకులు మండళ్లలో ప్రవేశించే వ్యూహాన్ని అనుసరించారు.\n\nఇది జాతీయోద్యమ వ్యూహాత్మక అనుకూలతను ప్రతిబింబించింది.",
+
+  "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है। स्वराज पार्टी का उदय दर्शाता है कि भारतीय राष्ट्रवाद परिस्थितियों के अनुसार अपनी रणनीतियों को बदलने में सक्षम था।\n\nअसहयोग आंदोलन के स्थगन के बाद कुछ नेताओं ने परिषद प्रवेश की नीति अपनाई।\n\nइससे राष्ट्रवादी आंदोलन की रणनीतिक लचीलापन स्पष्ट हुई।",
+
+  "elimination_logic_english": "This is a conceptual Assertion-Reason question focusing on the strategic evolution of Indian nationalism.\n\nThe Reason directly explains why the Swaraj Party symbolised adaptability within nationalist politics.\n\nUPSC frequently tests understanding of changing nationalist strategies rather than simple factual recall. Therefore, option a is correct.",
+
+  "elimination_logic_telugu": "ఇది భారత జాతీయోద్యమ వ్యూహాత్మక పరిణామంపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\nస్వరాజ్ పార్టీ ఎందుకు జాతీయోద్యమ అనుకూలతను సూచించిందో కారణం నేరుగా వివరిస్తోంది.\n\nUPSC మారుతున్న జాతీయ వ్యూహాల అవగాహనను పరీక్షిస్తుంది. కాబట్టి a సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "यह भारतीय राष्ट्रवाद की रणनीतिक विकास प्रक्रिया पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि स्वराज पार्टी राष्ट्रवादी राजनीति की अनुकूलन क्षमता का प्रतीक क्यों थी।\n\nUPSC बदलती राष्ट्रवादी रणनीतियों की समझ को परखती है। अतः a सही उत्तर है।"
+},{
+  "question_english": "Consider the following statements regarding the leaders of the Swaraj Party:\n\n1. C.R. Das and Motilal Nehru were among the principal founders of the party.\n2. The party emerged from internal debates within the Indian National Congress.\n3. The Swarajists advocated unconditional acceptance of colonial executive authority.\n\nWhich of the statements given above is/are correct?",
+
+  "question_telugu": "స్వరాజ్ పార్టీ నాయకులకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. సి.ఆర్.దాస్ మరియు మోతీలాల్ నెహ్రూ ఈ పార్టీ ప్రధాన స్థాపకులలో ఉన్నారు.\n2. ఈ పార్టీ భారత జాతీయ కాంగ్రెస్‌లోని అంతర్గత చర్చల నుండి ఉద్భవించింది.\n3. స్వరాజిస్టులు వలస కార్యనిర్వాహక అధికారాన్ని ఎటువంటి షరతులు లేకుండా అంగీకరించాలని వాదించారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "स्वराज पार्टी के नेताओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. सी.आर. दास और मोतीलाल नेहरू इसके प्रमुख संस्थापकों में थे।\n2. यह पार्टी भारतीय राष्ट्रीय कांग्रेस के भीतर आंतरिक बहसों से उभरी।\n3. स्वराजवादियों ने औपनिवेशिक कार्यपालिका की बिना शर्त स्वीकृति का समर्थन किया।\n\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+
+  "options_english": {
+    "a": "1 only",
+    "b": "2 and 3 only",
+    "c": "1 and 2 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1 మరియు 2 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1",
+    "b": "केवल 2 और 3",
+    "c": "केवल 1 और 2",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "Statements 1 and 2 are correct. The Swaraj Party was led by prominent Congress leaders such as C.R. Das and Motilal Nehru.\n\nIt emerged due to strategic disagreements within the Congress after the suspension of the Non Cooperation Movement.\n\nStatement 3 is incorrect because the Swarajists entered councils to challenge and obstruct colonial governance rather than unconditionally support executive authority.",
+
+  "explanation_telugu": "1 మరియు 2 ప్రకటనలు సరైనవి. స్వరాజ్ పార్టీకి సి.ఆర్.దాస్ మరియు మోతీలాల్ నెహ్రూ వంటి ప్రముఖ కాంగ్రెస్ నాయకులు నాయకత్వం వహించారు.\n\nసహాయ నిరాకరణ ఉద్యమం తరువాత కాంగ్రెస్‌లో ఏర్పడిన వ్యూహాత్మక భేదాల కారణంగా ఈ పార్టీ ఏర్పడింది.\n\n3వ ప్రకటన తప్పు. స్వరాజిస్టులు వలస పాలనను సవాలు చేయడానికే మండళ్లలో ప్రవేశించారు.",
+
+  "explanation_hindi": "कथन 1 और 2 सही हैं। स्वराज पार्टी का नेतृत्व सी.आर. दास और मोतीलाल नेहरू जैसे प्रमुख कांग्रेस नेताओं ने किया।\n\nयह असहयोग आंदोलन के बाद कांग्रेस के भीतर रणनीतिक मतभेदों से उत्पन्न हुई।\n\nकथन 3 गलत है क्योंकि स्वराजवादी औपनिवेशिक शासन को चुनौती देने के लिए परिषदों में गए थे।",
+
+  "elimination_logic_english": "Statement 3 is the elimination point because the Swarajists did not seek passive cooperation with colonial administration.\n\nTheir strategy was to expose the limitations of colonial governance through constitutional obstruction.\n\nStatements 1 and 2 accurately reflect both leadership and political context. Therefore, option c is correct.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. స్వరాజిస్టులు వలస పరిపాలనతో నిష్క్రియ సహకారం కోరలేదు.\n\nవారు రాజ్యాంగపరమైన అడ్డంకుల ద్వారా వలస పాలన పరిమితులను బయటపెట్టాలని ప్రయత్నించారు.\n\n1 మరియు 2 సరైనవి. కాబట్టి c సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि स्वराजवादी औपनिवेशिक प्रशासन के निष्क्रिय समर्थक नहीं थे।\n\nवे संवैधानिक अवरोध के माध्यम से औपनिवेशिक शासन की सीमाओं को उजागर करना चाहते थे।\n\n1 और 2 सही हैं। अतः c सही उत्तर है।"
+},
+{
+  "question_english": "Which one of the following developments most directly reflected the tactical approach of the Swaraj Party?",
+
+  "question_telugu": "స్వరాజ్ పార్టీ వ్యూహాత్మక దృక్పథాన్ని అత్యంత ప్రత్యక్షంగా ప్రతిబింబించిన పరిణామం ఏది?",
+
+  "question_hindi": "स्वराज पार्टी की रणनीतिक पद्धति को निम्नलिखित में से कौन-सा विकास सबसे प्रत्यक्ष रूप से दर्शाता है?",
+
+  "options_english": {
+    "a": "Boycott of every form of constitutional institution",
+    "b": "Use of legislative institutions to politically challenge colonial authority",
+    "c": "Immediate armed insurrection against British rule",
+    "d": "Permanent withdrawal from organised nationalist politics"
+  },
+
+  "options_telugu": {
+    "a": "ప్రతి రాజ్యాంగ సంస్థను పూర్తిగా బహిష్కరించడం",
+    "b": "వలస అధికారాన్ని రాజకీయంగా సవాలు చేయడానికి శాసన సంస్థలను ఉపయోగించడం",
+    "c": "బ్రిటిష్ పాలనపై తక్షణ సాయుధ తిరుగుబాటు",
+    "d": "సంఘటిత జాతీయ రాజకీయాల నుండి శాశ్వత వైదొలగడం"
+  },
+
+  "options_hindi": {
+    "a": "सभी संवैधानिक संस्थाओं का पूर्ण बहिष्कार",
+    "b": "औपनिवेशिक सत्ता को राजनीतिक रूप से चुनौती देने हेतु विधान संस्थाओं का उपयोग",
+    "c": "ब्रिटिश शासन के विरुद्ध तत्काल सशस्त्र विद्रोह",
+    "d": "संगठित राष्ट्रवादी राजनीति से स्थायी अलगाव"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Swaraj Party believed that legislative institutions could be tactically used to oppose colonial rule from within.\n\nInstead of rejecting constitutional politics entirely, Swarajists attempted to expose administrative weaknesses, obstruct official policies and maintain nationalist pressure inside the councils.\n\nThis approach reflected a strategic adaptation within Indian nationalism during the 1920s.",
+
+  "explanation_telugu": "స్వరాజ్ పార్టీ శాసన సంస్థలను వలస పాలనకు వ్యతిరేక రాజకీయ సాధనాలుగా ఉపయోగించాలని భావించింది.\n\nస్వరాజిస్టులు మండళ్లలో ప్రభుత్వ విధానాలను సవాలు చేసి పరిపాలనా పరిమితులను బయటపెట్టాలని ప్రయత్నించారు.\n\nఇది 1920లలో జాతీయోద్యమ వ్యూహాత్మక మార్పును సూచించింది.",
+
+  "explanation_hindi": "स्वराज पार्टी का विश्वास था कि विधान संस्थाओं का उपयोग औपनिवेशिक शासन के विरुद्ध राजनीतिक साधन के रूप में किया जा सकता है।\n\nस्वराजवादियों ने परिषदों के भीतर सरकारी नीतियों को चुनौती देकर प्रशासनिक कमजोरियों को उजागर करने का प्रयास किया।\n\nयह 1920 के दशक में राष्ट्रवादी रणनीति के परिवर्तन को दर्शाता है।",
+
+  "elimination_logic_english": "Options a, c and d are extreme and historically inaccurate.\n\nThe Swaraj Party neither abandoned constitutional institutions entirely nor adopted revolutionary armed struggle.\n\nIts distinctive strategy was legislative participation combined with political obstruction. Therefore, option b is correct.",
+
+  "elimination_logic_telugu": "a, c మరియు d చారిత్రకంగా తప్పు మరియు అతిశయ ప్రకటనలు.\n\nస్వరాజ్ పార్టీ రాజ్యాంగ సంస్థలను పూర్తిగా తిరస్కరించలేదు మరియు సాయుధ పోరాటాన్ని కూడా అనుసరించలేదు.\n\nదాని ప్రత్యేక వ్యూహం మండళ్లలో పాల్గొని రాజకీయ అడ్డంకులు సృష్టించడం. కాబట్టి b సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "विकल्प a, c और d ऐतिहासिक रूप से गलत और अतिशयोक्तिपूर्ण हैं।\n\nस्वराज पार्टी ने न तो संवैधानिक संस्थाओं को पूरी तरह छोड़ा और न ही सशस्त्र संघर्ष अपनाया।\n\nउसकी विशेष रणनीति परिषद भागीदारी और राजनीतिक अवरोध थी। अतः b सही उत्तर है।"
+},
+{
+  "question_english": "Assertion (A): The Swaraj Party represented continuity within the broader nationalist movement despite tactical differences.\n\nReason (R): Swarajists remained committed to anti-colonial nationalism while adopting a different constitutional strategy.\n\nSelect the correct answer using the code given below.",
+
+  "question_telugu": "ప్రతిపాదన (A): వ్యూహాత్మక భేదాలు ఉన్నప్పటికీ స్వరాజ్ పార్టీ విస్తృత జాతీయోద్యమంలో నిరంతరతను ప్రతిబింబించింది.\n\nకారణం (R): స్వరాజిస్టులు భిన్నమైన రాజ్యాంగ వ్యూహాన్ని అనుసరించినప్పటికీ వలస వ్యతిరేక జాతీయోద్యమానికి కట్టుబడి ఉన్నారు.\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "अभिकथन (A): रणनीतिक मतभेदों के बावजूद स्वराज पार्टी व्यापक राष्ट्रवादी आंदोलन की निरंतरता का प्रतिनिधित्व करती थी।\n\nकारण (R): स्वराजवादी भिन्न संवैधानिक रणनीति अपनाने के बावजूद औपनिवेशिक-विरोधी राष्ट्रवाद के प्रति प्रतिबद्ध रहे।\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "Both A and R are correct and R is the correct explanation of A",
+    "b": "Both A and R are correct but R is not the correct explanation of A",
+    "c": "A is correct but R is incorrect",
+    "d": "A is incorrect but R is correct"
+  },
+
+      "options_telugu": {
+        "a": "A మరియు R రెండూ సరైనవి మరియు R, A కు సరైన వివరణ",
+        "b": "A మరియు R రెండూ సరైనవి కానీ R, A కు సరైన వివరణ కాదు",
+        "c": "A సరైనది కానీ R తప్పు",
+        "d": "A తప్పు కానీ R సరైనది"
+      },
+
+      "options_hindi": {
+        "a": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+        "b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+        "c": "A सही है लेकिन R गलत है",
+        "d": "A गलत है लेकिन R सही है"
+      },
+
+      "correct_answer": "a",
+
+      "explanation_english": "Both Assertion and Reason are correct, and the Reason correctly explains the Assertion. Although Swarajists differed tactically from leaders favouring council boycott, they remained part of the larger anti-colonial nationalist movement.\n\nTheir disagreement concerned methods rather than commitment to nationalism.\n\nThis illustrates how Indian nationalism during the colonial period accommodated multiple political strategies within a common anti-colonial framework.",
+
+      "explanation_telugu": "ప్రతిపాదన మరియు కారణం రెండూ సరైనవి. మండళ్ల బహిష్కరణకు మద్దతు ఇచ్చిన నాయకులతో వ్యూహాత్మక భేదాలు ఉన్నప్పటికీ స్వరాజిస్టులు జాతీయోద్యమానికి కట్టుబడి ఉన్నారు.\n\nవారి మధ్య భేదం లక్ష్యాల విషయంలో కాకుండా పద్ధతుల విషయంలో ఉంది.\n\nఇది భారత జాతీయోద్యమంలోని వ్యూహాత్మక వైవిధ్యాన్ని ప్రతిబింబిస్తుంది.",
+
+      "explanation_hindi": "अभिकथन और कारण दोनों सही हैं तथा कारण अभिकथन की सही व्याख्या करता है। परिषद बहिष्कार समर्थकों से मतभेद होने के बावजूद स्वराजवादी व्यापक राष्ट्रवादी आंदोलन का हिस्सा बने रहे।\n\nउनका मतभेद राष्ट्रवाद के लक्ष्य पर नहीं बल्कि रणनीति पर था।\n\nयह दर्शाता है कि भारतीय राष्ट्रवाद के भीतर अनेक रणनीतियाँ सह-अस्तित्व में थीं।",
+
+      "elimination_logic_english": "This is a conceptual Assertion-Reason question testing understanding of tactical diversity within Indian nationalism.\n\nThe Reason directly explains why the Swaraj Party still remained part of the broader nationalist struggle.\n\nUPSC frequently distinguishes between ideological opposition and strategic disagreement. Therefore, option a is correct.",
+
+      "elimination_logic_telugu": "ఇది భారత జాతీయోద్యమంలోని వ్యూహాత్మక వైవిధ్యంపై ఆధారపడిన భావనాత్మక Assertion-Reason ప్రశ్న.\n\nస్వరాజ్ పార్టీ ఎందుకు విస్తృత జాతీయోద్యమంలో భాగంగా కొనసాగిందో కారణం నేరుగా వివరిస్తోంది.\n\nUPSC భావజాల వ్యతిరేకత మరియు వ్యూహాత్మక భేదాల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి a సరైన సమాధానం.",
+
+      "elimination_logic_hindi": "यह भारतीय राष्ट्रवाद की रणनीतिक विविधता पर आधारित Assertion-Reason प्रश्न है।\n\nकारण सीधे बताता है कि स्वराज पार्टी व्यापक राष्ट्रवादी संघर्ष का हिस्सा क्यों बनी रही।\n\nUPSC वैचारिक विरोध और रणनीतिक मतभेद के बीच अंतर को परखती है। अतः a सही उत्तर है।"
+},
+{
+  "question_english": "With reference to the historical impact of the Swaraj Party, consider the following statements:\n\n1. It highlighted strategic debates within the nationalist movement.\n2. It demonstrated that constitutional institutions could also become arenas of anti-colonial politics.\n3. It permanently ended the influence of Gandhian politics within Congress.\n4. It contributed to the evolution of parliamentary practices among Indian political leaders.\n\nWhich of the statements given above are correct?",
+
+  "question_telugu": "స్వరాజ్ పార్టీ యొక్క చారిత్రక ప్రభావానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది జాతీయోద్యమంలోని వ్యూహాత్మక చర్చలను స్పష్టంగా చూపించింది.\n2. రాజ్యాంగ సంస్థలు కూడా వలస వ్యతిరేక రాజకీయ వేదికలుగా మారవచ్చని ఇది చూపించింది.\n3. ఇది కాంగ్రెస్‌లో గాంధీయ రాజకీయాల ప్రభావాన్ని శాశ్వతంగా ముగించింది.\n4. ఇది భారత నాయకులలో పార్లమెంటరీ విధానాల అభివృద్ధికి సహకరించింది.\n\nపై ప్రకటనలలో సరైనవి ఏవి?",
+
+  "question_hindi": "स्वराज पार्टी के ऐतिहासिक प्रभाव के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इसने राष्ट्रवादी आंदोलन के भीतर रणनीतिक बहसों को उजागर किया।\n2. इसने दिखाया कि संवैधानिक संस्थाएँ भी औपनिवेशिक-विरोधी राजनीति के मंच बन सकती हैं।\n3. इसने कांग्रेस में गांधीवादी राजनीति के प्रभाव को स्थायी रूप से समाप्त कर दिया।\n4. इसने भारतीय नेताओं के बीच संसदीय परंपराओं के विकास में योगदान दिया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+  "options_english": {
+    "a": "1 and 3 only",
+    "b": "2 and 4 only",
+    "c": "1, 2 and 4 only",
+    "d": "1, 2, 3 and 4"
+  },
+
+  "options_telugu": {
+    "a": "1 మరియు 3 మాత్రమే",
+    "b": "2 మరియు 4 మాత్రమే",
+    "c": "1, 2 మరియు 4 మాత్రమే",
+    "d": "1, 2, 3 మరియు 4"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1 और 3",
+    "b": "केवल 2 और 4",
+    "c": "केवल 1, 2 और 4",
+    "d": "1, 2, 3 और 4"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "Statements 1, 2 and 4 are correct. The Swaraj Party revealed important strategic debates within Indian nationalism regarding boycott versus council participation.\n\nIt also demonstrated that legislative institutions could be used as platforms for anti-colonial resistance.\n\nParticipation in councils further contributed to parliamentary experience among Indian leaders.\n\nStatement 3 is incorrect because Gandhian influence within Congress remained highly significant even after the emergence of the Swarajists.",
+
+  "explanation_telugu": "1, 2 మరియు 4 ప్రకటనలు సరైనవి. స్వరాజ్ పార్టీ జాతీయోద్యమంలోని వ్యూహాత్మక భేదాలను స్పష్టంగా చూపించింది.\n\nశాసన మండళ్లు కూడా వలస వ్యతిరేక రాజకీయ వేదికలుగా ఉపయోగించవచ్చని ఇది నిరూపించింది.\n\nఇది భారత నాయకులలో పార్లమెంటరీ అనుభవాన్ని కూడా పెంచింది.\n\n3వ ప్రకటన తప్పు. గాంధీయ ప్రభావం కాంగ్రెస్‌లో కొనసాగింది.",
+
+  "explanation_hindi": "कथन 1, 2 और 4 सही हैं। स्वराज पार्टी ने राष्ट्रवादी आंदोलन के भीतर बहिष्कार और परिषद प्रवेश के प्रश्न पर रणनीतिक बहसों को स्पष्ट किया।\n\nइसने यह भी दिखाया कि विधान संस्थाएँ औपनिवेशिक-विरोधी राजनीति का मंच बन सकती हैं।\n\nपरिषदों में भागीदारी ने भारतीय नेताओं के संसदीय अनुभव को भी विकसित किया।\n\nकथन 3 गलत है क्योंकि कांग्रेस में गांधीवादी प्रभाव आगे भी महत्वपूर्ण बना रहा।",
+
+  "elimination_logic_english": "Statement 3 is the decisive elimination point because the rise of the Swaraj Party did not eliminate Gandhian politics from Congress.\n\nUPSC often uses absolute phrases like 'permanently ended' to create conceptual traps.\n\nStatements 1, 2 and 4 correctly capture the broader political and institutional significance of the Swaraj Party. Therefore, option c is correct.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఎలిమినేషన్ పాయింట్. స్వరాజ్ పార్టీ ఎదుగుదల గాంధీయ రాజకీయాలను కాంగ్రెస్ నుండి తొలగించలేదు.\n\nUPSC 'శాశ్వతంగా ముగిసింది' వంటి పదాలను ట్రాప్‌లుగా ఉపయోగిస్తుంది.\n\n1, 2 మరియు 4 స్వరాజ్ పార్టీ యొక్క విస్తృత రాజకీయ ప్రాముఖ్యతను సరిగా ప్రతిబింబిస్తున్నాయి. కాబట్టి c సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य एलिमिनेशन बिंदु है क्योंकि स्वराज पार्टी के उदय से गांधीवादी राजनीति समाप्त नहीं हुई थी।\n\nUPSC अक्सर 'स्थायी रूप से समाप्त' जैसे शब्दों का प्रयोग भ्रम उत्पन्न करने हेतु करती है।\n\n1, 2 और 4 स्वराज पार्टी के व्यापक राजनीतिक महत्व को सही रूप से दर्शाते हैं। अतः c सही उत्तर है।"
 }
+  ]
+  }
 }
+    
