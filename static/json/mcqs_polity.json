@@ -1,13 +1,144 @@
 {
-  "Polity": {
-    "Preamble": {
-      "topic_english": "Preamble",
-      "topic_telugu": "ఉపోద్ఘాతం",
-      "topic_hindi": "प्रस्तावना",
+  "subject_english": "Polity",
+  "subject_telugu": "భారత రాజ్యాంగం",
+  "subject_hindi": "भारतीय राजव्यवस्था",
 
-      "questions": [
+  "Historical Background of Indian Constitution": {
+    "topic_english": "Historical Background of Indian Constitution",
+    "topic_telugu": "భారత రాజ్యాంగ చారిత్రక నేపథ్యం",
+    "topic_hindi": "भारतीय संविधान की ऐतिहासिक पृष्ठभूमि",
 
-      ]
-    }
+    "questions": [
+
+      {
+        "question_english": "With reference to the constitutional development under British rule in India, consider the following statements:\n\n1. The Regulating Act of 1773 recognised, for the first time, the political and administrative functions of the East India Company.\n\n2. The Pitts India Act of 1784 established a system of dual control over Indian affairs.\n\n3. The Charter Act of 1833 converted the Governor-General of Bengal into the Governor-General of India.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భారతదేశంలో బ్రిటిష్ పాలనలో జరిగిన రాజ్యాంగ వికాసానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. 1773 నియంత్రణ చట్టం ద్వారా మొదటిసారిగా ఈస్ట్ ఇండియా కంపెనీ యొక్క రాజకీయ మరియు పరిపాలనా విధులు గుర్తించబడ్డాయి.\n\n2. 1784 పిట్స్ ఇండియా చట్టం భారత వ్యవహారాలపై ద్వంద్వ నియంత్రణ విధానాన్ని ఏర్పాటు చేసింది.\n\n3. 1833 చార్టర్ చట్టం ద్వారా బెంగాల్ గవర్నర్ జనరల్ పదవిని భారత గవర్నర్ జనరల్‌గా మార్చారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "भारत में ब्रिटिश शासन के अंतर्गत संवैधानिक विकास के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. रेग्युलेटिंग एक्ट, 1773 ने पहली बार ईस्ट इंडिया कंपनी के राजनीतिक एवं प्रशासनिक कार्यों को मान्यता दी।\n\n2. पिट्स इंडिया एक्ट, 1784 ने भारतीय मामलों पर द्वैध नियंत्रण प्रणाली स्थापित की।\n\n3. चार्टर एक्ट, 1833 ने बंगाल के गवर्नर जनरल को भारत का गवर्नर जनरल बना दिया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "1, 2 and 3",
+          "c": "2 and 3 only",
+          "d": "1 and 3 only"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "1, 2 మరియు 3",
+          "c": "2 మరియు 3 మాత్రమే",
+          "d": "1 మరియు 3 మాత్రమే"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "1, 2 और 3",
+          "c": "केवल 2 और 3",
+          "d": "केवल 1 और 3"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The Regulating Act of 1773 marked the beginning of parliamentary control over the East India Company and acknowledged its political role in India.\n\nThe Pitts India Act of 1784 introduced a system of dual control where commercial functions remained with the Company while political affairs came under the British government.\n\nThe Charter Act of 1833 was a landmark legislation which centralized administration and redesignated the Governor-General of Bengal as the Governor-General of India.\n\nLord William Bentinck became the first Governor-General of India under this Act.\n\nThe Act also ended the Company’s commercial functions.\n\nThus, all three statements are correct.",
+
+        "explanation_telugu": "1773 నియంత్రణ చట్టం ఈస్ట్ ఇండియా కంపెనీపై పార్లమెంటరీ నియంత్రణకు ప్రారంభం కావడంతో పాటు భారతదేశంలో దాని రాజకీయ పాత్రను గుర్తించింది.\n\n1784 పిట్స్ ఇండియా చట్టం ద్వంద్వ నియంత్రణ విధానాన్ని ప్రవేశపెట్టింది. వాణిజ్య వ్యవహారాలు కంపెనీ వద్ద ఉండగా రాజకీయ వ్యవహారాలు బ్రిటిష్ ప్రభుత్వ నియంత్రణలోకి వచ్చాయి.\n\n1833 చార్టర్ చట్టం పరిపాలనను కేంద్రీకరించి బెంగాల్ గవర్నర్ జనరల్‌ను భారత గవర్నర్ జనరల్‌గా మార్చింది.\n\nలార్డ్ విలియం బెంటింక్ ఈ చట్టం కింద తొలి భారత గవర్నర్ జనరల్ అయ్యాడు.\n\nఈ చట్టం కంపెనీ వాణిజ్య కార్యకలాపాలకు ముగింపు పలికింది.\n\nఅందువల్ల మూడు ప్రకటనలూ సరైనవే.",
+
+        "explanation_hindi": "रेग्युलेटिंग एक्ट, 1773 ने ईस्ट इंडिया कंपनी पर संसदीय नियंत्रण की शुरुआत की तथा भारत में उसकी राजनीतिक भूमिका को मान्यता दी।\n\nपिट्स इंडिया एक्ट, 1784 ने द्वैध नियंत्रण प्रणाली स्थापित की जिसमें वाणिज्यिक कार्य कंपनी के पास रहे जबकि राजनीतिक मामलों पर ब्रिटिश सरकार का नियंत्रण हुआ।\n\nचार्टर एक्ट, 1833 ने प्रशासन का केंद्रीकरण किया और बंगाल के गवर्नर जनरल को भारत का गवर्नर जनरल बना दिया।\n\nलॉर्ड विलियम बेंटिंक इस अधिनियम के अंतर्गत भारत के प्रथम गवर्नर जनरल बने।\n\nइस अधिनियम ने कंपनी की व्यापारिक गतिविधियों का अंत कर दिया।\n\nअतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "This question combines multiple constitutional developments from different Acts.\n\nStudents often confuse the Charter Act of 1833 with earlier Charter Acts.\n\nThe phrase ‘Governor-General of India’ is a direct clue pointing towards the 1833 Act.\n\nIf Statement 3 is correctly identified, options eliminating it can be removed immediately.\n\nSimilarly, dual control is a classic feature of the Pitts India Act of 1784.\n\nOnce all three statements are verified, option (b) becomes the correct answer.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్నలో వివిధ చట్టాల రాజ్యాంగ వికాస అంశాలను కలిపి అడిగారు.\n\n1833 చార్టర్ చట్టాన్ని విద్యార్థులు తరచుగా ఇతర చార్టర్ చట్టాలతో గందరగోళం పడతారు.\n\n‘భారత గవర్నర్ జనరల్’ అనే పదం 1833 చట్టానికి ప్రత్యక్ష సూచన.\n\n3వ ప్రకటన సరైందని గుర్తిస్తే దానిని తొలగించే ఎంపికలను వెంటనే తొలగించవచ్చు.\n\nఅలాగే ద్వంద్వ నియంత్రణ 1784 పిట్స్ ఇండియా చట్టానికి సంబంధించిన ప్రసిద్ధ లక్షణం.\n\nమూడు ప్రకటనలూ సరైనవని నిర్ధారించిన తరువాత ఎంపిక (b) సరైన సమాధానం అవుతుంది.",
+
+        "elimination_logic_hindi": "इस प्रश्न में विभिन्न अधिनियमों से संबंधित संवैधानिक विकास को मिलाकर पूछा गया है।\n\nविद्यार्थी प्रायः चार्टर एक्ट, 1833 को अन्य चार्टर अधिनियमों से भ्रमित कर देते हैं।\n\n‘गवर्नर जनरल ऑफ इंडिया’ वाक्यांश सीधे 1833 अधिनियम की ओर संकेत करता है।\n\nयदि कथन 3 सही पहचान लिया जाए तो उसे हटाने वाले विकल्प तुरंत समाप्त हो जाते हैं।\n\nइसी प्रकार द्वैध नियंत्रण, पिट्स इंडिया एक्ट, 1784 की प्रसिद्ध विशेषता है।\n\nतीनों कथनों की पुष्टि होने पर विकल्प (b) सही उत्तर बनता है।"
+      },
+
+      {
+        "question_english": "Match the following Acts with their corresponding features:\n\nList I — Act\n1. Indian Councils Act of 1892\n2. Indian Councils Act of 1909\n3. Government of India Act of 1919\n4. Government of India Act of 1935\n\nList II — Feature\nA. Provincial Autonomy\nB. Introduction of separate electorates\nC. Introduction of indirect election to legislative councils\nD. Introduction of dyarchy in provinces\n\nSelect the correct answer using the code given below.",
+
+        "question_telugu": "క్రింది చట్టాలను వాటి లక్షణాలతో జతపరచండి:\n\nజాబితా I — చట్టం\n1. 1892 భారత కౌన్సిల్స్ చట్టం\n2. 1909 భారత కౌన్సిల్స్ చట్టం\n3. 1919 భారత ప్రభుత్వ చట్టం\n4. 1935 భారత ప్రభుత్వ చట్టం\n\nజాబితా II — లక్షణం\nA. ప్రావిన్షియల్ స్వయం పాలన\nB. ప్రత్యేక నియోజకవర్గాల ప్రవేశపెట్టడం\nC. శాసన మండళ్లకు పరోక్ష ఎన్నికల ప్రవేశం\nD. ప్రావిన్సుల్లో ద్వంద్వ పరిపాలన ప్రవేశపెట్టడం\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+        "question_hindi": "निम्नलिखित अधिनियमों का उनकी विशेषताओं से मिलान कीजिए:\n\nसूची I — अधिनियम\n1. भारतीय परिषद अधिनियम, 1892\n2. भारतीय परिषद अधिनियम, 1909\n3. भारत सरकार अधिनियम, 1919\n4. भारत सरकार अधिनियम, 1935\n\nसूची II — विशेषता\nA. प्रांतीय स्वायत्तता\nB. पृथक निर्वाचन की शुरुआत\nC. विधान परिषदों हेतु अप्रत्यक्ष चुनाव की शुरुआत\nD. प्रान्तों में द्वैध शासन की शुरुआत\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+        "options_english": {
+          "a": "1-C, 2-B, 3-D, 4-A",
+          "b": "1-B, 2-D, 3-A, 4-C",
+          "c": "1-D, 2-A, 3-C, 4-B",
+          "d": "1-A, 2-C, 3-B, 4-D"
+        },
+
+        "options_telugu": {
+          "a": "1-C, 2-B, 3-D, 4-A",
+          "b": "1-B, 2-D, 3-A, 4-C",
+          "c": "1-D, 2-A, 3-C, 4-B",
+          "d": "1-A, 2-C, 3-B, 4-D"
+        },
+
+        "options_hindi": {
+          "a": "1-C, 2-B, 3-D, 4-A",
+          "b": "1-B, 2-D, 3-A, 4-C",
+          "c": "1-D, 2-A, 3-C, 4-B",
+          "d": "1-A, 2-C, 3-B, 4-D"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "The Indian Councils Act of 1892 introduced elements of indirect election to legislative councils.\n\nThe Indian Councils Act of 1909, also known as the Morley-Minto Reforms, introduced separate electorates for Muslims.\n\nThe Government of India Act of 1919 introduced dyarchy in provinces by dividing subjects into transferred and reserved categories.\n\nThe Government of India Act of 1935 introduced provincial autonomy and proposed an all-India federation.\n\nThese Acts progressively expanded representative institutions in British India.\n\nThey formed important stages in India’s constitutional evolution.",
+
+        "explanation_telugu": "1892 భారత కౌన్సిల్స్ చట్టం శాసన మండళ్లకు పరోక్ష ఎన్నికల అంశాలను ప్రవేశపెట్టింది.\n\n1909 భారత కౌన్సిల్స్ చట్టం లేదా మోర్లే-మింటో సంస్కరణలు ముస్లింలకు ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టాయి.\n\n1919 భారత ప్రభుత్వ చట్టం అంశాలను బదిలీ మరియు రిజర్వ్ విభాగాలుగా విభజిస్తూ ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను ప్రవేశపెట్టింది.\n\n1935 భారత ప్రభుత్వ చట్టం ప్రావిన్షియల్ స్వయం పాలనను ప్రవేశపెట్టి ఆల్ ఇండియా ఫెడరేషన్ ప్రతిపాదించింది.\n\nఈ చట్టాలు బ్రిటిష్ భారతదేశంలో ప్రతినిధి సంస్థలను క్రమంగా విస్తరించాయి.\n\nఇవి భారత రాజ్యాంగ వికాసంలో ముఖ్య దశలుగా నిలిచాయి.",
+
+        "explanation_hindi": "भारतीय परिषद अधिनियम, 1892 ने विधान परिषदों के लिए अप्रत्यक्ष चुनाव के तत्वों की शुरुआत की।\n\nभारतीय परिषद अधिनियम, 1909 अर्थात् मॉर्ले-मिंटो सुधारों ने मुसलमानों के लिए पृथक निर्वाचन की व्यवस्था की।\n\nभारत सरकार अधिनियम, 1919 ने विषयों को आरक्षित और हस्तांतरित श्रेणियों में बाँटकर प्रान्तों में द्वैध शासन लागू किया।\n\nभारत सरकार अधिनियम, 1935 ने प्रांतीय स्वायत्तता की शुरुआत की तथा अखिल भारतीय संघ का प्रस्ताव रखा।\n\nइन अधिनियमों ने ब्रिटिश भारत में प्रतिनिधिक संस्थाओं का क्रमिक विस्तार किया।\n\nये भारत के संवैधानिक विकास के महत्वपूर्ण चरण थे।",
+
+        "elimination_logic_english": "Chronology and landmark features are crucial in constitutional history.\n\nSeparate electorates are directly associated with the 1909 Act.\n\nDyarchy in provinces is uniquely linked to the Government of India Act of 1919.\n\nProvincial autonomy is the hallmark of the 1935 Act.\n\nOnce these three pairs are identified correctly, only one matching code remains.\n\nTherefore option (a) becomes the correct answer.",
+
+        "elimination_logic_telugu": "రాజ్యాంగ చరిత్రలో కాలక్రమం మరియు ముఖ్య లక్షణాలు చాలా కీలకం.\n\nప్రత్యేక నియోజకవర్గాలు 1909 చట్టంతో నేరుగా సంబంధం కలిగి ఉంటాయి.\n\nప్రావిన్సుల్లో ద్వంద్వ పరిపాలన 1919 భారత ప్రభుత్వ చట్టానికి ప్రత్యేక లక్షణం.\n\nప్రావిన్షియల్ స్వయం పాలన 1935 చట్టానికి ప్రధాన గుర్తింపు.\n\nఈ మూడు జతలను సరిగా గుర్తించిన తరువాత ఒకే సరైన కోడ్ మిగులుతుంది.\n\nకాబట్టి ఎంపిక (a) సరైన సమాధానం అవుతుంది.",
+
+        "elimination_logic_hindi": "संवैधानिक इतिहास में कालक्रम और प्रमुख विशेषताएँ अत्यंत महत्वपूर्ण होती हैं।\n\nपृथक निर्वाचन सीधे 1909 अधिनियम से जुड़ा हुआ है।\n\nप्रान्तों में द्वैध शासन केवल भारत सरकार अधिनियम, 1919 से संबंधित है।\n\nप्रांतीय स्वायत्तता, 1935 अधिनियम की प्रमुख विशेषता है।\n\nइन तीन युग्मों को सही पहचान लेने पर केवल एक सही कूट बचता है।\n\nअतः विकल्प (a) सही उत्तर बनता है।"
+      },
+
+      {
+        "question_english": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): The Government of India Act of 1935 became the most important constitutional source for the Indian Constitution.\n\nReason (R): A large number of administrative and federal provisions of the present Constitution were derived from this Act.\n\nWhich one of the following is correct?",
+
+        "question_telugu": "క్రింది ప్రతిపాదన (A) మరియు కారణం (R) ను పరిశీలించండి:\n\nప్రతిపాదన (A): 1935 భారత ప్రభుత్వ చట్టం భారత రాజ్యాంగానికి అత్యంత ముఖ్యమైన రాజ్యాంగ మూలంగా నిలిచింది.\n\nకారణం (R): ప్రస్తుత రాజ్యాంగంలోని అనేక పరిపాలనా మరియు సమాఖ్య నిబంధనలు ఈ చట్టం నుండి స్వీకరించబడ్డాయి.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+        "question_hindi": "निम्नलिखित अभिकथन (A) तथा कारण (R) पर विचार कीजिए:\n\nअभिकथन (A): भारत सरकार अधिनियम, 1935 भारतीय संविधान का सबसे महत्वपूर्ण संवैधानिक स्रोत बना।\n\nकारण (R): वर्तमान संविधान के अनेक प्रशासनिक और संघीय प्रावधान इसी अधिनियम से लिए गए।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+        "options_english": {
+          "a": "Both A and R are true but R is not the correct explanation of A",
+          "b": "A is true but R is false",
+          "c": "Both A and R are true and R is the correct explanation of A",
+          "d": "A is false but R is true"
+        },
+
+        "options_telugu": {
+          "a": "A మరియు R రెండూ సరైనవి; కానీ R అనేది A కు సరైన వివరణ కాదు",
+          "b": "A సరైనది కానీ R తప్పు",
+          "c": "A మరియు R రెండూ సరైనవి; R అనేది A కు సరైన వివరణ",
+          "d": "A తప్పు కానీ R సరైనది"
+        },
+
+        "options_hindi": {
+          "a": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+          "b": "A सही है लेकिन R गलत है",
+          "c": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है",
+          "d": "A गलत है लेकिन R सही है"
+        },
+
+        "correct_answer": "c",
+
+        "explanation_english": "The Government of India Act of 1935 is regarded as the most significant constitutional source for the Indian Constitution.\n\nSeveral important provisions relating to federal structure, provincial autonomy, emergency provisions, judiciary and public services were borrowed from this Act.\n\nThe Constituent Assembly adopted many administrative mechanisms from the Act while adapting them to democratic governance.\n\nAlthough the federal provisions were not fully implemented under British rule, they greatly influenced constitutional design.\n\nThe Act represented the most comprehensive constitutional arrangement introduced by the British in India.\n\nHence the Reason correctly explains the Assertion.",
+
+        "explanation_telugu": "1935 భారత ప్రభుత్వ చట్టం భారత రాజ్యాంగానికి అత్యంత ముఖ్యమైన రాజ్యాంగ మూలంగా పరిగణించబడుతుంది.\n\nసమాఖ్య నిర్మాణం, ప్రావిన్షియల్ స్వయం పాలన, అత్యవసర నిబంధనలు, న్యాయవ్యవస్థ మరియు ప్రజా సేవలకు సంబంధించిన అనేక నిబంధనలు ఈ చట్టం నుండి స్వీకరించబడ్డాయి.\n\nరాజ్యాంగ సభ ప్రజాస్వామ్య పరిపాలనకు అనుగుణంగా మార్పులు చేస్తూ ఈ చట్టంలోని అనేక పరిపాలనా విధానాలను స్వీకరించింది.\n\nఈ చట్టంలోని సమాఖ్య పద్ధతి పూర్తిగా అమలుకాలేకపోయినా రాజ్యాంగ నిర్మాణంపై గణనీయమైన ప్రభావం చూపింది.\n\nఇది బ్రిటిష్ ప్రభుత్వం ప్రవేశపెట్టిన అత్యంత సమగ్ర రాజ్యాంగ వ్యవస్థ.\n\nఅందువల్ల కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.",
+
+        "explanation_hindi": "भारत सरकार अधिनियम, 1935 को भारतीय संविधान का सबसे महत्वपूर्ण संवैधानिक स्रोत माना जाता है।\n\nसंघीय ढाँचा, प्रांतीय स्वायत्तता, आपातकालीन प्रावधान, न्यायपालिका तथा लोक सेवाओं से संबंधित अनेक प्रावधान इसी अधिनियम से लिए गए।\n\nसंविधान सभा ने लोकतांत्रिक शासन के अनुरूप संशोधन करते हुए इसकी प्रशासनिक व्यवस्थाओं को अपनाया।\n\nयद्यपि इसके संघीय प्रावधान ब्रिटिश शासन में पूर्णतः लागू नहीं हुए, फिर भी उन्होंने संवैधानिक ढाँचे को गहराई से प्रभावित किया।\n\nयह ब्रिटिशों द्वारा प्रस्तुत सबसे व्यापक संवैधानिक व्यवस्था थी।\n\nअतः कारण, अभिकथन की सही व्याख्या करता है।",
+
+        "elimination_logic_english": "Assertion-Reason questions require verification of both factual accuracy and explanatory relationship.\n\nBoth statements are independently correct.\n\nThe Government of India Act of 1935 indeed became the most influential constitutional source.\n\nThe Reason directly explains this importance by mentioning the large number of borrowed provisions.\n\nHence options treating either statement as false can be eliminated immediately.\n\nThe only logically correct option is (c).",
+
+        "elimination_logic_telugu": "ప్రతిపాదన-కారణం ప్రశ్నల్లో వాస్తవ సత్యతతో పాటు వివరణాత్మక సంబంధాన్ని కూడా పరిశీలించాలి.\n\nరెండు ప్రకటనలూ స్వతంత్రంగా సరైనవే.\n\n1935 భారత ప్రభుత్వ చట్టం నిజంగానే అత్యంత ప్రభావవంతమైన రాజ్యాంగ మూలంగా నిలిచింది.\n\nప్రస్తుత రాజ్యాంగంలోని అనేక నిబంధనలు ఈ చట్టం నుండి స్వీకరించబడ్డాయని కారణం నేరుగా వివరిస్తుంది.\n\nఅందువల్ల ఏదైనా ప్రకటనను తప్పు అని చెప్పే ఎంపికలను వెంటనే తొలగించవచ్చు.\n\nకాబట్టి తార్కికంగా సరైన సమాధానం (c).",
+
+        "elimination_logic_hindi": "अभिकथन-कारण प्रश्नों में तथ्यात्मक सत्यता तथा व्याख्यात्मक संबंध दोनों की जाँच की जाती है।\n\nदोनों कथन स्वतंत्र रूप से सही हैं।\n\nभारत सरकार अधिनियम, 1935 वास्तव में भारतीय संविधान का सबसे प्रभावशाली स्रोत बना।\n\nकारण यह स्पष्ट करता है कि वर्तमान संविधान के अनेक प्रावधान इसी अधिनियम से लिए गए।\n\nअतः किसी भी कथन को गलत मानने वाले विकल्प तुरंत हटाए जा सकते हैं।\n\nइस प्रकार तार्किक रूप से सही उत्तर विकल्प (c) है।"
+      }
+
+    ]
   }
 }
