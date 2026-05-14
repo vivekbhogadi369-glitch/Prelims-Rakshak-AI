@@ -137,8 +137,303 @@
         "elimination_logic_telugu": "ప్రతిపాదన-కారణం ప్రశ్నల్లో వాస్తవ సత్యతతో పాటు వివరణాత్మక సంబంధాన్ని కూడా పరిశీలించాలి.\n\nరెండు ప్రకటనలూ స్వతంత్రంగా సరైనవే.\n\n1935 భారత ప్రభుత్వ చట్టం నిజంగానే అత్యంత ప్రభావవంతమైన రాజ్యాంగ మూలంగా నిలిచింది.\n\nప్రస్తుత రాజ్యాంగంలోని అనేక నిబంధనలు ఈ చట్టం నుండి స్వీకరించబడ్డాయని కారణం నేరుగా వివరిస్తుంది.\n\nఅందువల్ల ఏదైనా ప్రకటనను తప్పు అని చెప్పే ఎంపికలను వెంటనే తొలగించవచ్చు.\n\nకాబట్టి తార్కికంగా సరైన సమాధానం (c).",
 
         "elimination_logic_hindi": "अभिकथन-कारण प्रश्नों में तथ्यात्मक सत्यता तथा व्याख्यात्मक संबंध दोनों की जाँच की जाती है।\n\nदोनों कथन स्वतंत्र रूप से सही हैं।\n\nभारत सरकार अधिनियम, 1935 वास्तव में भारतीय संविधान का सबसे प्रभावशाली स्रोत बना।\n\nकारण यह स्पष्ट करता है कि वर्तमान संविधान के अनेक प्रावधान इसी अधिनियम से लिए गए।\n\nअतः किसी भी कथन को गलत मानने वाले विकल्प तुरंत हटाए जा सकते हैं।\n\nइस प्रकार तार्किक रूप से सही उत्तर विकल्प (c) है।"
-      }
+      },
+      ,
+{
+  "question_english": "Which one of the following statements best explains the significance of the Charter Act of 1833 in the constitutional development of India?\n\nSelect the correct answer.",
 
+  "question_telugu": "భారత రాజ్యాంగ వికాసంలో 1833 చార్టర్ చట్టం ప్రాధాన్యాన్ని అత్యుత్తమంగా వివరించే ప్రకటన ఏది?\n\nసరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "भारत के संवैधानिक विकास में चार्टर एक्ट, 1833 के महत्व को सर्वश्रेष्ठ रूप से समझाने वाला कथन कौन-सा है?\n\nसही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "It introduced dyarchy in the provinces.",
+    "b": "It created the office of Governor-General of India and centralized legislative authority.",
+    "c": "It introduced separate electorates for Muslims.",
+    "d": "It transferred power from the East India Company to the British Crown."
+  },
+
+  "options_telugu": {
+    "a": "ఇది ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను ప్రవేశపెట్టింది.",
+    "b": "ఇది భారత గవర్నర్ జనరల్ పదవిని సృష్టించి శాసన అధికారాన్ని కేంద్రీకృతం చేసింది.",
+    "c": "ఇది ముస్లింలకు ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టింది.",
+    "d": "ఇది ఈస్ట్ ఇండియా కంపెనీ నుండి బ్రిటిష్ కిరీటానికి అధికారాన్ని బదిలీ చేసింది."
+  },
+
+  "options_hindi": {
+    "a": "इसने प्रान्तों में द्वैध शासन लागू किया।",
+    "b": "इसने भारत के गवर्नर जनरल का पद बनाया और विधायी अधिकारों का केंद्रीकरण किया।",
+    "c": "इसने मुसलमानों के लिए पृथक निर्वाचन की शुरुआत की।",
+    "d": "इसने ईस्ट इंडिया कंपनी से ब्रिटिश क्राउन को सत्ता हस्तांतरित की।"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Charter Act of 1833 was a major step towards centralization in British India.\n\nIt redesignated the Governor-General of Bengal as the Governor-General of India.\n\nLord William Bentinck became the first Governor-General of India under this Act.\n\nThe Act centralized legislative powers in the hands of the Governor-General in Council.\n\nIt also ended the commercial activities of the East India Company.\n\nTherefore, its main constitutional significance lies in administrative and legislative centralization.",
+
+  "explanation_telugu": "1833 చార్టర్ చట్టం బ్రిటిష్ భారతదేశంలో కేంద్రీకరణ దిశగా ఒక ముఖ్యమైన దశ.\n\nఇది బెంగాల్ గవర్నర్ జనరల్‌ను భారత గవర్నర్ జనరల్‌గా మార్చింది.\n\nఈ చట్టం కింద లార్డ్ విలియం బెంటింక్ తొలి భారత గవర్నర్ జనరల్ అయ్యాడు.\n\nగవర్నర్ జనరల్ ఇన్ కౌన్సిల్ చేతుల్లో శాసన అధికారాలు కేంద్రీకృతమయ్యాయి.\n\nఈ చట్టం ఈస్ట్ ఇండియా కంపెనీ వాణిజ్య కార్యకలాపాలకు కూడా ముగింపు పలికింది.\n\nఅందువల్ల దీని ప్రధాన రాజ్యాంగ ప్రాధాన్యం పరిపాలనా మరియు శాసన కేంద్రీకరణలో ఉంది.",
+
+  "explanation_hindi": "चार्टर एक्ट, 1833 ब्रिटिश भारत में केंद्रीकरण की दिशा में एक महत्वपूर्ण कदम था।\n\nइसने बंगाल के गवर्नर जनरल को भारत का गवर्नर जनरल बना दिया।\n\nलॉर्ड विलियम बेंटिंक इस अधिनियम के अंतर्गत भारत के प्रथम गवर्नर जनरल बने।\n\nइस अधिनियम ने विधायी शक्तियों को गवर्नर जनरल इन काउंसिल के हाथों में केंद्रीकृत किया।\n\nइसने ईस्ट इंडिया कंपनी की व्यापारिक गतिविधियों का भी अंत कर दिया।\n\nइसलिए इसका मुख्य संवैधानिक महत्व प्रशासनिक और विधायी केंद्रीकरण में है।",
+
+  "elimination_logic_english": "Option a is incorrect because dyarchy in provinces was introduced by the Government of India Act of 1919.\n\nOption c is incorrect because separate electorates were introduced by the Indian Councils Act of 1909.\n\nOption d is incorrect because transfer of power to the British Crown happened under the Government of India Act of 1858.\n\nThe phrase Governor-General of India is the direct clue for the Charter Act of 1833.\n\nUPSC often tests this Act through centralization and legislative authority.\n\nTherefore, option b is the most appropriate answer.",
+
+  "elimination_logic_telugu": "ఎంపిక a తప్పు, ఎందుకంటే ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను 1919 భారత ప్రభుత్వ చట్టం ప్రవేశపెట్టింది.\n\nఎంపిక c తప్పు, ఎందుకంటే ప్రత్యేక నియోజకవర్గాలను 1909 భారత కౌన్సిల్స్ చట్టం ప్రవేశపెట్టింది.\n\nఎంపిక d తప్పు, ఎందుకంటే బ్రిటిష్ కిరీటానికి అధికార బదిలీ 1858 భారత ప్రభుత్వ చట్టం ద్వారా జరిగింది.\n\nభారత గవర్నర్ జనరల్ అనే పదమే 1833 చార్టర్ చట్టానికి ప్రత్యక్ష సూచన.\n\nUPSC ఈ చట్టాన్ని కేంద్రీకరణ మరియు శాసన అధికారాల కోణంలో తరచుగా అడుగుతుంది.\n\nకాబట్టి ఎంపిక b అత్యంత సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "विकल्प a गलत है क्योंकि प्रान्तों में द्वैध शासन भारत सरकार अधिनियम, 1919 द्वारा लागू किया गया।\n\nविकल्प c गलत है क्योंकि पृथक निर्वाचन भारतीय परिषद अधिनियम, 1909 द्वारा प्रारंभ किया गया।\n\nविकल्प d गलत है क्योंकि ब्रिटिश क्राउन को सत्ता हस्तांतरण भारत सरकार अधिनियम, 1858 द्वारा हुआ।\n\nभारत के गवर्नर जनरल का पद सीधे चार्टर एक्ट, 1833 की ओर संकेत करता है।\n\nUPSC इस अधिनियम को प्रायः केंद्रीकरण और विधायी अधिकारों के संदर्भ में पूछता है।\n\nअतः विकल्प b सबसे उपयुक्त उत्तर है।"
+},
+{
+  "question_english": "With reference to the Government of India Act of 1858, consider the following statements:\n\n1. It abolished the rule of the East India Company in India.\n\n2. It created the office of Secretary of State for India.\n\n3. It introduced responsible government at the provincial level.\n\n4. It transferred Indian administration directly to the British Crown.\n\nWhich of the statements given above are correct?",
+
+  "question_telugu": "1858 భారత ప్రభుత్వ చట్టానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది భారతదేశంలో ఈస్ట్ ఇండియా కంపెనీ పాలనను రద్దు చేసింది.\n\n2. ఇది భారత కార్యదర్శి పదవిని సృష్టించింది.\n\n3. ఇది ప్రావిన్షియల్ స్థాయిలో బాధ్యతాయుత ప్రభుత్వాన్ని ప్రవేశపెట్టింది.\n\n4. ఇది భారత పరిపాలనను నేరుగా బ్రిటిష్ కిరీటానికి బదిలీ చేసింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "भारत सरकार अधिनियम, 1858 के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इसने भारत में ईस्ट इंडिया कंपनी के शासन को समाप्त कर दिया।\n\n2. इसने भारत सचिव के पद की स्थापना की।\n\n3. इसने प्रांतीय स्तर पर उत्तरदायी सरकार की शुरुआत की।\n\n4. इसने भारतीय प्रशासन को सीधे ब्रिटिश क्राउन को हस्तांतरित कर दिया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+  "options_english": {
+    "a": "1, 2 and 4 only",
+    "b": "1 and 3 only",
+    "c": "2, 3 and 4 only",
+    "d": "1, 2, 3 and 4"
+  },
+
+  "options_telugu": {
+    "a": "1, 2 మరియు 4 మాత్రమే",
+    "b": "1 మరియు 3 మాత్రమే",
+    "c": "2, 3 మరియు 4 మాత్రమే",
+    "d": "1, 2, 3 మరియు 4"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1, 2 और 4",
+    "b": "केवल 1 और 3",
+    "c": "केवल 2, 3 और 4",
+    "d": "1, 2, 3 और 4"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The Government of India Act of 1858 was passed after the Revolt of 1857.\n\nIt abolished the rule of the East India Company and transferred Indian administration to the British Crown.\n\nThe Act created the office of Secretary of State for India, who was assisted by the Council of India.\n\nThis marked the beginning of direct British Crown rule in India.\n\nHowever, it did not introduce responsible government at the provincial level.\n\nResponsible government and provincial autonomy developed only through later constitutional reforms.",
+
+  "explanation_telugu": "1857 తిరుగుబాటు తర్వాత 1858 భారత ప్రభుత్వ చట్టం అమలులోకి వచ్చింది.\n\nఇది ఈస్ట్ ఇండియా కంపెనీ పాలనను రద్దు చేసి భారత పరిపాలనను బ్రిటిష్ కిరీటానికి బదిలీ చేసింది.\n\nఈ చట్టం భారత కార్యదర్శి పదవిని సృష్టించింది; అతనికి ఇండియా కౌన్సిల్ సహాయం చేసేది.\n\nదీంతో భారతదేశంలో బ్రిటిష్ కిరీటపు ప్రత్యక్ష పాలన ప్రారంభమైంది.\n\nఅయితే ఇది ప్రావిన్షియల్ స్థాయిలో బాధ్యతాయుత ప్రభుత్వాన్ని ప్రవేశపెట్టలేదు.\n\nబాధ్యతాయుత ప్రభుత్వం మరియు ప్రావిన్షియల్ స్వయం పాలన తరువాతి రాజ్యాంగ సంస్కరణల ద్వారా అభివృద్ధి చెందాయి.",
+
+  "explanation_hindi": "भारत सरकार अधिनियम, 1858 को 1857 के विद्रोह के बाद पारित किया गया।\n\nइसने ईस्ट इंडिया कंपनी के शासन को समाप्त कर भारतीय प्रशासन को ब्रिटिश क्राउन को हस्तांतरित कर दिया।\n\nइस अधिनियम ने भारत सचिव के पद की स्थापना की, जिसे भारत परिषद सहायता देती थी।\n\nइसके साथ भारत में ब्रिटिश क्राउन का प्रत्यक्ष शासन प्रारंभ हुआ।\n\nकिन्तु इसने प्रांतीय स्तर पर उत्तरदायी सरकार की शुरुआत नहीं की।\n\nउत्तरदायी सरकार और प्रांतीय स्वायत्तता बाद के संवैधानिक सुधारों से विकसित हुईं।",
+
+  "elimination_logic_english": "Statement 3 is the trap because responsible government belongs to later reforms, not the Act of 1858.\n\nThe 1858 Act was mainly concerned with transfer of authority after the Revolt of 1857.\n\nStatements 1 and 4 are closely linked because Company rule ended and Crown rule began.\n\nStatement 2 is also correct because the Secretary of State for India was created by this Act.\n\nOnce Statement 3 is eliminated, options b, c and d become incorrect.\n\nTherefore option a is the correct answer.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ఉచ్చు, ఎందుకంటే బాధ్యతాయుత ప్రభుత్వం 1858 చట్టానికి కాకుండా తరువాతి సంస్కరణలకు సంబంధించినది.\n\n1858 చట్టం ప్రధానంగా 1857 తిరుగుబాటు తర్వాత అధికార బదిలీకి సంబంధించినది.\n\n1 మరియు 4 ప్రకటనలు పరస్పరం అనుసంధానించబడ్డాయి, ఎందుకంటే కంపెనీ పాలన ముగిసి కిరీటపు పాలన ప్రారంభమైంది.\n\n2వ ప్రకటన కూడా సరైనది, ఎందుకంటే భారత కార్యదర్శి పదవి ఈ చట్టం ద్వారా సృష్టించబడింది.\n\n3వ ప్రకటనను తొలగించిన వెంటనే b, c మరియు d ఎంపికలు తప్పవుతాయి.\n\nకాబట్టి ఎంపిక a సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 मुख्य जाल है क्योंकि उत्तरदायी सरकार 1858 अधिनियम से नहीं, बल्कि बाद के सुधारों से संबंधित है।\n\n1858 अधिनियम मुख्यतः 1857 के विद्रोह के बाद सत्ता हस्तांतरण से संबंधित था।\n\nकथन 1 और 4 आपस में जुड़े हुए हैं क्योंकि कंपनी शासन समाप्त हुआ और क्राउन शासन शुरू हुआ।\n\nकथन 2 भी सही है क्योंकि भारत सचिव का पद इसी अधिनियम द्वारा बनाया गया।\n\nकथन 3 हटाते ही विकल्प b, c और d गलत हो जाते हैं।\n\nअतः विकल्प a सही उत्तर है।"
+},
+{
+  "question_english": "With reference to constitutional reforms before independence, consider the following statements:\n\n1. The Indian Councils Act of 1909 accepted the principle of communal representation.\n\n2. The Government of India Act of 1919 provided for the establishment of a bicameral legislature at the Centre.\n\n3. The Government of India Act of 1935 abolished dyarchy at the Centre and introduced it in provinces.\n\nWhich of the statements given above are correct?",
+
+  "question_telugu": "స్వాతంత్ర్యానికి ముందు జరిగిన రాజ్యాంగ సంస్కరణలకు సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. 1909 భారత కౌన్సిల్స్ చట్టం సామూహిక ప్రాతినిధ్య సూత్రాన్ని అంగీకరించింది.\n\n2. 1919 భారత ప్రభుత్వ చట్టం కేంద్రంలో ద్విసభ్య శాసనసభ ఏర్పాటుకు మార్గం వేసింది.\n\n3. 1935 భారత ప్రభుత్వ చట్టం కేంద్రంలో ద్వంద్వ పరిపాలనను రద్దు చేసి ప్రావిన్సుల్లో ప్రవేశపెట్టింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "स्वतंत्रता से पूर्व संवैधानिक सुधारों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. भारतीय परिषद अधिनियम, 1909 ने साम्प्रदायिक प्रतिनिधित्व के सिद्धांत को स्वीकार किया।\n\n2. भारत सरकार अधिनियम, 1919 ने केंद्र में द्विसदनीय विधानमंडल की स्थापना का प्रावधान किया।\n\n3. भारत सरकार अधिनियम, 1935 ने केंद्र में द्वैध शासन समाप्त कर उसे प्रान्तों में लागू किया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+  "options_english": {
+    "a": "1 only",
+    "b": "1 and 2 only",
+    "c": "2 and 3 only",
+    "d": "1, 2 and 3"
+  },
+
+  "options_telugu": {
+    "a": "1 మాత్రమే",
+    "b": "1 మరియు 2 మాత్రమే",
+    "c": "2 మరియు 3 మాత్రమే",
+    "d": "1, 2 మరియు 3"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1",
+    "b": "केवल 1 और 2",
+    "c": "केवल 2 और 3",
+    "d": "1, 2 और 3"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Indian Councils Act of 1909 introduced separate electorates for Muslims and accepted the principle of communal representation.\n\nThe Government of India Act of 1919 introduced bicameralism at the Central level by creating the Council of State and the Legislative Assembly.\n\nIt also introduced dyarchy in provinces, not at the Centre.\n\nThe Government of India Act of 1935 abolished dyarchy in provinces and introduced provincial autonomy.\n\nIt proposed dyarchy at the Centre, but that part never came into operation.\n\nTherefore, statements 1 and 2 are correct while statement 3 is incorrect.",
+
+  "explanation_telugu": "1909 భారత కౌన్సిల్స్ చట్టం ముస్లింలకు ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టి సామూహిక ప్రాతినిధ్య సూత్రాన్ని అంగీకరించింది.\n\n1919 భారత ప్రభుత్వ చట్టం కేంద్ర స్థాయిలో కౌన్సిల్ ఆఫ్ స్టేట్ మరియు లెజిస్లేటివ్ అసెంబ్లీ ద్వారా ద్విసభ్య శాసన వ్యవస్థను ప్రవేశపెట్టింది.\n\nఇదే చట్టం ద్వంద్వ పరిపాలనను ప్రావిన్సుల్లో ప్రవేశపెట్టింది; కేంద్రంలో కాదు.\n\n1935 భారత ప్రభుత్వ చట్టం ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను రద్దు చేసి ప్రావిన్షియల్ స్వయం పాలనను ప్రవేశపెట్టింది.\n\nకేంద్రంలో ద్వంద్వ పరిపాలనను ప్రతిపాదించినప్పటికీ అది అమలులోకి రాలేదు.\n\nకాబట్టి 1 మరియు 2 ప్రకటనలు సరైనవి; 3వ ప్రకటన తప్పు.",
+
+  "explanation_hindi": "भारतीय परिषद अधिनियम, 1909 ने मुसलमानों के लिए पृथक निर्वाचन प्रारंभ किया और साम्प्रदायिक प्रतिनिधित्व के सिद्धांत को स्वीकार किया।\n\nभारत सरकार अधिनियम, 1919 ने केंद्र में काउंसिल ऑफ स्टेट और लेजिस्लेटिव असेंबली के माध्यम से द्विसदनीय विधानमंडल की व्यवस्था की।\n\nइसी अधिनियम ने द्वैध शासन प्रान्तों में लागू किया, केंद्र में नहीं।\n\nभारत सरकार अधिनियम, 1935 ने प्रान्तों में द्वैध शासन समाप्त कर प्रांतीय स्वायत्तता लागू की।\n\nइसने केंद्र में द्वैध शासन का प्रस्ताव किया, पर वह भाग लागू नहीं हुआ।\n\nअतः कथन 1 और 2 सही हैं जबकि कथन 3 गलत है।",
+
+  "elimination_logic_english": "Statement 3 is framed to test confusion between dyarchy under the 1919 and 1935 Acts.\n\nDyarchy was introduced in provinces by the 1919 Act.\n\nThe 1935 Act abolished provincial dyarchy and introduced provincial autonomy.\n\nIt proposed dyarchy at the Centre, but it was not implemented.\n\nStatements 1 and 2 are standard features of the 1909 and 1919 Acts respectively.\n\nTherefore, after eliminating statement 3, option b becomes the correct answer.",
+
+  "elimination_logic_telugu": "3వ ప్రకటన 1919 మరియు 1935 చట్టాలలో ద్వంద్వ పరిపాలన అంశాన్ని గందరగోళం చేయడానికి రూపొందించబడింది.\n\n1919 చట్టం ద్వంద్వ పరిపాలనను ప్రావిన్సుల్లో ప్రవేశపెట్టింది.\n\n1935 చట్టం ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను రద్దు చేసి ప్రావిన్షియల్ స్వయం పాలనను ప్రవేశపెట్టింది.\n\nకేంద్రంలో ద్వంద్వ పరిపాలనను ప్రతిపాదించినప్పటికీ అది అమలులోకి రాలేదు.\n\n1 మరియు 2 ప్రకటనలు వరుసగా 1909 మరియు 1919 చట్టాలకు చెందిన ప్రామాణిక లక్షణాలు.\n\nకాబట్టి 3వ ప్రకటనను తొలగించిన తర్వాత ఎంపిక b సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "कथन 3 को 1919 और 1935 अधिनियमों में द्वैध शासन को लेकर भ्रम उत्पन्न करने के लिए बनाया गया है।\n\n1919 अधिनियम ने द्वैध शासन प्रान्तों में लागू किया था।\n\n1935 अधिनियम ने प्रान्तों में द्वैध शासन समाप्त कर प्रांतीय स्वायत्तता लागू की।\n\nकेंद्र में द्वैध शासन का प्रस्ताव किया गया था, पर वह लागू नहीं हुआ।\n\nकथन 1 और 2 क्रमशः 1909 और 1919 अधिनियमों की मानक विशेषताएँ हैं।\n\nअतः कथन 3 हटाने के बाद विकल्प b सही उत्तर बनता है।"
+},
+      ,
+{
+  "question_english": "Which one of the following Acts first introduced an element of election in the process of constituting legislative councils in British India?\n\nSelect the correct answer.",
+
+  "question_telugu": "బ్రిటిష్ భారతదేశంలో శాసన మండళ్ల నిర్మాణ ప్రక్రియలో ఎన్నికల అంశాన్ని మొదటిసారిగా ప్రవేశపెట్టిన చట్టం ఏది?\n\nసరైన సమాధానాన్ని ఎంచుకోండి.",
+
+  "question_hindi": "ब्रिटिश भारत में विधान परिषदों के गठन की प्रक्रिया में चुनाव के तत्व को पहली बार किस अधिनियम ने शामिल किया?\n\nसही उत्तर चुनिए।",
+
+  "options_english": {
+    "a": "Indian Councils Act of 1861",
+    "b": "Indian Councils Act of 1892",
+    "c": "Indian Councils Act of 1909",
+    "d": "Government of India Act of 1919"
+  },
+
+  "options_telugu": {
+    "a": "1861 భారత కౌన్సిల్స్ చట్టం",
+    "b": "1892 భారత కౌన్సిల్స్ చట్టం",
+    "c": "1909 భారత కౌన్సిల్స్ చట్టం",
+    "d": "1919 భారత ప్రభుత్వ చట్టం"
+  },
+
+  "options_hindi": {
+    "a": "भारतीय परिषद अधिनियम, 1861",
+    "b": "भारतीय परिषद अधिनियम, 1892",
+    "c": "भारतीय परिषद अधिनियम, 1909",
+    "d": "भारत सरकार अधिनियम, 1919"
+  },
+
+  "correct_answer": "b",
+
+  "explanation_english": "The Indian Councils Act of 1892 introduced the principle of indirect election in a limited form.\n\nThe word election was not directly used in the Act, but nomination on the recommendation of local bodies introduced an electoral element.\n\nThis was an important step in the gradual development of representative institutions in India.\n\nThe Indian Councils Act of 1861 mainly introduced legislative councils and associated Indians with law-making in a limited way.\n\nThe Indian Councils Act of 1909 introduced direct elections and separate electorates on a wider scale.\n\nTherefore, the earliest electoral element is associated with the Indian Councils Act of 1892.",
+
+  "explanation_telugu": "1892 భారత కౌన్సిల్స్ చట్టం పరిమిత రూపంలో పరోక్ష ఎన్నికల సూత్రాన్ని ప్రవేశపెట్టింది.\n\nఈ చట్టంలో ఎన్నిక అనే పదాన్ని నేరుగా ఉపయోగించలేదు; కానీ స్థానిక సంస్థల సిఫారసు ఆధారంగా నామినేషన్ విధానం ఎన్నికల అంశాన్ని తెచ్చింది.\n\nభారతదేశంలో ప్రతినిధి సంస్థల అభివృద్ధిలో ఇది ఒక ముఖ్యమైన దశ.\n\n1861 భారత కౌన్సిల్స్ చట్టం ప్రధానంగా శాసన మండళ్లను ఏర్పాటు చేసి భారతీయులను పరిమిత స్థాయిలో చట్టనిర్మాణంలో భాగస్వామ్యం చేసింది.\n\n1909 భారత కౌన్సిల్స్ చట్టం మరింత విస్తృత స్థాయిలో ప్రత్యక్ష ఎన్నికలు మరియు ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టింది.\n\nకాబట్టి ఎన్నికల తొలి అంశం 1892 భారత కౌన్సిల్స్ చట్టంతో సంబంధం కలిగి ఉంటుంది.",
+
+  "explanation_hindi": "भारतीय परिषद अधिनियम, 1892 ने सीमित रूप में अप्रत्यक्ष चुनाव के सिद्धांत को शामिल किया।\n\nइस अधिनियम में चुनाव शब्द का प्रत्यक्ष प्रयोग नहीं किया गया, लेकिन स्थानीय निकायों की सिफारिश पर नामांकन से चुनावी तत्व आया।\n\nयह भारत में प्रतिनिधिक संस्थाओं के क्रमिक विकास की महत्वपूर्ण अवस्था थी।\n\nभारतीय परिषद अधिनियम, 1861 ने मुख्यतः विधान परिषदों की व्यवस्था की और भारतीयों को सीमित रूप से कानून निर्माण से जोड़ा।\n\nभारतीय परिषद अधिनियम, 1909 ने व्यापक स्तर पर प्रत्यक्ष चुनाव और पृथक निर्वाचन की शुरुआत की।\n\nअतः चुनावी तत्व का प्रारंभ भारतीय परिषद अधिनियम, 1892 से जुड़ा है।",
+
+  "elimination_logic_english": "This is a factual but tricky question because students often jump directly to the 1909 Act.\n\nThe 1909 Act is important for separate electorates, but it was not the first to introduce an electoral element.\n\nThe 1861 Act allowed limited Indian association but did not introduce election.\n\nThe 1919 Act expanded representative institutions but came later in chronology.\n\nThe clue is indirect election through recommendation, which belongs to 1892.\n\nTherefore, option b is the most accurate answer.",
+
+  "elimination_logic_telugu": "ఇది వాస్తవాధారితమైన ప్రశ్న అయినప్పటికీ ఉచ్చు ఉంది, ఎందుకంటే విద్యార్థులు తరచుగా నేరుగా 1909 చట్టాన్ని గుర్తిస్తారు.\n\n1909 చట్టం ప్రత్యేక నియోజకవర్గాలకు ప్రసిద్ధి చెందినది; కానీ ఎన్నికల అంశాన్ని మొదటిసారిగా ప్రవేశపెట్టింది కాదు.\n\n1861 చట్టం భారతీయుల పరిమిత భాగస్వామ్యాన్ని కల్పించింది కానీ ఎన్నికలను ప్రవేశపెట్టలేదు.\n\n1919 చట్టం ప్రతినిధి సంస్థలను విస్తరించింది కానీ కాలక్రమంలో తరువాతిది.\n\nస్థానిక సంస్థల సిఫారసు ద్వారా పరోక్ష ఎన్నిక అనే సంకేతం 1892 చట్టానికి చెందుతుంది.\n\nకాబట్టి ఎంపిక b అత్యంత సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "यह तथ्यात्मक होते हुए भी भ्रम पैदा करने वाला प्रश्न है क्योंकि विद्यार्थी प्रायः सीधे 1909 अधिनियम को चुन लेते हैं।\n\n1909 अधिनियम पृथक निर्वाचन के लिए महत्वपूर्ण है, परंतु चुनावी तत्व की पहली शुरुआत उससे नहीं हुई।\n\n1861 अधिनियम ने भारतीयों की सीमित भागीदारी दी, लेकिन चुनाव की शुरुआत नहीं की।\n\n1919 अधिनियम ने प्रतिनिधिक संस्थाओं का विस्तार किया, पर वह कालक्रम में बाद का है।\n\nस्थानीय निकायों की सिफारिश द्वारा अप्रत्यक्ष चुनाव का संकेत 1892 अधिनियम से जुड़ा है।\n\nइसलिए विकल्प b सर्वाधिक सही उत्तर है।"
+},
+{
+  "question_english": "With reference to the Government of India Act of 1935, consider the following statements:\n\n1. It provided for the establishment of an All-India Federation.\n\n2. It abolished provincial dyarchy and introduced provincial autonomy.\n\n3. It introduced responsible government at the Centre.\n\n4. It provided for the establishment of a Federal Court.\n\nWhich of the statements given above are correct?",
+
+  "question_telugu": "1935 భారత ప్రభుత్వ చట్టానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇది ఆల్ ఇండియా ఫెడరేషన్ ఏర్పాటుకు నిబంధన చేసింది.\n\n2. ఇది ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను రద్దు చేసి ప్రావిన్షియల్ స్వయం పాలనను ప్రవేశపెట్టింది.\n\n3. ఇది కేంద్రంలో బాధ్యతాయుత ప్రభుత్వాన్ని ప్రవేశపెట్టింది.\n\n4. ఇది ఫెడరల్ కోర్టు స్థాపనకు నిబంధన చేసింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "भारत सरकार अधिनियम, 1935 के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. इसने अखिल भारतीय संघ की स्थापना का प्रावधान किया।\n\n2. इसने प्रान्तों में द्वैध शासन समाप्त कर प्रांतीय स्वायत्तता लागू की।\n\n3. इसने केंद्र में उत्तरदायी सरकार की स्थापना की।\n\n4. इसने संघीय न्यायालय की स्थापना का प्रावधान किया।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+  "options_english": {
+    "a": "1, 2 and 4 only",
+    "b": "1 and 3 only",
+    "c": "2, 3 and 4 only",
+    "d": "1, 2, 3 and 4"
+  },
+
+  "options_telugu": {
+    "a": "1, 2 మరియు 4 మాత్రమే",
+    "b": "1 మరియు 3 మాత్రమే",
+    "c": "2, 3 మరియు 4 మాత్రమే",
+    "d": "1, 2, 3 మరియు 4"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1, 2 और 4",
+    "b": "केवल 1 और 3",
+    "c": "केवल 2, 3 और 4",
+    "d": "1, 2, 3 और 4"
+  },
+
+  "correct_answer": "a",
+
+  "explanation_english": "The Government of India Act of 1935 proposed the establishment of an All-India Federation consisting of provinces and princely states.\n\nHowever, the federation never came into existence because the princely states did not join it.\n\nThe Act abolished dyarchy in provinces and introduced provincial autonomy.\n\nIt also provided for the establishment of a Federal Court, which came into existence in 1937.\n\nThe Act did not introduce fully responsible government at the Centre.\n\nTherefore, statements 1, 2 and 4 are correct while statement 3 is incorrect.",
+
+  "explanation_telugu": "1935 భారత ప్రభుత్వ చట్టం ప్రావిన్సులు మరియు సంస్థానాలతో కూడిన ఆల్ ఇండియా ఫెడరేషన్ ఏర్పాటును ప్రతిపాదించింది.\n\nఅయితే సంస్థానాలు అందులో చేరకపోవడంతో ఆ ఫెడరేషన్ అమలులోకి రాలేదు.\n\nఈ చట్టం ప్రావిన్సుల్లో ద్వంద్వ పరిపాలనను రద్దు చేసి ప్రావిన్షియల్ స్వయం పాలనను ప్రవేశపెట్టింది.\n\nఇది ఫెడరల్ కోర్టు స్థాపనకు కూడా నిబంధన చేసింది; ఆ కోర్టు 1937లో ఏర్పడింది.\n\nకేంద్రంలో పూర్తిస్థాయి బాధ్యతాయుత ప్రభుత్వాన్ని ఈ చట్టం ప్రవేశపెట్టలేదు.\n\nకాబట్టి 1, 2 మరియు 4 ప్రకటనలు సరైనవి; 3వ ప్రకటన తప్పు.",
+
+  "explanation_hindi": "भारत सरकार अधिनियम, 1935 ने प्रान्तों और रियासतों को मिलाकर अखिल भारतीय संघ की स्थापना का प्रस्ताव किया।\n\nकिन्तु रियासतों के शामिल न होने के कारण यह संघ अस्तित्व में नहीं आ सका।\n\nइस अधिनियम ने प्रान्तों में द्वैध शासन समाप्त कर प्रांतीय स्वायत्तता लागू की।\n\nइसने संघीय न्यायालय की स्थापना का भी प्रावधान किया, जो 1937 में अस्तित्व में आया।\n\nइस अधिनियम ने केंद्र में पूर्ण उत्तरदायी सरकार की स्थापना नहीं की।\n\nअतः कथन 1, 2 और 4 सही हैं जबकि कथन 3 गलत है।",
+
+  "elimination_logic_english": "Statement 3 is the main trap in this question.\n\nStudents may assume that because provincial autonomy was introduced, responsible government also came at the Centre.\n\nBut the 1935 Act did not establish full responsible government at the central level.\n\nStatements 1 and 2 are standard features of the Act.\n\nStatement 4 is also correct because the Federal Court was established under this Act.\n\nAfter eliminating statement 3, option a becomes the correct answer.",
+
+  "elimination_logic_telugu": "ఈ ప్రశ్నలో ప్రధాన ఉచ్చు 3వ ప్రకటనలో ఉంది.\n\nప్రావిన్షియల్ స్వయం పాలన ప్రవేశపెట్టబడినందున కేంద్రంలో కూడా బాధ్యతాయుత ప్రభుత్వం వచ్చిందని విద్యార్థులు భావించే అవకాశం ఉంది.\n\nకానీ 1935 చట్టం కేంద్రంలో పూర్తిస్థాయి బాధ్యతాయుత ప్రభుత్వాన్ని ఏర్పాటు చేయలేదు.\n\n1 మరియు 2 ప్రకటనలు ఈ చట్టానికి చెందిన ప్రామాణిక లక్షణాలు.\n\n4వ ప్రకటన కూడా సరైనది, ఎందుకంటే ఫెడరల్ కోర్టు ఈ చట్టం ఆధారంగా ఏర్పడింది.\n\n3వ ప్రకటనను తొలగించిన తర్వాత ఎంపిక a సరైన సమాధానం అవుతుంది.",
+
+  "elimination_logic_hindi": "इस प्रश्न का मुख्य जाल कथन 3 में है।\n\nविद्यार्थी यह मान सकते हैं कि प्रांतीय स्वायत्तता के साथ केंद्र में भी उत्तरदायी सरकार आ गई।\n\nलेकिन 1935 अधिनियम ने केंद्र में पूर्ण उत्तरदायी सरकार स्थापित नहीं की।\n\nकथन 1 और 2 इस अधिनियम की मानक विशेषताएँ हैं।\n\nकथन 4 भी सही है क्योंकि संघीय न्यायालय इसी अधिनियम के अंतर्गत स्थापित हुआ।\n\nकथन 3 हटाने के बाद विकल्प a सही उत्तर बनता है।"
+},
+{
+  "question_english": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): The Indian Councils Act of 1909 is considered a setback to the growth of national unity in India.\n\nReason (R): It introduced separate electorates on the basis of religion.\n\nWhich one of the following is correct?",
+
+  "question_telugu": "క్రింది ప్రతిపాదన (A) మరియు కారణం (R) ను పరిశీలించండి:\n\nప్రతిపాదన (A): 1909 భారత కౌన్సిల్స్ చట్టం భారతదేశంలో జాతీయ ఐక్యత అభివృద్ధికి ప్రతికూలంగా పరిగణించబడుతుంది.\n\nకారణం (R): ఇది మత ప్రాతిపదికన ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టింది.\n\nక్రింది వాటిలో ఏది సరైనది?",
+
+  "question_hindi": "निम्नलिखित अभिकथन (A) तथा कारण (R) पर विचार कीजिए:\n\nअभिकथन (A): भारतीय परिषद अधिनियम, 1909 को भारत में राष्ट्रीय एकता के विकास के लिए प्रतिकूल माना जाता है।\n\nकारण (R): इसने धर्म के आधार पर पृथक निर्वाचन की शुरुआत की।\n\nनिम्नलिखित में से कौन-सा सही है?",
+
+  "options_english": {
+    "a": "Both A and R are true but R is not the correct explanation of A",
+    "b": "A is true but R is false",
+    "c": "A is false but R is true",
+    "d": "Both A and R are true and R is the correct explanation of A"
+  },
+
+  "options_telugu": {
+    "a": "A మరియు R రెండూ సరైనవి; కానీ R అనేది A కు సరైన వివరణ కాదు",
+    "b": "A సరైనది కానీ R తప్పు",
+    "c": "A తప్పు కానీ R సరైనది",
+    "d": "A మరియు R రెండూ సరైనవి; R అనేది A కు సరైన వివరణ"
+  },
+
+  "options_hindi": {
+    "a": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है",
+    "b": "A सही है लेकिन R गलत है",
+    "c": "A गलत है लेकिन R सही है",
+    "d": "A और R दोनों सही हैं तथा R, A की सही व्याख्या है"
+  },
+
+  "correct_answer": "d",
+
+  "explanation_english": "The Indian Councils Act of 1909, also known as the Morley-Minto Reforms, introduced separate electorates for Muslims.\n\nThis meant that Muslim representatives were to be elected by Muslim voters.\n\nThe system institutionalised communal representation in Indian politics.\n\nAlthough the Act expanded legislative councils, its communal electoral arrangement had long-term political consequences.\n\nIt encouraged political mobilization on religious lines rather than common national identity.\n\nTherefore, both the Assertion and the Reason are correct, and the Reason properly explains the Assertion.",
+
+  "explanation_telugu": "1909 భారత కౌన్సిల్స్ చట్టం, మోర్లే-మింటో సంస్కరణలు అని కూడా పిలువబడుతుంది, ముస్లింలకు ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టింది.\n\nదీని ప్రకారం ముస్లిం ప్రతినిధులను ముస్లిం ఓటర్లు ఎన్నుకునే విధానం ఏర్పడింది.\n\nఈ విధానం భారత రాజకీయాల్లో సామూహిక ప్రాతినిధ్యాన్ని సంస్థాగతం చేసింది.\n\nఈ చట్టం శాసన మండళ్లను విస్తరించినప్పటికీ, దీని మతపరమైన ఎన్నికల విధానం దీర్ఘకాలిక రాజకీయ ప్రభావం చూపింది.\n\nఇది సాధారణ జాతీయ గుర్తింపుకంటే మత ప్రాతిపదికన రాజకీయ సమీకరణను ప్రోత్సహించింది.\n\nకాబట్టి ప్రతిపాదన మరియు కారణం రెండూ సరైనవి; కారణం ప్రతిపాదనను సరైనంగా వివరిస్తుంది.",
+
+  "explanation_hindi": "भारतीय परिषद अधिनियम, 1909, जिसे मॉर्ले-मिंटो सुधार भी कहा जाता है, ने मुसलमानों के लिए पृथक निर्वाचन की शुरुआत की।\n\nइसका अर्थ था कि मुस्लिम प्रतिनिधियों का चुनाव मुस्लिम मतदाता करेंगे।\n\nइस व्यवस्था ने भारतीय राजनीति में साम्प्रदायिक प्रतिनिधित्व को संस्थागत रूप दिया।\n\nयद्यपि इस अधिनियम ने विधान परिषदों का विस्तार किया, पर इसकी साम्प्रदायिक चुनाव व्यवस्था के दीर्घकालिक राजनीतिक परिणाम हुए।\n\nइसने साझा राष्ट्रीय पहचान के स्थान पर धार्मिक आधार पर राजनीतिक लामबंदी को बढ़ावा दिया।\n\nअतः अभिकथन और कारण दोनों सही हैं तथा कारण, अभिकथन की सही व्याख्या करता है।",
+
+  "elimination_logic_english": "In Assertion-Reason questions, the link between the two statements is more important than merely checking facts.\n\nBoth statements are factually correct.\n\nThe 1909 Act did introduce separate electorates, which created communal political representation.\n\nThis directly explains why the Act is considered harmful to national unity.\n\nOptions b and c are eliminated because neither statement is false.\n\nOption a is also incorrect because the Reason clearly explains the Assertion.",
+
+  "elimination_logic_telugu": "ప్రతిపాదన-కారణం ప్రశ్నల్లో కేవలం వాస్తవాలకంటే రెండు ప్రకటనల మధ్య సంబంధాన్ని గుర్తించడం ముఖ్యం.\n\nరెండు ప్రకటనలూ వాస్తవపరంగా సరైనవే.\n\n1909 చట్టం ప్రత్యేక నియోజకవర్గాలను ప్రవేశపెట్టి మతపరమైన రాజకీయ ప్రాతినిధ్యాన్ని ఏర్పరచింది.\n\nఇది జాతీయ ఐక్యతకు ఎందుకు ప్రతికూలమో నేరుగా వివరిస్తుంది.\n\nరెండు ప్రకటనల్లో ఏదీ తప్పు కాదు కాబట్టి b మరియు c ఎంపికలు తొలగిపోతాయి.\n\nకారణం ప్రతిపాదనను స్పష్టంగా వివరిస్తున్నందున option a కూడా తప్పు.",
+
+  "elimination_logic_hindi": "अभिकथन-कारण प्रश्नों में केवल तथ्य नहीं, बल्कि दोनों कथनों का संबंध अधिक महत्वपूर्ण होता है।\n\nदोनों कथन तथ्यात्मक रूप से सही हैं।\n\n1909 अधिनियम ने पृथक निर्वाचन लागू किया, जिससे साम्प्रदायिक राजनीतिक प्रतिनिधित्व बना।\n\nयही सीधे बताता है कि यह अधिनियम राष्ट्रीय एकता के लिए प्रतिकूल क्यों माना गया।\n\nक्योंकि कोई भी कथन गलत नहीं है, इसलिए विकल्प b और c हट जाते हैं।\n\nकारण स्पष्ट रूप से अभिकथन की व्याख्या करता है, इसलिए विकल्प a भी गलत है।"
+},
+{
+  "question_english": "With reference to the evolution of legislative institutions under British rule, consider the following statements:\n\n1. The Indian Councils Act of 1861 restored legislative powers to the Bombay and Madras Presidencies.\n\n2. The Indian Councils Act of 1892 allowed discussion on the budget, but did not permit voting on it.\n\n3. The Government of India Act of 1919 introduced bicameralism at the Central level.\n\nWhich of the statements given above are correct?",
+
+  "question_telugu": "బ్రిటిష్ పాలనలో శాసన సంస్థల వికాసానికి సంబంధించి క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. 1861 భారత కౌన్సిల్స్ చట్టం బాంబే మరియు మద్రాస్ ప్రెసిడెన్సీలకు శాసన అధికారాలను తిరిగి ఇచ్చింది.\n\n2. 1892 భారత కౌన్సిల్స్ చట్టం బడ్జెట్‌పై చర్చకు అనుమతించింది కానీ దానిపై ఓటింగ్‌కు అనుమతించలేదు.\n\n3. 1919 భారత ప్రభుత్వ చట్టం కేంద్ర స్థాయిలో ద్విసభ్య శాసన వ్యవస్థను ప్రవేశపెట్టింది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+  "question_hindi": "ब्रिटिश शासन के अंतर्गत विधायी संस्थाओं के विकास के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. भारतीय परिषद अधिनियम, 1861 ने बंबई और मद्रास प्रेसिडेंसियों को विधायी शक्तियाँ पुनः प्रदान कीं।\n\n2. भारतीय परिषद अधिनियम, 1892 ने बजट पर चर्चा की अनुमति दी, पर उस पर मतदान की अनुमति नहीं दी।\n\n3. भारत सरकार अधिनियम, 1919 ने केंद्र में द्विसदनीय विधानमंडल की शुरुआत की।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+  "options_english": {
+    "a": "1 and 2 only",
+    "b": "2 and 3 only",
+    "c": "1, 2 and 3",
+    "d": "1 and 3 only"
+  },
+
+  "options_telugu": {
+    "a": "1 మరియు 2 మాత్రమే",
+    "b": "2 మరియు 3 మాత్రమే",
+    "c": "1, 2 మరియు 3",
+    "d": "1 మరియు 3 మాత్రమే"
+  },
+
+  "options_hindi": {
+    "a": "केवल 1 और 2",
+    "b": "केवल 2 और 3",
+    "c": "1, 2 और 3",
+    "d": "केवल 1 और 3"
+  },
+
+  "correct_answer": "c",
+
+  "explanation_english": "The Indian Councils Act of 1861 decentralised legislative powers by restoring legislative authority to Bombay and Madras Presidencies.\n\nIt also allowed the association of Indians with law-making in a limited capacity.\n\nThe Indian Councils Act of 1892 expanded the functions of legislative councils and permitted discussion on the budget.\n\nHowever, members were not allowed to vote on the budget.\n\nThe Government of India Act of 1919 introduced bicameralism at the Centre through the Council of State and Legislative Assembly.\n\nThus, all three statements correctly reflect the evolution of legislative institutions under British rule.",
+
+  "explanation_telugu": "1861 భారత కౌన్సిల్స్ చట్టం బాంబే మరియు మద్రాస్ ప్రెసిడెన్సీలకు శాసన అధికారాలను తిరిగి ఇస్తూ శాసన వికేంద్రీకరణకు దారితీసింది.\n\nఇది భారతీయులను పరిమిత స్థాయిలో చట్టనిర్మాణ ప్రక్రియలో భాగస్వామ్యం చేయడానికి అనుమతించింది.\n\n1892 భారత కౌన్సిల్స్ చట్టం శాసన మండళ్ల విధులను విస్తరించి బడ్జెట్‌పై చర్చకు అనుమతించింది.\n\nఅయితే సభ్యులకు బడ్జెట్‌పై ఓటింగ్ హక్కు ఇవ్వలేదు.\n\n1919 భారత ప్రభుత్వ చట్టం కేంద్రంలో కౌన్సిల్ ఆఫ్ స్టేట్ మరియు లెజిస్లేటివ్ అసెంబ్లీ ద్వారా ద్విసభ్య శాసన వ్యవస్థను ప్రవేశపెట్టింది.\n\nఅందువల్ల మూడు ప్రకటనలూ బ్రిటిష్ పాలనలో శాసన సంస్థల వికాసాన్ని సరైనంగా ప్రతిబింబిస్తాయి.",
+
+  "explanation_hindi": "भारतीय परिषद अधिनियम, 1861 ने बंबई और मद्रास प्रेसिडेंसियों को विधायी शक्तियाँ वापस देकर विधायी विकेंद्रीकरण किया।\n\nइसने भारतीयों को सीमित रूप से कानून निर्माण से जोड़ने की अनुमति भी दी।\n\nभारतीय परिषद अधिनियम, 1892 ने विधान परिषदों के कार्यों का विस्तार किया और बजट पर चर्चा की अनुमति दी।\n\nकिन्तु सदस्यों को बजट पर मतदान करने की अनुमति नहीं थी।\n\nभारत सरकार अधिनियम, 1919 ने केंद्र में काउंसिल ऑफ स्टेट और लेजिस्लेटिव असेंबली के माध्यम से द्विसदनीय विधानमंडल की शुरुआत की।\n\nअतः तीनों कथन ब्रिटिश शासन में विधायी संस्थाओं के विकास को सही रूप से दर्शाते हैं।",
+
+  "elimination_logic_english": "This question tests continuity in the evolution of legislative institutions.\n\nStatement 1 is correct because the 1861 Act reversed excessive centralization created by the 1833 Act.\n\nStatement 2 is correct because the 1892 Act gave budget discussion rights but not voting rights.\n\nStatement 3 is correct because bicameralism at the Centre began under the 1919 Act.\n\nThere is no false statement in the set.\n\nTherefore, option c is the correct answer.",
+
+  "elimination_logic_telugu": "ఈ ప్రశ్న శాసన సంస్థల వికాసంలోని నిరంతరతను పరీక్షిస్తుంది.\n\n1వ ప్రకటన సరైనది, ఎందుకంటే 1861 చట్టం 1833 చట్టం వల్ల ఏర్పడిన అధిక కేంద్రీకరణను కొంతవరకు తగ్గించింది.\n\n2వ ప్రకటన సరైనది, ఎందుకంటే 1892 చట్టం బడ్జెట్‌పై చర్చ హక్కును ఇచ్చింది కానీ ఓటింగ్ హక్కును ఇవ్వలేదు.\n\n3వ ప్రకటన సరైనది, ఎందుకంటే కేంద్రంలో ద్విసభ్య శాసన వ్యవస్థ 1919 చట్టం ద్వారా ప్రారంభమైంది.\n\nఈ సెట్‌లో తప్పు ప్రకటన ఏదీ లేదు.\n\nకాబట్టి ఎంపిక c సరైన సమాధానం.",
+
+  "elimination_logic_hindi": "यह प्रश्न विधायी संस्थाओं के विकास की निरंतरता को जाँचता है।\n\nकथन 1 सही है क्योंकि 1861 अधिनियम ने 1833 अधिनियम द्वारा उत्पन्न अत्यधिक केंद्रीकरण को कुछ हद तक कम किया।\n\nकथन 2 सही है क्योंकि 1892 अधिनियम ने बजट पर चर्चा का अधिकार दिया, पर मतदान का अधिकार नहीं दिया।\n\nकथन 3 सही है क्योंकि केंद्र में द्विसदनीय व्यवस्था 1919 अधिनियम से शुरू हुई।\n\nइस समूह में कोई भी कथन गलत नहीं है।\n\nअतः विकल्प c सही उत्तर है।"
+}
     ]
   }
 }
