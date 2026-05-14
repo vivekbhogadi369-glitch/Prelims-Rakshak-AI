@@ -1,3 +1,13 @@
 {
-  "Polity": {}
+  "Polity": {
+    "Preamble": {
+      "topic_english": "Preamble",
+      "topic_telugu": "ప్రస్తావిక",
+      "topic_hindi": "प्रस्तावना",
+
+      "questions": [
+
+      ]
+    }
+  }
 }
