@@ -273,7 +273,8 @@ const translations = {
     subjectNames: {
       "Ancient History": "Ancient History",
       "Medieval History": "Medieval Indian History",
-      "Modern History": "Modern Indian History"
+      "Modern History": "Modern Indian History",
+      "Polity": "Polity"
     }
   },
 
@@ -297,7 +298,8 @@ const translations = {
     subjectNames: {
       "Ancient History": "ప్రాచీన భారత చరిత్ర",
       "Medieval History": "మధ్యయుగ భారత చరిత్ర",
-      "Modern History": "ఆధునిక భారత చరిత్ర"
+      "Modern History": "ఆధునిక భారత చరిత్ర",
+      "Polity": "భారత రాజ్యాంగం"
     }
   },
 
@@ -321,7 +323,8 @@ const translations = {
     subjectNames: {
       "Ancient History": "प्राचीन भारतीय इतिहास",
       "Medieval History": "मध्यकालीन भारतीय इतिहास",
-      "Modern History": "आधुनिक भारतीय इतिहास"
+      "Modern History": "आधुनिक भारतीय इतिहास",
+      "Polity": "भारतीय राजव्यवस्था"
     }
   }
 };
@@ -489,10 +492,15 @@ async function loadMCQs() {
     if (!modernResponse.ok) throw new Error("Modern History JSON not found");
     const modernData = await modernResponse.json();
 
+    const polityResponse = await fetch("/static/json/mcqs_polity.json");
+    if (!polityResponse.ok) throw new Error("Polity JSON not found");
+    const polityData = await polityResponse.json();
+
     mcqData = {
       "Ancient History": extractTopics(ancientData, "Ancient History"),
       "Medieval History": extractTopics(medievalData, "Medieval History"),
-      "Modern History": extractTopics(modernData, "Modern History")
+      "Modern History": extractTopics(modernData, "Modern History"),
+      "Polity": extractTopics(polityData, "Polity")
     };
 
     applyLanguageLabels();
