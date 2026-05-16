@@ -1,4 +1,8 @@
-,
+{
+  "subject_english": "World Geography",
+  "subject_telugu": "ప్రపంచ భూగోళ శాస్త్రం",
+  "subject_hindi": "विश्व भूगोल",
+  
   "Ocean Relief": {
     "topic_english": "Ocean Relief",
     "topic_telugu": "సముద్ర అడుగు భూభాగ నిర్మాణం",
