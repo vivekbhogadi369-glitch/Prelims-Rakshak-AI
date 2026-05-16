@@ -1,1 +1,138 @@
-{}
+,
+  "Rocks and Rock Cycle": {
+    "topic_english": "Rocks and Rock Cycle",
+    "topic_telugu": "రాళ్లు మరియు రాక్ చక్రం",
+    "topic_hindi": "शैल एवं शैल चक्र",
+
+    "questions": [
+
+      {
+        "question_english": "Consider the following statements regarding the rock cycle:\n\n1. The rock cycle describes the continuous transformation of rocks from one type to another.\n2. Igneous rocks may transform into sedimentary or metamorphic rocks.\n3. The rock cycle is driven by both internal and external geological processes.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "రాక్ చక్రానికి సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. రాక్ చక్రం రాళ్లు ఒక రకంనుంచి మరొక రకంగా నిరంతరం మారే ప్రక్రియను వివరిస్తుంది.\n2. అగ్నిజ రాళ్లు అవక్షేప లేదా రూపాంతర రాళ్లుగా మారవచ్చు.\n3. రాక్ చక్రాన్ని అంతర్గత మరియు బాహ్య భౌగోళిక ప్రక్రియలు రెండూ నడిపిస్తాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "शैल चक्र के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. शैल चक्र शैलों के एक प्रकार से दूसरे प्रकार में निरंतर परिवर्तन को दर्शाता है।\n2. आग्नेय शैलें अवसादी अथवा कायांतरित शैलों में परिवर्तित हो सकती हैं।\n3. शैल चक्र को आंतरिक एवं बाह्य भूवैज्ञानिक प्रक्रियाएँ दोनों संचालित करती हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "The rock cycle is a dynamic geological process through which rocks continuously change from one form to another over geological time. Igneous rocks may undergo weathering and erosion to form sediments, which later become sedimentary rocks. Under heat and pressure, both igneous and sedimentary rocks can transform into metamorphic rocks. Melting of rocks can again produce magma, which solidifies into igneous rocks. The rock cycle is controlled by both internal processes such as volcanism, tectonism and metamorphism, and external processes such as weathering, erosion and deposition. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "రాక్ చక్రం అనేది రాళ్లు కాలక్రమేణా ఒక రూపం నుండి మరొక రూపంగా మారే గతి శీల భౌగోళిక ప్రక్రియ. అగ్నిజ రాళ్లు అపక్షయం మరియు అపరదనకు లోనై అవక్షేపాలుగా మారి, తరువాత అవక్షేప రాళ్లుగా మారవచ్చు. అధిక ఉష్ణోగ్రత మరియు పీడనంతో అవి రూపాంతర రాళ్లుగా మారుతాయి. రాళ్లు కరిగి మాగ్మాగా మారి తిరిగి అగ్నిజ రాళ్లను ఏర్పరుస్తాయి. ఈ చక్రాన్ని అగ్నిపర్వత చర్యలు, టెక్టానిజం వంటి అంతర్గత ప్రక్రియలు మరియు అపక్షయం, అపరదనం వంటి బాహ్య ప్రక్రియలు నడిపిస్తాయి. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "शैल चक्र एक गतिशील भूवैज्ञानिक प्रक्रिया है जिसके माध्यम से शैलें समय के साथ एक प्रकार से दूसरे प्रकार में परिवर्तित होती रहती हैं। आग्नेय शैलें अपक्षय एवं अपरदन से अवसाद बनाती हैं, जो आगे चलकर अवसादी शैलों में परिवर्तित हो सकती हैं। ऊष्मा एवं दाब के प्रभाव से आग्नेय एवं अवसादी शैलें कायांतरित शैलों में बदल सकती हैं। शैलों के पिघलने से मैग्मा बनता है जो पुनः आग्नेय शैलों का निर्माण करता है। यह चक्र आंतरिक प्रक्रियाओं जैसे ज्वालामुखीयता एवं विवर्तनिकी तथा बाह्य प्रक्रियाओं जैसे अपक्षय एवं निक्षेपण दोनों द्वारा संचालित होता है।",
+
+        "elimination_logic_english": "This question tests whether the aspirant understands the rock cycle as an interconnected system rather than isolated rock categories. Statement 1 defines the cycle, Statement 2 checks transformation pathways and Statement 3 introduces the role of both endogenic and exogenic forces. UPSC frequently tests conceptual integration by combining geomorphic and geological processes together. Since all statements are scientifically correct and mutually reinforcing, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న రాక్ చక్రాన్ని విడివిడిగా ఉన్న రాళ్ల వర్గాలుగా కాకుండా పరస్పర సంబంధిత వ్యవస్థగా అర్థం చేసుకున్నారా అని పరీక్షిస్తుంది. 1వ ప్రకటన నిర్వచనాన్ని, 2వ ప్రకటన మార్పు మార్గాలను, 3వ ప్రకటన అంతర్గత మరియు బాహ్య శక్తుల పాత్రను వివరిస్తుంది. UPSC తరచుగా భౌగోళిక మరియు భూరూప ప్రక్రియలను కలిపి భావనాత్మక ప్రశ్నలు అడుగుతుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न जाँचता है कि अभ्यर्थी शैल चक्र को केवल अलग-अलग शैल वर्गों के रूप में नहीं बल्कि एक परस्पर जुड़ी प्रणाली के रूप में समझता है या नहीं। कथन 1 चक्र को परिभाषित करता है, कथन 2 परिवर्तन मार्ग को दर्शाता है तथा कथन 3 अंतर्जात एवं बहिर्जात शक्तियों की भूमिका को स्पष्ट करता है। UPSC अक्सर भूआकृतिक एवं भूवैज्ञानिक प्रक्रियाओं को जोड़कर अवधारणात्मक प्रश्न पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains the formation of sedimentary rocks?",
+
+        "question_telugu": "అవక్షేప రాళ్ల నిర్మాణాన్ని ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "अवसादी शैलों के निर्माण को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Formation through cooling and solidification of magma",
+          "b": "Formation through accumulation, compaction and cementation of sediments",
+          "c": "Formation through intense heat and pressure deep inside the Earth",
+          "d": "Formation only through volcanic eruptions"
+        },
+
+        "options_telugu": {
+          "a": "మాగ్మా చల్లబడి ఘనీకరించడం ద్వారా ఏర్పడటం",
+          "b": "అవక్షేపాల సమీకరణ, సంకోచం మరియు సిమెంటేషన్ ద్వారా ఏర్పడటం",
+          "c": "భూమి అంతర్భాగంలో తీవ్రమైన ఉష్ణోగ్రత మరియు పీడనంతో ఏర్పడటం",
+          "d": "కేవలం అగ్నిపర్వత విస్ఫోటనాల వల్ల మాత్రమే ఏర్పడటం"
+        },
+
+        "options_hindi": {
+          "a": "मैग्मा के ठंडा होकर ठोस बनने से निर्माण",
+          "b": "अवसादों के संचय, संघनन एवं सीमेंटेशन से निर्माण",
+          "c": "पृथ्वी के भीतर अत्यधिक ऊष्मा एवं दाब से निर्माण",
+          "d": "केवल ज्वालामुखीय विस्फोटों से निर्माण"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Sedimentary rocks are formed from sediments produced by weathering and erosion of pre-existing rocks. These sediments are transported by agents such as rivers, wind, glaciers and waves before being deposited in layers. Over long periods, the sediments undergo compaction and cementation, converting loose materials into solid rock. Sandstone, shale and limestone are common examples. Unlike igneous rocks, sedimentary rocks are not formed from magma, and unlike metamorphic rocks, they are not produced mainly by heat and pressure.",
+
+        "explanation_telugu": "అవక్షేప రాళ్లు పూర్వ రాళ్ల అపక్షయం మరియు అపరదనం వల్ల ఏర్పడిన అవక్షేపాల నుండి తయారవుతాయి. ఈ అవక్షేపాలు నదులు, గాలి, హిమనదులు మరియు అలల ద్వారా తరలించబడి పొరలుగా నిక్షేపించబడతాయి. కాలక్రమేణా అవి సంకోచం మరియు సిమెంటేషన్ ద్వారా ఘన రాళ్లుగా మారుతాయి. ఇసుకరాయి, షేల్ మరియు సున్నపురాయి ఇందుకు ఉదాహరణలు.",
+
+        "explanation_hindi": "अवसादी शैलें पूर्ववर्ती शैलों के अपक्षय एवं अपरदन से बने अवसादों से निर्मित होती हैं। ये अवसाद नदियों, पवन, हिमनदों एवं तरंगों द्वारा परिवहित होकर परतों में निक्षेपित होते हैं। समय के साथ संघनन एवं सीमेंटेशन की प्रक्रिया द्वारा ये ठोस शैलों में बदल जाते हैं। बलुआ पत्थर, शेल एवं चूना पत्थर इसके प्रमुख उदाहरण हैं।",
+
+        "elimination_logic_english": "Option (a) describes igneous rock formation, while option (c) refers to metamorphic processes. Option (d) incorrectly generalizes volcanic activity as the source of all rocks. The keywords ‘compaction’ and ‘cementation’ are classic indicators of sedimentary rock formation. UPSC frequently tests whether aspirants can distinguish rock types on the basis of formation mechanism rather than examples alone. Hence option (b) is correct.",
+
+        "elimination_logic_telugu": "(a) అగ్నిజ రాళ్ల నిర్మాణాన్ని సూచిస్తుంది, (c) రూపాంతర ప్రక్రియను సూచిస్తుంది. (d) అన్ని రాళ్లను అగ్నిపర్వతాలతో అనుసంధానం చేసే తప్పు సాధారణీకరణ. ‘సంకోచం’ మరియు ‘సిమెంటేషన్’ అనే పదాలు అవక్షేప రాళ్ల నిర్మాణానికి ప్రధాన సూచనలు. UPSC తరచుగా నిర్మాణ విధానం ఆధారంగా రాళ్ల రకాల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) आग्नेय शैलों के निर्माण को दर्शाता है जबकि (c) कायांतरण प्रक्रिया को। (d) सभी शैलों को ज्वालामुखीय गतिविधि से जोड़ने वाला गलत सामान्यीकरण है। ‘संघनन’ एवं ‘सीमेंटेशन’ अवसादी शैल निर्माण के प्रमुख संकेतक हैं। UPSC अक्सर निर्माण प्रक्रिया के आधार पर शैलों के प्रकारों में अंतर पूछता है। अतः विकल्प (b) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding igneous rocks:\n\n1. Igneous rocks are formed by the cooling and solidification of magma or lava.\n2. They are often referred to as primary rocks.\n3. Granite and basalt are examples of igneous rocks.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అగ్నిజ రాళ్లకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అగ్నిజ రాళ్లు మాగ్మా లేదా లావా చల్లబడి ఘనీకరించడం వల్ల ఏర్పడతాయి.\n2. వీటిని తరచుగా ప్రాథమిక రాళ్లు అని పిలుస్తారు.\n3. గ్రానైట్ మరియు బసాల్ట్ అగ్నిజ రాళ్లకు ఉదాహరణలు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "आग्नेय शैलों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. आग्नेय शैलें मैग्मा या लावा के ठंडा होकर ठोस बनने से बनती हैं।\n2. इन्हें प्रायः प्राथमिक शैलें कहा जाता है।\n3. ग्रेनाइट एवं बेसाल्ट आग्नेय शैलों के उदाहरण हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Igneous rocks are formed when molten material in the form of magma or lava cools and solidifies. When cooling occurs beneath the Earth’s surface, intrusive igneous rocks such as granite are formed, whereas cooling on the surface produces extrusive rocks such as basalt. Igneous rocks are known as primary rocks because they are the first rocks to form from molten material and often serve as the parent rocks for sedimentary and metamorphic rocks in the rock cycle. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "మాగ్మా లేదా లావా చల్లబడి ఘనీకరించబడినప్పుడు అగ్నిజ రాళ్లు ఏర్పడతాయి. భూమి అంతర్భాగంలో చల్లబడితే గ్రానైట్ వంటి అంతఃస్థ అగ్నిజ రాళ్లు ఏర్పడతాయి; ఉపరితలంపై చల్లబడితే బసాల్ట్ వంటి బాహ్య అగ్నిజ రాళ్లు ఏర్పడతాయి. ఇవే మొదట ఏర్పడే రాళ్లు కావడంతో ప్రాథమిక రాళ్లు అని కూడా పిలుస్తారు.",
+
+        "explanation_hindi": "आग्नेय शैलें तब बनती हैं जब मैग्मा या लावा ठंडा होकर ठोस हो जाता है। पृथ्वी के भीतर ठंडा होने पर ग्रेनाइट जैसी अंतःस्फोटक शैलें बनती हैं, जबकि सतह पर ठंडा होने से बेसाल्ट जैसी बहिर्स्फोटक शैलें बनती हैं। इन्हें प्राथमिक शैलें कहा जाता है क्योंकि ये सबसे पहले मैग्मा से निर्मित होती हैं।",
+
+        "elimination_logic_english": "This question combines formation process, classification and examples. Statement 1 checks the basic mechanism of igneous rock formation. Statement 2 tests conceptual understanding of why they are called primary rocks. Statement 3 verifies factual knowledge of standard examples. UPSC often frames such questions by mixing intrusive and extrusive examples with incorrect sedimentary or metamorphic examples. Since all statements are correct, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న నిర్మాణ విధానం, వర్గీకరణ మరియు ఉదాహరణలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన అగ్నిజ రాళ్ల నిర్మాణాన్ని, 2వ ప్రకటన వాటిని ప్రాథమిక రాళ్లు ఎందుకు అంటారో, 3వ ప్రకటన ఉదాహరణలను పరీక్షిస్తుంది. UPSC తరచుగా అంతఃస్థ మరియు బాహ్య అగ్నిజ రాళ్లను ఇతర రాళ్లతో కలిపి ట్రాప్ సృష్టిస్తుంది. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "elimination_logic_hindi": "यह प्रश्न निर्माण प्रक्रिया, वर्गीकरण एवं उदाहरण तीनों को जोड़ता है। कथन 1 आग्नेय शैल निर्माण की मूल प्रक्रिया को दर्शाता है। कथन 2 यह स्पष्ट करता है कि इन्हें प्राथमिक शैलें क्यों कहा जाता है। कथन 3 मानक उदाहरणों का परीक्षण करता है। UPSC अक्सर अंतःस्फोटक एवं बहिर्स्फोटक शैलों को अन्य शैल प्रकारों के साथ मिलाकर भ्रम उत्पन्न करता है। अतः विकल्प (d) सही है।"
+      }
+    ]
+  }
