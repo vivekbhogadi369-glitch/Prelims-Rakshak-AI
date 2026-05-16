@@ -1,1 +1,442 @@
-{}
+{
+  "subject_english": "World Geography",
+  "subject_telugu": "ప్రపంచ భూగోళ శాస్త్రం",
+  "subject_hindi": "विश्व भूगोल",
+
+  "Origin of Earth and Universe": {
+    "topic_english": "Origin of Earth and Universe",
+    "topic_telugu": "భూమి మరియు విశ్వం ఆవిర్భావం",
+    "topic_hindi": "पृथ्वी और ब्रह्मांड की उत्पत्ति",
+
+    "questions": [
+
+      {
+        "question_english": "With reference to theories regarding the origin and evolution of the universe, consider the following statements:\n\n1. The Big Bang Theory postulates that the universe originated from an extremely dense and hot singular state.\n2. Edwin Hubble’s observations regarding red shift in galaxies provided evidence for the expanding universe.\n3. The Steady State Theory accepts continuous creation of matter to maintain constant density in the universe.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "విశ్వ ఆవిర్భావం మరియు పరిణామానికి సంబంధించిన సిద్ధాంతాల సందర్భంలో క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. బిగ్ బ్యాంగ్ సిద్ధాంతం ప్రకారం విశ్వం అత్యంత సాంద్రత మరియు ఉష్ణోగ్రత గల స్థితి నుండి ఏర్పడింది.\n2. గ్యాలక్సీలలో రెడ్ షిఫ్ట్‌పై ఎడ్విన్ హబ్బుల్ చేసిన పరిశీలనలు విశ్వ విస్తరణకు ఆధారాలు అందించాయి.\n3. స్టెడీ స్టేట్ సిద్ధాంతం ప్రకారం విశ్వ సాంద్రత స్థిరంగా ఉండేందుకు పదార్థం నిరంతరం సృష్టించబడుతుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "ब्रह्मांड की उत्पत्ति और विकास संबंधी सिद्धांतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. बिग बैंग सिद्धांत के अनुसार ब्रह्मांड अत्यंत सघन और उष्ण अवस्था से उत्पन्न हुआ।\n2. आकाशगंगाओं में रेड शिफ्ट संबंधी एडविन हबल के अवलोकनों ने ब्रह्मांड के विस्तार का प्रमाण दिया।\n3. स्थिर अवस्था सिद्धांत के अनुसार ब्रह्मांड का घनत्व स्थिर बनाए रखने हेतु पदार्थ का निरंतर निर्माण होता है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "The Big Bang Theory is presently the most accepted explanation for the origin of the universe. Edwin Hubble’s observations of red shift established that galaxies are moving away from each other, supporting universal expansion. The Steady State Theory accepted expansion but argued that matter is continuously created to maintain constant density. Though later rejected after the discovery of cosmic microwave background radiation, it remains an important cosmological theory.",
+
+        "explanation_telugu": "బిగ్ బ్యాంగ్ సిద్ధాంతం ప్రస్తుతం విశ్వ ఆవిర్భావానికి అత్యంత ఆమోదిత వివరణగా భావించబడుతుంది. ఎడ్విన్ హబ్బుల్ రెడ్ షిఫ్ట్ పరిశీలనల ద్వారా గ్యాలక్సీలు ఒకదానినొకటి దూరమవుతున్నాయని నిరూపించాడు. స్టెడీ స్టేట్ సిద్ధాంతం విశ్వ విస్తరణను అంగీకరించినప్పటికీ, సాంద్రత స్థిరంగా ఉండేందుకు పదార్థం నిరంతరం సృష్టించబడుతుందని ప్రతిపాదించింది.",
+
+        "explanation_hindi": "बिग बैंग सिद्धांत वर्तमान में ब्रह्मांड की उत्पत्ति की सर्वाधिक स्वीकृत व्याख्या है। एडविन हबल के रेड शिफ्ट अवलोकनों ने सिद्ध किया कि आकाशगंगाएँ एक-दूसरे से दूर जा रही हैं। स्थिर अवस्था सिद्धांत ने विस्तार को स्वीकार किया, किन्तु घनत्व स्थिर रखने हेतु पदार्थ के निरंतर निर्माण की बात की।",
+
+        "elimination_logic_english": "The trap lies in Statement 3. Many aspirants wrongly assume that the Steady State Theory believed in a non-expanding universe. In reality, it accepted expansion but proposed continuous creation of matter. Statements 1 and 2 are direct factual concepts from cosmology and Hubble’s law. Therefore, eliminating options excluding Statement 3 helps reach option (d).",
+
+        "elimination_logic_telugu": "ట్రాప్ 3వ ప్రకటనలో ఉంది. చాలామంది అభ్యర్థులు స్టెడీ స్టేట్ సిద్ధాంతం విస్తరణ లేని విశ్వాన్ని ప్రతిపాదించిందని భావిస్తారు. కానీ అది విశ్వ విస్తరణను అంగీకరించింది. 1 మరియు 2 ప్రామాణిక ఖగోళ శాస్త్ర భావనలు. కాబట్టి 3వ ప్రకటనను తొలగించే ఎంపికలను తొలగిస్తే (d) సరైన సమాధానం వస్తుంది.",
+
+        "elimination_logic_hindi": "जाल कथन 3 में है। अनेक अभ्यर्थी मान लेते हैं कि स्थिर अवस्था सिद्धांत विस्तार को स्वीकार नहीं करता था। वास्तव में यह विस्तार को स्वीकार करता था। कथन 1 और 2 मानक ब्रह्मांडीय अवधारणाएँ हैं। अतः कथन 3 को हटाने वाले विकल्प समाप्त हो जाते हैं और सही उत्तर (d) प्राप्त होता है।"
+      },
+
+      {
+        "question_english": "Which of the following best explains the Nebular Hypothesis regarding the origin of the solar system?",
+
+        "question_telugu": "సౌర కుటుంబ ఆవిర్భావానికి సంబంధించిన నెబ్యులర్ సిద్ధాంతాన్ని క్రింది వాటిలో ఏది ఉత్తమంగా వివరిస్తుంది?",
+
+        "question_hindi": "सौरमंडल की उत्पत्ति संबंधी नीहारिका परिकल्पना का सर्वोत्तम वर्णन निम्नलिखित में से कौन-सा है?",
+
+        "options_english": {
+          "a": "The planets originated from fragments broken away from the Sun due to tidal forces",
+          "b": "The solar system evolved from a rotating cloud of gas and dust",
+          "c": "The planets were captured by the Sun from interstellar space",
+          "d": "The solar system formed after collision between two mature stars"
+        },
+
+        "options_telugu": {
+          "a": "టైడల్ బలాల వల్ల సూర్యుని నుండి విడిపోయిన భాగాల నుండి గ్రహాలు ఏర్పడ్డాయి",
+          "b": "సౌర కుటుంబం తిరుగుతున్న వాయు మరియు ధూళి మేఘం నుండి ఏర్పడింది",
+          "c": "సూర్యుడు అంతరిక్షం నుండి గ్రహాలను ఆకర్షించాడు",
+          "d": "రెండు పరిపక్వ నక్షత్రాల ఢీకొనడం తరువాత సౌర కుటుంబం ఏర్పడింది"
+        },
+
+        "options_hindi": {
+          "a": "ज्वारीय बलों के कारण सूर्य से टूटे टुकड़ों से ग्रह बने",
+          "b": "सौरमंडल गैस और धूल के घूर्णनशील बादल से विकसित हुआ",
+          "c": "सूर्य ने ग्रहों को अंतरतारकीय अंतरिक्ष से आकर्षित किया",
+          "d": "दो विकसित तारों की टक्कर के बाद सौरमंडल बना"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The Nebular Hypothesis proposed mainly by Kant and Laplace explains that the solar system originated from a rotating nebula consisting of gas and dust. Gradual cooling and condensation led to the formation of the Sun at the center and planets around it. This theory forms the conceptual basis for understanding solar system evolution.",
+
+        "explanation_telugu": "కాంట్ మరియు లాప్లాస్ ప్రతిపాదించిన నెబ్యులర్ సిద్ధాంతం ప్రకారం సౌర కుటుంబం వాయువు మరియు ధూళితో కూడిన తిరుగుతున్న నెబ్యులా నుండి ఏర్పడింది. చల్లబడటం మరియు ఘనీకరణ వల్ల మధ్యలో సూర్యుడు, చుట్టూ గ్రహాలు ఏర్పడ్డాయి.",
+
+        "explanation_hindi": "कांत और लाप्लास द्वारा प्रतिपादित नीहारिका परिकल्पना के अनुसार सौरमंडल गैस और धूल से बने घूर्णनशील नीहारिका से विकसित हुआ। शीतलन और संघनन से केंद्र में सूर्य तथा उसके चारों ओर ग्रह बने।",
+
+        "elimination_logic_english": "Options (a), (c) and (d) are associated with alternative hypotheses such as tidal and collision theories. UPSC often tests conceptual distinction between these theories. Nebular Hypothesis specifically refers to formation from a rotating gaseous nebula, making option (b) correct.",
+
+        "elimination_logic_telugu": "ఎంపికలు (a), (c), (d) ఇతర టైడల్ మరియు ఢీకొనడం సిద్ధాంతాలకు సంబంధించినవి. UPSC తరచుగా ఈ సిద్ధాంతాల మధ్య భావనాత్మక తేడాలను పరీక్షిస్తుంది. నెబ్యులర్ సిద్ధాంతం మాత్రం తిరుగుతున్న వాయు నెబ్యులా నుండి ఆవిర్భావాన్ని వివరిస్తుంది.",
+
+        "elimination_logic_hindi": "विकल्प (a), (c) और (d) अन्य ज्वारीय एवं टक्कर सिद्धांतों से संबंधित हैं। UPSC अक्सर इन सिद्धांतों के बीच वैचारिक अंतर पूछता है। नीहारिका परिकल्पना विशेष रूप से घूर्णनशील गैसीय नीहारिका से निर्माण की बात करती है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding estimation of the age of the Earth:\n\n1. Radioactive dating methods are widely used to estimate the age of rocks.\n2. The Earth is estimated to be nearly 4.6 billion years old.\n3. Carbon dating is considered the most reliable method for estimating the age of the Earth.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భూమి వయస్సు అంచనాకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. రేడియోధార్మిక తేదీకరణ పద్ధతులను రాళ్ల వయస్సు అంచనా కోసం విస్తృతంగా ఉపయోగిస్తారు.\n2. భూమి వయస్సు సుమారు 4.6 బిలియన్ సంవత్సరాలుగా అంచనా వేయబడింది.\n3. కార్బన్ తేదీకరణను భూమి వయస్సు అంచనాకు అత్యంత విశ్వసనీయ పద్ధతిగా భావిస్తారు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "पृथ्वी की आयु के अनुमान के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. शैलों की आयु ज्ञात करने हेतु रेडियोधर्मी डेटिंग का व्यापक उपयोग किया जाता है।\n2. पृथ्वी की आयु लगभग 4.6 अरब वर्ष मानी जाती है।\n3. पृथ्वी की आयु ज्ञात करने हेतु कार्बन डेटिंग को सर्वाधिक विश्वसनीय विधि माना जाता है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Scientists estimate the age of the Earth primarily through radioactive dating techniques such as uranium-lead dating of rocks and meteorites. The accepted scientific estimate is around 4.6 billion years. Carbon dating is unsuitable for determining Earth’s age because it is effective only for relatively recent organic remains and has a limited dating range.",
+
+        "explanation_telugu": "శాస్త్రవేత్తలు యురేనియం-సీసం తేదీకరణ వంటి రేడియోధార్మిక పద్ధతుల ద్వారా భూమి వయస్సును అంచనా వేస్తారు. భూమి వయస్సు సుమారు 4.6 బిలియన్ సంవత్సరాలుగా భావించబడుతుంది. కార్బన్ తేదీకరణను భూమి మొత్తం వయస్సు అంచనాకు ఉపయోగించలేము, ఎందుకంటే అది ఇటీవల జీవ పదార్థాలకే పరిమితం.",
+
+        "explanation_hindi": "वैज्ञानिक पृथ्वी की आयु का अनुमान मुख्यतः यूरेनियम-लेड डेटिंग जैसी रेडियोधर्मी विधियों से लगाते हैं। पृथ्वी की आयु लगभग 4.6 अरब वर्ष मानी जाती है। कार्बन डेटिंग पृथ्वी की आयु ज्ञात करने के लिए उपयुक्त नहीं है क्योंकि यह केवल हाल के जैविक अवशेषों तक सीमित है।",
+
+        "elimination_logic_english": "Statement 3 is the core trap. Many aspirants mechanically associate carbon dating with all forms of age determination. However, carbon dating is useful only for relatively recent organic materials and cannot determine the age of ancient rocks or Earth itself. Statements 1 and 2 are established geological facts. Hence option (a) is correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ట్రాప్. చాలామంది అభ్యర్థులు కార్బన్ తేదీకరణను అన్ని రకాల వయస్సు అంచనాలకు వర్తిస్తుందని భావిస్తారు. కానీ అది ఇటీవల జీవ పదార్థాలకు మాత్రమే ఉపయోగపడుతుంది. పురాతన రాళ్లు లేదా భూమి వయస్సు అంచనాకు కాదు. 1 మరియు 2 భూగర్భ శాస్త్రంలోని స్థిరమైన నిజాలు.",
+
+        "elimination_logic_hindi": "कथन 3 मुख्य जाल है। अनेक अभ्यर्थी कार्बन डेटिंग को सभी प्रकार की आयु निर्धारण विधियों से जोड़ देते हैं। वास्तव में यह केवल हाल के जैविक अवशेषों के लिए उपयोगी है। प्राचीन शैलों या पृथ्वी की आयु ज्ञात करने हेतु इसका उपयोग नहीं किया जाता। कथन 1 और 2 स्थापित भूवैज्ञानिक तथ्य हैं।"
+      },
+      {
+        "question_english": "With reference to the evolution of the Earth, consider the following statements:\n\n1. Initially, the Earth was in a molten state due to intense heat generated during accretion.\n2. Differentiation led to the concentration of heavier materials towards the Earth’s core.\n3. The primitive atmosphere of the Earth mainly consisted of free oxygen and nitrogen.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భూమి పరిణామానికి సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్రారంభంలో ఆకర్షణ ప్రక్రియ వల్ల ఉత్పన్నమైన తీవ్ర ఉష్ణం కారణంగా భూమి ద్రవీభవించిన స్థితిలో ఉండేది.\n2. డిఫరెన్షియేషన్ ప్రక్రియ వల్ల భారమైన పదార్థాలు భూమి గర్భకేంద్రం వైపు కేంద్రీకృతమయ్యాయి.\n3. భూమి యొక్క ప్రాథమిక వాతావరణం ప్రధానంగా స్వేచ్ఛా ఆక్సిజన్ మరియు నైట్రోజన్‌తో కూడి ఉండేది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "पृथ्वी के विकास के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्रारंभ में अभिवृद्धि के दौरान उत्पन्न अत्यधिक ऊष्मा के कारण पृथ्वी द्रवित अवस्था में थी।\n2. विभेदन प्रक्रिया के कारण भारी पदार्थ पृथ्वी के केंद्र की ओर चले गए।\n3. पृथ्वी का आदिम वायुमंडल मुख्यतः मुक्त ऑक्सीजन और नाइट्रोजन से बना था।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "During the early stages of formation, the Earth remained extremely hot because of gravitational compression, radioactive decay and frequent collisions. This resulted in a molten state. Differentiation caused denser materials such as iron and nickel to move towards the core, while lighter silicates moved upward. The primitive atmosphere lacked free oxygen and mainly contained gases like hydrogen, helium, methane and ammonia.",
+
+        "explanation_telugu": "ప్రారంభ దశల్లో గురుత్వాకర్షణ ఒత్తిడి, రేడియోధార్మిక క్షయం మరియు ఢీకొనుళ్ల కారణంగా భూమి అత్యంత వేడిగా ఉండేది. అందువల్ల అది ద్రవీభవించిన స్థితిలో ఉండేది. డిఫరెన్షియేషన్ వల్ల ఇనుము, నికెల్ వంటి భారమైన పదార్థాలు గర్భకేంద్రం వైపు కదిలాయి. ప్రాథమిక వాతావరణంలో స్వేచ్ఛా ఆక్సిజన్ లేదు.",
+
+        "explanation_hindi": "प्रारंभिक अवस्था में गुरुत्वीय संपीड़न, रेडियोधर्मी क्षय तथा बार-बार की टक्करों के कारण पृथ्वी अत्यधिक गर्म थी और द्रवित अवस्था में थी। विभेदन के कारण लोहा एवं निकेल जैसे भारी पदार्थ केंद्र की ओर चले गए। आदिम वायुमंडल में मुक्त ऑक्सीजन नहीं थी।",
+
+        "elimination_logic_english": "Statement 3 is the trap because many aspirants project the present atmospheric composition into primitive Earth conditions. Free oxygen emerged much later due to photosynthetic activity. Statements 1 and 2 are standard geological processes associated with planetary evolution. Hence option (a) is correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటన ట్రాప్. చాలామంది అభ్యర్థులు ప్రస్తుత వాతావరణాన్ని ప్రాథమిక భూమి పరిస్థితులతో గందరగోళం పడతారు. స్వేచ్ఛా ఆక్సిజన్ చాలా తరువాత జీవక్రియల ద్వారా ఏర్పడింది. 1 మరియు 2 గ్రహ పరిణామంలోని ప్రామాణిక భూగర్భ ప్రక్రియలు.",
+
+        "elimination_logic_hindi": "कथन 3 जाल है क्योंकि अनेक अभ्यर्थी वर्तमान वायुमंडलीय संरचना को आदिम पृथ्वी पर भी लागू मान लेते हैं। मुक्त ऑक्सीजन बहुत बाद में प्रकाश संश्लेषण के कारण उत्पन्न हुई। कथन 1 और 2 ग्रहों के विकास से जुड़े मानक भूवैज्ञानिक तथ्य हैं।"
+      },
+
+      {
+        "question_english": "Which one of the following statements regarding the Big Bang Theory is correct?",
+
+        "question_telugu": "బిగ్ బ్యాంగ్ సిద్ధాంతానికి సంబంధించిన క్రింది ప్రకటనలలో ఏది సరైనది?",
+
+        "question_hindi": "बिग बैंग सिद्धांत के संबंध में निम्नलिखित कथनों में से कौन-सा सही है?",
+
+        "options_english": {
+          "a": "It proposes that the universe has always remained unchanged",
+          "b": "It explains the universe as originating from a highly dense and hot state",
+          "c": "It argues that galaxies are moving towards each other",
+          "d": "It rejects the concept of cosmic expansion"
+        },
+
+        "options_telugu": {
+          "a": "విశ్వం ఎప్పటికీ మార్పులేకుండా ఉందని ఇది చెబుతుంది",
+          "b": "విశ్వం అత్యంత సాంద్రత మరియు ఉష్ణ స్థితి నుండి ఏర్పడిందని ఇది వివరిస్తుంది",
+          "c": "గ్యాలక్సీలు ఒకదానివైపు ఒకటి కదులుతున్నాయని ఇది చెబుతుంది",
+          "d": "విశ్వ విస్తరణ భావనను ఇది తిరస్కరిస్తుంది"
+        },
+
+        "options_hindi": {
+          "a": "यह मानता है कि ब्रह्मांड सदैव अपरिवर्तित रहा है",
+          "b": "यह ब्रह्मांड को अत्यंत सघन एवं उष्ण अवस्था से उत्पन्न मानता है",
+          "c": "यह मानता है कि आकाशगंगाएँ एक-दूसरे की ओर बढ़ रही हैं",
+          "d": "यह ब्रह्मांडीय विस्तार की अवधारणा को अस्वीकार करता है"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The Big Bang Theory explains that the universe originated from an extremely hot and dense state and has been expanding continuously. Observations such as red shift and cosmic microwave background radiation strongly support this theory. It does not advocate a static universe.",
+
+        "explanation_telugu": "బిగ్ బ్యాంగ్ సిద్ధాంతం ప్రకారం విశ్వం అత్యంత సాంద్రత మరియు ఉష్ణ స్థితి నుండి ఏర్పడి నిరంతరం విస్తరిస్తోంది. రెడ్ షిఫ్ట్ మరియు కాస్మిక్ మైక్రోవేవ్ బ్యాక్‌గ్రౌండ్ వికిరణం దీనికి ఆధారాలు.",
+
+        "explanation_hindi": "बिग बैंग सिद्धांत के अनुसार ब्रह्मांड अत्यंत सघन एवं उष्ण अवस्था से उत्पन्न हुआ और तब से निरंतर विस्तार कर रहा है। रेड शिफ्ट एवं कॉस्मिक माइक्रोवेव पृष्ठभूमि विकिरण इसके प्रमुख प्रमाण हैं।",
+
+        "elimination_logic_english": "Options (a) and (d) reflect characteristics associated with static universe concepts and can be eliminated immediately. Option (c) contradicts Hubble’s observations regarding recession of galaxies. Hence option (b) alone correctly reflects the Big Bang Theory.",
+
+        "elimination_logic_telugu": "ఎంపికలు (a), (d) స్థిర విశ్వ భావనలకు సంబంధించినవి కాబట్టి తొలగించవచ్చు. (c) హబ్బుల్ పరిశీలనలకు విరుద్ధం. కాబట్టి (b) మాత్రమే సరైనది.",
+
+        "elimination_logic_hindi": "विकल्प (a) और (d) स्थिर ब्रह्मांड की अवधारणाओं से जुड़े हैं, अतः हटाए जा सकते हैं। (c) हबल के अवलोकनों के विपरीत है। इसलिए केवल (b) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following pairs:\n\nTheory : Scientist\n\n1. Nebular Hypothesis : Kant and Laplace\n2. Big Bang Theory : Georges Lemaitre\n3. Steady State Theory : Fred Hoyle\n\nWhich of the pairs given above are correctly matched?",
+
+        "question_telugu": "క్రింది జంటలను పరిశీలించండి:\n\nసిద్ధాంతం : శాస్త్రవేత్త\n\n1. నెబ్యులర్ సిద్ధాంతం : కాంట్ మరియు లాప్లాస్\n2. బిగ్ బ్యాంగ్ సిద్ధాంతం : జార్జ్ లెమెత్రే\n3. స్టెడీ స్టేట్ సిద్ధాంతం : ఫ్రెడ్ హోయిల్\n\nపై జంటలలో ఏవి సరైనవి?",
+
+        "question_hindi": "निम्नलिखित युग्मों पर विचार कीजिए:\n\nसिद्धांत : वैज्ञानिक\n\n1. नीहारिका परिकल्पना : कांत और लाप्लास\n2. बिग बैंग सिद्धांत : जॉर्ज लेमैत्रे\n3. स्थिर अवस्था सिद्धांत : फ्रेड होयल\n\nउपर्युक्त युग्मों में से कौन-से सही सुमेलित हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "The Nebular Hypothesis was associated with Kant and Laplace. Georges Lemaitre proposed the idea of a primordial atom which later evolved into the modern Big Bang Theory. Fred Hoyle, along with Bondi and Gold, proposed the Steady State Theory. All the pairs are correctly matched.",
+
+        "explanation_telugu": "నెబ్యులర్ సిద్ధాంతం కాంట్ మరియు లాప్లాస్‌తో సంబంధించింది. జార్జ్ లెమెత్రే ప్రాథమిక అణువు భావనను ప్రతిపాదించాడు, అది తరువాత బిగ్ బ్యాంగ్ సిద్ధాంతంగా అభివృద్ధి చెందింది. ఫ్రెడ్ హోయిల్ స్టెడీ స్టేట్ సిద్ధాంతాన్ని ప్రతిపాదించాడు.",
+
+        "explanation_hindi": "नीहारिका परिकल्पना कांत और लाप्लास से संबंधित है। जॉर्ज लेमैत्रे ने आदिम परमाणु की अवधारणा दी जो आगे चलकर बिग बैंग सिद्धांत का आधार बनी। फ्रेड होयल ने स्थिर अवस्था सिद्धांत प्रस्तुत किया।",
+
+        "elimination_logic_english": "UPSC often asks scientist-theory combinations as conceptual factual traps. Kant-Laplace with Nebular Hypothesis is standard geography content. Lemaitre is strongly associated with the early Big Bang concept. Fred Hoyle is directly linked with Steady State Theory. Since all three are correctly matched, option (d) is correct.",
+
+        "elimination_logic_telugu": "UPSC తరచుగా శాస్త్రవేత్త-సిద్ధాంత జంటలను ట్రాప్‌లుగా అడుగుతుంది. కాంట్-లాప్లాస్ నెబ్యులర్ సిద్ధాంతానికి సంబంధించిన ప్రామాణిక జంట. లెమెత్రే బిగ్ బ్యాంగ్ భావనకు సంబంధించాడు. ఫ్రెడ్ హోయిల్ స్టెడీ స్టేట్ సిద్ధాంతానికి సంబంధించాడు. కాబట్టి అన్ని జంటలూ సరైనవి.",
+
+        "elimination_logic_hindi": "UPSC अक्सर वैज्ञानिक-सिद्धांत युग्मों को तथ्यात्मक जाल के रूप में पूछता है। कांत-लाप्लास नीहारिका परिकल्पना से संबंधित हैं। लेमैत्रे बिग बैंग अवधारणा से जुड़े हैं। फ्रेड होयल स्थिर अवस्था सिद्धांत से संबंधित हैं। अतः सभी युग्म सही हैं।"
+      },
+      {
+        "question_english": "Consider the following statements regarding the primitive atmosphere of the Earth:\n\n1. The earliest atmosphere of the Earth was dominated by hydrogen and helium.\n2. Volcanic outgassing contributed significantly to the formation of the secondary atmosphere.\n3. Free oxygen became abundant in the atmosphere immediately after the formation of the Earth.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భూమి యొక్క ప్రాథమిక వాతావరణానికి సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. భూమి యొక్క తొలి వాతావరణం ప్రధానంగా హైడ్రోజన్ మరియు హీలియంతో నిండి ఉండేది.\n2. అగ్నిపర్వత వాయు ఉద్గారాలు ద్వితీయ వాతావరణం ఏర్పడటంలో ముఖ్య పాత్ర పోషించాయి.\n3. భూమి ఏర్పడిన వెంటనే వాతావరణంలో స్వేచ్ఛా ఆక్సిజన్ అధికమైంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "पृथ्वी के आदिम वायुमंडल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पृथ्वी का प्रारंभिक वायुमंडल मुख्यतः हाइड्रोजन और हीलियम से बना था।\n2. ज्वालामुखीय गैसों के उत्सर्जन ने द्वितीयक वायुमंडल के निर्माण में महत्त्वपूर्ण भूमिका निभाई।\n3. पृथ्वी के निर्माण के तुरंत बाद वायुमंडल में मुक्त ऑक्सीजन प्रचुर मात्रा में उपलब्ध थी।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "The earliest atmosphere of the Earth primarily consisted of light gases such as hydrogen and helium, which were later lost due to weak gravitational retention and solar winds. Subsequently, volcanic eruptions released gases like water vapour, carbon dioxide, methane and ammonia, leading to the formation of the secondary atmosphere. Free oxygen was absent in the primitive atmosphere and accumulated much later due to photosynthetic activity by cyanobacteria during the Great Oxidation Event. Thus, Statement 3 is incorrect.",
+
+        "explanation_telugu": "భూమి యొక్క తొలి వాతావరణం ప్రధానంగా హైడ్రోజన్ మరియు హీలియం వంటి తేలికపాటి వాయువులతో ఉండేది. తరువాత సౌర గాలులు మరియు తక్కువ గురుత్వాకర్షణ కారణంగా అవి అంతరిక్షంలోకి వెళ్లిపోయాయి. అనంతరం అగ్నిపర్వత విస్ఫోటనాల ద్వారా నీటి ఆవిరి, కార్బన్ డైఆక్సైడ్, మీథేన్ మరియు అమోనియా వంటి వాయువులు విడుదలై ద్వితీయ వాతావరణం ఏర్పడింది. స్వేచ్ఛా ఆక్సిజన్ చాలా తరువాత జీవసంశ్లేషణ వల్ల ఏర్పడింది.",
+
+        "explanation_hindi": "पृथ्वी का प्रारंभिक वायुमंडल मुख्यतः हाइड्रोजन और हीलियम जैसे हल्के गैसों से बना था। बाद में सौर पवनों एवं कम गुरुत्वीय आकर्षण के कारण ये गैसें अंतरिक्ष में निकल गईं। इसके पश्चात ज्वालामुखीय विस्फोटों से जलवाष्प, कार्बन डाइऑक्साइड, मीथेन एवं अमोनिया जैसी गैसें निकलीं और द्वितीयक वायुमंडल का निर्माण हुआ। मुक्त ऑक्सीजन बहुत बाद में प्रकाश संश्लेषण के कारण उत्पन्न हुई।",
+
+        "elimination_logic_english": "Statement 3 is the key conceptual trap. Aspirants often associate oxygen-rich atmosphere with all stages of Earth’s history because of present-day conditions. However, the primitive atmosphere was reducing in nature and lacked free oxygen. Statements 1 and 2 are well-established geological facts linked with atmospheric evolution. UPSC frequently frames such questions by contrasting primitive and modern atmospheric compositions. Therefore, option (a) is correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ట్రాప్. చాలామంది అభ్యర్థులు ప్రస్తుత ఆక్సిజన్ సమృద్ధ వాతావరణాన్ని భూమి తొలి దశలకు కూడా వర్తింపజేస్తారు. కానీ ప్రాథమిక వాతావరణంలో స్వేచ్ఛా ఆక్సిజన్ లేదు. 1 మరియు 2 వాతావరణ పరిణామానికి సంబంధించిన ప్రామాణిక భూగర్భ శాస్త్ర నిజాలు. UPSC ఇలాంటి భావనాత్మక వ్యత్యాసాలపై ప్రశ్నలు అడుగుతుంది.",
+
+        "elimination_logic_hindi": "कथन 3 मुख्य जाल है। अनेक अभ्यर्थी वर्तमान ऑक्सीजन-समृद्ध वायुमंडल को पृथ्वी की प्रारंभिक अवस्था पर भी लागू मान लेते हैं। वास्तव में आदिम वायुमंडल में मुक्त ऑक्सीजन नहीं थी। कथन 1 और 2 वायुमंडलीय विकास से जुड़े स्थापित भूवैज्ञानिक तथ्य हैं। UPSC अक्सर इसी प्रकार आदिम एवं आधुनिक वायुमंडल के अंतर पर आधारित प्रश्न पूछता है।"
+      },
+
+      {
+        "question_english": "Which one of the following observations provided the strongest evidence in support of the expanding universe?",
+
+        "question_telugu": "విస్తరిస్తున్న విశ్వానికి మద్దతు ఇచ్చే అత్యంత బలమైన ఆధారంగా క్రింది వాటిలో ఏది పరిగణించబడుతుంది?",
+
+        "question_hindi": "विस्तारित होते ब्रह्मांड के समर्थन में निम्नलिखित में से कौन-सा अवलोकन सबसे मजबूत प्रमाण माना जाता है?",
+
+        "options_english": {
+          "a": "Occurrence of solar eclipses",
+          "b": "Presence of asteroid belts",
+          "c": "Red shift observed in distant galaxies",
+          "d": "Rotation of planets around the Sun"
+        },
+
+        "options_telugu": {
+          "a": "సూర్యగ్రహణాల సంభవం",
+          "b": "గ్రహశకల మండలాల ఉనికి",
+          "c": "దూర గ్యాలక్సీలలో గమనించిన రెడ్ షిఫ్ట్",
+          "d": "గ్రహాలు సూర్యుని చుట్టూ భ్రమణం"
+        },
+
+        "options_hindi": {
+          "a": "सूर्य ग्रहण की घटनाएँ",
+          "b": "क्षुद्रग्रह पट्टियों की उपस्थिति",
+          "c": "दूरस्थ आकाशगंगाओं में देखा गया रेड शिफ्ट",
+          "d": "सूर्य के चारों ओर ग्रहों का घूर्णन"
+        },
+
+        "correct_answer": "c",
+
+        "explanation_english": "Edwin Hubble observed that light from distant galaxies showed a shift towards the red end of the spectrum. This indicated that galaxies were moving away from the observer. The farther the galaxy, the greater the red shift observed. This became the foundation of Hubble’s law and provided strong observational evidence that the universe is expanding. The concept became central to the Big Bang Theory and modern cosmology.",
+
+        "explanation_telugu": "ఎడ్విన్ హబ్బుల్ దూర గ్యాలక్సీల నుండి వచ్చే కాంతి స్పెక్ట్రంలో ఎరుపు వైపు మార్పు గమనించాడు. ఇది గ్యాలక్సీలు పరిశీలకుని నుండి దూరమవుతున్నాయని సూచించింది. గ్యాలక్సీ ఎంత దూరంలో ఉంటే రెడ్ షిఫ్ట్ అంత ఎక్కువగా ఉండేది. ఇది హబ్బుల్ చట్టానికి మరియు విశ్వ విస్తరణ భావనకు ప్రధాన ఆధారమైంది.",
+
+        "explanation_hindi": "एडविन हबल ने देखा कि दूरस्थ आकाशगंगाओं से आने वाला प्रकाश स्पेक्ट्रम के लाल छोर की ओर खिसक रहा है। इसका अर्थ था कि आकाशगंगाएँ पर्यवेक्षक से दूर जा रही हैं। जितनी दूर आकाशगंगा होती, उतना अधिक रेड शिफ्ट दिखाई देता। यही हबल के नियम तथा विस्तारित होते ब्रह्मांड की अवधारणा का आधार बना।",
+
+        "elimination_logic_english": "Options (a), (b) and (d) are astronomical phenomena but are unrelated to cosmic expansion. The key phrase here is 'evidence for expanding universe'. Red shift directly measures recession of galaxies and therefore serves as the strongest observational proof. UPSC often tests whether aspirants can distinguish between general astronomical facts and evidence specifically linked with cosmological theories.",
+
+        "elimination_logic_telugu": "ఎంపికలు (a), (b), (d) ఖగోళ సంఘటనలు అయినప్పటికీ విశ్వ విస్తరణకు సంబంధించినవి కావు. 'విస్తరిస్తున్న విశ్వానికి ఆధారం' అనే పదబంధమే కీలకం. రెడ్ షిఫ్ట్ గ్యాలక్సీల దూరమవడాన్ని నేరుగా సూచిస్తుంది. UPSC సాధారణ ఖగోళ విషయాలు మరియు ఖగోళ సిద్ధాంతాలకు సంబంధించిన ఆధారాల మధ్య తేడాను పరీక్షిస్తుంది.",
+
+        "elimination_logic_hindi": "विकल्प (a), (b) और (d) खगोलीय घटनाएँ हैं, किन्तु उनका ब्रह्मांडीय विस्तार से संबंध नहीं है। प्रश्न का मुख्य शब्द है ‘विस्तारित होते ब्रह्मांड का प्रमाण’। रेड शिफ्ट सीधे आकाशगंगाओं के दूर जाने को दर्शाता है। UPSC अक्सर सामान्य खगोलीय तथ्यों और ब्रह्मांडीय सिद्धांतों के प्रमाणों के बीच अंतर पूछता है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding the formation of planets:\n\n1. Planetesimals are considered intermediate bodies in the formation of planets.\n2. Accretion refers to the gradual accumulation of particles leading to planetary formation.\n3. Jovian planets are composed predominantly of lighter gases.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "గ్రహాల ఏర్పాటుకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ప్లానెటెసిమల్స్ గ్రహాల ఏర్పాటులో మధ్యంతర దశలుగా పరిగణించబడతాయి.\n2. ఆకర్షణ ద్వారా కణాలు క్రమంగా చేరడం అక్రీషన్‌గా పిలవబడుతుంది.\n3. జోవియన్ గ్రహాలు ప్రధానంగా తేలికపాటి వాయువులతో నిర్మితమయ్యాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "ग्रहों के निर्माण के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. प्लैनेटेसिमल ग्रह निर्माण की मध्यवर्ती इकाइयाँ मानी जाती हैं।\n2. अभिवृद्धि वह प्रक्रिया है जिसमें कणों का क्रमिक संचय होकर ग्रह बनते हैं।\n3. जोवियन ग्रह मुख्यतः हल्की गैसों से बने होते हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 और 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "According to modern planetary formation theories, dust particles within the solar nebula gradually combined to form larger bodies known as planetesimals. Through continuous accretion and collisions, these bodies eventually evolved into planets. Jovian planets such as Jupiter and Saturn are composed predominantly of hydrogen and helium, unlike terrestrial planets which are rocky in nature. Thus all three statements are correct.",
+
+        "explanation_telugu": "ఆధునిక గ్రహాల ఏర్పాటుసిద్ధాంతాల ప్రకారం సౌర నెబ్యులాలోని ధూళి కణాలు క్రమంగా కలసి ప్లానెటెసిమల్స్‌గా ఏర్పడ్డాయి. తరువాత అక్రీషన్ మరియు ఢీకొనుళ్ల ద్వారా అవి గ్రహాలుగా అభివృద్ధి చెందాయి. జోవియన్ గ్రహాలు ప్రధానంగా హైడ్రోజన్ మరియు హీలియంతో నిర్మితమయ్యాయి.",
+
+        "explanation_hindi": "आधुनिक ग्रह निर्माण सिद्धांतों के अनुसार सौर नीहारिका में उपस्थित धूल कण क्रमशः मिलकर प्लैनेटेसिमल बने। अभिवृद्धि और टक्करों की प्रक्रिया से ये आगे चलकर ग्रहों में परिवर्तित हुए। जोवियन ग्रह मुख्यतः हाइड्रोजन और हीलियम जैसी हल्की गैसों से बने हैं।",
+
+        "elimination_logic_english": "Statements 1 and 2 are standard conceptual terms from planetary evolution and are generally straightforward. The possible trap lies in Statement 3, where aspirants may confuse Jovian planets with terrestrial rocky planets. UPSC frequently tests comparative understanding between terrestrial and gaseous planets. Since Jovian planets are indeed gas giants composed mainly of hydrogen and helium, all statements are correct.",
+
+        "elimination_logic_telugu": "1 మరియు 2 గ్రహ పరిణామంలోని ప్రామాణిక భావనలు. అసలు ట్రాప్ 3వ ప్రకటనలో ఉంటుంది. చాలామంది అభ్యర్థులు జోవియన్ గ్రహాలను భూమి వంటి రాతి గ్రహాలతో గందరగోళం పడతారు. UPSC తరచుగా రాతి గ్రహాలు మరియు వాయు గ్రహాల మధ్య తేడాను పరీక్షిస్తుంది. జోవియన్ గ్రహాలు వాయు మహాగ్రహాలు కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "elimination_logic_hindi": "कथन 1 और 2 ग्रह निर्माण की मानक अवधारणाएँ हैं। वास्तविक जाल कथन 3 में है, जहाँ अभ्यर्थी जोवियन ग्रहों को स्थलीय पथरीले ग्रहों से भ्रमित कर सकते हैं। UPSC अक्सर गैसीय एवं स्थलीय ग्रहों के बीच तुलनात्मक समझ की परीक्षा लेता है। चूँकि जोवियन ग्रह वास्तव में गैसीय दानव ग्रह हैं, अतः सभी कथन सही हैं।"
+      },
+
+      {
+        "question_english": "Which one of the following correctly distinguishes terrestrial planets from Jovian planets?",
+
+        "question_telugu": "క్రింది వాటిలో భూమ్యాకార గ్రహాలు మరియు జోవియన్ గ్రహాల మధ్య సరైన తేడాను ఏది వివరిస్తుంది?",
+
+        "question_hindi": "निम्नलिखित में से कौन-सा स्थलीय ग्रहों और जोवियन ग्रहों के बीच सही अंतर बताता है?",
+
+        "options_english": {
+          "a": "Terrestrial planets are gaseous whereas Jovian planets are rocky",
+          "b": "Terrestrial planets are generally smaller and denser than Jovian planets",
+          "c": "Jovian planets are located only inside the asteroid belt",
+          "d": "Terrestrial planets lack metallic components"
+        },
+
+        "options_telugu": {
+          "a": "భూమ్యాకార గ్రహాలు వాయుగ్రహాలు కాగా జోవియన్ గ్రహాలు రాతి గ్రహాలు",
+          "b": "భూమ్యాకార గ్రహాలు సాధారణంగా జోవియన్ గ్రహాల కంటే చిన్నవి మరియు అధిక సాంద్రత కలిగినవి",
+          "c": "జోవియన్ గ్రహాలు కేవలం గ్రహశకల మండలంలోపల మాత్రమే ఉంటాయి",
+          "d": "భూమ్యాకార గ్రహాలలో లోహ పదార్థాలు ఉండవు"
+        },
+
+        "options_hindi": {
+          "a": "स्थलीय ग्रह गैसीय होते हैं जबकि जोवियन ग्रह पथरीले होते हैं",
+          "b": "स्थलीय ग्रह सामान्यतः जोवियन ग्रहों की तुलना में छोटे एवं अधिक घनत्व वाले होते हैं",
+          "c": "जोवियन ग्रह केवल क्षुद्रग्रह पट्टी के भीतर पाए जाते हैं",
+          "d": "स्थलीय ग्रहों में धात्विक घटक नहीं होते"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Terrestrial planets such as Mercury, Venus, Earth and Mars are relatively small, rocky and denser because of metallic and silicate composition. Jovian planets such as Jupiter and Saturn are much larger and are dominated by gaseous components like hydrogen and helium. Jovian planets are generally located beyond the asteroid belt. Therefore, option (b) correctly distinguishes the two categories.",
+
+        "explanation_telugu": "బుధుడు, శుక్రుడు, భూమి మరియు అంగారకుడు వంటి భూమ్యాకార గ్రహాలు చిన్నవి, రాతి నిర్మాణం కలిగినవి మరియు అధిక సాంద్రత గలవి. గురుడు మరియు శని వంటి జోవియన్ గ్రహాలు చాలా పెద్దవి మరియు ప్రధానంగా వాయువులతో నిర్మితమయ్యాయి. జోవియన్ గ్రహాలు సాధారణంగా గ్రహశకల మండలానికి బయట ఉంటాయి.",
+
+        "explanation_hindi": "बुध, शुक्र, पृथ्वी एवं मंगल जैसे स्थलीय ग्रह अपेक्षाकृत छोटे, पथरीले तथा अधिक घनत्व वाले होते हैं। बृहस्पति एवं शनि जैसे जोवियन ग्रह अत्यधिक बड़े होते हैं और मुख्यतः गैसीय तत्वों से बने होते हैं। जोवियन ग्रह सामान्यतः क्षुद्रग्रह पट्टी के बाहर स्थित हैं।",
+
+        "elimination_logic_english": "Option (a) reverses the actual characteristics of terrestrial and Jovian planets and can be eliminated immediately. Option (c) is factually incorrect because Jovian planets lie beyond the asteroid belt. Option (d) is incorrect because terrestrial planets possess metallic cores. UPSC often frames such comparative conceptual questions where eliminating reversed or exaggerated statements becomes crucial.",
+
+        "elimination_logic_telugu": "ఎంపిక (a) భూమ్యాకార మరియు జోవియన్ గ్రహాల లక్షణాలను తారుమారు చేస్తుంది. (c) కూడా తప్పు, ఎందుకంటే జోవియన్ గ్రహాలు గ్రహశకల మండలానికి బయట ఉంటాయి. (d) తప్పు ఎందుకంటే భూమ్యాకార గ్రహాలలో లోహ గర్భకేంద్రాలు ఉంటాయి. UPSC ఇలాంటి పోలిక ఆధారిత భావనాత్మక ప్రశ్నలను తరచుగా అడుగుతుంది.",
+
+        "elimination_logic_hindi": "विकल्प (a) स्थलीय एवं जोवियन ग्रहों की वास्तविक विशेषताओं को उलट देता है। (c) तथ्यात्मक रूप से गलत है क्योंकि जोवियन ग्रह क्षुद्रग्रह पट्टी के बाहर स्थित हैं। (d) भी गलत है क्योंकि स्थलीय ग्रहों में धात्विक केंद्र पाए जाते हैं। UPSC अक्सर इसी प्रकार के तुलनात्मक वैचारिक प्रश्न पूछता है।"
+      }
+    ]
+  }
+}
