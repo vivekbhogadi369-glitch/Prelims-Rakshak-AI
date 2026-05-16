@@ -1,3 +1,7 @@
+{
+  "subject_english": "World Geography",
+  "subject_telugu": "ప్రపంచ భూగోళ శాస్త్రం",
+  "subject_hindi": "विश्व भूगोल",
 ,
   "Rocks and Rock Cycle": {
     "topic_english": "Rocks and Rock Cycle",
@@ -133,6 +137,306 @@
         "elimination_logic_telugu": "ఈ ప్రశ్న నిర్మాణ విధానం, వర్గీకరణ మరియు ఉదాహరణలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన అగ్నిజ రాళ్ల నిర్మాణాన్ని, 2వ ప్రకటన వాటిని ప్రాథమిక రాళ్లు ఎందుకు అంటారో, 3వ ప్రకటన ఉదాహరణలను పరీక్షిస్తుంది. UPSC తరచుగా అంతఃస్థ మరియు బాహ్య అగ్నిజ రాళ్లను ఇతర రాళ్లతో కలిపి ట్రాప్ సృష్టిస్తుంది. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
 
         "elimination_logic_hindi": "यह प्रश्न निर्माण प्रक्रिया, वर्गीकरण एवं उदाहरण तीनों को जोड़ता है। कथन 1 आग्नेय शैल निर्माण की मूल प्रक्रिया को दर्शाता है। कथन 2 यह स्पष्ट करता है कि इन्हें प्राथमिक शैलें क्यों कहा जाता है। कथन 3 मानक उदाहरणों का परीक्षण करता है। UPSC अक्सर अंतःस्फोटक एवं बहिर्स्फोटक शैलों को अन्य शैल प्रकारों के साथ मिलाकर भ्रम उत्पन्न करता है। अतः विकल्प (d) सही है।"
+      },
+      {
+        "question_english": "Consider the following statements regarding metamorphic rocks:\n\n1. Metamorphic rocks are formed when existing rocks undergo changes due to heat and pressure.\n2. Marble is formed from limestone through metamorphism.\n3. Metamorphic rocks always melt completely before transformation.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "రూపాంతర రాళ్లకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. ఇప్పటికే ఉన్న రాళ్లు ఉష్ణోగ్రత మరియు పీడన ప్రభావంతో మార్పు చెందితే రూపాంతర రాళ్లు ఏర్పడతాయి.\n2. సున్నపురాయి రూపాంతరం చెంది మార్బుల్‌గా మారుతుంది.\n3. రూపాంతర రాళ్లు మార్పు చెందడానికి ముందు ఎల్లప్పుడూ పూర్తిగా కరుగుతాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "कायांतरित शैलों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पूर्ववर्ती शैलों में ऊष्मा एवं दाब के कारण परिवर्तन होने से कायांतरित शैलें बनती हैं।\n2. चूना पत्थर कायांतरण के द्वारा संगमरमर में परिवर्तित होता है।\n3. कायांतरित शैलें परिवर्तन से पहले सदैव पूर्णतः पिघलती हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 and 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Metamorphic rocks are formed when pre-existing rocks are altered physically and chemically under conditions of high temperature and pressure within the Earth’s crust. This transformation occurs in the solid state without complete melting. Limestone transforms into marble, shale into slate and granite into gneiss under metamorphic conditions. The mineral composition and texture of the original rock change significantly during this process. Statement 3 is incorrect because complete melting would produce magma and eventually igneous rocks rather than metamorphic rocks.",
+
+        "explanation_telugu": "భూమి భూపటలంలో అధిక ఉష్ణోగ్రత మరియు పీడన ప్రభావంతో ఇప్పటికే ఉన్న రాళ్లు మార్పు చెందితే రూపాంతర రాళ్లు ఏర్పడతాయి. ఈ ప్రక్రియలో రాళ్లు పూర్తిగా కరగవు. సున్నపురాయి మార్బుల్‌గా, షేల్ స్లేట్‌గా మారుతాయి. రాళ్లు పూర్తిగా కరిగితే మాగ్మా ఏర్పడి తరువాత అగ్నిజ రాళ్లు ఏర్పడతాయి. కాబట్టి 3వ ప్రకటన తప్పు.",
+
+        "explanation_hindi": "कायांतरित शैलें पृथ्वी की भूपर्पटी में उच्च ताप एवं दाब के प्रभाव से पूर्ववर्ती शैलों के परिवर्तन से बनती हैं। यह परिवर्तन ठोस अवस्था में होता है और इसमें पूर्ण पिघलाव नहीं होता। चूना पत्थर संगमरमर में तथा शेल स्लेट में परिवर्तित हो जाता है। यदि शैल पूर्णतः पिघल जाएँ तो मैग्मा बनेगा और आगे चलकर आग्नेय शैलें बनेंगी। अतः कथन 3 गलत है।",
+
+        "elimination_logic_english": "Statement 3 is the conceptual trap because many aspirants confuse metamorphism with melting. Metamorphic rocks form under heat and pressure but remain largely in the solid state. Complete melting belongs to the igneous cycle, not metamorphism. Statements 1 and 2 are standard geological facts. UPSC frequently tests whether aspirants can clearly distinguish metamorphism from magmatic processes. Hence, only Statements 1 and 2 are correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన భావనాత్మక ట్రాప్. చాలామంది రూపాంతర ప్రక్రియను కరుగుదలతో కలిపి చూస్తారు. కానీ రూపాంతర రాళ్లు ఘనస్థితిలోనే ఉష్ణోగ్రత మరియు పీడన ప్రభావంతో మారుతాయి. పూర్తిగా కరిగితే అది అగ్నిజ చక్రంలోకి వెళ్తుంది. 1 మరియు 2 సరైనవి. కాబట్టి (a) సరైనది.",
+
+        "elimination_logic_hindi": "कथन 3 मुख्य वैचारिक जाल है क्योंकि अनेक अभ्यर्थी कायांतरण को पिघलाव से जोड़ देते हैं। कायांतरित शैलें ठोस अवस्था में ऊष्मा एवं दाब से परिवर्तित होती हैं। पूर्ण पिघलाव आग्नेय चक्र का भाग है, कायांतरण का नहीं। कथन 1 एवं 2 सही हैं। अतः विकल्प (a) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following pairs is correctly matched?\n\n1. Granite — Intrusive igneous rock\n2. Basalt — Extrusive igneous rock\n3. Marble — Metamorphic rock\n\nSelect the correct answer using the code given below.",
+
+        "question_telugu": "క్రింది జంటలలో ఏవి సరైనంగా సరిపోల్చబడ్డాయి?\n\n1. గ్రానైట్ — అంతఃస్థ అగ్నిజ రాయి\n2. బసాల్ట్ — బాహ్య అగ్నిజ రాయి\n3. మార్బుల్ — రూపాంతర రాయి\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+        "question_hindi": "निम्नलिखित युग्मों में से कौन-से सही सुमेलित हैं?\n\n1. ग्रेनाइट — अंतःस्फोटक आग्नेय शैल\n2. बेसाल्ट — बहिर्स्फोटक आग्नेय शैल\n3. संगमरमर — कायांतरित शैल\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Granite is an intrusive igneous rock formed when magma cools slowly beneath the Earth’s surface, producing coarse-grained crystals. Basalt is an extrusive igneous rock formed by rapid cooling of lava on the surface, resulting in fine-grained texture. Marble is a metamorphic rock formed when limestone undergoes metamorphism under heat and pressure. These examples are among the most fundamental classifications in geology and are frequently used in geomorphology and physical geography.",
+
+        "explanation_telugu": "గ్రానైట్ భూమి అంతర్భాగంలో మాగ్మా నెమ్మదిగా చల్లబడటం వల్ల ఏర్పడే అంతఃస్థ అగ్నిజ రాయి. బసాల్ట్ ఉపరితలంపై లావా వేగంగా చల్లబడటం వల్ల ఏర్పడే బాహ్య అగ్నిజ రాయి. మార్బుల్ సున్నపురాయి రూపాంతరం చెందడం వల్ల ఏర్పడే రూపాంతర రాయి. కాబట్టి మూడు జంటలూ సరైనవే.",
+
+        "explanation_hindi": "ग्रेनाइट पृथ्वी के भीतर मैग्मा के धीरे-धीरे ठंडा होने से बनने वाली अंतःस्फोटक आग्नेय शैल है। बेसाल्ट सतह पर लावा के शीघ्र ठंडा होने से बनने वाली बहिर्स्फोटक आग्नेय शैल है। संगमरमर चूना पत्थर के कायांतरण से बनने वाली कायांतरित शैल है। अतः तीनों युग्म सही हैं।",
+
+        "elimination_logic_english": "This is a classic UPSC classification question combining rock type and origin. Granite is linked with intrusive cooling, basalt with extrusive lava flows and marble with metamorphism of limestone. UPSC often mixes sedimentary and metamorphic examples to create confusion. Since each pair is correctly matched scientifically, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఇది UPSC తరహా రాళ్ల వర్గీకరణ ప్రశ్న. గ్రానైట్ అంతఃస్థ అగ్నిజ రాయి, బసాల్ట్ బాహ్య అగ్నిజ రాయి, మార్బుల్ రూపాంతర రాయి. UPSC తరచుగా అవక్షేప మరియు రూపాంతర రాళ్ల ఉదాహరణలను కలిపి ట్రాప్ సృష్టిస్తుంది. మూడు జంటలూ సరైనవిగా ఉండటంతో (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह UPSC शैली का शैल वर्गीकरण प्रश्न है। ग्रेनाइट अंतःस्फोटक आग्नेय शैल, बेसाल्ट बहिर्स्फोटक आग्नेय शैल तथा संगमरमर कायांतरित शैल है। UPSC अक्सर अवसादी एवं कायांतरित उदाहरणों को मिलाकर भ्रम उत्पन्न करता है। तीनों युग्म सही हैं, इसलिए विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains why sedimentary rocks often contain fossils?",
+
+        "question_telugu": "అవక్షేప రాళ్లలో శిలాజాలు తరచుగా ఎందుకు కనిపిస్తాయో ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "अवसादी शैलों में जीवाश्म प्रायः क्यों पाए जाते हैं, इसे निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Sedimentary rocks are formed under extremely high temperatures",
+          "b": "Sediments bury and preserve remains of plants and animals over time",
+          "c": "Sedimentary rocks originate directly from molten magma",
+          "d": "Fossils are formed only inside volcanic rocks"
+        },
+
+        "options_telugu": {
+          "a": "అవక్షేప రాళ్లు అత్యధిక ఉష్ణోగ్రతల వద్ద ఏర్పడతాయి",
+          "b": "అవక్షేపాలు కాలక్రమేణా మొక్కలు మరియు జంతువుల అవశేషాలను పూడ్చి సంరక్షిస్తాయి",
+          "c": "అవక్షేప రాళ్లు నేరుగా కరిగిన మాగ్మా నుండి ఏర్పడతాయి",
+          "d": "శిలాజాలు కేవలం అగ్నిజ రాళ్లలో మాత్రమే ఏర్పడతాయి"
+        },
+
+        "options_hindi": {
+          "a": "अवसादी शैलें अत्यधिक तापमान पर बनती हैं",
+          "b": "अवसाद समय के साथ पौधों एवं जीवों के अवशेषों को दबाकर संरक्षित करते हैं",
+          "c": "अवसादी शैलें सीधे पिघले हुए मैग्मा से बनती हैं",
+          "d": "जीवाश्म केवल ज्वालामुखीय शैलों में बनते हैं"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Sedimentary rocks commonly contain fossils because sediments gradually bury remains of plants and animals under relatively low temperature and pressure conditions. Over time, these remains become preserved within sedimentary layers as fossils. In contrast, igneous rocks form from molten magma and metamorphic rocks are subjected to intense heat and pressure, both of which generally destroy organic remains. Therefore, sedimentary rocks provide the most suitable conditions for fossil preservation and are extremely important for reconstructing Earth’s biological history.",
+
+        "explanation_telugu": "అవక్షేప రాళ్లలో శిలాజాలు ఎక్కువగా కనిపిస్తాయి, ఎందుకంటే అవక్షేపాలు మొక్కలు మరియు జంతువుల అవశేషాలను తక్కువ ఉష్ణోగ్రత మరియు పీడన పరిస్థితుల్లో క్రమంగా పూడ్చి సంరక్షిస్తాయి. అగ్నిజ రాళ్లు కరిగిన మాగ్మా నుండి ఏర్పడుతాయి మరియు రూపాంతర రాళ్లు తీవ్రమైన ఉష్ణోగ్రత, పీడనానికి లోనవుతాయి. ఈ పరిస్థితుల్లో జీవ అవశేషాలు సాధారణంగా నశిస్తాయి. అందువల్ల శిలాజ సంరక్షణకు అవక్షేప రాళ్లే అనుకూలం.",
+
+        "explanation_hindi": "अवसादी शैलों में जीवाश्म अधिक पाए जाते हैं क्योंकि अवसाद पौधों एवं जीवों के अवशेषों को अपेक्षाकृत कम ताप एवं दाब की परिस्थितियों में दबाकर संरक्षित कर लेते हैं। आग्नेय शैलें पिघले मैग्मा से बनती हैं तथा कायांतरित शैलें अत्यधिक ताप एवं दाब से गुजरती हैं, जिससे जैविक अवशेष सामान्यतः नष्ट हो जाते हैं। इसलिए जीवाश्म संरक्षण के लिए अवसादी शैलें सबसे उपयुक्त होती हैं।",
+
+        "elimination_logic_english": "Option (a) is incorrect because high temperatures tend to destroy fossils rather than preserve them. Option (c) confuses sedimentary rocks with igneous rocks, while option (d) is scientifically incorrect because volcanic rocks rarely preserve fossils. The key idea is preservation under low-energy depositional conditions. UPSC frequently tests fossil formation through comparative understanding of rock types. Therefore, option (b) is correct.",
+
+        "elimination_logic_telugu": "(a) తప్పు, ఎందుకంటే అధిక ఉష్ణోగ్రతలు శిలాజాలను సంరక్షించకుండా నశింపజేస్తాయి. (c) అవక్షేప రాళ్లను అగ్నిజ రాళ్లతో గందరగోళపరుస్తుంది. (d) కూడా తప్పు, ఎందుకంటే అగ్నిజ రాళ్లలో శిలాజాలు అరుదుగా ఉంటాయి. తక్కువ శక్తి గల నిక్షేప పరిస్థితుల్లో సంరక్షణ జరిగే అంశమే కీలకం. UPSC తరచుగా రాళ్ల రకాల పోలిక ద్వారా శిలాజాల భావనను పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) गलत है क्योंकि अत्यधिक ताप जीवाश्मों को नष्ट कर देता है। (c) अवसादी शैलों को आग्नेय शैलों से भ्रमित करता है। (d) भी गलत है क्योंकि ज्वालामुखीय शैलों में जीवाश्म सामान्यतः संरक्षित नहीं रहते। मुख्य विचार कम ताप एवं निक्षेपणीय परिस्थितियों में संरक्षण का है। UPSC अक्सर शैल प्रकारों की तुलना के माध्यम से जीवाश्म निर्माण को पूछता है। अतः विकल्प (b) सही है।"
+      },
+      {
+        "question_english": "Consider the following statements regarding intrusive and extrusive igneous rocks:\n\n1. Intrusive igneous rocks cool slowly beneath the Earth’s surface.\n2. Extrusive igneous rocks cool rapidly on the Earth’s surface.\n3. Intrusive igneous rocks generally possess coarse-grained texture.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అంతఃస్థ మరియు బాహ్య అగ్నిజ రాళ్లకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అంతఃస్థ అగ్నిజ రాళ్లు భూమి ఉపరితలానికి క్రింద నెమ్మదిగా చల్లబడతాయి.\n2. బాహ్య అగ్నిజ రాళ్లు భూమి ఉపరితలంపై వేగంగా చల్లబడతాయి.\n3. అంతఃస్థ అగ్నిజ రాళ్లలో సాధారణంగా మోటు ధాన్య నిర్మాణం ఉంటుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "अंतःस्फोटक एवं बहिर्स्फोटक आग्नेय शैलों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अंतःस्फोटक आग्नेय शैलें पृथ्वी की सतह के नीचे धीरे-धीरे ठंडी होती हैं।\n2. बहिर्स्फोटक आग्नेय शैलें पृथ्वी की सतह पर शीघ्र ठंडी होती हैं।\n3. अंतःस्फोटक आग्नेय शैलों में सामान्यतः मोटे दानेदार बनावट होती है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Intrusive igneous rocks form when magma cools slowly beneath the Earth’s surface. Slow cooling allows minerals to grow larger, producing coarse-grained textures as seen in granite. Extrusive igneous rocks form when lava cools rapidly on the surface, producing fine-grained textures as seen in basalt. The difference in cooling rate directly affects crystal size and texture. Therefore, all three statements are scientifically correct.",
+
+        "explanation_telugu": "అంతఃస్థ అగ్నిజ రాళ్లు భూమి ఉపరితలానికి క్రింద మాగ్మా నెమ్మదిగా చల్లబడటం వల్ల ఏర్పడతాయి. నెమ్మదిగా చల్లబడటంతో పెద్ద స్ఫటికాలు ఏర్పడి మోటు ధాన్య నిర్మాణం కనిపిస్తుంది. బాహ్య అగ్నిజ రాళ్లు ఉపరితలంపై లావా వేగంగా చల్లబడటం వల్ల ఏర్పడతాయి. ఈ వేగవంతమైన చల్లబడటం వల్ల సూక్ష్మ ధాన్య నిర్మాణం ఏర్పడుతుంది. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "अंतःस्फोटक आग्नेय शैलें पृथ्वी की सतह के नीचे मैग्मा के धीरे-धीरे ठंडा होने से बनती हैं। धीमी शीतन प्रक्रिया के कारण बड़े क्रिस्टल विकसित होते हैं और मोटे दानेदार बनावट बनती है। बहिर्स्फोटक आग्नेय शैलें सतह पर लावा के शीघ्र ठंडा होने से बनती हैं जिससे महीन दानेदार बनावट उत्पन्न होती है। अतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "This question tests understanding of the relationship between cooling rate and texture. Slow cooling leads to larger crystals and coarse texture, while rapid cooling produces fine texture. UPSC often mixes intrusive and extrusive characteristics to create confusion. Since all three statements logically support one another and match geological principles, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న చల్లబడే వేగం మరియు రాళ్ల నిర్మాణం మధ్య సంబంధాన్ని పరీక్షిస్తుంది. నెమ్మదిగా చల్లబడితే పెద్ద స్ఫటికాలు ఏర్పడతాయి; వేగంగా చల్లబడితే సూక్ష్మ నిర్మాణం ఏర్పడుతుంది. UPSC తరచుగా అంతఃస్థ మరియు బాహ్య లక్షణాలను కలిపి ట్రాప్ సృష్టిస్తుంది. మూడు ప్రకటనలూ సరైనవిగా ఉండటంతో (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न शीतन दर एवं बनावट के संबंध को जाँचता है। धीमी शीतन प्रक्रिया बड़े क्रिस्टल एवं मोटी बनावट उत्पन्न करती है जबकि तीव्र शीतन महीन बनावट देता है। UPSC अक्सर अंतःस्फोटक एवं बहिर्स्फोटक विशेषताओं को मिलाकर भ्रम उत्पन्न करता है। तीनों कथन सही हैं, इसलिए विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains the significance of the rock cycle?",
+
+        "question_telugu": "రాక్ చక్రం ప్రాముఖ్యతను ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "शैल चक्र के महत्व को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "It proves that rocks remain permanently unchanged",
+          "b": "It demonstrates continuous recycling and transformation of Earth materials",
+          "c": "It explains only the formation of sedimentary rocks",
+          "d": "It is related only to volcanic activity"
+        },
+
+        "options_telugu": {
+          "a": "రాళ్లు శాశ్వతంగా మార్పులేకుండా ఉంటాయని ఇది నిరూపిస్తుంది",
+          "b": "భూమి పదార్థాల నిరంతర పునర్వినియోగం మరియు మార్పును ఇది వివరిస్తుంది",
+          "c": "ఇది కేవలం అవక్షేప రాళ్ల నిర్మాణాన్ని మాత్రమే వివరిస్తుంది",
+          "d": "ఇది కేవలం అగ్నిపర్వత చర్యలతో మాత్రమే సంబంధం కలిగి ఉంటుంది"
+        },
+
+        "options_hindi": {
+          "a": "यह सिद्ध करता है कि शैलें स्थायी रूप से अपरिवर्तित रहती हैं",
+          "b": "यह पृथ्वी पदार्थों के निरंतर पुनर्चक्रण एवं परिवर्तन को दर्शाता है",
+          "c": "यह केवल अवसादी शैलों के निर्माण को समझाता है",
+          "d": "यह केवल ज्वालामुखीय गतिविधि से संबंधित है"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The rock cycle highlights the dynamic nature of Earth’s crust by showing how rocks are continuously recycled and transformed over geological time. Igneous rocks may weather into sediments, sedimentary rocks may become metamorphic under heat and pressure, and metamorphic rocks may melt to form magma again. This cycle demonstrates the interaction of internal and external Earth processes. The significance of the rock cycle lies in explaining that Earth materials are not static but constantly changing through interconnected geological mechanisms.",
+
+        "explanation_telugu": "రాక్ చక్రం భూమి భూపటలం గతి శీల స్వభావాన్ని చూపిస్తుంది. అగ్నిజ రాళ్లు అవక్షేపాలుగా మారవచ్చు, అవక్షేప రాళ్లు రూపాంతర రాళ్లుగా మారవచ్చు, రూపాంతర రాళ్లు మళ్లీ కరిగి మాగ్మాగా మారవచ్చు. ఈ విధంగా భూమి పదార్థాలు నిరంతరం మారుతూ పునర్వినియోగం అవుతాయని రాక్ చక్రం వివరిస్తుంది. ఇది అంతర్గత మరియు బాహ్య భౌగోళిక ప్రక్రియల పరస్పర సంబంధాన్ని కూడా తెలియజేస్తుంది.",
+
+        "explanation_hindi": "शैल चक्र पृथ्वी की भूपर्पटी की गतिशील प्रकृति को दर्शाता है। आग्नेय शैलें अवसादों में बदल सकती हैं, अवसादी शैलें कायांतरित शैलों में परिवर्तित हो सकती हैं तथा कायांतरित शैलें पुनः पिघलकर मैग्मा बना सकती हैं। इस प्रकार शैल चक्र यह स्पष्ट करता है कि पृथ्वी पदार्थ निरंतर परिवर्तित एवं पुनर्चक्रित होते रहते हैं।",
+
+        "elimination_logic_english": "Option (a) is opposite to the very idea of the rock cycle because the cycle is based on transformation. Option (c) narrows the concept incorrectly to sedimentary rocks alone. Option (d) wrongly restricts the cycle to volcanism. UPSC frequently asks broad conceptual questions to test whether aspirants understand Earth systems as dynamic and interconnected. Therefore, option (b) is the most comprehensive explanation.",
+
+        "elimination_logic_telugu": "(a) పూర్తిగా తప్పు, ఎందుకంటే రాక్ చక్రం మార్పుల గురించే వివరిస్తుంది. (c) భావనను కేవలం అవక్షేప రాళ్లకు మాత్రమే పరిమితం చేస్తుంది. (d) రాక్ చక్రాన్ని కేవలం అగ్నిపర్వత చర్యలకు మాత్రమే పరిమితం చేస్తుంది. UPSC తరచుగా భూమి వ్యవస్థలను గతి శీల మరియు పరస్పర సంబంధితంగా అర్థం చేసుకున్నారా అని పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) पूरी तरह गलत है क्योंकि शैल चक्र परिवर्तन की अवधारणा पर आधारित है। (c) इसे केवल अवसादी शैलों तक सीमित कर देता है। (d) शैल चक्र को केवल ज्वालामुखीय गतिविधि तक सीमित करता है। UPSC अक्सर यह जाँचता है कि अभ्यर्थी पृथ्वी तंत्र को गतिशील एवं परस्पर संबंधित रूप में समझता है या नहीं। अतः विकल्प (b) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding sedimentary rocks:\n\n1. Sedimentary rocks are generally arranged in layers or strata.\n2. They are important sources of fossils.\n3. Coal and petroleum are often associated with sedimentary rock formations.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అవక్షేప రాళ్లకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అవక్షేప రాళ్లు సాధారణంగా పొరల రూపంలో ఉంటాయి.\n2. ఇవి శిలాజాల ముఖ్య వనరులు.\n3. బొగ్గు మరియు పెట్రోలియం తరచుగా అవక్షేప రాళ్ల నిర్మాణాలతో సంబంధం కలిగి ఉంటాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "अवसादी शैलों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अवसादी शैलें सामान्यतः परतों या स्तरों में व्यवस्थित होती हैं।\n2. वे जीवाश्मों के प्रमुख स्रोत हैं।\n3. कोयला एवं पेट्रोलियम प्रायः अवसादी शैल संरचनाओं से संबंधित होते हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Sedimentary rocks are typically deposited in distinct layers known as strata due to successive accumulation of sediments over time. They are extremely important in geology because they preserve fossils that provide evidence of past life and environmental conditions. Major fossil fuels such as coal and petroleum are also closely associated with sedimentary basins, where organic matter accumulated and transformed over geological time. Thus, sedimentary rocks are economically and scientifically significant. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "అవక్షేప రాళ్లు సాధారణంగా వరుస అవక్షేప నిక్షేపణ వల్ల పొరల రూపంలో ఏర్పడతాయి. ఇవి శిలాజాలను సంరక్షించే ప్రధాన రాళ్లు కావడంతో భూవిజ్ఞానంలో ఎంతో ప్రాముఖ్యత కలిగి ఉన్నాయి. బొగ్గు మరియు పెట్రోలియం వంటి జీవాష్మ ఇంధనాలు కూడా అవక్షేప బేసిన్లతో సంబంధం కలిగి ఉంటాయి. అందువల్ల అవక్షేప రాళ్లు శాస్త్రీయ మరియు ఆర్థిక పరంగా ముఖ్యమైనవి. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "अवसादी शैलें क्रमिक अवसाद निक्षेपण के कारण सामान्यतः परतों या स्तरों में पाई जाती हैं। ये जीवाश्म संरक्षण के लिए अत्यंत महत्वपूर्ण हैं क्योंकि इनमें प्राचीन जीवन के प्रमाण सुरक्षित रहते हैं। कोयला एवं पेट्रोलियम जैसे जीवाश्म ईंधन भी अवसादी बेसिनों से संबंधित होते हैं जहाँ जैविक पदार्थ लंबे समय तक संचित होकर परिवर्तित हुए। अतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "This question links structural, biological and economic importance of sedimentary rocks together. Statement 1 refers to stratification, Statement 2 to fossil preservation and Statement 3 to fossil fuel occurrence. UPSC frequently combines geology with economic geography in such questions. Since all three are well-established characteristics of sedimentary formations, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న అవక్షేప రాళ్ల నిర్మాణ, జీవశాస్త్ర మరియు ఆర్థిక ప్రాముఖ్యతలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన పొరల నిర్మాణాన్ని, 2వ ప్రకటన శిలాజ సంరక్షణను, 3వ ప్రకటన జీవాష్మ ఇంధనాలను సూచిస్తుంది. UPSC తరచుగా భూవిజ్ఞానం మరియు ఆర్థిక భూగోళశాస్త్రాన్ని కలిపి ప్రశ్నలు అడుగుతుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न अवसादी शैलों के संरचनात्मक, जैविक एवं आर्थिक महत्व को जोड़ता है। कथन 1 स्तरित संरचना, कथन 2 जीवाश्म संरक्षण तथा कथन 3 जीवाश्म ईंधनों की उपस्थिति को दर्शाता है। UPSC अक्सर भूविज्ञान एवं आर्थिक भूगोल को जोड़कर प्रश्न पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best differentiates metamorphic rocks from igneous rocks?",
+
+        "question_telugu": "రూపాంతర రాళ్లను అగ్నిజ రాళ్లతో పోలిస్తే ఉత్తమంగా వేరు చూపిస్తున్నది ఏది?",
+
+        "question_hindi": "कायांतरित शैलों को आग्नेय शैलों से निम्नलिखित में से कौन-सा कथन सर्वोत्तम रूप से अलग करता है?",
+
+        "options_english": {
+          "a": "Metamorphic rocks are formed from complete melting of rocks",
+          "b": "Metamorphic rocks are formed through alteration of existing rocks under heat and pressure",
+          "c": "Metamorphic rocks are formed only by sediment deposition",
+          "d": "Metamorphic rocks contain no mineral changes"
+        },
+
+        "options_telugu": {
+          "a": "రూపాంతర రాళ్లు రాళ్లు పూర్తిగా కరగడం వల్ల ఏర్పడతాయి",
+          "b": "రూపాంతర రాళ్లు ఇప్పటికే ఉన్న రాళ్లు ఉష్ణోగ్రత మరియు పీడన ప్రభావంతో మార్పు చెందడం వల్ల ఏర్పడతాయి",
+          "c": "రూపాంతర రాళ్లు కేవలం అవక్షేప నిక్షేపణ వల్ల మాత్రమే ఏర్పడతాయి",
+          "d": "రూపాంతర రాళ్లలో ఖనిజ మార్పులు ఉండవు"
+        },
+
+        "options_hindi": {
+          "a": "कायांतरित शैलें शैलों के पूर्ण पिघलाव से बनती हैं",
+          "b": "कायांतरित शैलें पूर्ववर्ती शैलों के ऊष्मा एवं दाब से परिवर्तन द्वारा बनती हैं",
+          "c": "कायांतरित शैलें केवल अवसाद निक्षेपण से बनती हैं",
+          "d": "कायांतरित शैलों में कोई खनिज परिवर्तन नहीं होता"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Metamorphic rocks are produced when pre-existing rocks undergo physical and chemical changes under conditions of high heat and pressure without complete melting. During metamorphism, mineral composition, texture and structure may change significantly. Igneous rocks, in contrast, originate from the cooling and solidification of magma or lava. Thus, the essential difference is that metamorphic rocks form through transformation of existing rocks, whereas igneous rocks form from molten material.",
+
+        "explanation_telugu": "రూపాంతర రాళ్లు ఇప్పటికే ఉన్న రాళ్లు అధిక ఉష్ణోగ్రత మరియు పీడన ప్రభావంతో మార్పు చెందడం వల్ల ఏర్పడతాయి. ఈ ప్రక్రియలో ఖనిజ నిర్మాణం మరియు ఆకృతి మారవచ్చు కానీ రాళ్లు పూర్తిగా కరగవు. అగ్నిజ రాళ్లు మాత్రం మాగ్మా లేదా లావా చల్లబడి ఘనీకరించబడటం వల్ల ఏర్పడతాయి. కాబట్టి రూపాంతర రాళ్ల ప్రధాన లక్షణం ఇప్పటికే ఉన్న రాళ్ల మార్పు ప్రక్రియ.",
+
+        "explanation_hindi": "कायांतरित शैलें पूर्ववर्ती शैलों में उच्च ताप एवं दाब के कारण होने वाले भौतिक एवं रासायनिक परिवर्तनों से बनती हैं। इस प्रक्रिया में शैल पूर्णतः नहीं पिघलती। इसके विपरीत आग्नेय शैलें मैग्मा या लावा के ठंडा होकर ठोस बनने से निर्मित होती हैं। इसलिए दोनों के बीच मूल अंतर निर्माण प्रक्रिया का है।",
+
+        "elimination_logic_english": "Option (a) confuses metamorphism with igneous formation through melting. Option (c) incorrectly links metamorphism with sedimentary deposition. Option (d) is scientifically false because mineralogical change is one of the defining features of metamorphism. UPSC often frames such questions to test process-based differentiation between rock types. Therefore, option (b) correctly captures the essence of metamorphic rock formation.",
+
+        "elimination_logic_telugu": "(a) రూపాంతర ప్రక్రియను అగ్నిజ కరుగుదల ప్రక్రియతో గందరగోళపరుస్తుంది. (c) రూపాంతర రాళ్లను అవక్షేప నిక్షేపణతో అనుసంధానం చేస్తుంది. (d) తప్పు, ఎందుకంటే ఖనిజ మార్పులు రూపాంతర ప్రక్రియలో ముఖ్యమైనవి. UPSC తరచుగా రాళ్ల నిర్మాణ విధానాల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) कायांतरण को आग्नेय पिघलाव प्रक्रिया से भ्रमित करता है। (c) कायांतरित शैलों को अवसादी निक्षेपण से जोड़ता है। (d) गलत है क्योंकि खनिजीय परिवर्तन कायांतरण की प्रमुख विशेषता है। UPSC अक्सर शैल निर्माण प्रक्रियाओं के बीच अंतर पूछता है। अतः विकल्प (b) सही है।"
       }
     ]
   }
+}
