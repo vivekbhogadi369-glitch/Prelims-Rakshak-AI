@@ -40,6 +40,11 @@ MEDIEVAL_MCQS_DATA = load_json_file("static/json/mcqs_medieval_history.json")
 MODERN_MCQS_DATA = load_json_file("static/json/mcqs_modern_history.json")
 POLITY_MCQS_DATA = load_json_file("static/json/mcqs_polity.json")
 
+# ✅ WORLD GEOGRAPHY MCQ PART FILES
+WORLD_GEOGRAPHY_MCQS_PART1 = load_json_file("static/json/mcqs_world_geography_part1.json")
+WORLD_GEOGRAPHY_MCQS_PART2 = load_json_file("static/json/mcqs_world_geography_part2.json")
+WORLD_GEOGRAPHY_MCQS_PART3 = load_json_file("static/json/mcqs_world_geography_part3.json")
+
 
 def get_pyq_subjects():
     return list(PYQS_DATA.keys())
