@@ -1311,7 +1311,7 @@
       }
     ]
   },
-  "El Nino, La Nina and IOD": {
+  "El Nino, La Nina and Indian Ocean Dipole (IOD)": {
     "topic_english": "El Nino, La Nina and Indian Ocean Dipole (IOD)",
     "topic_telugu": "ఎల్ నినో, లా నినా మరియు భారత మహాసముద్ర ద్విధ్రువం (IOD)",
     "topic_hindi": "एल नीनो, ला नीना एवं हिन्द महासागर द्विध्रुव (IOD)",
@@ -4362,3 +4362,4 @@
       }
     ]
   }
+}
