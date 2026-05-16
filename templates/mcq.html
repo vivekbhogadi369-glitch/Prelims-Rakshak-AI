@@ -274,7 +274,8 @@ const translations = {
       "Ancient History": "Ancient History",
       "Medieval History": "Medieval Indian History",
       "Modern History": "Modern Indian History",
-      "Polity": "Polity"
+      "Polity": "Polity",
+      "World Geography": "World Geography"
     }
   },
 
@@ -299,7 +300,8 @@ const translations = {
       "Ancient History": "ప్రాచీన భారత చరిత్ర",
       "Medieval History": "మధ్యయుగ భారత చరిత్ర",
       "Modern History": "ఆధునిక భారత చరిత్ర",
-      "Polity": "భారత రాజ్యాంగం"
+      "Polity": "భారత రాజ్యాంగం",
+      "World Geography": "ప్రపంచ భూగోళ శాస్త్రం"
     }
   },
 
@@ -324,7 +326,8 @@ const translations = {
       "Ancient History": "प्राचीन भारतीय इतिहास",
       "Medieval History": "मध्यकालीन भारतीय इतिहास",
       "Modern History": "आधुनिक भारतीय इतिहास",
-      "Polity": "भारतीय राजव्यवस्था"
+      "Polity": "भारतीय राजव्यवस्था",
+      "World Geography": "विश्व भूगोल"
     }
   }
 };
@@ -478,29 +481,34 @@ function extractTopics(data, subjectKey) {
   return data;
 }
 
+async function loadJSON(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(path + " not found");
+  return await response.json();
+}
+
 async function loadMCQs() {
   try {
-    const ancientResponse = await fetch("/static/json/mcqs_ancient_history.json");
-    if (!ancientResponse.ok) throw new Error("Ancient History JSON not found");
-    const ancientData = await ancientResponse.json();
+    const ancientData = await loadJSON("/static/json/mcqs_ancient_history.json");
+    const medievalData = await loadJSON("/static/json/mcqs_medieval_history.json");
+    const modernData = await loadJSON("/static/json/mcqs_modern_history.json");
+    const polityData = await loadJSON("/static/json/mcqs_polity.json");
 
-    const medievalResponse = await fetch("/static/json/mcqs_medieval_history.json");
-    if (!medievalResponse.ok) throw new Error("Medieval History JSON not found");
-    const medievalData = await medievalResponse.json();
-
-    const modernResponse = await fetch("/static/json/mcqs_modern_history.json");
-    if (!modernResponse.ok) throw new Error("Modern History JSON not found");
-    const modernData = await modernResponse.json();
-
-    const polityResponse = await fetch("/static/json/mcqs_polity.json");
-    if (!polityResponse.ok) throw new Error("Polity JSON not found");
-    const polityData = await polityResponse.json();
+    const worldGeo1 = await loadJSON("/static/json/mcqs_world_geography_part1.json");
+    const worldGeo2 = await loadJSON("/static/json/mcqs_world_geography_part2.json");
+    const worldGeo3 = await loadJSON("/static/json/mcqs_world_geography_part3.json");
 
     mcqData = {
       "Ancient History": extractTopics(ancientData, "Ancient History"),
       "Medieval History": extractTopics(medievalData, "Medieval History"),
       "Modern History": extractTopics(modernData, "Modern History"),
-      "Polity": extractTopics(polityData, "Polity")
+      "Polity": extractTopics(polityData, "Polity"),
+
+      "World Geography": {
+        ...extractTopics(worldGeo1, "World Geography"),
+        ...extractTopics(worldGeo2, "World Geography"),
+        ...extractTopics(worldGeo3, "World Geography")
+      }
     };
 
     applyLanguageLabels();
