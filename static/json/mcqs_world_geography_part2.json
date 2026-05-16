@@ -438,5 +438,440 @@
         "elimination_logic_hindi": "(a) कायांतरण को आग्नेय पिघलाव प्रक्रिया से भ्रमित करता है। (c) कायांतरित शैलों को अवसादी निक्षेपण से जोड़ता है। (d) गलत है क्योंकि खनिजीय परिवर्तन कायांतरण की प्रमुख विशेषता है। UPSC अक्सर शैल निर्माण प्रक्रियाओं के बीच अंतर पूछता है। अतः विकल्प (b) सही है।"
       }
     ]
+  },
+  "Landforms": {
+    "topic_english": "Landforms",
+    "topic_telugu": "భూరూపాలు",
+    "topic_hindi": "स्थलरूप",
+
+    "questions": [
+
+      {
+        "question_english": "Consider the following statements regarding landforms:\n\n1. Landforms are natural physical features present on the Earth’s surface.\n2. Landforms are shaped by both internal and external geological processes.\n3. Mountains, plateaus and plains are examples of major landforms.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భూరూపాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. భూరూపాలు భూమి ఉపరితలంపై కనిపించే సహజ భౌతిక లక్షణాలు.\n2. భూరూపాలు అంతర్గత మరియు బాహ్య భౌగోళిక ప్రక్రియల వల్ల రూపుదిద్దుకుంటాయి.\n3. పర్వతాలు, పీఠభూములు మరియు మైదానాలు ప్రధాన భూరూపాలకు ఉదాహరణలు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "स्थलरूपों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. स्थलरूप पृथ्वी की सतह पर उपस्थित प्राकृतिक भौतिक विशेषताएँ हैं।\n2. स्थलरूप आंतरिक एवं बाह्य भूवैज्ञानिक प्रक्रियाओं द्वारा आकार ग्रहण करते हैं।\n3. पर्वत, पठार एवं मैदान प्रमुख स्थलरूपों के उदाहरण हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Landforms are naturally occurring features found on the Earth’s surface and constitute the visible expression of geomorphic processes. Their development is controlled by both endogenic processes such as tectonic uplift, volcanism and faulting, and exogenic processes such as weathering, erosion and deposition. Mountains, plateaus and plains are regarded as the three major categories of landforms because they occupy vast areas and strongly influence climate, drainage, vegetation and human settlement. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "భూరూపాలు భూమి ఉపరితలంపై సహజంగా ఏర్పడే భౌతిక లక్షణాలు. ఇవి టెక్టానిక్ పైకెత్తడం, అగ్నిపర్వత చర్యలు వంటి అంతర్గత ప్రక్రియలు మరియు అపక్షయం, అపరదనం వంటి బాహ్య ప్రక్రియల వల్ల రూపుదిద్దుకుంటాయి. పర్వతాలు, పీఠభూములు మరియు మైదానాలు ప్రధాన భూరూపాలుగా పరిగణించబడతాయి. ఇవి వాతావరణం, నదీ వ్యవస్థలు మరియు మానవ నివాసాలపై ప్రభావం చూపుతాయి. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "स्थलरूप पृथ्वी की सतह पर पाए जाने वाले प्राकृतिक भौतिक रूप हैं। उनका निर्माण विवर्तनिक उत्थान, ज्वालामुखीयता एवं भ्रंशन जैसी अंतर्जात प्रक्रियाओं तथा अपक्षय, अपरदन एवं निक्षेपण जैसी बहिर्जात प्रक्रियाओं से होता है। पर्वत, पठार एवं मैदान प्रमुख स्थलरूप माने जाते हैं क्योंकि वे विशाल क्षेत्र घेरते हैं और जलवायु, अपवाह तंत्र एवं मानव बसावट को प्रभावित करते हैं। अतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "This question tests the basic conceptual framework of geomorphology. Statement 1 defines landforms, Statement 2 introduces geomorphic processes and Statement 3 checks classification knowledge. UPSC frequently combines definition-based and process-based understanding together. Since all statements are accurate and conceptually linked, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న భూరూప శాస్త్రపు ప్రాథమిక భావనను పరీక్షిస్తుంది. 1వ ప్రకటన నిర్వచనాన్ని, 2వ ప్రకటన ప్రక్రియలను, 3వ ప్రకటన వర్గీకరణను సూచిస్తుంది. UPSC తరచుగా నిర్వచన మరియు ప్రక్రియ ఆధారిత భావనలను కలిపి ప్రశ్నిస్తుంది. మూడు ప్రకటనలూ సరైనవిగా ఉండటంతో (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न भूआकृतिविज्ञान की मूल अवधारणा को जाँचता है। कथन 1 परिभाषा, कथन 2 प्रक्रियाएँ तथा कथन 3 वर्गीकरण को दर्शाता है। UPSC अक्सर परिभाषात्मक एवं प्रक्रियात्मक समझ को एक साथ पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains the difference between endogenic and exogenic forces?",
+
+        "question_telugu": "అంతర్గత మరియు బాహ్య శక్తుల మధ్య తేడాను ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "अंतर्जात एवं बहिर्जात बलों के बीच अंतर को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Endogenic forces originate within the Earth, whereas exogenic forces operate on the Earth’s surface",
+          "b": "Both endogenic and exogenic forces originate only from the atmosphere",
+          "c": "Exogenic forces build mountains, whereas endogenic forces only erode them",
+          "d": "Both forces are unrelated to landform development"
+        },
+
+        "options_telugu": {
+          "a": "అంతర్గత శక్తులు భూమి అంతర్భాగంలో ఉద్భవిస్తాయి, బాహ్య శక్తులు భూమి ఉపరితలంపై పనిచేస్తాయి",
+          "b": "అంతర్గత మరియు బాహ్య శక్తులు రెండూ కేవలం వాతావరణం నుంచే ఉద్భవిస్తాయి",
+          "c": "బాహ్య శక్తులు పర్వతాలను నిర్మిస్తాయి, అంతర్గత శక్తులు కేవలం వాటిని అపరదనం చేస్తాయి",
+          "d": "ఈ రెండు శక్తులకు భూరూపాల అభివృద్ధితో సంబంధం లేదు"
+        },
+
+        "options_hindi": {
+          "a": "अंतर्जात बल पृथ्वी के भीतर उत्पन्न होते हैं जबकि बहिर्जात बल पृथ्वी की सतह पर कार्य करते हैं",
+          "b": "दोनों बल केवल वायुमंडल से उत्पन्न होते हैं",
+          "c": "बहिर्जात बल पर्वत बनाते हैं जबकि अंतर्जात बल केवल उनका अपरदन करते हैं",
+          "d": "दोनों बलों का स्थलरूप विकास से कोई संबंध नहीं है"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Endogenic forces originate within the Earth and include tectonic activity, volcanism, earthquakes and crustal uplift. These forces generally create relief features such as mountains, plateaus and rift valleys. Exogenic forces operate mainly on the Earth’s surface and include weathering, erosion, transportation and deposition by rivers, wind, glaciers and waves. They tend to wear down elevated regions and redistribute sediments. Thus, landform evolution depends on the combined interaction between internal building forces and external denudational forces.",
+
+        "explanation_telugu": "అంతర్గత శక్తులు భూమి అంతర్భాగంలో ఉద్భవిస్తాయి. టెక్టానిక్ చర్యలు, అగ్నిపర్వతాలు మరియు భూకంపాలు ఇందుకు ఉదాహరణలు. ఇవి పర్వతాలు మరియు పీఠభూములను నిర్మిస్తాయి. బాహ్య శక్తులు భూమి ఉపరితలంపై పనిచేస్తాయి. అపక్షయం, అపరదనం మరియు నిక్షేపణ వంటి ప్రక్రియలు వీటిలో భాగం. ఇవి భూప్రదేశాన్ని క్రమంగా క్షీణింపజేస్తాయి. కాబట్టి భూరూపాల అభివృద్ధి ఈ రెండు శక్తుల పరస్పర చర్యపై ఆధారపడి ఉంటుంది.",
+
+        "explanation_hindi": "अंतर्जात बल पृथ्वी के भीतर उत्पन्न होते हैं और इनमें विवर्तनिकी, ज्वालामुखीयता एवं भूकंप शामिल हैं। ये पर्वत, पठार एवं रिफ्ट घाटियों जैसे स्थलरूपों का निर्माण करते हैं। बहिर्जात बल पृथ्वी की सतह पर कार्य करते हैं और इनमें अपक्षय, अपरदन, परिवहन एवं निक्षेपण जैसी प्रक्रियाएँ शामिल हैं। ये ऊँचे भूभागों को क्षीण करते हैं और अवसादों का पुनर्वितरण करते हैं।",
+
+        "elimination_logic_english": "Option (b) incorrectly limits both forces to the atmosphere. Option (c) reverses the actual roles because endogenic forces generally build relief while exogenic forces reduce it. Option (d) is completely incorrect since geomorphology is fundamentally based on these forces. UPSC frequently tests whether aspirants can distinguish constructive and denudational processes clearly. Hence, option (a) is correct.",
+
+        "elimination_logic_telugu": "(b) రెండు శక్తులను వాతావరణానికి మాత్రమే పరిమితం చేస్తుంది. (c) పాత్రలను తారుమారు చేస్తుంది, ఎందుకంటే సాధారణంగా అంతర్గత శక్తులు నిర్మాణాత్మకమైనవి, బాహ్య శక్తులు క్షీణతకు కారణమవుతాయి. (d) పూర్తిగా తప్పు. UPSC తరచుగా నిర్మాణాత్మక మరియు అపరదన ప్రక్రియల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి (a) సరైనది.",
+
+        "elimination_logic_hindi": "(b) दोनों बलों को केवल वायुमंडल तक सीमित कर देता है। (c) उनकी भूमिकाओं को उलट देता है क्योंकि सामान्यतः अंतर्जात बल निर्माणात्मक एवं बहिर्जात बल क्षरणात्मक होते हैं। (d) पूर्णतः गलत है। UPSC अक्सर निर्माणात्मक एवं अपरदनीय प्रक्रियाओं के बीच अंतर पूछता है। अतः विकल्प (a) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding plains:\n\n1. Plains are generally low-lying and gently sloping landforms.\n2. River deposition is one of the major causes for formation of plains.\n3. Plains are usually less suitable for agriculture and human settlement.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "మైదానాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మైదానాలు సాధారణంగా తక్కువ ఎత్తు మరియు స్వల్ప వాలుదల కలిగిన భూరూపాలు.\n2. నదీ నిక్షేపణ మైదానాల నిర్మాణానికి ప్రధాన కారణాలలో ఒకటి.\n3. మైదానాలు సాధారణంగా వ్యవసాయం మరియు మానవ నివాసాలకు అనుకూలం కావు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "मैदानों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. मैदान सामान्यतः निम्न एवं मंद ढाल वाले स्थलरूप होते हैं।\n2. नदी निक्षेपण मैदान निर्माण का एक प्रमुख कारण है।\n3. मैदान सामान्यतः कृषि एवं मानव बसावट के लिए कम उपयुक्त होते हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Plains are broad, flat or gently sloping lowlands that usually form through depositional processes. River deposition is one of the most important mechanisms responsible for alluvial plain formation, as seen in the Indo-Gangetic Plain. Plains possess fertile soils, easy transportation, abundant water availability and favorable climatic conditions, making them highly suitable for agriculture, urbanization and dense population concentration. Therefore, Statement 3 is incorrect because plains are among the most favorable regions for human activity.",
+
+        "explanation_telugu": "మైదానాలు విశాలమైన, సమతల లేదా స్వల్ప వాలుదల గల భూరూపాలు. ఇవి సాధారణంగా నిక్షేపణ ప్రక్రియల వల్ల ఏర్పడతాయి. ఇండో-గంగా మైదానం వంటి ప్రాంతాలు నదీ నిక్షేపణ వల్ల ఏర్పడ్డాయి. మైదానాల్లో సారవంతమైన నేల, నీటి లభ్యత మరియు రవాణా సౌకర్యాలు ఉండటంతో వ్యవసాయం మరియు మానవ నివాసాలకు ఇవి అత్యంత అనుకూలం. కాబట్టి 3వ ప్రకటన తప్పు.",
+
+        "explanation_hindi": "मैदान विस्तृत, समतल अथवा मंद ढाल वाले भूभाग होते हैं जो सामान्यतः निक्षेपण प्रक्रियाओं से बनते हैं। नदी निक्षेपण जलोढ़ मैदान निर्माण का प्रमुख कारण है, जैसे इंडो-गंगा मैदान। मैदानों में उपजाऊ मिट्टी, जल उपलब्धता एवं सुगम परिवहन के कारण कृषि एवं मानव बसावट के लिए अत्यंत अनुकूल परिस्थितियाँ मिलती हैं। अतः कथन 3 गलत है।",
+
+        "elimination_logic_english": "Statement 3 is the trap because plains are actually the most densely populated and agriculturally productive regions in the world. Statements 1 and 2 accurately describe their morphology and formation process. UPSC frequently tests whether aspirants can connect geomorphology with human geography and settlement patterns. Hence, only Statements 1 and 2 are correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటన ప్రధాన ట్రాప్, ఎందుకంటే మైదానాలే ప్రపంచంలో అత్యధిక జనసాంద్రత మరియు వ్యవసాయ ఉత్పాదకత కలిగిన ప్రాంతాలు. 1 మరియు 2 మైదానాల స్వరూపం మరియు నిర్మాణాన్ని సరిగ్గా వివరిస్తాయి. UPSC తరచుగా భూరూప శాస్త్రాన్ని మానవ భూగోళశాస్త్రంతో అనుసంధానం చేసి ప్రశ్నిస్తుంది. కాబట్టి (a) సరైనది.",
+
+        "elimination_logic_hindi": "कथन 3 मुख्य जाल है क्योंकि मैदान विश्व के सबसे अधिक जनसंख्या घनत्व एवं कृषि उत्पादकता वाले क्षेत्र होते हैं। कथन 1 एवं 2 मैदानों की आकृति एवं निर्माण प्रक्रिया को सही रूप में दर्शाते हैं। UPSC अक्सर भूआकृति विज्ञान को मानव भूगोल से जोड़कर प्रश्न पूछता है। अतः विकल्प (a) सही है।"
+      },
+      {
+        "question_english": "Which one of the following statements best explains the characteristics of plateaus?",
+
+        "question_telugu": "పీఠభూముల లక్షణాలను ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "पठारों की विशेषताओं को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Plateaus are low-lying flatlands formed only by river deposition",
+          "b": "Plateaus are elevated flat-topped landforms often bordered by steep slopes",
+          "c": "Plateaus are always volcanic mountains with pointed peaks",
+          "d": "Plateaus are formed only under oceans"
+        },
+
+        "options_telugu": {
+          "a": "పీఠభూములు కేవలం నదీ నిక్షేపణ వల్ల ఏర్పడిన తక్కువ ఎత్తు గల సమతల భూభాగాలు",
+          "b": "పీఠభూములు ఎత్తైన సమతల ఉపరితలంతో, సాధారణంగా నిటారైన అంచులు కలిగిన భూరూపాలు",
+          "c": "పీఠభూములు ఎల్లప్పుడూ శిఖరాలున్న అగ్నిపర్వత పర్వతాలే",
+          "d": "పీఠభూములు కేవలం సముద్రాల అడుగున మాత్రమే ఏర్పడతాయి"
+        },
+
+        "options_hindi": {
+          "a": "पठार निम्न समतल भूभाग हैं जो केवल नदी निक्षेपण से बनते हैं",
+          "b": "पठार ऊँचे समतल शीर्ष वाले स्थलरूप हैं जिनके किनारे प्रायः तीव्र ढाल वाले होते हैं",
+          "c": "पठार सदैव नुकीली चोटियों वाले ज्वालामुखीय पर्वत होते हैं",
+          "d": "पठार केवल महासागरों के नीचे बनते हैं"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Plateaus are elevated landforms characterized by relatively flat or gently undulating surfaces standing above the surrounding terrain. They are often bounded by steep slopes or escarpments. Plateaus may originate through tectonic uplift, volcanic activity or extensive erosion of surrounding regions. The Deccan Plateau and Tibetan Plateau are major examples. Unlike plains, plateaus occur at higher elevations, and unlike mountains, they generally possess broad flat tops rather than sharp peaks.",
+
+        "explanation_telugu": "పీఠభూములు చుట్టుపక్కల భూభాగం కంటే ఎత్తుగా ఉండే సమతల లేదా స్వల్ప అలల ఉపరితల గల భూరూపాలు. వీటి అంచులు సాధారణంగా నిటారుగా ఉంటాయి. టెక్టానిక్ పైకెత్తడం, అగ్నిపర్వత చర్యలు లేదా చుట్టుపక్కల ప్రాంతాల అపరదనం వల్ల పీఠభూములు ఏర్పడవచ్చు. డెక్కన్ పీఠభూమి మరియు టిబెటన్ పీఠభూమి ఇందుకు ప్రసిద్ధ ఉదాహరణలు.",
+
+        "explanation_hindi": "पठार ऊँचे भूभाग होते हैं जिनकी सतह अपेक्षाकृत समतल या हल्की तरंगित होती है। इनके किनारे प्रायः तीव्र ढाल वाले होते हैं। पठार विवर्तनिक उत्थान, ज्वालामुखीय गतिविधि अथवा अपरदन प्रक्रियाओं से बन सकते हैं। दक्कन पठार एवं तिब्बती पठार इसके प्रमुख उदाहरण हैं।",
+
+        "elimination_logic_english": "Option (a) actually describes plains rather than plateaus. Option (c) incorrectly generalizes all plateaus as volcanic mountains, while option (d) is factually incorrect because most famous plateaus are continental landforms. UPSC frequently tests comparative understanding among mountains, plains and plateaus. The defining features of elevation and flat top clearly make option (b) correct.",
+
+        "elimination_logic_telugu": "(a) మైదానాల లక్షణాలను సూచిస్తుంది కానీ పీఠభూములను కాదు. (c) అన్ని పీఠభూములను అగ్నిపర్వత పర్వతాలుగా తప్పుగా సాధారణీకరిస్తుంది. (d) వాస్తవానికి విరుద్ధం, ఎందుకంటే ప్రముఖ పీఠభూములు భూభాగాలపైనే ఉంటాయి. UPSC తరచుగా పర్వతాలు, మైదానాలు మరియు పీఠభూముల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) मैदानों का वर्णन करता है, पठारों का नहीं। (c) सभी पठारों को ज्वालामुखीय पर्वत मानकर गलत सामान्यीकरण करता है। (d) तथ्यात्मक रूप से गलत है क्योंकि अधिकांश प्रसिद्ध पठार महाद्वीपीय क्षेत्र में स्थित हैं। UPSC अक्सर पर्वत, मैदान एवं पठारों के तुलनात्मक अध्ययन पर प्रश्न पूछता है। अतः विकल्प (b) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding geomorphic processes:\n\n1. Weathering involves disintegration and decomposition of rocks in situ.\n2. Erosion includes removal and transportation of weathered materials.\n3. Deposition occurs when transporting agents lose energy.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "భూరూప ప్రక్రియలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అపక్షయం అనగా రాళ్లు ఉన్నచోటే విచ్ఛిన్నం మరియు రసాయన మార్పుకు లోనవడం.\n2. అపరదనం అనగా అపక్షయ పదార్థాల తొలగింపు మరియు రవాణా.\n3. రవాణా చేసే శక్తులు తమ శక్తిని కోల్పోయినప్పుడు నిక్షేపణ జరుగుతుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "भूआकृतिक प्रक्रियाओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अपक्षय में शैलों का अपने स्थान पर विघटन एवं अपघटन होता है।\n2. अपरदन में अपक्षयित पदार्थों का हटाव एवं परिवहन शामिल है।\n3. निक्षेपण तब होता है जब परिवहनकारी शक्तियाँ अपनी ऊर्जा खो देती हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Geomorphic processes continuously modify the Earth’s surface. Weathering refers to the physical disintegration and chemical decomposition of rocks at or near the Earth’s surface without transportation. Erosion involves removal and transport of weathered materials by agents such as rivers, glaciers, wind and waves. Deposition occurs when these transporting agents lose carrying capacity or energy, causing sediments to settle. Together, these processes are fundamental to the evolution of landforms and landscape development.",
+
+        "explanation_telugu": "భూరూప ప్రక్రియలు భూమి ఉపరితలాన్ని నిరంతరం మార్చుతుంటాయి. అపక్షయం అనగా రాళ్లు ఉన్నచోటే విచ్ఛిన్నం మరియు రసాయన మార్పుకు లోనవడం. అపరదనం అనగా నదులు, గాలి, హిమనదులు వంటి శక్తుల ద్వారా పదార్థాల తొలగింపు మరియు రవాణా. ఈ శక్తులు తమ శక్తిని కోల్పోయినప్పుడు అవక్షేపాలు నిక్షేపించబడతాయి. ఈ మూడు ప్రక్రియలూ భూరూపాల అభివృద్ధికి ప్రాథమికమైనవి.",
+
+        "explanation_hindi": "भूआकृतिक प्रक्रियाएँ पृथ्वी की सतह को निरंतर परिवर्तित करती रहती हैं। अपक्षय में शैलों का अपने स्थान पर भौतिक एवं रासायनिक विघटन होता है। अपरदन में नदियों, हिमनदों, पवन एवं तरंगों द्वारा पदार्थों का हटाव एवं परिवहन शामिल है। जब ये परिवहनकारी शक्तियाँ अपनी ऊर्जा खो देती हैं तब निक्षेपण होता है। ये तीनों प्रक्रियाएँ स्थलरूप विकास की आधारभूत प्रक्रियाएँ हैं।",
+
+        "elimination_logic_english": "This question tests sequential understanding of geomorphic processes. Weathering occurs first without transport, erosion includes removal and transport, and deposition occurs after energy reduction. UPSC often checks whether aspirants confuse weathering with erosion. Since all three statements accurately represent the geomorphic sequence, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న భూరూప ప్రక్రియల క్రమాన్ని పరీక్షిస్తుంది. అపక్షయం రవాణా లేకుండా జరుగుతుంది, అపరదనం రవాణాను కలిగి ఉంటుంది, శక్తి తగ్గినప్పుడు నిక్షేపణ జరుగుతుంది. UPSC తరచుగా అపక్షయం మరియు అపరదనాన్ని కలిపి గందరగోళం సృష్టిస్తుంది. మూడు ప్రకటనలూ సరైనవి కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न भूआकृतिक प्रक्रियाओं के क्रम को जाँचता है। अपक्षय बिना परिवहन के होता है, अपरदन में परिवहन शामिल है तथा ऊर्जा कम होने पर निक्षेपण होता है। UPSC अक्सर अपक्षय एवं अपरदन में भ्रम उत्पन्न करता है। तीनों कथन सही हैं, इसलिए विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following landforms is primarily formed by depositional action of rivers?",
+
+        "question_telugu": "క్రింది భూరూపాలలో ఏది ప్రధానంగా నదుల నిక్షేపణ చర్య వల్ల ఏర్పడుతుంది?",
+
+        "question_hindi": "निम्नलिखित स्थलरूपों में से कौन-सा मुख्यतः नदियों की निक्षेपण क्रिया से बनता है?",
+
+        "options_english": {
+          "a": "V-shaped valley",
+          "b": "Waterfall",
+          "c": "Delta",
+          "d": "Gorge"
+        },
+
+        "options_telugu": {
+          "a": "వి-ఆకార లోయ",
+          "b": "జలపాతం",
+          "c": "డెల్టా",
+          "d": "గార్జ్"
+        },
+
+        "options_hindi": {
+          "a": "V-आकार घाटी",
+          "b": "जलप्रपात",
+          "c": "डेल्टा",
+          "d": "गॉर्ज"
+        },
+
+        "correct_answer": "c",
+
+        "explanation_english": "A delta is a depositional landform formed at the mouth of a river where it enters a standing body of water such as a sea or lake. As the river loses velocity, it deposits sediments carried from upstream regions. Over time, these deposits accumulate and create triangular or fan-shaped lowlands called deltas. In contrast, V-shaped valleys, waterfalls and gorges are primarily erosional landforms formed by vertical river erosion. Therefore, delta is the correct answer.",
+
+        "explanation_telugu": "డెల్టా అనేది నది సముద్రం లేదా సరస్సులో కలిసే ప్రాంతంలో ఏర్పడే నిక్షేప భూరూపం. నది వేగం తగ్గినప్పుడు అది తీసుకువచ్చిన అవక్షేపాలను అక్కడ నిక్షేపిస్తుంది. కాలక్రమేణా ఈ అవక్షేపాలు చేరి డెల్టా ఏర్పడుతుంది. వి-ఆకార లోయలు, జలపాతాలు మరియు గార్జ్‌లు ప్రధానంగా అపరదన భూరూపాలు. కాబట్టి సరైన సమాధానం డెల్టా.",
+
+        "explanation_hindi": "डेल्टा एक निक्षेपणीय स्थलरूप है जो नदी के समुद्र या झील में मिलने के स्थान पर बनता है। जब नदी की गति कम हो जाती है, तब वह अपने साथ लाए गए अवसादों को जमा करती है। समय के साथ ये निक्षेप एक त्रिभुजाकार या पंखाकार भूभाग बनाते हैं जिसे डेल्टा कहते हैं। इसके विपरीत V-आकार घाटी, जलप्रपात एवं गॉर्ज मुख्यतः अपरदनीय स्थलरूप हैं।",
+
+        "elimination_logic_english": "The key distinction is between erosional and depositional river landforms. V-shaped valleys, waterfalls and gorges are produced mainly by river erosion and downcutting. Delta formation, however, depends on sediment deposition at river mouths. UPSC frequently asks such questions to test process-based classification of fluvial landforms. Hence, option (c) is correct.",
+
+        "elimination_logic_telugu": "ఇక్కడ ప్రధాన తేడా అపరదన మరియు నిక్షేప భూరూపాల మధ్య ఉంది. వి-ఆకార లోయలు, జలపాతాలు మరియు గార్జ్‌లు నదీ అపరదన వల్ల ఏర్పడతాయి. డెల్టా మాత్రం నదీ నిక్షేపణ వల్ల ఏర్పడుతుంది. UPSC తరచుగా నదీ భూరూపాలను ప్రక్రియల ఆధారంగా వర్గీకరించగలరా అని పరీక్షిస్తుంది. కాబట్టి (c) సరైనది.",
+
+        "elimination_logic_hindi": "यहाँ मुख्य अंतर अपरदनीय एवं निक्षेपणीय नदी स्थलरूपों के बीच है। V-आकार घाटियाँ, जलप्रपात एवं गॉर्ज नदी अपरदन से बनते हैं, जबकि डेल्टा नदी निक्षेपण से बनता है। UPSC अक्सर नदी स्थलरूपों का प्रक्रिया-आधारित वर्गीकरण पूछता है। अतः विकल्प (c) सही है।"
+      },
+      {
+        "question_english": "Consider the following statements regarding mountains:\n\n1. Mountains are highly elevated landforms with steep slopes.\n2. Fold mountains are generally formed due to compressional tectonic forces.\n3. The Himalayas are examples of young fold mountains.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "పర్వతాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పర్వతాలు అధిక ఎత్తు మరియు నిటారైన వాలుదల గల భూరూపాలు.\n2. మడత పర్వతాలు సాధారణంగా సంకోచ టెక్టానిక్ శక్తుల వల్ల ఏర్పడతాయి.\n3. హిమాలయాలు యువ మడత పర్వతాలకు ఉదాహరణలు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "पर्वतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पर्वत अत्यधिक ऊँचाई एवं तीव्र ढाल वाले स्थलरूप होते हैं।\n2. वलित पर्वत सामान्यतः संपीड़नात्मक विवर्तनिक बलों से बनते हैं।\n3. हिमालय युवा वलित पर्वतों का उदाहरण है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Mountains are elevated landforms characterized by steep slopes, high relief and rugged terrain. Fold mountains are created when compressional tectonic forces cause rock layers to bend and fold during plate convergence. The Himalayas were formed due to collision between the Indian Plate and Eurasian Plate and are considered among the youngest fold mountain systems in the world. Their young age is reflected in their great height, active tectonics and frequent earthquakes. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "పర్వతాలు అధిక ఎత్తు, నిటారైన వాలుదల మరియు కఠిన ఉపరితల గల భూరూపాలు. మడత పర్వతాలు టెక్టానిక్ సంకోచ శక్తుల వల్ల రాళ్ల పొరలు మడతపడటం ద్వారా ఏర్పడతాయి. భారత ఫలకం మరియు యూరేషియన్ ఫలకం ఢీకొనడం వల్ల హిమాలయాలు ఏర్పడ్డాయి. ఇవి ప్రపంచంలోని యువ మడత పర్వతాలుగా పరిగణించబడతాయి. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "पर्वत अत्यधिक ऊँचाई, तीव्र ढाल एवं ऊबड़-खाबड़ स्थलाकृति वाले स्थलरूप हैं। वलित पर्वत संपीड़नात्मक विवर्तनिक बलों के कारण शैल परतों के मुड़ने से बनते हैं। हिमालय भारतीय प्लेट एवं यूरेशियन प्लेट की टक्कर से बना है और विश्व के सबसे युवा वलित पर्वतों में गिना जाता है। अतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "This question integrates morphology, tectonics and examples together. Statement 1 defines mountains, Statement 2 explains fold mountain formation and Statement 3 tests factual understanding of the Himalayas. UPSC often combines process-based and example-based statements in physical geography. Since all three are scientifically correct, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న పర్వతాల స్వరూపం, టెక్టానిక్స్ మరియు ఉదాహరణలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన నిర్వచనాన్ని, 2వ ప్రకటన నిర్మాణ విధానాన్ని, 3వ ప్రకటన హిమాలయాలపై వాస్తవ జ్ఞానాన్ని పరీక్షిస్తుంది. UPSC తరచుగా ప్రక్రియ మరియు ఉదాహరణ ఆధారిత ప్రశ్నలను కలిపి అడుగుతుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न पर्वतों की संरचना, विवर्तनिकी एवं उदाहरणों को जोड़ता है। कथन 1 परिभाषा, कथन 2 निर्माण प्रक्रिया तथा कथन 3 हिमालय के उदाहरण को दर्शाता है। UPSC अक्सर प्रक्रियात्मक एवं उदाहरणात्मक प्रश्नों को एक साथ पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains the role of rivers in landform development?",
+
+        "question_telugu": "భూరూపాల అభివృద్ధిలో నదుల పాత్రను ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "स्थलरूप विकास में नदियों की भूमिका को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Rivers only deposit sediments and never erode land",
+          "b": "Rivers simultaneously erode, transport and deposit materials",
+          "c": "Rivers influence only oceanic landforms",
+          "d": "Rivers have no impact on landscape evolution"
+        },
+
+        "options_telugu": {
+          "a": "నదులు కేవలం అవక్షేపాలను మాత్రమే నిక్షేపిస్తాయి, అపరదనం చేయవు",
+          "b": "నదులు ఒకేసారి అపరదనం, రవాణా మరియు నిక్షేపణ చర్యలను నిర్వహిస్తాయి",
+          "c": "నదులు కేవలం సముద్ర భూరూపాలపైనే ప్రభావం చూపుతాయి",
+          "d": "నదులకు భూప్రదేశ అభివృద్ధిపై ఎలాంటి ప్రభావం లేదు"
+        },
+
+        "options_hindi": {
+          "a": "नदियाँ केवल अवसाद जमा करती हैं और अपरदन नहीं करतीं",
+          "b": "नदियाँ एक साथ अपरदन, परिवहन एवं निक्षेपण करती हैं",
+          "c": "नदियाँ केवल महासागरीय स्थलरूपों को प्रभावित करती हैं",
+          "d": "नदियों का भू-दृश्य विकास पर कोई प्रभाव नहीं पड़ता"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Rivers are among the most powerful geomorphic agents shaping the Earth’s surface. In their upper course, rivers mainly erode land vertically and create features such as V-shaped valleys and gorges. During transportation, they carry sediments downstream, and in lower courses they deposit these sediments to form floodplains, levees and deltas. Thus, rivers simultaneously perform erosion, transportation and deposition, making them central to landscape evolution and fluvial geomorphology.",
+
+        "explanation_telugu": "నదులు భూమి ఉపరితలాన్ని మలిచే ముఖ్యమైన భూరూప శక్తులలో ఒకటి. పైప్రవాహంలో అవి అపరదనం చేసి వి-ఆకార లోయలు మరియు గార్జ్‌లను సృష్టిస్తాయి. తరువాత అవక్షేపాలను రవాణా చేసి, దిగువ ప్రవాహంలో వాటిని నిక్షేపించి వరద మైదానాలు మరియు డెల్టాలను ఏర్పరుస్తాయి. కాబట్టి నదులు అపరదనం, రవాణా మరియు నిక్షేపణ మూడు ప్రక్రియలను నిర్వహిస్తాయి.",
+
+        "explanation_hindi": "नदियाँ पृथ्वी की सतह को आकार देने वाली प्रमुख भूआकृतिक शक्तियों में से हैं। ऊपरी प्रवाह में वे ऊर्ध्वाधर अपरदन कर V-आकार घाटियाँ एवं गॉर्ज बनाती हैं। वे अवसादों का परिवहन करती हैं तथा निम्न प्रवाह में उन्हें जमा कर बाढ़ मैदान एवं डेल्टा बनाती हैं। इस प्रकार नदियाँ अपरदन, परिवहन एवं निक्षेपण तीनों कार्य करती हैं।",
+
+        "elimination_logic_english": "Option (a) is incorrect because rivers are major erosional agents as well. Option (c) is wrong since rivers mainly shape continental landscapes. Option (d) completely ignores fluvial geomorphology. UPSC frequently tests understanding of rivers as dynamic geomorphic agents performing multiple functions together. Hence, option (b) is correct.",
+
+        "elimination_logic_telugu": "(a) తప్పు, ఎందుకంటే నదులు ప్రధాన అపరదన శక్తులూ కూడా. (c) తప్పు, ఎందుకంటే నదులు ప్రధానంగా ఖండ భూభాగాలను ప్రభావితం చేస్తాయి. (d) పూర్తిగా తప్పు. UPSC తరచుగా నదులను గతి శీల భూరూప శక్తులుగా అర్థం చేసుకున్నారా అని పరీక్షిస్తుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "(a) गलत है क्योंकि नदियाँ प्रमुख अपरदनकारी शक्तियाँ भी हैं। (c) गलत है क्योंकि नदियाँ मुख्यतः महाद्वीपीय भू-दृश्यों को प्रभावित करती हैं। (d) पूर्णतः गलत है। UPSC अक्सर नदियों को बहुक्रियात्मक भूआकृतिक शक्ति के रूप में समझने की क्षमता को जाँचता है। अतः विकल्प (b) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding weathering:\n\n1. Mechanical weathering involves physical breakdown of rocks without chemical change.\n2. Chemical weathering alters the mineral composition of rocks.\n3. Biological weathering may occur due to plant roots and microorganisms.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అపక్షయానికి సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. యాంత్రిక అపక్షయం రాళ్లను రసాయన మార్పు లేకుండా భౌతికంగా విచ్ఛిన్నం చేస్తుంది.\n2. రసాయన అపక్షయం రాళ్ల ఖనిజ నిర్మాణాన్ని మారుస్తుంది.\n3. జీవ అపక్షయం మొక్కల వేర్లు మరియు సూక్ష్మజీవుల వల్ల సంభవించవచ్చు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "अपक्षय के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. यांत्रिक अपक्षय में बिना रासायनिक परिवर्तन के शैलों का भौतिक विघटन होता है।\n2. रासायनिक अपक्षय शैलों की खनिज संरचना को बदल देता है।\n3. जैविक अपक्षय पौधों की जड़ों एवं सूक्ष्मजीवों के कारण हो सकता है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Weathering refers to the breakdown and alteration of rocks at or near the Earth’s surface. Mechanical weathering causes physical fragmentation without changing mineral composition. Chemical weathering involves reactions such as oxidation, carbonation and hydration that alter rock minerals chemically. Biological weathering occurs due to activities of plants, animals and microorganisms, such as root penetration or organic acid production. Together, these forms of weathering contribute significantly to soil formation and landscape modification.",
+
+        "explanation_telugu": "అపక్షయం అనేది భూమి ఉపరితలంపై లేదా సమీపంలో రాళ్ల విచ్ఛిన్నం మరియు మార్పు ప్రక్రియ. యాంత్రిక అపక్షయం రాళ్లను భౌతికంగా విచ్ఛిన్నం చేస్తుంది కానీ ఖనిజ నిర్మాణాన్ని మార్చదు. రసాయన అపక్షయం ఆక్సీకరణ, కార్బోనేషన్ వంటి చర్యల ద్వారా ఖనిజాలను మార్చుతుంది. జీవ అపక్షయం మొక్కల వేర్లు మరియు సూక్ష్మజీవుల వల్ల సంభవిస్తుంది. ఈ మూడు ప్రక్రియలు నేల నిర్మాణం మరియు భూప్రదేశ మార్పులో ముఖ్యమైనవి.",
+
+        "explanation_hindi": "अपक्षय पृथ्वी की सतह पर या उसके निकट शैलों के विघटन एवं परिवर्तन की प्रक्रिया है। यांत्रिक अपक्षय में केवल भौतिक विघटन होता है जबकि रासायनिक अपक्षय खनिज संरचना को बदल देता है। जैविक अपक्षय पौधों की जड़ों, जीवों एवं सूक्ष्मजीवों की गतिविधियों से होता है। ये तीनों प्रक्रियाएँ मृदा निर्माण एवं स्थलरूप परिवर्तन में महत्वपूर्ण भूमिका निभाती हैं।",
+
+        "elimination_logic_english": "The question tests classification of weathering processes. Statement 1 differentiates mechanical weathering from chemical weathering, Statement 2 explains mineral alteration and Statement 3 introduces biological factors. UPSC frequently asks conceptual questions where all statements appear similar but belong to different categories. Since all three correctly describe weathering processes, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న అపక్షయ ప్రక్రియల వర్గీకరణను పరీక్షిస్తుంది. 1వ ప్రకటన యాంత్రిక అపక్షయాన్ని, 2వ ప్రకటన రసాయన మార్పును, 3వ ప్రకటన జీవ కారకాలను సూచిస్తుంది. UPSC తరచుగా ఇలాంటి భావనాత్మక ప్రశ్నలను అడుగుతుంది. మూడు ప్రకటనలూ సరైనవి కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न अपक्षय प्रक्रियाओं के वर्गीकरण को जाँचता है। कथन 1 यांत्रिक अपक्षय, कथन 2 रासायनिक परिवर्तन तथा कथन 3 जैविक कारकों को दर्शाता है। UPSC अक्सर ऐसी अवधारणात्मक श्रेणीकरण आधारित प्रश्न पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following landforms is primarily associated with glacial erosion?",
+
+        "question_telugu": "క్రింది భూరూపాలలో ఏది ప్రధానంగా హిమనద అపరదనంతో సంబంధం కలిగి ఉంటుంది?",
+
+        "question_hindi": "निम्नलिखित स्थलरूपों में से कौन-सा मुख्यतः हिमानी अपरदन से संबंधित है?",
+
+        "options_english": {
+          "a": "Sand dune",
+          "b": "U-shaped valley",
+          "c": "Delta",
+          "d": "Floodplain"
+        },
+
+        "options_telugu": {
+          "a": "ఇసుక గుట్ట",
+          "b": "యు-ఆకార లోయ",
+          "c": "డెల్టా",
+          "d": "వరద మైదానం"
+        },
+
+        "options_hindi": {
+          "a": "बालूका स्तूप",
+          "b": "U-आकार घाटी",
+          "c": "डेल्टा",
+          "d": "बाढ़ मैदान"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "U-shaped valleys are classic erosional landforms created by glaciers. As glaciers move through pre-existing river valleys, they erode valley sides and floors through plucking and abrasion, transforming narrow V-shaped valleys into broad U-shaped troughs. Sand dunes are formed by wind deposition, while deltas and floodplains are fluvial depositional features associated with rivers. Therefore, U-shaped valleys are most closely linked with glacial erosion.",
+
+        "explanation_telugu": "యు-ఆకార లోయలు హిమనదాల అపరదనంతో ఏర్పడే ప్రసిద్ధ భూరూపాలు. హిమనదాలు ముందుగా ఉన్న నదీ లోయల గుండా కదిలేటప్పుడు ప్లకింగ్ మరియు అబ్రేషన్ చర్యల ద్వారా వాటిని విశాలమైన యు-ఆకార లోయలుగా మార్చుతాయి. ఇసుక గుట్టలు గాలి నిక్షేపణ వల్ల, డెల్టాలు మరియు వరద మైదానాలు నదీ నిక్షేపణ వల్ల ఏర్పడతాయి. కాబట్టి సరైన సమాధానం యు-ఆకార లోయ.",
+
+        "explanation_hindi": "U-आकार घाटियाँ हिमानी अपरदन से बनने वाले विशिष्ट स्थलरूप हैं। हिमनद जब पूर्ववर्ती नदी घाटियों से गुजरते हैं, तब वे अपघर्षण एवं प्लकिंग द्वारा घाटियों को चौड़ा और गहरा कर देते हैं, जिससे U-आकार घाटियाँ बनती हैं। बालूका स्तूप पवन निक्षेपण से तथा डेल्टा एवं बाढ़ मैदान नदी निक्षेपण से बनते हैं। अतः सही उत्तर U-आकार घाटी है।",
+
+        "elimination_logic_english": "The question tests whether the aspirant can identify geomorphic agents correctly. Sand dunes belong to aeolian processes, while deltas and floodplains are river depositional landforms. U-shaped valleys are the characteristic signatures of glacier erosion. UPSC frequently asks agent-landform matching questions in geomorphology. Hence, option (b) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న భూరూపాలను వాటి నిర్మాణ కారకాలతో సరిపోల్చగలరా అని పరీక్షిస్తుంది. ఇసుక గుట్టలు గాలి చర్యలకు, డెల్టాలు మరియు వరద మైదానాలు నదీ నిక్షేపణకు సంబంధించినవి. యు-ఆకార లోయలు హిమనద అపరదనానికి ప్రత్యేక లక్షణం. UPSC తరచుగా ఇలాంటి భూరూప-కారక సరిపోలిక ప్రశ్నలు అడుగుతుంది. కాబట్టి (b) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न भूआकृतिक कारकों एवं स्थलरूपों के सही मिलान को जाँचता है। बालूका स्तूप पवन प्रक्रियाओं से, डेल्टा एवं बाढ़ मैदान नदी निक्षेपण से संबंधित हैं। U-आकार घाटियाँ हिमानी अपरदन की विशिष्ट पहचान हैं। UPSC अक्सर ऐसे एजेंट-स्थलरूप मिलान आधारित प्रश्न पूछता है। अतः विकल्प (b) सही है।"
+      }
+    ]
   }
-}
