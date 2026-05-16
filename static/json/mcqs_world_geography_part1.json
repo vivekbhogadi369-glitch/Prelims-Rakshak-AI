@@ -3054,5 +3054,441 @@
         "elimination_logic_hindi": "केवल विकल्प (b) सही विवर्तनिक चक्र को दर्शाता है। (a) गलत है क्योंकि पर्वतश्रेणियों पर महाद्वीपीय नहीं, बल्कि महासागरीय भूपर्पटी बनती है। (c) वास्तविक प्रक्रिया को उलट देता है। (d) गलत है क्योंकि पर्वतश्रेणियाँ और गर्त दोनों विवर्तनिक रूप से सक्रिय क्षेत्र हैं। UPSC ऐसे तुलनात्मक प्रश्नों से यह जाँचता है कि अभ्यर्थी समुद्रतल प्रसार को पूर्ण भूपर्पटी चक्र के रूप में समझता है या केवल निर्माण प्रक्रिया के रूप में।"
       }
     ]
+  },
+  "Mountain Building": {
+    "topic_english": "Mountain Building",
+    "topic_telugu": "పర్వత నిర్మాణం",
+    "topic_hindi": "पर्वत निर्माण",
+
+    "questions": [
+
+      {
+        "question_english": "Consider the following statements regarding mountain building processes:\n\n1. Mountain building is also known as orogeny.\n2. Most fold mountains are associated with convergent plate boundaries.\n3. Mountain formation is entirely independent of tectonic activity.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "పర్వత నిర్మాణ ప్రక్రియలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. పర్వత నిర్మాణాన్ని ఒరోజనీ అని కూడా అంటారు.\n2. ఎక్కువ మడత పర్వతాలు సమ్మిళిత ఫలక సరిహద్దులతో సంబంధం కలిగి ఉంటాయి.\n3. పర్వత నిర్మాణం పూర్తిగా టెక్టానిక్ చర్యలతో సంబంధం లేకుండా జరుగుతుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "पर्वत निर्माण प्रक्रियाओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. पर्वत निर्माण को ओरोजनी भी कहा जाता है।\n2. अधिकांश वलित पर्वत अभिसारी प्लेट सीमाओं से संबंधित होते हैं।\n3. पर्वत निर्माण पूर्णतः विवर्तनिक गतिविधियों से स्वतंत्र होता है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Mountain building is scientifically referred to as orogeny. Most major mountain systems of the world, especially fold mountains such as the Himalayas, Andes and Alps, are formed at convergent plate boundaries where tectonic plates collide. These collisions create intense compression, folding and uplift of crustal rocks over millions of years. Statement 3 is incorrect because tectonic activity is the primary driving force behind most mountain-building processes. Without plate movement, large-scale crustal deformation and uplift would not occur.",
+
+        "explanation_telugu": "పర్వత నిర్మాణాన్ని శాస్త్రీయంగా ఒరోజనీ అంటారు. ప్రపంచంలోని ప్రధాన మడత పర్వతాలు, ముఖ్యంగా హిమాలయాలు, ఆండీస్ మరియు ఆల్ప్స్, సమ్మిళిత ఫలక సరిహద్దుల వద్ద ఏర్పడతాయి. ఫలకాల ఢీకొనడం వల్ల తీవ్ర సంకోచం, మడతలు మరియు భూపటల పైకెత్తడం జరుగుతుంది. 3వ ప్రకటన తప్పు, ఎందుకంటే టెక్టానిక్ చర్యలే పర్వత నిర్మాణానికి ప్రధాన కారణం.",
+
+        "explanation_hindi": "पर्वत निर्माण को वैज्ञानिक रूप से ओरोजनी कहा जाता है। विश्व की अधिकांश प्रमुख वलित पर्वतमालाएँ, जैसे हिमालय, एंडीज और आल्प्स, अभिसारी प्लेट सीमाओं पर बनती हैं। प्लेटों की टक्कर से संपीड़न, वलन एवं भूपर्पटी उत्थान होता है। कथन 3 गलत है क्योंकि विवर्तनिक गतिविधियाँ पर्वत निर्माण की प्रमुख प्रेरक शक्ति हैं।",
+
+        "elimination_logic_english": "Statement 3 is the conceptual trap because UPSC frequently uses absolute phrases such as ‘entirely independent’. Mountain building is fundamentally linked to tectonic forces, especially compression at convergent margins. Statements 1 and 2 are standard geological facts. Once Statement 3 is eliminated, only option (a) remains. Aspirants should remember that most large mountain systems are direct expressions of lithospheric plate interactions.",
+
+        "elimination_logic_telugu": "3వ ప్రకటనలోని ‘పూర్తిగా సంబంధం లేదు’ అనే భావన ప్రధాన ట్రాప్. పర్వత నిర్మాణం టెక్టానిక్ శక్తులతో నేరుగా సంబంధం కలిగి ఉంటుంది, ముఖ్యంగా సమ్మిళిత సరిహద్దుల వద్ద సంకోచంతో. 1 మరియు 2 సరైన ప్రకటనలు. కాబట్టి (a) సరైనది. పెద్ద పర్వత వ్యవస్థలు ఫలకాల పరస్పర చర్యల ఫలితమని గుర్తుంచుకోవాలి.",
+
+        "elimination_logic_hindi": "कथन 3 में प्रयुक्त ‘पूर्णतः स्वतंत्र’ शब्द मुख्य वैचारिक जाल है। पर्वत निर्माण विवर्तनिक शक्तियों, विशेषकर अभिसारी सीमाओं पर संपीड़न, से सीधे जुड़ा है। कथन 1 एवं 2 मानक भूवैज्ञानिक तथ्य हैं। इसलिए विकल्प (a) सही है। अभ्यर्थियों को याद रखना चाहिए कि अधिकांश विशाल पर्वतमालाएँ प्लेटीय अंतःक्रियाओं का परिणाम हैं।"
+      },
+
+      {
+        "question_english": "Which one of the following mountain ranges is best known as an example of fold mountain formation due to continental collision?",
+
+        "question_telugu": "ఖండ ఢీకొనడం వల్ల ఏర్పడిన మడత పర్వతాలకు ప్రసిద్ధ ఉదాహరణగా ఏ పర్వత శ్రేణి ప్రసిద్ధి చెందింది?",
+
+        "question_hindi": "महाद्वीपीय टक्कर से बने वलित पर्वतों के प्रमुख उदाहरण के रूप में निम्नलिखित में से कौन-सी पर्वतमाला जानी जाती है?",
+
+        "options_english": {
+          "a": "Aravalli Range",
+          "b": "Himalayas",
+          "c": "Vosges",
+          "d": "Black Forest"
+        },
+
+        "options_telugu": {
+          "a": "అరవళ్లి శ్రేణి",
+          "b": "హిమాలయాలు",
+          "c": "వోజెస్",
+          "d": "బ్లాక్ ఫారెస్ట్"
+        },
+
+        "options_hindi": {
+          "a": "अरावली श्रेणी",
+          "b": "हिमालय",
+          "c": "वोजेस",
+          "d": "ब्लैक फॉरेस्ट"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The Himalayas are one of the youngest and most prominent fold mountain systems in the world. They were formed due to the collision between the Indian Plate and the Eurasian Plate. This continental collision generated enormous compressional forces that folded and uplifted sedimentary rocks deposited in the ancient Tethys Sea. The Himalayas continue to rise even today because tectonic convergence between the plates is still active. Thus, they are the classic example of fold mountain formation caused by continental collision.",
+
+        "explanation_telugu": "హిమాలయాలు ప్రపంచంలోని అత్యంత ప్రసిద్ధ యువ మడత పర్వతాలు. భారత ఫలకం మరియు యూరేషియన్ ఫలకం ఢీకొనడం వల్ల ఇవి ఏర్పడ్డాయి. ఈ ఢీకొనడం వల్ల టెథిస్ సముద్రంలోని అవక్షేపాలు మడతపడి పైకెత్తబడ్డాయి. ఇప్పటికీ ఈ ఫలకాల మధ్య ఢీకొనడం కొనసాగుతున్నందున హిమాలయాలు ఇంకా పైకి లేస్తున్నాయి.",
+
+        "explanation_hindi": "हिमालय विश्व की सबसे प्रमुख युवा वलित पर्वतमालाओं में से एक है। इसका निर्माण भारतीय प्लेट एवं यूरेशियन प्लेट की टक्कर से हुआ। इस टक्कर से टेथिस सागर के अवसादी शैल संपीड़ित होकर मुड़ गए और ऊपर उठे। प्लेटीय अभिसरण आज भी जारी है, इसलिए हिमालय अभी भी उठ रहा है।",
+
+        "elimination_logic_english": "The key phrase is ‘continental collision’. The Himalayas are directly linked with Indian-Eurasian plate collision. The Aravallis are ancient residual mountains, while Vosges and Black Forest are associated mainly with block mountain formation. UPSC often tests whether aspirants can distinguish fold mountains from block or residual mountains. Therefore, only the Himalayas fit the given condition precisely.",
+
+        "elimination_logic_telugu": "‘ఖండ ఢీకొనడం’ అనే పదమే ప్రశ్నలో ప్రధాన సూచన. హిమాలయాలు భారత మరియు యూరేషియన్ ఫలకాల ఢీకొనడం వల్ల ఏర్పడ్డాయి. అరవళ్లి పురాతన అవశేష పర్వతాలు కాగా, వోజెస్ మరియు బ్లాక్ ఫారెస్ట్ బ్లాక్ పర్వతాలకు ఉదాహరణలు. UPSC తరచుగా మడత, బ్లాక్ మరియు అవశేష పర్వతాల మధ్య తేడాను పరీక్షిస్తుంది. కాబట్టి సరైన సమాధానం హిమాలయాలే.",
+
+        "elimination_logic_hindi": "प्रश्न में ‘महाद्वीपीय टक्कर’ मुख्य संकेत है। हिमालय भारतीय एवं यूरेशियन प्लेटों की टक्कर से बना है। अरावली प्राचीन अवशिष्ट पर्वत हैं, जबकि वोजेस एवं ब्लैक फॉरेस्ट मुख्यतः ब्लॉक पर्वतों के उदाहरण हैं। UPSC अक्सर वलित, ब्लॉक एवं अवशिष्ट पर्वतों के बीच अंतर पूछता है। अतः सही उत्तर हिमालय है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding fold mountains:\n\n1. Fold mountains are generally formed by compressional forces.\n2. They are commonly associated with convergent plate boundaries.\n3. Fold mountains are usually composed only of igneous rocks.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "మడత పర్వతాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. మడత పర్వతాలు సాధారణంగా సంకోచ శక్తుల వల్ల ఏర్పడతాయి.\n2. ఇవి సాధారణంగా సమ్మిళిత ఫలక సరిహద్దులతో సంబంధం కలిగి ఉంటాయి.\n3. మడత పర్వతాలు సాధారణంగా కేవలం అగ్నిజ రాళ్లతోనే నిర్మితమై ఉంటాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "वलित पर्वतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. वलित पर्वत सामान्यतः संपीड़न बलों से बनते हैं।\n2. ये सामान्यतः अभिसारी प्लेट सीमाओं से संबंधित होते हैं।\n3. वलित पर्वत सामान्यतः केवल आग्नेय शैलों से बने होते हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Fold mountains are formed when crustal rocks are subjected to intense compressional forces, usually at convergent plate boundaries. These forces cause rock layers to bend, fold and uplift into mountain systems. The Himalayas, Andes and Alps are major examples. Fold mountains are not composed only of igneous rocks; they commonly include sedimentary and metamorphic rocks as well. In fact, sedimentary layers deposited in geosynclinal basins often undergo folding during mountain building. Therefore, Statement 3 is incorrect.",
+
+        "explanation_telugu": "మడత పర్వతాలు తీవ్రమైన సంకోచ శక్తుల వల్ల ఏర్పడతాయి, ముఖ్యంగా సమ్మిళిత ఫలక సరిహద్దుల వద్ద. ఈ శక్తుల వల్ల రాతి పొరలు వంగి, మడతపడి పైకి లేస్తాయి. హిమాలయాలు, ఆండీస్ మరియు ఆల్ప్స్ ఇందుకు ఉదాహరణలు. మడత పర్వతాలు కేవలం అగ్నిజ రాళ్లతోనే నిర్మితమై ఉండవు; అవి అవక్షేప మరియు రూపాంతర రాళ్లను కూడా కలిగి ఉంటాయి. కాబట్టి 3వ ప్రకటన తప్పు.",
+
+        "explanation_hindi": "वलित पर्वत तीव्र संपीड़न बलों से बनते हैं, विशेषकर अभिसारी प्लेट सीमाओं पर। इन बलों के कारण शैल परतें मुड़ती, वलित होती और ऊपर उठती हैं। हिमालय, एंडीज और आल्प्स इसके प्रमुख उदाहरण हैं। वलित पर्वत केवल आग्नेय शैलों से नहीं बने होते; उनमें अवसादी एवं कायांतरित शैलें भी होती हैं। अतः कथन 3 गलत है।",
+
+        "elimination_logic_english": "Statement 3 is the trap because UPSC often inserts the word ‘only’ to create an extreme and incorrect statement. Fold mountains involve multiple rock types, especially folded sedimentary sequences. Statements 1 and 2 correctly describe the tectonic setting and mechanism of fold mountain formation. Therefore, option (a) is correct. Aspirants should remember that fold mountains are products of compression, not isolated volcanic activity alone.",
+
+        "elimination_logic_telugu": "3వ ప్రకటనలోని ‘కేవలం’ అనే పదమే ట్రాప్. మడత పర్వతాలు ఒక్క అగ్నిజ రాళ్లతోనే కాకుండా అవక్షేప మరియు రూపాంతర రాళ్లతో కూడా నిర్మితమవుతాయి. 1 మరియు 2 మడత పర్వతాల నిర్మాణ విధానాన్ని సరిగ్గా వివరిస్తాయి. కాబట్టి (a) సరైనది. మడత పర్వతాలు ప్రధానంగా సంకోచ శక్తుల ఫలితమని గుర్తుంచుకోవాలి.",
+
+        "elimination_logic_hindi": "कथन 3 में प्रयुक्त ‘केवल’ शब्द ही जाल है। वलित पर्वत केवल आग्नेय शैलों से नहीं बने होते, बल्कि उनमें अवसादी एवं कायांतरित शैलें भी होती हैं। कथन 1 एवं 2 वलित पर्वत निर्माण की प्रक्रिया एवं विवर्तनिक स्थिति को सही रूप में बताते हैं। अतः विकल्प (a) सही है। अभ्यर्थियों को याद रखना चाहिए कि वलित पर्वत मुख्यतः संपीड़न बलों का परिणाम हैं।"
+      },
+      {
+        "question_english": "Which one of the following pairs is correctly matched?\n\n1. Fold Mountains — Formed mainly by compressional forces\n2. Block Mountains — Formed mainly due to faulting\n3. Volcanic Mountains — Formed due to accumulation of volcanic materials\n\nSelect the correct answer using the code given below.",
+
+        "question_telugu": "క్రింది జంటలలో ఏవి సరైనంగా సరిపోల్చబడ్డాయి?\n\n1. మడత పర్వతాలు — ప్రధానంగా సంకోచ శక్తుల వల్ల ఏర్పడతాయి\n2. బ్లాక్ పర్వతాలు — ప్రధానంగా విరామాల వల్ల ఏర్పడతాయి\n3. అగ్నిపర్వత పర్వతాలు — అగ్నిపర్వత పదార్థాల సమీకరణ వల్ల ఏర్పడతాయి\n\nక్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.",
+
+        "question_hindi": "निम्नलिखित युग्मों में से कौन-से सही सुमेलित हैं?\n\n1. वलित पर्वत — मुख्यतः संपीड़न बलों से निर्मित\n2. ब्लॉक पर्वत — मुख्यतः भ्रंशन से निर्मित\n3. ज्वालामुखीय पर्वत — ज्वालामुखीय पदार्थों के संचय से निर्मित\n\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Mountains are classified on the basis of their mode of formation. Fold mountains are created mainly by compressional tectonic forces that bend and uplift rock layers. Block mountains are formed when large crustal blocks are uplifted or downthrown along faults due to tensional forces. Volcanic mountains develop through repeated accumulation of lava, ash and other volcanic materials around volcanic vents. Each pair in the question correctly represents the geological mechanism responsible for that mountain type. Hence, all three pairs are correctly matched.",
+
+        "explanation_telugu": "పర్వతాలను వాటి నిర్మాణ విధానాన్ని ఆధారంగా వర్గీకరిస్తారు. మడత పర్వతాలు సంకోచ శక్తుల వల్ల రాతి పొరలు వంగి పైకి లేవడం ద్వారా ఏర్పడతాయి. బ్లాక్ పర్వతాలు విరామాల వెంట భూపటల భాగాలు పైకి లేవడం లేదా దిగిపోవడం వల్ల ఏర్పడతాయి. అగ్నిపర్వత పర్వతాలు లావా, బూడిద మరియు ఇతర అగ్నిపర్వత పదార్థాల సమీకరణ వల్ల ఏర్పడతాయి. కాబట్టి మూడు జంటలూ సరైనవే.",
+
+        "explanation_hindi": "पर्वतों का वर्गीकरण उनके निर्माण की प्रक्रिया के आधार पर किया जाता है। वलित पर्वत संपीड़न बलों से शैल परतों के मुड़ने एवं ऊपर उठने से बनते हैं। ब्लॉक पर्वत भ्रंशों के साथ भूपर्पटी खंडों के उठने या धँसने से बनते हैं। ज्वालामुखीय पर्वत लावा, राख एवं अन्य ज्वालामुखीय पदार्थों के संचय से निर्मित होते हैं। अतः तीनों युग्म सही सुमेलित हैं।",
+
+        "elimination_logic_english": "This is a classic UPSC conceptual classification question. Each mountain type must be linked with its dominant geological process. Fold mountains correspond to compression, block mountains to faulting and volcanic mountains to volcanic deposition. UPSC frequently mixes these mechanisms to confuse aspirants between tectonic uplift and volcanic construction. Since all three pairings are geologically accurate, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఇది UPSC తరహా వర్గీకరణ ప్రశ్న. ప్రతి పర్వత రకాన్ని దాని భౌగోళిక నిర్మాణ ప్రక్రియతో సరిపోల్చాలి. మడత పర్వతాలు సంకోచంతో, బ్లాక్ పర్వతాలు విరామాలతో, అగ్నిపర్వత పర్వతాలు అగ్నిపర్వత పదార్థాల సమీకరణతో ఏర్పడతాయి. UPSC తరచుగా ఈ ప్రక్రియలను కలిపి అభ్యర్థులను గందరగోళానికి గురి చేస్తుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह UPSC शैली का वर्गीकरण आधारित प्रश्न है। प्रत्येक पर्वत प्रकार को उसकी प्रमुख भूवैज्ञानिक प्रक्रिया से जोड़ना आवश्यक है। वलित पर्वत संपीड़न, ब्लॉक पर्वत भ्रंशन तथा ज्वालामुखीय पर्वत ज्वालामुखीय निक्षेपण से संबंधित हैं। UPSC अक्सर इन प्रक्रियाओं को मिलाकर भ्रम उत्पन्न करता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding block mountains:\n\n1. Block mountains are formed due to faulting.\n2. They are generally associated with tensional forces.\n3. The Vosges and Black Forest mountains are examples of block mountains.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "బ్లాక్ పర్వతాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. బ్లాక్ పర్వతాలు విరామాల వల్ల ఏర్పడతాయి.\n2. ఇవి సాధారణంగా విస్తరణ శక్తులతో సంబంధం కలిగి ఉంటాయి.\n3. వోజెస్ మరియు బ్లాక్ ఫారెస్ట్ పర్వతాలు బ్లాక్ పర్వతాలకు ఉదాహరణలు.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "ब्लॉक पर्वतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. ब्लॉक पर्वत भ्रंशन के कारण बनते हैं।\n2. ये सामान्यतः प्रसारण बलों से संबंधित होते हैं।\n3. वोजेस एवं ब्लैक फॉरेस्ट पर्वत ब्लॉक पर्वतों के उदाहरण हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Block mountains are formed when large sections of the Earth’s crust move vertically along faults. These movements usually occur under tensional forces that pull the crust apart, creating uplifted blocks called horsts and down-faulted blocks called grabens. The Vosges Mountains in France and the Black Forest Mountains in Germany are classic examples of block mountain formation associated with the Rhine Rift Valley. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "బ్లాక్ పర్వతాలు భూమి భూపటలంలోని పెద్ద భాగాలు విరామాల వెంట పైకి లేవడం వల్ల ఏర్పడతాయి. ఇవి సాధారణంగా విస్తరణ శక్తుల ప్రభావంతో ఏర్పడతాయి. పైకి లేచిన భాగాలను హోర్స్ట్‌లు, దిగిపోయిన భాగాలను గ్రాబెన్‌లు అంటారు. వోజెస్ మరియు బ్లాక్ ఫారెస్ట్ పర్వతాలు ఇందుకు ప్రసిద్ధ ఉదాహరణలు.",
+
+        "explanation_hindi": "ब्लॉक पर्वत तब बनते हैं जब पृथ्वी की भूपर्पटी के बड़े भाग भ्रंशों के साथ ऊपर उठते या नीचे धँसते हैं। यह प्रक्रिया सामान्यतः प्रसारण बलों के कारण होती है। ऊपर उठे खंडों को हॉर्स्ट तथा धँसे हुए भागों को ग्राबेन कहा जाता है। वोजेस एवं ब्लैक फॉरेस्ट पर्वत इसके प्रसिद्ध उदाहरण हैं।",
+
+        "elimination_logic_english": "The question combines process, force and example-based understanding. Statement 1 identifies the mechanism — faulting. Statement 2 links block mountains with tensional stress rather than compression. Statement 3 checks factual knowledge of standard examples. UPSC often mixes fold mountain examples with block mountain examples to create confusion. Since all three statements are correct, option (d) is the right answer.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న నిర్మాణ విధానం, శక్తి మరియు ఉదాహరణలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన విరామాల పాత్రను తెలియజేస్తుంది. 2వ ప్రకటన బ్లాక్ పర్వతాలను విస్తరణ శక్తులతో అనుసంధానం చేస్తుంది. 3వ ప్రకటన ప్రసిద్ధ ఉదాహరణలను పరీక్షిస్తుంది. UPSC తరచుగా మడత మరియు బ్లాక్ పర్వతాల ఉదాహరణలను కలిపి ట్రాప్ సృష్టిస్తుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न निर्माण प्रक्रिया, बल एवं उदाहरण तीनों को जोड़कर पूछता है। कथन 1 भ्रंशन को मुख्य तंत्र बताता है। कथन 2 ब्लॉक पर्वतों को प्रसारण बलों से जोड़ता है। कथन 3 प्रसिद्ध उदाहरणों की जाँच करता है। UPSC अक्सर वलित एवं ब्लॉक पर्वतों के उदाहरणों को मिलाकर भ्रम उत्पन्न करता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains why the Himalayas are considered geologically young mountains?",
+
+        "question_telugu": "హిమాలయాలను భౌగోళికంగా యువ పర్వతాలుగా ఎందుకు పరిగణిస్తారో ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "हिमालय को भूवैज्ञानिक दृष्टि से युवा पर्वत क्यों माना जाता है, इसे निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "They were formed before the Precambrian era",
+          "b": "They are still undergoing tectonic uplift and deformation",
+          "c": "They contain no sedimentary rocks",
+          "d": "They were formed only by volcanic eruptions"
+        },
+
+        "options_telugu": {
+          "a": "అవి ప్రీకాంబ్రియన్ యుగానికి ముందు ఏర్పడ్డాయి",
+          "b": "అవి ఇప్పటికీ టెక్టానిక్ పైకెత్తడం మరియు వికృతీకరణకు లోనవుతున్నాయి",
+          "c": "అందులో అవక్షేప రాళ్లు లేవు",
+          "d": "అవి కేవలం అగ్నిపర్వత విస్ఫోటనాల వల్ల మాత్రమే ఏర్పడ్డాయి"
+        },
+
+        "options_hindi": {
+          "a": "वे प्रीकैम्ब्रियन युग से पहले बने थे",
+          "b": "वे आज भी विवर्तनिक उत्थान एवं विकृति से गुजर रहे हैं",
+          "c": "उनमें कोई अवसादी शैल नहीं है",
+          "d": "वे केवल ज्वालामुखीय विस्फोटों से बने हैं"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "The Himalayas are regarded as geologically young fold mountains because the Indian Plate continues to move northward and collide with the Eurasian Plate even today. This ongoing convergence results in continuous uplift, folding, faulting and seismic activity across the Himalayan region. Young mountains are generally characterized by high elevation, steep slopes, instability and active tectonics. In contrast, older mountains become more eroded and tectonically stable over time. Therefore, the continuing tectonic activity is the main reason the Himalayas are classified as young mountains.",
+
+        "explanation_telugu": "భారత ఫలకం ఇప్పటికీ యూరేషియన్ ఫలకంతో ఢీకొంటూ ఉండటంతో హిమాలయాలు భౌగోళికంగా యువ మడత పర్వతాలుగా పరిగణించబడుతున్నాయి. ఈ నిరంతర ఢీకొనడం వల్ల పైకెత్తడం, మడతలు, విరామాలు మరియు భూకంప చర్యలు కొనసాగుతున్నాయి. యువ పర్వతాలకు అధిక ఎత్తు, నిటారైన వాలు మరియు టెక్టానిక్ అస్థిరత్వం లక్షణాలు. అందువల్ల కొనసాగుతున్న టెక్టానిక్ చర్యలే హిమాలయాలను యువ పర్వతాలుగా చూపుతున్నాయి.",
+
+        "explanation_hindi": "हिमालय को भूवैज्ञानिक दृष्टि से युवा वलित पर्वत माना जाता है क्योंकि भारतीय प्लेट आज भी यूरेशियन प्लेट से टकरा रही है। इस निरंतर अभिसरण के कारण उत्थान, वलन, भ्रंशन एवं भूकंपीय गतिविधियाँ जारी हैं। युवा पर्वतों की विशेषताएँ ऊँचाई, तीव्र ढाल एवं विवर्तनिक सक्रियता होती हैं। इसलिए निरंतर विवर्तनिक गतिविधि ही हिमालय को युवा पर्वत बनाती है।",
+
+        "elimination_logic_english": "Option (b) directly reflects active tectonics, which is the defining feature of young mountains. Option (a) is opposite to reality because Precambrian mountains are extremely ancient. Option (c) is incorrect because the Himalayas contain large sedimentary sequences derived from the Tethys Sea. Option (d) confuses fold mountain formation with volcanic mountain formation. UPSC often tests whether aspirants understand ‘young’ in geological terms, not simply chronological age.",
+
+        "elimination_logic_telugu": "యువ పర్వతాల ప్రధాన లక్షణం కొనసాగుతున్న టెక్టానిక్ చర్యలు. కాబట్టి (b) సరైనది. (a) పూర్తిగా వ్యతిరేకం, ఎందుకంటే ప్రీకాంబ్రియన్ పర్వతాలు అత్యంత పురాతనమైనవి. (c) తప్పు, ఎందుకంటే హిమాలయాల్లో టెథిస్ సముద్ర అవక్షేప రాళ్లు విస్తారంగా ఉన్నాయి. (d) మడత పర్వతాలను అగ్నిపర్వత పర్వతాలతో కలిపి చూపించే ట్రాప్. UPSC ‘యువ’ అనే పదాన్ని భౌగోళిక క్రియాశీలత దృష్టితో పరీక్షిస్తుంది.",
+
+        "elimination_logic_hindi": "युवा पर्वतों की मुख्य पहचान सक्रिय विवर्तनिकी है, इसलिए विकल्प (b) सही है। (a) वास्तविकता के विपरीत है क्योंकि प्रीकैम्ब्रियन पर्वत अत्यंत प्राचीन होते हैं। (c) गलत है क्योंकि हिमालय में टेथिस सागर से संबंधित विशाल अवसादी शैलें मिलती हैं। (d) वलित पर्वतों को ज्वालामुखीय पर्वतों से भ्रमित करता है। UPSC अक्सर ‘युवा’ शब्द को भूवैज्ञानिक सक्रियता के संदर्भ में पूछता है।"
+      },
+      {
+        "question_english": "Consider the following statements regarding residual mountains:\n\n1. Residual mountains are formed mainly by long-term erosion and denudation.\n2. They represent remnants of older mountain systems.\n3. The Aravalli Range is considered an example of residual mountains.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అవశేష పర్వతాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అవశేష పర్వతాలు ప్రధానంగా దీర్ఘకాలిక అపక్షయం మరియు నిర్వర్తన వల్ల ఏర్పడతాయి.\n2. ఇవి పాత పర్వత వ్యవస్థల అవశేషాలుగా ఉంటాయి.\n3. అరవళ్లి శ్రేణి అవశేష పర్వతాలకు ఉదాహరణగా పరిగణించబడుతుంది.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "अवशिष्ट पर्वतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. अवशिष्ट पर्वत मुख्यतः दीर्घकालीन अपरदन एवं अनाच्छादन से बनते हैं।\n2. वे प्राचीन पर्वत प्रणालियों के अवशेष होते हैं।\n3. अरावली श्रेणी अवशिष्ट पर्वतों का उदाहरण मानी जाती है।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "d",
+
+        "explanation_english": "Residual mountains are formed when older mountain systems are subjected to prolonged weathering, erosion and denudation over geological time. Softer rocks are gradually worn away while harder and more resistant rocks remain standing as residual hills or mountains. Such mountains are often remnants of ancient fold mountains that have lost much of their original height and ruggedness. The Aravalli Range in India is one of the oldest mountain systems in the world and is commonly cited as an example of residual mountains due to extensive erosion. Therefore, all three statements are correct.",
+
+        "explanation_telugu": "అవశేష పర్వతాలు పాత పర్వత వ్యవస్థలు దీర్ఘకాలిక అపక్షయం మరియు నిర్వర్తనకు లోనవడం వల్ల ఏర్పడతాయి. మృదువైన రాళ్లు క్రమంగా తొలగిపోతుండగా గట్టి రాళ్లు మాత్రమే మిగిలిపోతాయి. అరవళ్లి శ్రేణి ప్రపంచంలోని అత్యంత పురాతన పర్వత వ్యవస్థలలో ఒకటి మరియు దీర్ఘకాలిక అపక్షయం కారణంగా అవశేష పర్వతాలుగా పరిగణించబడుతుంది. కాబట్టి మూడు ప్రకటనలూ సరైనవి.",
+
+        "explanation_hindi": "अवशिष्ट पर्वत प्राचीन पर्वत प्रणालियों पर दीर्घकालीन अपरदन एवं अनाच्छादन के प्रभाव से बनते हैं। कोमल शैलें धीरे-धीरे हट जाती हैं जबकि कठोर शैलें पर्वतों के रूप में बची रहती हैं। अरावली श्रेणी विश्व की सबसे प्राचीन पर्वतमालाओं में से एक है और अत्यधिक अपरदन के कारण इसे अवशिष्ट पर्वत माना जाता है। अतः तीनों कथन सही हैं।",
+
+        "elimination_logic_english": "The question integrates process, geological history and example-based understanding. Statement 1 explains the mechanism of residual mountain formation through erosion. Statement 2 connects them with ancient mountain remnants, while Statement 3 tests factual knowledge of the Aravallis. UPSC frequently asks whether aspirants can differentiate fold, block and residual mountains using both formation process and examples. Since all statements are correct, option (d) is correct.",
+
+        "elimination_logic_telugu": "ఈ ప్రశ్న నిర్మాణ విధానం, భౌగోళిక చరిత్ర మరియు ఉదాహరణలను కలిపి పరీక్షిస్తుంది. 1వ ప్రకటన అపక్షయం ద్వారా అవశేష పర్వతాల నిర్మాణాన్ని వివరిస్తుంది. 2వ ప్రకటన వాటిని పాత పర్వతాల అవశేషాలతో అనుసంధానం చేస్తుంది. 3వ ప్రకటన అరవళ్లిపై వాస్తవ జ్ఞానాన్ని పరీక్షిస్తుంది. UPSC తరచుగా మడత, బ్లాక్ మరియు అవశేష పర్వతాలను తేడా చేయగలరా అని పరీక్షిస్తుంది. కాబట్టి (d) సరైనది.",
+
+        "elimination_logic_hindi": "यह प्रश्न निर्माण प्रक्रिया, भूवैज्ञानिक इतिहास एवं उदाहरण तीनों को जोड़ता है। कथन 1 अपरदन द्वारा अवशिष्ट पर्वत निर्माण को स्पष्ट करता है। कथन 2 उन्हें प्राचीन पर्वत अवशेषों से जोड़ता है। कथन 3 अरावली के उदाहरण पर आधारित तथ्यात्मक ज्ञान को जाँचता है। UPSC अक्सर वलित, ब्लॉक एवं अवशिष्ट पर्वतों के बीच अंतर पूछता है। अतः विकल्प (d) सही है।"
+      },
+
+      {
+        "question_english": "Which one of the following statements best explains the formation of block mountains?",
+
+        "question_telugu": "బ్లాక్ పర్వతాల నిర్మాణాన్ని ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "ब्लॉक पर्वतों के निर्माण को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Formation due to accumulation of lava around volcanic vents",
+          "b": "Formation due to folding of sedimentary layers under compression",
+          "c": "Formation due to uplift and downthrow of crustal blocks along faults",
+          "d": "Formation entirely due to river deposition"
+        },
+
+        "options_telugu": {
+          "a": "అగ్నిపర్వత రంధ్రాల చుట్టూ లావా సమీకరణ వల్ల ఏర్పడటం",
+          "b": "సంకోచంతో అవక్షేప పొరలు మడతపడటం వల్ల ఏర్పడటం",
+          "c": "విరామాల వెంట భూపటల భాగాలు పైకి లేవడం మరియు దిగిపోవడం వల్ల ఏర్పడటం",
+          "d": "పూర్తిగా నదీ నిక్షేపాల వల్ల ఏర్పడటం"
+        },
+
+        "options_hindi": {
+          "a": "ज्वालामुखीय मुखों के आसपास लावा संचय से निर्माण",
+          "b": "संपीड़न के कारण अवसादी परतों के मुड़ने से निर्माण",
+          "c": "भ्रंशों के साथ भूपर्पटी खंडों के उठने एवं धँसने से निर्माण",
+          "d": "पूर्णतः नदी निक्षेपण से निर्माण"
+        },
+
+        "correct_answer": "c",
+
+        "explanation_english": "Block mountains are formed when tectonic forces create faults in the Earth’s crust, causing certain crustal blocks to rise while adjacent blocks sink. These vertical displacements occur mainly due to tensional forces acting on the lithosphere. The uplifted blocks are called horsts, whereas the depressed blocks are called grabens or rift valleys. This mechanism is entirely different from fold mountain formation, which is associated with compression. Therefore, the correct explanation of block mountain formation is uplift and downthrow along faults.",
+
+        "explanation_telugu": "భూమి భూపటలంలో విరామాలు ఏర్పడి కొన్ని భాగాలు పైకి లేవడం మరియు పక్క భాగాలు దిగిపోవడం వల్ల బ్లాక్ పర్వతాలు ఏర్పడతాయి. ఈ నిలువు కదలికలు సాధారణంగా విస్తరణ శక్తుల వల్ల జరుగుతాయి. పైకి లేచిన భాగాలను హోర్స్ట్‌లు, దిగిపోయిన భాగాలను గ్రాబెన్‌లు అంటారు. ఇది మడత పర్వతాల నిర్మాణ విధానానికి పూర్తిగా భిన్నమైనది. కాబట్టి సరైన సమాధానం విరామాల వెంట భూపటల భాగాల పైకెత్తడం మరియు దిగిపోవడమే.",
+
+        "explanation_hindi": "ब्लॉक पर्वत तब बनते हैं जब विवर्तनिक बल पृथ्वी की भूपर्पटी में भ्रंश उत्पन्न करते हैं और कुछ भूपर्पटी खंड ऊपर उठ जाते हैं जबकि समीपवर्ती भाग नीचे धँस जाते हैं। यह ऊर्ध्वाधर विस्थापन मुख्यतः प्रसारण बलों के कारण होता है। ऊपर उठे खंड हॉर्स्ट कहलाते हैं तथा नीचे धँसे भाग ग्राबेन या रिफ्ट घाटी कहलाते हैं। यह प्रक्रिया वलित पर्वत निर्माण से भिन्न है, जो संपीड़न से संबंधित है।",
+
+        "elimination_logic_english": "Option (a) describes volcanic mountain formation, while option (b) refers to fold mountains. Option (d) is clearly incorrect because rivers cannot create tectonic block mountains. UPSC frequently frames questions by mixing different mountain-building mechanisms. The keyword ‘faults’ directly points toward block mountains, making option (c) the correct answer.",
+
+        "elimination_logic_telugu": "(a) అగ్నిపర్వత పర్వతాలను వివరిస్తుంది, (b) మడత పర్వతాలను సూచిస్తుంది. (d) స్పష్టంగా తప్పు, ఎందుకంటే నదులు టెక్టానిక్ బ్లాక్ పర్వతాలను సృష్టించలేవు. UPSC తరచుగా పర్వత నిర్మాణ విధానాలను కలిపి ట్రాప్ సృష్టిస్తుంది. ‘విరామాలు’ అనే పదమే బ్లాక్ పర్వతాల ప్రధాన సూచన. కాబట్టి (c) సరైనది.",
+
+        "elimination_logic_hindi": "(a) ज्वालामुखीय पर्वत निर्माण को दर्शाता है जबकि (b) वलित पर्वत निर्माण को। (d) स्पष्टतः गलत है क्योंकि नदियाँ विवर्तनिक ब्लॉक पर्वत नहीं बना सकतीं। UPSC अक्सर विभिन्न पर्वत निर्माण प्रक्रियाओं को मिलाकर भ्रम उत्पन्न करता है। ‘भ्रंश’ शब्द सीधे ब्लॉक पर्वतों की ओर संकेत करता है। अतः विकल्प (c) सही है।"
+      },
+
+      {
+        "question_english": "Consider the following statements regarding volcanic mountains:\n\n1. Volcanic mountains are formed due to repeated eruption and accumulation of lava.\n2. Mount Fuji and Mount Kilimanjaro are examples of volcanic mountains.\n3. Volcanic mountains are always associated with convergent plate boundaries only.\n\nWhich of the statements given above are correct?",
+
+        "question_telugu": "అగ్నిపర్వత పర్వతాలకు సంబంధించిన క్రింది ప్రకటనలను పరిశీలించండి:\n\n1. అగ్నిపర్వత పర్వతాలు పునరావృత లావా విస్ఫోటనాలు మరియు సమీకరణ వల్ల ఏర్పడతాయి.\n2. ఫుజి పర్వతం మరియు కిలిమంజారో అగ్నిపర్వత పర్వతాలకు ఉదాహరణలు.\n3. అగ్నిపర్వత పర్వతాలు ఎల్లప్పుడూ కేవలం సమ్మిళిత ఫలక సరిహద్దులతో మాత్రమే సంబంధం కలిగి ఉంటాయి.\n\nపై ప్రకటనలలో ఏవి సరైనవి?",
+
+        "question_hindi": "ज्वालामुखीय पर्वतों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. ज्वालामुखीय पर्वत बार-बार होने वाले लावा उद्गार एवं संचय से बनते हैं।\n2. माउंट फूजी एवं माउंट किलिमंजारो ज्वालामुखीय पर्वतों के उदाहरण हैं।\n3. ज्वालामुखीय पर्वत सदैव केवल अभिसारी प्लेट सीमाओं से ही संबंधित होते हैं।\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+
+        "options_english": {
+          "a": "1 and 2 only",
+          "b": "2 and 3 only",
+          "c": "1 and 3 only",
+          "d": "1, 2 and 3"
+        },
+
+        "options_telugu": {
+          "a": "1 మరియు 2 మాత్రమే",
+          "b": "2 మరియు 3 మాత్రమే",
+          "c": "1 మరియు 3 మాత్రమే",
+          "d": "1, 2 మరియు 3"
+        },
+
+        "options_hindi": {
+          "a": "केवल 1 और 2",
+          "b": "केवल 2 और 3",
+          "c": "केवल 1 और 3",
+          "d": "1, 2 and 3"
+        },
+
+        "correct_answer": "a",
+
+        "explanation_english": "Volcanic mountains are formed when lava, ash and pyroclastic materials accumulate around volcanic vents over repeated eruptions. Mount Fuji in Japan and Mount Kilimanjaro in Tanzania are well-known examples of volcanic mountains. However, volcanic mountains are not associated only with convergent boundaries. They may also occur at divergent boundaries and hotspot regions such as Iceland and Hawaii. Therefore, Statement 3 is incorrect because of the restrictive word ‘only’.",
+
+        "explanation_telugu": "అగ్నిపర్వత పర్వతాలు లావా, బూడిద మరియు ఇతర అగ్నిపర్వత పదార్థాలు పునరావృత విస్ఫోటనాల వల్ల సమీకరించబడటం ద్వారా ఏర్పడతాయి. ఫుజి పర్వతం మరియు కిలిమంజారో ఇందుకు ప్రసిద్ధ ఉదాహరణలు. అయితే ఇవి కేవలం సమ్మిళిత సరిహద్దుల వద్ద మాత్రమే ఏర్పడవు. విభజన సరిహద్దులు మరియు హాట్‌స్పాట్ ప్రాంతాల్లో కూడా ఏర్పడవచ్చు. కాబట్టి 3వ ప్రకటన తప్పు.",
+
+        "explanation_hindi": "ज्वालामुखीय पर्वत लावा, राख एवं अन्य ज्वालामुखीय पदार्थों के बार-बार संचय से बनते हैं। माउंट फूजी एवं माउंट किलिमंजारो इसके प्रमुख उदाहरण हैं। किन्तु ज्वालामुखीय पर्वत केवल अभिसारी सीमाओं तक सीमित नहीं हैं। वे अपसारी सीमाओं तथा हॉटस्पॉट क्षेत्रों में भी बन सकते हैं। इसलिए कथन 3 गलत है।",
+
+        "elimination_logic_english": "Statement 3 contains the trap word ‘only’. Volcanism is not confined exclusively to convergent boundaries. Hotspots like Hawaii and divergent settings like Iceland clearly disprove this statement. Statements 1 and 2 are straightforward geological facts. UPSC frequently uses restrictive words such as ‘always’ and ‘only’ to create incorrect statements. Hence, only Statements 1 and 2 are correct.",
+
+        "elimination_logic_telugu": "3వ ప్రకటనలోని ‘కేవలం’ అనే పదమే ట్రాప్. అగ్నిపర్వతాలు సమ్మిళిత సరిహద్దుల వద్ద మాత్రమే కాకుండా హాట్‌స్పాట్ మరియు విభజన ప్రాంతాల్లో కూడా ఏర్పడతాయి. 1 మరియు 2 సరైన వాస్తవాలు. UPSC తరచుగా ‘ఎల్లప్పుడూ’, ‘కేవలం’ వంటి పదాలను ఉపయోగించి తప్పు ప్రకటనలు రూపొందిస్తుంది. కాబట్టి 1 మరియు 2 మాత్రమే సరైనవి.",
+
+        "elimination_logic_hindi": "कथन 3 में प्रयुक्त ‘केवल’ शब्द ही मुख्य जाल है। ज्वालामुखीय गतिविधि केवल अभिसारी सीमाओं तक सीमित नहीं होती; हवाई जैसे हॉटस्पॉट एवं आइसलैंड जैसे अपसारी क्षेत्र इसके उदाहरण हैं। कथन 1 एवं 2 सही तथ्य हैं। UPSC अक्सर ‘always’ एवं ‘only’ जैसे शब्दों से गलत विकल्प बनाता है। अतः केवल 1 और 2 सही हैं।"
+      },
+
+      {
+        "question_english": "Which one of the following best explains the relationship between tectonic activity and mountain building?",
+
+        "question_telugu": "టెక్టానిక్ చర్యలు మరియు పర్వత నిర్మాణం మధ్య సంబంధాన్ని ఉత్తమంగా వివరిస్తున్నది ఏది?",
+
+        "question_hindi": "विवर्तनिक गतिविधि एवं पर्वत निर्माण के संबंध को निम्नलिखित में से कौन-सा सर्वोत्तम रूप से स्पष्ट करता है?",
+
+        "options_english": {
+          "a": "Mountain building occurs only because of river erosion",
+          "b": "Tectonic plate interactions generate forces that uplift and deform the crust",
+          "c": "Mountains are formed independently of lithospheric movement",
+          "d": "All mountains are produced only by volcanic eruptions"
+        },
+
+        "options_telugu": {
+          "a": "పర్వత నిర్మాణం కేవలం నది అపక్షయం వల్ల మాత్రమే జరుగుతుంది",
+          "b": "టెక్టానిక్ ఫలకాల పరస్పర చర్యలు భూపటలాన్ని పైకెత్తే మరియు వికృతం చేసే శక్తులను సృష్టిస్తాయి",
+          "c": "పర్వతాలు లిథోస్ఫియర్ కదలికలకు సంబంధం లేకుండా ఏర్పడతాయి",
+          "d": "అన్ని పర్వతాలు కేవలం అగ్నిపర్వత విస్ఫోటనాల వల్ల మాత్రమే ఏర్పడతాయి"
+        },
+
+        "options_hindi": {
+          "a": "पर्वत निर्माण केवल नदी अपरदन से होता है",
+          "b": "विवर्तनिक प्लेटों की अंतःक्रियाएँ भूपर्पटी को उठाने एवं विकृत करने वाली शक्तियाँ उत्पन्न करती हैं",
+          "c": "पर्वत स्थलमंडलीय गति से स्वतंत्र रूप से बनते हैं",
+          "d": "सभी पर्वत केवल ज्वालामुखीय विस्फोटों से बनते हैं"
+        },
+
+        "correct_answer": "b",
+
+        "explanation_english": "Mountain building is fundamentally linked with tectonic processes occurring within the Earth’s lithosphere. Interactions between tectonic plates generate compressional, tensional and vertical forces that deform, uplift and fracture the crust. Convergent boundaries produce fold mountains, faulting creates block mountains and volcanic activity forms volcanic mountains. Thus, tectonic activity acts as the central driving mechanism behind most major mountain-building processes. Without lithospheric movement, large-scale orogeny would not occur.",
+
+        "explanation_telugu": "పర్వత నిర్మాణం భూమి లిథోస్ఫియర్‌లో జరిగే టెక్టానిక్ ప్రక్రియలతో నేరుగా సంబంధం కలిగి ఉంటుంది. ఫలకాల పరస్పర చర్యల వల్ల సంకోచ, విస్తరణ మరియు నిలువు శక్తులు ఉత్పన్నమై భూపటలాన్ని పైకెత్తి వికృతం చేస్తాయి. సమ్మిళిత సరిహద్దులు మడత పర్వతాలను, విరామాలు బ్లాక్ పర్వతాలను, అగ్నిపర్వత చర్యలు అగ్నిపర్వత పర్వతాలను సృష్టిస్తాయి. అందువల్ల టెక్టానిక్ చర్యలే పర్వత నిర్మాణానికి ప్రధాన చోదక శక్తి.",
+
+        "explanation_hindi": "पर्वत निर्माण पृथ्वी के स्थलमंडल में होने वाली विवर्तनिक प्रक्रियाओं से सीधे जुड़ा है। प्लेटों की अंतःक्रियाओं से संपीड़न, प्रसारण एवं ऊर्ध्वाधर बल उत्पन्न होते हैं जो भूपर्पटी को विकृत एवं ऊपर उठाते हैं। अभिसारी सीमाएँ वलित पर्वत बनाती हैं, भ्रंशन ब्लॉक पर्वत उत्पन्न करता है तथा ज्वालामुखीय गतिविधियाँ ज्वालामुखीय पर्वत बनाती हैं। इसलिए विवर्तनिक गतिविधि पर्वत निर्माण की प्रमुख प्रेरक शक्ति है।",
+
+        "elimination_logic_english": "Option (a) wrongly reduces mountain building to erosion, which actually lowers relief rather than creates major mountains. Option (c) ignores the role of lithospheric plates entirely. Option (d) incorrectly generalizes all mountains as volcanic. UPSC frequently asks broad conceptual questions to test whether aspirants understand tectonics as the unifying framework behind mountain-building processes. Option (b) alone captures the full tectonic relationship correctly.",
+
+        "elimination_logic_telugu": "(a) తప్పు, ఎందుకంటే అపక్షయం సాధారణంగా భూప్రదేశాన్ని తగ్గిస్తుంది కానీ ప్రధాన పర్వతాలను సృష్టించదు. (c) లిథోస్ఫియర్ ఫలకాల పాత్రను పూర్తిగా నిర్లక్ష్యం చేస్తుంది. (d) అన్ని పర్వతాలను అగ్నిపర్వతాలుగా సాధారణీకరిస్తుంది. UPSC తరచుగా టెక్టానిక్స్‌ను పర్వత నిర్మాణానికి ప్రధాన ఆధారంగా అర్థం చేసుకున్నారా అని పరీక్షిస్తుంది. కాబట్టి (b) మాత్రమే సరైన సమగ్ర వివరణ.",
+
+        "elimination_logic_hindi": "(a) गलत है क्योंकि अपरदन सामान्यतः स्थलरूप को कम करता है, बड़े पर्वत नहीं बनाता। (c) स्थलमंडलीय प्लेटों की भूमिका को पूरी तरह नकारता है। (d) सभी पर्वतों को ज्वालामुखीय मानकर गलत सामान्यीकरण करता है। UPSC अक्सर यह जाँचता है कि अभ्यर्थी विवर्तनिकी को पर्वत निर्माण के मूल ढाँचे के रूप में समझता है या नहीं। इसलिए केवल विकल्प (b) सही है।"
+      }
+    ]
   }
 }
