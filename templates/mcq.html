@@ -247,19 +247,58 @@ let currentIndex = 0;
 let score = 0;
 let userAnswers = [];
 
-async function loadMCQs() {
-  try {
-    const response = await fetch("/static/json/mcqs.json");
+/*
+  ✅ Add future MCQ files here only.
+  Keep files inside: static/json/
+*/
+const mcqFiles = [
+  "/static/json/mcqs_ancient_history_part1.json",
+  "/static/json/mcqs_ancient_history_part2.json",
+  "/static/json/mcqs_ancient_history_part3.json"
+];
 
-    if (!response.ok) {
-      throw new Error("mcqs.json not found");
+async function loadJSONFile(path) {
+  const response = await fetch(path);
+
+  if (!response.ok) {
+    console.warn(path + " not found or not loaded.");
+    return {};
+  }
+
+  return await response.json();
+}
+
+function mergeMCQData(target, source) {
+  Object.keys(source).forEach(subject => {
+    if (!target[subject]) {
+      target[subject] = {};
     }
 
-    mcqData = await response.json();
+    Object.keys(source[subject]).forEach(section => {
+      if (!target[subject][section]) {
+        target[subject][section] = {};
+      }
+
+      Object.keys(source[subject][section]).forEach(topic => {
+        target[subject][section][topic] = source[subject][section][topic];
+      });
+    });
+  });
+}
+
+async function loadMCQs() {
+  try {
+    mcqData = {};
+
+    for (const file of mcqFiles) {
+      const data = await loadJSONFile(file);
+      mergeMCQData(mcqData, data);
+    }
+
     populateSubjects();
 
   } catch (error) {
-    alert("MCQ JSON loading failed. Check /static/json/mcqs.json");
+    alert("MCQ JSON loading failed. Check your MCQ JSON files.");
     console.error(error);
   }
 }
