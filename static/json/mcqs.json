@@ -1,1 +1,22 @@
-
+{
+  "History": {
+    "Ancient History": {
+      "Prehistoric India": {
+        "questions": [
+          {
+            "question": "Which one of the following best describes the Paleolithic Age?",
+            "options": {
+              "a": "Age of iron tools and urbanisation",
+              "b": "Age of polished stone tools",
+              "c": "Old Stone Age characterized by hunting and gathering",
+              "d": "Age of large-scale agriculture"
+            },
+            "correct_answer": "c",
+            "explanation": "The Paleolithic Age is known as the Old Stone Age. Humans primarily depended on hunting, gathering and crude stone tools during this period. Agriculture and settled life had not yet developed.",
+            "elimination_logic": "Option (a) relates to Iron Age developments. Option (b) refers mainly to Neolithic culture where polished tools became common. Option (d) is associated with Neolithic agricultural practices. Hence, option (c) is correct."
+          }
+        ]
+      }
+    }
+  }
+}
