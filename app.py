@@ -253,11 +253,6 @@ def notes_page():
     return render_template("notes.html")
 
 
-@app.route("/reports")
-def reports_page():
-    return render_template("reports.html")
-
-
 @app.route("/mcq")
 def mcq_page():
     return render_template("mcq.html")
