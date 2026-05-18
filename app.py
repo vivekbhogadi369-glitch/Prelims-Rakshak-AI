@@ -34,16 +34,8 @@ def load_pyqs_json():
 
 PYQS_DATA = load_pyqs_json()
 
-# ✅ MCQ JSON LOADERS
-ANCIENT_MCQS_DATA = load_json_file("static/json/mcqs_ancient_history.json")
-MEDIEVAL_MCQS_DATA = load_json_file("static/json/mcqs_medieval_history.json")
-MODERN_MCQS_DATA = load_json_file("static/json/mcqs_modern_history.json")
-POLITY_MCQS_DATA = load_json_file("static/json/mcqs_polity.json")
-
-# ✅ WORLD GEOGRAPHY MCQ PART FILES
-WORLD_GEOGRAPHY_MCQS_PART1 = load_json_file("static/json/mcqs_world_geography_part1.json")
-WORLD_GEOGRAPHY_MCQS_PART2 = load_json_file("static/json/mcqs_world_geography_part2.json")
-WORLD_GEOGRAPHY_MCQS_PART3 = load_json_file("static/json/mcqs_world_geography_part3.json")
+# ✅ CLEAN SINGLE MCQ JSON LOAD
+MCQS_DATA = load_json_file("static/json/mcqs.json")
 
 
 def get_pyq_subjects():
@@ -240,6 +232,14 @@ def pyq_questions():
     subject = request.args.get("subject", "").strip()
     topic = request.args.get("topic", "").strip()
     return jsonify({"questions": get_pyqs_by_subject_topic(subject, topic)})
+
+
+# ✅ OPTIONAL MCQ API ROUTE
+# Frontend can directly fetch /static/json/mcqs.json,
+# but this route is useful if you want backend access later.
+@app.route("/mcq-data", methods=["GET"])
+def mcq_data():
+    return jsonify(MCQS_DATA)
 
 
 @app.route("/generate-audio", methods=["POST"])
