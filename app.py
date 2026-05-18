@@ -34,8 +34,44 @@ def load_pyqs_json():
 
 PYQS_DATA = load_pyqs_json()
 
-# ✅ CLEAN SINGLE MCQ JSON LOAD
-MCQS_DATA = load_json_file("static/json/mcqs.json")
+
+# ✅ SPLIT MCQ JSON FILES
+MCQ_FILES = [
+    "static/json/mcqs_ancient_history_part1.json",
+    "static/json/mcqs_ancient_history_part2.json",
+    "static/json/mcqs_ancient_history_part3.json"
+]
+
+
+def merge_mcq_data(target, source):
+    for subject in source:
+
+        if subject not in target:
+            target[subject] = {}
+
+        for section in source[subject]:
+
+            if section not in target[subject]:
+                target[subject][section] = {}
+
+            for topic in source[subject][section]:
+                target[subject][section][topic] = source[subject][section][topic]
+
+
+def load_all_mcqs():
+    combined = {}
+
+    for file_path in MCQ_FILES:
+        data = load_json_file(file_path)
+
+        if isinstance(data, dict):
+            merge_mcq_data(combined, data)
+
+    return combined
+
+
+# ✅ ALL MCQS LOADED HERE
+MCQS_DATA = load_all_mcqs()
 
 
 def get_pyq_subjects():
@@ -110,6 +146,7 @@ def extract_pyq_blocks(text):
     for raw_title, raw_content in matches:
         title = raw_title.strip()
         content = raw_content.strip()
+
         if title and content:
             blocks.append((title, content))
 
@@ -132,7 +169,10 @@ def score_topic_match(topic_norm, title_norm):
     common = topic_words.intersection(title_words)
 
     overlap_score = len(common) * 100 if topic_words and title_words else 0
-    fuzzy_score = int(SequenceMatcher(None, topic_norm, title_norm).ratio() * 100)
+
+    fuzzy_score = int(
+        SequenceMatcher(None, topic_norm, title_norm).ratio() * 100
+    )
 
     return overlap_score + fuzzy_score
 
@@ -142,10 +182,12 @@ def get_pyqs_from_txt(topic):
         return "No PYQs came from this subtopic so far."
 
     topic_norm = normalize_topic(topic)
+
     if not topic_norm:
         return "No PYQs came from this subtopic so far."
 
     blocks = extract_pyq_blocks(PYQ_TEXT)
+
     if not blocks:
         return "No PYQs came from this subtopic so far."
 
@@ -154,6 +196,7 @@ def get_pyqs_from_txt(topic):
 
     for raw_title, raw_content in blocks:
         title_norm = normalize_topic(raw_title)
+
         score = score_topic_match(topic_norm, title_norm)
 
         if score > best_score:
@@ -176,8 +219,10 @@ def get_language_code(language):
 
     if language == "telugu":
         return "te-IN"
+
     if language == "hindi":
         return "hi-IN"
+
     return "en-IN"
 
 
@@ -186,8 +231,10 @@ def get_speaker(language):
 
     if language == "telugu":
         return "neha"
+
     if language == "hindi":
         return "shubh"
+
     return "shubh"
 
 
@@ -231,12 +278,13 @@ def pyq_topics():
 def pyq_questions():
     subject = request.args.get("subject", "").strip()
     topic = request.args.get("topic", "").strip()
-    return jsonify({"questions": get_pyqs_by_subject_topic(subject, topic)})
+
+    return jsonify({
+        "questions": get_pyqs_by_subject_topic(subject, topic)
+    })
 
 
-# ✅ OPTIONAL MCQ API ROUTE
-# Frontend can directly fetch /static/json/mcqs.json,
-# but this route is useful if you want backend access later.
+# ✅ OPTIONAL MCQ API
 @app.route("/mcq-data", methods=["GET"])
 def mcq_data():
     return jsonify(MCQS_DATA)
@@ -253,6 +301,7 @@ def generate_audio():
         data = request.get_json() or {}
 
         text = trim_text_for_tts(data.get("text", ""))
+
         language = data.get("language", "english")
 
         if not text:
@@ -285,6 +334,7 @@ def generate_audio():
             }), 500
 
         result = response.json()
+
         audios = result.get("audios", [])
 
         if not audios:
@@ -301,4 +351,7 @@ def generate_audio():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8080))
+    )
