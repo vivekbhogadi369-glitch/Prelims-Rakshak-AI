@@ -1,517 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>MCQ Practice</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f7fb;
-      margin: 0;
-      padding: 16px;
-      color: #111827;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-
-    .box {
-      background: white;
-      padding: 20px;
-      border-radius: 16px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-      margin-bottom: 18px;
-    }
-
-    .language-buttons {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 18px;
-    }
-
-    .lang-btn {
-      flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 12px;
-      background: #e5e7eb;
-      font-weight: bold;
-      font-size: 15px;
-    }
-
-    .active-lang {
-      background: #1f2937;
-      color: white;
-    }
-
-    label {
-      font-size: 17px;
-      font-weight: bold;
-      display: block;
-      margin: 12px 0 8px;
-    }
-
-    select {
-      width: 100%;
-      padding: 14px;
-      border-radius: 12px;
-      border: 1px solid #d1d5db;
-      font-size: 16px;
-      margin-bottom: 12px;
-      background: #f9fafb;
-    }
-
-    .back-btn {
-      display: none;
-      margin-bottom: 14px;
-      background: #1f2937;
-      color: white;
-      border: none;
-      padding: 11px 18px;
-      border-radius: 10px;
-      font-size: 15px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    .progress-container {
-      width: 100%;
-      height: 12px;
-      background: #e5e7eb;
-      border-radius: 20px;
-      overflow: hidden;
-      margin-bottom: 10px;
-    }
-
-    .progress-bar {
-      height: 100%;
-      width: 0%;
-      background: #1f2937;
-      transition: width 0.4s ease;
-    }
-
-    .progress-text, .question-count, .score {
-      font-size: 15px;
-      font-weight: bold;
-      margin-bottom: 12px;
-      color: #4b5563;
-    }
-
-    .question {
-      font-size: 19px;
-      font-weight: bold;
-      line-height: 1.8;
-      margin: 20px 0 24px;
-      white-space: pre-line;
-    }
-
-    .option {
-      background: #f3f4f6;
-      padding: 16px;
-      border-radius: 12px;
-      margin-bottom: 14px;
-      font-size: 17px;
-      line-height: 1.7;
-      border: 2px solid transparent;
-      cursor: pointer;
-      white-space: pre-line;
-    }
-
-    .correct {
-      background: #dcfce7;
-      border: 2px solid #16a34a;
-    }
-
-    .wrong {
-      background: #fee2e2;
-      border: 2px solid #dc2626;
-    }
-
-    .resultBox {
-      display: none;
-      margin-top: 18px;
-      background: #f9fafb;
-      padding: 18px;
-      border-radius: 12px;
-      line-height: 1.8;
-    }
-
-    .resultBox h3 {
-      margin-top: 0;
-      font-size: 20px;
-    }
-
-    .resultBox p {
-      white-space: pre-line;
-      font-size: 16px;
-    }
-
-    .nav-buttons {
-      display: flex;
-      gap: 12px;
-      margin-top: 22px;
-    }
-
-    .nav-buttons button, .retry-btn {
-      flex: 1;
-      padding: 14px;
-      border: none;
-      border-radius: 12px;
-      background: #1f2937;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    .nav-buttons button:disabled {
-      background: #9ca3af;
-    }
-
-    .final-score {
-      text-align: center;
-      font-size: 21px;
-      font-weight: bold;
-      margin-bottom: 18px;
-      line-height: 1.7;
-    }
-
-    .feedback {
-      text-align: center;
-      font-size: 17px;
-      line-height: 1.8;
-      margin-bottom: 20px;
-      white-space: pre-line;
-    }
-  </style>
-</head>
-
-<body>
-
-<h1 id="pageTitle">MCQ Practice</h1>
-
-<div id="selectionBox" class="box">
-  <div id="languageSection" class="language-buttons">
-    <button class="lang-btn active-lang" onclick="changeLanguage('english', this)">English</button>
-    <button class="lang-btn" onclick="changeLanguage('telugu', this)">తెలుగు</button>
-    <button class="lang-btn" onclick="changeLanguage('hindi', this)">हिन्दी</button>
-  </div>
-
-  <label id="subjectLabel">Select Subject</label>
-  <select id="subjectSelect"></select>
-
-  <label id="topicLabel">Select Topic</label>
-  <select id="topicSelect"></select>
-</div>
-
-<button id="backButton" class="back-btn" onclick="goBack()">← Back</button>
-
-<div id="mcqBox" class="box" style="display:none;">
-  <div class="progress-container">
-    <div id="progressBar" class="progress-bar"></div>
-  </div>
-
-  <div id="progressText" class="progress-text"></div>
-  <div id="questionCount" class="question-count"></div>
-  <div id="scoreBox" class="score"></div>
-
-  <div id="questionText" class="question"></div>
-  <div id="optionsBox"></div>
-
-  <div id="explanationBox" class="resultBox">
-    <h3 id="explanationHeading">Explanation</h3>
-    <p id="explanationText"></p>
-  </div>
-
-  <div id="eliminationBox" class="resultBox">
-    <h3 id="eliminationHeading">Elimination Logic</h3>
-    <p id="eliminationText"></p>
-  </div>
-
-  <div class="nav-buttons">
-    <button id="prevBtn" onclick="previousQuestion()">Previous</button>
-    <button id="nextBtn" onclick="nextQuestion()">Next</button>
-  </div>
-</div>
-
-<div id="finalBox" class="box" style="display:none;">
-  <div id="finalScore" class="final-score"></div>
-  <div id="finalFeedback" class="feedback"></div>
-  <button id="retryBtn" class="retry-btn" onclick="retryQuiz()">Retry Quiz</button>
-</div>
-
 <script>
 let mcqData = {};
 let questions = [];
 let currentIndex = 0;
 let score = 0;
 let userAnswers = [];
-let currentLanguage = "english";
-
-const translations = {
-  english: {
-    pageTitle: "MCQ Practice",
-    subjectLabel: "Select Subject",
-    topicLabel: "Select Topic",
-    selectSubject: "Select Subject",
-    selectTopic: "Select Topic",
-    progress: "Progress",
-    question: "Question",
-    score: "Score",
-    explanation: "Explanation",
-    elimination: "Elimination Logic",
-    previous: "Previous",
-    next: "Next",
-    finish: "Finish Quiz",
-    retry: "Retry Quiz",
-    back: "← Back",
-    accuracy: "Accuracy",
-    subjectNames: {
-      "Ancient History": "Ancient History",
-      "Medieval History": "Medieval Indian History",
-      "Modern History": "Modern Indian History",
-      "Polity": "Polity",
-      "World Geography": "World Geography"
-    }
-  },
-
-  telugu: {
-    pageTitle: "ఎంసిక్యూ సాధన",
-    subjectLabel: "విషయాన్ని ఎంచుకోండి",
-    topicLabel: "అంశాన్ని ఎంచుకోండి",
-    selectSubject: "విషయాన్ని ఎంచుకోండి",
-    selectTopic: "అంశాన్ని ఎంచుకోండి",
-    progress: "పురోగతి",
-    question: "ప్రశ్న",
-    score: "మార్కులు",
-    explanation: "వివరణ",
-    elimination: "తొలగింపు తర్కం",
-    previous: "మునుపటి",
-    next: "తదుపరి",
-    finish: "క్విజ్ ముగించు",
-    retry: "మళ్లీ ప్రయత్నించండి",
-    back: "← వెనక్కి",
-    accuracy: "ఖచ్చితత్వం",
-    subjectNames: {
-      "Ancient History": "ప్రాచీన భారత చరిత్ర",
-      "Medieval History": "మధ్యయుగ భారత చరిత్ర",
-      "Modern History": "ఆధునిక భారత చరిత్ర",
-      "Polity": "భారత రాజ్యాంగం",
-      "World Geography": "ప్రపంచ భూగోళ శాస్త్రం"
-    }
-  },
-
-  hindi: {
-    pageTitle: "एमसीक्यू अभ्यास",
-    subjectLabel: "विषय चुनिए",
-    topicLabel: "टॉपिक चुनिए",
-    selectSubject: "विषय चुनिए",
-    selectTopic: "टॉपिक चुनिए",
-    progress: "प्रगति",
-    question: "प्रश्न",
-    score: "अंक",
-    explanation: "व्याख्या",
-    elimination: "उन्मूलन तर्क",
-    previous: "पिछला",
-    next: "अगला",
-    finish: "क्विज समाप्त करें",
-    retry: "पुनः प्रयास करें",
-    back: "← वापस",
-    accuracy: "सटीकता",
-    subjectNames: {
-      "Ancient History": "प्राचीन भारतीय इतिहास",
-      "Medieval History": "मध्यकालीन भारतीय इतिहास",
-      "Modern History": "आधुनिक भारतीय इतिहास",
-      "Polity": "भारतीय राजव्यवस्था",
-      "World Geography": "विश्व भूगोल"
-    }
-  }
-};
-
-function t() {
-  return translations[currentLanguage];
-}
-
-function cleanExamTerms(text) {
-  if (!text) return "";
-
-  if (currentLanguage === "telugu") {
-    return text
-      .replaceAll("Assertion (A)", "ప్రతిపాదన (A)")
-      .replaceAll("Reason (R)", "కారణం (R)")
-      .replaceAll("Assertion", "ప్రతిపాదన")
-      .replaceAll("Reason", "కారణం")
-      .replaceAll("Match the following", "క్రింది వాటిని జతపరచండి")
-      .replaceAll("List I", "జాబితా I")
-      .replaceAll("List II", "జాబితా II")
-      .replaceAll("Select the correct answer using the code given below.", "క్రింది కోడ్ ఆధారంగా సరైన సమాధానాన్ని ఎంచుకోండి.")
-      .replaceAll("Which one of the following is correct?", "క్రింది వాటిలో ఏది సరైనది?")
-      .replaceAll("Which of the statements given above is/are correct?", "పై ప్రకటనలలో ఏవి సరైనవి?")
-      .replaceAll("consider the following statements", "క్రింది ప్రకటనలను పరిశీలించండి")
-      .replaceAll("With reference to", "సంబంధించి");
-  }
-
-  if (currentLanguage === "hindi") {
-    return text
-      .replaceAll("Assertion (A)", "अभिकथन (A)")
-      .replaceAll("Reason (R)", "कारण (R)")
-      .replaceAll("Assertion", "अभिकथन")
-      .replaceAll("Reason", "कारण")
-      .replaceAll("Match the following", "निम्नलिखित का मिलान कीजिए")
-      .replaceAll("List I", "सूची I")
-      .replaceAll("List II", "सूची II")
-      .replaceAll("Select the correct answer using the code given below.", "नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए।")
-      .replaceAll("Which one of the following is correct?", "निम्नलिखित में से कौन-सा सही है?")
-      .replaceAll("Which of the statements given above is/are correct?", "उपर्युक्त कथनों में से कौन-सा/से सही है/हैं?")
-      .replaceAll("consider the following statements", "निम्नलिखित कथनों पर विचार कीजिए")
-      .replaceAll("With reference to", "के संदर्भ में");
-  }
-
-  return text;
-}
-
-function getSubjectName(subject) {
-  return t().subjectNames[subject] || subject;
-}
-
-function getTopicName(subject, topic) {
-  const topicData = mcqData?.[subject]?.[topic];
-
-  if (currentLanguage === "telugu") {
-    return topicData?.topic_telugu || topic;
-  }
-
-  if (currentLanguage === "hindi") {
-    return topicData?.topic_hindi || topic;
-  }
-
-  return topicData?.topic_english || topic;
-}
-
-function applyLanguageLabels() {
-  document.getElementById("pageTitle").textContent = t().pageTitle;
-  document.getElementById("subjectLabel").textContent = t().subjectLabel;
-  document.getElementById("topicLabel").textContent = t().topicLabel;
-  document.getElementById("explanationHeading").textContent = t().explanation;
-  document.getElementById("eliminationHeading").textContent = t().elimination;
-  document.getElementById("prevBtn").textContent = t().previous;
-  document.getElementById("retryBtn").textContent = t().retry;
-  document.getElementById("backButton").textContent = t().back;
-
-  populateSubjects();
-
-  if (questions.length > 0 && document.getElementById("mcqBox").style.display !== "none") {
-    showQuestion();
-  }
-}
-
-function populateSubjects() {
-  const subjectSelect = document.getElementById("subjectSelect");
-  const currentValue = subjectSelect.value;
-
-  subjectSelect.innerHTML = "";
-
-  const defaultOption = document.createElement("option");
-  defaultOption.value = "";
-  defaultOption.textContent = t().selectSubject;
-  subjectSelect.appendChild(defaultOption);
-
-  Object.keys(mcqData).forEach(subject => {
-    const option = document.createElement("option");
-    option.value = subject;
-    option.textContent = getSubjectName(subject);
-    subjectSelect.appendChild(option);
-  });
-
-  subjectSelect.value = currentValue;
-  populateTopics();
-}
-
-function populateTopics() {
-  const subject = document.getElementById("subjectSelect").value;
-  const topicSelect = document.getElementById("topicSelect");
-  const currentTopic = topicSelect.value;
-
-  topicSelect.innerHTML = "";
-
-  const defaultOption = document.createElement("option");
-  defaultOption.value = "";
-  defaultOption.textContent = t().selectTopic;
-  topicSelect.appendChild(defaultOption);
-
-  if (!subject || !mcqData[subject]) return;
-
-  Object.keys(mcqData[subject]).forEach(topic => {
-    if (
-      topic.startsWith("_") ||
-      topic === "subject_english" ||
-      topic === "subject_telugu" ||
-      topic === "subject_hindi"
-    ) return;
-
-    const option = document.createElement("option");
-    option.value = topic;
-    option.textContent = getTopicName(subject, topic);
-    topicSelect.appendChild(option);
-  });
-
-  topicSelect.value = currentTopic;
-}
-
-function changeLanguage(language, button) {
-  currentLanguage = language;
-
-  document.querySelectorAll(".lang-btn").forEach(btn => {
-    btn.classList.remove("active-lang");
-  });
-
-  button.classList.add("active-lang");
-  applyLanguageLabels();
-}
-
-function extractTopics(data, subjectKey) {
-  if (!data) return {};
-  if (data.topics) return data.topics;
-  if (data[subjectKey]?.topics) return data[subjectKey].topics;
-  if (data[subjectKey]) return data[subjectKey];
-  return data;
-}
-
-async function loadJSON(path) {
-  const response = await fetch(path);
-  if (!response.ok) throw new Error(path + " not found");
-  return await response.json();
-}
 
 async function loadMCQs() {
   try {
-    const ancientData = await loadJSON("/static/json/mcqs_ancient_history.json");
-    const medievalData = await loadJSON("/static/json/mcqs_medieval_history.json");
-    const modernData = await loadJSON("/static/json/mcqs_modern_history.json");
-    const polityData = await loadJSON("/static/json/mcqs_polity.json");
+    const response = await fetch("/static/json/mcqs.json");
 
-    const worldGeo1 = await loadJSON("/static/json/mcqs_world_geography_part1.json");
-    const worldGeo2 = await loadJSON("/static/json/mcqs_world_geography_part2.json");
-    const worldGeo3 = await loadJSON("/static/json/mcqs_world_geography_part3.json");
+    if (!response.ok) {
+      throw new Error("mcqs.json not found");
+    }
 
-    mcqData = {
-      "Ancient History": extractTopics(ancientData, "Ancient History"),
-      "Medieval History": extractTopics(medievalData, "Medieval History"),
-      "Modern History": extractTopics(modernData, "Modern History"),
-      "Polity": extractTopics(polityData, "Polity"),
+    mcqData = await response.json();
 
-      "World Geography": {
-        ...extractTopics(worldGeo1, "World Geography"),
-        ...extractTopics(worldGeo2, "World Geography"),
-        ...extractTopics(worldGeo3, "World Geography")
-      }
-    };
-
-    applyLanguageLabels();
+    populateSubjects();
 
   } catch (error) {
     alert("MCQ JSON loading failed.");
@@ -519,68 +23,144 @@ async function loadMCQs() {
   }
 }
 
-document.getElementById("subjectSelect").addEventListener("change", function () {
+function populateSubjects() {
+  const subjectSelect = document.getElementById("subjectSelect");
+
+  subjectSelect.innerHTML = `
+    <option value="">Select Subject</option>
+  `;
+
+  Object.keys(mcqData).forEach(subject => {
+    const option = document.createElement("option");
+    option.value = subject;
+    option.textContent = subject;
+    subjectSelect.appendChild(option);
+  });
+
   populateTopics();
+}
+
+function populateTopics() {
+  const subject = document.getElementById("subjectSelect").value;
+  const topicSelect = document.getElementById("topicSelect");
+
+  topicSelect.innerHTML = `
+    <option value="">Select Topic</option>
+  `;
+
+  if (!subject || !mcqData[subject]) return;
+
+  Object.keys(mcqData[subject]).forEach(section => {
+
+    Object.keys(mcqData[subject][section]).forEach(topic => {
+
+      const option = document.createElement("option");
+
+      option.value = JSON.stringify({
+        section,
+        topic
+      });
+
+      option.textContent = section + " → " + topic;
+
+      topicSelect.appendChild(option);
+    });
+  });
+}
+
+document.getElementById("subjectSelect").addEventListener("change", function () {
+
+  populateTopics();
+
   document.getElementById("mcqBox").style.display = "none";
   document.getElementById("finalBox").style.display = "none";
 });
 
 document.getElementById("topicSelect").addEventListener("change", function () {
+
   const subject = document.getElementById("subjectSelect").value;
-  const topic = this.value;
 
-  if (!subject || !topic) return;
+  if (!subject || !this.value) return;
 
-  const topicData = mcqData[subject][topic];
+  const parsed = JSON.parse(this.value);
 
-  questions = topicData.questions || topicData;
+  const section = parsed.section;
+  const topic = parsed.topic;
+
+  questions =
+    mcqData[subject][section][topic].questions || [];
 
   currentIndex = 0;
   score = 0;
+
   userAnswers = new Array(questions.length).fill(null);
 
   document.getElementById("selectionBox").style.display = "none";
+
   document.getElementById("backButton").style.display = "inline-block";
+
   document.getElementById("finalBox").style.display = "none";
+
   document.getElementById("mcqBox").style.display = "block";
 
   showQuestion();
 });
 
 function showQuestion() {
+
   const currentQuestion = questions[currentIndex];
+
   const selectedAnswer = userAnswers[currentIndex];
 
-  const progressPercent = Math.round(((currentIndex + 1) / questions.length) * 100);
-  document.getElementById("progressBar").style.width = progressPercent + "%";
-  document.getElementById("progressText").textContent = t().progress + ": " + progressPercent + "%";
+  const progressPercent =
+    Math.round(((currentIndex + 1) / questions.length) * 100);
+
+  document.getElementById("progressBar").style.width =
+    progressPercent + "%";
+
+  document.getElementById("progressText").textContent =
+    "Progress: " + progressPercent + "%";
 
   document.getElementById("questionCount").textContent =
-    t().question + " " + (currentIndex + 1) + " / " + questions.length;
+    "Question " + (currentIndex + 1) + " / " + questions.length;
 
   document.getElementById("scoreBox").textContent =
-    t().score + ": " + score + " / " + questions.length;
+    "Score: " + score + " / " + questions.length;
 
   document.getElementById("questionText").textContent =
-    cleanExamTerms(currentQuestion["question_" + currentLanguage]);
+    currentQuestion.question;
 
   document.getElementById("explanationBox").style.display = "none";
+
   document.getElementById("eliminationBox").style.display = "none";
 
   const optionsBox = document.getElementById("optionsBox");
+
   optionsBox.innerHTML = "";
 
-  const currentOptions = currentQuestion["options_" + currentLanguage];
+  Object.entries(currentQuestion.options).forEach(([key, value]) => {
 
-  Object.entries(currentOptions).forEach(([key, value]) => {
     const div = document.createElement("div");
+
     div.className = "option";
-    div.textContent = key + ") " + cleanExamTerms(value);
+
+    div.textContent = key + ") " + value;
 
     if (selectedAnswer !== null) {
-      if (key === currentQuestion.correct_answer) div.classList.add("correct");
-      if (key === selectedAnswer && selectedAnswer !== currentQuestion.correct_answer) div.classList.add("wrong");
+
+      if (key === currentQuestion.correct_answer) {
+        div.classList.add("correct");
+      }
+
+      if (
+        key === selectedAnswer &&
+        selectedAnswer !== currentQuestion.correct_answer
+      ) {
+        div.classList.add("wrong");
+      }
+
     } else {
+
       div.onclick = function () {
         checkAnswer(key);
       };
@@ -590,26 +170,35 @@ function showQuestion() {
   });
 
   if (selectedAnswer !== null) {
+
     document.getElementById("explanationText").textContent =
-      cleanExamTerms(currentQuestion["explanation_" + currentLanguage]);
+      currentQuestion.explanation;
 
     document.getElementById("eliminationText").textContent =
-      cleanExamTerms(currentQuestion["elimination_logic_" + currentLanguage]);
+      currentQuestion.elimination_logic;
 
     document.getElementById("explanationBox").style.display = "block";
+
     document.getElementById("eliminationBox").style.display = "block";
   }
 
-  document.getElementById("prevBtn").disabled = currentIndex === 0;
+  document.getElementById("prevBtn").disabled =
+    currentIndex === 0;
 
   if (currentIndex === questions.length - 1) {
-    document.getElementById("nextBtn").textContent = t().finish;
+
+    document.getElementById("nextBtn").textContent =
+      "Finish Quiz";
+
   } else {
-    document.getElementById("nextBtn").textContent = t().next;
+
+    document.getElementById("nextBtn").textContent =
+      "Next";
   }
 }
 
 function checkAnswer(selectedKey) {
+
   const currentQuestion = questions[currentIndex];
 
   if (userAnswers[currentIndex] !== null) return;
@@ -624,80 +213,101 @@ function checkAnswer(selectedKey) {
 }
 
 function previousQuestion() {
+
   if (currentIndex > 0) {
+
     currentIndex--;
+
     showQuestion();
   }
 }
 
 function nextQuestion() {
+
   if (currentIndex < questions.length - 1) {
+
     currentIndex++;
+
     showQuestion();
+
   } else {
+
     showFinalResult();
   }
 }
 
 function showFinalResult() {
-  const percentage = Math.round((score / questions.length) * 100);
+
+  const percentage =
+    Math.round((score / questions.length) * 100);
 
   document.getElementById("mcqBox").style.display = "none";
+
   document.getElementById("finalBox").style.display = "block";
 
   document.getElementById("finalScore").textContent =
-    t().score + ": " + score + " / " + questions.length + " | " +
-    t().accuracy + ": " + percentage + "%";
+    "Score: " + score + " / " + questions.length +
+    " | Accuracy: " + percentage + "%";
 
   let feedback = "";
 
-  if (currentLanguage === "telugu") {
-    feedback = percentage === 100
-      ? "అద్భుతం. పూర్తి ఖచ్చితత్వం సాధించారు. ఈ అంశంపై మీ సాధన బలంగా ఉంది."
-      : "మంచి ప్రయత్నం. భావాలను మళ్లీ పునశ్చరణ చేసి, తొలగింపు తర్కంపై ఇంకా సాధన చేయండి.";
-  } else if (currentLanguage === "hindi") {
-    feedback = percentage === 100
-      ? "उत्कृष्ट। पूर्ण सटीकता प्राप्त हुई। इस टॉपिक पर आपकी तैयारी मजबूत है।"
-      : "अच्छा प्रयास। अवधारणाओं को दोहराइए और उन्मूलन तर्क पर अधिक अभ्यास कीजिए।";
+  if (percentage === 100) {
+
+    feedback =
+      "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level.";
+
   } else {
-    feedback = percentage === 100
-      ? "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level."
-      : "Good attempt. Revise the concepts and practise elimination logic again.";
+
+    feedback =
+      "Good attempt. Revise the concepts and practise elimination logic again.";
   }
 
-  document.getElementById("finalFeedback").textContent = feedback;
-  document.getElementById("retryBtn").style.display = percentage === 100 ? "none" : "block";
+  document.getElementById("finalFeedback").textContent =
+    feedback;
+
+  document.getElementById("retryBtn").style.display =
+    percentage === 100 ? "none" : "block";
 }
 
 function retryQuiz() {
+
   currentIndex = 0;
+
   score = 0;
+
   userAnswers = new Array(questions.length).fill(null);
 
   document.getElementById("finalBox").style.display = "none";
+
   document.getElementById("mcqBox").style.display = "block";
+
   document.getElementById("retryBtn").style.display = "block";
 
   showQuestion();
 }
 
 function goBack() {
+
   document.getElementById("selectionBox").style.display = "block";
+
   document.getElementById("backButton").style.display = "none";
+
   document.getElementById("mcqBox").style.display = "none";
+
   document.getElementById("finalBox").style.display = "none";
 
   document.getElementById("subjectSelect").value = "";
+
   populateTopics();
 
   questions = [];
+
   currentIndex = 0;
+
   score = 0;
+
   userAnswers = [];
 }
 
 loadMCQs();
 </script>
-
-</body>
-</html>
