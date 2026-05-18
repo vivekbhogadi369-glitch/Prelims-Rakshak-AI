@@ -253,6 +253,11 @@ def notes_page():
     return render_template("notes.html")
 
 
+@app.route("/daily-news")
+def daily_news_page():
+    return render_template("dailynews.html")
+
+
 @app.route("/mcq")
 def mcq_page():
     return render_template("mcq.html")
