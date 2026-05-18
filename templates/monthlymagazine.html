@@ -1,1 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Magazine - Prelims Rakshak AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 950px;
+            margin: auto;
+            padding: 16px;
+            background: #f5f7fb;
+            color: #111827;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d3557;
+            margin-bottom: 10px;
+        }
+
+        .top-box {
+            background: white;
+            padding: 18px;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #1d3557;
+        }
+
+        .subject-btn {
+            width: 100%;
+            padding: 14px;
+            margin-top: 12px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .topic-card {
+            background: white;
+            padding: 18px;
+            margin-top: 16px;
+            border-radius: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            line-height: 1.7;
+        }
+
+        .topic-title {
+            font-size: 21px;
+            font-weight: bold;
+            color: #1d3557;
+            margin-bottom: 10px;
+        }
+
+        .sub-heading {
+            font-weight: bold;
+            margin-top: 14px;
+            color: #284879;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .warning-box {
+            background: #fff7ed;
+            border-left: 5px solid #ea580c;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 14px;
+            font-weight: 600;
+            color: #7c2d12;
+        }
+
+        .back-btn {
+            width: 100%;
+            padding: 14px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #6b7280, #374151);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<h1>📅 Monthly Magazine</h1>
+
+<div class="top-box">
+
+    <div class="section-title">
+        March 2026 Monthly Current Affairs Magazine
+    </div>
+
+    <p>
+        This magazine is a compressed PIB-based monthly revision magazine specially designed
+        for UPSC and other government exam aspirants.
+    </p>
+
+    <p>
+        The focus is on:
+    </p>
+
+    <ul>
+        <li>Prelims-oriented quick revision</li>
+        <li>Important facts and schemes</li>
+        <li>Government reports and policies</li>
+        <li>Environment, Economy and Science-Tech updates</li>
+        <li>Mobile-friendly snippet learning</li>
+    </ul>
+
+    <div class="warning-box">
+        ⚠️ This is a compressed revision magazine. Focus on revision and retention instead of reading bulky current affairs PDFs.
+    </div>
+
+</div>
+
+<div id="subjects-container"></div>
+
+<div id="topics-container"></div>
+
+<button class="back-btn" onclick="location.href='/'">
+    ⬅ Back to Home
+</button>
+
+<script>
+
+let subjectsContainer = document.getElementById("subjects-container");
+let topicsContainer = document.getElementById("topics-container");
+
+async function loadMagazineIndex() {
+
+    const response = await fetch("/static/json/magazines/march_2026_index.json");
+
+    const data = await response.json();
+
+    subjectsContainer.innerHTML = "";
+
+    data.subjects.forEach(subject => {
+
+        subjectsContainer.innerHTML += `
+            <button class="subject-btn" onclick="loadSubject('${subject.file}')">
+                ${subject.name}
+            </button>
+        `;
+    });
+}
+
+async function loadSubject(filePath) {
+
+    topicsContainer.innerHTML = "<p>Loading...</p>";
+
+    const response = await fetch(filePath);
+
+    const data = await response.json();
+
+    topicsContainer.innerHTML = "";
+
+    data.topics.forEach(topic => {
+
+        topicsContainer.innerHTML += `
+
+            <div class="topic-card">
+
+                <div class="topic-title">
+                    ${topic.topic}
+                </div>
+
+                <div class="sub-heading">
+                    Why in News
+                </div>
+
+                <p>${topic.why_in_news}</p>
+
+                <div class="sub-heading">
+                    Prelims Quick Notes
+                </div>
+
+                <ul>
+                    ${topic.prelims_quick_notes.map(point => `<li>${point}</li>`).join("")}
+                </ul>
+
+                <div class="sub-heading">
+                    Important Facts
+                </div>
+
+                <ul>
+                    ${topic.important_facts.map(point => `<li>${point}</li>`).join("")}
+                </ul>
+
+                <div class="sub-heading">
+                    Exam Relevance
+                </div>
+
+                <ul>
+                    ${topic.exam_relevance.map(point => `<li>${point}</li>`).join("")}
+                </ul>
+
+                <div class="sub-heading">
+                    Prelims Traps
+                </div>
+
+                <ul>
+                    ${topic.prelims_traps.map(point => `<li>${point}</li>`).join("")}
+                </ul>
+
+            </div>
+
+        `;
+    });
+}
+
+loadMagazineIndex();
+
+</script>
+
+</body>
+</html>
