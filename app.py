@@ -258,6 +258,11 @@ def daily_news_page():
     return render_template("dailynews.html")
 
 
+@app.route("/job-alerts")
+def job_alerts_page():
+    return render_template("jobalerts.html")
+
+
 @app.route("/mcq")
 def mcq_page():
     return render_template("mcq.html")
