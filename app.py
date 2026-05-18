@@ -263,6 +263,11 @@ def job_alerts_page():
     return render_template("jobalerts.html")
 
 
+@app.route("/monthly-magazine")
+def monthly_magazine_page():
+    return render_template("monthlymagazine.html")
+
+
 @app.route("/mcq")
 def mcq_page():
     return render_template("mcq.html")
