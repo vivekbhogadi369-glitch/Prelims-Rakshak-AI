@@ -110,6 +110,24 @@
       border: 2px solid #dc2626;
     }
 
+    .reveal-buttons {
+      display: none;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .reveal-buttons button {
+      flex: 1;
+      padding: 13px;
+      border: none;
+      border-radius: 12px;
+      background: #374151;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
     .resultBox {
       display: none;
       margin-top: 18px;
@@ -194,6 +212,11 @@
 
   <div id="questionText" class="question"></div>
   <div id="optionsBox"></div>
+
+  <div id="revealButtons" class="reveal-buttons">
+    <button onclick="showExplanation()">Show Explanation</button>
+    <button onclick="showElimination()">Show Elimination Logic</button>
+  </div>
 
   <div id="explanationBox" class="resultBox">
     <h3>Explanation</h3>
@@ -335,6 +358,7 @@ function showQuestion() {
 
   document.getElementById("questionText").textContent = currentQuestion.question || "";
 
+  document.getElementById("revealButtons").style.display = "none";
   document.getElementById("explanationBox").style.display = "none";
   document.getElementById("eliminationBox").style.display = "none";
 
@@ -366,17 +390,31 @@ function showQuestion() {
   });
 
   if (selectedAnswer !== null) {
-    document.getElementById("explanationText").textContent = currentQuestion.explanation || "";
-    document.getElementById("eliminationText").textContent = currentQuestion.elimination_logic || "";
-
-    document.getElementById("explanationBox").style.display = "block";
-    document.getElementById("eliminationBox").style.display = "block";
+    document.getElementById("revealButtons").style.display = "flex";
   }
 
   document.getElementById("prevBtn").disabled = currentIndex === 0;
 
   document.getElementById("nextBtn").textContent =
     currentIndex === questions.length - 1 ? "Finish Quiz" : "Next";
+}
+
+function showExplanation() {
+  const currentQuestion = questions[currentIndex];
+
+  document.getElementById("explanationText").textContent =
+    currentQuestion.explanation || "";
+
+  document.getElementById("explanationBox").style.display = "block";
+}
+
+function showElimination() {
+  const currentQuestion = questions[currentIndex];
+
+  document.getElementById("eliminationText").textContent =
+    currentQuestion.elimination_logic || "";
+
+  document.getElementById("eliminationBox").style.display = "block";
 }
 
 function checkAnswer(selectedKey) {
@@ -418,13 +456,23 @@ function showFinalResult() {
   document.getElementById("finalScore").textContent =
     "Score: " + score + " / " + questions.length + " | Accuracy: " + percentage + "%";
 
-  document.getElementById("finalFeedback").textContent =
-    percentage === 100
-      ? "Outstanding. Perfect accuracy. You have mastered this topic at a strong UPSC practice level."
-      : "Good attempt. Revise the concepts and practise elimination logic again.";
+  let feedback = "";
 
-  document.getElementById("retryBtn").style.display =
-    percentage === 100 ? "none" : "block";
+  if (score < 5) {
+    feedback = "Don't worry, revise the notes, fundamentals, and facts well.";
+    document.getElementById("retryBtn").style.display = "block";
+  } else if (score >= 5 && score <= 7) {
+    feedback = "Not bad, you can improve through revision of notes.";
+    document.getElementById("retryBtn").style.display = "block";
+  } else if (score > 7 && score < 10) {
+    feedback = "Great, retry the quiz with a quick revision of notes.";
+    document.getElementById("retryBtn").style.display = "block";
+  } else {
+    feedback = "Excellent, you are on right track. Keep going.";
+    document.getElementById("retryBtn").style.display = "none";
+  }
+
+  document.getElementById("finalFeedback").textContent = feedback;
 }
 
 function retryQuiz() {
