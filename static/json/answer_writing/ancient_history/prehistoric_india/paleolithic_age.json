@@ -3,20 +3,89 @@
   "topic": "Prehistoric India",
   "subtopic": "Paleolithic Age",
   "questions": [
-    [
-  {
-    "id": "paleolithic_15_1",
-    "marks": 15,
-    "word_limit": 150,
-    "question": "The Paleolithic Age marked the earliest stage of human technological and cultural evolution, distinguished primarily by the use of crude chipped stone tools. Explain the major features of this phase."
-  },
+    {
+      "id": "paleolithic_15_1",
+      "marks": 15,
+      "word_limit": 150,
 
-  {
-    "id": "paleolithic_20_1",
-    "marks": 20,
-    "word_limit": 250,
-    "question": "The Paleolithic Age in India is broadly classified into Lower, Middle and Upper Paleolithic phases based on variations in stone tool technology and changing climatic conditions. Discuss the characteristics of these phases."
-  }
-    ]
+      "question": "The Paleolithic Age marked the earliest stage of human technological and cultural evolution, distinguished primarily by the use of crude chipped stone tools. Explain the major features of this phase.",
+
+      "model_answer": {
+
+        "introduction": "The Paleolithic Age or Old Stone Age represents the earliest phase of human cultural evolution characterized by the use of primitive chipped stone tools, food gathering economy and complete dependence on nature for survival. It formed the foundation of early human technological and social development.",
+
+        "body": {
+
+          "Technological Features": [
+            "Humans used crude and unpolished stone tools such as hand axes, cleavers, choppers and scrapers.",
+            "Tools were mainly made of hard rocks like quartzite through stone-chipping techniques.",
+            "The gradual refinement of tool technology reflected increasing human adaptability and cognitive development."
+          ],
+
+          "Economic Life": [
+            "The Paleolithic economy was based on hunting, fishing and food gathering.",
+            "Humans were nomadic in nature and constantly moved in search of food, water and shelter.",
+            "There was no evidence of agriculture, pottery or domestication of animals during this phase."
+          ],
+
+          "Social and Cultural Features": [
+            "People lived in small groups and often occupied caves and rock shelters.",
+            "The discovery and controlled use of fire was a turning point in human survival and protection.",
+            "Rock paintings and carvings indicate the beginnings of artistic and cultural expression."
+          ],
+
+          "Important Paleolithic Sites": [
+            "Bhimbetka rock shelters in Madhya Pradesh provide important evidence of Paleolithic life and art.",
+            "Other important sites include Soan Valley, Hunsgi, Belan Valley and Narmada Valley."
+          ]
+        },
+
+        "conclusion": "Thus, the Paleolithic Age laid the foundation for later human technological progress and cultural evolution, marking the beginning of mankind’s long historical journey towards settled civilization."
+      }
+    },
+
+    {
+      "id": "paleolithic_20_1",
+      "marks": 20,
+      "word_limit": 250,
+
+      "question": "The Paleolithic Age in India is broadly classified into Lower, Middle and Upper Paleolithic phases based on variations in stone tool technology and changing climatic conditions. Discuss the characteristics of these phases.",
+
+      "model_answer": {
+
+        "introduction": "The Paleolithic Age represents the earliest and longest phase of human history. In India, it is classified into Lower, Middle and Upper Paleolithic phases on the basis of technological advancement in stone tools and changing climatic conditions, reflecting gradual human adaptation and cultural evolution.",
+
+        "body": {
+
+          "Lower Paleolithic Phase": [
+            "This phase is associated with the earliest human occupation and the dominance of Acheulian and pebble tool cultures.",
+            "People used heavy and crude tools such as hand axes, cleavers and choppers made mainly of quartzite.",
+            "Human life was entirely dependent on hunting and gathering with a nomadic lifestyle.",
+            "Important sites include Soan Valley, Hunsgi, Attirampakkam and Narmada Valley."
+          ],
+
+          "Middle Paleolithic Phase": [
+            "This phase witnessed climatic fluctuations and the emergence of smaller and more refined stone tools.",
+            "Flake-based tools became prominent, indicating technological improvement and greater efficiency.",
+            "Humans showed improved adaptability to environmental conditions and better hunting practices.",
+            "Important evidence has been found from Nevasa, Belan Valley and Central Indian regions."
+          ],
+
+          "Upper Paleolithic Phase": [
+            "This phase marked significant cultural and technological advancement with the use of blades and burins.",
+            "There was greater development of artistic expression in the form of cave paintings and carvings.",
+            "Humans demonstrated improved cognitive ability, social organization and tool specialization.",
+            "Bhimbetka rock shelters provide important evidence of Upper Paleolithic cultural life."
+          ],
+
+          "Climatic and Cultural Significance": [
+            "The transition between phases was closely linked with changing climatic conditions during the Pleistocene period.",
+            "Each phase reflected increasing human adaptability, technological progress and cultural complexity."
+          ]
+        },
+
+        "conclusion": "Thus, the three Paleolithic phases collectively reflect the gradual evolution of early human society in India from primitive survival strategies to greater technological sophistication and cultural development."
+      }
+    }
   ]
 }
