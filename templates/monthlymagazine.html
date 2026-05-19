@@ -94,10 +94,6 @@
             font-weight: 600;
             color: #7c2d12;
         }
-
-        .hidden {
-            display: none;
-        }
     </style>
 </head>
 
@@ -109,8 +105,8 @@
     <div class="section-title">Monthly Current Affairs Magazine</div>
 
     <p>
-        Select a month to study compressed PIB-based monthly current affairs
-        in mobile-friendly snippet format.
+        Select a month, then subject, then topic to study compressed PIB-based
+        current affairs in mobile-friendly snippet format.
     </p>
 
     <div class="warning-box">
@@ -119,6 +115,7 @@
 </div>
 
 <div id="months-container"></div>
+<div id="subjects-container"></div>
 <div id="topics-container"></div>
 <div id="reader-container"></div>
 
@@ -129,6 +126,7 @@
 <script>
 let allTopics = [];
 let currentIndex = 0;
+let currentSubject = "";
 
 const magazines = [
     {
@@ -139,6 +137,7 @@ const magazines = [
 
 function showMonths() {
     document.getElementById("months-container").innerHTML = "";
+    document.getElementById("subjects-container").innerHTML = "";
     document.getElementById("topics-container").innerHTML = "";
     document.getElementById("reader-container").innerHTML = "";
 
@@ -152,29 +151,54 @@ function showMonths() {
 }
 
 async function loadMonth(index) {
+    document.getElementById("months-container").innerHTML = "";
+    document.getElementById("topics-container").innerHTML = "";
     document.getElementById("reader-container").innerHTML = "";
-    document.getElementById("topics-container").innerHTML = "<p>Loading topics...</p>";
 
     const response = await fetch(magazines[index].indexFile);
     const data = await response.json();
 
-    allTopics = [];
+    let html = `
+        <div class="top-box">
+            <div class="section-title">Select Subject</div>
+        </div>
+    `;
 
-    for (const subject of data.subjects) {
-        const subjectResponse = await fetch(subject.file);
-        const subjectData = await subjectResponse.json();
+    data.subjects.forEach(subject => {
+        html += `
+            <button class="btn topic-btn" onclick="loadSubject('${subject.file}', '${subject.name}')">
+                ${subject.name}
+            </button>
+        `;
+    });
 
-        subjectData.topics.forEach(topic => {
-            topic.subject = subject.name;
-            allTopics.push(topic);
-        });
-    }
+    html += `
+        <button class="btn back-btn" onclick="showMonths()">
+            ⬅ Back to Months
+        </button>
+    `;
 
-    showTopicButtons();
+    document.getElementById("subjects-container").innerHTML = html;
 }
 
-function showTopicButtons() {
-    let html = `<div class="top-box"><div class="section-title">Select Topic</div></div>`;
+async function loadSubject(filePath, subjectName) {
+    currentSubject = subjectName;
+
+    document.getElementById("subjects-container").innerHTML = "";
+    document.getElementById("reader-container").innerHTML = "";
+    document.getElementById("topics-container").innerHTML = "<p>Loading topics...</p>";
+
+    const response = await fetch(filePath);
+    const data = await response.json();
+
+    allTopics = data.topics;
+
+    let html = `
+        <div class="top-box">
+            <div class="section-title">${subjectName}</div>
+            <p>Select a topic to read.</p>
+        </div>
+    `;
 
     allTopics.forEach((topic, index) => {
         html += `
@@ -183,6 +207,12 @@ function showTopicButtons() {
             </button>
         `;
     });
+
+    html += `
+        <button class="btn back-btn" onclick="loadMonth(0)">
+            ⬅ Back to Subjects
+        </button>
+    `;
 
     document.getElementById("topics-container").innerHTML = html;
 }
@@ -197,7 +227,7 @@ function openTopic(index) {
         <div class="topic-card">
             <div class="topic-title">${topic.topic}</div>
 
-            <p><strong>Subject:</strong> ${topic.subject}</p>
+            <p><strong>Subject:</strong> ${currentSubject}</p>
 
             <div class="sub-heading">Why in News</div>
             <p>${topic.why_in_news}</p>
@@ -222,26 +252,54 @@ function openTopic(index) {
 
         <button class="btn nav-btn" onclick="previousTopic()">⬅ Previous</button>
         <button class="btn nav-btn" onclick="nextTopic()">Next ➡</button>
-        <button class="btn back-btn" onclick="showTopicButtons(); document.getElementById('reader-container').innerHTML=''">
+
+        <button class="btn back-btn" onclick="backToTopics()">
             ⬅ Back to Topics
         </button>
+
         <button class="btn back-btn" onclick="showMonths()">
             ⬅ Back to Months
         </button>
     `;
+
+    window.scrollTo(0, 0);
+}
+
+function backToTopics() {
+    let html = `
+        <div class="top-box">
+            <div class="section-title">${currentSubject}</div>
+            <p>Select a topic to read.</p>
+        </div>
+    `;
+
+    allTopics.forEach((topic, index) => {
+        html += `
+            <button class="btn topic-btn" onclick="openTopic(${index})">
+                ${topic.topic}
+            </button>
+        `;
+    });
+
+    html += `
+        <button class="btn back-btn" onclick="loadMonth(0)">
+            ⬅ Back to Subjects
+        </button>
+    `;
+
+    document.getElementById("reader-container").innerHTML = "";
+    document.getElementById("topics-container").innerHTML = html;
 }
 
 function nextTopic() {
     if (currentIndex < allTopics.length - 1) {
         openTopic(currentIndex + 1);
-        window.scrollTo(0, 0);
     }
 }
 
 function previousTopic() {
     if (currentIndex > 0) {
         openTopic(currentIndex - 1);
-        window.scrollTo(0, 0);
     }
 }
 
