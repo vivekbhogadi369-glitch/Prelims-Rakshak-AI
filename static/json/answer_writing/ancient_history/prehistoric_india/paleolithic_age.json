@@ -2,5 +2,21 @@
   "subject": "Ancient History",
   "topic": "Prehistoric India",
   "subtopic": "Paleolithic Age",
-  "questions": []
+  "questions": [
+    [
+  {
+    "id": "paleolithic_15_1",
+    "marks": 15,
+    "word_limit": 150,
+    "question": "The Paleolithic Age marked the earliest stage of human technological and cultural evolution, distinguished primarily by the use of crude chipped stone tools. Explain the major features of this phase."
+  },
+
+  {
+    "id": "paleolithic_20_1",
+    "marks": 20,
+    "word_limit": 250,
+    "question": "The Paleolithic Age in India is broadly classified into Lower, Middle and Upper Paleolithic phases based on variations in stone tool technology and changing climatic conditions. Discuss the characteristics of these phases."
+  }
+    ]
+  ]
 }
