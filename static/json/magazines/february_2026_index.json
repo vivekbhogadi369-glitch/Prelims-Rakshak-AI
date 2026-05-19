@@ -1,0 +1,42 @@
+{
+  "month": "February 2026",
+
+  "subjects": [
+
+    {
+      "name": "Polity & Governance",
+      "file": "/static/json/magazines/february_2026_polity.json"
+    },
+
+    {
+      "name": "Social Justice",
+      "file": "/static/json/magazines/february_2026_social_justice.json"
+    },
+
+    {
+      "name": "International Relations",
+      "file": "/static/json/magazines/february_2026_ir.json"
+    },
+
+    {
+      "name": "Economy",
+      "file": "/static/json/magazines/february_2026_economy.json"
+    },
+
+    {
+      "name": "Science & Technology",
+      "file": "/static/json/magazines/february_2026_science_tech.json"
+    },
+
+    {
+      "name": "Internal Security",
+      "file": "/static/json/magazines/february_2026_security.json"
+    },
+
+    {
+      "name": "History & Culture",
+      "file": "/static/json/magazines/february_2026_history_culture.json"
+    }
+
+  ]
+}
