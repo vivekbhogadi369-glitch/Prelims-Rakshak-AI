@@ -294,6 +294,59 @@ function openTopic(index) {
 
     document.getElementById("topics-container").innerHTML = "";
 
+    let navigationButtons = "";
+
+    if (allTopics.length === 1) {
+
+        navigationButtons = "";
+
+    } else if (currentIndex === 0) {
+
+        navigationButtons = `
+
+            <button class="btn nav-btn"
+                onclick="nextTopic()">
+
+                Next ➡
+
+            </button>
+
+        `;
+
+    } else if (currentIndex === allTopics.length - 1) {
+
+        navigationButtons = `
+
+            <button class="btn nav-btn"
+                onclick="previousTopic()">
+
+                ⬅ Previous
+
+            </button>
+
+        `;
+
+    } else {
+
+        navigationButtons = `
+
+            <button class="btn nav-btn"
+                onclick="previousTopic()">
+
+                ⬅ Previous
+
+            </button>
+
+            <button class="btn nav-btn"
+                onclick="nextTopic()">
+
+                Next ➡
+
+            </button>
+
+        `;
+    }
+
     document.getElementById("reader-container").innerHTML = `
 
         <div class="topic-card">
@@ -396,19 +449,7 @@ function openTopic(index) {
 
         </div>
 
-        <button class="btn nav-btn"
-            onclick="previousTopic()">
-
-            ⬅ Previous
-
-        </button>
-
-        <button class="btn nav-btn"
-            onclick="nextTopic()">
-
-            Next ➡
-
-        </button>
+        ${navigationButtons}
 
         <button class="btn back-btn"
             onclick="backToTopics()">
