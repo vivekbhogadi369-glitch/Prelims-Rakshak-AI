@@ -5,11 +5,344 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <style>
+
+    body{
+      font-family: Arial, sans-serif;
+      background:#f5f7fb;
+      margin:0;
+      padding:16px;
+      color:#111827;
+    }
+
+    h1{
+      text-align:center;
+      font-size:28px;
+      margin-bottom:24px;
+    }
+
+    .section-title{
+      font-size:22px;
+      font-weight:bold;
+      margin-top:24px;
+      margin-bottom:14px;
+    }
+
+    .button-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      margin-bottom:20px;
+    }
+
+    .select-btn{
+      background:white;
+      border:none;
+      border-radius:16px;
+      padding:16px;
+      font-size:16px;
+      font-weight:bold;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      cursor:pointer;
+    }
+
+    .question-box{
+      background:white;
+      padding:20px;
+      border-radius:18px;
+      margin-bottom:20px;
+      box-shadow:0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    .question-header{
+      font-size:15px;
+      font-weight:bold;
+      color:#2563eb;
+      margin-bottom:12px;
+    }
+
+    .question-text{
+      font-size:17px;
+      line-height:1.7;
+      margin-bottom:20px;
+    }
+
+    .upload-buttons{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+
+    .upload-btn{
+      background:#111827;
+      color:white;
+      border:none;
+      border-radius:14px;
+      padding:14px;
+      font-size:15px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+
+    .model-answer-btn{
+      background:#2563eb;
+      color:white;
+      border:none;
+      border-radius:14px;
+      padding:14px;
+      font-size:15px;
+      font-weight:bold;
+      margin-top:18px;
+      width:100%;
+      cursor:pointer;
+    }
+
+    .model-answer{
+      display:none;
+      margin-top:20px;
+      background:#f9fafb;
+      padding:18px;
+      border-radius:14px;
+      line-height:1.7;
+    }
+
+    .answer-heading{
+      font-size:18px;
+      font-weight:bold;
+      margin-bottom:10px;
+    }
+
+    .subheading{
+      font-weight:bold;
+      margin-top:14px;
+      margin-bottom:8px;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+  </style>
 </head>
 
 <body>
 
   <h1>Daily Answer Writing</h1>
+
+  <div class="section-title">Subjects</div>
+
+  <div class="button-grid">
+
+    <button class="select-btn">
+      Ancient History
+    </button>
+
+    <button class="select-btn">
+      Medieval History
+    </button>
+
+    <button class="select-btn">
+      Modern History
+    </button>
+
+    <button class="select-btn">
+      Polity
+    </button>
+
+  </div>
+
+  <div class="section-title">Topics</div>
+
+  <div class="button-grid">
+
+    <button class="select-btn">
+      Prehistoric India
+    </button>
+
+    <button class="select-btn">
+      Indus Valley Civilization
+    </button>
+
+  </div>
+
+  <div class="section-title">Subtopics</div>
+
+  <div class="button-grid">
+
+    <button class="select-btn">
+      Paleolithic Age
+    </button>
+
+    <button class="select-btn">
+      Mesolithic Age
+    </button>
+
+  </div>
+
+
+  <div class="question-box">
+
+    <div class="question-header">
+      15 Marks • 150 Words
+    </div>
+
+    <div class="question-text">
+      The Paleolithic Age marked the earliest stage of human technological and cultural evolution, distinguished primarily by the use of crude chipped stone tools. Explain the major features of this phase.
+    </div>
+
+    <div class="upload-buttons">
+
+      <button class="upload-btn">
+        Take Photo
+      </button>
+
+      <button class="upload-btn">
+        Upload Image
+      </button>
+
+      <button class="upload-btn">
+        Upload PDF
+      </button>
+
+    </div>
+
+    <button class="model-answer-btn" onclick="toggleAnswer('answer1')">
+      View Model Answer
+    </button>
+
+    <div class="model-answer" id="answer1">
+
+      <div class="answer-heading">
+        Model Answer
+      </div>
+
+      <div class="subheading">
+        Introduction
+      </div>
+
+      <p>
+        The Paleolithic Age or Old Stone Age represents the earliest phase of human cultural evolution characterized by primitive chipped stone tools, hunting-gathering economy and complete dependence on nature for survival.
+      </p>
+
+      <div class="subheading">
+        Body
+      </div>
+
+      <ul>
+        <li>Humans used crude stone tools such as hand axes, choppers and cleavers.</li>
+
+        <li>The economy was based on hunting, fishing and food gathering.</li>
+
+        <li>People followed a nomadic lifestyle and lived in caves and rock shelters.</li>
+
+        <li>The use of fire marked an important development in human survival.</li>
+
+        <li>Bhimbetka rock shelters provide important evidence of Paleolithic culture.</li>
+      </ul>
+
+      <div class="subheading">
+        Conclusion
+      </div>
+
+      <p>
+        Thus, the Paleolithic Age laid the foundation for later human technological and cultural advancement.
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="question-box">
+
+    <div class="question-header">
+      20 Marks • 250 Words
+    </div>
+
+    <div class="question-text">
+      The Paleolithic Age in India is broadly classified into Lower, Middle and Upper Paleolithic phases based on variations in stone tool technology and changing climatic conditions. Discuss the characteristics of these phases.
+    </div>
+
+    <div class="upload-buttons">
+
+      <button class="upload-btn">
+        Take Photo
+      </button>
+
+      <button class="upload-btn">
+        Upload Image
+      </button>
+
+      <button class="upload-btn">
+        Upload PDF
+      </button>
+
+    </div>
+
+    <button class="model-answer-btn" onclick="toggleAnswer('answer2')">
+      View Model Answer
+    </button>
+
+    <div class="model-answer" id="answer2">
+
+      <div class="answer-heading">
+        Model Answer
+      </div>
+
+      <div class="subheading">
+        Introduction
+      </div>
+
+      <p>
+        The Paleolithic Age in India is divided into Lower, Middle and Upper phases based on technological progress in stone tools and changing climatic conditions during the Pleistocene epoch.
+      </p>
+
+      <div class="subheading">
+        Body
+      </div>
+
+      <ul>
+        <li>Lower Paleolithic phase was characterized by Acheulian hand axes and cleavers.</li>
+
+        <li>Middle Paleolithic phase witnessed flake-based tools and improved adaptability.</li>
+
+        <li>Upper Paleolithic phase showed development of blade tools and artistic expression.</li>
+
+        <li>Bhimbetka caves reflect cultural and cognitive advancement.</li>
+
+        <li>Climatic changes significantly influenced human adaptation and technological evolution.</li>
+      </ul>
+
+      <div class="subheading">
+        Conclusion
+      </div>
+
+      <p>
+        Thus, the three Paleolithic phases collectively illustrate the gradual technological and cultural evolution of early human society in India.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <script>
+
+    function toggleAnswer(id){
+
+      const box = document.getElementById(id);
+
+      if(box.style.display === "block"){
+        box.style.display = "none";
+      }
+      else{
+        box.style.display = "block";
+      }
+
+    }
+
+  </script>
 
 </body>
 </html>
