@@ -1,0 +1,42 @@
+{
+  "month": "April 2026",
+
+  "subjects": [
+    {
+      "name": "Polity & Governance",
+      "file": "/static/json/magazines/april_2026_polity.json"
+    },
+    {
+      "name": "Social Justice",
+      "file": "/static/json/magazines/april_2026_social_justice.json"
+    },
+    {
+      "name": "International Relations",
+      "file": "/static/json/magazines/april_2026_ir.json"
+    },
+    {
+      "name": "Economy",
+      "file": "/static/json/magazines/april_2026_economy.json"
+    },
+    {
+      "name": "Environment & Ecology",
+      "file": "/static/json/magazines/april_2026_environment.json"
+    },
+    {
+      "name": "Geography",
+      "file": "/static/json/magazines/april_2026_geography.json"
+    },
+    {
+      "name": "Indian Society",
+      "file": "/static/json/magazines/april_2026_society.json"
+    },
+    {
+      "name": "Science & Technology",
+      "file": "/static/json/magazines/april_2026_science_tech.json"
+    },
+    {
+      "name": "Internal Security",
+      "file": "/static/json/magazines/april_2026_security.json"
+    }
+  ]
+}
