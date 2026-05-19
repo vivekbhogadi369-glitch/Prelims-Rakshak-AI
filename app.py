@@ -273,6 +273,12 @@ def mcq_page():
     return render_template("mcq.html")
 
 
+# ✅ DAILY ANSWER WRITING PAGE
+@app.route("/answer-writing")
+def answer_writing_page():
+    return render_template("answerwriting.html")
+
+
 @app.route("/pyq-subjects", methods=["GET"])
 def pyq_subjects():
     return jsonify({"subjects": get_pyq_subjects()})
