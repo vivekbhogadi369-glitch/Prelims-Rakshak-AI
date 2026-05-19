@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-
         body {
             font-family: Arial, sans-serif;
             max-width: 950px;
@@ -21,7 +20,7 @@
             margin-bottom: 10px;
         }
 
-        .top-box {
+        .top-box, .topic-card {
             background: white;
             padding: 18px;
             border-radius: 14px;
@@ -33,11 +32,10 @@
         .section-title {
             font-size: 20px;
             font-weight: bold;
-            margin-top: 10px;
             color: #1d3557;
         }
 
-        .subject-btn {
+        .btn {
             width: 100%;
             padding: 14px;
             margin-top: 12px;
@@ -46,22 +44,28 @@
             font-size: 16px;
             font-weight: 600;
             color: white;
-            background: linear-gradient(135deg, #7c3aed, #5b21b6);
             cursor: pointer;
             box-shadow: 0 4px 12px rgba(0,0,0,0.12);
         }
 
-        .topic-card {
-            background: white;
-            padding: 18px;
-            margin-top: 16px;
-            border-radius: 14px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            line-height: 1.7;
+        .month-btn {
+            background: linear-gradient(135deg, #be185d, #9d174d);
+        }
+
+        .topic-btn {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+        }
+
+        .nav-btn {
+            background: linear-gradient(135deg, #284879, #1d3557);
+        }
+
+        .back-btn {
+            background: linear-gradient(135deg, #6b7280, #374151);
         }
 
         .topic-title {
-            font-size: 21px;
+            font-size: 22px;
             font-weight: bold;
             color: #1d3557;
             margin-bottom: 10px;
@@ -91,19 +95,9 @@
             color: #7c2d12;
         }
 
-        .back-btn {
-            width: 100%;
-            padding: 14px;
-            margin-top: 20px;
-            border: none;
-            border-radius: 12px;
-            font-size: 16px;
-            font-weight: bold;
-            color: white;
-            background: linear-gradient(135deg, #6b7280, #374151);
-            cursor: pointer;
+        .hidden {
+            display: none;
         }
-
     </style>
 </head>
 
@@ -111,132 +105,147 @@
 
 <h1>🗞️ Monthly Magazine</h1>
 
-<div class="top-box">
-
-    <div class="section-title">
-        March 2026 Monthly Current Affairs Magazine
-    </div>
+<div id="intro-box" class="top-box">
+    <div class="section-title">Monthly Current Affairs Magazine</div>
 
     <p>
-        This magazine is a compressed PIB-based monthly revision magazine specially designed
-        for UPSC and other government exam aspirants.
+        Select a month to study compressed PIB-based monthly current affairs
+        in mobile-friendly snippet format.
     </p>
-
-    <p>
-        The focus is on:
-    </p>
-
-    <ul>
-        <li>Prelims-oriented quick revision</li>
-        <li>Important facts and schemes</li>
-        <li>Government reports and policies</li>
-        <li>Environment, Economy and Science-Tech updates</li>
-        <li>Mobile-friendly snippet learning</li>
-    </ul>
 
     <div class="warning-box">
-        ⚠️ This is a compressed revision magazine. Focus on revision and retention instead of reading bulky current affairs PDFs.
+        ⚠️ Read for quick revision, retention and prelims-focused recall.
     </div>
-
 </div>
 
-<div id="subjects-container"></div>
-
+<div id="months-container"></div>
 <div id="topics-container"></div>
+<div id="reader-container"></div>
 
-<button class="back-btn" onclick="location.href='/'">
-    ⬅ Back to Home
+<button class="btn back-btn" onclick="location.href='/'">
+    ⬅ Home
 </button>
 
 <script>
+let allTopics = [];
+let currentIndex = 0;
 
-let subjectsContainer = document.getElementById("subjects-container");
-let topicsContainer = document.getElementById("topics-container");
+const magazines = [
+    {
+        month: "March 2026",
+        indexFile: "/static/json/magazines/march_2026_index.json"
+    }
+];
 
-async function loadMagazineIndex() {
+function showMonths() {
+    document.getElementById("months-container").innerHTML = "";
+    document.getElementById("topics-container").innerHTML = "";
+    document.getElementById("reader-container").innerHTML = "";
 
-    const response = await fetch("/static/json/magazines/march_2026_index.json");
-
-    const data = await response.json();
-
-    subjectsContainer.innerHTML = "";
-
-    data.subjects.forEach(subject => {
-
-        subjectsContainer.innerHTML += `
-            <button class="subject-btn" onclick="loadSubject('${subject.file}')">
-                ${subject.name}
+    magazines.forEach((mag, index) => {
+        document.getElementById("months-container").innerHTML += `
+            <button class="btn month-btn" onclick="loadMonth(${index})">
+                ${mag.month}
             </button>
         `;
     });
 }
 
-async function loadSubject(filePath) {
+async function loadMonth(index) {
+    document.getElementById("reader-container").innerHTML = "";
+    document.getElementById("topics-container").innerHTML = "<p>Loading topics...</p>";
 
-    topicsContainer.innerHTML = "<p>Loading...</p>";
-
-    const response = await fetch(filePath);
-
+    const response = await fetch(magazines[index].indexFile);
     const data = await response.json();
 
-    topicsContainer.innerHTML = "";
+    allTopics = [];
 
-    data.topics.forEach(topic => {
+    for (const subject of data.subjects) {
+        const subjectResponse = await fetch(subject.file);
+        const subjectData = await subjectResponse.json();
 
-        topicsContainer.innerHTML += `
+        subjectData.topics.forEach(topic => {
+            topic.subject = subject.name;
+            allTopics.push(topic);
+        });
+    }
 
-            <div class="topic-card">
-
-                <div class="topic-title">
-                    ${topic.topic}
-                </div>
-
-                <div class="sub-heading">
-                    Why in News
-                </div>
-
-                <p>${topic.why_in_news}</p>
-
-                <div class="sub-heading">
-                    Prelims Quick Notes
-                </div>
-
-                <ul>
-                    ${topic.prelims_quick_notes.map(point => `<li>${point}</li>`).join("")}
-                </ul>
-
-                <div class="sub-heading">
-                    Important Facts
-                </div>
-
-                <ul>
-                    ${topic.important_facts.map(point => `<li>${point}</li>`).join("")}
-                </ul>
-
-                <div class="sub-heading">
-                    Exam Relevance
-                </div>
-
-                <ul>
-                    ${topic.exam_relevance.map(point => `<li>${point}</li>`).join("")}
-                </ul>
-
-                <div class="sub-heading">
-                    Prelims Traps
-                </div>
-
-                <ul>
-                    ${topic.prelims_traps.map(point => `<li>${point}</li>`).join("")}
-                </ul>
-
-            </div>
-
-        `;
-    });
+    showTopicButtons();
 }
 
-loadMagazineIndex();
+function showTopicButtons() {
+    let html = `<div class="top-box"><div class="section-title">Select Topic</div></div>`;
 
+    allTopics.forEach((topic, index) => {
+        html += `
+            <button class="btn topic-btn" onclick="openTopic(${index})">
+                ${topic.topic}
+            </button>
+        `;
+    });
+
+    document.getElementById("topics-container").innerHTML = html;
+}
+
+function openTopic(index) {
+    currentIndex = index;
+    const topic = allTopics[currentIndex];
+
+    document.getElementById("topics-container").innerHTML = "";
+
+    document.getElementById("reader-container").innerHTML = `
+        <div class="topic-card">
+            <div class="topic-title">${topic.topic}</div>
+
+            <p><strong>Subject:</strong> ${topic.subject}</p>
+
+            <div class="sub-heading">Why in News</div>
+            <p>${topic.why_in_news}</p>
+
+            <div class="sub-heading">Prelims Quick Notes</div>
+            <ul>${topic.prelims_quick_notes.map(p => `<li>${p}</li>`).join("")}</ul>
+
+            ${topic.key_findings_and_indicators ? `
+                <div class="sub-heading">Key Findings and Indicators</div>
+                <ul>${topic.key_findings_and_indicators.map(p => `<li>${p}</li>`).join("")}</ul>
+            ` : ""}
+
+            <div class="sub-heading">Important Facts</div>
+            <ul>${topic.important_facts.map(p => `<li>${p}</li>`).join("")}</ul>
+
+            <div class="sub-heading">Exam Relevance</div>
+            <ul>${topic.exam_relevance.map(p => `<li>${p}</li>`).join("")}</ul>
+
+            <div class="sub-heading">Prelims Traps</div>
+            <ul>${topic.prelims_traps.map(p => `<li>${p}</li>`).join("")}</ul>
+        </div>
+
+        <button class="btn nav-btn" onclick="previousTopic()">⬅ Previous</button>
+        <button class="btn nav-btn" onclick="nextTopic()">Next ➡</button>
+        <button class="btn back-btn" onclick="showTopicButtons(); document.getElementById('reader-container').innerHTML=''">
+            ⬅ Back to Topics
+        </button>
+        <button class="btn back-btn" onclick="showMonths()">
+            ⬅ Back to Months
+        </button>
+    `;
+}
+
+function nextTopic() {
+    if (currentIndex < allTopics.length - 1) {
+        openTopic(currentIndex + 1);
+        window.scrollTo(0, 0);
+    }
+}
+
+function previousTopic() {
+    if (currentIndex > 0) {
+        openTopic(currentIndex - 1);
+        window.scrollTo(0, 0);
+    }
+}
+
+showMonths();
 </script>
 
 </body>
