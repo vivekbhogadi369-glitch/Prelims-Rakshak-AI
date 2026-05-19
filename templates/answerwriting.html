@@ -2,11 +2,9 @@
 <html>
 <head>
   <title>Daily Answer Writing</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-
     body{
       font-family: Arial, sans-serif;
       background:#f5f7fb;
@@ -82,6 +80,17 @@
       font-size:15px;
       font-weight:bold;
       cursor:pointer;
+      text-align:center;
+    }
+
+    .file-name{
+      font-size:13px;
+      color:#374151;
+      margin-top:8px;
+      background:#f3f4f6;
+      padding:10px;
+      border-radius:10px;
+      display:none;
     }
 
     .model-answer-btn{
@@ -107,21 +116,32 @@
     }
 
     .answer-heading{
-      font-size:18px;
+      font-size:20px;
       font-weight:bold;
-      margin-bottom:10px;
+      margin-bottom:14px;
     }
 
     .subheading{
+      font-size:17px;
       font-weight:bold;
-      margin-top:14px;
+      margin-top:16px;
       margin-bottom:8px;
+      color:#111827;
     }
 
     ul{
       padding-left:20px;
     }
 
+    li{
+      margin-bottom:8px;
+    }
+
+    .loading{
+      text-align:center;
+      font-weight:bold;
+      margin-top:30px;
+    }
   </style>
 </head>
 
@@ -130,207 +150,169 @@
   <h1>Daily Answer Writing</h1>
 
   <div class="section-title">Subjects</div>
-
   <div class="button-grid">
-
-    <button class="select-btn">
-      Ancient History
-    </button>
-
-    <button class="select-btn">
-      Medieval History
-    </button>
-
-    <button class="select-btn">
-      Modern History
-    </button>
-
-    <button class="select-btn">
-      Polity
-    </button>
-
+    <button class="select-btn">Ancient History</button>
   </div>
 
   <div class="section-title">Topics</div>
-
   <div class="button-grid">
-
-    <button class="select-btn">
-      Prehistoric India
-    </button>
-
-    <button class="select-btn">
-      Indus Valley Civilization
-    </button>
-
+    <button class="select-btn">Prehistoric India</button>
   </div>
 
   <div class="section-title">Subtopics</div>
-
   <div class="button-grid">
-
-    <button class="select-btn">
-      Paleolithic Age
-    </button>
-
-    <button class="select-btn">
-      Mesolithic Age
-    </button>
-
+    <button class="select-btn" onclick="loadPaleolithic()">Paleolithic Age</button>
   </div>
 
-
-  <div class="question-box">
-
-    <div class="question-header">
-      15 Marks • 150 Words
-    </div>
-
-    <div class="question-text">
-      The Paleolithic Age marked the earliest stage of human technological and cultural evolution, distinguished primarily by the use of crude chipped stone tools. Explain the major features of this phase.
-    </div>
-
-    <div class="upload-buttons">
-
-      <button class="upload-btn">
-        Take Photo
-      </button>
-
-      <button class="upload-btn">
-        Upload Image
-      </button>
-
-      <button class="upload-btn">
-        Upload PDF
-      </button>
-
-    </div>
-
-    <button class="model-answer-btn" onclick="toggleAnswer('answer1')">
-      View Model Answer
-    </button>
-
-    <div class="model-answer" id="answer1">
-
-      <div class="answer-heading">
-        Model Answer
-      </div>
-
-      <div class="subheading">
-        Introduction
-      </div>
-
-      <p>
-        The Paleolithic Age or Old Stone Age represents the earliest phase of human cultural evolution characterized by primitive chipped stone tools, hunting-gathering economy and complete dependence on nature for survival.
-      </p>
-
-      <div class="subheading">
-        Body
-      </div>
-
-      <ul>
-        <li>Humans used crude stone tools such as hand axes, choppers and cleavers.</li>
-
-        <li>The economy was based on hunting, fishing and food gathering.</li>
-
-        <li>People followed a nomadic lifestyle and lived in caves and rock shelters.</li>
-
-        <li>The use of fire marked an important development in human survival.</li>
-
-        <li>Bhimbetka rock shelters provide important evidence of Paleolithic culture.</li>
-      </ul>
-
-      <div class="subheading">
-        Conclusion
-      </div>
-
-      <p>
-        Thus, the Paleolithic Age laid the foundation for later human technological and cultural advancement.
-      </p>
-
-    </div>
-
+  <div id="question-container">
+    <div class="loading">Loading questions...</div>
   </div>
-
-
-
-  <div class="question-box">
-
-    <div class="question-header">
-      20 Marks • 250 Words
-    </div>
-
-    <div class="question-text">
-      The Paleolithic Age in India is broadly classified into Lower, Middle and Upper Paleolithic phases based on variations in stone tool technology and changing climatic conditions. Discuss the characteristics of these phases.
-    </div>
-
-    <div class="upload-buttons">
-
-      <button class="upload-btn">
-        Take Photo
-      </button>
-
-      <button class="upload-btn">
-        Upload Image
-      </button>
-
-      <button class="upload-btn">
-        Upload PDF
-      </button>
-
-    </div>
-
-    <button class="model-answer-btn" onclick="toggleAnswer('answer2')">
-      View Model Answer
-    </button>
-
-    <div class="model-answer" id="answer2">
-
-      <div class="answer-heading">
-        Model Answer
-      </div>
-
-      <div class="subheading">
-        Introduction
-      </div>
-
-      <p>
-        The Paleolithic Age in India is divided into Lower, Middle and Upper phases based on technological progress in stone tools and changing climatic conditions during the Pleistocene epoch.
-      </p>
-
-      <div class="subheading">
-        Body
-      </div>
-
-      <ul>
-        <li>Lower Paleolithic phase was characterized by Acheulian hand axes and cleavers.</li>
-
-        <li>Middle Paleolithic phase witnessed flake-based tools and improved adaptability.</li>
-
-        <li>Upper Paleolithic phase showed development of blade tools and artistic expression.</li>
-
-        <li>Bhimbetka caves reflect cultural and cognitive advancement.</li>
-
-        <li>Climatic changes significantly influenced human adaptation and technological evolution.</li>
-      </ul>
-
-      <div class="subheading">
-        Conclusion
-      </div>
-
-      <p>
-        Thus, the three Paleolithic phases collectively illustrate the gradual technological and cultural evolution of early human society in India.
-      </p>
-
-    </div>
-
-  </div>
-
 
   <script>
+    const jsonPath = "/static/json/answer_writing/ancient_history/prehistoric_india/paleolithic_age.json";
+
+    async function loadPaleolithic(){
+      const container = document.getElementById("question-container");
+      container.innerHTML = '<div class="loading">Loading questions...</div>';
+
+      try{
+        const response = await fetch(jsonPath);
+        const data = await response.json();
+
+        renderQuestions(data.questions);
+      }
+      catch(error){
+        container.innerHTML = "<p>Unable to load answer writing data. Check JSON path.</p>";
+      }
+    }
+
+    function renderQuestions(questions){
+      const container = document.getElementById("question-container");
+      container.innerHTML = "";
+
+      questions.forEach((q, index) => {
+        const answerId = "answer_" + index;
+        const fileNameId = "file_name_" + index;
+
+        const box = document.createElement("div");
+        box.className = "question-box";
+
+        box.innerHTML = `
+          <div class="question-header">
+            ${q.marks} Marks • ${q.word_limit} Words
+          </div>
+
+          <div class="question-text">
+            ${q.question}
+          </div>
+
+          <div class="upload-buttons">
+
+            <label class="upload-btn">
+              Take Photo
+              <input type="file" accept="image/*" capture="environment" style="display:none" onchange="showFileName(event, '${fileNameId}')">
+            </label>
+
+            <label class="upload-btn">
+              Upload Image
+              <input type="file" accept="image/*" style="display:none" onchange="showFileName(event, '${fileNameId}')">
+            </label>
+
+            <label class="upload-btn">
+              Upload PDF
+              <input type="file" accept="application/pdf" style="display:none" onchange="showFileName(event, '${fileNameId}')">
+            </label>
+
+          </div>
+
+          <div class="file-name" id="${fileNameId}"></div>
+
+          <button class="model-answer-btn" onclick="toggleAnswer('${answerId}')">
+            View Model Answer
+          </button>
+
+          <div class="model-answer" id="${answerId}">
+            ${renderModelAnswer(q.model_answer)}
+            ${renderEvaluationData(q)}
+          </div>
+        `;
+
+        container.appendChild(box);
+      });
+    }
+
+    function renderModelAnswer(model){
+      if(!model){
+        return "<p>Model answer not available.</p>";
+      }
+
+      let html = `
+        <div class="answer-heading">Model Answer</div>
+
+        <div class="subheading">Introduction</div>
+        <p>${model.introduction || ""}</p>
+
+        <div class="subheading">Body</div>
+      `;
+
+      if(model.body){
+        Object.keys(model.body).forEach(heading => {
+          html += `<div class="subheading">${heading}</div><ul>`;
+
+          model.body[heading].forEach(point => {
+            html += `<li>${point}</li>`;
+          });
+
+          html += `</ul>`;
+        });
+      }
+
+      html += `
+        <div class="subheading">Conclusion</div>
+        <p>${model.conclusion || ""}</p>
+      `;
+
+      return html;
+    }
+
+    function renderEvaluationData(q){
+      let html = "";
+
+      if(q.core_points){
+        html += `<div class="subheading">Core Points Expected</div><ul>`;
+        q.core_points.forEach(point => html += `<li>${point}</li>`);
+        html += `</ul>`;
+      }
+
+      if(q.keywords){
+        html += `<div class="subheading">Keywords Expected</div><ul>`;
+        q.keywords.forEach(point => html += `<li>${point}</li>`);
+        html += `</ul>`;
+      }
+
+      if(q.value_addition){
+        html += `<div class="subheading">Value Addition</div><ul>`;
+        q.value_addition.forEach(point => html += `<li>${point}</li>`);
+        html += `</ul>`;
+      }
+
+      if(q.common_mistakes){
+        html += `<div class="subheading">Common Mistakes to Avoid</div><ul>`;
+        q.common_mistakes.forEach(point => html += `<li>${point}</li>`);
+        html += `</ul>`;
+      }
+
+      if(q.scoring_rules){
+        html += `
+          <div class="subheading">Strict UPSC Scoring Cap</div>
+          <p>Maximum realistic score: <strong>${q.scoring_rules.strict_cap}/${q.marks}</strong></p>
+        `;
+      }
+
+      return html;
+    }
 
     function toggleAnswer(id){
-
       const box = document.getElementById(id);
 
       if(box.style.display === "block"){
@@ -339,9 +321,19 @@
       else{
         box.style.display = "block";
       }
-
     }
 
+    function showFileName(event, id){
+      const file = event.target.files[0];
+      const box = document.getElementById(id);
+
+      if(file){
+        box.style.display = "block";
+        box.innerHTML = "Uploaded: " + file.name;
+      }
+    }
+
+    loadPaleolithic();
   </script>
 
 </body>
