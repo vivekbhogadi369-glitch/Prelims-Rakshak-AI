@@ -1,0 +1,48 @@
+{
+  "subject": "Indian Society",
+
+  "topics": [
+    {
+  "topic": "Aadhaar – World’s Largest Biometric Identity System",
+
+  "why_in_news": "PIB highlighted Aadhaar’s scale, governance role and privacy safeguards amid discussions on digital identity, welfare delivery and data protection.",
+
+  "prelims_quick_notes": [
+
+    "Aadhaar is unique biometric identity system of India.",
+    "Implemented by Unique Identification Authority of India (UIDAI).",
+    "Provides identity authentication using biometric and demographic data.",
+    "Supports Direct Benefit Transfer (DBT) and JAM Trinity.",
+    "Enables portability of welfare benefits across India.",
+    "Authentication modes include OTP, biometric and demographic verification.",
+    "Supports digital governance and financial inclusion.",
+    "Focus on balancing inclusion, efficiency and privacy."
+  ],
+
+  "important_facts": [
+
+    "Aadhaar Act enacted in 2016.",
+    "UIDAI functions under Ministry of Electronics and Information Technology (MeitY).",
+    "Aadhaar became statutory after Aadhaar Act 2016.",
+    "Supreme Court upheld Aadhaar with restrictions in Puttaswamy judgement (2018).",
+    "JAM Trinity = Jan Dhan + Aadhaar + Mobile.",
+    "India has one of the world’s largest biometric identity databases."
+  ],
+
+  "exam_relevance": [
+
+    "Important for Governance, Indian Society and Digital Inclusion.",
+    "Useful for DBT, privacy, welfare delivery and digital governance topics.",
+    "Can be linked with Article 21, data protection and social inclusion."
+  ],
+
+  "prelims_traps": [
+
+    "UIDAI functions under MeitY, not Ministry of Home Affairs.",
+    "Aadhaar authentication includes biometric and non-biometric methods.",
+    "Supreme Court allowed Aadhaar with proportional restrictions, not unlimited mandatory usage."
+  ]
+    }
+
+  ]
+}
