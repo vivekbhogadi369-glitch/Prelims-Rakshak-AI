@@ -244,6 +244,66 @@ def create_demo_institute():
         "id": institute.id
     }), 201
 
+@app.route("/migrate-pyqs")
+def migrate_pyqs():
+
+    imported = 0
+
+    for subject_name, topics in PYQS_DATA.items():
+
+        subject = Subject.query.filter_by(
+            name=subject_name
+        ).first()
+
+        if not subject:
+            subject = Subject(
+                name=subject_name
+            )
+            db.session.add(subject)
+            db.session.commit()
+
+        for topic_name, questions in topics.items():
+
+            topic = Topic.query.filter_by(
+                subject_id=subject.id,
+                name=topic_name
+            ).first()
+
+            if not topic:
+                topic = Topic(
+                    subject_id=subject.id,
+                    name=topic_name
+                )
+                db.session.add(topic)
+                db.session.commit()
+
+            for q in questions:
+
+                pyq = PYQ(
+                    subject_id=subject.id,
+                    topic_id=topic.id,
+                    year=q.get("year"),
+                    question=q.get("question"),
+                    options_json=json.dumps(
+                        q.get("options", [])
+                    ),
+                    answer=q.get("correct_answer"),
+                    explanation=q.get("explanation"),
+                    elimination_logic=q.get(
+                        "elimination_logic"
+                    )
+                )
+
+                db.session.add(pyq)
+                imported += 1
+
+        db.session.commit()
+
+    return jsonify({
+        "message": "PYQs migrated successfully",
+        "count": imported
+    })
+
 @app.route("/create-demo-institute-admin")
 def create_demo_institute_admin():
 
