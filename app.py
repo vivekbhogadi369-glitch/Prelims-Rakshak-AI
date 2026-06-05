@@ -91,7 +91,7 @@ class PYQ(db.Model):
     year = db.Column(db.Integer)
     question = db.Column(db.Text, nullable=False)
     options_json = db.Column(db.Text)
-    answer = db.Column(db.String(20))
+    answer = db.Column(db.Text)
     explanation = db.Column(db.Text)
     elimination_logic = db.Column(db.Text)
 
@@ -102,7 +102,7 @@ class MCQ(db.Model):
     topic_id = db.Column(db.Integer, db.ForeignKey("topic.id"), nullable=True)
     question = db.Column(db.Text, nullable=False)
     options_json = db.Column(db.Text)
-    answer = db.Column(db.String(20))
+    answer = db.Column(db.Text)
     explanation = db.Column(db.Text)
     elimination_logic = db.Column(db.Text)
     difficulty = db.Column(db.String(50))
