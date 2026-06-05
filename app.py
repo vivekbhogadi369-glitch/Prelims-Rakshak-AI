@@ -163,12 +163,6 @@ def init_db():
 
 @app.route("/create-super-admin")
 def create_super_admin():
-    secret = request.args.get("secret", "")
-    expected_secret = os.environ.get("INIT_DB_SECRET", "")
-
-    if expected_secret and secret != expected_secret:
-        return jsonify({"error": "Unauthorized"}), 403
-
     username = "vivek"
     existing_user = User.query.filter_by(username=username).first()
 
@@ -192,6 +186,32 @@ def create_super_admin():
         "username": "vivek",
         "password": "vivek@123",
         "role": "super_admin"
+    }), 201
+
+
+@app.route("/create-demo-institute")
+def create_demo_institute():
+    institute = Institute.query.filter_by(name="Demo Institute").first()
+
+    if institute:
+        return jsonify({
+            "message": "Demo Institute already exists",
+            "id": institute.id
+        }), 200
+
+    institute = Institute(
+        name="Demo Institute",
+        logo_url="",
+        theme_color="#6d28d9",
+        status="active"
+    )
+
+    db.session.add(institute)
+    db.session.commit()
+
+    return jsonify({
+        "message": "Demo Institute created",
+        "id": institute.id
     }), 201
 
 
@@ -281,27 +301,20 @@ def clean_display_topic(text):
 
 def normalize_topic(text):
     text = (text or "").lower().strip()
-
     text = re.sub(r"^\s*subject\s*:\s*", "", text)
     text = re.sub(r"^\s*topic\s*:\s*", "", text)
-
     text = re.sub(r",?\s*indian history\s*$", "", text)
     text = re.sub(r",?\s*history\s*$", "", text)
-
     text = text.replace("civilisation", "civilization")
     text = text.replace("centre", "center")
     text = text.replace("centres", "centers")
-
     text = re.sub(r"\bera\b", "age", text)
     text = re.sub(r"\bperiod\b", "age", text)
-
     text = text.replace("&", " and ")
     text = re.sub(r"[\[\]\(\)\{\}]", " ", text)
     text = re.sub(r"[-_/,:;]", " ", text)
     text = re.sub(r"[^\w\s]", " ", text)
-
     text = " ".join(text.split())
-
     return text.strip()
 
 
@@ -318,7 +331,6 @@ PYQ_TEXT = load_pyq_text()
 
 def extract_pyq_blocks(text):
     text = text.replace("\r\n", "\n").replace("\r", "\n")
-
     pattern = re.compile(r"\[(.*?)\]\s*(.*?)(?=\n\s*\[.*?\]\s*|\Z)", re.DOTALL)
     matches = pattern.findall(text)
 
@@ -345,14 +357,9 @@ def score_topic_match(topic_norm, title_norm):
 
     topic_words = set(topic_norm.split())
     title_words = set(title_norm.split())
-
     common = topic_words.intersection(title_words)
-
     overlap_score = len(common) * 100 if topic_words and title_words else 0
-
-    fuzzy_score = int(
-        SequenceMatcher(None, topic_norm, title_norm).ratio() * 100
-    )
+    fuzzy_score = int(SequenceMatcher(None, topic_norm, title_norm).ratio() * 100)
 
     return overlap_score + fuzzy_score
 
@@ -376,7 +383,6 @@ def get_pyqs_from_txt(topic):
 
     for raw_title, raw_content in blocks:
         title_norm = normalize_topic(raw_title)
-
         score = score_topic_match(topic_norm, title_norm)
 
         if score > best_score:
@@ -488,9 +494,7 @@ def generate_audio():
             return jsonify({"error": "Sarvam API key missing"}), 500
 
         data = request.get_json() or {}
-
         text = trim_text_for_tts(data.get("text", ""))
-
         language = data.get("language", "english")
 
         if not text:
@@ -523,7 +527,6 @@ def generate_audio():
             }), 500
 
         result = response.json()
-
         audios = result.get("audios", [])
 
         if not audios:
@@ -543,4 +546,4 @@ if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
         port=int(os.environ.get("PORT", 8080))
-    )
+        )
