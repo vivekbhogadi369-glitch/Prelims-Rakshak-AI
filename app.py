@@ -24,12 +24,152 @@ if database_url:
 db = SQLAlchemy(app)
 
 
+# =========================
+# DATABASE MODELS
+# =========================
+
+class Institute(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(200), nullable=False)
+    logo_url = db.Column(db.String(500))
+    theme_color = db.Column(db.String(20), default="#6d28d9")
+    status = db.Column(db.String(50), default="active")
+    subscription_start = db.Column(db.Date)
+    subscription_end = db.Column(db.Date)
+
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    institute_id = db.Column(db.Integer, db.ForeignKey("institute.id"), nullable=True)
+    name = db.Column(db.String(200), nullable=False)
+    username = db.Column(db.String(100), unique=True, nullable=False)
+    password_hash = db.Column(db.String(300), nullable=False)
+    role = db.Column(db.String(50), nullable=False)
+    is_active = db.Column(db.Boolean, default=True)
+
+
+class Subject(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(200), unique=True, nullable=False)
+
+
+class Topic(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    subject_id = db.Column(db.Integer, db.ForeignKey("subject.id"), nullable=False)
+    name = db.Column(db.String(300), nullable=False)
+
+
+class PYQ(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    subject_id = db.Column(db.Integer, db.ForeignKey("subject.id"), nullable=False)
+    topic_id = db.Column(db.Integer, db.ForeignKey("topic.id"), nullable=True)
+    year = db.Column(db.Integer)
+    question = db.Column(db.Text, nullable=False)
+    options_json = db.Column(db.Text)
+    answer = db.Column(db.String(20))
+    explanation = db.Column(db.Text)
+    elimination_logic = db.Column(db.Text)
+
+
+class MCQ(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    subject_id = db.Column(db.Integer, db.ForeignKey("subject.id"), nullable=False)
+    topic_id = db.Column(db.Integer, db.ForeignKey("topic.id"), nullable=True)
+    question = db.Column(db.Text, nullable=False)
+    options_json = db.Column(db.Text)
+    answer = db.Column(db.String(20))
+    explanation = db.Column(db.Text)
+    elimination_logic = db.Column(db.Text)
+    difficulty = db.Column(db.String(50))
+
+
+class Note(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    subject_id = db.Column(db.Integer, db.ForeignKey("subject.id"), nullable=False)
+    topic_id = db.Column(db.Integer, db.ForeignKey("topic.id"), nullable=True)
+    title = db.Column(db.String(300), nullable=False)
+    content = db.Column(db.Text, nullable=False)
+    language = db.Column(db.String(50), default="english")
+
+
+class Audio(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    note_id = db.Column(db.Integer, db.ForeignKey("note.id"), nullable=True)
+    subject_id = db.Column(db.Integer, db.ForeignKey("subject.id"), nullable=True)
+    topic_id = db.Column(db.Integer, db.ForeignKey("topic.id"), nullable=True)
+    language = db.Column(db.String(50), nullable=False)
+    audio_url = db.Column(db.String(1000), nullable=False)
+
+
+class CurrentAffair(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(500), nullable=False)
+    source_url = db.Column(db.String(1000))
+    date = db.Column(db.Date)
+    content = db.Column(db.Text)
+
+
+class MonthlyMagazine(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    month = db.Column(db.String(50), nullable=False)
+    year = db.Column(db.Integer, nullable=False)
+    title = db.Column(db.String(500), nullable=False)
+    file_url = db.Column(db.String(1000))
+
+
+class JobAlert(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(500), nullable=False)
+    source_url = db.Column(db.String(1000))
+    date = db.Column(db.Date)
+
+
+class Bookmark(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
+    content_type = db.Column(db.String(50), nullable=False)
+    content_id = db.Column(db.Integer, nullable=False)
+
+
+class ActivityLog(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
+    activity_type = db.Column(db.String(100), nullable=False)
+    content_type = db.Column(db.String(50))
+    content_id = db.Column(db.Integer)
+
+
+class Notification(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    institute_id = db.Column(db.Integer, db.ForeignKey("institute.id"), nullable=True)
+    title = db.Column(db.String(300), nullable=False)
+    message = db.Column(db.Text, nullable=False)
+    is_global = db.Column(db.Boolean, default=True)
+
+
 # ✅ DATABASE HEALTH CHECK
 @app.route("/db-check")
 def db_check():
     try:
         db.session.execute(text("SELECT 1"))
         return jsonify({"database": "connected"}), 200
+    except Exception as e:
+        return jsonify({"database": "error", "details": str(e)}), 500
+
+
+# ✅ CREATE DATABASE TABLES
+@app.route("/init-db")
+def init_db():
+    secret = request.args.get("secret", "")
+    expected_secret = os.environ.get("INIT_DB_SECRET", "")
+
+    if expected_secret and secret != expected_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    try:
+        with app.app_context():
+            db.create_all()
+        return jsonify({"database": "tables created"}), 200
     except Exception as e:
         return jsonify({"database": "error", "details": str(e)}), 500
 
