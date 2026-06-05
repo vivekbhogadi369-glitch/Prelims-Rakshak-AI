@@ -42,6 +42,36 @@ class User(db.Model):
     role = db.Column(db.String(50), nullable=False)
     is_active = db.Column(db.Boolean, default=True)
 
+class InstituteAdmin(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+
+    institute_id = db.Column(
+        db.Integer,
+        db.ForeignKey("institute.id"),
+        nullable=False
+    )
+
+    full_name = db.Column(
+        db.String(200),
+        nullable=False
+    )
+
+    username = db.Column(
+        db.String(100),
+        unique=True,
+        nullable=False
+    )
+
+    password_hash = db.Column(
+        db.String(300),
+        nullable=False
+    )
+
+    is_active = db.Column(
+        db.Boolean,
+        default=True
+    )
+
 
 class Subject(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -212,6 +242,45 @@ def create_demo_institute():
     return jsonify({
         "message": "Demo Institute created",
         "id": institute.id
+    }), 201
+
+@app.route("/create-demo-institute-admin")
+def create_demo_institute_admin():
+
+    institute = Institute.query.filter_by(
+        name="Demo Institute"
+    ).first()
+
+    if not institute:
+        return jsonify({
+            "error": "Create Demo Institute first"
+        }), 400
+
+    existing = InstituteAdmin.query.filter_by(
+        username="demo_admin"
+    ).first()
+
+    if existing:
+        return jsonify({
+            "message": "Institute admin already exists"
+        }), 200
+
+    admin = InstituteAdmin(
+        institute_id=institute.id,
+        full_name="Demo Institute Admin",
+        username="demo_admin",
+        password_hash=generate_password_hash("demo@123"),
+        is_active=True
+    )
+
+    db.session.add(admin)
+    db.session.commit()
+
+    return jsonify({
+        "message": "Institute admin created",
+        "username": "demo_admin",
+        "password": "demo@123",
+        "institute_id": institute.id
     }), 201
 
 
