@@ -346,20 +346,60 @@ MCQS_DATA = load_all_mcqs()
 
 
 def get_pyq_subjects():
-    return list(PYQS_DATA.keys())
+    subjects = Subject.query.order_by(Subject.name).all()
+    return [s.name for s in subjects]
 
 
 def get_pyq_topics(subject):
-    if subject in PYQS_DATA and isinstance(PYQS_DATA[subject], dict):
-        return list(PYQS_DATA[subject].keys())
-    return []
+
+    subject_obj = Subject.query.filter_by(
+        name=subject
+    ).first()
+
+    if not subject_obj:
+        return []
+
+    topics = Topic.query.filter_by(
+        subject_id=subject_obj.id
+    ).order_by(Topic.name).all()
+
+    return [t.name for t in topics]
 
 
 def get_pyqs_by_subject_topic(subject, topic):
-    if subject in PYQS_DATA:
-        if topic in PYQS_DATA[subject]:
-            return PYQS_DATA[subject][topic]
-    return []
+
+    subject_obj = Subject.query.filter_by(
+        name=subject
+    ).first()
+
+    if not subject_obj:
+        return []
+
+    topic_obj = Topic.query.filter_by(
+        subject_id=subject_obj.id,
+        name=topic
+    ).first()
+
+    if not topic_obj:
+        return []
+
+    pyqs = PYQ.query.filter_by(
+        topic_id=topic_obj.id
+    ).order_by(PYQ.year).all()
+
+    result = []
+
+    for q in pyqs:
+        result.append({
+            "year": q.year,
+            "question": q.question,
+            "options": json.loads(q.options_json or "[]"),
+            "correct_answer": q.answer,
+            "explanation": q.explanation,
+            "elimination_logic": q.elimination_logic
+        })
+
+    return result
 
 
 def clean_display_topic(text):
