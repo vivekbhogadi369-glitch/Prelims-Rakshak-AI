@@ -7,11 +7,10 @@ import requests
 from difflib import SequenceMatcher
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
+from werkzeug.security import generate_password_hash
 
-# ✅ FIXED (static serving)
 app = Flask(__name__, static_folder="static")
 
-# ✅ POSTGRESQL CONFIGURATION
 database_url = os.environ.get("DATABASE_URL")
 
 if database_url:
@@ -23,10 +22,6 @@ if database_url:
 
 db = SQLAlchemy(app)
 
-
-# =========================
-# DATABASE MODELS
-# =========================
 
 class Institute(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -147,7 +142,6 @@ class Notification(db.Model):
     is_global = db.Column(db.Boolean, default=True)
 
 
-# ✅ DATABASE HEALTH CHECK
 @app.route("/db-check")
 def db_check():
     try:
@@ -157,15 +151,8 @@ def db_check():
         return jsonify({"database": "error", "details": str(e)}), 500
 
 
-# ✅ CREATE DATABASE TABLES
 @app.route("/init-db")
 def init_db():
-    secret = request.args.get("secret", "")
-    expected_secret = os.environ.get("INIT_DB_SECRET", "")
-
-    if expected_secret and secret != expected_secret:
-        return jsonify({"error": "Unauthorized"}), 403
-
     try:
         with app.app_context():
             db.create_all()
@@ -174,7 +161,40 @@ def init_db():
         return jsonify({"database": "error", "details": str(e)}), 500
 
 
-# ✅ FORCE STATIC ROUTE (important for Railway)
+@app.route("/create-super-admin")
+def create_super_admin():
+    secret = request.args.get("secret", "")
+    expected_secret = os.environ.get("INIT_DB_SECRET", "")
+
+    if expected_secret and secret != expected_secret:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    username = "vivek"
+    existing_user = User.query.filter_by(username=username).first()
+
+    if existing_user:
+        return jsonify({"message": "Super admin already exists"}), 200
+
+    admin = User(
+        institute_id=None,
+        name="Vivek",
+        username=username,
+        password_hash=generate_password_hash("vivek@123"),
+        role="super_admin",
+        is_active=True
+    )
+
+    db.session.add(admin)
+    db.session.commit()
+
+    return jsonify({
+        "message": "Super admin created",
+        "username": "vivek",
+        "password": "vivek@123",
+        "role": "super_admin"
+    }), 201
+
+
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return send_from_directory('static', filename)
@@ -199,7 +219,6 @@ def load_pyqs_json():
 PYQS_DATA = load_pyqs_json()
 
 
-# ✅ SPLIT MCQ JSON FILES
 MCQ_FILES = [
     "static/json/mcqs_ancient_history_part1.json",
     "static/json/mcqs_ancient_history_part2.json",
@@ -209,12 +228,10 @@ MCQ_FILES = [
 
 def merge_mcq_data(target, source):
     for subject in source:
-
         if subject not in target:
             target[subject] = {}
 
         for section in source[subject]:
-
             if section not in target[subject]:
                 target[subject][section] = {}
 
@@ -234,7 +251,6 @@ def load_all_mcqs():
     return combined
 
 
-# ✅ ALL MCQS LOADED HERE
 MCQS_DATA = load_all_mcqs()
 
 
@@ -458,7 +474,6 @@ def pyq_questions():
     })
 
 
-# ✅ OPTIONAL MCQ API
 @app.route("/mcq-data", methods=["GET"])
 def mcq_data():
     return jsonify(MCQS_DATA)
