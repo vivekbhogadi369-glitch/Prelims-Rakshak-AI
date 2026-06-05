@@ -5,9 +5,33 @@ import json
 import base64
 import requests
 from difflib import SequenceMatcher
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import text
 
 # ✅ FIXED (static serving)
 app = Flask(__name__, static_folder="static")
+
+# ✅ POSTGRESQL CONFIGURATION
+database_url = os.environ.get("DATABASE_URL")
+
+if database_url:
+    if database_url.startswith("postgres://"):
+        database_url = database_url.replace("postgres://", "postgresql://", 1)
+
+    app.config["SQLALCHEMY_DATABASE_URI"] = database_url
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db = SQLAlchemy(app)
+
+
+# ✅ DATABASE HEALTH CHECK
+@app.route("/db-check")
+def db_check():
+    try:
+        db.session.execute(text("SELECT 1"))
+        return jsonify({"database": "connected"}), 200
+    except Exception as e:
+        return jsonify({"database": "error", "details": str(e)}), 500
 
 
 # ✅ FORCE STATIC ROUTE (important for Railway)
