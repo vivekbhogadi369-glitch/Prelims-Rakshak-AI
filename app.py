@@ -693,6 +693,22 @@ def mcq_questions():
 def mcq_data():
     return jsonify(MCQS_DATA)
 
+@app.route("/fix-mcq-schema")
+def fix_mcq_schema():
+    try:
+        db.session.execute(text("""
+            ALTER TABLE mcq
+            ALTER COLUMN answer TYPE TEXT
+        """))
+        db.session.commit()
+
+        return jsonify({
+            "message": "MCQ schema fixed"
+        })
+
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/generate-audio", methods=["POST"])
 def generate_audio():
