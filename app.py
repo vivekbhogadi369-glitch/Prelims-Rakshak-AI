@@ -42,6 +42,7 @@ class User(db.Model):
     role = db.Column(db.String(50), nullable=False)
     is_active = db.Column(db.Boolean, default=True)
 
+
 class InstituteAdmin(db.Model):
     id = db.Column(db.Integer, primary_key=True)
 
@@ -245,7 +246,6 @@ def create_demo_institute():
     }), 201
 
 
-
 @app.route("/create-demo-institute-admin")
 def create_demo_institute_admin():
 
@@ -392,6 +392,83 @@ def get_pyqs_by_subject_topic(subject, topic):
     for q in pyqs:
         result.append({
             "year": q.year,
+            "question": q.question,
+            "options": json.loads(q.options_json or "[]"),
+            "correct_answer": q.answer,
+            "explanation": q.explanation,
+            "elimination_logic": q.elimination_logic
+        })
+
+    return result
+
+
+def get_mcq_subjects():
+    subject_ids = db.session.query(MCQ.subject_id).distinct().all()
+    ids = [row[0] for row in subject_ids]
+
+    if not ids:
+        return []
+
+    subjects = Subject.query.filter(
+        Subject.id.in_(ids)
+    ).order_by(Subject.name).all()
+
+    return [s.name for s in subjects]
+
+
+def get_mcq_topics(subject):
+
+    subject_obj = Subject.query.filter_by(
+        name=subject
+    ).first()
+
+    if not subject_obj:
+        return []
+
+    topic_ids = db.session.query(MCQ.topic_id).filter(
+        MCQ.subject_id == subject_obj.id,
+        MCQ.topic_id.isnot(None)
+    ).distinct().all()
+
+    ids = [row[0] for row in topic_ids]
+
+    if not ids:
+        return []
+
+    topics = Topic.query.filter(
+        Topic.id.in_(ids)
+    ).order_by(Topic.name).all()
+
+    return [t.name for t in topics]
+
+
+def get_mcqs_by_subject_topic(subject, topic):
+
+    subject_obj = Subject.query.filter_by(
+        name=subject
+    ).first()
+
+    if not subject_obj:
+        return []
+
+    topic_obj = Topic.query.filter_by(
+        subject_id=subject_obj.id,
+        name=topic
+    ).first()
+
+    if not topic_obj:
+        return []
+
+    mcqs = MCQ.query.filter_by(
+        subject_id=subject_obj.id,
+        topic_id=topic_obj.id
+    ).order_by(MCQ.id).all()
+
+    result = []
+
+    for q in mcqs:
+        result.append({
+            "difficulty": q.difficulty or "MCQ",
             "question": q.question,
             "options": json.loads(q.options_json or "[]"),
             "correct_answer": q.answer,
@@ -591,6 +668,27 @@ def pyq_questions():
     })
 
 
+@app.route("/mcq-subjects", methods=["GET"])
+def mcq_subjects():
+    return jsonify({"subjects": get_mcq_subjects()})
+
+
+@app.route("/mcq-topics", methods=["GET"])
+def mcq_topics():
+    subject = request.args.get("subject", "").strip()
+    return jsonify({"topics": get_mcq_topics(subject)})
+
+
+@app.route("/mcq-questions", methods=["GET"])
+def mcq_questions():
+    subject = request.args.get("subject", "").strip()
+    topic = request.args.get("topic", "").strip()
+
+    return jsonify({
+        "questions": get_mcqs_by_subject_topic(subject, topic)
+    })
+
+
 @app.route("/mcq-data", methods=["GET"])
 def mcq_data():
     return jsonify(MCQS_DATA)
@@ -657,4 +755,4 @@ if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
         port=int(os.environ.get("PORT", 8080))
-        )
+    )
