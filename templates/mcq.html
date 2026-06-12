@@ -1,1 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCQs - Prelims Rakshak AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 14px;
+            background: #f5f7fb;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d3557;
+            margin-bottom: 18px;
+        }
+
+        .top-bar {
+            margin-bottom: 12px;
+        }
+
+        .home-btn {
+            background: #475569;
+            color: white;
+            padding: 9px 13px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .box {
+            background: white;
+            padding: 14px;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        button {
+            padding: 9px 12px;
+            border: none;
+            border-radius: 12px;
+            background: #7c3aed;
+            color: white;
+            cursor: pointer;
+            white-space: normal;
+            word-break: break-word;
+            line-height: 1.3;
+            font-size: 15px;
+        }
+
+        .selected {
+            background: #0f766e !important;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: bold;
+            color: #1d3557;
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+
+        .toolbar {
+            margin-bottom: 8px;
+        }
+
+        .back-btn {
+            background: #475569;
+        }
+
+        .loading {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .question-shell {
+            margin-top: 8px;
+        }
+
+        .question-topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .question-count {
+            font-size: 15px;
+            font-weight: bold;
+            color: #1d3557;
+        }
+
+        .year-badge {
+            background: #eef2ff;
+            color: #3730a3;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .question-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 12px;
+            margin-top: 6px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+        }
+
+        .question-text {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: #111827;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            white-space: pre-wrap;
+            word-break: normal;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .option-btn {
+            width: 100%;
+            text-align: left;
+            background: #ffffff;
+            color: #111827;
+            border: 1px solid #d7dee8;
+            border-radius: 12px;
+            padding: 10px 12px;
+            font-size: 15px;
+            line-height: 1.4;
+            font-family: Georgia, "Times New Roman", serif;
+            white-space: pre-wrap;
+            word-break: normal;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+
+        .option-btn:hover {
+            background: #f8fafc;
+        }
+
+        .option-btn.correct {
+            background: #dcfce7;
+            border-color: #16a34a;
+            color: #166534;
+            font-weight: bold;
+        }
+
+        .option-btn.wrong {
+            background: #fee2e2;
+            border-color: #dc2626;
+            color: #991b1b;
+            font-weight: bold;
+        }
+
+        .option-btn.neutral-locked {
+            background: #f8fafc;
+            color: #6b7280;
+        }
+
+        .answer-status {
+            margin-top: 10px;
+            padding: 9px 11px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .answer-status.correct-msg {
+            background: #ecfdf5;
+            color: #166534;
+            border: 1px solid #86efac;
+        }
+
+        .answer-status.wrong-msg {
+            background: #fef2f2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
+        }
+
+        .detail-toggle-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .detail-toggle-btn {
+            background: #1d3557;
+            color: white;
+            padding: 7px 10px;
+            border-radius: 10px;
+            font-size: 13px;
+        }
+
+        .detail-panel {
+            margin-top: 10px;
+            border-radius: 12px;
+            padding: 12px 11px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .detail-panel-title {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 7px;
+        }
+
+        .detail-panel-body {
+            white-space: pre-wrap;
+            word-break: normal;
+        }
+
+        .detail-panel.explanation {
+            background: #fffdf7;
+            border-color: #ead8a6;
+        }
+
+        .detail-panel.explanation .detail-panel-title {
+            color: #7c4a03;
+        }
+
+        .detail-panel.explanation .detail-panel-body {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #2f2f2f;
+        }
+
+        .detail-panel.elimination {
+            background: #f7fbff;
+            border-color: #bfdcf8;
+        }
+
+        .detail-panel.elimination .detail-panel-title {
+            color: #0f3d75;
+        }
+
+        .detail-panel.elimination .detail-panel-body {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #22314a;
+        }
+
+        .nav-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            background: #475569;
+        }
+
+        .nav-btn:disabled {
+            background: #94a3b8;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .box {
+                padding: 12px;
+            }
+
+            button {
+                font-size: 14px;
+            }
+
+            .question-text {
+                font-size: 16px;
+                line-height: 1.45;
+                margin-bottom: 10px;
+            }
+
+            .option-btn {
+                font-size: 14px;
+                line-height: 1.35;
+                padding: 9px 10px;
+            }
+
+            .detail-panel.explanation .detail-panel-body,
+            .detail-panel.elimination .detail-panel-body {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>MCQs</h1>
+
+<div class="top-bar">
+    <button class="home-btn" onclick="location.href='/'">← Home</button>
+</div>
+
+<div class="box">
+
+    <div id="subjectsSection">
+        <div class="section-title">Subjects</div>
+        <div id="subjects" class="button-group"></div>
+    </div>
+
+    <div id="topicsSection" class="hidden">
+        <div class="toolbar">
+            <button class="back-btn" onclick="backToSubjects()">← Back</button>
+        </div>
+        <div class="section-title">Topics</div>
+        <div id="topics" class="button-group"></div>
+    </div>
+
+    <div id="questionsSection" class="hidden">
+        <div class="toolbar">
+            <button class="back-btn" onclick="backToTopics()">← Back</button>
+        </div>
+        <div class="section-title">Questions</div>
+        <div id="questionContainer" class="question-shell"></div>
+    </div>
+
+    <div id="loading" class="loading hidden">Loading...</div>
+
+</div>
+
+<script>
+const BASE_URL = window.location.origin;
+
+let currentSubject = "";
+let currentTopic = "";
+let currentQuestions = [];
+let currentQuestionIndex = 0;
+let userSelections = {};
+let visiblePanels = {
+    explanation: false,
+    elimination: false
+};
+
+function escapeHtml(text) {
+    return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function escapeJsString(text) {
+    return String(text ?? "").replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+}
+
+function setLoading(show) {
+    document.getElementById("loading").classList.toggle("hidden", !show);
+}
+
+function clearSelected(container) {
+    if (!container) return;
+    container.querySelectorAll("button").forEach(b => b.classList.remove("selected"));
+}
+
+function normalizeOption(text) {
+    return String(text || "").trim().replace(/\s+/g, " ").toLowerCase();
+}
+
+function getExactQuestionKey(q) {
+    const difficulty = String(q?.difficulty ?? "").trim();
+    const question = String(q?.question ?? "").trim();
+    const options = Array.isArray(q?.options) ? q.options.map(x => String(x)).join("||") : "";
+    const answer = String(q?.correct_answer ?? "").trim();
+    const explanation = String(q?.explanation ?? "").trim();
+    const elimination = String(q?.elimination_logic ?? "").trim();
+    return `${difficulty}###${question}###${options}###${answer}###${explanation}###${elimination}`;
+}
+
+function cleanQuestionsStrict(questions) {
+    const seen = new Set();
+    const output = [];
+
+    (questions || []).forEach(q => {
+        const key = getExactQuestionKey(q);
+        if (!seen.has(key)) {
+            seen.add(key);
+            output.push(q);
+        }
+    });
+
+    return output;
+}
+
+async function loadSubjects() {
+    try {
+        setLoading(true);
+
+        const res = await fetch(`${BASE_URL}/mcq-subjects`);
+        const data = await res.json();
+
+        let html = "";
+        data.subjects.forEach(s => {
+            html += `<button onclick="loadTopics('${escapeJsString(s)}', this)">${escapeHtml(s)}</button>`;
+        });
+
+        document.getElementById("subjects").innerHTML = html;
+        document.getElementById("subjectsSection").classList.remove("hidden");
+        document.getElementById("topicsSection").classList.add("hidden");
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("topics").innerHTML = "";
+        document.getElementById("questionContainer").innerHTML = "";
+
+    } finally {
+        setLoading(false);
+    }
+}
+
+async function loadTopics(subject, btn) {
+    try {
+        setLoading(true);
+        currentSubject = subject;
+
+        clearSelected(document.getElementById("subjects"));
+        if (btn) btn.classList.add("selected");
+
+        const res = await fetch(`${BASE_URL}/mcq-topics?subject=${encodeURIComponent(subject)}`);
+        const data = await res.json();
+
+        let html = "";
+        data.topics.forEach(t => {
+            html += `<button onclick="loadQuestions('${escapeJsString(subject)}','${escapeJsString(t)}', this)">${escapeHtml(t)}</button>`;
+        });
+
+        document.getElementById("topics").innerHTML = html;
+
+        document.getElementById("subjectsSection").classList.add("hidden");
+        document.getElementById("topicsSection").classList.remove("hidden");
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("questionContainer").innerHTML = "";
+
+    } finally {
+        setLoading(false);
+    }
+}
+
+async function loadQuestions(subject, topic, btn) {
+    try {
+        setLoading(true);
+
+        currentSubject = subject;
+        currentTopic = topic;
+
+        clearSelected(document.getElementById("topics"));
+        if (btn) btn.classList.add("selected");
+
+        const res = await fetch(`${BASE_URL}/mcq-questions?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}`);
+        const data = await res.json();
+
+        currentQuestions = cleanQuestionsStrict(Array.isArray(data.questions) ? data.questions : []);
+        currentQuestionIndex = 0;
+        userSelections = {};
+        visiblePanels = {
+            explanation: false,
+            elimination: false
+        };
+
+        document.getElementById("topicsSection").classList.add("hidden");
+        document.getElementById("questionsSection").classList.remove("hidden");
+
+        renderCurrentQuestion();
+
+    } finally {
+        setLoading(false);
+    }
+}
+
+function selectOption(optionText) {
+    const current = currentQuestions[currentQuestionIndex];
+    if (!current) return;
+    if (userSelections[currentQuestionIndex]) return;
+
+    userSelections[currentQuestionIndex] = optionText;
+    visiblePanels = {
+        explanation: false,
+        elimination: false
+    };
+    renderCurrentQuestion();
+}
+
+function togglePanel(panelName) {
+    if (!userSelections[currentQuestionIndex]) return;
+    visiblePanels[panelName] = !visiblePanels[panelName];
+    renderCurrentQuestion();
+}
+
+function renderCurrentQuestion() {
+    const container = document.getElementById("questionContainer");
+
+    if (!currentQuestions.length) {
+        container.innerHTML = `<div class="question-card">No questions found for this topic.</div>`;
+        return;
+    }
+
+    const q = currentQuestions[currentQuestionIndex];
+    const selected = userSelections[currentQuestionIndex] || "";
+    const selectedNorm = normalizeOption(selected);
+    const correctNorm = normalizeOption(q.correct_answer || "");
+    const answered = !!selected;
+
+    let optionsHtml = "";
+    if (Array.isArray(q.options)) {
+        q.options.forEach(option => {
+            const optionNorm = normalizeOption(option);
+            let cls = "option-btn";
+
+            if (answered) {
+                if (optionNorm === correctNorm) {
+                    cls += " correct";
+                } else if (optionNorm === selectedNorm && optionNorm !== correctNorm) {
+                    cls += " wrong";
+                } else {
+                    cls += " neutral-locked";
+                }
+            }
+
+            optionsHtml += `
+                <button class="${cls}" onclick="selectOption('${escapeJsString(option)}')">
+                    ${escapeHtml(option)}
+                </button>
+            `;
+        });
+    }
+
+    let answerStatusHtml = "";
+    if (answered) {
+        if (selectedNorm === correctNorm) {
+            answerStatusHtml = `
+                <div class="answer-status correct-msg">
+                    Correct Answer ✅
+                </div>
+            `;
+        } else {
+            answerStatusHtml = `
+                <div class="answer-status wrong-msg">
+                    Wrong Answer ❌ &nbsp; Correct Answer: ${escapeHtml(q.correct_answer || "")}
+                </div>
+            `;
+        }
+    }
+
+    let toggleRowHtml = "";
+    if (answered) {
+        toggleRowHtml = `
+            <div class="detail-toggle-row">
+                <button class="detail-toggle-btn" onclick="togglePanel('explanation')">
+                    Explanation
+                </button>
+                <button class="detail-toggle-btn" onclick="togglePanel('elimination')">
+                    Elimination Logic
+                </button>
+            </div>
+        `;
+    }
+
+    let explanationPanel = "";
+    if (answered && visiblePanels.explanation) {
+        explanationPanel = `
+            <div class="detail-panel explanation">
+                <div class="detail-panel-title">Explanation</div>
+                <div class="detail-panel-body">${escapeHtml(q.explanation || "Not available")}</div>
+            </div>
+        `;
+    }
+
+    let eliminationPanel = "";
+    if (answered && visiblePanels.elimination) {
+        eliminationPanel = `
+            <div class="detail-panel elimination">
+                <div class="detail-panel-title">Elimination Logic</div>
+                <div class="detail-panel-body">${escapeHtml(q.elimination_logic || "Not available")}</div>
+            </div>
+        `;
+    }
+
+    container.innerHTML = `
+        <div class="question-topbar">
+            <div class="question-count">Question ${currentQuestionIndex + 1} of ${currentQuestions.length}</div>
+            <div class="year-badge">${escapeHtml(q.difficulty || "MCQ")}</div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-text">${escapeHtml(q.question || "")}</div>
+
+            <div class="options-list">
+                ${optionsHtml}
+            </div>
+
+            ${answerStatusHtml}
+            ${toggleRowHtml}
+            ${explanationPanel}
+            ${eliminationPanel}
+
+            <div class="nav-row">
+                <button class="nav-btn" onclick="prevQuestion()" ${currentQuestionIndex === 0 ? "disabled" : ""}>
+                    ← Previous
+                </button>
+                <button class="nav-btn" onclick="nextQuestion()" ${currentQuestionIndex === currentQuestions.length - 1 ? "disabled" : ""}>
+                    Next →
+                </button>
+            </div>
+        </div>
+    `;
+}
+
+function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        visiblePanels = {
+            explanation: false,
+            elimination: false
+        };
+        renderCurrentQuestion();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+}
+
+function nextQuestion() {
+    if (currentQuestionIndex < currentQuestions.length - 1) {
+        currentQuestionIndex++;
+        visiblePanels = {
+            explanation: false,
+            elimination: false
+        };
+        renderCurrentQuestion();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+}
+
+function backToSubjects() {
+    document.getElementById("subjectsSection").classList.remove("hidden");
+    document.getElementById("topicsSection").classList.add("hidden");
+    document.getElementById("questionsSection").classList.add("hidden");
+    document.getElementById("topics").innerHTML = "";
+    document.getElementById("questionContainer").innerHTML = "";
+    currentTopic = "";
+    currentQuestions = [];
+}
+
+async function backToTopics() {
+    if (!currentSubject) {
+        backToSubjects();
+        return;
+    }
+
+    try {
+        setLoading(true);
+
+        const res = await fetch(`${BASE_URL}/mcq-topics?subject=${encodeURIComponent(currentSubject)}`);
+        const data = await res.json();
+
+        let html = "";
+        data.topics.forEach(t => {
+            html += `<button onclick="loadQuestions('${escapeJsString(currentSubject)}','${escapeJsString(t)}', this)">${escapeHtml(t)}</button>`;
+        });
+
+        document.getElementById("topics").innerHTML = html;
+        document.getElementById("questionContainer").innerHTML = "";
+        document.getElementById("questionsSection").classList.add("hidden");
+        document.getElementById("topicsSection").classList.remove("hidden");
+
+        currentTopic = "";
+        currentQuestions = [];
+        currentQuestionIndex = 0;
+        userSelections = {};
+        visiblePanels = {
+            explanation: false,
+            elimination: false
+        };
+
+    } finally {
+        setLoading(false);
+    }
+}
+
+loadSubjects();
+</script>
+
+</body>
+</html>
