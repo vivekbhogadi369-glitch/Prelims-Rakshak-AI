@@ -2,7 +2,7 @@ from app import app, db, MCQ
 import json
 
 SUBJECT_ID = 1
-TOPIC_ID = 7
+TOPIC_ID = 100
 
 questions = [
     {
