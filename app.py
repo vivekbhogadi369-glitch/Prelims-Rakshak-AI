@@ -657,10 +657,7 @@ def mcq_questions():
         "questions": get_mcqs_by_subject_topic(subject, topic)
     })
 
-
-@app.route("/mcq-data", methods=["GET"])
-def mcq_data():
-    return jsonify(MCQS_DATA)
+# Old JSON MCQ data route disabled.
 
 @app.route("/fix-mcq-schema")
 def fix_mcq_schema():
