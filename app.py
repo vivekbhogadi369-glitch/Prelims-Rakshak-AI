@@ -310,39 +310,8 @@ def load_pyqs_json():
 PYQS_DATA = load_pyqs_json()
 
 
-MCQ_FILES = [
-    "static/json/mcqs_ancient_history_part1.json",
-    "static/json/mcqs_ancient_history_part2.json",
-    "static/json/mcqs_ancient_history_part3.json"
-]
-
-
-def merge_mcq_data(target, source):
-    for subject in source:
-        if subject not in target:
-            target[subject] = {}
-
-        for section in source[subject]:
-            if section not in target[subject]:
-                target[subject][section] = {}
-
-            for topic in source[subject][section]:
-                target[subject][section][topic] = source[subject][section][topic]
-
-
-def load_all_mcqs():
-    combined = {}
-
-    for file_path in MCQ_FILES:
-        data = load_json_file(file_path)
-
-        if isinstance(data, dict):
-            merge_mcq_data(combined, data)
-
-    return combined
-
-
-MCQS_DATA = load_all_mcqs()
+# MCQs are now stored in PostgreSQL MCQ table.
+# Old JSON-based MCQ loading has been disabled.
 
 
 def get_pyq_subjects():
