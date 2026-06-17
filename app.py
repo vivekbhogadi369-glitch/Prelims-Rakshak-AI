@@ -410,28 +410,41 @@ def get_mcq_topics(subject):
 
     return [t.name for t in topics]
 
-
 def get_mcqs_by_subject_topic(subject, topic):
 
-    subject_obj = Subject.query.filter_by(
-        name=subject
-    ).first()
+    subject = (subject or "").strip()
+    topic = (topic or "").strip()
 
-    if not subject_obj:
-        return []
+    topic_obj = None
 
-    topic_obj = Topic.query.filter_by(
-        subject_id=subject_obj.id,
-        name=topic
-    ).first()
+    # If frontend sends topic_id
+    if topic.isdigit():
+        topic_obj = Topic.query.get(int(topic))
+
+    # If frontend sends topic name
+    if not topic_obj:
+        subject_obj = Subject.query.filter_by(
+            name=subject
+        ).first()
+
+        if subject_obj:
+            topic_obj = Topic.query.filter_by(
+                subject_id=subject_obj.id,
+                name=topic
+            ).first()
+
+    # Fallback: search topic name directly
+    if not topic_obj:
+        topic_obj = Topic.query.filter_by(
+            name=topic
+        ).first()
 
     if not topic_obj:
         return []
 
     mcqs = MCQ.query.filter_by(
-        subject_id=subject_obj.id,
         topic_id=topic_obj.id
-    ).order_by(MCQ.id).all()
+    ).order_by(MCQ.id).limit(10).all()
 
     result = []
 
@@ -652,9 +665,12 @@ def mcq_topics():
 def mcq_questions():
     subject = request.args.get("subject", "").strip()
     topic = request.args.get("topic", "").strip()
+    topic_id = request.args.get("topic_id", "").strip()
+
+    final_topic = topic_id if topic_id else topic
 
     return jsonify({
-        "questions": get_mcqs_by_subject_topic(subject, topic)
+        "questions": get_mcqs_by_subject_topic(subject, final_topic)
     })
 
 # Old JSON MCQ data route disabled.
