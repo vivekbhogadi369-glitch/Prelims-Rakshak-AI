@@ -319,21 +319,6 @@ def get_pyq_subjects():
     return [s.name for s in subjects]
 
 
-def get_pyq_topics(subject):
-
-    subject_obj = Subject.query.filter_by(
-        name=subject
-    ).first()
-
-    if not subject_obj:
-        return []
-
-    topics = Topic.query.filter_by(
-        subject_id=subject_obj.id
-    ).order_by(Topic.name).all()
-
-    return [t.name for t in topics]
-
 
 def get_pyqs_by_subject_topic(subject, topic):
 
