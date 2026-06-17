@@ -318,7 +318,30 @@ def get_pyq_subjects():
     subjects = Subject.query.order_by(Subject.name).all()
     return [s.name for s in subjects]
 
+def get_pyq_topics(subject):
 
+    subject_obj = Subject.query.filter_by(
+        name=subject
+    ).first()
+
+    if not subject_obj:
+        return []
+
+    topic_ids = db.session.query(PYQ.topic_id).filter(
+        PYQ.subject_id == subject_obj.id,
+        PYQ.topic_id.isnot(None)
+    ).distinct().all()
+
+    ids = [row[0] for row in topic_ids]
+
+    if not ids:
+        return []
+
+    topics = Topic.query.filter(
+        Topic.id.in_(ids)
+    ).order_by(Topic.name).all()
+
+    return [t.name for t in topics]
 
 def get_pyqs_by_subject_topic(subject, topic):
 
